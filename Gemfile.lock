@@ -5,6 +5,7 @@ GEM
     domain_name (0.5.20161021)
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
+    execjs (2.4.0)
     html5_validator (1.0.0)
       json
       rest-client
@@ -38,6 +39,9 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     sass (3.4.9)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
@@ -51,6 +55,7 @@ DEPENDENCIES
   htmlcompressor
   json
   sass
+  uglifier
 
 BUNDLED WITH
    1.13.6

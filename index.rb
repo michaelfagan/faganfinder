@@ -3,12 +3,21 @@ require 'json'
 require 'htmlcompressor'
 require 'html5_validator/validator'
 require 'sass'
+require 'uglifier'
 
 # compile css
 begin
   css = Sass::Engine.new(File.read('index.scss'), syntax: :scss, style: :compressed).render
 rescue Exception => e
   STDERR.puts "SCSS error: #{e.message}"
+  exit
+end
+
+# compile js
+begin
+  js = Uglifier.new.compile File.read('index.js')
+rescue Exception => e
+  STDERR.puts "JavaScript error: #{e.message}"
   exit
 end
 
