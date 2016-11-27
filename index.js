@@ -19,5 +19,6 @@ form.setAttribute('data-s', form.querySelectorAll('ul button')[0].getAttribute('
 form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
   if (e.target.tagName.toLowerCase() === 'button') {
     form.setAttribute('data-s', e.target.getAttribute('value'));
+    form.elements[1].getElementsByTagName('span')[0].innerHTML = e.target.innerHTML;
   }
 });

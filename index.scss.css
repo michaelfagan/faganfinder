@@ -3,11 +3,52 @@ body {
 }
 
 body, input, button {
-  font-size: 1.2em;
+  font-size: 15pt;
+}
+
+ul, li, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+ul button {
+  text-align: left;
+  width: 100%;
+  margin: 0.1em 0;
+  padding: 0.1em 0.3em;
+}
+button:hover {
+  background-color: #ccc;
+}
+
+form > div {
+  margin: 1em 0;
+}
+form > div > button {
+  padding: 0.2em 0.5em;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+}
+form > ul {
+  column-width: 15em;
+}
+li div {
+  display: inline-block;
+  width: 100%;
+  max-width: 15em;
+}
+
+h1 {
+  font-size: 1em;
+}
+h2 {
+  font-size: 1.1em;
 }

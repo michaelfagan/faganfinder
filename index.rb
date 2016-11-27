@@ -22,9 +22,10 @@ rescue Exception => e
 end
 
 # other data for the template
-engines = JSON.parse File.read('index.json'), object_class: OpenStruct
+tool_groups = JSON.parse File.read('index.json'), object_class: OpenStruct
 
 # generate html from the template
+site_name = 'Fagan Finder'
 html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
 
 # output pretty html for readability

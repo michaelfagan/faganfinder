@@ -1,22 +1,41 @@
 [
+
   {
-    "name": "YouTube",
-    "searchUrl": "https://www.youtube.com/results?search_query={searchTerms}"
+    "name": "General",
+    "tools": [
+      {
+        "name": "Google",
+        "searchUrl": "https://www.google.ca/search?tbm=vid&q={searchTerms}"
+      },
+      {
+        "name": "YouTube",
+        "searchUrl": "https://www.youtube.com/results?search_query={searchTerms}"
+      }
+    ]
   },
   {
-    "name": "YouTube channel",
-    "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
-  },
-  {
-    "name": "YouTube long videos",
-    "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={searchTerms}"
-  },
-  {
-    "name": "YouTube live videos",
-    "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
-  },
-  {
-    "name": "YouTube creative commons",
-    "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={searchTerms}"
+    "name": "Other",
+    "tools": [
+      {
+        "name": "Google long videos",
+        "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=dur:l&q={searchTerms}"
+      },
+      {
+        "name": "YouTube channel",
+        "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
+      },
+      {
+        "name": "YouTube long videos",
+        "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={searchTerms}"
+      },
+      {
+        "name": "YouTube live videos",
+        "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
+      },
+      {
+        "name": "YouTube creative commons",
+        "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={searchTerms}"
+      }
+    ]
   }
 ]

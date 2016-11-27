@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Video search | Fagan Finder</title>
+    <title>Video search | <%= site_name %></title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -12,20 +12,29 @@
 
   <body>
 
-    <h1>Fagan Finder: Video search</h1>
+    <h1><%= site_name %>: Video search</h1>
 
     <form action="/">
 
-      <input>
-      <button>search</button>
+      <div>
+        <input>
+        <button>search <span><%= tool_groups.first.tools.first.name %></span></button>
+      </div>
 
       <ul>
-      <% engines.each do |engine| %>
-        <li>
-          <button name="s" value="<%= engine.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
-            <%= engine.name %>
-          </button>
-        </li>
+      <% tool_groups.each do |group| %>
+        <li><div>
+          <h2><%= group.name %></h2>
+          <ul>
+          <% group.tools.each do |tool| %>
+            <li>
+              <button name="s" value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
+                <%= tool.name %>
+              </button>
+            </li>
+          <% end %>
+          </ul>
+        </div></li>
       <% end %>
       </ul>
 
