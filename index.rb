@@ -22,7 +22,7 @@ if html_errors.any?
 end
 
 # compress the html
-html = HtmlCompressor::Compressor.new(remove_intertag_spaces: true).compress html
+html = HtmlCompressor::Compressor.new.compress html
 
 # all done, output html file
 output_path  = 'dist/index.html'

@@ -2,15 +2,28 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>tmp</title>
+    <title>Video search | Fagan Finder</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
   </head>
 
   <body>
-    <% engines.each do |engine| %>
-      <%= engine.name %>
-    <% end %>
+
+    <h1>Fagan Finder: Video search</h1>
+
+    <form action="/">
+
+      <input type="search">
+      <button>search</button>
+
+      <ul>
+      <% engines.each do |engine| %>
+        <li><button><%= engine.name %></button></li>
+      <% end %>
+      </ul>
+
+    </form>
+
   </body>
 
 </html>
