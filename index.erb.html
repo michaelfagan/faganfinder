@@ -21,7 +21,11 @@
 
       <ul>
       <% engines.each do |engine| %>
-        <li><button><%= engine.name %></button></li>
+        <li>
+          <button name="s" value="<%= engine.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
+            <%= engine.name %>
+          </button>
+        </li>
       <% end %>
       </ul>
 

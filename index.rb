@@ -7,7 +7,7 @@ require 'uglifier'
 
 # compile css
 begin
-  css = Sass::Engine.new(File.read('index.scss'), syntax: :scss, style: :compressed).render
+  css = Sass::Engine.new(File.read('index.scss.css'), syntax: :scss, style: :compressed).render.strip
 rescue Exception => e
   STDERR.puts "SCSS error: #{e.message}"
   exit
