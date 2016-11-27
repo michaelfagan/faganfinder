@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     erubis (2.7.0)
+    htmlcompressor (0.3.1)
     json (1.8.1)
 
 PLATFORMS
@@ -9,6 +10,7 @@ PLATFORMS
 
 DEPENDENCIES
   erubis
+  htmlcompressor
   json
 
 BUNDLED WITH
