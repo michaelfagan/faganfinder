@@ -12,33 +12,37 @@
 
   <body>
 
-    <h1><%= site_name %>: Video search</h1>
+    <div>
 
-    <form action="/">
+      <h1><%= site_name %>: Video search</h1>
 
-      <div>
-        <input>
-        <button>search <span><%= tool_groups.first.tools.first.name %></span></button>
-      </div>
+      <form action="/">
 
-      <ul>
-      <% tool_groups.each do |group| %>
-        <li><div>
-          <h2><%= group.name %></h2>
-          <ul>
-          <% group.tools.each do |tool| %>
-            <li>
-              <button name="s" value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
-                <%= tool.name %>
-              </button>
-            </li>
-          <% end %>
-          </ul>
-        </div></li>
-      <% end %>
-      </ul>
+        <div>
+          <input>
+          <button>search <span><%= tool_groups.first.tools.first.name %></span></button>
+        </div>
 
-    </form>
+        <ul>
+        <% tool_groups.each do |group| %>
+          <li><div>
+            <h2><%= group.name %></h2>
+            <ul>
+            <% group.tools.each do |tool| %>
+              <li>
+                <button name="s" value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
+                  <%= tool.name %>
+                </button>
+              </li>
+            <% end %>
+            </ul>
+          </div></li>
+        <% end %>
+        </ul>
+
+      </form>
+
+    </div>
 
     <script><%= js %></script>
 

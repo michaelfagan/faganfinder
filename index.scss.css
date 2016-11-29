@@ -1,14 +1,26 @@
+body, ul, li, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+* {
+    max-width: 100%;
+}
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: #eee
+}
+body > div {
+  text-align: left;
+  max-width: 54em;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0.5em 1em;
 }
 
 body, input, button {
   font-size: 15pt;
-}
-
-ul, li, h1, h2 {
-  margin: 0;
-  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 button {
@@ -31,8 +43,19 @@ form > div {
   margin: 1em 0;
 }
 form > div > button {
-  padding: 0.2em 0.5em;
+  color: white;
+  background-color: black;
 }
+input {
+  width: 20em;
+}
+input:focus {
+  outline-width: 0;
+}
+input, form > div > button {
+  padding: 0.3em;
+}
+
 
 ul {
   list-style-type: none;

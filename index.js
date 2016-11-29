@@ -9,7 +9,7 @@ var form = document.forms[0];
 form.addEventListener('submit', function(e) {
   var q = form.elements[0].value;
   if (q.length) {
-    location.href = form.getAttribute('data-s').replace('{s}', q);
+    location.href = form.getAttribute('data-s').replace('{s}', encodeURIComponent(q));
   }
   e.preventDefault();
   return false;
