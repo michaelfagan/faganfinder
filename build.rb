@@ -26,7 +26,7 @@ tool_groups = JSON.parse File.read('index.json'), object_class: OpenStruct
 
 # generate html from the template
 site_name = 'Fagan Finder'
-html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
+html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())
 
 # output pretty html for readability
 html_path = 'temp/index.html'
