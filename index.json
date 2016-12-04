@@ -5,11 +5,158 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.ca/search?tbm=vid&q={searchTerms}"
+        "searchUrl": "https://www.google.com/search?tbm=vid&q={searchTerms}"
       },
+      {
+        "name": "Bing",
+        "searchUrl": "http://www.bing.com/videos/search?q={searchTerms}"
+      },
+      {
+        "name": "Yandex",
+        "searchUrl": "https://www.yandex.com/video/search?text={searchTerms}"
+      },
+      {
+        "name": "blinkx",
+        "searchUrl": "http://www.blinkx.com/search/{searchTerms}"
+      },
+      {
+        "name": "AOL",
+        "searchUrl": "http://www.aol.com/video/search/?q={searchTerms}"
+      },
+      {
+        "name": "MeFeedia",
+        "searchUrl": "http://www.mefeedia.com/search/{searchTerms}"
+      },
+      {
+        "name": "Twitter",
+        "searchUrl": "https://twitter.com/search?f=videos&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Video hosts",
+    "tools": [
       {
         "name": "YouTube",
         "searchUrl": "https://www.youtube.com/results?search_query={searchTerms}"
+      },
+      {
+        "name": "DailyMotion",
+        "searchUrl": "http://www.dailymotion.com/us/relevance/universal/search/{searchTerms}/1"
+      },
+      {
+        "name": "Vimeo",
+        "searchUrl": "https://vimeo.com/search?q={searchTerms}"
+      },
+      {
+        "name": "Veoh",
+        "searchUrl": "http://www.veoh.com/find/?query={searchTerms}"
+      },
+      {
+        "name": "Metacafe",
+        "searchUrl": "http://www.metacafe.com/videos_about/{searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Long videos",
+    "tools": [
+      {
+        "name": "Google",
+        "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=dur:l&q={searchTerms}"
+      },
+      {
+        "name": "Bing",
+        "searchUrl": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q={searchTerms}"
+      },
+      {
+        "name": "YouTube",
+        "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Open licences",
+    "tools": [
+      {
+        "name": "Internet Archive",
+        "searchUrl": "https://archive.org/details/movies?and[]={searchTerms}"
+      },
+      {
+        "name": "YouTube",
+        "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={searchTerms}"
+      },
+      {
+        "name": "Vimeo",
+        "searchUrl": "https://vimeo.com/search?license=by-nc-nd&q={searchTerms}"
+      },
+      {
+        "name": "Flickr",
+        "searchUrl": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text={searchTerms}"
+      },
+      {
+        "name": "pixabay",
+        "searchUrl": "https://pixabay.com/en/videos/list/?image_type=video&q={searchTerms}"
+      },
+      {
+        "name": "Europeana",
+        "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Animated GIFs",
+    "tools": [
+      {
+        "name": "Giphy",
+        "searchUrl": "http://giphy.com/search/{searchTerms}"
+      },
+      {
+        "name": "Tenor",
+        "searchUrl": "https://www.tenor.co/search/{searchTerms}-gifs",
+        "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
+      },
+      {
+        "name": "GifMe",
+        "searchUrl": "https://gifme.io/search/q?query={searchTerms}"
+      },
+      {
+        "name": "PopKey",
+        "searchUrl": "http://popkey.co/search/{searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "News",
+    "tools": [
+      {
+        "name": "<abbr title=\"television\">TV</abbr> News Archive",
+        "searchUrl": "https://archive.org/details/tv?q={searchTerms}"
+      },
+      {
+        "name": "Reuters",
+        "searchUrl": "http://www.reuters.com/search/video?blob={searchTerms}"
+      },
+      {
+        "name": "Associated Press",
+        "searchUrl": "http://www.aparchive.com/search?query={searchTerms}"
+      },
+      {
+        "name": "ABC News",
+        "searchUrl": "http://abcnews.go.com/search?r=video&searchtext={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Library services",
+    "tools": [
+      {
+        "name": "hoopla",
+        "searchUrl": "https://www.hoopladigital.com/search/{searchTerms}?kind=MOVIE"
+      },
+      {
+        "name": "OverDrive",
+        "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
       }
     ]
   },
@@ -17,24 +164,16 @@
     "name": "Other",
     "tools": [
       {
-        "name": "Google long videos",
-        "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=dur:l&q={searchTerms}"
-      },
-      {
         "name": "YouTube channel",
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
-      },
-      {
-        "name": "YouTube long videos",
-        "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={searchTerms}"
       },
       {
         "name": "YouTube live videos",
         "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
       },
       {
-        "name": "YouTube creative commons",
-        "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={searchTerms}"
+        "name": "Google closed captions",
+        "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=cc:1&q={searchTerms}"
       }
     ]
   }

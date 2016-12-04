@@ -1,9 +1,15 @@
-body, ul, li, h1, h2 {
+* {
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
-* {
-    max-width: 100%;
+
+* + * {
+  margin-top: 1em;
+}
+
+li {
+  margin-top: 0;
 }
 
 body {
@@ -32,16 +38,12 @@ button {
 ul button {
   text-align: left;
   width: 100%;
-  margin: 0.1em 0;
   padding: 0.1em 0.3em;
 }
 button:hover {
   background-color: #ccc;
 }
 
-form > div {
-  margin: 1em 0;
-}
 form > div > button {
   color: white;
   background-color: black;
@@ -49,24 +51,29 @@ form > div > button {
 input {
   width: 20em;
 }
-input:focus {
-  outline-width: 0;
-}
 input, form > div > button {
   padding: 0.3em;
 }
 
+$columnwidth: 12em;
 
 ul {
   list-style-type: none;
 }
 form > ul {
-  column-width: 15em;
+  column-width: $columnwidth;
+}
+li ul {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 li div {
   display: inline-block;
   width: 100%;
-  max-width: 15em;
+  max-width: $columnwidth;
+}
+li li {
+  margin: 0.2em 0;
 }
 
 h1 {

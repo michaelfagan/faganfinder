@@ -16,9 +16,16 @@ form.addEventListener('submit', function(e) {
 });
 form.setAttribute('data-s', form.querySelectorAll('ul button')[0].getAttribute('value')); // default
 
+function set_tool(button) {
+  form.setAttribute('data-s', button.getAttribute('value'));
+  form.elements[1].getElementsByTagName('span')[0].innerHTML = button.innerHTML + '(' + button.parentNode.parentNode.previousElementSibling.innerHTML + ')';
+}
+
 form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
   if (e.target.tagName.toLowerCase() === 'button') {
-    form.setAttribute('data-s', e.target.getAttribute('value'));
-    form.elements[1].getElementsByTagName('span')[0].innerHTML = e.target.innerHTML;
+    set_tool(e.target);
   }
 });
+
+form.elements[1].innerHTML = form.elements[1].innerHTML + ' <span>' + + '</span>';
+set_tool(form.elements[2]);
