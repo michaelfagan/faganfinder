@@ -21,30 +21,35 @@ rescue Exception => e
   exit
 end
 
-# other data for the template
-tool_groups = JSON.parse File.read('index.json'), object_class: OpenStruct
 
-# generate html from the template
 site_name = 'Fagan Finder'
-html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())
 
-# output pretty html for readability
-html_path = 'temp/index.html'
-File.write html_path, html
+Dir['./tools/*'].each do |file|
 
-# validate the html
-html_errors = Html5Validator::Validator.new.validate_text html
-if html_errors.any?
-  html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
-  html_errors.unshift "HTML validation errors - see #{html_path}"
-  STDERR.puts html_errors.join "\n\n"
-  exit
+  page_id = /.*\/(.+)\.[^\.$]/.match(file)[1]
+  puts page_id
+
+  # other data for the template
+  tool_groups = JSON.parse File.read(file), object_class: OpenStruct
+
+  # generate html from the template
+  html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())
+
+  # validate the html
+  html_errors = Html5Validator::Validator.new.validate_text html
+  if html_errors.any?
+    html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
+    html_errors.unshift "HTML validation errors - see #{html_path}"
+    STDERR.puts html_errors.join "\n\n"
+    exit
+  end
+
+  # compress the html
+  html = HtmlCompressor::Compressor.new.compress html
+
+  # all done, output html file
+  output_path  = "dist/#{page_id}.html"
+  File.write output_path, html
+  puts "saved to #{output_path}"
+
 end
-
-# compress the html
-html = HtmlCompressor::Compressor.new.compress html
-
-# all done, output html file
-output_path  = 'dist/index.html'
-File.write output_path, html
-puts "HTML file saved to #{output_path}"

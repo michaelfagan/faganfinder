@@ -8,7 +8,7 @@
   margin-top: 1em;
 }
 
-li {
+li, body {
   margin-top: 0;
 }
 
@@ -25,7 +25,7 @@ body > div {
 }
 
 body, input, button {
-  font-size: 15pt;
+  font-size: 14pt;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -55,7 +55,7 @@ input, form > div > button {
   padding: 0.3em;
 }
 
-$columnwidth: 12em;
+$columnwidth: 10em;
 
 ul {
   list-style-type: none;

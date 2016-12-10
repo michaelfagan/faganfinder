@@ -76,6 +76,27 @@
     ]
   },
   {
+    "name": "Paid services",
+    "tools": [
+      {
+        "name": "JustWatch (<abbr title=\"United States\">USA</abbr>)",
+        "searchUrl": "https://www.justwatch.com/us/search?q={searchTerms}"
+      },
+      {
+        "name": "JustWatch (<abbr title=\"United Kingdom\">UK</abbr>)",
+        "searchUrl": "https://www.justwatch.com/uk/search?q={searchTerms}"
+      },
+      {
+        "name": "JustWatch (<abbr title=\"Canada\">CA</abbr>)",
+        "searchUrl": "https://www.justwatch.com/ca/search?q={searchTerms}"
+      },
+      {
+        "name": "JustWatch (<abbr title=\"Australia\">AU</abbr>)",
+        "searchUrl": "https://www.justwatch.com/au/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Open licences",
     "tools": [
       {
@@ -101,28 +122,6 @@
       {
         "name": "Europeana",
         "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={searchTerms}"
-      }
-    ]
-  },
-  {
-    "name": "Animated GIFs",
-    "tools": [
-      {
-        "name": "Giphy",
-        "searchUrl": "http://giphy.com/search/{searchTerms}"
-      },
-      {
-        "name": "Tenor",
-        "searchUrl": "https://www.tenor.co/search/{searchTerms}-gifs",
-        "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
-      },
-      {
-        "name": "GifMe",
-        "searchUrl": "https://gifme.io/search/q?query={searchTerms}"
-      },
-      {
-        "name": "PopKey",
-        "searchUrl": "http://popkey.co/search/{searchTerms}"
       }
     ]
   },
@@ -157,6 +156,28 @@
       {
         "name": "OverDrive",
         "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Animated GIFs",
+    "tools": [
+      {
+        "name": "Giphy",
+        "searchUrl": "http://giphy.com/search/{searchTerms}"
+      },
+      {
+        "name": "Tenor",
+        "searchUrl": "https://www.tenor.co/search/{searchTerms}-gifs",
+        "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
+      },
+      {
+        "name": "GifMe",
+        "searchUrl": "https://gifme.io/search/q?query={searchTerms}"
+      },
+      {
+        "name": "PopKey",
+        "searchUrl": "http://popkey.co/search/{searchTerms}"
       }
     ]
   },
