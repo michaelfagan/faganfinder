@@ -1,0 +1,49 @@
+[
+  {
+    "name": "General",
+    "tools": [
+      {
+        "name": "Facebook",
+        "searchUrl": "https://www.facebook.com/search/groups/?q={searchTerms"
+      },
+      {
+        "name": "Google Groups",
+        "searchUrl": "https://groups.google.com/forum/#!forumsearch/{searchTerms}"
+      },
+      {
+        "name": "Yahoo! Groups",
+        "searchUrl": "https://groups.yahoo.com/neo/search?query={searchTerms}"
+      },
+      {
+        "name": "LinkedIn",
+        "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={searchTerms}"
+      },
+      {
+        "name": "Reddit",
+        "searchUrl": "https://www.reddit.com/subreddits/search?q={searchTerms}"
+      },
+      {
+        "name": "Twitter lists",
+        "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "In-person groups",
+    "tools": [
+      {
+        "name": "Meetup",
+        "searchUrl": "https://www.meetup.com/find/events/?keywords={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Wikis",
+    "tools": [
+      {
+        "name": "Fandom (Wikia)",
+        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+      }
+    ]
+  }
+]

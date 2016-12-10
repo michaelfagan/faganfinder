@@ -26,10 +26,19 @@
       {
         "name": "MeFeedia",
         "searchUrl": "http://www.mefeedia.com/search/{searchTerms}"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Social media",
+    "tools": [
       {
         "name": "Twitter",
         "searchUrl": "https://twitter.com/search?f=videos&q={searchTerms}"
+      },
+      {
+        "name": "Facebook",
+        "searchUrl": "https://www.facebook.com/search/videos/?q={searchTerms}"
       }
     ]
   },
@@ -147,6 +156,23 @@
     ]
   },
   {
+    "name": "Live video",
+    "tools": [
+      {
+        "name": "Periscope",
+        "searchUrl": "https://www.periscope.tv/search?q={searchTerms}"
+      },
+      {
+        "name": "YouTube",
+        "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
+      },
+      {
+        "name": "Ustream",
+        "searchUrl": "http://www.ustream.tv/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Library services",
     "tools": [
       {
@@ -187,10 +213,6 @@
       {
         "name": "YouTube channel",
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
-      },
-      {
-        "name": "YouTube live videos",
-        "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
       },
       {
         "name": "Google closed captions",
