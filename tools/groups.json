@@ -1,6 +1,6 @@
 [
   {
-    "name": "General",
+    "name": "Forums and mailing lists",
     "tools": [
       {
         "name": "Facebook",
@@ -19,6 +19,27 @@
         "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={searchTerms}"
       },
       {
+        "name": "Groups.io",
+        "searchUrl": "https://groups.io/search?q={searchTerms}"
+      },
+      {
+        "name": "BoardReader",
+        "searchUrl": "http://boardreader.com/index.php?a=f&q={searchTerms}"
+      },
+      {
+        "name": "ProBoards",
+        "searchUrl": "https://www.proboards.com/forum-directory/search/results/1?q={searchTerms}"
+      },
+      {
+        "name": "Delphi Forums",
+        "searchUrl": "http://www.delphiforums.com/index.ptt?query={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Group-like things",
+    "tools": [
+      {
         "name": "Reddit",
         "searchUrl": "https://www.reddit.com/subreddits/search?q={searchTerms}"
       },
@@ -34,6 +55,10 @@
       {
         "name": "Meetup",
         "searchUrl": "https://www.meetup.com/find/events/?keywords={searchTerms}"
+      },
+      {
+        "name": "GroupSpaces",
+        "searchUrl": "https://www.google.com/search?q={searchTerms}%20site%3Agroupspaces.com"
       }
     ]
   },
@@ -43,6 +68,49 @@
       {
         "name": "Fandom (Wikia)",
         "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Chat rooms",
+    "tools": [
+      {
+        "name": "Slofile (Slack)",
+        "searchUrl": "https://slofile.com/slack?q={searchTerms}"
+      },
+      {
+        "name": "Kiwi <abbr title=\"internet relay chat\">IRC</abbr>",
+        "searchUrl": "https://kiwiirc.com/search?q={searchTerms}"
+      },
+      {
+        "name": "mibbit (<abbr title=\"internet relay chat\">IRC</abbr>)",
+        "searchUrl": "https://search.mibbit.com/search/{searchTerms}"
+      },
+      {
+        "name": "netsplit.de (<abbr title=\"internet relay chat\">IRC</abbr>)",
+        "searchUrl": "http://irc.netsplit.de/channels/?chat={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Support groups",
+    "tools": [
+      {
+        "name": "DailyStrength (online)",
+        "searchUrl": "https://www.dailystrength.org/search?type=group&query={searchTerms}"
+      },
+      {
+        "name": "Psychology Today (in-person)",
+        "searchUrl": "https://groups.psychologytoday.com/rms/prof_results.php?search={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "General groups",
+    "tools": [
+      {
+        "name": "Google",
+        "searchUrl": "https://www.google.com/search?q={searchTerms}%20group%20OR%20club%20OR%20association%20OR%20union%20OR%20society%20OR%20community%20OR%20league"
       }
     ]
   }
