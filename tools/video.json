@@ -88,20 +88,33 @@
     "name": "Paid services",
     "tools": [
       {
-        "name": "JustWatch (<abbr title=\"United States\">USA</abbr>)",
+        "name": "JustWatch <abbr title=\"United States\">USA</abbr>",
         "searchUrl": "https://www.justwatch.com/us/search?q={searchTerms}"
       },
       {
-        "name": "JustWatch (<abbr title=\"United Kingdom\">UK</abbr>)",
+        "name": "JustWatch <abbr title=\"United Kingdom\">UK</abbr>",
         "searchUrl": "https://www.justwatch.com/uk/search?q={searchTerms}"
       },
       {
-        "name": "JustWatch (<abbr title=\"Canada\">CA</abbr>)",
+        "name": "JustWatch Canada",
         "searchUrl": "https://www.justwatch.com/ca/search?q={searchTerms}"
       },
       {
-        "name": "JustWatch (<abbr title=\"Australia\">AU</abbr>)",
+        "name": "JustWatch Australia",
         "searchUrl": "https://www.justwatch.com/au/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Library services",
+    "tools": [
+      {
+        "name": "hoopla",
+        "searchUrl": "https://www.hoopladigital.com/search/{searchTerms}?kind=MOVIE"
+      },
+      {
+        "name": "OverDrive",
+        "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
       }
     ]
   },
@@ -172,19 +185,7 @@
       }
     ]
   },
-  {
-    "name": "Library services",
-    "tools": [
-      {
-        "name": "hoopla",
-        "searchUrl": "https://www.hoopladigital.com/search/{searchTerms}?kind=MOVIE"
-      },
-      {
-        "name": "OverDrive",
-        "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
-      }
-    ]
-  },
+
   {
     "name": "Animated GIFs",
     "tools": [
@@ -211,7 +212,7 @@
     "name": "Other",
     "tools": [
       {
-        "name": "YouTube channel",
+        "name": "YouTube channels",
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
       },
       {
