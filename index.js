@@ -18,7 +18,6 @@ form.setAttribute('data-s', form.querySelectorAll('ul button')[0].getAttribute('
 
 function set_tool(button) {
   form.setAttribute('data-s', button.getAttribute('value'));
-  form.elements[1].getElementsByTagName('span')[0].innerHTML = button.innerHTML + '(' + button.parentNode.parentNode.previousElementSibling.innerHTML + ')';
 }
 
 form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
@@ -27,5 +26,4 @@ form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
   }
 });
 
-form.elements[1].innerHTML = form.elements[1].innerHTML + ' <span>' + + '</span>';
 set_tool(form.elements[2]);

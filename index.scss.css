@@ -34,8 +34,6 @@ button {
   background-color: transparent;
   border: 1px solid #ccc;
   border-radius: 10px;
-}
-ul button {
   text-align: left;
   width: 100%;
   padding: 0.1em 0.3em;
@@ -44,14 +42,10 @@ button:hover {
   background-color: #ccc;
 }
 
-form > div > button {
-  color: white;
-  background-color: black;
-}
 input {
   width: 20em;
 }
-input, form > div > button {
+input {
   padding: 0.3em;
 }
 
