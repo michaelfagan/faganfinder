@@ -84,6 +84,15 @@
     ]
   },
   {
+    "name": "<abbr title=\"television\">TV</abbr> and movies",
+    "tools": [
+      {
+        "name": "Yahoo! View (Hulu)",
+        "searchUrl": "https://view.yahoo.com/search?query={searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Paid services",
     "tools": [
       {
@@ -367,6 +376,10 @@
       {
         "name": "Fandom (Wikia)",
         "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+      },
+      {
+        "name": "TVmaze",
+        "searchUrl": "http://www.tvmaze.com/search?q={searchTerms}"
       }
     ]
   },
