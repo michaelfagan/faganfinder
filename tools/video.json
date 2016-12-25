@@ -1,5 +1,4 @@
 [
-
   {
     "name": "General",
     "tools": [
@@ -119,6 +118,23 @@
     ]
   },
   {
+    "name": "Public media",
+    "tools": [
+      {
+        "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
+        "searchUrl": "http://www.bbc.co.uk/iplayer/search?q={searchTerms}"
+      },
+      {
+        "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">US</abbr>)",
+        "searchUrl": "http://www.pbs.org/search/?q={searchTerms}"
+      },
+      {
+        "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
+        "searchUrl": "https://www.nfb.ca/search/#?queryString={searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Open licences",
     "tools": [
       {
@@ -163,6 +179,10 @@
         "searchUrl": "http://www.aparchive.com/search?query={searchTerms}"
       },
       {
+        "name": "The New York Times",
+        "searchUrl": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/{searchTerms}"
+      },
+      {
         "name": "ABC News",
         "searchUrl": "http://abcnews.go.com/search?r=video&searchtext={searchTerms}"
       }
@@ -185,7 +205,111 @@
       }
     ]
   },
-
+  {
+    "name": "Educational",
+    "tools": [
+      {
+        "name": "WatchLearnKnow",
+        "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={searchTerms}"
+      },
+      {
+        "name": "TeacherTube",
+        "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={searchTerms}"
+      },
+      {
+        "name": "SchoolTube",
+        "searchUrl": "http://www.schooltube.com/search/?term={searchTerms}"
+      },
+      {
+        "name": "National Geographic",
+        "searchUrl": "http://video.nationalgeographic.com/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Documentaries",
+    "tools": [
+      {
+        "name": "DocumentaryHeaven",
+        "searchUrl": "http://documentaryheaven.com/find/?q={searchTerms}"
+      },
+      {
+        "name": "Top Documentary Films",
+        "searchUrl": "http://topdocumentaryfilms.com/search/?results={searchTerms}"
+      },
+      {
+        "name": "Reddit",
+        "searchUrl": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q={searchTerms}"
+      },
+      {
+        "name": "FreeDocumentaries.org",
+        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}"
+      },
+      {
+        "name": "Documentary Storm",
+        "searchUrl": "http://documentarystorm.com/?s={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Lectures",
+    "tools": [
+      {
+        "name": "Yovisto",
+        "searchUrl": "http://www.yovisto.com/search.jsp?q={searchTerms}"
+      },
+      {
+        "name": "VideoLectures.NET",
+        "searchUrl": "http://videolectures.net/site/search/?q={searchTerms}"
+      },
+      {
+        "name": "CosmoLearning",
+        "searchUrl": "https://cosmolearning.org/s?cx=partner-pub-8245668095519500%3acbzrifszn1b&q={searchTerms}"
+      },
+      {
+        "name": "Reddit",
+        "searchUrl": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q={searchTerms}"
+      },
+      {
+        "name": "Free Video Lectures",
+        "searchUrl": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={searchTerms}"
+      },
+      {
+        "name": "LearnersTV",
+        "searchUrl": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Talks",
+    "tools": [
+      {
+        "name": "TED",
+        "searchUrl": "http://www.ted.com/search?cat=talks&q={searchTerms}"
+      },
+      {
+        "name": "Ignite",
+        "searchUrl": "http://www.ignitetalks.io/videos?query={searchTerms}"
+      },
+      {
+        "name": "Big Think",
+        "searchUrl": "http://bigthink.com/search?type=video_idea&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "How-to",
+    "tools": [
+      {
+        "name": "Howcast",
+        "searchUrl": "http://www.howcast.com/?s={searchTerms}"
+      },
+      {
+        "name": "Wonder How To",
+        "searchUrl": "http://www.wonderhowto.com/search/{searchTerms}/"
+      }
+    ]
+  },
   {
     "name": "Animated GIFs",
     "tools": [
@@ -209,15 +333,61 @@
     ]
   },
   {
-    "name": "Other",
+    "name": "Other video",
     "tools": [
       {
         "name": "YouTube channels",
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
       },
       {
-        "name": "Google closed captions",
+        "name": "Google with captions",
         "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=cc:1&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Movie/<abbr title=\"television\">TV</abbr> <abbr title=\"information\">info</abbr>",
+    "tools": [
+      {
+        "name": "<abbr title=\"Internet Movie Database\">IMDB</abbr>",
+        "searchUrl": "http://www.imdb.com/find?q={searchTerms}"
+      },
+      {
+        "name": "The Movie Database",
+        "searchUrl": "https://www.themoviedb.org/search?query={searchTerms}"
+      },
+      {
+        "name": "TV.com",
+        "searchUrl": "http://www.tv.com/search?q={searchTerms}"
+      },
+      {
+        "name": "AllMovie",
+        "searchUrl": "http://www.allmovie.com/search/all/{searchTerms}"
+      },
+      {
+        "name": "Fandom (Wikia)",
+        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Reviews",
+    "tools": [
+      {
+        "name": "Rotten Tomatoes",
+        "searchUrl": "https://www.rottentomatoes.com/search/?search={searchTerms}"
+      },
+      {
+        "name": "Metacritic",
+        "searchUrl": "http://www.metacritic.com/search/movie/{searchTerms}/results"
+      },
+      {
+        "name": "Common Sense Media", // info for parents (can go in reviews category)
+        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}"
+      },
+      {
+        "name": "Kids-in-Mind",
+        "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={searchTerms}"
       }
     ]
   }

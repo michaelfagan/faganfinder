@@ -19,6 +19,10 @@
         "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={searchTerms}"
       },
       {
+        "name": "Reddit",
+        "searchUrl": "https://www.reddit.com/subreddits/search?q={searchTerms}"
+      },
+      {
         "name": "Groups.io",
         "searchUrl": "https://groups.io/search?q={searchTerms}"
       },
@@ -37,15 +41,15 @@
     ]
   },
   {
-    "name": "Group-like things",
+    "name": "Loose groups",
     "tools": [
-      {
-        "name": "Reddit",
-        "searchUrl": "https://www.reddit.com/subreddits/search?q={searchTerms}"
-      },
       {
         "name": "Twitter lists",
         "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={searchTerms}"
+      },
+      {
+        "name": "Quora topics",
+        "searchUrl": "https://www.quora.com/search?type=topic&q={searchTerms}"
       }
     ]
   },

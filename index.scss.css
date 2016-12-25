@@ -14,7 +14,9 @@ li, body {
 
 body {
   text-align: center;
-  background-color: #eee
+  background-color: #eee;
+  font-size: 14pt;
+  font-family: Helvetica, Arial, sans-serif;
 }
 body > div {
   text-align: left;
@@ -24,16 +26,16 @@ body > div {
   padding: 0.5em 1em;
 }
 
-body, input, button {
-  font-size: 14pt;
-  font-family: Helvetica, Arial, sans-serif;
+input, button {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 button {
   cursor: pointer;
   background-color: transparent;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 5px;
   text-align: left;
   width: 100%;
   padding: 0.1em 0.3em;
@@ -56,6 +58,7 @@ ul {
 }
 form > ul {
   column-width: $columnwidth;
+  font-size: 0.8em;
 }
 li ul {
   margin-top: 0;
