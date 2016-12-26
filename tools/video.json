@@ -1,6 +1,6 @@
 [
   {
-    "name": "General",
+    "name": "Search engines",
     "tools": [
       {
         "name": "Google",
@@ -17,10 +17,6 @@
       {
         "name": "blinkx",
         "searchUrl": "http://www.blinkx.com/search/{searchTerms}"
-      },
-      {
-        "name": "AOL",
-        "searchUrl": "http://www.aol.com/video/search/?q={searchTerms}"
       },
       {
         "name": "MeFeedia",
@@ -84,11 +80,19 @@
     ]
   },
   {
-    "name": "<abbr title=\"television\">TV</abbr> and movies",
+    "name": "Movies, <abbr title=\"television\">TV</abbr>, web series",
     "tools": [
       {
         "name": "Yahoo! View (Hulu)",
         "searchUrl": "https://view.yahoo.com/search?query={searchTerms}"
+      },
+      {
+        "name": "Popcornflix",
+        "searchUrl": "http://www.popcornflix.com/search?query={searchTerms}"
+      },
+      {
+        "name": "AOL",
+        "searchUrl": "http://www.aol.com/video/search/?q={searchTerms}"
       }
     ]
   },
@@ -110,6 +114,14 @@
       {
         "name": "JustWatch Australia",
         "searchUrl": "https://www.justwatch.com/au/search?q={searchTerms}"
+      },
+      {
+        "name": "IndiePix Films",
+        "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={searchTerms}"
+      },
+      {
+        "name": "IndieFlix",
+        "searchUrl": "https://www.indieflix.com/search/{searchTerms}"
       }
     ]
   },
@@ -123,6 +135,10 @@
       {
         "name": "OverDrive",
         "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
+      },
+      {
+        "name": "Alexander Street",
+        "searchUrl": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={searchTerms}"
       }
     ]
   },
@@ -380,6 +396,14 @@
       {
         "name": "TVmaze",
         "searchUrl": "http://www.tvmaze.com/search?q={searchTerms}"
+      },
+      {
+        "name": "TV Tropes",
+        "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={searchTerms}"
+      },
+      {
+        "name": "Movies.com",
+        "searchUrl": "http://www.movies.com/search-result?search={searchTerms}"
       }
     ]
   },
