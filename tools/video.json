@@ -34,6 +34,10 @@
       {
         "name": "Facebook",
         "searchUrl": "https://www.facebook.com/search/videos/?q={searchTerms}"
+      },
+      {
+        "name": "Vine",
+        "searchUrl": "https://vine.co/search/{searchTerms}"
       }
     ]
   },
@@ -185,6 +189,15 @@
       {
         "name": "Europeana",
         "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "International",
+    "tools": [
+      {
+        "name": "Asian Crush",
+        "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
       }
     ]
   },
@@ -425,6 +438,15 @@
       {
         "name": "Kids-in-Mind",
         "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Film festivals",
+    "tools": [
+      {
+        "name": "FilmFreeway",
+        "searchUrl": "https://filmfreeway.com/festivals?q={searchTerms}"
       }
     ]
   }
