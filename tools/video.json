@@ -244,10 +244,19 @@
       {
         "name": "Ustream",
         "searchUrl": "http://www.ustream.tv/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Live TV channels",
+    "tools": [
+      {
+        "name": "wwiTV",
+        "searchUrl": "http://swwitv.com/search.php?zoom_query={searchTerms}"
       },
       {
-        "name": "wwiTV (channels)",
-        "searchUrl": "http://swwitv.com/search.php?zoom_query={searchTerms}"
+        "name": "TVopedia",
+        "searchUrl": "http://www.tvopedia.com/search.php?search={seearchTerms}"
       }
     ]
   },
