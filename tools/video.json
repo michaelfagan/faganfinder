@@ -198,6 +198,10 @@
       {
         "name": "Asian Crush",
         "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
+      },
+      {
+        "name": "BoxTV (India etc.)",
+        "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
       }
     ]
   },
@@ -240,6 +244,10 @@
       {
         "name": "Ustream",
         "searchUrl": "http://www.ustream.tv/search?q={searchTerms}"
+      },
+      {
+        "name": "wwiTV (channels)",
+        "searchUrl": "http://swwitv.com/search.php?zoom_query={searchTerms}"
       }
     ]
   },
