@@ -57,6 +57,10 @@
         "searchUrl": "https://vimeo.com/search?q={searchTerms}"
       },
       {
+        "name": "Rumble",
+        "searchUrl": "https://rumble.com/all/q/{searchTerms}/"
+      },
+      {
         "name": "Veoh",
         "searchUrl": "http://www.veoh.com/find/?query={searchTerms}"
       },
@@ -93,6 +97,14 @@
       {
         "name": "Popcornflix",
         "searchUrl": "http://www.popcornflix.com/search?query={searchTerms}"
+      },
+      {
+        "name": "tubitv",
+        "searchUrl": "http://tubitv.com/search/{searchTerms}"
+      },
+      {
+        "name": "Viewster",
+        "searchUrl": "http://www.viewster.com/search/{searchTerms}/"
       },
       {
         "name": "AOL",
@@ -202,6 +214,14 @@
       {
         "name": "BoxTV (India etc.)",
         "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
+      },
+      {
+        "name": "DramaFever",
+        "searchUrl": "https://www.dramafever.com/search/?search={searchTerms}"
+      },
+      {
+        "name": "Viki",
+        "searchUrl": "https://www.viki.com/search?q={searchTerms}"
       }
     ]
   },
@@ -289,7 +309,7 @@
         "searchUrl": "http://documentaryheaven.com/find/?q={searchTerms}"
       },
       {
-        "name": "Top Documentary Films",
+        "name": "Top <abbr title=\"Documentary\">Doc.</abbr> Films",
         "searchUrl": "http://topdocumentaryfilms.com/search/?results={searchTerms}"
       },
       {
@@ -464,6 +484,51 @@
       {
         "name": "FilmFreeway",
         "searchUrl": "https://filmfreeway.com/festivals?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Non-English",
+    "tools": [
+      {
+        "name": "Youku (China)",
+        "searchUrl": "http://www.soku.com/search_video/q_{searchTerms}"
+      },
+      {
+        "name": "iQIYI (China)",
+        "searchUrl": "http://so.iqiyi.com/so/q_{searchTerms}"
+      },
+      {
+        "name": "Tune.pk (Pakistan)",
+        "searchUrl": "http://tune.pk/search_result.php?query={searchTerms}"
+      },
+      {
+        "name": "Rutube (Russia)",
+        "searchUrl": "https://rutube.ru/search/?query={searchTerms}"
+      },
+      {
+        "name": "Niconico (Japan)",
+        "searchUrl": "http://www.nicovideo.jp/search/{searchTerms}"
+      },
+      {
+        "name": "FC2 (Japan)",
+        "searchUrl": "http://video.fc2.com/en/movie_search.php?keyword={searchTerms}"
+      },
+      {
+        "name": "Naver (Korea)",
+        "searchUrl": "http://tvcast.naver.com/search?query={searchTerms}"
+      },
+      {
+        "name": "TV UOL (Brazil)",
+        "searchUrl": "http://tvuol.uol.com.br/busca?q={searchTerms}"
+      },
+      {
+        "name": "Globo Play (Brazil)",
+        "searchUrl": "https://globoplay.globo.com/busca/?q={searchTerms}"
+      },
+      {
+        "name": "Aparat (Iran)",
+        "searchUrl": "http://www.aparat.com/result/{searchTerms}"
       }
     ]
   }
