@@ -88,7 +88,7 @@
     ]
   },
   {
-    "name": "Movies, <abbr title=\"television\">TV</abbr>, web series",
+    "name": "Movies and <abbr title=\"television and web series\">series</abbr>",
     "tools": [
       {
         "name": "Yahoo! View (Hulu)",
@@ -318,7 +318,8 @@
       },
       {
         "name": "FreeDocumentaries.org",
-        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}"
+        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}",
+        "nameIsLong": true
       },
       {
         "name": "Documentary Storm",
@@ -469,8 +470,9 @@
         "searchUrl": "http://www.metacritic.com/search/movie/{searchTerms}/results"
       },
       {
-        "name": "Common Sense Media", // info for parents (can go in reviews category)
-        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}"
+        "name": "Common Sense Media",
+        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}",
+        "nameIsLong": true
       },
       {
         "name": "Kids-in-Mind",
@@ -488,6 +490,20 @@
       {
         "name": "SimplyScripts",
         "searchUrl": "http://www.simplyscripts.com/cgi-bin/search.pl?search={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Showtimes",
+    "tools": [
+      {
+        "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
+        "searchUrl": "http://www.fandango.com/search?q={searchTerms}",
+        "nameIsLong": true
+      },
+      {
+        "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
+        "searchUrl": "https://www.moviefone.com/search/{searchTerms}/"
       }
     ]
   },
@@ -512,12 +528,20 @@
         "searchUrl": "http://so.iqiyi.com/so/q_{searchTerms}"
       },
       {
-        "name": "Tune.pk (Pakistan)",
-        "searchUrl": "http://tune.pk/search_result.php?query={searchTerms}"
+        "name": "TV UOL (Brazil)",
+        "searchUrl": "http://tvuol.uol.com.br/busca?q={searchTerms}"
+      },
+      {
+        "name": "Globo Play (Brazil)",
+        "searchUrl": "https://globoplay.globo.com/busca/?q={searchTerms}"
       },
       {
         "name": "Rutube (Russia)",
         "searchUrl": "https://rutube.ru/search/?query={searchTerms}"
+      },
+      {
+        "name": "Tune.pk (Pakistan)",
+        "searchUrl": "http://tune.pk/search_result.php?query={searchTerms}"
       },
       {
         "name": "Niconico (Japan)",
@@ -528,20 +552,12 @@
         "searchUrl": "http://video.fc2.com/en/movie_search.php?keyword={searchTerms}"
       },
       {
-        "name": "Naver (Korea)",
-        "searchUrl": "http://tvcast.naver.com/search?query={searchTerms}"
-      },
-      {
-        "name": "TV UOL (Brazil)",
-        "searchUrl": "http://tvuol.uol.com.br/busca?q={searchTerms}"
-      },
-      {
-        "name": "Globo Play (Brazil)",
-        "searchUrl": "https://globoplay.globo.com/busca/?q={searchTerms}"
-      },
-      {
         "name": "Aparat (Iran)",
         "searchUrl": "http://www.aparat.com/result/{searchTerms}"
+      },
+      {
+        "name": "Naver (Korea)",
+        "searchUrl": "http://tvcast.naver.com/search?query={searchTerms}"
       }
     ]
   }

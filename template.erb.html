@@ -33,7 +33,11 @@
             <ul>
             <% group.tools.each do |tool| %>
               <li>
-                <button name="s" value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>">
+                <button
+                  name="s"
+                  value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>"
+                  <%= 'class="long"' if tool.nameIsLong %>
+                  >
                   <%= tool.name %>
                 </button>
               </li>
