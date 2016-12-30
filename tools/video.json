@@ -415,7 +415,7 @@
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
       },
       {
-        "name": "Google with captions",
+        "name": "Google (<abbr title=\"closed captions\">captions</abbr>)",
         "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=cc:1&q={searchTerms}"
       }
     ]
@@ -475,6 +475,19 @@
       {
         "name": "Kids-in-Mind",
         "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Movie/TV scripts",
+    "tools": [
+      {
+        "name": "Google",
+        "searchUrl": "https://www.google.com/search?q={searchTerms}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
+      },
+      {
+        "name": "SimplyScripts",
+        "searchUrl": "http://www.simplyscripts.com/cgi-bin/search.pl?search={searchTerms}"
       }
     ]
   },
