@@ -205,27 +205,6 @@
     ]
   },
   {
-    "name": "International",
-    "tools": [
-      {
-        "name": "Asian Crush",
-        "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
-      },
-      {
-        "name": "BoxTV (India etc.)",
-        "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
-      },
-      {
-        "name": "DramaFever",
-        "searchUrl": "https://www.dramafever.com/search/?search={searchTerms}"
-      },
-      {
-        "name": "Viki",
-        "searchUrl": "https://www.viki.com/search?q={searchTerms}"
-      }
-    ]
-  },
-  {
     "name": "News",
     "tools": [
       {
@@ -477,6 +456,11 @@
       {
         "name": "Kids-in-Mind",
         "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={searchTerms}"
+      },
+      {
+        "name": "Bechdel Test",
+        "searchUrl": "http://bechdeltest.com/search",
+        "post": "term"
       }
     ]
   },
@@ -486,6 +470,11 @@
       {
         "name": "Google",
         "searchUrl": "https://www.google.com/search?q={searchTerms}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
+      },
+      {
+        "name": "<abbr title=\"Internet Movie Script Database\">IMSDb</abbr>",
+        "searchUrl": "http://www.imsdb.com/search.php",
+        "post": "search_query"
       },
       {
         "name": "SimplyScripts",
@@ -513,6 +502,27 @@
       {
         "name": "FilmFreeway",
         "searchUrl": "https://filmfreeway.com/festivals?q={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "International",
+    "tools": [
+      {
+        "name": "Asian Crush",
+        "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
+      },
+      {
+        "name": "BoxTV (India etc.)",
+        "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
+      },
+      {
+        "name": "DramaFever",
+        "searchUrl": "https://www.dramafever.com/search/?search={searchTerms}"
+      },
+      {
+        "name": "Viki",
+        "searchUrl": "https://www.viki.com/search?q={searchTerms}"
       }
     ]
   },

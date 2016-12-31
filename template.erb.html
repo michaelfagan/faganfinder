@@ -16,7 +16,7 @@
 
       <h1><%= site_name %>: <%= page_id.capitalize %> search</h1>
 
-      <form action="/">
+      <form action="/" target="_blank">
 
         <div>
           <label>
@@ -36,6 +36,7 @@
                 <button
                   name="s"
                   value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>"
+                  <%= "data-post=\"#{tool.post}\"" if tool.post %>
                   <%= 'class="long"' if tool.nameIsLong %>
                   >
                   <%= tool.name %>
