@@ -24,13 +24,14 @@ end
 
 site_name = 'Fagan Finder'
 
-Dir['./tools/*'].each do |file|
+Dir['./tools/*.json'].each do |file|
 
   page_id = /.*\/(.+)\.[^\.$]/.match(file)[1]
   puts page_id
 
   # other data for the template
   tool_groups = JSON.parse File.read(file), object_class: OpenStruct
+  page_text = File.read file.sub('json', 'html')
 
   # generate html from the template
   html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())

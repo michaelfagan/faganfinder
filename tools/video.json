@@ -91,16 +91,16 @@
     "name": "Movies and <abbr title=\"television and web series\">series</abbr>",
     "tools": [
       {
+        "name": "Tubi TV",
+        "searchUrl": "http://tubitv.com/search/{searchTerms}"
+      },
+      {
         "name": "Yahoo! View (Hulu)",
         "searchUrl": "https://view.yahoo.com/search?query={searchTerms}"
       },
       {
         "name": "Popcornflix",
         "searchUrl": "http://www.popcornflix.com/search?query={searchTerms}"
-      },
-      {
-        "name": "tubitv",
-        "searchUrl": "http://tubitv.com/search/{searchTerms}"
       },
       {
         "name": "Viewster",
@@ -208,7 +208,7 @@
     "name": "News",
     "tools": [
       {
-        "name": "<abbr title=\"television\">TV</abbr> News Archive",
+        "name": "TV News Archive",
         "searchUrl": "https://archive.org/details/tv?q={searchTerms}"
       },
       {
@@ -401,7 +401,7 @@
     ]
   },
   {
-    "name": "Movie/<abbr title=\"television\">TV</abbr> <abbr title=\"information\">info</abbr>",
+    "name": "Movie/TV info",
     "tools": [
       {
         "name": "<abbr title=\"Internet Movie Database\">IMDB</abbr>",
@@ -428,12 +428,12 @@
         "searchUrl": "http://www.tvmaze.com/search?q={searchTerms}"
       },
       {
-        "name": "TV Tropes",
-        "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={searchTerms}"
-      },
-      {
         "name": "Movies.com",
         "searchUrl": "http://www.movies.com/search-result?search={searchTerms}"
+      },
+      {
+        "name": "TV Tropes",
+        "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={searchTerms}"
       }
     ]
   },
