@@ -132,12 +132,12 @@
         "searchUrl": "https://www.justwatch.com/au/search?q={searchTerms}"
       },
       {
-        "name": "IndiePix Films",
-        "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={searchTerms}"
-      },
-      {
         "name": "IndieFlix",
         "searchUrl": "https://www.indieflix.com/search/{searchTerms}"
+      },
+      {
+        "name": "IndiePix Films",
+        "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={searchTerms}"
       }
     ]
   },
@@ -208,16 +208,16 @@
     "name": "News",
     "tools": [
       {
+        "name": "Associated Press",
+        "searchUrl": "http://www.aparchive.com/search?query={searchTerms}"
+      },
+      {
         "name": "TV News Archive",
         "searchUrl": "https://archive.org/details/tv?q={searchTerms}"
       },
       {
         "name": "Reuters",
         "searchUrl": "http://www.reuters.com/search/video?blob={searchTerms}"
-      },
-      {
-        "name": "Associated Press",
-        "searchUrl": "http://www.aparchive.com/search?query={searchTerms}"
       },
       {
         "name": "The New York Times",
@@ -263,12 +263,12 @@
     "name": "Educational",
     "tools": [
       {
-        "name": "WatchLearnKnow",
-        "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={searchTerms}"
-      },
-      {
         "name": "TeacherTube",
         "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={searchTerms}"
+      },
+      {
+        "name": "WatchKnowLearn",
+        "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={searchTerms}"
       },
       {
         "name": "SchoolTube",
