@@ -404,7 +404,7 @@
     "name": "Movie/TV info",
     "tools": [
       {
-        "name": "<abbr title=\"Internet Movie Database\">IMDB</abbr>",
+        "name": "<abbr title=\"Internet Movie Database\">IMDb</abbr>",
         "searchUrl": "http://www.imdb.com/find?q={searchTerms}"
       },
       {
@@ -412,24 +412,28 @@
         "searchUrl": "https://www.themoviedb.org/search?query={searchTerms}"
       },
       {
-        "name": "TV.com",
-        "searchUrl": "http://www.tv.com/search?q={searchTerms}"
+        "name": "Fandom (Wikia)",
+        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
       },
       {
         "name": "AllMovie",
         "searchUrl": "http://www.allmovie.com/search/all/{searchTerms}"
       },
       {
-        "name": "Fandom (Wikia)",
-        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+        "name": "Movies.com",
+        "searchUrl": "http://www.movies.com/search-result?search={searchTerms}"
       },
       {
         "name": "TVmaze",
         "searchUrl": "http://www.tvmaze.com/search?q={searchTerms}"
       },
       {
-        "name": "Movies.com",
-        "searchUrl": "http://www.movies.com/search-result?search={searchTerms}"
+        "name": "TV.com",
+        "searchUrl": "http://www.tv.com/search?q={searchTerms}"
+      },
+      {
+        "name": "TheTVDB.com",
+        "searchUrl": "http://thetvdb.com/?tab=listseries&function=Search&string={searchTerms}"
       },
       {
         "name": "TV Tropes",

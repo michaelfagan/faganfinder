@@ -41,19 +41,6 @@
     ]
   },
   {
-    "name": "Loose groups",
-    "tools": [
-      {
-        "name": "Twitter lists",
-        "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={searchTerms}"
-      },
-      {
-        "name": "Quora topics",
-        "searchUrl": "https://www.quora.com/search?type=topic&q={searchTerms}"
-      }
-    ]
-  },
-  {
     "name": "In-person groups",
     "tools": [
       {
@@ -106,6 +93,19 @@
       {
         "name": "Psychology Today (in-person)",
         "searchUrl": "https://groups.psychologytoday.com/rms/prof_results.php?search={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "Loose groups",
+    "tools": [
+      {
+        "name": "Twitter lists",
+        "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={searchTerms}"
+      },
+      {
+        "name": "Quora topics",
+        "searchUrl": "https://www.quora.com/search?type=topic&q={searchTerms}"
       }
     ]
   },
