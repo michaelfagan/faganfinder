@@ -255,7 +255,7 @@
       },
       {
         "name": "TVopedia",
-        "searchUrl": "http://www.tvopedia.com/search.php?search={seearchTerms}"
+        "searchUrl": "http://www.tvopedia.com/search.php?search={searchTerms}"
       }
     ]
   },

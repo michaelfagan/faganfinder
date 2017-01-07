@@ -5,20 +5,26 @@ require 'html5_validator/validator'
 require 'sass'
 require 'uglifier'
 
+def has_error(message)
+  message.split(/(\n|\r)+/).each do |s|
+    STDERR.puts "  #{s}"
+  end
+  exit
+end
+
+
 # compile css
 begin
   css = Sass::Engine.new(File.read('index.scss.css'), syntax: :scss, style: :compressed).render.strip
 rescue Exception => e
-  STDERR.puts "SCSS error: #{e.message}"
-  exit
+  has_error "SCSS error: #{e.message}"
 end
 
 # compile js
 begin
   js = Uglifier.new.compile File.read('index.js')
 rescue Exception => e
-  STDERR.puts "JavaScript error: #{e.message}"
-  exit
+  has_error "JavaScript error: #{e.message}"
 end
 
 
@@ -33,6 +39,19 @@ Dir['./tools/*.json'].each do |file|
   tool_groups = JSON.parse File.read(file), object_class: OpenStruct
   page_text = File.read file.sub('json', 'html')
 
+  # validate data
+  has_error('no tool groups') if tool_groups.length < 1
+  tool_groups.each do |group|
+    has_error('group name is absent or too short') if !group.name || group.name.length < 4
+    has_error("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
+    group.tools.each do |tool|
+      has_error("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 3
+      if !tool.searchUrl || !(tool.searchUrl.include?('{searchTerms}') || tool.post)
+        has_error "missing or bad searchUrl for #{tool.name}"
+      end
+    end
+  end
+
   # generate html from the template
   html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())
 
@@ -40,9 +59,8 @@ Dir['./tools/*.json'].each do |file|
   html_errors = Html5Validator::Validator.new.validate_text html
   if html_errors.any?
     html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
-    html_errors.unshift "HTML validation errors - see #{html_path}"
-    STDERR.puts html_errors.join "\n\n"
-    exit
+    html_errors.unshift "HTML validation errors"
+    has_error html_errors.join "\n\n"
   end
 
   # compress the html

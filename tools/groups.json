@@ -4,7 +4,7 @@
     "tools": [
       {
         "name": "Facebook",
-        "searchUrl": "https://www.facebook.com/search/groups/?q={searchTerms"
+        "searchUrl": "https://www.facebook.com/search/groups/?q={searchTerms}"
       },
       {
         "name": "Google Groups",
