@@ -46,7 +46,14 @@ Dir['./tools/*.json'].each do |file|
     has_error("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
     group.tools.each do |tool|
       has_error("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 3
-      if !tool.searchUrl || !(tool.searchUrl.include?('{searchTerms}') || tool.post)
+      has_error("missing searchUrl for #{tool.name}") if !tool.searchUrl
+      begin
+        parsed = URI.parse(tool.searchUrl.sub('{searchTerms}', 'test'))
+        raise 'badurl' if parsed.host.nil? # || !uri.is_a?(URI::HTTP)
+      rescue
+        has_error "searchUrl is not a valid url for #{tool.name}"
+      end
+      unless tool.searchUrl.include?('{searchTerms}') || tool.post
         has_error "missing or bad searchUrl for #{tool.name}"
       end
     end
