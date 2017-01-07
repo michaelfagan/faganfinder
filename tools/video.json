@@ -260,6 +260,15 @@
     ]
   },
   {
+    "name": "Music video",
+    "tools": [
+      {
+        "name": "Vevo",
+        "searchUrl": "https://www.vevo.com/search?q={searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Educational",
     "tools": [
       {
