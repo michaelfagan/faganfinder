@@ -49,7 +49,7 @@ Dir['./tools/*.json'].each do |file|
       has_error("missing searchUrl for #{tool.name}") if !tool.searchUrl
       begin
         parsed = URI.parse(tool.searchUrl.sub('{searchTerms}', 'test'))
-        raise 'badurl' if parsed.host.nil? # || !uri.is_a?(URI::HTTP)
+        raise 'badurl' if parsed.host.nil? || !parsed.is_a?(URI::HTTP)
       rescue
         has_error "searchUrl is not a valid url for #{tool.name}"
       end
