@@ -81,8 +81,9 @@ Dir['./tools/*.json'].each do |file|
   parsed = Nokogiri::HTML html
   parsed.search('//style').each{|node| node.remove} # remove <style>
   parsed.search('//script').each{|node| node.remove} # remove <script>
-  # todo ensure this includes <title>, meta tags, @title attributes
+  # get page text and from title attributes
   text += ' ' + parsed.text
+  text += ' ' + parsed.search('//*/@title').map{|t| t.text}.join(' ')
 
   # all done, output html file
   output_path  = "dist/#{page_id}.html"
@@ -106,7 +107,7 @@ words.reject! do |w|
 end
 
 # resave allowed words list to remove any words no longer needed
-found_allowed_words.sort_by!(&:downcase)
+found_allowed_words.sort_by!{|w| w.downcase + w}
 File.write allowed_words_path, found_allowed_words.join("\n")
 
 # check each word
