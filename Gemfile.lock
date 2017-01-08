@@ -6,6 +6,9 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.4.0)
+    ffi (1.9.14)
+    ffi-aspell (1.1.0)
+      ffi
     html5_validator (1.0.0)
       json
       rest-client
@@ -51,6 +54,7 @@ PLATFORMS
 
 DEPENDENCIES
   erubis
+  ffi-aspell
   html5_validator
   htmlcompressor
   json

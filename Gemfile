@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'erubis'
+gem 'erubis' # templating
 
 gem 'json'
 
@@ -9,4 +9,6 @@ gem 'htmlcompressor' # https://github.com/paolochiodi/htmlcompressor
 
 gem 'sass'
 
-gem 'uglifier'
+gem 'uglifier' # javascript
+
+gem 'ffi-aspell' # spell check, requires aspell locally

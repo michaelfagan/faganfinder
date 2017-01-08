@@ -195,7 +195,7 @@
         "searchUrl": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text={searchTerms}"
       },
       {
-        "name": "pixabay",
+        "name": "Pixabay",
         "searchUrl": "https://pixabay.com/en/videos/list/?image_type=video&q={searchTerms}"
       },
       {
@@ -534,7 +534,7 @@
         "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
       },
       {
-        "name": "BoxTV (India etc.)",
+        "name": "BoxTV (India)",
         "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
       }
     ]

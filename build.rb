@@ -4,6 +4,8 @@ require 'htmlcompressor'
 require 'html5_validator/validator'
 require 'sass'
 require 'uglifier'
+require 'nokogiri'
+require 'ffi/aspell'
 
 def has_error(message)
   message.split(/(\n|\r)+/).each do |s|
@@ -29,6 +31,8 @@ end
 
 
 site_name = 'Fagan Finder'
+
+text = '' # to contain text from all pages for spell checking
 
 Dir['./tools/*.json'].each do |file|
 
@@ -73,9 +77,47 @@ Dir['./tools/*.json'].each do |file|
   # compress the html
   html = HtmlCompressor::Compressor.new.compress html
 
+  # extract text for spell checking
+  parsed = Nokogiri::HTML html
+  parsed.search('//style').each{|node| node.remove} # remove <style>
+  parsed.search('//script').each{|node| node.remove} # remove <script>
+  # todo ensure this includes <title>, meta tags, @title attributes
+  text += ' ' + parsed.text
+
   # all done, output html file
   output_path  = "dist/#{page_id}.html"
   File.write output_path, html
-  puts "saved to #{output_path}"
+  puts "  saved to #{output_path}"
 
+end
+
+# spell checking
+
+# text to words
+words = text.strip.split(/\W+/).uniq.reject{|w| w =~ /^\d+$/ }.sort_by(&:downcase)
+# don't check allowed words
+allowed_words_path = 'test/allowed_words.txt'
+allowed_words = File.readlines(allowed_words_path).map{|w| w.strip}
+found_allowed_words = []
+words.reject! do |w|
+  allowed = allowed_words.include? w
+  found_allowed_words << w if allowed
+  allowed
+end
+
+# resave allowed words list to remove any words no longer needed
+found_allowed_words.sort_by!(&:downcase)
+File.write allowed_words_path, found_allowed_words.join("\n")
+
+# check each word
+speller = FFI::Aspell::Speller.new 'en_CA'
+misspelled = []
+words.each do |word|
+  misspelled << word unless speller.correct? word
+end
+speller.close
+
+if misspelled.length > 0
+  puts "#{misspelled.length} spelling errors"
+  puts "  " + misspelled.join("\n  ")
 end
