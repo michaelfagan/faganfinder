@@ -3,7 +3,7 @@
     "name": "Forums and mailing lists",
     "tools": [
       {
-        "name": "Facebook",
+        "name": "Facebook Groups",
         "searchUrl": "https://www.facebook.com/search/groups/?q={searchTerms}"
       },
       {
@@ -25,10 +25,6 @@
       {
         "name": "Groups.io",
         "searchUrl": "https://groups.io/search?q={searchTerms}"
-      },
-      {
-        "name": "BoardReader",
-        "searchUrl": "http://boardreader.com/index.php?a=f&q={searchTerms}"
       },
       {
         "name": "ProBoards",
@@ -87,11 +83,11 @@
     "name": "Support groups",
     "tools": [
       {
-        "name": "DailyStrength (online)",
+        "name": "DailyStrength",
         "searchUrl": "https://www.dailystrength.org/search?type=group&query={searchTerms}"
       },
       {
-        "name": "Psychology Today (in-person)",
+        "name": "Psychology Today",
         "searchUrl": "https://groups.psychologytoday.com/rms/prof_results.php?search={searchTerms}"
       }
     ]

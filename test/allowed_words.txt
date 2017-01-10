@@ -4,7 +4,6 @@ Aparat
 Bechdel
 Bing
 blinkx
-BoardReader
 BoxTV
 CosmoLearning
 CraveTV
@@ -70,6 +69,7 @@ SimplyScripts
 Slofile
 SnagFilms
 Starz
+Subreddit
 TeacherTube
 TEDx
 TheTVDB
