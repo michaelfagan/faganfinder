@@ -16,11 +16,6 @@
     "status": "200"
   },
   {
-    "url": "https://www.google.ca/search?tbm=vid&tbs=cc:1&q=test",
-    "status": "302",
-    "redirect": "http://www.google.ca/webhp"
-  },
-  {
     "url": "https://www.nfb.ca/",
     "status": "301"
   },
@@ -73,13 +68,12 @@
     "status": "200"
   },
   {
-    "url": "https://www.asiancrush.com/",
-    "status": "301",
-    "redirect": "https://www.asiancrush.com"
-  },
-  {
     "url": "https://www.asiancrush.com/search/?key=test",
     "status": "200"
+  },
+  {
+    "url": "https://www.asiancrush.com",
+    "status": "timeout"
   },
   {
     "url": "http://bechdeltest.com/",
@@ -293,6 +287,11 @@
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=vid&tbs=cc:1&q=test",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
   },

@@ -14,7 +14,16 @@ class Link
   end
 
   def self.write_links_file(links)
+    # all links
     File.write @@links_path, JSON.pretty_generate(links)
+    # bad links only go into HTML page so it's easy to test manually
+    html = links
+      .reject{|l| l['status'] == '200'}
+      .map do |l|
+        u = l['url'].gsub('&', '&amp;')
+        "<li><a href=\"#{u}\">#{u}</a> #{l['status']} #{l['redirect']}</li>"
+      end.join
+    File.write 'test/bad_links.html', "<html><head><title>possible broken links</title></head><body><ol>#{html}</ol></body></html>"
   end
 
   def self.found_urls(urls)
