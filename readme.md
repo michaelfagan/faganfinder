@@ -17,7 +17,7 @@ See http://www.faganfinder.com/
 2. To make changes
     * search tools in `tools/*.json`
     * content in `tools/*.html`
-    * page template in `template.erb.html`
+    * page template in `index.erb.html`
     * CSS in `index.scss.css`
     * JavaScript in `index.js`
 3. `ruby build.rb`
