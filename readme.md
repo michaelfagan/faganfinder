@@ -14,7 +14,7 @@ See http://www.faganfinder.com/
 # Make changes
 
 1. `bundle install` (may prompt to install Aspell)
-2. Change 
+2. To make changes
     * search tools in `tools/*.json`
     * content in `tools/*.html`
     * page template in `template.erb.html`
@@ -22,6 +22,6 @@ See http://www.faganfinder.com/
     * JavaScript in `index.js`
 3. `ruby build.rb`
 4. fix any errors reported
-    * any new (and existing links) that are detected to be possibly broken can be viewed on `test/bad_links.html` and tested manually
+    * any new (and existing) links that are found to be possibly broken can be viewed on `test/bad_links.html` and tested manually
 5. view final output as above
-6. review diffs, commit, and push
+6. review diffs, commit, push
