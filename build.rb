@@ -65,7 +65,7 @@ Dir['./tools/*.json'].each do |file|
   end
 
   # generate html from the template
-  html = Erubis::Eruby.new(File.read 'template.erb.html').result(binding())
+  html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
 
   # validate the html
   html_errors = Html5Validator::Validator.new.validate_text html
