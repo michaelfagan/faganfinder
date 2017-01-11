@@ -1,0 +1,1093 @@
+[
+  {
+    "url": "http://iview.abc.net.au/",
+    "status": "200"
+  },
+  {
+    "url": "http://tvuol.uol.com.br/busca?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://tvuol.uol.com.br/",
+    "status": "200"
+  },
+  {
+    "url": "http://watch.cbc.ca/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.google.ca/search?tbm=vid&tbs=cc:1&q=test",
+    "status": "302",
+    "redirect": "http://www.google.ca/webhp"
+  },
+  {
+    "url": "https://www.nfb.ca/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.nfb.ca/search/#?queryString=test",
+    "status": "301",
+    "redirect": "https://www.nfb.ca/search/"
+  },
+  {
+    "url": "http://search.alexanderstreet.com/",
+    "status": "302",
+    "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
+  },
+  {
+    "url": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring=test",
+    "status": "302",
+    "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/search"
+  },
+  {
+    "url": "http://www.allmovie.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.allmovie.com/search/all/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.aol.com/video/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.aol.com/video/search/?q=test",
+    "status": "301",
+    "redirect": "/video"
+  },
+  {
+    "url": "http://www.aparat.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.aparat.com/result/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.aparchive.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.aparchive.com/search?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.asiancrush.com/",
+    "status": "301",
+    "redirect": "https://www.asiancrush.com"
+  },
+  {
+    "url": "https://www.asiancrush.com/search/?key=test",
+    "status": "200"
+  },
+  {
+    "url": "http://bechdeltest.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://bechdeltest.com/search",
+    "status": "404"
+  },
+  {
+    "url": "http://bigthink.com/search?type=video_idea&q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://bigthink.com/videos",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
+    "status": "302",
+    "redirect": "/videos?FORM=HDRSC2"
+  },
+  {
+    "url": "http://www.bing.com/videos/search?q=test",
+    "status": "302",
+    "redirect": "/videos?FORM=HDRSC2"
+  },
+  {
+    "url": "http://www.bing.com/videos/trending",
+    "status": "200"
+  },
+  {
+    "url": "http://www.blinkx.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.blinkx.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.boxtv.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.boxtv.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.crackle.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.dailymotion.com/",
+    "status": "302",
+    "redirect": "/ca-en"
+  },
+  {
+    "url": "http://www.dailymotion.com/us/relevance/universal/search/test/1",
+    "status": "200"
+  },
+  {
+    "url": "http://www.delphiforums.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.delphiforums.com/index.ptt?query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://documentaryheaven.com/find/?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://documentaryheaven.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://documentarystorm.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://documentarystorm.com/?s=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.dramafever.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.dramafever.com/search/?search=test",
+    "status": "301",
+    "redirect": "https://www.dramafever.com/search/"
+  },
+  {
+    "url": "https://www.electoralhq.com/twitter-lists/search?q=test",
+    "status": "301",
+    "redirect": "https://www.electoralhq.com/twitter-lists/search"
+  },
+  {
+    "url": "https://www.facebook.com/groups",
+    "status": "302",
+    "redirect": "http://www.facebook.com/login.php?next=http%3A%2F%2Fwww.facebook.com%2Fgroups"
+  },
+  {
+    "url": "https://www.facebook.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.facebook.com/livemap/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.facebook.com/search/groups/?q=test",
+    "status": "301",
+    "redirect": "https://www.facebook.com/search/groups/"
+  },
+  {
+    "url": "https://www.facebook.com/search/videos/?q=test",
+    "status": "301",
+    "redirect": "https://www.facebook.com/search/videos/"
+  },
+  {
+    "url": "http://www.fandango.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.fandango.com/search?q=test",
+    "status": "301",
+    "redirect": "http://www.fandango.com/search/"
+  },
+  {
+    "url": "http://video.fc2.com/en/movie_search.php?keyword=test",
+    "status": "200"
+  },
+  {
+    "url": "http://video.fc2.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://filmfreeway.com/festivals?q=test",
+    "status": "301",
+    "redirect": "https://filmfreeway.com/festivals"
+  },
+  {
+    "url": "https://filmfreeway.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.flickr.com/search/?text=video&media=videos",
+    "status": "200"
+  },
+  {
+    "url": "http://freevideolectures.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://giphy.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://giphy.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "https://globoplay.globo.com/busca/?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://globoplay.globo.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://abcnews.go.com/Video",
+    "status": "200"
+  },
+  {
+    "url": "http://abcnews.go.com/search?r=video&searchtext=test",
+    "status": "200"
+  },
+  {
+    "url": "https://groups.google.com/forum/#!forumsearch/test",
+    "status": "200"
+  },
+  {
+    "url": "https://groups.google.com/",
+    "status": "301",
+    "redirect": "http://groups.google.com/d/homeredir"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20group%20OR%20club%20OR%20association%20OR%20union%20OR%20society%20OR%20community%20OR%20league",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20site%3Agroupspaces.com",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=vid&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=vid&tbs=dur:l&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/videohp",
+    "status": "200"
+  },
+  {
+    "url": "https://www.hamsterpad.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.hoopladigital.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.hoopladigital.com/search/test?kind=MOVIE",
+    "status": "301",
+    "redirect": "https://www.hoopladigital.com/search/test"
+  },
+  {
+    "url": "http://www.howcast.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.howcast.com/?s=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.imdb.com/find?q=test",
+    "status": "400"
+  },
+  {
+    "url": "http://www.imdb.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.imsdb.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.imsdb.com/search.php",
+    "status": "200"
+  },
+  {
+    "url": "https://www.indieflix.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.indieflix.com/search/test",
+    "status": "302"
+  },
+  {
+    "url": "http://www.indiepixfilms.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.indiepixfilms.com/search-results?type=all&id=test",
+    "status": "200"
+  },
+  {
+    "url": "http://so.iqiyi.com/so/q_test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.iqiyi.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.justwatch.com/au/search?q=test",
+    "status": "301",
+    "redirect": "https://www.justwatch.com/au/search"
+  },
+  {
+    "url": "https://www.justwatch.com/ca/search?q=test",
+    "status": "301",
+    "redirect": "https://www.justwatch.com/ca/search"
+  },
+  {
+    "url": "https://www.justwatch.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.justwatch.com/uk/search?q=test",
+    "status": "301",
+    "redirect": "https://www.justwatch.com/uk/search"
+  },
+  {
+    "url": "https://www.justwatch.com/us/search?q=test",
+    "status": "301",
+    "redirect": "https://www.justwatch.com/us/search"
+  },
+  {
+    "url": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.kids-in-mind.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://kiwiirc.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.learnerstv.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.linkedin.com/groups/",
+    "status": "404"
+  },
+  {
+    "url": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords=test",
+    "status": "302",
+    "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fvsearch%2Fg"
+  },
+  {
+    "url": "https://www.meetup.com/find/events/?keywords=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.mefeedia.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.mefeedia.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.metacafe.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.metacafe.com/videos_about/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.metacritic.com/",
+    "status": "403"
+  },
+  {
+    "url": "http://www.metacritic.com/search/movie/test/results",
+    "status": "403"
+  },
+  {
+    "url": "https://search.mibbit.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.moviefone.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.moviefone.com/search/test/",
+    "status": "301"
+  },
+  {
+    "url": "http://www.movies.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.movies.com/search-result?search=test",
+    "status": "200"
+  },
+  {
+    "url": "http://video.nationalgeographic.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://video.nationalgeographic.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://tvcast.naver.com/",
+    "status": "403"
+  },
+  {
+    "url": "http://tvcast.naver.com/search?query=test",
+    "status": "403"
+  },
+  {
+    "url": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.nytimes.com/video",
+    "status": "301"
+  },
+  {
+    "url": "https://www.overdrive.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
+    "status": "301",
+    "redirect": "https://www.overdrive.com/search"
+  },
+  {
+    "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
+    "status": "301",
+    "redirect": "https://pixabay.com/en/videos/list/"
+  },
+  {
+    "url": "https://pixabay.com/",
+    "status": "301"
+  },
+  {
+    "url": "http://www.popcornflix.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.popcornflix.com/search?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
+    "status": "301",
+    "redirect": "https://www.proboards.com/forum-directory/search/results/1"
+  },
+  {
+    "url": "https://www.proboards.com/forum-directory",
+    "status": "301"
+  },
+  {
+    "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
+    "status": "301",
+    "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
+  },
+  {
+    "url": "https://www.quora.com/search?type=topic&q=test",
+    "status": "403"
+  },
+  {
+    "url": "https://www.reddit.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.reddit.com/r/Documentaries/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/r/Documentaries/search"
+  },
+  {
+    "url": "https://www.reddit.com/r/lectures/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/r/lectures/search"
+  },
+  {
+    "url": "https://www.reddit.com/subreddits/search?q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/subreddits/search"
+  },
+  {
+    "url": "http://www.reuters.com/search/video?blob=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.reuters.com/video/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.rottentomatoes.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.rottentomatoes.com/search/?search=test",
+    "status": "301",
+    "redirect": "https://www.rottentomatoes.com/search/"
+  },
+  {
+    "url": "https://rumble.com/all/q/test/",
+    "status": "301"
+  },
+  {
+    "url": "https://rumble.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.schooltube.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.schooltube.com/search/?term=test",
+    "status": "302",
+    "redirect": "http://www.schooltube.com/"
+  },
+  {
+    "url": "http://screenit.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.simplyscripts.com/cgi-bin/search.pl?search=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.simplyscripts.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://slack.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://slofile.com/slack?q=test",
+    "status": "301",
+    "redirect": "https://slofile.com/slack"
+  },
+  {
+    "url": "http://www.snagfilms.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.soku.com/search_video/q_test",
+    "status": "200"
+  },
+  {
+    "url": "https://online.supportgroups.com/",
+    "status": "301"
+  },
+  {
+    "url": "http://swwitv.com/search.php?zoom_query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.teachertube.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ted.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ted.com/search?cat=talks&q=test",
+    "status": "302",
+    "redirect": "http://www.ted.com/"
+  },
+  {
+    "url": "http://thetvdb.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://thetvdb.com/?tab=listseries&function=Search&string=test",
+    "status": "200"
+  },
+  {
+    "url": "http://topdocumentaryfilms.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://topdocumentaryfilms.com/search/?results=test",
+    "status": "200"
+  },
+  {
+    "url": "http://tubitv.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://tubitv.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.tvmaze.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.tvmaze.com/search?q=test",
+    "status": "400"
+  },
+  {
+    "url": "http://www.tvopedia.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.tvopedia.com/search.php?search=test",
+    "status": "302",
+    "redirect": "/"
+  },
+  {
+    "url": "http://www.tv.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.tv.com/search?q=test",
+    "status": "302",
+    "redirect": "http://www.tv.com"
+  },
+  {
+    "url": "https://twitter.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://twitter.com/search?f=videos&q=test",
+    "status": "301",
+    "redirect": "https://twitter.com/search"
+  },
+  {
+    "url": "http://www.veoh.com/find/?query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.veoh.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.vevo.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.vevo.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.viewster.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.viewster.com/search/test/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.viki.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.viki.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.viki.com/search"
+  },
+  {
+    "url": "https://vimeo.com/categories/music",
+    "status": "301"
+  },
+  {
+    "url": "https://vimeo.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://vimeo.com/search?license=by-nc-nd&q=test",
+    "status": "301",
+    "redirect": "https://vimeo.com/search"
+  },
+  {
+    "url": "https://vimeo.com/search?q=test",
+    "status": "301",
+    "redirect": "https://vimeo.com/search"
+  },
+  {
+    "url": "http://www.weeklyscript.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wikia.com/Special:Search?search=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wikia.com/fandom",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wonderhowto.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wonderhowto.com/search/test/",
+    "status": "200"
+  },
+  {
+    "url": "http://wwitv.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://groups.yahoo.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://groups.yahoo.com/neo/search?query=test",
+    "status": "301",
+    "redirect": "https://groups.yahoo.com/neo/search"
+  },
+  {
+    "url": "https://view.yahoo.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://view.yahoo.com/search?query=test",
+    "status": "301",
+    "redirect": "https://view.yahoo.com/search"
+  },
+  {
+    "url": "https://yandex.com/video/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.yandex.com/video/search?text=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.youku.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.youtube.com/channels",
+    "status": "301"
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.youtube.com/live",
+    "status": "301"
+  },
+  {
+    "url": "https://www.youtube.com/results?search_query=test",
+    "status": "301",
+    "redirect": "https://www.youtube.com/results"
+  },
+  {
+    "url": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q=test",
+    "status": "301",
+    "redirect": "https://www.youtube.com/results"
+  },
+  {
+    "url": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q=test",
+    "status": "301",
+    "redirect": "https://www.youtube.com/results"
+  },
+  {
+    "url": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q=test",
+    "status": "301",
+    "redirect": "https://www.youtube.com/results"
+  },
+  {
+    "url": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q=test",
+    "status": "301",
+    "redirect": "https://www.youtube.com/results"
+  },
+  {
+    "url": "http://yovisto.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.yovisto.com/search.jsp?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://popkey.co/",
+    "status": "200"
+  },
+  {
+    "url": "http://popkey.co/search/test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.tenor.co/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.tenor.co/search/test-gifs",
+    "status": "301"
+  },
+  {
+    "url": "https://vine.co/",
+    "status": "301"
+  },
+  {
+    "url": "https://vine.co/search/test",
+    "status": "301"
+  },
+  {
+    "url": "http://irc.netsplit.de/channels/?chat=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
+    "status": "302",
+    "redirect": "http://www.europeana.eu/portal/en"
+  },
+  {
+    "url": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO",
+    "status": "302",
+    "redirect": "http://www.europeana.eu/portal/en"
+  },
+  {
+    "url": "https://gifme.io/",
+    "status": "200"
+  },
+  {
+    "url": "https://gifme.io/search/q?query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://groups.io/",
+    "status": "302",
+    "redirect": "https://groups.io/"
+  },
+  {
+    "url": "https://groups.io/search?q=test",
+    "status": "302",
+    "redirect": "https://groups.io/search"
+  },
+  {
+    "url": "http://www.ignitetalks.io/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ignitetalks.io/videos?query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.nicovideo.jp/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.nicovideo.jp/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.squidtv.net/",
+    "status": "200"
+  },
+  {
+    "url": "http://videolectures.net/",
+    "status": "200"
+  },
+  {
+    "url": "http://videolectures.net/site/search/?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://archive.org/details/movies?and[]=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/movies"
+  },
+  {
+    "url": "https://archive.org/details/movies",
+    "status": "301"
+  },
+  {
+    "url": "https://archive.org/details/tv",
+    "status": "301"
+  },
+  {
+    "url": "https://archive.org/details/tv?q=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/tv"
+  },
+  {
+    "url": "https://www.commonsensemedia.org/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.commonsensemedia.org/search/test",
+    "status": "302"
+  },
+  {
+    "url": "https://cosmolearning.org/",
+    "status": "302"
+  },
+  {
+    "url": "https://cosmolearning.org/s?cx=partner-pub-8245668095519500%3acbzrifszn1b&q=test",
+    "status": "302",
+    "redirect": "https://cosmolearning.org/s"
+  },
+  {
+    "url": "https://creativecommons.org/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.dailystrength.org/search?type=group&query=test",
+    "status": "302",
+    "redirect": "https://www.dailystrength.org/search"
+  },
+  {
+    "url": "https://freedocumentaries.org/",
+    "status": "301"
+  },
+  {
+    "url": "https://freedocumentaries.org/search?q=test",
+    "status": "301",
+    "redirect": "https://freedocumentaries.org/search"
+  },
+  {
+    "url": "https://www.khanacademy.org/",
+    "status": "301"
+  },
+  {
+    "url": "http://www.pbs.org/search/?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.pbs.org/video/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.themoviedb.org/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.themoviedb.org/search?query=test",
+    "status": "301",
+    "redirect": "https://www.themoviedb.org/search"
+  },
+  {
+    "url": "http://tvtropes.org/",
+    "status": "200"
+  },
+  {
+    "url": "http://tvtropes.org/pmwiki/search_result.php?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
+    "status": "500"
+  },
+  {
+    "url": "http://www.watchknowlearn.org/",
+    "status": "200"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Bechdel_test",
+    "status": "301"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
+    "status": "301"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Public_domain",
+    "status": "301"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Usenet",
+    "status": "301"
+  },
+  {
+    "url": "http://tune.pk/",
+    "status": "200"
+  },
+  {
+    "url": "http://tune.pk/search_result.php?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://rutube.ru/",
+    "status": "301"
+  },
+  {
+    "url": "https://rutube.ru/search/?query=test",
+    "status": "301",
+    "redirect": "https://rutube.ru/search/"
+  },
+  {
+    "url": "https://www.periscope.tv/",
+    "status": "403"
+  },
+  {
+    "url": "https://www.periscope.tv/search?q=test",
+    "status": "403"
+  },
+  {
+    "url": "http://www.ustream.tv/explore/all",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ustream.tv/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bbc.co.uk/iplayer/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bbc.co.uk/iplayer",
+    "status": "200"
+  }
+]

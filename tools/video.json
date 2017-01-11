@@ -75,7 +75,7 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.ca/search?tbm=vid&tbs=dur:l&q={searchTerms}"
+        "searchUrl": "https://www.google.com/search?tbm=vid&tbs=dur:l&q={searchTerms}"
       },
       {
         "name": "Bing",

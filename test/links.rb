@@ -1,50 +1,74 @@
-# build.rb already checks URLs for syntax, so this assumes the format is valid
+# invalid URLs are caught before they are added to @@urls_found
 
-require 'json'
 require 'uri'
 require 'net/http'
+require 'json'
 
+class Link
 
-urls_to_check = []
+  @@urls_found # to hold queue to be handled by self.update
+  @@links_path = 'test/links.json'
 
-Dir['./tools/*.json'].each do |file|
-  # URLs from search tools
-  tool_groups = JSON.parse File.read(file), object_class: OpenStruct
-  tool_groups.each do |group|
-    urls_to_check.concat group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
+  def self.read_links_file
+    JSON.parse File.read(@@links_path)
   end
-  # URLs from links
-  html = File.read file.sub('json', 'html')
-  urls_to_check.concat URI.extract(html, /http(s)?/).map{|u| u.gsub('&amp;', '&')}
+
+  def self.write_links_file(links)
+    File.write @@links_path, JSON.pretty_generate(links)
+  end
+
+  def self.found_urls(urls)
+    @@urls_found ||= []
+    @@urls_found.concat urls
+  end
+
+  def self.find_urls_from_html(html)
+    found_urls URI.extract(html, /http(s)?/).map{|u| u.gsub('&amp;', '&')}
+  end
+
+  # take the links which have been found,
+  # 1) if they are new, check them and save the info
+  # 2) if there are saved links that were not found, remove them
+  def self.update
+    @@urls_found.uniq!
+    existing_links = read_links_file
+    existing_links.delete_if do |link|
+      if @@urls_found.include? link['url']
+        @@urls_found.delete link['url']
+        false
+      else
+        true
+      end
+    end
+    existing_links.concat @@urls_found.map{|u| check u}
+    existing_links.sort_by! do |l|
+      # keep a consistent ordering
+      u = URI.parse l['url']
+      u.host.split('.').reverse.join + u.path + (u.query || '') + (u.fragment || '') + u.scheme
+    end
+    write_links_file existing_links
+  end
+
+  def self.check(url)
+    puts "checking #{url}"
+    result = { 'url' => url }
+    parsed = URI.parse url
+    begin
+      request = Net::HTTP.new parsed.host
+      response = request.request_head parsed.path
+      result['status'] = response.code
+      if response['location'] && response['location'] != url
+        result['redirect'] = response['location']
+      end
+    rescue
+      result['status'] = 'timeout'
+    end
+    result
+  end
+
+  def self.check_all
+    links = read_links_file.map{|l| check l['url']}
+    write_links_file links
+  end
+
 end
-
-urls_to_check.uniq!
-
-problems = []
-
-urls_to_check.each do |url|
-  puts "checking #{url}"
-  parsed = URI.parse url
-  begin
-    request = Net::HTTP.new parsed.host
-    response = request.request_head parsed.path
-    status = response.code
-    redirect = response['location']
-    redirect = nil if redirect == url # don't try to follow circular redirects
-  rescue
-    status = 'timeout'
-    redirect = nil
-  end
-  unless status == '200'
-    problem = { url: url, status: status }
-    problem[:redirect] = redirect if redirect
-    problems << problem
-  end
-end
-
-path = 'test/link_check_results.json'
-File.write path, JSON.pretty_generate(problems)
-
-puts "found #{urls_to_check.length} unique URLs"
-puts "#{problems.length} had problems"
-puts "results saved to #{path}"

@@ -5,6 +5,7 @@ require 'html5_validator/validator'
 require 'sass'
 require 'uglifier'
 require 'nokogiri'
+require_relative 'test/links'
 require 'ffi/aspell'
 
 def has_error(message)
@@ -84,6 +85,11 @@ Dir['./tools/*.json'].each do |file|
   # get page text and from title attributes
   text += ' ' + parsed.text
   text += ' ' + parsed.search('//*/@title').map{|t| t.text}.join(' ')
+  # extract links for link checking
+  tool_groups.each do |group|
+    Link.found_urls group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
+  end
+  Link.find_urls_from_html page_text
 
   # all done, output html file
   output_path  = "dist/#{page_id}.html"
@@ -91,6 +97,9 @@ Dir['./tools/*.json'].each do |file|
   puts "  saved to #{output_path}"
 
 end
+
+Link.update # check the newly-found links, delete the no-longer-used ones
+
 
 # spell checking
 
