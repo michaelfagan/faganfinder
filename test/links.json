@@ -305,6 +305,10 @@
     "status": "200"
   },
   {
+    "url": "http://groupspaces.com/",
+    "status": "200"
+  },
+  {
     "url": "https://www.hamsterpad.com/",
     "status": "301"
   },
@@ -398,6 +402,10 @@
     "status": "200"
   },
   {
+    "url": "https://kiwiirc.com/",
+    "status": "200"
+  },
+  {
     "url": "https://kiwiirc.com/search?q=test",
     "status": "200"
   },
@@ -423,6 +431,10 @@
     "status": "200"
   },
   {
+    "url": "https://www.meetup.com/",
+    "status": "200"
+  },
+  {
     "url": "http://www.mefeedia.com/",
     "status": "200"
   },
@@ -445,6 +457,10 @@
   {
     "url": "http://www.metacritic.com/search/movie/test/results",
     "status": "403"
+  },
+  {
+    "url": "http://mibbit.com/",
+    "status": "200"
   },
   {
     "url": "https://search.mibbit.com/search/test",
@@ -610,6 +626,10 @@
   {
     "url": "https://slack.com/",
     "status": "302"
+  },
+  {
+    "url": "https://slofile.com/",
+    "status": "301"
   },
   {
     "url": "https://slofile.com/slack?q=test",
@@ -884,6 +904,10 @@
   },
   {
     "url": "http://irc.netsplit.de/channels/?chat=test",
+    "status": "200"
+  },
+  {
+    "url": "http://irc.netsplit.de/channels/",
     "status": "200"
   },
   {

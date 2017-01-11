@@ -83,6 +83,10 @@ h3 {
   font-size: 1em;
 }
 
+a {
+  white-space: nowrap;
+}
+
 #detail {
   $readingwidth: 50em;
   $listpadding: 2em;
