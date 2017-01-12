@@ -542,6 +542,10 @@
     "status": "301"
   },
   {
+    "url": "https://groups.psychologytoday.com/",
+    "status": "301"
+  },
+  {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
     "status": "301",
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
@@ -1004,6 +1008,10 @@
   {
     "url": "https://creativecommons.org/",
     "status": "301"
+  },
+  {
+    "url": "https://www.dailystrength.org/",
+    "status": "302"
   },
   {
     "url": "https://www.dailystrength.org/search?type=group&query=test",
