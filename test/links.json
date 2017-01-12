@@ -168,6 +168,10 @@
     "redirect": "https://www.dramafever.com/search/"
   },
   {
+    "url": "https://www.electoralhq.com/twitter-lists/search",
+    "status": "301"
+  },
+  {
     "url": "https://www.electoralhq.com/twitter-lists/search?q=test",
     "status": "301",
     "redirect": "https://www.electoralhq.com/twitter-lists/search"
@@ -549,6 +553,10 @@
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
     "status": "301",
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
+  },
+  {
+    "url": "https://www.quora.com/",
+    "status": "403"
   },
   {
     "url": "https://www.quora.com/search?type=topic&q=test",
