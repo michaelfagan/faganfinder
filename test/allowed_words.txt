@@ -5,12 +5,14 @@ Bechdel
 Bing
 blinkx
 BoxTV
+CareerOneStop
 CosmoLearning
 CraveTV
 DailyMotion
 DailyStrength
 de
 Dendy
+DeviantArt
 DocumentaryHeaven
 DramaFever
 Epix
@@ -26,6 +28,7 @@ GifMe
 GIFs
 Giphy
 Globo
+Goodreads
 GroupSpaces
 Howcast
 Hulu
@@ -48,6 +51,7 @@ Moviefone
 Mubi
 Naver
 netsplit
+Nextdoor
 NFB
 Niconico
 OverDrive
@@ -70,6 +74,7 @@ Slofile
 SnagFilms
 Starz
 Subreddit
+TAF
 TeacherTube
 TEDx
 TheTVDB

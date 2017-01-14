@@ -27,12 +27,25 @@
         "searchUrl": "https://groups.io/search?q={searchTerms}"
       },
       {
+        "name": "<span title=\"Google+ Communities\">Google+</span>",
+        "searchUrl": "https://plus.google.com/s/{searchTerms}/communities"
+      },
+      {
         "name": "ProBoards",
         "searchUrl": "https://www.proboards.com/forum-directory/search/results/1?q={searchTerms}"
       },
       {
         "name": "Delphi Forums",
         "searchUrl": "http://www.delphiforums.com/index.ptt?query={searchTerms}"
+      }
+    ]
+  },
+  {
+    "name": "General groups",
+    "tools": [
+      {
+        "name": "Google",
+        "searchUrl": "https://www.google.com/search?q={searchTerms}%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op"
       }
     ]
   },
@@ -46,6 +59,23 @@
       {
         "name": "GroupSpaces",
         "searchUrl": "https://www.google.com/search?q={searchTerms}%20site%3Agroupspaces.com"
+      }
+    ]
+  },
+  {
+    "name": "Trade associations",
+    "tools": [
+      {
+        "name": "CareerOneStop",
+        "searchUrl": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword={searchTerms}"
+      },
+      {
+        "name": "<abbr title=\"Trade Association Forum\">TAF</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
+        "searchUrl": "http://www.taforum.org/Members/search/{searchTerms}"
+      },
+      {
+        "name": "<abbr title=\"Government\">Gov.</abbr> of Canada",
+        "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField={searchTerms}"
       }
     ]
   },
@@ -106,11 +136,19 @@
     ]
   },
   {
-    "name": "General groups",
+    "name": "Specific sites",
     "tools": [
       {
-        "name": "Google",
-        "searchUrl": "https://www.google.com/search?q={searchTerms}%20group%20OR%20club%20OR%20association%20OR%20union%20OR%20society%20OR%20community%20OR%20league"
+        "name": "Flickr",
+        "searchUrl": "https://www.flickr.com/search/groups/?text={searchTerms}"
+      },
+      {
+        "name": "DeviantArt",
+        "searchUrl": "http://groups.deviantart.com/?q={searchTerms}"
+      },
+      {
+        "name": "Goodreads",
+        "searchUrl": "http://www.goodreads.com/group/search?q={searchTerms}"
       }
     ]
   }

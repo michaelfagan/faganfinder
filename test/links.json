@@ -16,6 +16,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ic.gc.ca/eic/site/ccc_bt-rec_ec.nsf/eng/h_00001.html",
+    "status": "200"
+  },
+  {
     "url": "https://www.nfb.ca/",
     "status": "301"
   },
@@ -143,6 +151,14 @@
     "status": "200"
   },
   {
+    "url": "https://groups.deviantart.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://groups.deviantart.com/?q=test",
+    "status": "200"
+  },
+  {
     "url": "http://documentaryheaven.com/find/?q=test",
     "status": "200"
   },
@@ -226,7 +242,15 @@
     "status": "301"
   },
   {
+    "url": "https://www.flickr.com/groups",
+    "status": "200"
+  },
+  {
     "url": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.flickr.com/search/groups/?text=test",
     "status": "200"
   },
   {
@@ -266,6 +290,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.goodreads.com/group/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.goodreads.com/group",
+    "status": "200"
+  },
+  {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
     "status": "200"
   },
@@ -275,7 +307,15 @@
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
-    "url": "https://www.google.com/search?q=test%20group%20OR%20club%20OR%20association%20OR%20union%20OR%20society%20OR%20community%20OR%20league",
+    "url": "https://plus.google.com/communities",
+    "status": "301"
+  },
+  {
+    "url": "https://plus.google.com/s/test/communities",
+    "status": "301"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
@@ -431,6 +471,10 @@
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fvsearch%2Fg"
   },
   {
+    "url": "http://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.meetup.com/find/events/?keywords=test",
     "status": "200"
   },
@@ -501,6 +545,10 @@
   {
     "url": "http://tvcast.naver.com/search?query=test",
     "status": "403"
+  },
+  {
+    "url": "https://nextdoor.com/",
+    "status": "301"
   },
   {
     "url": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/test",
@@ -997,6 +1045,15 @@
     "redirect": "https://archive.org/details/tv"
   },
   {
+    "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",
+    "status": "301",
+    "redirect": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx"
+  },
+  {
+    "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
+    "status": "301"
+  },
+  {
     "url": "https://www.commonsensemedia.org/",
     "status": "302"
   },
@@ -1045,6 +1102,14 @@
   },
   {
     "url": "http://www.pbs.org/video/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.taforum.org/Members/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.taforum.org/Members",
     "status": "200"
   },
   {
