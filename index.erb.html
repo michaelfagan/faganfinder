@@ -72,8 +72,7 @@
       </div>
       <% end %>
 
-      <%= page_text
-        .gsub('<section>')
+      <%= page.content.gsub('<section>')
           .with_index { |m, i| "<section id=\"#{page.groups[i].id}\"><h3>#{page.groups[i].name}</h3>" }
         .gsub('</section>', '<p class="btt"><a href="#search">back to top ↑</a></p></section>')
       %>
@@ -90,7 +89,7 @@
 
         <h2>More search tools on <%= site_name %></h2>
         <ul>
-        <% page_ids.reject{|id| id == page.id }.each do |other_page| %>
+        <% Page.ids.reject{|id| id == page.id }.each do |other_page| %>
           <li><a href="<%= other_page %>.html"><%= other_page.capitalize %></a></li>
         <% end %>
         </ul>

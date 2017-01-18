@@ -2,13 +2,28 @@ require 'json'
 
 class Page
 
-  def initialize(path)
+  attr_reader :groups, :id, :content, :number_of_tools
 
-    @page = JSON.parse File.read(path), object_class: OpenStruct
+  def self.path(id = '*', filetype = 'json')
+    "./tools/#{id}.#{filetype}"
+  end
+
+  def path(filetype = 'json')
+    self.class.path @id, filetype
+  end
+
+  def self.ids
+    @@ids ||= Dir[path].map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
+  end
+
+  def initialize(id)
+
+    @id = id
+    @groups = JSON.parse File.read(path), object_class: OpenStruct
 
     # validate 
-    raise('no tool groups') if @page.length < 1
-    @page.each do |group|
+    raise('no tool groups') if @groups.length < 1
+    @groups.each do |group|
       raise('group name is absent or too short') if !group.name || group.name.length < 4
       raise("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
       group.tools.each do |tool|
@@ -27,26 +42,16 @@ class Page
     end
 
     # set up generated data
-    @id = /.*\/(.+)\.[^\.$]/.match(path)[1]
-    @number_of_tools ||= @page.map{|g| g.tools.length }.inject(:+)
-    @page.map! do |group|
+    @number_of_tools ||= @groups.map{|g| g.tools.length }.inject(:+)
+    @groups.map! do |group|
       group.shortName ||= group.name
       group.id = group.shortName.gsub(/<[^>]+>/, '').gsub(/[^\w]/, '_').downcase
       group
     end
 
-  end
+    # load html
+    @content =  File.read path('html')
 
-  def groups
-    @page
-  end
-
-  def id
-    @id
-  end
-
-  def number_of_tools
-    @number_of_tools
   end
 
 end

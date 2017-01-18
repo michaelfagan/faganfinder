@@ -35,22 +35,15 @@ site_name = 'Fagan Finder'
 
 text = '' # to contain text from all pages for spell checking
 
-files = Dir['./tools/*.json']
-
-# right now this is duplicated in the Page class
-# this is used in index.erb.hemlt
-page_ids = files.map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
-
-files.each do |file|
+Page.ids.each do |pid|
 
   # other data for the template
-  puts file
+  puts pid
   begin
-    page = Page.new file
+    page = Page.new pid
   rescue Exception => e
     has_error e.message
   end
-  page_text = File.read file.sub('json', 'html')
 
   # generate html from the template
   html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
@@ -71,7 +64,7 @@ files.each do |file|
   page.groups.each do |group|
     Link.found_urls group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
   end
-  Link.find_urls_from_html page_text
+  Link.find_urls_from_html page.content
 
   # all done, output html file
   output_path  = "dist/#{page.id}.html"
