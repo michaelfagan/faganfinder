@@ -1,9 +1,9 @@
 require 'erubis'
-require 'json'
 require 'htmlcompressor'
 require 'html5_validator/validator'
 require 'sass'
 require 'uglifier'
+require_relative 'page'
 require_relative 'test/links'
 require_relative 'test/spelling'
 
@@ -35,34 +35,22 @@ site_name = 'Fagan Finder'
 
 text = '' # to contain text from all pages for spell checking
 
-Dir['./tools/*.json'].each do |file|
+files = Dir['./tools/*.json']
 
-  page_id = /.*\/(.+)\.[^\.$]/.match(file)[1]
-  puts page_id
+# right now this is duplicated in the Page class
+# this is used in index.erb.hemlt
+page_ids = files.map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
+
+files.each do |file|
 
   # other data for the template
-  tool_groups = JSON.parse File.read(file), object_class: OpenStruct
-  page_text = File.read file.sub('json', 'html')
-
-  # validate data
-  has_error('no tool groups') if tool_groups.length < 1
-  tool_groups.each do |group|
-    has_error('group name is absent or too short') if !group.name || group.name.length < 4
-    has_error("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
-    group.tools.each do |tool|
-      has_error("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 3
-      has_error("missing searchUrl for #{tool.name}") if !tool.searchUrl
-      begin
-        parsed = URI.parse(tool.searchUrl.sub('{searchTerms}', 'test'))
-        raise 'badurl' if parsed.host.nil? || !parsed.is_a?(URI::HTTP)
-      rescue
-        has_error "searchUrl is not a valid url for #{tool.name}"
-      end
-      unless tool.searchUrl.include?('{searchTerms}') || tool.post
-        has_error "missing or bad searchUrl for #{tool.name}"
-      end
-    end
+  puts file
+  begin
+    page = Page.new file
+  rescue Exception => e
+    has_error e.message
   end
+  page_text = File.read file.sub('json', 'html')
 
   # generate html from the template
   html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
@@ -80,13 +68,13 @@ Dir['./tools/*.json'].each do |file|
 
   # get text and links for checking
   Spelling.find_text_from_html html
-  tool_groups.each do |group|
+  page.groups.each do |group|
     Link.found_urls group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
   end
   Link.find_urls_from_html page_text
 
   # all done, output html file
-  output_path  = "dist/#{page_id}.html"
+  output_path  = "dist/#{page.id}.html"
   File.write output_path, html
   puts "  saved to #{output_path}"
 

@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title><%= page_id.capitalize %> search | <%= site_name %></title>
+    <title><%= page.id.capitalize %> search | <%= site_name %></title>
     <%#<meta name="description" content="" />%>
     <%# add meta description to spell checking %>
     <style><%= css %></style>
@@ -10,50 +10,92 @@
 
   <body>
 
-    <div>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div class="inner"><div id="adsense_responsive">
+      <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2114379926" data-ad-format="auto"></ins>
+    </div></div>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-      <h1><%= site_name %>: <%= page_id.capitalize %> search</h1>
+    <h1 class="sr-only"><%= site_name %>: <%= page.id.capitalize %> search</h1>
 
-      <form action="/" target="_blank">
+    <div><div class="inner" style="float:right"><a href="#footer">About</a></div></div>
 
+    <form id="search" action="/" target="_blank">
+
+      <div class="highlight">
         <div>
           <label>
             Search for
             <input type="text">
           </label>
-          using…
+          to find <%= page.id %> and more using:
         </div>
-
-        <ul>
-        <% tool_groups.each do |group| %>
-          <li><div>
-            <h2><%= group.name %></h2>
-            <ul>
-            <% group.tools.each do |tool| %>
-              <li>
-                <button
-                  name="s"
-                  value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>"
-                  <%= "data-post=\"#{tool.post}\"" if tool.post %>
-                  <%= 'class="long"' if tool.nameIsLong %>
-                  >
-                  <%= tool.name %>
-                </button>
-              </li>
-            <% end %>
-            </ul>
-          </div></li>
-        <% end %>
-        </ul>
-
-      </form>
-
-      <div id="detail">
-        <h2>Details and further resources</h2>
-        <%= page_text %>
       </div>
 
+      <h2 class="sr-only">Search tools</h2>
+      <ul class="inner">
+      <% page.groups.each do |group| %>
+        <li><div>
+          <h3>
+            <a href="#<%= group.id %>"><%= group.shortName %></a>
+          </h3>
+          <ul>
+          <% group.tools.each do |tool| %>
+            <li>
+              <button
+                name="s"
+                value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>"
+                <%= "data-post=\"#{tool.post}\"" if tool.post %>
+                >
+                <%= tool.name %>
+              </button>
+            </li>
+          <% end %>
+          </ul>
+        </div></li>
+      <% end %>
+      </ul>
+
+    </form>
+
+
+    <div class="highlight"><h2>Details and further resources</h2></div>
+    <div class="inner">
+
+      <% if page.number_of_tools > 40 %>
+      <div style="float:left;width:336px;height:280px">
+        <ins class="adsbygoogle"
+             style="width:336px;height:280px"
+             data-ad-client="ca-pub-0190441446071737"
+             data-ad-slot="2428777527"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+      <% end %>
+
+      <%= page_text
+        .gsub('<section>')
+          .with_index { |m, i| "<section id=\"#{page.groups[i].id}\"><h3>#{page.groups[i].name}</h3>" }
+        .gsub('</section>', '<p class="btt"><a href="#search">back to top ↑</a></p></section>')
+      %>
     </div>
+
+    <footer id="footer" class="highlight">
+      <div>
+        <h2>About <%= site_name %></h2>
+        <p>
+          Fagan Finder is a collection of tools to help you find anything online.
+          Launched in 2001 and still run by Michael Fagan.
+          Send suggestions to <a href="mailto:mfagan@gmail.com">mfagan@gmail.com</a>.
+        </p>
+
+        <h2>More search tools on <%= site_name %></h2>
+        <ul>
+        <% page_ids.reject{|id| id == page.id }.each do |other_page| %>
+          <li><a href="<%= other_page %>.html"><%= other_page.capitalize %></a></li>
+        <% end %>
+        </ul>
+      </div>
+    </footer>
 
     <script><%= js %></script>
 

@@ -3,117 +3,141 @@
   padding: 0;
   max-width: 100%;
 }
-
-* + * {
-  margin-top: 1em;
+button {
+  cursor: pointer;
 }
-
-body, form li {
-  margin-top: 0;
-}
-
 body {
-  text-align: center;
-  background-color: #eee;
-  font-size: 12pt;
-  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, Sans-serif;
 }
-body > div {
-  text-align: left;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 0.5em 1em;
-}
-
 input, button {
   font-family: inherit;
   font-size: inherit;
 }
-
-button {
-  cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  text-align: left;
-  width: 100%;
-  padding: 0.1em 0.3em;
+$readingwidth: 50em;
+p, section li {
+  font-family: Georgia, "Times New Roman", Serif;
+  max-width: $readingwidth;
+  a {
+    white-space: nowrap;
+  }
 }
-button:hover {
-  background-color: #ccc;
+$p_space: 0.8em;
+p {
+  margin: $p_space 0;
+}
+section ul {
+  margin: $p_space 0 ($p_space * 1.5) 1.5em;
+}
+section li {
+  margin: ($p_space * 0.8) 0;
+}
+
+.sr-only {
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+
+h1, h2, h3 {
+  font-size: 1em;
 }
 
 input {
   width: 20em;
 }
-input {
-  padding: 0.3em;
+
+body, .highlight {
+  text-align: center;
 }
 
-$columnwidth: 10em;
-
-form ul {
-  list-style-type: none;
-}
-form > ul {
-  column-width: $columnwidth;
-  font-size: 0.9em;
-}
-li ul {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-li div {
-  display: inline-block;
-  width: 100%;
-  max-width: $columnwidth;
-}
-li li {
-  margin: 0.2em 0;
+.highlight > *, .inner {
+  padding: 0 0.8em;
+  text-align: left;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h1 {
-  font-size: 1em;
-}
-h2 {
-  font-size: 1.1em;
-}
-h3 {
-  font-size: 1em;
+.highlight {
+  background-color: #bce0ba;
 }
 
-a {
-  white-space: nowrap;
-}
-
-#detail {
-  $readingwidth: 50em;
-  $listpadding: 2em;
-  p {
-    max-width: $readingwidth;
-  }
-  li {
-    max-width: $readingwidth - $listpadding;
-  }
+form {
   ul {
-    padding-left: $listpadding;
+    list-style-type: none;
   }
-  div {
-    margin-top: 0;
-  }
-  p {
-    margin-top: 0.6em;
-  }
-  li + li, p + ul {
-    margin-top: 0.3em;
-  }
-  a:not([href^="#"]) {
-    font-weight: bold;
+  > ul {
+    column-width: 10em;
+    line-height: 1em;
     font-size: 0.9em;
+    margin: 0.2em 0 0.5em 0;
+  }
+}
+li {
+  div {
+    display: inline-block;
+    width: 100%;
+    margin: 0.3em 0;
+  }
+}
+button {
+  width: 100%;
+  text-align: left;
+  padding: 0 0.5em;
+  margin: 0.08em 0;
+  font-size: 0.75em;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  &:hover {
+    color: white;
+    background-color: #555;
   }
 }
 
-.long {
-  font-size: 0.9em;
+
+section {
+  margin: 1.5em 0;
+  clear: both; /* around adsense */
+  h3 {
+    font-size: 1.2em;
+  }
+}
+section + section {
+  margin-top: 3em;
+}
+
+.btt {
+  margin-top: 1.5em;
+  a {
+    font-size: 0.8em;
+  }
+}
+
+.adsbygoogle {
+  display: inline-block;
+}
+#adsense_responsive {
+  width: 320px;
+  height: 100px;
+  margin-bottom: 0.5em;
+  > .adsbygoogle {
+    display: block;
+  }
+}
+@media(min-width: 500px) {
+  #adsense_responsive {
+    width: 468px;
+    height: 60px;
+  }
+}
+@media(min-width: 800px) {
+  #adsense_responsive {
+    width: 728px;
+    height: 90px;
+  }
 }

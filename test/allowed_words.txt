@@ -28,6 +28,7 @@ GifMe
 GIFs
 Giphy
 Globo
+gmail
 Goodreads
 GroupSpaces
 Howcast
@@ -46,6 +47,7 @@ Meetup
 MeFeedia
 Metacafe
 Metacritic
+mfagan
 mibbit
 Moviefone
 Mubi
@@ -74,7 +76,6 @@ Slofile
 SnagFilms
 Starz
 Subreddit
-TAF
 TeacherTube
 TEDx
 TheTVDB

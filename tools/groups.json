@@ -70,11 +70,11 @@
         "searchUrl": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword={searchTerms}"
       },
       {
-        "name": "<abbr title=\"Trade Association Forum\">TAF</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
+        "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum (<abbr title=\"United Kingdom\">UK</abbr>)",
         "searchUrl": "http://www.taforum.org/Members/search/{searchTerms}"
       },
       {
-        "name": "<abbr title=\"Government\">Gov.</abbr> of Canada",
+        "name": "Government of Canada",
         "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField={searchTerms}"
       }
     ]

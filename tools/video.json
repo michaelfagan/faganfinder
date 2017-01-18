@@ -88,7 +88,7 @@
     ]
   },
   {
-    "name": "Movies and <abbr title=\"television and web series\">series</abbr>",
+    "name": "Movies and series",
     "tools": [
       {
         "name": "Tubi TV",
@@ -166,7 +166,7 @@
         "searchUrl": "http://www.bbc.co.uk/iplayer/search?q={searchTerms}"
       },
       {
-        "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">US</abbr>)",
+        "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
         "searchUrl": "http://www.pbs.org/search/?q={searchTerms}"
       },
       {
@@ -297,7 +297,7 @@
         "searchUrl": "http://documentaryheaven.com/find/?q={searchTerms}"
       },
       {
-        "name": "Top <abbr title=\"Documentary\">Doc.</abbr> Films",
+        "name": "Top Documentary Films",
         "searchUrl": "http://topdocumentaryfilms.com/search/?results={searchTerms}"
       },
       {
@@ -306,8 +306,7 @@
       },
       {
         "name": "FreeDocumentaries.org",
-        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}",
-        "nameIsLong": true
+        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}"
       },
       {
         "name": "Documentary Storm",
@@ -404,13 +403,14 @@
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
       },
       {
-        "name": "Google (<abbr title=\"closed captions\">captions</abbr>)",
+        "name": "Google, with <abbr title=\"closed captions\">captions</abbr>",
         "searchUrl": "https://www.google.com/search?tbm=vid&tbs=cc:1&q={searchTerms}"
       }
     ]
   },
   {
-    "name": "Movie/TV info",
+    "name": "Movie/TV information",
+    "shortName": "Movie/TV info",
     "tools": [
       {
         "name": "<abbr title=\"Internet Movie Database\">IMDb</abbr>",
@@ -463,8 +463,7 @@
       },
       {
         "name": "Common Sense Media",
-        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}",
-        "nameIsLong": true
+        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}"
       },
       {
         "name": "Kids-in-Mind",
@@ -500,8 +499,7 @@
     "tools": [
       {
         "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
-        "searchUrl": "http://www.fandango.com/search?q={searchTerms}",
-        "nameIsLong": true
+        "searchUrl": "http://www.fandango.com/search?q={searchTerms}"
       },
       {
         "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
