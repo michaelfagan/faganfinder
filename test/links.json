@@ -559,6 +559,15 @@
     "status": "301"
   },
   {
+    "url": "https://www.opened.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.opened.com/search?resource_type=video&descriptive=test",
+    "status": "301",
+    "redirect": "https://www.opened.com/search"
+  },
+  {
     "url": "https://www.overdrive.com/",
     "status": "301"
   },

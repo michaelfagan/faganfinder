@@ -276,6 +276,10 @@
         "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={searchTerms}"
       },
       {
+        "name": "OpenEd",
+        "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={searchTerms}"
+      },
+      {
         "name": "WatchKnowLearn",
         "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={searchTerms}"
       },
