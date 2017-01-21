@@ -20,6 +20,10 @@ p, section li {
   max-width: $readingwidth;
   a {
     white-space: nowrap;
+    &[href^="h"] {
+      font-weight: bold;
+      font-size: 0.9em;
+    }
   }
 }
 $p_space: 0.8em;
