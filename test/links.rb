@@ -1,5 +1,3 @@
-# invalid URLs are caught before they are added to @@urls_found
-
 require 'uri'
 require 'net/http'
 require 'json'
@@ -8,6 +6,16 @@ class Link
 
   @@urls_found # to hold queue to be handled by self.update
   @@links_path = 'test/links.json'
+
+  def self.valid_format?(url)
+    valid = false
+    begin
+      parsed = URI.parse url
+      valid = true if !parsed.host.nil? && parsed.is_a?(URI::HTTP)
+    rescue
+    end
+    valid
+  end
 
   def self.read_links_file
     JSON.parse File.read(@@links_path)
@@ -31,17 +39,14 @@ class Link
     @@urls_found.concat urls
   end
 
-  def self.find_urls_from_html(html)
-    found_urls URI.extract(html, /http(s)?/).map{|u| u.gsub('&amp;', '&')}
-  end
 
   # take the links which have been found,
   # 1) if they are new, check them and save the info
   # 2) if there are saved links that were not found, remove them
   def self.update
     @@urls_found.uniq!
-    existing_links = read_links_file
-    existing_links.delete_if do |link|
+    urls = read_links_file
+    urls.delete_if do |link|
       if @@urls_found.include? link['url']
         @@urls_found.delete link['url']
         false
@@ -49,17 +54,25 @@ class Link
         true
       end
     end
-    existing_links.concat @@urls_found.map{|u| check u}
-    existing_links.sort_by! do |l|
+    urls.concat @@urls_found.map{|u| check u}
+
+    # check for invalid urls
+    urls = urls.partition{|u| valid_format? u['url'] }
+    if urls[1].length > 0
+      raise 'invalid URL(s): ' + urls[1].map{|u| u['url']}.join("\n")
+    end
+    urls = urls[0]
+
+    urls.sort_by! do |l|
       # keep a consistent ordering
       u = URI.parse l['url']
       u.host.split('.').reverse.join + u.path + (u.query || '') + (u.fragment || '') + u.scheme
     end
-    write_links_file existing_links
+    write_links_file urls
   end
 
-  def self.check(url)
-    puts "checking #{url}"
+  def self.check(url, debug = false)
+    puts "checking #{url}" if debug
     result = { 'url' => url }
     parsed = URI.parse url
     begin
@@ -76,7 +89,7 @@ class Link
   end
 
   def self.check_all
-    links = read_links_file.map{|l| check l['url']}
+    links = read_links_file.map{|l| check l['url'], true}
     write_links_file links
   end
 

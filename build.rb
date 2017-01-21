@@ -61,10 +61,7 @@ Page.ids.each do |pid|
 
   # get text and links for checking
   Spelling.find_text_from_html html
-  page.groups.each do |group|
-    Link.found_urls group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
-  end
-  Link.find_urls_from_html page.content
+  Link.found_urls page.external_links
 
   # all done, output html file
   output_path  = "dist/#{page.id}.html"
@@ -73,6 +70,10 @@ Page.ids.each do |pid|
 
 end
 
-# check links and spelling
-Link.update
+# check spelling and links
 Spelling.check
+begin
+  Link.update
+rescue Exception => e
+  has_error e.message
+end
