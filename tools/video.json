@@ -260,15 +260,6 @@
     ]
   },
   {
-    "name": "Music video",
-    "tools": [
-      {
-        "name": "Vevo",
-        "searchUrl": "https://www.vevo.com/search?q={searchTerms}"
-      }
-    ]
-  },
-  {
     "name": "Educational",
     "tools": [
       {
@@ -400,8 +391,25 @@
     ]
   },
   {
+    "name": "Commercials",
+    "tools": [
+      {
+        "name": "Creativity Online",
+        "searchUrl": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase={searchTerms}"
+      },
+      {
+        "name": "Adland",
+        "searchUrl": "https://adland.tv/search/node/{searchTerms}"
+      }
+    ]
+  },
+  {
     "name": "Other video",
     "tools": [
+      {
+        "name": "Vevo (music video)",
+        "searchUrl": "https://www.vevo.com/search?q={searchTerms}"
+      },
       {
         "name": "Home Movie Registry",
         "searchUrl": "http://homemovieregistry.org/wp/search/#search/text={searchTerms}"

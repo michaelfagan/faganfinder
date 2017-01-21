@@ -134,6 +134,14 @@
     "status": "200"
   },
   {
+    "url": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase=test",
+    "status": "200"
+  },
+  {
+    "url": "http://creativity-online.com/tv",
+    "status": "200"
+  },
+  {
     "url": "http://www.dailymotion.com/",
     "status": "302",
     "redirect": "/ca-en"
@@ -1195,6 +1203,14 @@
     "url": "https://rutube.ru/search/?query=test",
     "status": "301",
     "redirect": "https://rutube.ru/search/"
+  },
+  {
+    "url": "http://adland.tv/commercials",
+    "status": "200"
+  },
+  {
+    "url": "https://adland.tv/search/node/test",
+    "status": "200"
   },
   {
     "url": "https://www.periscope.tv/",
