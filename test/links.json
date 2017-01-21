@@ -853,6 +853,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.whatismymovie.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.whatismymovie.com/results?text=test",
+    "status": "200"
+  },
+  {
     "url": "http://www.wikia.com/Special:Search?search=test",
     "status": "200"
   },
@@ -1100,6 +1108,15 @@
     "url": "https://freedocumentaries.org/search?q=test",
     "status": "301",
     "redirect": "https://freedocumentaries.org/search"
+  },
+  {
+    "url": "http://homemovieregistry.org/",
+    "status": "301",
+    "redirect": "http://www.homemovieregistry.org/wp"
+  },
+  {
+    "url": "http://homemovieregistry.org/wp/search/#search/text=test",
+    "status": "200"
   },
   {
     "url": "https://www.khanacademy.org/",

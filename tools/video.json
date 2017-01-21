@@ -403,6 +403,10 @@
     "name": "Other video",
     "tools": [
       {
+        "name": "Home Movie Registry",
+        "searchUrl": "http://homemovieregistry.org/wp/search/#search/text={searchTerms}"
+      },
+      {
         "name": "YouTube channels",
         "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
       },
@@ -447,6 +451,10 @@
       {
         "name": "TheTVDB.com",
         "searchUrl": "http://thetvdb.com/?tab=listseries&function=Search&string={searchTerms}"
+      },
+      {
+        "name": "What is my movie?",
+        "searchUrl": "http://www.whatismymovie.com/results?text={searchTerms}"
       },
       {
         "name": "TV Tropes",
