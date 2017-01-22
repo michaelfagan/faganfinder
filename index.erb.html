@@ -11,14 +11,14 @@
   <body class="no-js">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <div class="inner"><div id="adsense_responsive">
-      <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2114379926" data-ad-format="auto"></ins>
+    <div class="inner"><div style="margin-bottom:0.5em">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2114379926" data-ad-format="auto"></ins>
     </div></div>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
     <h1 class="sr-only"><%= site[:name] %>: <%= page.id.capitalize %> search</h1>
 
-    <div><div class="inner oneline"><a href="#footer">About</a></div></div>
+    <div><div class="inner oneline"><a href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
     <form id="search" action="/" target="_blank">
 
@@ -28,7 +28,7 @@
             Search for
             <input type="text">
           </label>
-          <span>to find <%= page.id %> and more using:</span>
+          <span style="white-space:nowrap">to find <%= page.id %> and more using:</span>
         </div>
       </div>
 
@@ -64,9 +64,9 @@
     <div class="inner">
 
       <% if page.number_of_tools > 40 %>
-      <div style="float:left;width:336px;height:280px">
+      <div style="float:left;margin-right:1em">
         <ins class="adsbygoogle"
-             style="width:336px;height:280px"
+             style="display:inline-block;width:336px;height:280px;"
              data-ad-client="ca-pub-0190441446071737"
              data-ad-slot="2428777527"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
@@ -79,8 +79,8 @@
       %>
     </div>
 
-    <footer id="footer" class="highlight">
-      <section>
+    <footer id="footer" class="highlight" style="padding:1em 0">
+      <section style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
         <% Page.ids.reject{|id| id == page.id }.each do |other_page| %>

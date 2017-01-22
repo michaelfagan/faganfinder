@@ -4,6 +4,8 @@ $readingwidth: 50em;
 $p_space: 0.8em;
 $highlight: #bce0ba;
 
+
+/* generic styles */
 * {
   margin: 0;
   padding: 0;
@@ -25,10 +27,6 @@ p, section li {
   max-width: $readingwidth;
   a {
     white-space: nowrap;
-    &[href^="h"] {
-      font-weight: bold;
-      font-size: 0.9em;
-    }
   }
 }
 p {
@@ -40,6 +38,9 @@ section ul {
 section li {
   margin: ($p_space * 0.8) 0;
 }
+h1, h2, h3 {
+  font-size: 1em;
+}
 
 .sr-only {
   clip: rect(0, 0, 0, 0);
@@ -50,18 +51,10 @@ section li {
 }
 
 
-h1, h2, h3 {
-  font-size: 1em;
-}
-
-input {
-  width: 20em;
-}
-
+/* set up set up overall layout/width */
 body, .highlight {
   text-align: center;
 }
-
 .highlight > *, .inner {
   padding: 0 0.8em;
   text-align: left;
@@ -69,14 +62,30 @@ body, .highlight {
   margin-right: auto;
   margin-left: auto;
 }
-
 .highlight {
   background-color: $highlight;
 }
+.oneline {
+  /*
+    ensures that the two highlight areas have the same height
+    and the 'about' link is aligned the same way
+  */
+  line-height: 2em;
+}
 
+
+
+
+
+
+/* search form */
+input {
+  width: 20em;
+}
 form ul {
   list-style-type: none;
 }
+
 @media(min-width: $non_mobile) {
   form > ul {
     column-width: 10em;
@@ -85,13 +94,17 @@ form ul {
     margin: 0.2em 0 0.5em 0;
   }
 }
-
-li {
-  > div {
-    display: inline-block;
-    width: 100%;
-    margin: 0.3em 0;
-  }
+li > div {
+  display: inline-block;
+  width: 100%;
+  margin: 0.3em 0;
+}
+form ul div div {
+  /*
+    the second link to the details for each section,
+    only needed for mobile
+   */
+  display: none;
 }
 button {
   width: 100%;
@@ -107,8 +120,53 @@ button {
     background-color: #555;
   }
 }
+@media(max-width: $mobile) {
+  .has-js {
+    li > div {
+      /* since they are collapsed, need more space between each */
+      margin: ($p_space / 2) 0;
+    }
+    h3 a {
+      display: block;
+      text-decoration: none; /* undo link underline */
+      color: inherit; /* undo link colour */
+      &:before {
+        content: '\25B6\00A0'; /* right arrow */
+      }
+      &:hover {
+        color: darken($highlight, 50%);
+      }
+    }
+    form > ul {
+      margin: 1em 0;
+    }
+    form > ul ul { /* hide each section until active */
+      display: none;
+    }
+    .active {
+      ul {
+        display: block;
+        margin: 0.5em 0;
+        margin-left: 1em;
+      }
+      h3 a:before {
+        content: '\25BC\00A0'; /* down arrow */
+      }
+      div {
+        display: block; /* i.e. show */
+        margin-left: 1em; /* matches ul left margin above */
+      }
+    }
+    button {
+      /* unset button styles set above */
+      font-size: 1em;
+      margin: 0.2em 0;
+    }
+  }
+}
 
 
+/* details section */
 section {
   margin: 1.5em 0;
   clear: both; /* around adsense */
@@ -119,86 +177,15 @@ section {
 section + section {
   margin-top: 3em;
 }
-
 .btt {
+  /* back to top links */
   margin-top: 1.5em;
   a {
     font-size: 0.8em;
   }
 }
-
-.adsbygoogle {
-  display: inline-block;
-}
-#adsense_responsive {
-  margin-bottom: 0.5em;
-  > .adsbygoogle {
-    display: block;
-  }
-}
-
-footer {
-  padding: 1em 0;
-  section:first-child {
-    margin-top: 0;
-  }
-}
-
-a[href="#footer"] {
-  display: block;
-  float: right;
-  margin-left: 1.5em;
-}
-.oneline {
-  line-height: 2em;
-}
-.highlight span {
-  white-space: nowrap;
-}
-
-
-@media(max-width: $mobile) {
-  .has-js form {
-    > ul {
-      ul {
-        display: none;
-        margin: 0.5em 0;
-      }
-      > li > div {
-        margin: ($p_space / 2) 0;
-      }
-      h3 a {
-        display: block;
-        text-decoration: none;
-        color: inherit;
-        &:before {
-          content: '\25B6\00A0';
-        }
-        &:hover {
-          color: darken($highlight, 50%);
-        }
-      }
-    }
-    .active {
-      ul, div {
-        margin-left: 1em;
-      }
-      ul {
-        display: block;
-      }
-      h3 a:before {
-        content: '\25BC\00A0';
-      }
-      div {
-        display: block;
-      }
-    }
-    button {
-      font-size: 1em;
-      margin: 0.2em 0;
-    }
-  }
-}
-form ul div div {
-  display: none;
+a[href^="h"] {
+  /* external links */
+  font-weight: bold;
+  font-size: 0.9em;
 }
