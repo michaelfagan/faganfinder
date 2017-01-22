@@ -18,12 +18,12 @@
 
     <h1 class="sr-only"><%= site_name %>: <%= page.id.capitalize %> search</h1>
 
-    <div><div class="inner" style="float:right"><a href="#footer">About</a></div></div>
+    <div><div class="inner oneline"><a href="#footer">About</a></div></div>
 
     <form id="search" action="/" target="_blank">
 
       <div class="highlight">
-        <div>
+        <div class="oneline">
           <label>
             Search for
             <input type="text">
@@ -59,7 +59,7 @@
     </form>
 
 
-    <div class="highlight"><h2>Details and further resources</h2></div>
+    <div class="highlight"><h2 class="oneline">Details and further resources</h2></div>
     <div class="inner">
 
       <% if page.number_of_tools > 40 %>

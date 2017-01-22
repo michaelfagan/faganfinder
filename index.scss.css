@@ -107,7 +107,7 @@ button {
 section {
   margin: 1.5em 0;
   clear: both; /* around adsense */
-  h3 {
+  h2, h3 {
     font-size: 1.2em;
   }
 }
@@ -148,4 +148,12 @@ section + section {
 
 footer {
   padding: 1em 0;
+}
+
+a[href="#footer"] {
+  display: block;
+  float: right;
+}
+.oneline {
+  line-height: 2em;
 }
