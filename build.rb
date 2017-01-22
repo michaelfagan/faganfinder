@@ -30,8 +30,10 @@ rescue Exception => e
   has_error "JavaScript error: #{e.message}"
 end
 
-
-site_name = 'Fagan Finder'
+site = {
+  name: 'Fagan Finder',
+  email: 'mfagan@gmail.com'
+}
 
 text = '' # to contain text from all pages for spell checking
 

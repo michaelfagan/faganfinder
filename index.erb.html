@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <title><%= page.id.capitalize %> search | <%= site_name %></title>
+    <title><%= page.id.capitalize %> search | <%= site[:name] %></title>
     <%#<meta name="description" content="" />%>
     <%# add meta description to spell checking %>
     <style><%= css %></style>
@@ -16,7 +16,7 @@
     </div></div>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-    <h1 class="sr-only"><%= site_name %>: <%= page.id.capitalize %> search</h1>
+    <h1 class="sr-only"><%= site[:name] %>: <%= page.id.capitalize %> search</h1>
 
     <div><div class="inner oneline"><a href="#footer">About</a></div></div>
 
@@ -80,7 +80,7 @@
 
     <footer id="footer" class="highlight">
       <section>
-        <h2>More search tools on <%= site_name %></h2>
+        <h2>More search tools on <%= site[:name] %></h2>
         <ul>
         <% Page.ids.reject{|id| id == page.id }.each do |other_page| %>
           <li><a href="<%= other_page %>.html"><%= other_page.capitalize %></a></li>
@@ -89,11 +89,11 @@
       </section>
 
       <section>
-        <h2>About <%= site_name %></h2>
+        <h2>About <%= site[:name] %></h2>
         <p>
-          Fagan Finder is a collection of tools to help you find anything online.
+          <%= site[:name] %> is a collection of tools to help you find anything online.<br>
           Launched in 2001 and still run by Michael Fagan.
-          Send suggestions to <a href="mailto:mfagan@gmail.com">mfagan@gmail.com</a>.
+          Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>
       </section>
 

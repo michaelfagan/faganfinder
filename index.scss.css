@@ -148,6 +148,9 @@ section + section {
 
 footer {
   padding: 1em 0;
+  section:first-child {
+    margin-top: 0;
+  }
 }
 
 a[href="#footer"] {
