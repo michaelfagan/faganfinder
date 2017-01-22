@@ -1,3 +1,9 @@
+$mobile: 580px;
+$non_mobile: $mobile + 1px;
+$readingwidth: 50em;
+$p_space: 0.8em;
+$highlight: #bce0ba;
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +20,6 @@ input, button {
   font-family: inherit;
   font-size: inherit;
 }
-$readingwidth: 50em;
 p, section li {
   font-family: Georgia, "Times New Roman", Serif;
   max-width: $readingwidth;
@@ -26,7 +31,6 @@ p, section li {
     }
   }
 }
-$p_space: 0.8em;
 p {
   margin: $p_space 0;
 }
@@ -67,22 +71,23 @@ body, .highlight {
 }
 
 .highlight {
-  background-color: #bce0ba;
+  background-color: $highlight;
 }
 
-form {
-  ul {
-    list-style-type: none;
-  }
-  > ul {
+form ul {
+  list-style-type: none;
+}
+@media(min-width: $non_mobile) {
+  form > ul {
     column-width: 10em;
     line-height: 1em;
     font-size: 0.9em;
     margin: 0.2em 0 0.5em 0;
   }
 }
+
 li {
-  div {
+  > div {
     display: inline-block;
     width: 100%;
     margin: 0.3em 0;
@@ -149,4 +154,51 @@ a[href="#footer"] {
 }
 .highlight span {
   white-space: nowrap;
+}
+
+
+@media(max-width: $mobile) {
+  .has-js form {
+    > ul {
+      ul {
+        display: none;
+        margin: 0.5em 0;
+      }
+      > li > div {
+        margin: ($p_space / 2) 0;
+      }
+      h3 a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+        &:before {
+          content: '\25B6\00A0';
+        }
+        &:hover {
+          color: darken($highlight, 50%);
+        }
+      }
+    }
+    .active {
+      ul, div {
+        margin-left: 1em;
+      }
+      ul {
+        display: block;
+      }
+      h3 a:before {
+        content: '\25BC\00A0';
+      }
+      div {
+        display: block;
+      }
+    }
+    button {
+      font-size: 1em;
+      margin: 0.2em 0;
+    }
+  }
+}
+form ul div div {
+  display: none;
 }

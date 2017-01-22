@@ -37,15 +37,34 @@ form.addEventListener('submit', function(e) {
     }
   }
   e.preventDefault();
-  return false;
 });
 
 // click on a button to search
 form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
-  if (e.target.tagName.toLowerCase() === 'button') {
+  var tag = e.target.tagName.toLowerCase();
+  var ptag = e.target.parentNode.tagName.toLowerCase();
+  if (tag === 'button') {
     setTool(e.target);
   }
-  else if (e.target.parentNode.tagName.toLowerCase() === 'button') {
+  else if (ptag === 'button') {
     setTool(e.target.parentNode);
   }
+  else if (tag === 'a' && ptag === 'h3') {
+    var sections = form.getElementsByTagName('ul')[0].getElementsByTagName('ul');
+    if (window.getComputedStyle(sections[0]).display === 'none' || window.getComputedStyle(sections[1]).display === 'none') {
+      var div = e.target.parentNode.parentNode;
+      if (div.classList.contains('active')) {
+        div.classList.remove('active');
+      }
+      else {
+        var active = form.getElementsByClassName('active');
+        if (active.length > 0) {
+          active[0].classList.remove('active');
+        }
+        div.classList.add('active');
+      }
+      e.preventDefault();
+    }
+  }
+
 });
