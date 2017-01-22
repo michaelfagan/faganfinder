@@ -15,7 +15,7 @@
         "searchUrl": "https://groups.yahoo.com/neo/search?query={searchTerms}"
       },
       {
-        "name": "LinkedIn",
+        "name": "LinkedIn Groups",
         "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={searchTerms}"
       },
       {

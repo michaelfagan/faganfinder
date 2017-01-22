@@ -145,3 +145,7 @@ section + section {
     height: 90px;
   }
 }
+
+footer {
+  padding: 1em 0;
+}

@@ -79,21 +79,24 @@
     </div>
 
     <footer id="footer" class="highlight">
-      <div>
-        <h2>About <%= site_name %></h2>
-        <p>
-          Fagan Finder is a collection of tools to help you find anything online.
-          Launched in 2001 and still run by Michael Fagan.
-          Send suggestions to <a href="mailto:mfagan@gmail.com">mfagan@gmail.com</a>.
-        </p>
-
+      <section>
         <h2>More search tools on <%= site_name %></h2>
         <ul>
         <% Page.ids.reject{|id| id == page.id }.each do |other_page| %>
           <li><a href="<%= other_page %>.html"><%= other_page.capitalize %></a></li>
         <% end %>
         </ul>
-      </div>
+      </section>
+
+      <section>
+        <h2>About <%= site_name %></h2>
+        <p>
+          Fagan Finder is a collection of tools to help you find anything online.
+          Launched in 2001 and still run by Michael Fagan.
+          Send suggestions to <a href="mailto:mfagan@gmail.com">mfagan@gmail.com</a>.
+        </p>
+      </section>
+
     </footer>
 
     <script><%= js %></script>
