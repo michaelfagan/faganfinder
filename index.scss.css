@@ -126,23 +126,9 @@ section + section {
   display: inline-block;
 }
 #adsense_responsive {
-  width: 320px;
-  height: 100px;
   margin-bottom: 0.5em;
   > .adsbygoogle {
     display: block;
-  }
-}
-@media(min-width: 500px) {
-  #adsense_responsive {
-    width: 468px;
-    height: 60px;
-  }
-}
-@media(min-width: 800px) {
-  #adsense_responsive {
-    width: 728px;
-    height: 90px;
   }
 }
 
@@ -156,7 +142,11 @@ footer {
 a[href="#footer"] {
   display: block;
   float: right;
+  margin-left: 1.5em;
 }
 .oneline {
   line-height: 2em;
+}
+.highlight span {
+  white-space: nowrap;
 }
