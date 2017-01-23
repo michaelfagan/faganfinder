@@ -81,6 +81,7 @@ body, .highlight {
 /* search form */
 input {
   width: 20em;
+  padding: 0 0.2em;
 }
 form ul {
   list-style-type: none;
@@ -188,4 +189,13 @@ a[href^="h"] {
   /* external links */
   font-weight: bold;
   font-size: 0.9em;
+}
+.has-js #adtwo {
+  float: left;
+  margin-right: 1em;
+  > ins {
+    width: 336px;
+    height: 280px;
+    display: inline-block;
+  }
 }

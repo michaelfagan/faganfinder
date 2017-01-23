@@ -20,13 +20,13 @@
 
     <div><div class="inner oneline"><a href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
-    <form id="search" action="/" target="_blank">
+    <form id="search" action="/search" target="_blank">
 
       <div class="highlight">
         <div class="oneline">
           <label>
             Search for
-            <input type="text">
+            <input type="text" name="q">
           </label>
           <span style="white-space:nowrap">to find <%= page.id %> and more using:</span>
         </div>
@@ -42,13 +42,11 @@
           <ul>
           <% group.tools.each do |tool| %>
             <li>
-              <button
-                name="s"
-                value="<%= tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{s}') %>"
-                <%= "data-post=\"#{tool.post}\"" if tool.post %>
-                >
-                <%= tool.name %>
-              </button>
+              <%
+                su = tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{q}')
+                su = "#{tool.post}|x|#{su}" if tool.post
+              %>
+              <button name="u" value="<%= su %>"><%= tool.name %></button>
             </li>
           <% end %>
           </ul>
@@ -64,11 +62,8 @@
     <div class="inner">
 
       <% if page.number_of_tools > 40 %>
-      <div style="float:left;margin-right:1em">
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:336px;height:280px;"
-             data-ad-client="ca-pub-0190441446071737"
-             data-ad-slot="2428777527"></ins>
+      <div id="adtwo">
+        <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2428777527"></ins>
         <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
       <% end %>

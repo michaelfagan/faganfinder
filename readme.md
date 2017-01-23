@@ -18,7 +18,7 @@ See http://www.faganfinder.com/
     * search tools in `tools/*.json`
     * content in `tools/*.html`
     * page template in `index.erb.html`
-    * CSS in `index.scss.css`
+    * CSS in `index.scss.css` and some inline in the HTML
     * JavaScript in `index.js`
 3. `ruby build.rb`
 4. fix any errors reported and repeat step 3

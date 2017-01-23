@@ -10,14 +10,15 @@ var form = document.forms[0];
 form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"><input></form>');
 
 function setTool(button) {
-  var post = button.getAttribute('data-post');
-  form.setAttribute('data-post', post);
-  if (post) {
-    document.forms[1].setAttribute('action', button.getAttribute('value'));
-    document.forms[1].elements[0].setAttribute('name', post);
+  var u = button.getAttribute('value');
+  var tmp = u.split('|x|');
+  form.setAttribute('data-post', tmp.length > 1);
+  if (tmp.length > 1) {
+    document.forms[1].setAttribute('action', tmp[1]);
+    document.forms[1].elements[0].setAttribute('name', tmp[0]);
   }
   else {
-    form.setAttribute('data-s', button.getAttribute('value'));
+    form.setAttribute('data-s', u);
   }
 }
 
@@ -28,12 +29,12 @@ setTool(form.elements[1]);
 form.addEventListener('submit', function(e) {
   var q = form.elements[0].value;
   if (q.length) {
-    if (form.getAttribute('data-post') !== 'null') {
+    if (form.getAttribute('data-post') === 'true') {
       document.forms[1].elements[0].setAttribute('value', q);
       document.forms[1].submit();
     }
     else {
-      open(form.getAttribute('data-s').replace('{s}', encodeURIComponent(q)));
+      open(form.getAttribute('data-s').replace('{q}', encodeURIComponent(q)));
     }
   }
   e.preventDefault();
