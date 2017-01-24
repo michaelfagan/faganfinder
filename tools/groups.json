@@ -4,39 +4,39 @@
     "tools": [
       {
         "name": "Facebook Groups",
-        "searchUrl": "https://www.facebook.com/search/groups/?q={searchTerms}"
+        "searchUrl": "https://www.facebook.com/search/groups/?q={q}"
       },
       {
         "name": "Google Groups",
-        "searchUrl": "https://groups.google.com/forum/#!forumsearch/{searchTerms}"
+        "searchUrl": "https://groups.google.com/forum/#!forumsearch/{q}"
       },
       {
         "name": "Yahoo! Groups",
-        "searchUrl": "https://groups.yahoo.com/neo/search?query={searchTerms}"
+        "searchUrl": "https://groups.yahoo.com/neo/search?query={q}"
       },
       {
         "name": "LinkedIn Groups",
-        "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={searchTerms}"
+        "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={q}"
       },
       {
         "name": "Reddit",
-        "searchUrl": "https://www.reddit.com/subreddits/search?q={searchTerms}"
+        "searchUrl": "https://www.reddit.com/subreddits/search?q={q}"
       },
       {
         "name": "Groups.io",
-        "searchUrl": "https://groups.io/search?q={searchTerms}"
+        "searchUrl": "https://groups.io/search?q={q}"
       },
       {
         "name": "<span title=\"Google+ Communities\">Google+</span>",
-        "searchUrl": "https://plus.google.com/s/{searchTerms}/communities"
+        "searchUrl": "https://plus.google.com/s/{q}/communities"
       },
       {
         "name": "ProBoards",
-        "searchUrl": "https://www.proboards.com/forum-directory/search/results/1?q={searchTerms}"
+        "searchUrl": "https://www.proboards.com/forum-directory/search/results/1?q={q}"
       },
       {
         "name": "Delphi Forums",
-        "searchUrl": "http://www.delphiforums.com/index.ptt?query={searchTerms}"
+        "searchUrl": "http://www.delphiforums.com/index.ptt?query={q}"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.com/search?q={searchTerms}%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op"
+        "searchUrl": "https://www.google.com/search?q={q}%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op"
       }
     ]
   },
@@ -54,11 +54,11 @@
     "tools": [
       {
         "name": "Meetup",
-        "searchUrl": "https://www.meetup.com/find/events/?keywords={searchTerms}"
+        "searchUrl": "https://www.meetup.com/find/events/?keywords={q}"
       },
       {
         "name": "GroupSpaces",
-        "searchUrl": "https://www.google.com/search?q={searchTerms}%20site%3Agroupspaces.com"
+        "searchUrl": "https://www.google.com/search?q={q}%20site%3Agroupspaces.com"
       }
     ]
   },
@@ -67,15 +67,15 @@
     "tools": [
       {
         "name": "CareerOneStop",
-        "searchUrl": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword={searchTerms}"
+        "searchUrl": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword={q}"
       },
       {
         "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum (<abbr title=\"United Kingdom\">UK</abbr>)",
-        "searchUrl": "http://www.taforum.org/Members/search/{searchTerms}"
+        "searchUrl": "http://www.taforum.org/Members/search/{q}"
       },
       {
         "name": "Government of Canada",
-        "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField={searchTerms}"
+        "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField={q}"
       }
     ]
   },
@@ -84,7 +84,7 @@
     "tools": [
       {
         "name": "Fandom (Wikia)",
-        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+        "searchUrl": "http://www.wikia.com/Special:Search?search={q}"
       }
     ]
   },
@@ -93,19 +93,19 @@
     "tools": [
       {
         "name": "Slofile (Slack)",
-        "searchUrl": "https://slofile.com/slack?q={searchTerms}"
+        "searchUrl": "https://slofile.com/slack?q={q}"
       },
       {
         "name": "Kiwi <abbr title=\"internet relay chat\">IRC</abbr>",
-        "searchUrl": "https://kiwiirc.com/search?q={searchTerms}"
+        "searchUrl": "https://kiwiirc.com/search?q={q}"
       },
       {
         "name": "mibbit (<abbr title=\"internet relay chat\">IRC</abbr>)",
-        "searchUrl": "https://search.mibbit.com/search/{searchTerms}"
+        "searchUrl": "https://search.mibbit.com/search/{q}"
       },
       {
         "name": "netsplit.de (<abbr title=\"internet relay chat\">IRC</abbr>)",
-        "searchUrl": "http://irc.netsplit.de/channels/?chat={searchTerms}"
+        "searchUrl": "http://irc.netsplit.de/channels/?chat={q}"
       }
     ]
   },
@@ -114,11 +114,11 @@
     "tools": [
       {
         "name": "DailyStrength",
-        "searchUrl": "https://www.dailystrength.org/search?type=group&query={searchTerms}"
+        "searchUrl": "https://www.dailystrength.org/search?type=group&query={q}"
       },
       {
         "name": "Psychology Today",
-        "searchUrl": "https://groups.psychologytoday.com/rms/prof_results.php?search={searchTerms}"
+        "searchUrl": "https://groups.psychologytoday.com/rms/prof_results.php?search={q}"
       }
     ]
   },
@@ -127,11 +127,11 @@
     "tools": [
       {
         "name": "Twitter lists",
-        "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={searchTerms}"
+        "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={q}"
       },
       {
         "name": "Quora topics",
-        "searchUrl": "https://www.quora.com/search?type=topic&q={searchTerms}"
+        "searchUrl": "https://www.quora.com/search?type=topic&q={q}"
       }
     ]
   },
@@ -140,15 +140,15 @@
     "tools": [
       {
         "name": "Flickr",
-        "searchUrl": "https://www.flickr.com/search/groups/?text={searchTerms}"
+        "searchUrl": "https://www.flickr.com/search/groups/?text={q}"
       },
       {
         "name": "DeviantArt",
-        "searchUrl": "http://groups.deviantart.com/?q={searchTerms}"
+        "searchUrl": "http://groups.deviantart.com/?q={q}"
       },
       {
         "name": "Goodreads",
-        "searchUrl": "http://www.goodreads.com/group/search?q={searchTerms}"
+        "searchUrl": "http://www.goodreads.com/group/search?q={q}"
       }
     ]
   }

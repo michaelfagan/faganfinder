@@ -4,23 +4,23 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.com/search?tbm=vid&q={searchTerms}"
+        "searchUrl": "https://www.google.com/search?tbm=vid&q={q}"
       },
       {
         "name": "Bing",
-        "searchUrl": "http://www.bing.com/videos/search?q={searchTerms}"
+        "searchUrl": "http://www.bing.com/videos/search?q={q}"
       },
       {
         "name": "Yandex",
-        "searchUrl": "https://www.yandex.com/video/search?text={searchTerms}"
+        "searchUrl": "https://www.yandex.com/video/search?text={q}"
       },
       {
         "name": "blinkx",
-        "searchUrl": "http://www.blinkx.com/search/{searchTerms}"
+        "searchUrl": "http://www.blinkx.com/search/{q}"
       },
       {
         "name": "MeFeedia",
-        "searchUrl": "http://www.mefeedia.com/search/{searchTerms}"
+        "searchUrl": "http://www.mefeedia.com/search/{q}"
       }
     ]
   },
@@ -29,15 +29,15 @@
     "tools": [
       {
         "name": "Twitter",
-        "searchUrl": "https://twitter.com/search?f=videos&q={searchTerms}"
+        "searchUrl": "https://twitter.com/search?f=videos&q={q}"
       },
       {
         "name": "Facebook",
-        "searchUrl": "https://www.facebook.com/search/videos/?q={searchTerms}"
+        "searchUrl": "https://www.facebook.com/search/videos/?q={q}"
       },
       {
         "name": "Vine",
-        "searchUrl": "https://vine.co/search/{searchTerms}"
+        "searchUrl": "https://vine.co/search/{q}"
       }
     ]
   },
@@ -46,27 +46,27 @@
     "tools": [
       {
         "name": "YouTube",
-        "searchUrl": "https://www.youtube.com/results?search_query={searchTerms}"
+        "searchUrl": "https://www.youtube.com/results?search_query={q}"
       },
       {
         "name": "DailyMotion",
-        "searchUrl": "http://www.dailymotion.com/us/relevance/universal/search/{searchTerms}/1"
+        "searchUrl": "http://www.dailymotion.com/us/relevance/universal/search/{q}/1"
       },
       {
         "name": "Vimeo",
-        "searchUrl": "https://vimeo.com/search?q={searchTerms}"
+        "searchUrl": "https://vimeo.com/search?q={q}"
       },
       {
         "name": "Rumble",
-        "searchUrl": "https://rumble.com/all/q/{searchTerms}/"
+        "searchUrl": "https://rumble.com/all/q/{q}/"
       },
       {
         "name": "Veoh",
-        "searchUrl": "http://www.veoh.com/find/?query={searchTerms}"
+        "searchUrl": "http://www.veoh.com/find/?query={q}"
       },
       {
         "name": "Metacafe",
-        "searchUrl": "http://www.metacafe.com/videos_about/{searchTerms}"
+        "searchUrl": "http://www.metacafe.com/videos_about/{q}"
       }
     ]
   },
@@ -75,15 +75,15 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.com/search?tbm=vid&tbs=dur:l&q={searchTerms}"
+        "searchUrl": "https://www.google.com/search?tbm=vid&tbs=dur:l&q={q}"
       },
       {
         "name": "Bing",
-        "searchUrl": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q={searchTerms}"
+        "searchUrl": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q={q}"
       },
       {
         "name": "YouTube",
-        "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={searchTerms}"
+        "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={q}"
       }
     ]
   },
@@ -92,23 +92,23 @@
     "tools": [
       {
         "name": "Tubi TV",
-        "searchUrl": "http://tubitv.com/search/{searchTerms}"
+        "searchUrl": "http://tubitv.com/search/{q}"
       },
       {
         "name": "Yahoo! View (Hulu)",
-        "searchUrl": "https://view.yahoo.com/search?query={searchTerms}"
+        "searchUrl": "https://view.yahoo.com/search?query={q}"
       },
       {
         "name": "Popcornflix",
-        "searchUrl": "http://www.popcornflix.com/search?query={searchTerms}"
+        "searchUrl": "http://www.popcornflix.com/search?query={q}"
       },
       {
         "name": "Viewster",
-        "searchUrl": "http://www.viewster.com/search/{searchTerms}/"
+        "searchUrl": "http://www.viewster.com/search/{q}/"
       },
       {
-        "name": "AOL",
-        "searchUrl": "http://www.aol.com/video/search/?q={searchTerms}"
+        "name": "AOL Video",
+        "searchUrl": "http://www.aol.com/video/search/?q={q}"
       }
     ]
   },
@@ -117,27 +117,27 @@
     "tools": [
       {
         "name": "JustWatch <abbr title=\"United States\">USA</abbr>",
-        "searchUrl": "https://www.justwatch.com/us/search?q={searchTerms}"
+        "searchUrl": "https://www.justwatch.com/us/search?q={q}"
       },
       {
         "name": "JustWatch <abbr title=\"United Kingdom\">UK</abbr>",
-        "searchUrl": "https://www.justwatch.com/uk/search?q={searchTerms}"
+        "searchUrl": "https://www.justwatch.com/uk/search?q={q}"
       },
       {
         "name": "JustWatch Canada",
-        "searchUrl": "https://www.justwatch.com/ca/search?q={searchTerms}"
+        "searchUrl": "https://www.justwatch.com/ca/search?q={q}"
       },
       {
         "name": "JustWatch Australia",
-        "searchUrl": "https://www.justwatch.com/au/search?q={searchTerms}"
+        "searchUrl": "https://www.justwatch.com/au/search?q={q}"
       },
       {
         "name": "IndieFlix",
-        "searchUrl": "https://www.indieflix.com/search/{searchTerms}"
+        "searchUrl": "https://www.indieflix.com/search/{q}"
       },
       {
         "name": "IndiePix Films",
-        "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={searchTerms}"
+        "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={q}"
       }
     ]
   },
@@ -146,15 +146,15 @@
     "tools": [
       {
         "name": "hoopla",
-        "searchUrl": "https://www.hoopladigital.com/search/{searchTerms}?kind=MOVIE"
+        "searchUrl": "https://www.hoopladigital.com/search/{q}?kind=MOVIE"
       },
       {
         "name": "OverDrive",
-        "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={searchTerms}"
+        "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={q}"
       },
       {
         "name": "Alexander Street",
-        "searchUrl": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={searchTerms}"
+        "searchUrl": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={q}"
       }
     ]
   },
@@ -163,15 +163,15 @@
     "tools": [
       {
         "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
-        "searchUrl": "http://www.bbc.co.uk/iplayer/search?q={searchTerms}"
+        "searchUrl": "http://www.bbc.co.uk/iplayer/search?q={q}"
       },
       {
         "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
-        "searchUrl": "http://www.pbs.org/search/?q={searchTerms}"
+        "searchUrl": "http://www.pbs.org/search/?q={q}"
       },
       {
         "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
-        "searchUrl": "https://www.nfb.ca/search/#?queryString={searchTerms}"
+        "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
       }
     ]
   },
@@ -180,27 +180,27 @@
     "tools": [
       {
         "name": "Internet Archive",
-        "searchUrl": "https://archive.org/details/movies?and[]={searchTerms}"
+        "searchUrl": "https://archive.org/details/movies?and[]={q}"
       },
       {
         "name": "YouTube",
-        "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={searchTerms}"
+        "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={q}"
       },
       {
         "name": "Vimeo",
-        "searchUrl": "https://vimeo.com/search?license=by-nc-nd&q={searchTerms}"
+        "searchUrl": "https://vimeo.com/search?license=by-nc-nd&q={q}"
       },
       {
         "name": "Flickr",
-        "searchUrl": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text={searchTerms}"
+        "searchUrl": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text={q}"
       },
       {
         "name": "Pixabay",
-        "searchUrl": "https://pixabay.com/en/videos/list/?image_type=video&q={searchTerms}"
+        "searchUrl": "https://pixabay.com/en/videos/list/?image_type=video&q={q}"
       },
       {
         "name": "Europeana",
-        "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={searchTerms}"
+        "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
       }
     ]
   },
@@ -209,23 +209,23 @@
     "tools": [
       {
         "name": "Associated Press",
-        "searchUrl": "http://www.aparchive.com/search?query={searchTerms}"
+        "searchUrl": "http://www.aparchive.com/search?query={q}"
       },
       {
         "name": "TV News Archive",
-        "searchUrl": "https://archive.org/details/tv?q={searchTerms}"
+        "searchUrl": "https://archive.org/details/tv?q={q}"
       },
       {
         "name": "Reuters",
-        "searchUrl": "http://www.reuters.com/search/video?blob={searchTerms}"
+        "searchUrl": "http://www.reuters.com/search/video?blob={q}"
       },
       {
         "name": "The New York Times",
-        "searchUrl": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/{searchTerms}"
+        "searchUrl": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/{q}"
       },
       {
         "name": "ABC News",
-        "searchUrl": "http://abcnews.go.com/search?r=video&searchtext={searchTerms}"
+        "searchUrl": "http://abcnews.go.com/search?r=video&searchtext={q}"
       }
     ]
   },
@@ -234,15 +234,15 @@
     "tools": [
       {
         "name": "Periscope",
-        "searchUrl": "https://www.periscope.tv/search?q={searchTerms}"
+        "searchUrl": "https://www.periscope.tv/search?q={q}"
       },
       {
         "name": "YouTube",
-        "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={searchTerms}"
+        "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={q}"
       },
       {
         "name": "Ustream",
-        "searchUrl": "http://www.ustream.tv/search?q={searchTerms}"
+        "searchUrl": "http://www.ustream.tv/search?q={q}"
       }
     ]
   },
@@ -251,11 +251,11 @@
     "tools": [
       {
         "name": "wwiTV",
-        "searchUrl": "http://swwitv.com/search.php?zoom_query={searchTerms}"
+        "searchUrl": "http://swwitv.com/search.php?zoom_query={q}"
       },
       {
         "name": "TVopedia",
-        "searchUrl": "http://www.tvopedia.com/search.php?search={searchTerms}"
+        "searchUrl": "http://www.tvopedia.com/search.php?search={q}"
       }
     ]
   },
@@ -264,23 +264,23 @@
     "tools": [
       {
         "name": "TeacherTube",
-        "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={searchTerms}"
+        "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
       },
       {
         "name": "OpenEd",
-        "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={searchTerms}"
+        "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={q}"
       },
       {
         "name": "WatchKnowLearn",
-        "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={searchTerms}"
+        "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={q}"
       },
       {
         "name": "SchoolTube",
-        "searchUrl": "http://www.schooltube.com/search/?term={searchTerms}"
+        "searchUrl": "http://www.schooltube.com/search/?term={q}"
       },
       {
         "name": "National Geographic",
-        "searchUrl": "http://video.nationalgeographic.com/search?q={searchTerms}"
+        "searchUrl": "http://video.nationalgeographic.com/search?q={q}"
       }
     ]
   },
@@ -289,23 +289,23 @@
     "tools": [
       {
         "name": "DocumentaryHeaven",
-        "searchUrl": "http://documentaryheaven.com/find/?q={searchTerms}"
+        "searchUrl": "http://documentaryheaven.com/find/?q={q}"
       },
       {
         "name": "Top Documentary Films",
-        "searchUrl": "http://topdocumentaryfilms.com/search/?results={searchTerms}"
+        "searchUrl": "http://topdocumentaryfilms.com/search/?results={q}"
       },
       {
         "name": "Reddit",
-        "searchUrl": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q={searchTerms}"
+        "searchUrl": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q={q}"
       },
       {
         "name": "FreeDocumentaries.org",
-        "searchUrl": "https://freedocumentaries.org/search?q={searchTerms}"
+        "searchUrl": "https://freedocumentaries.org/search?q={q}"
       },
       {
         "name": "Documentary Storm",
-        "searchUrl": "http://documentarystorm.com/?s={searchTerms}"
+        "searchUrl": "http://documentarystorm.com/?s={q}"
       }
     ]
   },
@@ -314,27 +314,27 @@
     "tools": [
       {
         "name": "Yovisto",
-        "searchUrl": "http://www.yovisto.com/search.jsp?q={searchTerms}"
+        "searchUrl": "http://www.yovisto.com/search.jsp?q={q}"
       },
       {
         "name": "VideoLectures.NET",
-        "searchUrl": "http://videolectures.net/site/search/?q={searchTerms}"
+        "searchUrl": "http://videolectures.net/site/search/?q={q}"
       },
       {
         "name": "CosmoLearning",
-        "searchUrl": "https://cosmolearning.org/s?cx=partner-pub-8245668095519500%3acbzrifszn1b&q={searchTerms}"
+        "searchUrl": "https://cosmolearning.org/s?cx=partner-pub-8245668095519500%3acbzrifszn1b&q={q}"
       },
       {
         "name": "Reddit",
-        "searchUrl": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q={searchTerms}"
+        "searchUrl": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q={q}"
       },
       {
         "name": "Free Video Lectures",
-        "searchUrl": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={searchTerms}"
+        "searchUrl": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={q}"
       },
       {
         "name": "LearnersTV",
-        "searchUrl": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q={searchTerms}"
+        "searchUrl": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q={q}"
       }
     ]
   },
@@ -343,15 +343,15 @@
     "tools": [
       {
         "name": "TED",
-        "searchUrl": "http://www.ted.com/search?cat=talks&q={searchTerms}"
+        "searchUrl": "http://www.ted.com/search?cat=talks&q={q}"
       },
       {
         "name": "Ignite",
-        "searchUrl": "http://www.ignitetalks.io/videos?query={searchTerms}"
+        "searchUrl": "http://www.ignitetalks.io/videos?query={q}"
       },
       {
         "name": "Big Think",
-        "searchUrl": "http://bigthink.com/search?type=video_idea&q={searchTerms}"
+        "searchUrl": "http://bigthink.com/search?type=video_idea&q={q}"
       }
     ]
   },
@@ -360,11 +360,11 @@
     "tools": [
       {
         "name": "Howcast",
-        "searchUrl": "http://www.howcast.com/?s={searchTerms}"
+        "searchUrl": "http://www.howcast.com/?s={q}"
       },
       {
         "name": "Wonder How To",
-        "searchUrl": "http://www.wonderhowto.com/search/{searchTerms}/"
+        "searchUrl": "http://www.wonderhowto.com/search/{q}/"
       }
     ]
   },
@@ -373,20 +373,20 @@
     "tools": [
       {
         "name": "Giphy",
-        "searchUrl": "http://giphy.com/search/{searchTerms}"
+        "searchUrl": "http://giphy.com/search/{q}"
       },
       {
         "name": "Tenor",
-        "searchUrl": "https://www.tenor.co/search/{searchTerms}-gifs",
+        "searchUrl": "https://www.tenor.co/search/{q}-gifs",
         "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
       },
       {
         "name": "GifMe",
-        "searchUrl": "https://gifme.io/search/q?query={searchTerms}"
+        "searchUrl": "https://gifme.io/search/q?query={q}"
       },
       {
         "name": "PopKey",
-        "searchUrl": "http://popkey.co/search/{searchTerms}"
+        "searchUrl": "http://popkey.co/search/{q}"
       }
     ]
   },
@@ -395,11 +395,11 @@
     "tools": [
       {
         "name": "Creativity Online",
-        "searchUrl": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase={searchTerms}"
+        "searchUrl": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase={q}"
       },
       {
         "name": "Adland",
-        "searchUrl": "https://adland.tv/search/node/{searchTerms}"
+        "searchUrl": "https://adland.tv/search/node/{q}"
       }
     ]
   },
@@ -408,19 +408,19 @@
     "tools": [
       {
         "name": "Vevo (music video)",
-        "searchUrl": "https://www.vevo.com/search?q={searchTerms}"
+        "searchUrl": "https://www.vevo.com/search?q={q}"
       },
       {
         "name": "Home Movie Registry",
-        "searchUrl": "http://homemovieregistry.org/wp/search/#search/text={searchTerms}"
+        "searchUrl": "http://homemovieregistry.org/wp/search/#search/text={q}"
       },
       {
         "name": "YouTube channels",
-        "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={searchTerms}"
+        "searchUrl": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q={q}"
       },
       {
         "name": "Google, with <abbr title=\"closed captions\">captions</abbr>",
-        "searchUrl": "https://www.google.com/search?tbm=vid&tbs=cc:1&q={searchTerms}"
+        "searchUrl": "https://www.google.com/search?tbm=vid&tbs=cc:1&q={q}"
       }
     ]
   },
@@ -430,43 +430,43 @@
     "tools": [
       {
         "name": "<abbr title=\"Internet Movie Database\">IMDb</abbr>",
-        "searchUrl": "http://www.imdb.com/find?q={searchTerms}"
+        "searchUrl": "http://www.imdb.com/find?q={q}"
       },
       {
         "name": "The Movie Database",
-        "searchUrl": "https://www.themoviedb.org/search?query={searchTerms}"
+        "searchUrl": "https://www.themoviedb.org/search?query={q}"
       },
       {
         "name": "Fandom (Wikia)",
-        "searchUrl": "http://www.wikia.com/Special:Search?search={searchTerms}"
+        "searchUrl": "http://www.wikia.com/Special:Search?search={q}"
       },
       {
         "name": "AllMovie",
-        "searchUrl": "http://www.allmovie.com/search/all/{searchTerms}"
+        "searchUrl": "http://www.allmovie.com/search/all/{q}"
       },
       {
         "name": "Movies.com",
-        "searchUrl": "http://www.movies.com/search-result?search={searchTerms}"
+        "searchUrl": "http://www.movies.com/search-result?search={q}"
       },
       {
         "name": "TVmaze",
-        "searchUrl": "http://www.tvmaze.com/search?q={searchTerms}"
+        "searchUrl": "http://www.tvmaze.com/search?q={q}"
       },
       {
         "name": "TV.com",
-        "searchUrl": "http://www.tv.com/search?q={searchTerms}"
+        "searchUrl": "http://www.tv.com/search?q={q}"
       },
       {
         "name": "TheTVDB.com",
-        "searchUrl": "http://thetvdb.com/?tab=listseries&function=Search&string={searchTerms}"
+        "searchUrl": "http://thetvdb.com/?tab=listseries&function=Search&string={q}"
       },
       {
         "name": "What is my movie?",
-        "searchUrl": "http://www.whatismymovie.com/results?text={searchTerms}"
+        "searchUrl": "http://www.whatismymovie.com/results?text={q}"
       },
       {
         "name": "TV Tropes",
-        "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={searchTerms}"
+        "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={q}"
       }
     ]
   },
@@ -475,19 +475,19 @@
     "tools": [
       {
         "name": "Rotten Tomatoes",
-        "searchUrl": "https://www.rottentomatoes.com/search/?search={searchTerms}"
+        "searchUrl": "https://www.rottentomatoes.com/search/?search={q}"
       },
       {
         "name": "Metacritic",
-        "searchUrl": "http://www.metacritic.com/search/movie/{searchTerms}/results"
+        "searchUrl": "http://www.metacritic.com/search/movie/{q}/results"
       },
       {
         "name": "Common Sense Media",
-        "searchUrl": "https://www.commonsensemedia.org/search/{searchTerms}"
+        "searchUrl": "https://www.commonsensemedia.org/search/{q}"
       },
       {
         "name": "Kids-in-Mind",
-        "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={searchTerms}"
+        "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={q}"
       },
       {
         "name": "Bechdel Test",
@@ -501,7 +501,7 @@
     "tools": [
       {
         "name": "Google",
-        "searchUrl": "https://www.google.com/search?q={searchTerms}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
+        "searchUrl": "https://www.google.com/search?q={q}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
       },
       {
         "name": "<abbr title=\"Internet Movie Script Database\">IMSDb</abbr>",
@@ -510,7 +510,7 @@
       },
       {
         "name": "SimplyScripts",
-        "searchUrl": "http://www.simplyscripts.com/cgi-bin/search.pl?search={searchTerms}"
+        "searchUrl": "http://www.simplyscripts.com/cgi-bin/search.pl?search={q}"
       }
     ]
   },
@@ -519,11 +519,11 @@
     "tools": [
       {
         "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
-        "searchUrl": "http://www.fandango.com/search?q={searchTerms}"
+        "searchUrl": "http://www.fandango.com/search?q={q}"
       },
       {
         "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
-        "searchUrl": "https://www.moviefone.com/search/{searchTerms}/"
+        "searchUrl": "https://www.moviefone.com/search/{q}/"
       }
     ]
   },
@@ -532,7 +532,7 @@
     "tools": [
       {
         "name": "FilmFreeway",
-        "searchUrl": "https://filmfreeway.com/festivals?q={searchTerms}"
+        "searchUrl": "https://filmfreeway.com/festivals?q={q}"
       }
     ]
   },
@@ -541,19 +541,19 @@
     "tools": [
       {
         "name": "Viki",
-        "searchUrl": "https://www.viki.com/search?q={searchTerms}"
+        "searchUrl": "https://www.viki.com/search?q={q}"
       },
       {
         "name": "DramaFever",
-        "searchUrl": "https://www.dramafever.com/search/?search={searchTerms}"
+        "searchUrl": "https://www.dramafever.com/search/?search={q}"
       },
       {
         "name": "Asian Crush",
-        "searchUrl": "https://www.asiancrush.com/search/?key={searchTerms}"
+        "searchUrl": "https://www.asiancrush.com/search/?key={q}"
       },
       {
         "name": "BoxTV (India)",
-        "searchUrl": "http://www.boxtv.com/search/{searchTerms}"
+        "searchUrl": "http://www.boxtv.com/search/{q}"
       }
     ]
   },
@@ -562,43 +562,43 @@
     "tools": [
       {
         "name": "Youku (China)",
-        "searchUrl": "http://www.soku.com/search_video/q_{searchTerms}"
+        "searchUrl": "http://www.soku.com/search_video/q_{q}"
       },
       {
         "name": "iQIYI (China)",
-        "searchUrl": "http://so.iqiyi.com/so/q_{searchTerms}"
+        "searchUrl": "http://so.iqiyi.com/so/q_{q}"
       },
       {
         "name": "TV UOL (Brazil)",
-        "searchUrl": "http://tvuol.uol.com.br/busca?q={searchTerms}"
+        "searchUrl": "http://tvuol.uol.com.br/busca?q={q}"
       },
       {
         "name": "Globo Play (Brazil)",
-        "searchUrl": "https://globoplay.globo.com/busca/?q={searchTerms}"
+        "searchUrl": "https://globoplay.globo.com/busca/?q={q}"
       },
       {
         "name": "Rutube (Russia)",
-        "searchUrl": "https://rutube.ru/search/?query={searchTerms}"
+        "searchUrl": "https://rutube.ru/search/?query={q}"
       },
       {
         "name": "Tune.pk (Pakistan)",
-        "searchUrl": "http://tune.pk/search_result.php?query={searchTerms}"
+        "searchUrl": "http://tune.pk/search_result.php?query={q}"
       },
       {
         "name": "Niconico (Japan)",
-        "searchUrl": "http://www.nicovideo.jp/search/{searchTerms}"
+        "searchUrl": "http://www.nicovideo.jp/search/{q}"
       },
       {
         "name": "FC2 (Japan)",
-        "searchUrl": "http://video.fc2.com/en/movie_search.php?keyword={searchTerms}"
+        "searchUrl": "http://video.fc2.com/en/movie_search.php?keyword={q}"
       },
       {
         "name": "Aparat (Iran)",
-        "searchUrl": "http://www.aparat.com/result/{searchTerms}"
+        "searchUrl": "http://www.aparat.com/result/{q}"
       },
       {
         "name": "Naver (Korea)",
-        "searchUrl": "http://tvcast.naver.com/search?query={searchTerms}"
+        "searchUrl": "http://tvcast.naver.com/search?query={q}"
       }
     ]
   }

@@ -42,11 +42,7 @@
           <ul>
           <% group.tools.each do |tool| %>
             <li>
-              <%
-                su = tool.searchUrl.gsub('&', '&amp;').sub('{searchTerms}', '{q}')
-                su = "#{tool.post}|x|#{su}" if tool.post
-              %>
-              <button name="u" value="<%= su %>"><%= tool.name %></button>
+              <button name="u" value="<%= "#{tool.post}|x|" if tool.post %><%= tool.searchUrl.gsub('&', '&amp;') %>"><%= tool.name %></button>
             </li>
           <% end %>
           </ul>

@@ -23,7 +23,7 @@ class Page
       raise("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
       group.tools.each do |tool|
         raise("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 3
-        unless tool.searchUrl.include?('{searchTerms}') || tool.post
+        unless tool.searchUrl.include?('{q}') || tool.post
           raise "missing or bad searchUrl for #{tool.name}"
         end
         # note url validity is checked elsewhere
@@ -46,10 +46,6 @@ class Page
       section_ids << group.id
       group
     end
-    @urls = []
-    @groups.each do |group|
-      @urls.concat group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
-    end
 
     # load html
     @content =  File.read path('html')
@@ -57,7 +53,7 @@ class Page
     # extract links
     @external_links = []
     @groups.each do |group|
-      @external_links.concat group.tools.map{|tool| tool.searchUrl.sub('{searchTerms}', 'test')}
+      @external_links.concat group.tools.map{|tool| tool.searchUrl.sub('{q}', 'test')}
     end
     # separate external links from links to other page sections
     urls_from_html = @content.scan(/ href="([^"]+)\"/).map{|m| m[0]}.partition{|u| u[0] == '#'}
