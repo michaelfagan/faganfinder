@@ -1164,6 +1164,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.uia.org/ybio/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.uia.org/ybio?name=test",
+    "status": "200"
+  },
+  {
     "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
     "status": "500"
   },

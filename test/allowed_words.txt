@@ -84,6 +84,7 @@ TheTVDB
 Tubi
 TVmaze
 TVopedia
+UIA
 UOL
 Ustream
 Veoh
