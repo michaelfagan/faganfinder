@@ -52,22 +52,26 @@ form.addEventListener('submit', function(e) {
   e.preventDefault();
 });
 
-// click on a button to search
+// event handling for all actions in the form buttons area
 form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
   var tag = e.target.tagName.toLowerCase();
   var ptag = e.target.parentNode.tagName.toLowerCase();
+  // click on a button to search
   if (tag === 'button') {
     setTool(e.target);
   }
   else if (ptag === 'button') {
     setTool(e.target.parentNode);
   }
+  // click on a section name
   else if (tag === 'a' && ptag === 'h3') {
     var sections = form.getElementsByTagName('ul')[0].getElementsByTagName('ul');
     if (window.getComputedStyle(sections[0]).display === 'none' || window.getComputedStyle(sections[1]).display === 'none') {
+      // i.e. if showing mobile view
       var div = e.target.parentNode.parentNode;
       if (div.classList.contains('active')) {
         div.classList.remove('active');
+        ga('send', 'event', e.target.textContent, 'collapse');
       }
       else {
         var active = form.getElementsByClassName('active');
@@ -75,9 +79,19 @@ form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
           active[0].classList.remove('active');
         }
         div.classList.add('active');
+        ga('send', 'event', e.target.textContent, 'expand');
       }
       e.preventDefault();
     }
+    else {
+      // i.e. not showing mobile view
+      // clicking the section name to see details about the section
+      ga('send', 'event', e.target.textContent, 'details-name');
+    }
+  }
+  // clicking on a 'details' link (mobile only)
+  else if (tag === 'a') {
+    ga('send', 'event', e.target.parentNode.previousElementSibling.preventDefault.textContent, 'details-details');
   }
 
 });
