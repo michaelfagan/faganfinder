@@ -42,7 +42,7 @@ class Page
     section_ids = []
     @groups.map! do |group|
       group.shortName ||= group.name
-      group.id = group.shortName.gsub(/<[^>]+>/, '').gsub(/[^\w]/, '_').downcase
+      group.id = group.shortName.gsub(/<[^>]+>/, '').gsub(/[^\w]+/, '_').gsub(/(^_)|(_$)/, '').downcase
       section_ids << group.id
       group
     end
