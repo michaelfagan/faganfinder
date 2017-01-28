@@ -1,7 +1,9 @@
 <?php
 
-  $q = trim($_GET['q']);
-  $searchUrl = $_GET['u'];
+  $title = 'Fagan Finder: loading your request';
+
+  $q = trim($_POST['q']);
+  $searchUrl = $_POST['u'];
   $dopost = false;
 
   if (strlen($q) && preg_match('/^(.*\|x\|)?http(s)?:\/\/(\w+\.)+\w+\//', $searchUrl) == 1) {
@@ -21,7 +23,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Fagan Finder: loading your request</title>
+    <title><?php echo $title ?></title>
     <meta name="robots" content="noindex,nofollow,noarchive">
   </head>
   <body style="font-size:2em;padding:1em">

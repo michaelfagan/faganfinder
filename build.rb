@@ -32,7 +32,8 @@ end
 
 site = {
   name: 'Fagan Finder',
-  email: 'mfagan@gmail.com'
+  email: 'mfagan@gmail.com',
+  ga: 'UA-13006445-2'
 }
 
 text = '' # to contain text from all pages for spell checking
@@ -51,12 +52,13 @@ Page.ids.each do |pid|
   html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
 
   # validate the html
-  html_errors = Html5Validator::Validator.new.validate_text html
-  if html_errors.any?
-    html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
-    html_errors.unshift "HTML validation errors"
-    has_error html_errors.join "\n\n"
-  end
+  # commented out for now as the validator is returning 500 errors...
+  # html_errors = Html5Validator::Validator.new.validate_text html
+  # if html_errors.any?
+  #   html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
+  #   html_errors.unshift "HTML validation errors"
+  #   has_error html_errors.join "\n\n"
+  # end
 
   # compress the html
   html = HtmlCompressor::Compressor.new.compress html
