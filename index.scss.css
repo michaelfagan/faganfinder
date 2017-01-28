@@ -41,6 +41,9 @@ section li {
 h1, h2, h3 {
   font-size: 1em;
 }
+abbr {
+  text-decoration: inherit;
+}
 
 .sr-only {
   clip: rect(0, 0, 0, 0);
@@ -74,8 +77,10 @@ body, .highlight {
 }
 
 
-
-
+/* top ad */
+.has-js #adone {
+  margin-bottom: 0.5em;
+}
 
 
 /* search form */
@@ -87,16 +92,17 @@ form ul {
   list-style-type: none;
 }
 
-@media(min-width: $non_mobile) {
+@media (min-width: $non_mobile) {
   form > ul {
     column-width: 10em;
+    -moz-column-width: 10em;
     line-height: 1em;
     font-size: 0.9em;
     margin: 0.2em 0 0.5em 0;
   }
 }
 li > div {
-  display: inline-block;
+  display: inline-block; /* don't allow the div to be split across columns */
   width: 100%;
   margin: 0.3em 0;
 }
@@ -121,7 +127,7 @@ button {
     background-color: #555;
   }
 }
-@media(max-width: $mobile) {
+@media screen and (max-width: $mobile) {
   .has-js {
     li > div {
       /* since they are collapsed, need more space between each */
@@ -132,7 +138,7 @@ button {
       text-decoration: none; /* undo link underline */
       color: inherit; /* undo link colour */
       &:before {
-        content: '\25B6\00A0'; /* right arrow */
+        content: '\25B6\00A0'; /* right arrow and non-breaking space */
       }
       &:hover {
         color: darken($highlight, 50%);
@@ -151,7 +157,7 @@ button {
         margin-left: 1em;
       }
       h3 a:before {
-        content: '\25BC\00A0'; /* down arrow */
+        content: '\25BC\00A0'; /* down arrow and non-breaking space */
       }
       div {
         display: block; /* i.e. show */
@@ -197,5 +203,41 @@ a[href^="h"] {
     width: 336px;
     height: 280px;
     display: inline-block;
+  }
+}
+
+
+/* print. consider moving to later in the document or an external file */
+@media print {
+  a, a:visited {
+    color: #0000EE; /* ensure links have consistent colour, even if visited */
+  }
+  h3 a, h3 a:visited {
+    /* section titles in the form don't need to show as links */
+    text-decoration: none;
+    color: inherit;
+  }
+  a[href^="h"] {
+    white-space: normal;
+    &:after {
+      content:" " attr(href) "";
+      font-size: 0.8em;
+      font-weight: normal;
+    }
+  }
+  .highlight {
+    background-color: transparent;
+    border: solid black;
+    border-width: 2px 0;
+  }
+  footer.highlight {
+    border-bottom-width: 0;
+  }
+  section {
+    page-break-inside: avoid;
+  }
+  /* hide back-to-top links and ads */
+  .btt, #adone, #adtwo {
+    display: none;
   }
 }
