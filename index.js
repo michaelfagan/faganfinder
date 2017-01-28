@@ -20,14 +20,23 @@ function setTool(button) {
   else {
     form.setAttribute('data-s', u);
   }
+  form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
+  form.setAttribute('data-tool', button.textContent);
 }
 
 // initialize
 setTool(form.elements[1]);
+form.setAttribute('data-submitvia', 'button');
 
 // run the search
 form.addEventListener('submit', function(e) {
-  var q = form.elements[0].value;
+  var q = form.elements[0].value.trim();
+  ga('send', 'event',
+    form.getAttribute('data-section'),
+    (q.length ? 'search' : 'noquery') + '-' + form.getAttribute('data-submitvia'),
+    form.getAttribute('data-tool')
+  );
+  form.setAttribute('data-submitvia', 'button'); // reset
   if (q.length) {
     if (form.getAttribute('data-post') === 'true') {
       document.forms[1].elements[0].setAttribute('value', q);
@@ -36,6 +45,9 @@ form.addEventListener('submit', function(e) {
     else {
       open(form.getAttribute('data-s').replace('{q}', encodeURIComponent(q)));
     }
+  }
+  else {
+    form.elements[0].focus();
   }
   e.preventDefault();
 });
@@ -68,4 +80,11 @@ form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
     }
   }
 
+});
+
+// enable tracking of form submissions via the enter key or button
+form.elements[0].addEventListener('keydown', function(e){
+  if (e.keyCode === 13) {
+    form.setAttribute('data-submitvia', 'enter');
+  }
 });
