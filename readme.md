@@ -41,3 +41,7 @@ See http://www.faganfinder.com/
     * 'link' or 'in-page link'
         * link text, then link URL, separated by '||'
     * links to other pages on the site are not tracked via events
+* for users without JavaScript, the tracking is different:
+    * Category: 'No JavaScript'
+    * Action: 'valid'/'invalid'
+    * Label: the search URL template (roughly)
