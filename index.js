@@ -1,8 +1,7 @@
 "use strict";
 
-var body = document.getElementsByTagName('body')[0];
-body.classList.remove('no-js');
-body.classList.add('has-js');
+document.body.classList.remove('no-js');
+document.body.classList.add('has-js');
 
 var form = document.forms[0];
 
@@ -102,3 +101,23 @@ form.elements[0].addEventListener('keydown', function(e){
     form.setAttribute('data-submitvia', 'enter');
   }
 });
+
+// analytics for external links
+var sections  = document.getElementById('details').getElementsByTagName('section');
+for (var i=0; i<sections.length; i++) {
+  var name = i == 0 ? 'overview' : sections[i].getElementsByTagName('h3')[0].textContent;
+  var links = sections[i].getElementsByTagName('a');
+  for (var j=0; j<links.length; j++) {
+    if (links[j].getAttribute('href')[0] === 'h') {
+      // delay visiting until logged, unless it is taking too long
+      links[j].addEventListener('click', function(e){
+        e.preventDefault();
+        function go(){
+          location.href = e.target.getAttribute('href');
+        }
+        setTimeout(go, 1000);
+        ga('send', 'event', name, 'link', e.target.textContent + '||' + e.target.getAttribute('href'), {hitCallback: go });
+      });
+    }
+  }
+}

@@ -59,10 +59,8 @@
 
     </form>
 
-    <script><%= js %></script>
-
     <div class="highlight"><h2 class="oneline">Details and further resources</h2></div>
-    <div class="inner">
+    <div id="details" class="inner">
 
       <% if page.number_of_tools > 40 %>
       <div id="adtwo">
@@ -71,9 +69,12 @@
       </div>
       <% end %>
 
-      <%= page.content.gsub('<section>')
-          .with_index { |m, i| "<section id=\"#{page.groups[i].id}\"><h3>#{page.groups[i].name}</h3>" }
-        .gsub('</section>', '<p class="btt"><a href="#search">back to top ↑</a></p></section>')
+      <%=
+        btt = '<p class="btt"><a href="#search">back to top ↑</a></p>'
+        page.content.gsub('<section>').with_index do |m, i|
+          i == 0 ? "<section>" : "<section id=\"#{page.groups[i-1].id}\"><h3>#{page.groups[i-1].name}</h3>"
+        end
+        .gsub('</section>', "#{btt}</section>").sub(btt, '')
       %>
     </div>
 
@@ -97,6 +98,8 @@
       </section>
 
     </footer>
+
+    <script><%= js %></script>
 
   </body>
 

@@ -176,13 +176,13 @@ button {
 /* details section */
 section {
   margin: 1.5em 0;
-  clear: both; /* around adsense */
   h2, h3 {
     font-size: 1.2em;
   }
 }
 section + section {
   margin-top: 3em;
+  clear: both; /* around adsense */
 }
 .btt {
   /* back to top links */
@@ -220,7 +220,7 @@ a[href^="h"] {
   a[href^="h"] {
     white-space: normal;
     &:after {
-      content:" " attr(href) "";
+      content: ' ' attr(href);
       font-size: 0.8em;
       font-weight: normal;
     }
