@@ -3,6 +3,7 @@ $non_mobile: $mobile + 1px;
 $readingwidth: 50em;
 $p_space: 0.8em;
 $highlight: #bce0ba;
+$link_colour: #0000ee; /* not actually set, but this is or close to the default for various browsers */
 
 
 /* generic styles */
@@ -43,6 +44,9 @@ h1, h2, h3 {
 }
 abbr {
   text-decoration: inherit;
+}
+a:hover {
+  color: lighten($link_colour, 20%);
 }
 
 .sr-only {
@@ -210,7 +214,7 @@ a[href^="h"] {
 /* print. consider moving to later in the document or an external file */
 @media print {
   a, a:visited {
-    color: #0000EE; /* ensure links have consistent colour, even if visited */
+    color: $link_colour; /* ensure links have consistent colour, even if visited */
   }
   h3 a, h3 a:visited {
     /* section titles in the form don't need to show as links */
