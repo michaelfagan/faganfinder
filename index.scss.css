@@ -98,8 +98,8 @@ form ul {
 
 @media (min-width: $non_mobile) {
   form > ul {
-    column-width: 10em;
     -moz-column-width: 10em;
+    column-width: 10em;
     line-height: 1em;
     font-size: 0.9em;
     margin: 0.2em 0 0.5em 0;

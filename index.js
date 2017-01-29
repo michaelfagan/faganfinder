@@ -125,7 +125,7 @@ function trackLink(link, section) {
 
 var sections  = document.getElementById('details').getElementsByTagName('section');
 for (var i=0; i<sections.length; i++) {
-  var name = i == 0 ? 'overview' : sections[i].getElementsByTagName('h3')[0].textContent;
+  var name = i === 0 ? 'overview' : sections[i].getElementsByTagName('h3')[0].textContent;
   var links = sections[i].getElementsByTagName('a');
   for (var j=0; j<links.length; j++) {
     trackLink(links[j], name);
