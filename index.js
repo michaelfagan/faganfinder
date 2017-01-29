@@ -102,22 +102,35 @@ form.elements[0].addEventListener('keydown', function(e){
   }
 });
 
-// analytics for external links
+
+// analytics for external links, the mailto: link, and in-page links that aren't to search tool sections
+
+function trackLink(link, section) {
+  link.addEventListener('click', function(e){
+    var l = e.target.textContent + '||' + e.target.getAttribute('href');
+    if (link.getAttribute('href')[0] === 'h') {
+      // delay visiting until logged, unless it is taking too long
+      e.preventDefault();
+      function go(){
+        location.href = e.target.getAttribute('href');
+      }
+      setTimeout(go, 1000);
+      ga('send', 'event', section, 'link', l, {hitCallback: go });
+    }
+    else {
+      ga('send', 'event', section, 'in-page link', l);
+    }
+  });
+}
+
 var sections  = document.getElementById('details').getElementsByTagName('section');
 for (var i=0; i<sections.length; i++) {
   var name = i == 0 ? 'overview' : sections[i].getElementsByTagName('h3')[0].textContent;
   var links = sections[i].getElementsByTagName('a');
   for (var j=0; j<links.length; j++) {
-    if (links[j].getAttribute('href')[0] === 'h') {
-      // delay visiting until logged, unless it is taking too long
-      links[j].addEventListener('click', function(e){
-        e.preventDefault();
-        function go(){
-          location.href = e.target.getAttribute('href');
-        }
-        setTimeout(go, 1000);
-        ga('send', 'event', name, 'link', e.target.textContent + '||' + e.target.getAttribute('href'), {hitCallback: go });
-      });
-    }
+    trackLink(links[j], name);
   }
 }
+var footer_links = document.getElementsByTagName('footer')[0].getElementsByTagName('a');
+trackLink(footer_links[footer_links.length-1], 'footer');
+trackLink(document.getElementById('about'), 'header');

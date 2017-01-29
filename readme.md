@@ -11,7 +11,7 @@ See http://www.faganfinder.com/
 4. View final output in `dist/*.html`
 
 
-# Make changes
+## Make changes
 
 1. `bundle install` (may prompt to install Aspell)
 2. To make changes
@@ -26,3 +26,18 @@ See http://www.faganfinder.com/
     * any new valid words that are reported as misspelled can be added to the end of `test/allowed_words.txt` and it will be sorted when rebuilding
 5. view final output as above
 6. review diffs, commit, push
+
+
+## Understanding Google Analytics events
+* Category: section name or 'overview', 'header', or 'footer'
+    * overview is for the first (untitled) details section
+    * header and footer are for the 'About' link and the email link
+* Action and label
+    * 'search'/'noquery'-'button'/'enter'
+        * tool name
+    * 'details'-'name'/'details'
+       * i.e. clicking the section name (non-mobile) or 'Details' link (mobile)
+    * 'expand'/'collapse'
+    * 'link' or 'in-page link'
+        * link text, then link URL, separated by '||'
+    * links to other pages on the site are not tracked via events
