@@ -48,7 +48,10 @@ abbr {
 a:hover {
   color: lighten($link_colour, 20%);
 }
-
+*[tabindex="-1"]:focus {
+  /* adding this tabindex improves screenreader experience in chrome but is not necessary to show focused */
+  outline: none;
+}
 .sr-only {
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -209,6 +212,15 @@ a[href^="h"] {
     display: inline-block;
   }
 }
+#legacy {
+  -moz-column-width: 15em;
+  column-width: 15em;
+  list-style-type: none;
+  margin: 0;
+  a {
+    font-weight: inherit;
+  }
+}
 
 
 /* print. consider moving to later in the document or an external file */
@@ -221,7 +233,7 @@ a[href^="h"] {
     text-decoration: none;
     color: inherit;
   }
-  a[href^="h"] {
+  #details a[href^="h"] {
     white-space: normal;
     &:after {
       content: ' ' attr(href);

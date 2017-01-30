@@ -27,7 +27,7 @@
 
     <div><div class="inner oneline"><a id="about" href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
-    <form id="search" action="search.php" target="_blank" method="post">
+    <form tabindex="-1" id="search" action="search.php" target="_blank" method="post">
 
       <div class="highlight">
         <div class="oneline">
@@ -41,7 +41,7 @@
 
       <h2 class="sr-only">Search tools</h2>
       <ul class="inner">
-      <% page.groups.each do |group| %>
+      <% page.sections.each do |group| %>
         <li><div>
           <h3>
             <a href="#<%= group.id %>"><%= group.shortName %></a>
@@ -73,19 +73,39 @@
       <%=
         btt = '<p class="btt"><a href="#search">back to top ↑</a></p>'
         page.content.gsub('<section>').with_index do |m, i|
-          i == 0 ? "<section>" : "<section id=\"#{page.groups[i-1].id}\"><h3>#{page.groups[i-1].name}</h3>"
+          i == 0 ? "<section>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
         end
         .gsub('</section>', "#{btt}</section>").sub(btt, '')
       %>
     </div>
 
-    <footer id="footer" class="highlight" style="padding:1em 0">
+    <footer tabindex="-1" id="footer" class="highlight" style="padding:1em 0">
       <section style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
-        <% Page.ids.reject{|id| id == page.id }.each do |other_page| %>
-          <li><a href="<%= other_page %>.html"><%= other_page.capitalize %></a></li>
+        <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
+          <li>
+            <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %></a>:
+            <%= other_page.description.internal %>
+          </li>
         <% end %>
+        </ul>
+        <h3 style="font-size:1em">Older tools</h3>
+        <ul id="legacy">
+          <li><a href="<%= site[:root]%>engines/">Search engines</a></li>
+          <li><a href="<%= site[:root]%>aref/">Academic search</a></li>
+          <li><a href="<%= site[:root]%>img/">Image search</a></li>
+          <li><a href="<%= site[:root]%>audio/">Audio and music search</a></li>
+          <li><a href="<%= site[:root]%>geo/">Maps and geography search</a></li>
+          <li><a href="<%= site[:root]%>words/">Word reference</a></li>
+          <li><a href="<%= site[:root]%>bio/">Biography search</a></li>
+          <li><a href="<%= site[:root]%>urlinfo/">URLinfo</a></li>
+          <li><a href="<%= site[:root]%>translate/">Translation Wizard</a></li>
+          <li><a href="<%= site[:root]%>google/">Google Ultimate Interface</a></li>
+          <li><a href="<%= site[:root]%>news/">News search</a></li>
+          <li><a href="<%= site[:root]%>date/">Search by date</a></li>
+          <li><a href="<%= site[:root]%>quotes/">Quotation search</a></li>
+          <li><a href="<%= site[:root]%>search/rss.php">All about RSS</a></li>
         </ul>
       </section>
 

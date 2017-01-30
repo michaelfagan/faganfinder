@@ -45,6 +45,7 @@ JustWatch
 LearnersTV
 LinkedIn
 Meetup
+meetups
 MeFeedia
 Metacafe
 Metacritic
@@ -69,6 +70,7 @@ Quickflix
 Quora
 Reddit
 Rede
+RSS
 Rutube
 SchoolTube
 Showtimes
@@ -86,6 +88,7 @@ TVmaze
 TVopedia
 UIA
 UOL
+URLinfo
 Ustream
 Veoh
 Vevo

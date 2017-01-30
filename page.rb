@@ -2,23 +2,25 @@ require 'json'
 
 class Page
 
-  attr_reader :groups, :id, :content, :number_of_tools, :external_links
+  attr_reader :filepath, :id, :content, :number_of_tools, :external_links
 
-  def self.path(id = '*', filetype = 'json')
+  def self.filepath(id = '*', filetype = 'json')
     "./tools/#{id}.#{filetype}"
   end
 
-  def path(filetype = 'json')
-    self.class.path @id, filetype
+  def filepath(filetype = 'json')
+    self.class.filepath @id, filetype
   end
 
   def self.ids
-    @@ids ||= Dir[path].map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
+    @@ids ||= Dir[filepath].map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
   end
 
   def validate_json
-    raise('no tool groups') if @groups.length < 1
-    @groups.each do |group|
+    raise('path is absent or too shirt') if @json.path.length < 5
+    raise('internal description is absent or too shirt') if @json.description.internal.length < 30
+    raise('no tool groups') if @json.sections.length < 1
+    @json.sections.each do |group|
       raise('group name is absent or too short') if !group.name || group.name.length < 4
       raise("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
       group.tools.each do |tool|
@@ -31,16 +33,20 @@ class Page
     end
   end
 
+
   def initialize(id)
-
     @id = id
+    @json = JSON.parse File.read(filepath), object_class: OpenStruct
+  end
 
-    @groups = JSON.parse File.read(path), object_class: OpenStruct
+  def load
+
     validate_json
+
     # generate additional data from json
-    @number_of_tools ||= @groups.map{|g| g.tools.length }.inject(:+)
+    @number_of_tools ||= @json.sections.map{|g| g.tools.length }.inject(:+)
     section_ids = []
-    @groups.map! do |group|
+    @json.sections.map! do |group|
       group.shortName ||= group.name
       group.id = group.shortName.gsub(/<[^>]+>/, '').gsub(/[^\w]+/, '_').gsub(/(^_)|(_$)/, '').downcase
       section_ids << group.id
@@ -48,11 +54,11 @@ class Page
     end
 
     # load html
-    @content =  File.read path('html')
+    @content =  File.read filepath('html')
 
     # extract links
     @external_links = []
-    @groups.each do |group|
+    @json.sections.each do |group|
       @external_links.concat group.tools.map{|tool| tool.searchUrl.sub('{q}', 'test')}
     end
     # separate external links from links to other page sections
@@ -62,6 +68,10 @@ class Page
     bad_internal_links = urls_from_html[0].reject{|u| section_ids.include? u.sub('#', '')}
     raise ('Bad link(s) within page: ' + bad_internal_links.join(', ')) if bad_internal_links.length > 0
 
+  end
+
+  def method_missing(method_name, *args, &block)
+    @json.send method_name
   end
 
 end

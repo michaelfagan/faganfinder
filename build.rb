@@ -31,19 +31,20 @@ rescue Exception => e
 end
 
 site = {
-  name: 'Fagan Finder',
+  name: 'Fagan Finder', # repeated in dist/search.php
+  root: 'http://www.faganfinder.com/',
   email: 'mfagan@gmail.com',
-  ga: 'UA-13006445-2'
+  ga: 'UA-13006445-2' # repeated in dist/search.php
 }
 
-text = '' # to contain text from all pages for spell checking
+pages = Page.ids.map{|pid| Page.new pid }
 
-Page.ids.each do |pid|
+pages.each do |page|
 
   # other data for the template
-  puts pid
+  puts page.id
   begin
-    page = Page.new pid
+    page.load
   rescue Exception => e
     has_error e.message
   end
