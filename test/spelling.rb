@@ -16,6 +16,7 @@ class Spelling
     parsed.search('//style').each{|node| node.remove} # remove <style>
     parsed.search('//script').each{|node| node.remove} # remove <script>
     # get page text and from title attributes
+    found_text parsed.search("//meta[@name='description']/@content").first
     found_text parsed.text
     found_text parsed.search('//*/@title').map{|t| t.text}.join(' ')
   end

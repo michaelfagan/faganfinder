@@ -3,8 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title><%= page.id.capitalize %> search | <%= site[:name] %></title>
-    <%#<meta name="description" content="" />%>
-    <%# add meta description to spell checking %>
+    <meta name="description" content="<%= page.description.external %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style><%= css %></style>
     <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -27,7 +26,7 @@
 
     <div><div class="inner oneline"><a id="about" href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
-    <form tabindex="-1" id="search" action="search.php" target="_blank" method="post">
+    <form tabindex="-1" id="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
 
       <div class="highlight">
         <div class="oneline">
@@ -73,7 +72,7 @@
       <%=
         btt = '<p class="btt"><a href="#search">back to top ↑</a></p>'
         page.content.gsub('<section>').with_index do |m, i|
-          i == 0 ? "<section>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
+          i == 0 ? "<section><h3 class=\"sr-only\">Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
         end
         .gsub('</section>', "#{btt}</section>").sub(btt, '')
       %>
@@ -94,8 +93,8 @@
         <ul id="legacy">
           <li><a href="<%= site[:root]%>engines/">Search engines</a></li>
           <li><a href="<%= site[:root]%>aref/">Academic search</a></li>
-          <li><a href="<%= site[:root]%>img/">Image search</a></li>
           <li><a href="<%= site[:root]%>audio/">Audio and music search</a></li>
+          <li><a href="<%= site[:root]%>img/">Image search</a></li>
           <li><a href="<%= site[:root]%>geo/">Maps and geography search</a></li>
           <li><a href="<%= site[:root]%>words/">Word reference</a></li>
           <li><a href="<%= site[:root]%>bio/">Biography search</a></li>
@@ -112,7 +111,8 @@
       <section>
         <h2>About <%= site[:name] %></h2>
         <p>
-          <%= site[:name] %> is a collection of tools to help you find anything online.<br>
+          <a href="<%= site[:root] %>"><%= site[:name] %></a>
+          is a collection of tools to help you find anything online.<br>
           Launched in 2001 and still run by Michael Fagan.
           Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>

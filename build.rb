@@ -53,13 +53,16 @@ pages.each do |page|
   html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
 
   # validate the html
-  # commented out for now as the validator is returning 500 errors...
-  # html_errors = Html5Validator::Validator.new.validate_text html
-  # if html_errors.any?
-  #   html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
-  #   html_errors.unshift "HTML validation errors"
-  #   has_error html_errors.join "\n\n"
-  # end
+  begin
+    html_errors = Html5Validator::Validator.new.validate_text html
+    if html_errors.any?
+      html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
+      html_errors.unshift "HTML validation errors"
+      has_error html_errors.join "\n\n"
+    end
+  rescue
+    puts '  Unable to validate HTML, must check manually'
+  end
 
   # compress the html
   html = HtmlCompressor::Compressor.new.compress html
