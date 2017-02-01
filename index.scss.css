@@ -12,6 +12,9 @@ $link_colour: #0000ee; /* not actually set, but this is or close to the default 
   padding: 0;
   max-width: 100%;
 }
+body {
+  touch-action: manipulation; /* disables delay on mobile, checking to see if a tab is a double-tap */
+}
 button {
   cursor: pointer;
 }

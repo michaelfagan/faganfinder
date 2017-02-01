@@ -19,6 +19,7 @@ DramaFever
 Epix
 Europeana
 Fagan
+faganfinder
 Fandom
 Fandor
 FC2
@@ -29,7 +30,6 @@ GifMe
 GIFs
 Giphy
 Globo
-gmail
 Goodreads
 GroupSpaces
 Howcast
@@ -49,8 +49,8 @@ meetups
 MeFeedia
 Metacafe
 Metacritic
-mfagan
 mibbit
+michael
 Moviefone
 Mubi
 Naver

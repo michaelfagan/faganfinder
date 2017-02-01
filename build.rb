@@ -33,7 +33,7 @@ end
 site = {
   name: 'Fagan Finder', # repeated in dist/search.php
   root: 'http://www.faganfinder.com/',
-  email: 'mfagan@gmail.com',
+  email: 'michael@faganfinder.com',
   ga: 'UA-13006445-2' # repeated in dist/search.php
 }
 
