@@ -4,12 +4,13 @@
     "status": "200"
   },
   {
-    "url": "http://tvuol.uol.com.br/busca?q=test",
-    "status": "200"
+    "url": "https://tvuol.uol.com.br/busca?q=test",
+    "status": "301",
+    "redirect": "https://tvuol.uol.com.br/busca"
   },
   {
-    "url": "http://tvuol.uol.com.br/",
-    "status": "200"
+    "url": "https://tvuol.uol.com.br/",
+    "status": "301"
   },
   {
     "url": "http://watch.cbc.ca/",
@@ -51,13 +52,13 @@
     "status": "200"
   },
   {
-    "url": "http://www.aol.com/video/",
-    "status": "200"
+    "url": "https://www.aol.com/video/",
+    "status": "301"
   },
   {
-    "url": "http://www.aol.com/video/search/?q=test",
+    "url": "https://www.aol.com/video/search/?q=test",
     "status": "301",
-    "redirect": "/video"
+    "redirect": "https://www.aol.com/video/search/"
   },
   {
     "url": "http://www.aparat.com/",
@@ -175,12 +176,13 @@
     "status": "200"
   },
   {
-    "url": "http://documentarystorm.com/",
-    "status": "200"
+    "url": "https://documentarystorm.com/",
+    "status": "301"
   },
   {
-    "url": "http://documentarystorm.com/?s=test",
-    "status": "200"
+    "url": "https://documentarystorm.com/?s=test",
+    "status": "301",
+    "redirect": "https://documentarystorm.com/"
   },
   {
     "url": "https://www.dramafever.com/",
@@ -480,7 +482,7 @@
   },
   {
     "url": "http://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.meetup.com/find/events/?keywords=test",
@@ -547,11 +549,11 @@
     "status": "200"
   },
   {
-    "url": "http://tvcast.naver.com/",
+    "url": "http://tv.naver.com/",
     "status": "403"
   },
   {
-    "url": "http://tvcast.naver.com/search?query=test",
+    "url": "http://tv.naver.com/search?query=test",
     "status": "403"
   },
   {
@@ -877,12 +879,12 @@
     "status": "200"
   },
   {
-    "url": "http://www.wonderhowto.com/",
-    "status": "200"
+    "url": "https://www.wonderhowto.com/",
+    "status": "301"
   },
   {
-    "url": "http://www.wonderhowto.com/search/test/",
-    "status": "200"
+    "url": "https://www.wonderhowto.com/search/test/",
+    "status": "301"
   },
   {
     "url": "http://wwitv.com/",
@@ -981,11 +983,11 @@
   },
   {
     "url": "https://vine.co/",
-    "status": "301"
+    "status": "200"
   },
   {
     "url": "https://vine.co/search/test",
-    "status": "301"
+    "status": "200"
   },
   {
     "url": "http://irc.netsplit.de/channels/?chat=test",

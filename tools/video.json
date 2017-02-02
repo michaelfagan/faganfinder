@@ -114,7 +114,7 @@
         },
         {
           "name": "AOL Video",
-          "searchUrl": "http://www.aol.com/video/search/?q={q}"
+          "searchUrl": "https://www.aol.com/video/search/?q={q}"
         }
       ]
     },
@@ -311,7 +311,7 @@
         },
         {
           "name": "Documentary Storm",
-          "searchUrl": "http://documentarystorm.com/?s={q}"
+          "searchUrl": "https://documentarystorm.com/?s={q}"
         }
       ]
     },
@@ -370,7 +370,7 @@
         },
         {
           "name": "Wonder How To",
-          "searchUrl": "http://www.wonderhowto.com/search/{q}/"
+          "searchUrl": "https://www.wonderhowto.com/search/{q}/"
         }
       ]
     },
@@ -576,7 +576,7 @@
         },
         {
           "name": "TV UOL (Brazil)",
-          "searchUrl": "http://tvuol.uol.com.br/busca?q={q}"
+          "searchUrl": "https://tvuol.uol.com.br/busca?q={q}"
         },
         {
           "name": "Globo Play (Brazil)",
@@ -604,7 +604,7 @@
         },
         {
           "name": "Naver (Korea)",
-          "searchUrl": "http://tvcast.naver.com/search?query={q}"
+          "searchUrl": "http://tv.naver.com/search?query={q}"
         }
       ]
     }
