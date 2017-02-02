@@ -11,7 +11,7 @@ if (typeof document.body.classList === 'object') {
   var form = document.forms[0];
 
   // add the form needed for tools that use POST
-  form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"><input></form>');
+  form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"><input type="hidden"></form>');
 
   function setTool(button) {
     var u = button.getAttribute('value');
