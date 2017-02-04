@@ -1,0 +1,105 @@
+AddHandler application/x-httpd-php5 .htm .html .shtml
+DirectoryIndex index.php index.shtml index.html
+
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE text/css
+
+AddType text/html shtml
+
+RewriteEngine On
+RewriteBase /
+
+# my personal blog no longer on faganfinder.com
+RewriteRule wp/ http://faganm.com/blog/ [R=301,L]
+RewriteRule wp/(.*) http://faganm.com/blog/$1 [R=301,L]
+RewriteRule wp http://faganm.com/blog/ [R=301,L]
+RewriteRule me/rss.php http://faganm.com/blog/feed/atom/ [R=301,L]
+RewriteRule ^me/(.+) http://faganm.com/blog/first/$1 [R=301,L]
+RewriteRule me/?$ http://faganm.com/blog/ [R=301,L]
+
+# deprecated pages
+RewriteRule (meta|dir|keyword|kids)/ http://www.faganfinder.com/engines/ [R=301,L]
+RewriteRule engines.html http://www.faganfinder.com/engines/ [R=301,L] 
+RewriteRule (gov|comp)/ http://www.faganfinder.com/  [R=301,L]
+Redirect 301 /searchtools.shtml http://www.faganfinder.com/
+RewriteRule (img|news|audio|video|science|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule engines/(northernlight|hotbot|msn).shtml http://www.faganfinder.com/engines/ [R=301,L]
+
+# more deprecated pages
+RewriteRule ([a-z]+)/(lycos|infoplease|medlineplus|xrefer|britannica|bartleby|alltheweb|altavista|singingfish|friskit|gograph|ixquick|phibot|scirus)\.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule news/(google|weather|moreover|read|weather|daypop)\.shtml http://www.faganfinder.com/news/ [R=301,L]
+Redirect 301 /img/google.shtml http://www.faganfinder.com/img/
+Redirect 301 /misc/popular.shtml http://www.faganfinder.com/engines/
+Redirect 301 /site/target.shtml http://www.faganfinder.com/
+Redirect 301 /group/google.shtml http://www.faganfinder.com/group/
+Redirect 301 /misc/login.shtml http://www.faganfinder.com/
+Redirect 301 /misc/index.shtml http://www.faganfinder.com/
+Redirect 301 /misc/this_page.php http://www.faganfinder.com/urlinfo/
+Redirect 301 /misc/info.php http://www.faganfinder.com/urlinfo/
+RewriteRule site/(search|privacy|disclaimer|whyff|help|howto|preferences)\.shtml http://www.faganfinder.com/site/ [R=301,L]
+RewriteRule site/link.shtml http://www.faganfinder.com/searchbox/ [R=301,L]
+
+#moved pages
+
+RewriteRule google(2)?.htm(l)? http://www.faganfinder.com/google/ [R=301,L]
+RewriteRule engines/google.shtml http://www.faganfinder.com/google/ [R=301,L]
+
+Redirect 301 /index.html http://www.faganfinder.com/
+Redirect 301 /index_changes.shtml http://www.faganfinder.com/changes/
+
+Redirect 301 /misc/translate.shtml http://www.faganfinder.com/translate/
+Redirect 301 /slovak.shtml http://www.faganfinder.com/translate/
+
+Redirect 301 /search/rss.shtml http://www.faganfinder.com/search/rss.php
+Redirect 301 /search/rss_changes.shtml http://www.faganfinder.com/search/changes/
+
+Redirect 301 /misc/site.shtml http://www.faganfinder.com/urlinfo/
+Redirect 301 /misc/sitelinks.shtml http://www.faganfinder.com/urlinfo/top.php
+Redirect 301 /misc/siteabout.shtml http://www.faganfinder.com/urlinfo/about.php
+
+RewriteRule site/(contact|about|index|copyright|sitemap).shtml http://www.faganfinder.com/site/ [R=301,L]
+# now redundant Redirect 301 /contact.php http://www.faganfinder.com/site/
+Redirect 301 /site/changes/ http://www.faganfinder.com/site/
+Redirect 301 /img/contact.php http://www.faganfinder.com/site/
+Redirect 301 /site/searchbox.shtml http://www.faganfinder.com/searchbox/
+Redirect 301 /site/searchbox_changes.shtml http://www.faganfinder.com/searchbox/changes/
+
+# fix some broken links
+RewriteRule (.+)/index.htm(l)?$ $1/ [R=301,L]
+RewriteRule (.+)(\.|>|<|"|')$ $1 [R=301,L]
+
+
+# making nice URLs
+RewriteRule (.+)/(feed|opensearch)$ $1/?display=$2 [L]
+RewriteRule (feed|opensearch)$ ?display=$1 [L]
+
+
+RewriteCond %{QUERY_STRING}  ^display=rss$
+RewriteRule (.+)/changes/$ $1/feed? [R=301,L]
+
+RewriteRule (.+)/changes/$ $1/ [R=301,L]
+RewriteRule changes/$ / [R=301,L]
+
+
+
+# moved pages
+RewriteRule bref/?(index.(php|shtml))?$ http://www.faganfinder.com/words/ [R=301,L]
+RewriteRule bref/(.*)$ http://www.faganfinder.com/words/$1 [R=301,L]
+
+RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
+RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
+
+
+
+Redirect 301 /news/weather.shtml http://www.faganfinder.com/weather/
+
+
+RewriteRule (img|news|engines|audio|video|aref|blogs|geo|bio|science|buy|invis|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (img|blogs)/index_changes.shtml http://www.faganfinder.com/$1/changes/ [R=301,L]
+
+
+# usability enhancement
+Redirect 301 /image/ http://www.faganfinder.com/img/
+
+
+AddType application/x-xpinstall .xpi
