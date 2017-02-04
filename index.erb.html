@@ -26,7 +26,7 @@
 
     <div><div class="inner oneline"><a id="about" href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
-    <form tabindex="-1" id="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
+    <form tabindex="-1" id="search" role="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
 
       <div class="highlight">
         <div class="oneline">
@@ -81,7 +81,7 @@
     </div>
 
     <footer tabindex="-1" id="footer" class="highlight" style="padding:1em 0">
-      <section style="margin-top:0">
+      <section role="navigation" style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
         <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
