@@ -92,6 +92,12 @@ body, .highlight {
   margin-bottom: 0.5em;
 }
 
+/* about link */
+a[href="#footer"] {
+  display: block;
+  float: right;
+  margin-left: 1.5em;
+}
 
 /* search form */
 input {
@@ -255,8 +261,8 @@ a[href^="h"] {
   section {
     page-break-inside: avoid;
   }
-  /* hide back-to-top links and ads */
-  .btt, #adone, #adtwo {
+  /* hide about, back-to-top links and ads */
+  a[href="#footer"], .btt, #adone, #adtwo {
     display: none;
   }
 }
