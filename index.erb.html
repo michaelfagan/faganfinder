@@ -16,13 +16,13 @@
 
   <body class="no-js">
 
+    <h1 class="sr-only"><%= site[:name] %>: <%= page.id.capitalize %> search</h1>
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <div class="inner"><div id="adone">
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2114379926" data-ad-format="auto"></ins>
     </div></div>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
-    <h1 class="sr-only"><%= site[:name] %>: <%= page.id.capitalize %> search</h1>
 
     <div><div class="inner oneline"><a id="about" href="#footer" style="display:block;float:right;margin-left:1.5em">About</a></div></div>
 
@@ -84,7 +84,7 @@
       <section role="navigation" style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
-        <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
+        <% pages.reject{|p| (p.id == page.id) || p.unpublished }.each do |other_page| %>
           <li>
             <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %></a>:
             <%= other_page.description.internal %>
