@@ -13,7 +13,9 @@ class Page
   end
 
   def self.ids
-    @@ids ||= Dir[filepath].map{|file| /.*\/(.+)\.[^\.$]/.match(file)[1] }
+    Dir[filepath]
+      .sort_by(&File.method(:mtime)).reverse # most-recently-edited first
+      .map{|f| /.*\/(.+)\.[^\.$]/.match(f)[1] }
   end
 
   def validate_json

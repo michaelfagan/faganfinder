@@ -359,6 +359,15 @@
     "status": "200"
   },
   {
+    "url": "https://greensdictofslang.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://greensdictofslang.com/search/basic?q=test",
+    "status": "302",
+    "redirect": "https://greensdictofslang.com/search/basic"
+  },
+  {
     "url": "http://groupspaces.com/",
     "status": "200"
   },
@@ -557,8 +566,24 @@
     "status": "403"
   },
   {
+    "url": "http://www.netlingo.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.netlingo.com/search.php",
+    "status": "200"
+  },
+  {
     "url": "https://nextdoor.com/",
     "status": "301"
+  },
+  {
+    "url": "http://www.noslang.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.noslang.com/search/test",
+    "status": "200"
   },
   {
     "url": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/test",
@@ -567,6 +592,14 @@
   {
     "url": "https://www.nytimes.com/video",
     "status": "301"
+  },
+  {
+    "url": "http://onlineslangdictionary.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://onlineslangdictionary.com/search/?q=test",
+    "status": "200"
   },
   {
     "url": "https://www.opened.com/",
@@ -707,6 +740,14 @@
     "status": "302"
   },
   {
+    "url": "https://slangit.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://slangit.com/search",
+    "status": "301"
+  },
+  {
     "url": "https://slofile.com/",
     "status": "301"
   },
@@ -765,11 +806,23 @@
     "status": "200"
   },
   {
+    "url": "http://www.translatebritish.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.translatebritish.com/search/test",
+    "status": "200"
+  },
+  {
     "url": "http://tubitv.com/",
     "status": "200"
   },
   {
     "url": "http://tubitv.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://thetimelinesofslang.tumblr.com/",
     "status": "200"
   },
   {
@@ -806,6 +859,15 @@
     "url": "https://twitter.com/search?f=videos&q=test",
     "status": "301",
     "redirect": "https://twitter.com/search"
+  },
+  {
+    "url": "http://www.urbandictionary.com/define.php?term=test",
+    "status": "302",
+    "redirect": "http://www.urbandictionary.com/"
+  },
+  {
+    "url": "http://www.urbandictionary.com/",
+    "status": "200"
   },
   {
     "url": "http://www.veoh.com/find/?query=test",
@@ -1141,6 +1203,14 @@
     "status": "200"
   },
   {
+    "url": "http://slang.org/",
+    "status": "200"
+  },
+  {
+    "url": "http://slang.org/?s=test",
+    "status": "200"
+  },
+  {
     "url": "http://www.taforum.org/Members/search/test",
     "status": "200"
   },
@@ -1244,6 +1314,10 @@
   },
   {
     "url": "http://www.bbc.co.uk/iplayer",
+    "status": "200"
+  },
+  {
+    "url": "http://www.peevish.co.uk/slang/",
     "status": "200"
   }
 ]

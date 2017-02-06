@@ -54,6 +54,7 @@ michael
 Moviefone
 Mubi
 Naver
+NetLingo
 netsplit
 Nextdoor
 NFB
@@ -76,13 +77,16 @@ SchoolTube
 Showtimes
 showtimes
 SimplyScripts
+SlangIt
 Slofile
 SnagFilms
 Starz
 Subreddit
 TeacherTube
 TEDx
+texting
 TheTVDB
+timelines
 Tubi
 TVmaze
 TVopedia
