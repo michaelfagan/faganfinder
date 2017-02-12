@@ -42,6 +42,10 @@
         {
           "name": "British Slang",
           "searchUrl": "http://www.translatebritish.com/search/{q}"
+        },
+        {
+          "name": "Hatebase",
+          "searchUrl": "https://www.hatebase.org/search_results/keywords={q}"
         }
       ]
     }
