@@ -83,6 +83,7 @@ if (typeof document.body.classList === 'object') {
             active[0].classList.remove('active');
           }
           div.classList.add('active');
+          div.getElementsByTagName('button')[0].focus();
           ga('send', 'event', e.target.textContent, 'expand');
         }
         e.preventDefault();
