@@ -9,6 +9,12 @@ AddType text/html shtml
 RewriteEngine On
 RewriteBase /
 
+
+# new pages
+RewriteRule video/$ video.html [L]
+RewriteRule group/$ groups.html [L]
+
+
 # my personal blog no longer on faganfinder.com
 RewriteRule wp/ http://faganm.com/blog/ [R=301,L]
 RewriteRule wp/(.*) http://faganm.com/blog/$1 [R=301,L]
