@@ -62,11 +62,11 @@
   },
   {
     "url": "http://www.aparat.com/",
-    "status": "200"
+    "status": "timeout"
   },
   {
     "url": "http://www.aparat.com/result/test",
-    "status": "200"
+    "status": "timeout"
   },
   {
     "url": "http://www.aparchive.com/",
@@ -78,7 +78,8 @@
   },
   {
     "url": "https://www.asiancrush.com/search/?key=test",
-    "status": "200"
+    "status": "301",
+    "redirect": "https://www.asiancrush.com/search/"
   },
   {
     "url": "https://www.asiancrush.com",
@@ -786,7 +787,7 @@
   },
   {
     "url": "http://www.teachertube.com/",
-    "status": "200"
+    "status": "403"
   },
   {
     "url": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query=test",
@@ -1292,12 +1293,12 @@
     "status": "301"
   },
   {
-    "url": "http://tune.pk/",
+    "url": "http://tune.pk/search_result.php?query=test",
     "status": "200"
   },
   {
-    "url": "http://tune.pk/search_result.php?query=test",
-    "status": "200"
+    "url": "http://tune.pk",
+    "status": "timeout"
   },
   {
     "url": "https://rutube.ru/",

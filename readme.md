@@ -45,3 +45,10 @@ See http://www.faganfinder.com/
     * Category: 'No JavaScript'
     * Action: 'valid'/'invalid'
     * Label: the search URL template (roughly)
+
+## Check links
+1. `irb`
+2. `require './test/links.rb'`
+3. `Link.check_all` (and wait...)
+4. `exit`
+5. `git diff test/links.json`
