@@ -68,6 +68,7 @@ Pixabay
 Playstation
 Popcornflix
 PopKey
+Prelinger
 ProBoards
 Quickflix
 Quora
@@ -83,6 +84,7 @@ SlangIt
 Slofile
 SnagFilms
 Starz
+subcollections
 Subreddit
 TeacherTube
 TEDx

@@ -48,6 +48,15 @@
           "searchUrl": "https://www.hatebase.org/search_results/keywords={q}"
         }
       ]
+    },
+    {
+      "name": "Word origins",
+      "tools": [
+        {
+          "name": "Etymology Dictionary",
+          "searchUrl": "http://www.etymonline.com/?search={q}"
+        }
+      ]
     }
   ]
 }

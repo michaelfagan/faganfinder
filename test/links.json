@@ -203,6 +203,14 @@
     "redirect": "https://www.electoralhq.com/twitter-lists/search"
   },
   {
+    "url": "http://www.etymonline.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.etymonline.com/?search=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.facebook.com/groups",
     "status": "302",
     "redirect": "http://www.facebook.com/login.php?next=http%3A%2F%2Fwww.facebook.com%2Fgroups"
@@ -1127,6 +1135,10 @@
   {
     "url": "https://archive.org/details/movies",
     "status": "301"
+  },
+  {
+    "url": "https://archive.org/details/prelinger&tab=about",
+    "status": "200"
   },
   {
     "url": "https://archive.org/details/tv",
