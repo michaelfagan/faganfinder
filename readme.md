@@ -52,3 +52,4 @@ See http://www.faganfinder.com/
 3. `Link.check_all` (and wait...)
 4. `exit`
 5. `git diff test/links.json`
+6. manually test links which were determined to be broken on `test/bad_links.html`

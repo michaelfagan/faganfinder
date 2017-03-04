@@ -319,10 +319,6 @@
       "name": "Lectures",
       "tools": [
         {
-          "name": "Yovisto",
-          "searchUrl": "http://www.yovisto.com/search.jsp?q={q}"
-        },
-        {
           "name": "VideoLectures.NET",
           "searchUrl": "http://videolectures.net/site/search/?q={q}"
         },
@@ -555,7 +551,7 @@
         },
         {
           "name": "Asian Crush",
-          "searchUrl": "https://www.asiancrush.com/search/?key={q}"
+          "searchUrl": "https://www.asiancrush.com/?s={q}"
         },
         {
           "name": "BoxTV (India)",

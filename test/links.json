@@ -22,7 +22,7 @@
   },
   {
     "url": "http://www.ic.gc.ca/eic/site/ccc_bt-rec_ec.nsf/eng/h_00001.html",
-    "status": "200"
+    "status": "503"
   },
   {
     "url": "https://www.nfb.ca/",
@@ -62,11 +62,11 @@
   },
   {
     "url": "http://www.aparat.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.aparat.com/result/test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.aparchive.com/",
@@ -77,9 +77,8 @@
     "status": "200"
   },
   {
-    "url": "https://www.asiancrush.com/search/?key=test",
-    "status": "301",
-    "redirect": "https://www.asiancrush.com/search/"
+    "url": "https://www.asiancrush.com/?s=test",
+    "status": "200"
   },
   {
     "url": "https://www.asiancrush.com",
@@ -1031,14 +1030,6 @@
     "url": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q=test",
     "status": "301",
     "redirect": "https://www.youtube.com/results"
-  },
-  {
-    "url": "http://yovisto.com/",
-    "status": "200"
-  },
-  {
-    "url": "http://www.yovisto.com/search.jsp?q=test",
-    "status": "200"
   },
   {
     "url": "https://popkey.co/",
