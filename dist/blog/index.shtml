@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://www.faganfinder.com/site/about.shtml">
+
+<!-- Metadata Metadata (crazy...) -->
+<link rel="schema.DC" href="http://purl.org/dc" />
+
+<!-- Content Metadata -->
+<title>Site &gt; Blog || Fagan Finder</title>
+<meta name="DC.Title" xml:lang="en" lang="en" content="Site &gt; Blog || Fagan Finder" />
+<meta name="description" content="A weblog describing the major updates and revisions to all of Fagan Finder." />
+<meta name="DC.Description" xml:lang="en" lang="en" content="A weblog describing the major updates and revisions to all of Fagan Finder." />
+<meta name="keywords" content="faganfinder, fagan finder, weblog, blog, log, history, revisions, updates, changes, journal, news" />
+<meta name="DC.Subject" xml:lang="en" lang="en" content="faganfinder, fagan finder, weblog, blog, log, history, revisions, updates, changes, journal, news" />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen false for "http://www.faganfinder.com/blog/" r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen false for "http://www.faganfinder.com/blog/"  r (n 0 s 0 v 0 l 0))' />
+<meta name="DC.Date.Modified" content="2004-10-16" />
+
+<!-- Location/Language/Character Set Metadata -->
+<meta name="language" content="English" />
+<meta name="DC.Language" content="en-ca" />
+<meta http-equiv="Content-Language" content="en-ca" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="DC.Coverage" content="global" />
+
+<!-- Author Metadata -->
+<meta name="author" content="Michael Fagan" />
+<meta name="DC.Creator" content="Michael Fagan" />
+<meta name="DC.Creator" content="Fagan, Michael" />
+<link rel="contact" title="Help" href="http://www.faganfinder.com/site/contact.shtml" />
+
+<!-- Usage Metadata -->
+<meta name="robots" content="index,follow" />
+<meta name="DC.Rights" content="http://www.faganfinder.com/site/copyright.shtml" />
+<meta name="copyright" content="See http://www.faganfinder.com/site/copyright.shtml for copywrite information." />
+<link rel="copyright" title="Copyright" href="http://www.faganfinder.com/site/copyright.shtml" />
+
+<!-- 'Related' Metadata -->
+<meta name="DC.Relation.IsPartOf" content="http://www.faganfinder.com/" />
+<meta name="DC.Relation.IsPartOf" content="http://www.faganfinder.com/site/" />
+<link rel="shortcut icon" href="http://www.faganfinder.com/favicon.ico" />
+<link rel="start" title="Home" href="http://www.faganfinder.com/" />
+<link rel="contents" title="Site Map" href="http://www.faganfinder.com/site/sitemap.shtml" />
+<link rel="help" title="Help" href="http://www.faganfinder.com/site/help.shtml" />
+<link rev="revisions" title="Document Revisions" href="http://www.faganfinder.com/" />
+<link rel="alternate" title="RSS" type="application/rss+xml" href="http://www.faganfinder.com/blog/rss.php" hreflang="en" />
+<link rel="privacy" title="Privacy Policy" href="http://www.faganfinder.com/site/privacy.shtml" />
+<link rel="disclaimer" title="Disclaimer" href="http://www.faganfinder.com/site/disclaimer.shtml" />
+<link rel="search" title="Search" href="http://www.faganfinder.com/site/search.shtml" />
+
+<!-- Styles -->
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<link rel="stylesheet" href="../default.css" type="text/css" title="default" media="screen" />
+
+<!-- Scripts -->
+<script type="text/javascript" src="../head.js"></script>
+<script type="text/javascript">
+var textbox = "false";
+</script>
+
+</head>
+<body onload="doOnload();">
+
+<!-- Header -->
+
+<div id="header">
+<h1><a href="http://www.faganfinder.com/" hreflang="en-ca" title="return to Fagan Finder&#8217;s home page" rel="start" accesskey="h">Fagan Finder</a> &gt; <a href="../site/index.shtml" hreflang="en" title="information about Fagan Finder">Site</a> &gt; Blog</h1>
+</div>
+
+<!--z-include virtual="../topinclude.php"-->
+
+<div id="logRss">
+<a href="rss.php" title="RSS Feed" rel="alternate" hreflang="en"><img src="../xml.gif" border="0" width="36" height="14" alt="[XML]" title="Syndicate this Page" /></a>
+</div>
+
+<div id="changes">
+<div class="change">
+	<h3>November 15, 2010</h3>
+	<p>
+		I have redone the <a href="http://www.faganfinder.com/google/">Google Ultimate Interface</a>, a long-time favourite of many. It now includes tons of options on all current Google services.
+		Searching by date has been taken off that page and split into a separate <a href="http://www.faganfinder.com/date/">Search by Date</a> page which includes other tools as well as Google.
+	</p>
+</div>
+<div class="change">
+	<h3>November 7, 2010</h3>
+	<p>
+		I have pushed forward the first major redesign since Fagan Finder launched in 2001. This brings improved aesthetics and overall smoothness, some additional features, and support of all the latest web standards.
+		Please let me know what you think of the new design and if you have any problems. Note that not every single page on Fagan Finder sports the new design yet, but all the regular search pages do.
+		Actually, I created a new design back in 2004 but never published it, but I think this new new design should work well.
+	</p>
+</div>
+<div class="change">
+	<h3>October 28, 2010</h3>
+	<p>
+		Fagan Finder has been largely abandoned for most of the last seven years. At the end of July I announced an update to the image search page, and I'm now following that up with quite a bit more.
+	</p>
+	<ul>
+		<li>Major update for the <a href="http://www.faganfinder.com/video/">Video Search</a> page, adding educational videos, how-tos, and documentaries, news video, etc. and including a good informational section.</li>
+		<li>Major update for the <a href="http://www.faganfinder.com/geo/">Maps and Geography</a> page with online map websites and sources of geographic data, and including a very extensive informational section.</li>
+		<li>Major update for the <a href="http://www.faganfinder.com/news/">News Search</a> page.</li>
+		<li>Major update for the <a href="http://www.faganfinder.com/buy/">Shopping Search</a> page including not just price comparison engines but local stores, product reviews, info, and manuals, local shopping and classifieds, product code search, even rent, borrow, and free sites as well as a very extensive informational section.</li>
+		<li>Major update for the <a href="http://www.faganfinder.com/aref/">Academic Search</a> (formerly advanced reference) page which now includes academic search engines and directories, scholarly/journal papers, online courses and videos, flashcards and quizzes, books, and more.</li>
+		<li>Major update for the <a href="http://www.faganfinder.com/engines/">Search Engines</a> page including blog search engines, real-time search engines, and hard-to-categorize tools such as Wolfram|Alpha and other fact/answer tools.</li>
+	</ul>
+	<p>
+		The meta search engines, directories, and blog search engine pages have all been rolled into the search engines page.
+		I have also begun some intentional duplication. Blog search engines can also be found on the news page for convenience; news video can be found on both the news and video search page.
+		Education videos can be found on both the video and academic pages. The academic page also includes some general search tools as well. All to make it easier to do all your searching without having to travel to different parts of Fagan Finder.
+		I have also updated the home page to take all these updates into account and add new tools like <a href="http://www.faganfinder.com/aref/">book search</a>.
+		I have also completely redone the <a href="http://www.faganfinder.com/site/">about section</a> which now includes a handy contact form to send me feedback.
+	</p>
+</div>
+<div class="change">
+<h3>Image Search updated again</h3>
+<p>I have once again cleaned up the <a href="http://www.faganfinder.com/img/">Image Search Engines</a> page, removing, fixing, and even some additions.</p>
+</div>
+<div class="change">
+<h3>Image Search updated</h3>
+<p>I have significantly upgraded the <a href="http://www.faganfinder.com/img/">Image Search Engines</a> page; <a href="http://www.faganfinder.com/wp/2007/01/13/810/">details here</a>.</p>
+</div>
+<div class="change">
+<h3>October 24: Switch Bookmarklets 2</h3>
+Okay, I've finally gotten around to making a new interface for the switch bookmarklets and adding some features. Get 'em here: <a href="http://www.faganfinder.com/switch/">Switch Bookmarklets</a>!
+</div>
+<div class="change">
+<h3>October 16: Switch Bookmarklets</h3>
+This was going to be part of the new feature set when I unveiled the new design of Fagan Finder, several thousand years from now. But <a href="http://www.librarystuff.net/">Steven</a> convinced me otherwise, so I've incorporate this new tool into Fagan Finder today.
+It's ugly but it works. <em>Switch</em> bookmarklets allow you to switch from search results on one tool to search results on another. Grab the bookmarklet for any tool (e.g. Dictionary.com), search anywhere else (e.g. Yahoo!), then click the bookmarklet to switch to Dictionary.com.
+Get the bookmarklets by following the link at the footer of any search page (e.g. <a href="http://www.faganfinder.com/engines/">search engines</a>, <a href="http://www.faganfinder.com/blogs/">blogs</a>). Feedback welcome.
+</div>
+<div class="change">
+<h3>August 22: URLinfo</h3>
+Brand-new tool today! Actually, it&#8217;s a major redo of an old tool. Introducing <a href="http://www.faganfinder.com/urlinfo/">URLinfo (beta)</a>, a tool used to find out information about a web page, track it, translate it, search through it, view old versions if it, find similar pages and backlinks, and more.
+It&#8217;s divided into various sections, and each also contains information and additional links. You can also create a customized bookmarklet for easy access to URLinfo. <a href="http://www.faganfinder.com/site/contact.shtml">Feedback</a> is welcome.
+</div>
+<div class="change">
+<h3>June 24: Meta Search Engines</h3>
+My seriously out-of-date <a href="http://www.faganfinder.com/meta/">Meta Search Engines</a> page is now up to date. Almost everything that was there is now gone, but over ten meta search engines have been added, everything fixed, more information written, and descriptions added for all the tools and links.
+</div>
+<div class="change">
+<h3>June 13: Invisible Web</h3>
+When I went through to update the <a href="http://www.faganfinder.com/invis/">Invisible Web</a> section, I found that almost all the resources included no longer existed. I also took out the file format search, since I now have a separate <a href="http://www.faganfinder.com/filetype/">Search by File Format</a> page.
+That left me with so little that I almost decided to remove it completely. Instead I have removed it only from the home page, but I have updated the information, and added a few new links. Suggestions <a href="http://www.faganfinder.com/site/contact.shtml">welcome</a>.
+</div>
+<div class="change">
+<h3>June 3: Search for Quotations</h3>
+A brand new section today, <a href="http://www.faganfinder.com/quotes/">Quotations and Proverbs</a> search. At the moment, it includes mostly quotation and proverb websites, but also has sayings, aphorisms, slogans, etc. It isn&#8217;t really <em>finished</em>, but nothing on Fagan Finder ever really is.
+So far it includes 52 search tools and 33 external links (with reasonable information about each), making it very extensive already. Also, I have tried something new: the page includes a random quotation from <a href="http://www.quoteserver.ca/">Daily Quotation Server</a>.
+It makes the page load a little slower, so I may remove it (and <a href="http://www.faganfinder.com/site/contact.shtml">feedback</a> is welcome).
+</div>
+<div class="change">
+<h3>March 3: File Formats</h3>
+New tool: <a href="http://www.faganfinder.com/filetype/">Search by File Format</a>.
+</div>
+<div class="change">
+<h3>February 19: RSS</h3>
+I updated my <a href="http://www.faganfinder.coms/search/rss.shtml">article on RSS</a> to include information on Atom, OPML, and a few other things. The changes are described on the <a href="http://www.faganfinder.com/search/rss_changes.shtml">changes log</a>.
+</div>
+<div class="change">
+<h3>January 26: Web Directories</h3>
+I have updated the <a href="http://www.faganfinder.com/dir/">Directories and Human Guides</a> section. I removed a number of search tools and links, however I have added five new search tools, descriptions for all links and search tools, and a information section.
+</div>
+<div class="change">
+<h3>January 7: 2004 already?</h3>
+After receiving quite a few e-mails, I finally got around to adding 2004 to date options for a couple of pages.
+</div>
+<div class="change">
+<h3>January 1: Search Engines</h3>
+I&#8217;ve given a much-needed update to the <a href="http://www.faganfinder.com/engines/">Search Engines</a> page, which includes several new search engines.
+</div>
+<div class="change">
+<h3>December 31: Audio and Music Search Engines</h3>
+For the same reason mentioned in the previous entry, I have added sixteen new resources to the <a href="http://www.faganfinder.com/audio/">Audio and Music Search Engines</a> section.
+</div>
+<div class="change">
+<h3>December 24: Movie and Video Search Tools</h3>
+I have been going through Fagan Finder&#8217;s search tool pages, upgrading them to the current format, and removing dead links. Doing so for the <a href="http://www.faganfinder.com/video/">Movie and Video Search Tools</a> reduced it to just three tools, so I have added fourteen new resources to that page. Most of these are for finding movie reviews.
+</div>
+<div class="change">
+<h3>December 14: Quotations?</h3>
+Are you really into quotations? Or maybe proverbs? <a href="http://www.faganfinder.com/site/contact.shtml">E-mail me</a>.
+</div>
+<div class="change">
+<h3>December 7: Backend Changes</h3>
+I have been making a number of changes to the back end of Fagan Finder. Most of these changes will not be obvious for some time, however. One thing to note is that all search tool pages in the new format are now available as <a href="http://www.faganfinder.com/searchbox/">search boxes</a>.
+</div>
+<div class="change">
+<h3>November 6, 2003: Still Quite Alive</h3>
+Just a notice to say I'm still alive. Unfortunately I have <strong>very</strong> limited time to work on Fagan Finder while I am attending university. I intend a major website overhaul, which may not happen for quite a while.
+The only changes happening at this time, I&#8217;ll admit, are more advertisements on Fagan Finder. I will not, however, let them take over the site.
+</div>
+<div class="change">
+<h3>August 6, 2003: Translation Wizard</h3>
+Big new feature today, the Fagan Finder <a href="http://www.faganfinder.com/translate/">Translation Wizard</a> goes live in beta status. I have been working on this tool for some weeks and it is by far the largest and most complex tool on Fagan Finder.
+See <a href="http://www.faganfinder.com/translate/info.php">About the Translation Wizard</a>. Features include translation of words, sentences, and web pages. Web pages can be SWF or PDF files. Many translators are available, including more than one for many language pairs.
+Quite a few <a href="http://www.faganfinder.com/language.php">languages are available</a>, each with its own informational page. Virtual keyboards are available for Latin, Cryillic, Greek, Hebrew, and Arabic. Input may be written in right-to-left (i.e. Hebrew, Yiddish, Arabic, Farsi, Urdu).
+One-click translation for language pairs where only dictionaries are available. And that&#8217;s just a start: many other features, languages, and translators will be added.
+</div>
+<div class="change">
+<h3>June 3, 2003: New Autosearch feature</h3>
+Every so often I hear suggestions to make Fagan Finder more like a meta search engine. Some people want to search all the tools at once, or at least multiple tools simultaneously.
+I have planned on something like this as an <em>option</em> when Fagan Finder eventually becomes database-driven. Today (perhaps fuelled by comments by <a href="http://www.masternewmedia.com/">Luigi</a>), I wondered if I could do something simple to accomplish this right now.
+A little work and a new beta feature, Autosearch, available from the <a href="http://www.faganfinder.com/site/preferences.shtml">Preferences</a> page. Don&#8217;t expect it to work :-) and please send <a href="http://www.faganfinder.com/site/contact.shtml">feedback</a>.
+Essentially you can click a <em>next</em> button rather than having to select the next option and then press <em>search</em>. Currently only available on new-design pages (<a href="http://www.faganfinder.com/blogs/">Blogs</a>, <a href="http://www.faganfinder.com/img/">Images</a>, and the main page).
+</div>
+<h3>May 25, 2003: Image Search Engines</h3>
+Its here! I have been working on upgrading my <a href="http://www.faganfinder.com/img/">Image Search Engines</a> page for quite a while now. It is actually only 90% finished, but I couldn&#8217;t wait any longer to get it out.
+Compared to before, I have removed four search tools, added 27 new ones, and added 41 new links! So search tools + links is now 85; extremely comprehensive. Every search tool and link has additional information about it as tooltip text (when you hold your mouse over it).
+I also added some information to the bottom of the page. Enjoy.
+</div>
+<div class="change">
+<h3>April 13, 2003: New <acronym title="Really Simple Syndication, Rich Site Summary, RDF Site Summary, etc.">RSS</acronym> Page</h3>
+Today a new document on Fagan Finder: <a href="http://www.faganfinder.com/search/rss.shtml">RSS</a>. It explains what RSS is, how you can use it, RSS aggregators, and how you can find RSS feeds. Comments and suggestions welcome.
+</div>
+<div class="change">
+<h3>April 1, 2003: International Keyboard</h3>
+I&#8217;ve had positive feedback on the "international keyboard" available on my <a href="http://www.faganfinder.com/google.html">Google Ultimate Interface</a> and <a href="http://www.faganfinder.com/engines.html">Search Engine Ultimate Interface</a>.
+So I decided to let you take the tool with you, when you're not on Fagan Finder. It is available as a bookmarklet. The bookmarklet is here: <a href="javascript:self.name='g';var x='<script type=\'text\/javascript\'>function t(c){var z=creator.document.f.q.value+String.fromCharCode(c);creator.document.f.q.value=\'\';creator.document.f.q.focus();creator.document.f.q.value=z;focus()}<\/script>';for(var i=224;i<255;i++){if(i!=247){x+='<a href=\'javascript:t('+i+')\'>&#'+i+';</a> '}}v=open('','','fullscreen=no,toolbar=no,status=no,menubar=no,scrollbars=no,resizable=yes,directories=no,location=no,width=150,height=20');v.document.write(x);void(v.creator=self)">keyboard</a>.
+Go to the Google homepage. Then click on the bookmarklet. The keyboard pops up, and you can click on the characters and then close the keyboard. It works on most Google pages (e.g. Google News), and also AlltheWeb. If anyone's interested, I'll gladly extend this to other search tools.
+If you have any problems with it, <a href="http://www.faganfinder.com/site/contact.shtml">tell me about it</a>. This should eventually move over to my <a href="http://www.faganfinder.com/misc/bookmarklets.shtml">Bookmarklets</a> page. It seems to be not working in Internet Explorer version 6; I&#8217;m working on it.
+</div>
+<div class="change">
+<h3>March 2, 2003: Weblogs, Journals, and RSS</h3>
+I have gone through Fagan Finder&#8217;s <a href="http://www.faganfinder.com/blogs/">Blogs</a> page, and brought it up to date. I removed several old items, and added twenty new ones. That&#8217;s right, 20.
+</div>
+<div class="change">
+<h3>January 31, 2003: Google Ultimate Interface Updates</h3>
+I have finally gotten around to updating the <a href="http://www.faganfinder.com/google.html">Google Ultimate Interface</a> (inspired by <a href="http://www.masternewmedia.org/archives/000047.html">this nice article</a>). I have added Froogle, Google Viewer, Google Webquotes, and fixed Google Answers (including asking a question).
+</div>
+<div class="change">
+<h3>January 2, 2003: Page Info Viewer</h3>
+I have made many improvments and additions to the <a href="http://www.faganfinder.com/misc/site.shtml">Page Info Viewer</a>. This tool allows you to see all sorts of information about a web page, track it, find related pages, etc. The additions today include Gigablast, Technorati, Weblog Ecosystem, Organica, Recommended Reading, Waypath, GetContentSize, Teoma, more from Inktomi, and the re-adding of Daypop.
+</div>
+<div class="change">
+<h3>January 1, 2003: Predictions for 2003</h3>
+I have made <a href="http://www.faganfinder.com/search/predictions2003.shtml">Predictions for 2003</a> about the state of searching online. You can also check out my <a href="http://www.faganfinder.com/search/predictions2002.shtml">2002 Predictions</a>.
+</div>
+<div class="change">
+<h3>December 21, 2002: Search Engine Ultimate Interface</h3>
+The <a href="http://www.faganfinder.com/engines.html">Search Engine Ultimate Interface</a> is a new tool that I&#8217;ve made. Roughly similar to my <a href="http://www.faganfinder.com/google.html">Google Ultimate Interface</a>, it provides a front-end to all of the major search engines. It includes Google, AlltheWeb (Fast), Inktomi (PositionTech&#8217;s Puresearch), AltaVista, Teoma, Wisenut, Northern Light, Gigablast, and Openfind. It is in beta: improvements, help, and instructions, and cross-browser compatibility will be forthcoming.
+</div>
+</div>
+
+<!-- Links -->
+
+<div id="links">
+<h2 title="additional resources">links</h2>
+<table id="linkstable" summary="This table is used exclusively for layout purposes. It's not my fault, blame Netscape 4!" width="100%"><tr>
+<td valign="top">
+<strong>Inside Fagan Finder</strong><br />
+<ul class="in">
+<li><a href="../site/index.shtml" hreflang="en" title="information about Fagan Finder, its creator, how to use the site, etc.">Site Information</a></li>
+<li><a href="../site/news4.shtml" hreflang="en" title="Fagan Finder's blog, 2002">Blog Archive (2002)</a></li>
+<li><a href="../site/news3.shtml" hreflang="en" title="Fagan Finder's blog, December 2001">Blog Archive (December 2001)</a></li>
+<li><a href="../site/news2.shtml" hreflang="en" title="Fagan Finder's blog, November 2001">Blog Archive (November 2001)</a></li>
+<li><a href="../site/news1.shtml" hreflang="en" title="Fagan Finder's blog, September and October 2001">Blog Archive (September-October 2001)</a></li>
+</ul>
+</td>
+<td valign="top">
+<strong>Search Engine Blog Archives</strong><br />
+<ul class="in">
+<li><a href="../blog/2002_08_04_archive.html" hreflang="en">August 4 2002</a></li>
+<li><a href="../blog/2002_07_28_archive.html" hreflang="en">July 30 2002</a></li>
+<li><a href="../blog/2002_07_21_archive.html" hreflang="en">July 27 2002</a></li>
+<li><a href="../blog/2002_07_07_archive.html" hreflang="en">July 7-12 2002</a></li>
+<li><a href="../blog/2002_06_30_archive.html" hreflang="en">June 30 - July 6 2002</a></li>
+<li><a href="../blog/2002_06_23_archive.html" hreflang="en">June 23-29</a></li>
+<li><a href="../blog/2002_06_16_archive.html" hreflang="en">June 16-21</a></li>
+</ul>
+</td>
+<td valign="top">
+<strong>Elsewhere</strong><br />
+<ul class="out">
+<li><a href="http://www.blogstreet.com/blogsqlbin/home.cgi?url=faganfinder.com/blog" hreflang="en">BlogStreet page for this blog</a></li>
+</ul>
+</td>
+</tr></table>
+</div>
+
+<!-- Information -->
+
+<div id="info">
+<a name="info"></a><h2>information</h2>
+<p>
+This page is a blog which logs the new pages on Fagan Finder and major revisions to existing pages.
+This is <em>not</em> a blog about search engines. I did that for several months (see links above), but it was more work than I could handle. For blogs about search engines, see these <a href="../search/links.shtml" hreflang="en" title="news about search engines and online information">links</a>.
+This is also <em>not</em> a search engine for blogs. For those, see <a href="../blogs/index.shtml" hreflang="en">Weblogs, Journals, and <acronym title="Really Simple Syndication, Rich Site Summary, RDF Site Summary, etc.">RSS</acronym></a>.
+</p>
+</div>
+
+<!--z-include virtual="../footer.php"-->
+
+<script type="text/javascript">
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-13006445-2']);
+   _gaq.push(['_trackPageview']);
+   (function() {
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+   })();
+</script>
+
+</body>
+</html>
