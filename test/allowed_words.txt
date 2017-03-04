@@ -77,7 +77,6 @@ Rede
 RSS
 Rutube
 SchoolTube
-Showtimes
 showtimes
 SimplyScripts
 SlangIt

@@ -521,7 +521,7 @@
       ]
     },
     {
-      "name": "Showtimes",
+      "name": "Movie showtimes",
       "tools": [
         {
           "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
