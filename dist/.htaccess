@@ -14,6 +14,9 @@ RewriteBase /
 RewriteRule video/$ video.html [L]
 RewriteRule group/$ groups.html [L]
 
+# new pages do not have changelogs
+RewriteRule (video|group)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
+
 
 # my personal blog no longer on faganfinder.com
 RewriteRule wp/ http://faganm.com/blog/ [R=301,L]
