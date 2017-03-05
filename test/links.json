@@ -1032,6 +1032,14 @@
     "redirect": "https://www.youtube.com/results"
   },
   {
+    "url": "http://vintage.yovisto.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://vintage.yovisto.com/search.jsp?q=test",
+    "status": "200"
+  },
+  {
     "url": "https://popkey.co/",
     "status": "200"
   },

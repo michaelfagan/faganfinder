@@ -111,3 +111,4 @@ Wuaki
 wwiTV
 Yandex
 Youku
+Yovisto

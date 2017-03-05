@@ -319,6 +319,10 @@
       "name": "Lectures",
       "tools": [
         {
+          "name": "Yovisto",
+          "searchUrl": "http://vintage.yovisto.com/search.jsp?q={q}"
+        },
+        {
           "name": "VideoLectures.NET",
           "searchUrl": "http://videolectures.net/site/search/?q={q}"
         },
