@@ -62,6 +62,9 @@ a:hover {
   overflow: hidden;
   position: absolute;
 }
+sup {
+  line-height: 1em;
+}
 
 
 /* set up set up overall layout/width */

@@ -25,6 +25,11 @@
     "status": "503"
   },
   {
+    "url": "https://cse.google.ca/cse?cx=partner-pub-0355887770822260:6015318099&q=test",
+    "status": "301",
+    "redirect": "http://cse.google.ca/cse/"
+  },
+  {
     "url": "https://www.nfb.ca/",
     "status": "301"
   },
@@ -32,6 +37,22 @@
     "url": "https://www.nfb.ca/search/#?queryString=test",
     "status": "301",
     "redirect": "https://www.nfb.ca/search/"
+  },
+  {
+    "url": "https://www.etools.ch/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.etools.ch/searchSubmit.do?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://duck.co/help/results/syntax",
+    "status": "302"
+  },
+  {
+    "url": "https://duck.co/ia",
+    "status": "302"
   },
   {
     "url": "http://search.alexanderstreet.com/",
@@ -44,11 +65,27 @@
     "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/search"
   },
   {
+    "url": "http://en.allexperts.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://en.allexperts.com/sitesearch.htm?terms=test",
+    "status": "200"
+  },
+  {
     "url": "http://www.allmovie.com/",
     "status": "200"
   },
   {
     "url": "http://www.allmovie.com/search/all/test",
+    "status": "200"
+  },
+  {
+    "url": "http://wiki.answers.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.answers.com/",
     "status": "200"
   },
   {
@@ -85,6 +122,14 @@
     "status": "timeout"
   },
   {
+    "url": "http://www.baidu.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.baidu.com/s?wd=test",
+    "status": "200"
+  },
+  {
     "url": "http://bechdeltest.com/",
     "status": "200"
   },
@@ -101,6 +146,30 @@
     "status": "200"
   },
   {
+    "url": "http://www.bing.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez2%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez3%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA"
+  },
+  {
+    "url": "http://www.bing.com/search?q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA"
+  },
+  {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
     "status": "302",
     "redirect": "/videos?FORM=HDRSC2"
@@ -115,11 +184,31 @@
     "status": "200"
   },
   {
+    "url": "http://biznar.com/biznar/desktop/en/search.html",
+    "status": "200"
+  },
+  {
     "url": "http://www.blinkx.com/",
     "status": "200"
   },
   {
     "url": "http://www.blinkx.com/search/test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.blurtit.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.blurtit.com/search/?search-query=test",
+    "status": "200"
+  },
+  {
+    "url": "http://boardreader.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://boardreader.com/s/test.html",
     "status": "200"
   },
   {
@@ -129,6 +218,28 @@
   {
     "url": "http://www.boxtv.com/search/test",
     "status": "200"
+  },
+  {
+    "url": "https://brainly.com/app/ask?q=test",
+    "status": "301",
+    "redirect": "https://brainly.com/app/ask"
+  },
+  {
+    "url": "https://brainly.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.britannica.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.britannica.com/search?query=test",
+    "status": "301",
+    "redirect": "https://www.britannica.com/search"
+  },
+  {
+    "url": "https://bynd.com/news-ideas/google-advanced-search-comprehensive-list-google-search-operators/",
+    "status": "301"
   },
   {
     "url": "http://www.crackle.com/",
@@ -150,6 +261,15 @@
   {
     "url": "http://www.dailymotion.com/us/relevance/universal/search/test/1",
     "status": "200"
+  },
+  {
+    "url": "https://datamarket.com/data/",
+    "status": "200"
+  },
+  {
+    "url": "https://datamarket.com/data/list/?q=test",
+    "status": "302",
+    "redirect": "http://datamarket.com/data/"
   },
   {
     "url": "http://www.delphiforums.com/",
@@ -194,6 +314,28 @@
     "redirect": "https://www.dramafever.com/search/"
   },
   {
+    "url": "https://duckduckgo.com/bang",
+    "status": "301"
+  },
+  {
+    "url": "https://duckduckgo.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://duckduckgo.com/?q=test",
+    "status": "301",
+    "redirect": "https://duckduckgo.com/"
+  },
+  {
+    "url": "https://www.edocr.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.edocr.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.edocr.com/search"
+  },
+  {
     "url": "https://www.electoralhq.com/twitter-lists/search",
     "status": "301"
   },
@@ -208,6 +350,37 @@
   },
   {
     "url": "http://www.etymonline.com/?search=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.evi.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.evi.com/question_redirect?question=test",
+    "status": "301",
+    "redirect": "https://www.evi.com/question_redirect"
+  },
+  {
+    "url": "http://www.exalead.com/search/video/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.exalead.com/search/video/results/?q=test",
+    "status": "302",
+    "redirect": "http://www.exalead.com/search/video/"
+  },
+  {
+    "url": "http://www.exalead.com/search/web/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.exalead.com/search/web/results/?q=test",
+    "status": "302",
+    "redirect": "http://www.exalead.com/search/web/"
+  },
+  {
+    "url": "https://www.exalead.com/search/web/search-syntax/",
     "status": "200"
   },
   {
@@ -227,6 +400,11 @@
     "url": "https://www.facebook.com/search/groups/?q=test",
     "status": "301",
     "redirect": "https://www.facebook.com/search/groups/"
+  },
+  {
+    "url": "https://www.facebook.com/search/top/?q=test",
+    "status": "301",
+    "redirect": "https://www.facebook.com/search/top/"
   },
   {
     "url": "https://www.facebook.com/search/videos/?q=test",
@@ -284,12 +462,46 @@
     "status": "200"
   },
   {
+    "url": "https://www.gigablast.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.gigablast.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.gigablast.com/syntax.html",
+    "status": "200"
+  },
+  {
     "url": "https://giphy.com/",
     "status": "200"
   },
   {
     "url": "http://giphy.com/search/test",
     "status": "200"
+  },
+  {
+    "url": "https://www.global-regulation.com/analytics.php?q=test",
+    "status": "302",
+    "redirect": "https://www.global-regulation.com/analytics.php"
+  },
+  {
+    "url": "https://www.global-regulation.com/coverage.php",
+    "status": "302"
+  },
+  {
+    "url": "https://www.global-regulation.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.global-regulation.com/search.php?&q=test",
+    "status": "302",
+    "redirect": "https://www.global-regulation.com/search.php"
+  },
+  {
+    "url": "https://www.global-regulation.com/tools.php",
+    "status": "302"
   },
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
@@ -320,6 +532,10 @@
     "status": "200"
   },
   {
+    "url": "https://groups.google.com/forum/#!search/test",
+    "status": "200"
+  },
+  {
     "url": "https://groups.google.com/",
     "status": "301",
     "redirect": "http://groups.google.com/d/homeredir"
@@ -333,6 +549,20 @@
     "status": "301"
   },
   {
+    "url": "https://support.google.com/websearch/answer/2466433",
+    "status": "301"
+  },
+  {
+    "url": "https://www.google.com/",
+    "status": "302",
+    "redirect": "http://www.google.ca/?gfe_rd=cr&ei=0N7NWKicB8WC8QfIyIa4BA"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
@@ -344,6 +574,16 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?q=test",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
@@ -363,8 +603,50 @@
     "redirect": "http://www.google.com/webhp"
   },
   {
+    "url": "https://www.google.com/search?tbs=li:1&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:d&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:h&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:m&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:w&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:y&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
     "url": "https://www.google.com/videohp",
     "status": "200"
+  },
+  {
+    "url": "https://www.graphiq.com/learn-search",
+    "status": "403"
+  },
+  {
+    "url": "https://www.graphiq.com/search/search?query=test",
+    "status": "403"
+  },
+  {
+    "url": "https://www.graphiq.com/search",
+    "status": "403"
   },
   {
     "url": "https://greensdictofslang.com/",
@@ -441,6 +723,23 @@
     "status": "200"
   },
   {
+    "url": "https://issuu.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://issuu.com/search?q=test",
+    "status": "301",
+    "redirect": "https://issuu.com/search"
+  },
+  {
+    "url": "http://j-archive.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://j-archive.com/search.php?search=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.justwatch.com/au/search?q=test",
     "status": "301",
     "redirect": "https://www.justwatch.com/au/search"
@@ -481,6 +780,14 @@
     "status": "200"
   },
   {
+    "url": "https://knoema.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://knoema.com/search?query=test",
+    "status": "200"
+  },
+  {
     "url": "http://www.learnerstv.com/",
     "status": "200"
   },
@@ -491,6 +798,14 @@
   {
     "url": "https://www.linkedin.com/groups/",
     "status": "404"
+  },
+  {
+    "url": "https://www.linkedin.com/",
+    "status": "405"
+  },
+  {
+    "url": "https://www.linkedin.com/search/results/index/?keywords=test",
+    "status": "200"
   },
   {
     "url": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords=test",
@@ -534,12 +849,42 @@
     "status": "403"
   },
   {
+    "url": "http://ask.metafilter.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://ask.metafilter.com/search.mefi?site=ask&q=test",
+    "status": "200"
+  },
+  {
     "url": "http://mibbit.com/",
     "status": "200"
   },
   {
     "url": "https://search.mibbit.com/search/test",
     "status": "200"
+  },
+  {
+    "url": "https://msdn.microsoft.com/en-us/library/ff795620.aspx",
+    "status": "301"
+  },
+  {
+    "url": "https://millionshort.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://millionshort.com/search?remove=10000&keywords=test",
+    "status": "301",
+    "redirect": "https://millionshort.com/search"
+  },
+  {
+    "url": "https://www.mojeek.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.mojeek.com/search?q=test",
+    "status": "302",
+    "redirect": "http://www.mojeek.com/"
   },
   {
     "url": "https://www.moviefone.com/",
@@ -610,6 +955,16 @@
     "status": "200"
   },
   {
+    "url": "https://data.opendatasoft.com/explore/?q=test",
+    "status": "301",
+    "redirect": "https://data.opendatasoft.com:443/explore/"
+  },
+  {
+    "url": "https://data.opendatasoft.com/page/home/",
+    "status": "301",
+    "redirect": "https://data.opendatasoft.com:443/page/home/"
+  },
+  {
     "url": "https://www.opened.com/",
     "status": "301"
   },
@@ -628,8 +983,26 @@
     "redirect": "https://www.overdrive.com/search"
   },
   {
+    "url": "https://peekier.com/#!test",
+    "status": "301",
+    "redirect": "https://peekier.com/"
+  },
+  {
+    "url": "https://peekier.com/",
+    "status": "301"
+  },
+  {
     "url": "http://apidemo.pingar.com/Profanity.aspx",
     "status": "200"
+  },
+  {
+    "url": "https://www.pinterest.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.pinterest.com/search/pins/?q=test",
+    "status": "301",
+    "redirect": "https://www.pinterest.com/search/pins/"
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
@@ -646,6 +1019,14 @@
   },
   {
     "url": "http://www.popcornflix.com/search?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://prezi.com/explore/popular/",
+    "status": "200"
+  },
+  {
+    "url": "https://prezi.com/explore/search/?search=test",
     "status": "200"
   },
   {
@@ -667,12 +1048,34 @@
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
   },
   {
+    "url": "https://www.question.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.question.com/search/?query=test",
+    "status": "301",
+    "redirect": "https://www.question.com/search/"
+  },
+  {
     "url": "https://www.quora.com/",
+    "status": "403"
+  },
+  {
+    "url": "https://www.quora.com/search?q=test",
     "status": "403"
   },
   {
     "url": "https://www.quora.com/search?type=topic&q=test",
     "status": "403"
+  },
+  {
+    "url": "https://www.qwant.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.qwant.com/?q=test",
+    "status": "302",
+    "redirect": "https://www.qwant.com/"
   },
   {
     "url": "https://www.reddit.com/",
@@ -688,6 +1091,15 @@
     "redirect": "https://www.reddit.com/r/Documentaries/search"
   },
   {
+    "url": "https://www.reddit.com/r/datasets/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/r/datasets/search"
+  },
+  {
     "url": "https://www.reddit.com/r/lectures/",
     "status": "301"
   },
@@ -695,6 +1107,11 @@
     "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/lectures/search"
+  },
+  {
+    "url": "https://www.reddit.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/search"
   },
   {
     "url": "https://www.reddit.com/subreddits/search?q=test",
@@ -740,6 +1157,15 @@
     "status": "200"
   },
   {
+    "url": "https://www.scribd.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.scribd.com/search?payment=free&content_type=documents&query=test",
+    "status": "301",
+    "redirect": "https://www.scribd.com/search"
+  },
+  {
     "url": "http://www.simplyscripts.com/cgi-bin/search.pl?search=test",
     "status": "200"
   },
@@ -773,8 +1199,63 @@
     "status": "200"
   },
   {
+    "url": "http://www.snopes.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.snopes.com/?s=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.social-searcher.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.social-searcher.com/social-buzz/?q5=test",
+    "status": "301",
+    "redirect": "https://www.social-searcher.com/social-buzz/"
+  },
+  {
+    "url": "http://socialmention.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://socialmention.com/search?q=test",
+    "status": "302",
+    "redirect": "/"
+  },
+  {
     "url": "http://www.soku.com/search_video/q_test",
     "status": "200"
+  },
+  {
+    "url": "http://stackexchange.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://stackexchange.com/search?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.startpage.com/do/asearch",
+    "status": "301"
+  },
+  {
+    "url": "https://www.startpage.com/do/preferences",
+    "status": "200"
+  },
+  {
+    "url": "https://www.startpage.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.statista.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.statista.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://www.statista.com/search/"
   },
   {
     "url": "https://online.supportgroups.com/",
@@ -826,6 +1307,15 @@
     "status": "200"
   },
   {
+    "url": "https://www.truthorfiction.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.truthorfiction.com/search_gcse/?q=test",
+    "status": "301",
+    "redirect": "https://www.truthorfiction.com/search_gcse/"
+  },
+  {
     "url": "http://tubitv.com/",
     "status": "200"
   },
@@ -836,6 +1326,14 @@
   {
     "url": "http://thetimelinesofslang.tumblr.com/",
     "status": "200"
+  },
+  {
+    "url": "https://www.tumblr.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.tumblr.com/search/test",
+    "status": "302"
   },
   {
     "url": "http://www.tvmaze.com/",
@@ -869,6 +1367,11 @@
   },
   {
     "url": "https://twitter.com/search?f=videos&q=test",
+    "status": "301",
+    "redirect": "https://twitter.com/search"
+  },
+  {
+    "url": "https://twitter.com/search?q=test",
     "status": "301",
     "redirect": "https://twitter.com/search"
   },
@@ -953,6 +1456,23 @@
     "status": "200"
   },
   {
+    "url": "http://www.wikiwand.com/en/test?fullSearch=true",
+    "status": "301",
+    "redirect": "/en/Test"
+  },
+  {
+    "url": "http://www.wikiwand.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wolframalpha.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.wolframalpha.com/input/?i=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.wonderhowto.com/",
     "status": "301"
   },
@@ -983,7 +1503,19 @@
     "redirect": "https://view.yahoo.com/search"
   },
   {
+    "url": "https://yandex.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://yandex.com/support/search/how-to-search/search-operators.html",
+    "status": "302"
+  },
+  {
     "url": "https://yandex.com/video/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.yandex.com/search/?text=test",
     "status": "timeout"
   },
   {
@@ -1040,6 +1572,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.zanran.com/q/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.zanran.com/q/test",
+    "status": "200"
+  },
+  {
     "url": "https://popkey.co/",
     "status": "200"
   },
@@ -1082,6 +1622,33 @@
     "redirect": "http://www.europeana.eu/portal/en"
   },
   {
+    "url": "https://www.ixquick.eu/do/asearch",
+    "status": "302",
+    "redirect": "http://www.ixquick.eu"
+  },
+  {
+    "url": "https://www.ixquick.eu/do/preferences",
+    "status": "200"
+  },
+  {
+    "url": "https://www.ixquick.eu/",
+    "status": "301"
+  },
+  {
+    "url": "https://datahub.io/dataset?q=test",
+    "status": "302",
+    "redirect": "https://datahub.io/dataset"
+  },
+  {
+    "url": "https://datahub.io/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.echosim.io/",
+    "status": "301",
+    "redirect": "http://echosim.io/"
+  },
+  {
     "url": "https://gifme.io/",
     "status": "200"
   },
@@ -1116,6 +1683,19 @@
     "status": "200"
   },
   {
+    "url": "http://www.hoax-slayer.net/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.slideshare.net/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.slideshare.net/search/slideshow?q=test",
+    "status": "302",
+    "redirect": "https://www.slideshare.net/search/slideshow"
+  },
+  {
     "url": "http://www.squidtv.net/",
     "status": "200"
   },
@@ -1126,6 +1706,15 @@
   {
     "url": "http://videolectures.net/site/search/?q=test",
     "status": "200"
+  },
+  {
+    "url": "https://able2know.org/",
+    "status": "302"
+  },
+  {
+    "url": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q=test",
+    "status": "302",
+    "redirect": "https://able2know.org/search/"
   },
   {
     "url": "https://archive.org/details/movies?and[]=test",
@@ -1150,6 +1739,15 @@
     "redirect": "https://archive.org/details/tv"
   },
   {
+    "url": "https://archive.org/",
+    "status": "301",
+    "redirect": "https://archive.org"
+  },
+  {
+    "url": "https://archive.org/search.php?query=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",
     "status": "301",
     "redirect": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx"
@@ -1157,6 +1755,14 @@
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
     "status": "301"
+  },
+  {
+    "url": "http://search.carrot2.org/stable/search",
+    "status": "200"
+  },
+  {
+    "url": "http://search.carrot2.org/stable/search?view=foamtree&query=test",
+    "status": "200"
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -1189,6 +1795,24 @@
     "redirect": "https://www.dailystrength.org/search"
   },
   {
+    "url": "https://search.datacite.org/",
+    "status": "301"
+  },
+  {
+    "url": "https://search.datacite.org/works?query=test",
+    "status": "301",
+    "redirect": "https://search.datacite.org/works"
+  },
+  {
+    "url": "https://search.dataone.org/",
+    "status": "301",
+    "redirect": "https://search.dataone.org"
+  },
+  {
+    "url": "http://dataportals.org/",
+    "status": "200"
+  },
+  {
     "url": "https://freedocumentaries.org/",
     "status": "301"
   },
@@ -1196,6 +1820,10 @@
     "url": "https://freedocumentaries.org/search?q=test",
     "status": "301",
     "redirect": "https://freedocumentaries.org/search"
+  },
+  {
+    "url": "http://gdeltproject.org/data.html",
+    "status": "200"
   },
   {
     "url": "https://www.hatebase.org/",
@@ -1227,6 +1855,14 @@
     "status": "200"
   },
   {
+    "url": "http://www.re3data.org/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.re3data.org/search?query=test",
+    "status": "200"
+  },
+  {
     "url": "http://slang.org/",
     "status": "200"
   },
@@ -1250,6 +1886,15 @@
     "url": "https://www.themoviedb.org/search?query=test",
     "status": "301",
     "redirect": "https://www.themoviedb.org/search"
+  },
+  {
+    "url": "https://certificates.theodi.org/en/datasets",
+    "status": "301"
+  },
+  {
+    "url": "https://certificates.theodi.org/en/datasets?search=test",
+    "status": "301",
+    "redirect": "https://certificates.theodi.org/en/datasets"
   },
   {
     "url": "http://tvtropes.org/",
@@ -1276,11 +1921,38 @@
     "status": "200"
   },
   {
+    "url": "https://www.wikidata.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://www.wikidata.org/w/index.php"
+  },
+  {
+    "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+    "status": "301"
+  },
+  {
+    "url": "https://wikileaks.org/",
+    "status": "302"
+  },
+  {
+    "url": "https://search.wikileaks.org/?q=test",
+    "status": "302",
+    "redirect": "https://search.wikileaks.org/"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://en.wikipedia.org/w/index.php"
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
     "status": "301"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
+    "status": "301"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
     "status": "301"
   },
   {
@@ -1343,5 +2015,14 @@
   {
     "url": "http://www.peevish.co.uk/slang/",
     "status": "200"
+  },
+  {
+    "url": "https://data.world/",
+    "status": "301"
+  },
+  {
+    "url": "https://data.world/search?q=test",
+    "status": "301",
+    "redirect": "https://data.world/search"
   }
 ]

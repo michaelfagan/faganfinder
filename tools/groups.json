@@ -50,7 +50,7 @@
       "name": "General groups",
       "tools": [
         {
-          "name": "Google",
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
           "searchUrl": "https://www.google.com/search?q={q}%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op"
         }
       ]

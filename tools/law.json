@@ -1,0 +1,23 @@
+{
+  "unpublished": true,
+  "description": {
+    "internal": "this is temporary this is temporary",
+    "external": "this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary"
+  },
+  "path": "law/",
+  "sections": [
+    {
+      "name": "Worldwide laws",
+      "tools": [
+        {
+          "name": "Global-Regulation",
+          "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
+        },
+        {
+          "name": "Global-Regulation analytics",
+          "searchUrl": "https://www.global-regulation.com/analytics.php?q={q}"
+        }
+      ]
+    }
+  ]
+}

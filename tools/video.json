@@ -1,7 +1,7 @@
 {
   "description": {
     "internal": "movies, television, live, educational, scripts, information, reviews",
-    "external": "The most comprehensive collection of video search tools. Find movies, TV, news, educational content, etc., even scripts, reviews and showtimes."
+    "external": "Find movies, TV, news, educational content, etc., even scripts, reviews and showtimes."
   },
   "path": "video/",
   "sections": [
@@ -23,6 +23,10 @@
         {
           "name": "blinkx",
           "searchUrl": "http://www.blinkx.com/search/{q}"
+        },
+        {
+          "name": "Exalead",
+          "searchUrl": "http://www.exalead.com/search/video/results/?q={q}"
         },
         {
           "name": "MeFeedia",
@@ -506,7 +510,7 @@
       "name": "Movie/TV scripts",
       "tools": [
         {
-          "name": "Google",
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
           "searchUrl": "https://www.google.com/search?q={q}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
         },
         {
