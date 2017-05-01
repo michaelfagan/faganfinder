@@ -73,7 +73,7 @@
       "tools": [
         {
           "name": "<abbr title=\"Union of International Associations\">UIA</abbr> Open Yearbook",
-          "searchUrl": "http://www.uia.org/ybio?name={q}"
+          "searchUrl": "https://www.uia.org/ybio?name={q}"
         },
         {
           "name": "CareerOneStop (<abbr title=\"United States of America\">USA</abbr>)",

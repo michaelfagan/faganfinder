@@ -76,12 +76,17 @@ class Link
     result = { 'url' => url }
     parsed = URI.parse url
     begin
+      # todo: rewrite these two requests into one
+
       request = Net::HTTP.new parsed.host
       response = request.request_head parsed.path
       result['status'] = response.code
       if response['location'] && response['location'] != url
         result['redirect'] = response['location']
       end
+
+      Net::HTTP.get(parsed) =~ /<title>(.*?)<\/title>/
+      result['title'] = $1.force_encoding "UTF-8"
     rescue
       result['status'] = 'timeout'
     end

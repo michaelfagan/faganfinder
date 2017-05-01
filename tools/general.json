@@ -212,15 +212,11 @@
         },
         {
           "name": "StackExchange",
-          "searchUrl": "http://stackexchange.com/search?q={q}"
+          "searchUrl": "https://stackexchange.com/search?q={q}"
         },
         {
           "name": "Brainly",
           "searchUrl": "https://brainly.com/app/ask?q={q}"
-        },
-        {
-          "name": "AllExperts",
-          "searchUrl": "http://en.allexperts.com/sitesearch.htm?terms={q}"
         },
         {
           "name": "Answers.com",
@@ -287,7 +283,7 @@
         },
         {
           "name": "Hoax-Slayer",
-          "searchUrl": "https://cse.google.ca/cse?cx=partner-pub-0355887770822260:6015318099&q={q}"
+          "searchUrl": "https://cse.google.com/cse?cx=partner-pub-0355887770822260:6015318099&q={q}"
         }
       ]
     },
