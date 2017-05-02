@@ -86,8 +86,9 @@ class Link
       end
 
       Net::HTTP.get(parsed) =~ /<title>(.*?)<\/title>/
-      result['title'] = $1.force_encoding "UTF-8"
-    rescue
+      result['title'] = $1.force_encoding('UTF-8') if $1
+    rescue Exception => e
+      puts "  #{e.message}"
       result['status'] = 'timeout'
     end
     result
@@ -95,6 +96,13 @@ class Link
 
   def self.check_all
     links = read_links_file.map{|l| check l['url'], true}
+    write_links_file links
+  end
+
+  def self.recheck_timeouts
+    links = read_links_file.map do |l|
+      l['status'] == 'timeout' ? check(l['url'], true) : l
+    end
     write_links_file links
   end
 

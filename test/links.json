@@ -22,7 +22,7 @@
   },
   {
     "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.ic.gc.ca/eic/site/ccc_bt-rec_ec.nsf/eng/h_00001.html",
@@ -36,7 +36,7 @@
   },
   {
     "url": "https://www.nfb.ca/search/#?queryString=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.nfb.ca/search/"
   },
   {
@@ -61,12 +61,12 @@
   },
   {
     "url": "http://search.alexanderstreet.com/",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
   },
   {
     "url": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/search"
   },
   {
@@ -152,11 +152,11 @@
   },
   {
     "url": "http://bigthink.com/search?type=video_idea&q=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://bigthink.com/videos",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.bing.com/",
@@ -206,7 +206,7 @@
   },
   {
     "url": "http://biznar.com/biznar/desktop/en/search.html",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.blinkx.com/",
@@ -277,7 +277,7 @@
   },
   {
     "url": "http://www.crackle.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase=test",
@@ -291,7 +291,7 @@
   },
   {
     "url": "http://www.dailymotion.com/",
-    "status": "timeout",
+    "status": "302",
     "redirect": "/ca-en"
   },
   {
@@ -301,7 +301,7 @@
   },
   {
     "url": "https://datamarket.com/data/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://datamarket.com/data/list/?q=test",
@@ -416,25 +416,25 @@
   },
   {
     "url": "https://www.evi.com/question_redirect?question=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.evi.com/question_redirect"
   },
   {
     "url": "http://www.exalead.com/search/video/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.exalead.com/search/video/results/?q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.exalead.com/search/video/"
   },
   {
     "url": "http://www.exalead.com/search/web/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.exalead.com/search/web/results/?q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.exalead.com/search/web/"
   },
   {
@@ -444,30 +444,30 @@
   },
   {
     "url": "https://www.facebook.com/groups",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.facebook.com/login.php?next=http%3A%2F%2Fwww.facebook.com%2Fgroups"
   },
   {
     "url": "https://www.facebook.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.facebook.com/livemap/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.facebook.com/search/groups/?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.facebook.com/search/groups/"
   },
   {
     "url": "https://www.facebook.com/search/top/?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.facebook.com/search/top/"
   },
   {
     "url": "https://www.facebook.com/search/videos/?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.facebook.com/search/videos/"
   },
   {
@@ -554,7 +554,7 @@
   },
   {
     "url": "http://giphy.com/search/test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://giphy.com/search/test"
   },
   {
@@ -586,12 +586,12 @@
   },
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://globoplay.globo.com/busca/"
   },
   {
     "url": "https://globoplay.globo.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "http://abcnews.go.com/Video",
@@ -605,11 +605,11 @@
   },
   {
     "url": "http://www.goodreads.com/group/search?q=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.goodreads.com/group",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://cse.google.com/cse?cx=partner-pub-0355887770822260:6015318099&q=test",
@@ -629,12 +629,12 @@
   },
   {
     "url": "https://groups.google.com/",
-    "status": "timeout",
+    "status": "301",
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
     "url": "https://plus.google.com/communities",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://plus.google.com/s/test/communities",
@@ -648,82 +648,82 @@
   },
   {
     "url": "https://www.google.com/",
-    "status": "timeout",
-    "redirect": "http://www.google.ca/?gfe_rd=cr&ei=Ro0GWd-6BceC8Qek94GABA"
+    "status": "302",
+    "redirect": "http://www.google.ca/?gfe_rd=cr&ei=md8HWcr-G8aC8QfPrpD4DQ"
   },
   {
     "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Agroupspaces.com",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbm=vid&tbs=cc:1&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbm=vid&tbs=dur:l&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=li:1&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:d&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:h&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:m&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:w&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:y&q=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
   {
@@ -768,11 +768,11 @@
   },
   {
     "url": "https://www.hoopladigital.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.hoopladigital.com/search/test?kind=MOVIE",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.hoopladigital.com/search/test"
   },
   {
@@ -807,11 +807,11 @@
   },
   {
     "url": "https://www.indieflix.com/",
-    "status": "timeout"
+    "status": "302"
   },
   {
     "url": "https://www.indieflix.com/search/test",
-    "status": "timeout"
+    "status": "302"
   },
   {
     "url": "http://www.indiepixfilms.com/",
@@ -851,7 +851,8 @@
   },
   {
     "url": "http://j-archive.com/search.php?search=test",
-    "status": "timeout"
+    "status": "200",
+    "title": "J! Archive - Search"
   },
   {
     "url": "https://www.justwatch.com/au/search?q=test",
@@ -894,11 +895,11 @@
   },
   {
     "url": "https://kiwiirc.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://kiwiirc.com/search?q=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://knoema.com/",
@@ -922,11 +923,11 @@
   },
   {
     "url": "https://www.linkedin.com/groups/",
-    "status": "timeout"
+    "status": "404"
   },
   {
     "url": "https://www.linkedin.com/",
-    "status": "timeout"
+    "status": "405"
   },
   {
     "url": "https://www.linkedin.com/search/results/index/?keywords=test",
@@ -935,7 +936,7 @@
   },
   {
     "url": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords=test",
-    "status": "timeout",
+    "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fvsearch%2Fg"
   },
   {
@@ -965,11 +966,11 @@
   },
   {
     "url": "http://www.metacafe.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.metacafe.com/videos_about/test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.metacritic.com/",
@@ -1078,7 +1079,7 @@
   },
   {
     "url": "https://nextdoor.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "http://www.noslang.com/",
@@ -1157,7 +1158,7 @@
   },
   {
     "url": "http://apidemo.pingar.com/Profanity.aspx",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.pinterest.com/",
@@ -1183,11 +1184,11 @@
   },
   {
     "url": "http://www.popcornflix.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.popcornflix.com/search?query=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://prezi.com/explore/popular/",
@@ -1196,7 +1197,7 @@
   },
   {
     "url": "https://prezi.com/explore/search/?search=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
@@ -1211,7 +1212,7 @@
   },
   {
     "url": "https://groups.psychologytoday.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
@@ -1350,7 +1351,7 @@
   },
   {
     "url": "http://screenit.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.scribd.com/",
@@ -1443,11 +1444,11 @@
   },
   {
     "url": "https://stackexchange.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://stackexchange.com/search?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://stackexchange.com/search"
   },
   {
@@ -1462,7 +1463,7 @@
   },
   {
     "url": "https://www.startpage.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.statista.com/",
@@ -1471,7 +1472,7 @@
   },
   {
     "url": "https://www.statista.com/search/?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.statista.com/search/"
   },
   {
@@ -1496,12 +1497,12 @@
   },
   {
     "url": "http://www.ted.com/",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.ted.com/"
   },
   {
     "url": "http://www.ted.com/search?cat=talks&q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.ted.com/search"
   },
   {
@@ -1547,11 +1548,11 @@
   },
   {
     "url": "http://tubitv.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://tubitv.com/search/test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://thetimelinesofslang.tumblr.com/",
@@ -1640,11 +1641,11 @@
   },
   {
     "url": "https://www.vevo.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.vevo.com/search?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.vevo.com/search"
   },
   {
@@ -1717,7 +1718,7 @@
   },
   {
     "url": "http://www.wikiwand.com/en/test?fullSearch=true",
-    "status": "timeout",
+    "status": "301",
     "redirect": "/en/Test"
   },
   {
@@ -1727,11 +1728,11 @@
   },
   {
     "url": "http://www.wolframalpha.com/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "http://www.wolframalpha.com/input/?i=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.wonderhowto.com/",
@@ -1759,11 +1760,11 @@
   },
   {
     "url": "https://view.yahoo.com/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://view.yahoo.com/search?query=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://view.yahoo.com/search"
   },
   {
@@ -1782,7 +1783,8 @@
   },
   {
     "url": "https://www.yandex.com/search/?text=test",
-    "status": "timeout"
+    "status": "302",
+    "redirect": "http://www.yandex.com/showcaptcha?cc=1&retpath=http%3A//www.yandex.com/search%3F_08ab3718388186a23bf04f2c59ac745c&t=0/1493688274/26e06c75ab977197158ae93d0db20310&s=28e6df5f3f72762d953dce38222d8ac8"
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
@@ -1805,7 +1807,7 @@
   },
   {
     "url": "https://www.youtube.com/live",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.youtube.com/results?search_query=test",
@@ -1869,11 +1871,11 @@
   },
   {
     "url": "https://www.tenor.co/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://www.tenor.co/search/test-gifs",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://vine.co/",
@@ -1920,7 +1922,7 @@
   },
   {
     "url": "https://www.ixquick.eu/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://datahub.io/dataset?q=test",
@@ -2063,12 +2065,12 @@
   },
   {
     "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx"
   },
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "http://search.carrot2.org/stable/search",
@@ -2077,7 +2079,7 @@
   },
   {
     "url": "http://search.carrot2.org/stable/search?view=foamtree&query=test",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -2118,16 +2120,16 @@
   },
   {
     "url": "https://search.datacite.org/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://search.datacite.org/works?query=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://search.datacite.org/works"
   },
   {
     "url": "https://search.dataone.org/",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://search.dataone.org"
   },
   {
@@ -2142,7 +2144,7 @@
   },
   {
     "url": "https://freedocumentaries.org/search?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://freedocumentaries.org/search"
   },
   {
@@ -2261,11 +2263,11 @@
   },
   {
     "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
-    "status": "timeout"
+    "status": "500"
   },
   {
     "url": "http://www.watchknowlearn.org/",
-    "status": "timeout"
+    "status": "200"
   },
   {
     "url": "https://www.wikidata.org/w/index.php?title=Special:Search&fulltext=1&search=test",
@@ -2352,11 +2354,11 @@
   },
   {
     "url": "https://www.periscope.tv/",
-    "status": "timeout"
+    "status": "403"
   },
   {
     "url": "https://www.periscope.tv/search?q=test",
-    "status": "timeout"
+    "status": "403"
   },
   {
     "url": "http://www.ustream.tv/explore/all",
@@ -2385,11 +2387,11 @@
   },
   {
     "url": "https://data.world/",
-    "status": "timeout"
+    "status": "301"
   },
   {
     "url": "https://data.world/search?q=test",
-    "status": "timeout",
+    "status": "301",
     "redirect": "https://data.world/search"
   }
 ]
