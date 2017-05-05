@@ -29,7 +29,7 @@ if (typeof document.body.classList === 'object') {
   }
 
   // initialize
-  setTool(form.elements[1]);
+  setTool(form.elements[2]);
   form.setAttribute('data-submitvia', 'button');
 
   // run the search
@@ -61,7 +61,7 @@ if (typeof document.body.classList === 'object') {
     var tag = e.target.tagName.toLowerCase();
     var ptag = e.target.parentNode.tagName.toLowerCase();
     // click on a button to search
-    if (tag === 'button') {
+    if (tag === 'button' && e.target.getAttribute('value')) {
       setTool(e.target);
     }
     else if (ptag === 'button') {

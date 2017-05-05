@@ -107,6 +107,9 @@ input {
   width: 20em;
   padding: 0 0.2em;
 }
+.highlight button {
+  display: none;
+}
 form ul {
   list-style-type: none;
 }
