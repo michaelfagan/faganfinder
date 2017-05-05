@@ -144,7 +144,7 @@ button {
   background-color: transparent;
   border-radius: 5px;
   border: 1px solid #ccc;
-  &:hover {
+  &:hover, &.activeb {
     color: white;
     background-color: #555;
   }

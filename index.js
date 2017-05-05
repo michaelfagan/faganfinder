@@ -26,6 +26,11 @@ if (typeof document.body.classList === 'object') {
     }
     form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
     form.setAttribute('data-tool', button.textContent);
+    var active = form.getElementsByClassName('activeb');
+    if (active.length > 0) {
+      active[0].classList.remove('activeb');
+    }
+    button.classList.add('activeb');
   }
 
   // initialize
