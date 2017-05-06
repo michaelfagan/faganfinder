@@ -74,6 +74,18 @@ var textbox = "false";
 
 <div id="changes">
 <div class="change">
+	<h3>May 4, 2017</h3>
+	<p>
+		Fixed a small bug on the new
+		(<a href="http://www.faganfinder.com/video/">Video search</a>
+		and
+		<a href="http://www.faganfinder.com/group/">Goups search</a>)
+		pages.
+		Now when you click on a button, you can search using that tool by hitting the <kbd>enter</kbd> key.
+		The selected tool is also highlighted so you can see where there search will be going.
+	</p>
+</div>
+<div class="change">
 	<h3>March 4, 2017</h3>
 	<p>
 		I decided it was about time for a Fagan Finder update.
