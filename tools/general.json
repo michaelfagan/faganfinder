@@ -343,6 +343,10 @@
           "searchUrl": "https://certificates.theodi.org/en/datasets?search={q}"
         },
         {
+          "name": "Socrata",
+          "searchUrl": "https://opendata.socrata.com/browse?q={q}"
+        },
+        {
           "name": "OpenDataSoft",
           "searchUrl": "https://data.opendatasoft.com/explore/?q={q}"
         },
