@@ -40,26 +40,6 @@
     "redirect": "https://www.nfb.ca/search/"
   },
   {
-    "url": "https://www.etools.ch/",
-    "status": "200",
-    "title": "eTools.ch - The Transparent Metasearch Engine from Switzerland"
-  },
-  {
-    "url": "https://www.etools.ch/searchSubmit.do?query=test",
-    "status": "200",
-    "title": "test - eTools.ch Metasearch"
-  },
-  {
-    "url": "https://duck.co/help/results/syntax",
-    "status": "302",
-    "title": "Syntax"
-  },
-  {
-    "url": "https://duck.co/ia",
-    "status": "302",
-    "title": "Index: Instant Answers"
-  },
-  {
     "url": "http://search.alexanderstreet.com/",
     "status": "302",
     "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
@@ -78,16 +58,6 @@
     "url": "http://www.allmovie.com/search/all/test",
     "status": "200",
     "title": "Top search results for \"test\" | AllMovie"
-  },
-  {
-    "url": "http://wiki.answers.com/search?q=test",
-    "status": "200",
-    "title": "Answers - The Most Trusted Place for Answering Life's Questions"
-  },
-  {
-    "url": "http://www.answers.com/",
-    "status": "200",
-    "title": "Answers - The Most Trusted Place for Answering Life's Questions"
   },
   {
     "url": "https://www.aol.com/video/",
@@ -131,16 +101,6 @@
     "status": "timeout"
   },
   {
-    "url": "http://www.baidu.com/",
-    "status": "200",
-    "title": "百度一下，你就知道"
-  },
-  {
-    "url": "http://www.baidu.com/s?wd=test",
-    "status": "200",
-    "title": "test_百度搜索"
-  },
-  {
     "url": "http://bechdeltest.com/",
     "status": "200",
     "title": "Bechdel Test Movie List"
@@ -157,35 +117,6 @@
   {
     "url": "http://bigthink.com/videos",
     "status": "200"
-  },
-  {
-    "url": "http://www.bing.com/",
-    "status": "200",
-    "title": "Bing"
-  },
-  {
-    "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
-    "status": "302",
-    "redirect": "/?scope=web&mkt=en-CA",
-    "title": "test - Bing"
-  },
-  {
-    "url": "http://www.bing.com/search?filters=ex1%3a%22ez2%22&q=test",
-    "status": "302",
-    "redirect": "/?scope=web&mkt=en-CA",
-    "title": "test - Bing"
-  },
-  {
-    "url": "http://www.bing.com/search?filters=ex1%3a%22ez3%22&q=test",
-    "status": "302",
-    "redirect": "/?scope=web&mkt=en-CA",
-    "title": "test - Bing"
-  },
-  {
-    "url": "http://www.bing.com/search?q=test",
-    "status": "302",
-    "redirect": "/?scope=web&mkt=en-CA",
-    "title": "test - Bing"
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -205,10 +136,6 @@
     "title": "Bing video"
   },
   {
-    "url": "http://biznar.com/biznar/desktop/en/search.html",
-    "status": "200"
-  },
-  {
     "url": "http://www.blinkx.com/",
     "status": "200",
     "title": "Blinkx | Discover & Share Great Videos"
@@ -219,26 +146,6 @@
     "title": "Search for &quot;test&quot; | Blinkx"
   },
   {
-    "url": "http://www.blurtit.com/",
-    "status": "200",
-    "title": "Ask Questions, Get Free Answers - Blurtit"
-  },
-  {
-    "url": "http://www.blurtit.com/search/?search-query=test",
-    "status": "200",
-    "title": "Blurtit - Search Page"
-  },
-  {
-    "url": "http://boardreader.com/",
-    "status": "200",
-    "title": "Boardreader - Forum Search Engine"
-  },
-  {
-    "url": "http://boardreader.com/s/test.html",
-    "status": "200",
-    "title": "Boardreader - Forum Search Engine"
-  },
-  {
     "url": "http://www.boxtv.com/",
     "status": "200",
     "title": "Watch Hindi English Movies Online 2016, Watch TV Shows Online"
@@ -247,33 +154,6 @@
     "url": "http://www.boxtv.com/search/test",
     "status": "200",
     "title": ""
-  },
-  {
-    "url": "https://brainly.com/app/ask?q=test",
-    "status": "301",
-    "redirect": "https://brainly.com/app/ask",
-    "title": "Brainly.com - For students. By students."
-  },
-  {
-    "url": "https://brainly.com/",
-    "status": "301",
-    "title": "Brainly.com - For students. By students."
-  },
-  {
-    "url": "https://www.britannica.com/",
-    "status": "301",
-    "title": "Encyclopedia Britannica | Britannica.com"
-  },
-  {
-    "url": "https://www.britannica.com/search?query=test",
-    "status": "301",
-    "redirect": "https://www.britannica.com/search",
-    "title": "Search | Britannica.com"
-  },
-  {
-    "url": "https://bynd.com/news-ideas/google-advanced-search-comprehensive-list-google-search-operators/",
-    "status": "301",
-    "title": "Google advanced search: A comprehensive list of Google search operators - Beyond"
   },
   {
     "url": "http://www.crackle.com/",
@@ -298,16 +178,6 @@
     "url": "http://www.dailymotion.com/us/relevance/universal/search/test/1",
     "status": "200",
     "title": "test videos on Dailymotion"
-  },
-  {
-    "url": "https://datamarket.com/data/",
-    "status": "200"
-  },
-  {
-    "url": "https://datamarket.com/data/list/?q=test",
-    "status": "302",
-    "redirect": "http://datamarket.com/data/",
-    "title": "test - Search results &mdash; DataMarket"
   },
   {
     "url": "http://www.delphiforums.com/",
@@ -362,33 +232,6 @@
     "title": "Search"
   },
   {
-    "url": "https://duckduckgo.com/bang",
-    "status": "301",
-    "title": "DuckDuckGo !Bang"
-  },
-  {
-    "url": "https://duckduckgo.com/",
-    "status": "301",
-    "title": "DuckDuckGo"
-  },
-  {
-    "url": "https://duckduckgo.com/?q=test",
-    "status": "301",
-    "redirect": "https://duckduckgo.com/",
-    "title": "test at DuckDuckGo"
-  },
-  {
-    "url": "https://www.edocr.com/",
-    "status": "301",
-    "title": "Increase SEO and share documents online with edocr."
-  },
-  {
-    "url": "https://www.edocr.com/search?q=test",
-    "status": "301",
-    "redirect": "https://www.edocr.com/search",
-    "title": "Search Results - test | edocr"
-  },
-  {
     "url": "https://www.electoralhq.com/twitter-lists/search",
     "status": "301",
     "title": "Twitter List Search - Electoral"
@@ -400,26 +243,6 @@
     "title": "Twitter List Search - Electoral"
   },
   {
-    "url": "http://www.etymonline.com/",
-    "status": "200",
-    "title": "Online Etymology Dictionary"
-  },
-  {
-    "url": "http://www.etymonline.com/?search=test",
-    "status": "200",
-    "title": "Online Etymology Dictionary"
-  },
-  {
-    "url": "https://www.evi.com/",
-    "status": "301",
-    "title": "Evi | Ask me anything"
-  },
-  {
-    "url": "https://www.evi.com/question_redirect?question=test",
-    "status": "301",
-    "redirect": "https://www.evi.com/question_redirect"
-  },
-  {
     "url": "http://www.exalead.com/search/video/",
     "status": "200"
   },
@@ -427,20 +250,6 @@
     "url": "http://www.exalead.com/search/video/results/?q=test",
     "status": "302",
     "redirect": "http://www.exalead.com/search/video/"
-  },
-  {
-    "url": "http://www.exalead.com/search/web/",
-    "status": "200"
-  },
-  {
-    "url": "http://www.exalead.com/search/web/results/?q=test",
-    "status": "302",
-    "redirect": "http://www.exalead.com/search/web/"
-  },
-  {
-    "url": "https://www.exalead.com/search/web/search-syntax/",
-    "status": "200",
-    "title": "Web Search Syntax - Exalead"
   },
   {
     "url": "https://www.facebook.com/groups",
@@ -459,11 +268,6 @@
     "url": "https://www.facebook.com/search/groups/?q=test",
     "status": "301",
     "redirect": "https://www.facebook.com/search/groups/"
-  },
-  {
-    "url": "https://www.facebook.com/search/top/?q=test",
-    "status": "301",
-    "redirect": "https://www.facebook.com/search/top/"
   },
   {
     "url": "https://www.facebook.com/search/videos/?q=test",
@@ -533,21 +337,6 @@
     "title": "Search Free College Courses and Video Courses"
   },
   {
-    "url": "https://www.gigablast.com/",
-    "status": "200",
-    "title": "Gigablast - An Alternative Open Source Search Engine"
-  },
-  {
-    "url": "http://www.gigablast.com/search?q=test",
-    "status": "200",
-    "title": "Gigablast Search Results"
-  },
-  {
-    "url": "http://www.gigablast.com/syntax.html",
-    "status": "200",
-    "title": "Gigablast - syntax"
-  },
-  {
     "url": "https://giphy.com/",
     "status": "301",
     "title": "GIPHY | Search All the GIFs &amp; Make Your Own Animated GIF"
@@ -556,33 +345,6 @@
     "url": "http://giphy.com/search/test",
     "status": "301",
     "redirect": "https://giphy.com/search/test"
-  },
-  {
-    "url": "https://www.global-regulation.com/analytics.php?q=test",
-    "status": "302",
-    "redirect": "https://www.global-regulation.com/analytics.php",
-    "title": "World Law Analytics | test"
-  },
-  {
-    "url": "https://www.global-regulation.com/coverage.php",
-    "status": "302",
-    "title": "Database Coverage: 1,606,595 laws and counting"
-  },
-  {
-    "url": "https://www.global-regulation.com/",
-    "status": "302",
-    "title": "Global-Regulation Home Page"
-  },
-  {
-    "url": "https://www.global-regulation.com/search.php?&q=test",
-    "status": "302",
-    "redirect": "https://www.global-regulation.com/search.php",
-    "title": "Search Results for \"test\""
-  },
-  {
-    "url": "https://www.global-regulation.com/tools.php",
-    "status": "302",
-    "title": "Regulatory Tools"
   },
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
@@ -612,18 +374,7 @@
     "status": "200"
   },
   {
-    "url": "https://cse.google.com/cse?cx=partner-pub-0355887770822260:6015318099&q=test",
-    "status": "301",
-    "redirect": "http://cse.google.com/cse/",
-    "title": "Google Custom Search"
-  },
-  {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
-    "status": "200",
-    "title": "Google Groups"
-  },
-  {
-    "url": "https://groups.google.com/forum/#!search/test",
     "status": "200",
     "title": "Google Groups"
   },
@@ -642,21 +393,6 @@
     "title": "Search - Google+"
   },
   {
-    "url": "https://support.google.com/websearch/answer/2466433",
-    "status": "301",
-    "title": "Refine web searches - Search Help"
-  },
-  {
-    "url": "https://www.google.com/",
-    "status": "302",
-    "redirect": "http://www.google.ca/?gfe_rd=cr&ei=md8HWcr-G8aC8QfPrpD4DQ"
-  },
-  {
-    "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
@@ -668,16 +404,6 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?q=test",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
@@ -697,65 +423,9 @@
     "redirect": "http://www.google.com/webhp"
   },
   {
-    "url": "https://www.google.com/search?tbs=li:1&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?tbs=qdr:d&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?tbs=qdr:h&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?tbs=qdr:m&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?tbs=qdr:w&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
-    "url": "https://www.google.com/search?tbs=qdr:y&q=test",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp"
-  },
-  {
     "url": "https://www.google.com/videohp",
     "status": "200",
     "title": "Google Videos"
-  },
-  {
-    "url": "https://www.graphiq.com/learn-search",
-    "status": "403",
-    "title": "403 Request Blocked"
-  },
-  {
-    "url": "https://www.graphiq.com/search/search?query=test",
-    "status": "403",
-    "title": "403 Request Blocked"
-  },
-  {
-    "url": "https://www.graphiq.com/search",
-    "status": "403",
-    "title": "403 Request Blocked"
-  },
-  {
-    "url": "https://greensdictofslang.com/",
-    "status": "302",
-    "title": "Green’s Dictionary of Slang"
-  },
-  {
-    "url": "https://greensdictofslang.com/search/basic?q=test",
-    "status": "302",
-    "redirect": "https://greensdictofslang.com/search/basic",
-    "title": "Basic Search — Green’s Dictionary of Slang"
   },
   {
     "url": "http://groupspaces.com/",
@@ -834,27 +504,6 @@
     "title": "爱奇艺-全球领先的在线视频网站-海量正版高清视频在线观看"
   },
   {
-    "url": "https://issuu.com/",
-    "status": "301",
-    "title": "Digital Publishing Platform for Magazines, Catalogs, and more - issuu"
-  },
-  {
-    "url": "https://issuu.com/search?q=test",
-    "status": "301",
-    "redirect": "https://issuu.com/search",
-    "title": "Search - issuu"
-  },
-  {
-    "url": "http://j-archive.com/",
-    "status": "200",
-    "title": "J! Archive"
-  },
-  {
-    "url": "http://j-archive.com/search.php?search=test",
-    "status": "200",
-    "title": "J! Archive - Search"
-  },
-  {
     "url": "https://www.justwatch.com/au/search?q=test",
     "status": "301",
     "redirect": "https://www.justwatch.com/au/search",
@@ -902,16 +551,6 @@
     "status": "200"
   },
   {
-    "url": "https://knoema.com/",
-    "status": "200",
-    "title": "Free data &amp; statistics, data collection, analysis, visualization and sharing - knoema.com"
-  },
-  {
-    "url": "https://knoema.com/search?query=test",
-    "status": "200",
-    "title": "Search - knoema.com"
-  },
-  {
     "url": "http://www.learnerstv.com/",
     "status": "200",
     "title": "Free video lectures,Free Animations, Free Lecture Notes, Free Online Tests, Free Lecture Presentations"
@@ -924,15 +563,6 @@
   {
     "url": "https://www.linkedin.com/groups/",
     "status": "404"
-  },
-  {
-    "url": "https://www.linkedin.com/",
-    "status": "405"
-  },
-  {
-    "url": "https://www.linkedin.com/search/results/index/?keywords=test",
-    "status": "200",
-    "title": "LinkedIn"
   },
   {
     "url": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords=test",
@@ -983,16 +613,6 @@
     "title": "403 Forbidden"
   },
   {
-    "url": "http://ask.metafilter.com/",
-    "status": "200",
-    "title": "Ask MetaFilter"
-  },
-  {
-    "url": "http://ask.metafilter.com/search.mefi?site=ask&q=test",
-    "status": "200",
-    "title": "Search | Ask MetaFilter"
-  },
-  {
     "url": "http://mibbit.com/",
     "status": "200",
     "title": "Mibbit - Easy and fast Webchat"
@@ -1001,31 +621,6 @@
     "url": "https://search.mibbit.com/search/test",
     "status": "200",
     "title": "Channel search  &gt; test"
-  },
-  {
-    "url": "https://msdn.microsoft.com/en-us/library/ff795620.aspx",
-    "status": "301",
-    "title": "Advanced Operator Reference"
-  },
-  {
-    "url": "https://millionshort.com/",
-    "status": "timeout"
-  },
-  {
-    "url": "https://millionshort.com/search?remove=10000&keywords=test",
-    "status": "timeout",
-    "redirect": "https://millionshort.com/search"
-  },
-  {
-    "url": "https://www.mojeek.com/",
-    "status": "301",
-    "title": "Mojeek"
-  },
-  {
-    "url": "https://www.mojeek.com/search?q=test",
-    "status": "302",
-    "redirect": "http://www.mojeek.com/",
-    "title": "test - Mojeek Search"
   },
   {
     "url": "https://www.moviefone.com/",
@@ -1068,28 +663,8 @@
     "title": "네이버TV"
   },
   {
-    "url": "http://www.netlingo.com/",
-    "status": "200",
-    "title": "NetLingo The Internet Dictionary"
-  },
-  {
-    "url": "http://www.netlingo.com/search.php",
-    "status": "200",
-    "title": "Search NetLingo! "
-  },
-  {
     "url": "https://nextdoor.com/",
     "status": "301"
-  },
-  {
-    "url": "http://www.noslang.com/",
-    "status": "200",
-    "title": "Internet Slang Dictionary &amp; Text Slang Translator"
-  },
-  {
-    "url": "http://www.noslang.com/search/test",
-    "status": "200",
-    "title": "test Defintion. What does test mean?"
   },
   {
     "url": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/test",
@@ -1100,28 +675,6 @@
     "url": "https://www.nytimes.com/video",
     "status": "301",
     "title": "Times Video - NYTimes.com"
-  },
-  {
-    "url": "http://onlineslangdictionary.com/",
-    "status": "200",
-    "title": "The Online Slang Dictionary | Real definitions. Real slang."
-  },
-  {
-    "url": "http://onlineslangdictionary.com/search/?q=test",
-    "status": "200",
-    "title": "Search Results | The Online Slang Dictionary"
-  },
-  {
-    "url": "https://data.opendatasoft.com/explore/?q=test",
-    "status": "301",
-    "redirect": "https://data.opendatasoft.com:443/explore/",
-    "title": "OpenDataSoft &mdash; Explore"
-  },
-  {
-    "url": "https://data.opendatasoft.com/page/home/",
-    "status": "301",
-    "redirect": "https://data.opendatasoft.com:443/page/home/",
-    "title": "OpenDataSoft"
   },
   {
     "url": "https://www.opened.com/",
@@ -1146,32 +699,6 @@
     "title": "341 results for test &middot; OverDrive: eBooks, audiobooks and videos for libraries"
   },
   {
-    "url": "https://peekier.com/#!test",
-    "status": "301",
-    "redirect": "https://peekier.com/",
-    "title": "peekier - A new way to search"
-  },
-  {
-    "url": "https://peekier.com/",
-    "status": "301",
-    "title": "peekier - A new way to search"
-  },
-  {
-    "url": "http://apidemo.pingar.com/Profanity.aspx",
-    "status": "200"
-  },
-  {
-    "url": "https://www.pinterest.com/",
-    "status": "301",
-    "title": "Pinterest • The world’s catalog of ideas"
-  },
-  {
-    "url": "https://www.pinterest.com/search/pins/?q=test",
-    "status": "301",
-    "redirect": "https://www.pinterest.com/search/pins/",
-    "title": "Pinterest • The world’s catalog of ideas"
-  },
-  {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
     "status": "301",
     "redirect": "https://pixabay.com/en/videos/list/",
@@ -1188,15 +715,6 @@
   },
   {
     "url": "http://www.popcornflix.com/search?query=test",
-    "status": "200"
-  },
-  {
-    "url": "https://prezi.com/explore/popular/",
-    "status": "200",
-    "title": "Best Prezis | Most Popular Prezis | Prezi"
-  },
-  {
-    "url": "https://prezi.com/explore/search/?search=test",
     "status": "200"
   },
   {
@@ -1221,41 +739,14 @@
     "title": "Name: test Support Groups - Name: test Group Therapy - Name: test Counseling Groups"
   },
   {
-    "url": "https://www.question.com/",
-    "status": "301",
-    "title": "Ask Questions, Get Answers - Question.com"
-  },
-  {
-    "url": "https://www.question.com/search/?query=test",
-    "status": "301",
-    "redirect": "https://www.question.com/search/",
-    "title": "Results for 'test' - Question.com"
-  },
-  {
     "url": "https://www.quora.com/",
     "status": "403",
     "title": "Quora - A place to share knowledge and better understand the world."
   },
   {
-    "url": "https://www.quora.com/search?q=test",
-    "status": "403",
-    "title": "503 Service Unavailable"
-  },
-  {
     "url": "https://www.quora.com/search?type=topic&q=test",
     "status": "403",
     "title": "503 Service Unavailable"
-  },
-  {
-    "url": "https://www.qwant.com/",
-    "status": "302",
-    "title": "Qwant"
-  },
-  {
-    "url": "https://www.qwant.com/?q=test",
-    "status": "302",
-    "redirect": "https://www.qwant.com/",
-    "title": "Qwant"
   },
   {
     "url": "https://www.reddit.com/",
@@ -1274,17 +765,6 @@
     "title": "Too Many Requests"
   },
   {
-    "url": "https://www.reddit.com/r/datasets/",
-    "status": "301",
-    "title": "Too Many Requests"
-  },
-  {
-    "url": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q=test",
-    "status": "301",
-    "redirect": "https://www.reddit.com/r/datasets/search",
-    "title": "Too Many Requests"
-  },
-  {
     "url": "https://www.reddit.com/r/lectures/",
     "status": "301",
     "title": "Too Many Requests"
@@ -1293,12 +773,6 @@
     "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/lectures/search",
-    "title": "Too Many Requests"
-  },
-  {
-    "url": "https://www.reddit.com/search?q=test",
-    "status": "301",
-    "redirect": "https://www.reddit.com/search",
     "title": "Too Many Requests"
   },
   {
@@ -1354,17 +828,6 @@
     "status": "200"
   },
   {
-    "url": "https://www.scribd.com/",
-    "status": "301",
-    "title": "Scribd - Read books, audiobooks, and more"
-  },
-  {
-    "url": "https://www.scribd.com/search?payment=free&content_type=documents&query=test",
-    "status": "301",
-    "redirect": "https://www.scribd.com/search",
-    "title": "Search | Scribd"
-  },
-  {
     "url": "http://www.simplyscripts.com/cgi-bin/search.pl?search=test",
     "status": "200",
     "title": "Simply Scripts Search Results"
@@ -1378,16 +841,6 @@
     "url": "https://slack.com/",
     "status": "302",
     "title": "Slack: Where work happens"
-  },
-  {
-    "url": "https://slangit.com/",
-    "status": "301",
-    "title": "Slangit - The Slang Dictionary"
-  },
-  {
-    "url": "https://slangit.com/search",
-    "status": "301",
-    "title": "Slangit Advanced Search"
   },
   {
     "url": "https://slofile.com/",
@@ -1406,74 +859,9 @@
     "title": "Free Full Philanthropic Movies Online, Free Streaming TV  | Snagfilms"
   },
   {
-    "url": "http://www.snopes.com/",
-    "status": "200",
-    "title": "Snopes.com | The definitive Internet reference source for urban legends, folklore, myths, rumors, and misinformation."
-  },
-  {
-    "url": "http://www.snopes.com/?s=test",
-    "status": "200",
-    "title": "You searched for test | Snopes.com"
-  },
-  {
-    "url": "https://www.social-searcher.com/",
-    "status": "301",
-    "title": "Social Searcher - Free Social Media Search Engine"
-  },
-  {
-    "url": "https://www.social-searcher.com/social-buzz/?q5=test",
-    "status": "301",
-    "redirect": "https://www.social-searcher.com/social-buzz/",
-    "title": "Social Searcher - Free Social Media Search Engine"
-  },
-  {
-    "url": "http://socialmention.com/",
-    "status": "200",
-    "title": "Real Time Search - Social Mention"
-  },
-  {
-    "url": "http://socialmention.com/search?q=test",
-    "status": "302",
-    "redirect": "/",
-    "title": "Loading..."
-  },
-  {
     "url": "http://www.soku.com/search_video/q_test",
     "status": "200",
     "title": "test – 搜库"
-  },
-  {
-    "url": "https://stackexchange.com/",
-    "status": "301"
-  },
-  {
-    "url": "https://stackexchange.com/search?q=test",
-    "status": "301",
-    "redirect": "https://stackexchange.com/search"
-  },
-  {
-    "url": "https://www.startpage.com/do/asearch",
-    "status": "301",
-    "title": "302 Found"
-  },
-  {
-    "url": "https://www.startpage.com/do/preferences",
-    "status": "200",
-    "title": " Settings "
-  },
-  {
-    "url": "https://www.startpage.com/",
-    "status": "301"
-  },
-  {
-    "url": "https://www.statista.com/",
-    "status": "301",
-    "title": "&bull; Statista - The Statistics Portal for Market Data, Market Research and Market Studies"
-  },
-  {
-    "url": "https://www.statista.com/search/?q=test",
-    "status": "301",
-    "redirect": "https://www.statista.com/search/"
   },
   {
     "url": "https://online.supportgroups.com/",
@@ -1526,48 +914,12 @@
     "title": "Search Results - Top Documentary Films"
   },
   {
-    "url": "http://www.translatebritish.com/",
-    "status": "200",
-    "title": "British Slang Dictionary - Translate British to American"
-  },
-  {
-    "url": "http://www.translatebritish.com/search/test",
-    "status": "200",
-    "title": "Search British Dictionary Words &amp; Definitions"
-  },
-  {
-    "url": "https://www.truthorfiction.com/",
-    "status": "301",
-    "title": "Rumors, hoaxes, and urband legends - TruthorFiction.com"
-  },
-  {
-    "url": "https://www.truthorfiction.com/search_gcse/?q=test",
-    "status": "301",
-    "redirect": "https://www.truthorfiction.com/search_gcse/",
-    "title": "Search - TruthorFiction.com"
-  },
-  {
     "url": "http://tubitv.com/",
     "status": "200"
   },
   {
     "url": "http://tubitv.com/search/test",
     "status": "200"
-  },
-  {
-    "url": "http://thetimelinesofslang.tumblr.com/",
-    "status": "200",
-    "title": "The Timelines of Slang"
-  },
-  {
-    "url": "https://www.tumblr.com/",
-    "status": "301",
-    "title": "Sign up | Tumblr"
-  },
-  {
-    "url": "https://www.tumblr.com/search/test",
-    "status": "302",
-    "title": "test | Tumblr"
   },
   {
     "url": "http://www.tvmaze.com/",
@@ -1611,23 +963,6 @@
     "status": "301",
     "redirect": "https://twitter.com/search",
     "title": "test - Twitter Search"
-  },
-  {
-    "url": "https://twitter.com/search?q=test",
-    "status": "301",
-    "redirect": "https://twitter.com/search",
-    "title": "News about test on Twitter"
-  },
-  {
-    "url": "http://www.urbandictionary.com/define.php?term=test",
-    "status": "302",
-    "redirect": "http://www.urbandictionary.com/",
-    "title": "Urban Dictionary: test"
-  },
-  {
-    "url": "http://www.urbandictionary.com/",
-    "status": "200",
-    "title": "Urban Dictionary, April 30: room hobbit"
   },
   {
     "url": "http://www.veoh.com/find/?query=test",
@@ -1717,24 +1052,6 @@
     "title": "Fandom powered by Wikia"
   },
   {
-    "url": "http://www.wikiwand.com/en/test?fullSearch=true",
-    "status": "301",
-    "redirect": "/en/Test"
-  },
-  {
-    "url": "http://www.wikiwand.com/",
-    "status": "200",
-    "title": "Wikiwand"
-  },
-  {
-    "url": "http://www.wolframalpha.com/",
-    "status": "200"
-  },
-  {
-    "url": "http://www.wolframalpha.com/input/?i=test",
-    "status": "200"
-  },
-  {
     "url": "https://www.wonderhowto.com/",
     "status": "timeout"
   },
@@ -1768,23 +1085,8 @@
     "redirect": "https://view.yahoo.com/search"
   },
   {
-    "url": "https://yandex.com/",
-    "status": "302",
-    "title": "Yandex"
-  },
-  {
-    "url": "https://yandex.com/support/search/how-to-search/search-operators.html",
-    "status": "302",
-    "title": "Search operators — Search — Yandex.Support"
-  },
-  {
     "url": "https://yandex.com/video/",
     "status": "timeout"
-  },
-  {
-    "url": "https://www.yandex.com/search/?text=test",
-    "status": "302",
-    "redirect": "http://www.yandex.com/showcaptcha?cc=1&retpath=http%3A//www.yandex.com/search%3F_08ab3718388186a23bf04f2c59ac745c&t=0/1493688274/26e06c75ab977197158ae93d0db20310&s=28e6df5f3f72762d953dce38222d8ac8"
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
@@ -1850,16 +1152,6 @@
     "title": "YOVISTO :: SEARCH :: test"
   },
   {
-    "url": "http://www.zanran.com/q/",
-    "status": "200",
-    "title": "Zanran Numerical Data Search"
-  },
-  {
-    "url": "http://www.zanran.com/q/test",
-    "status": "200",
-    "title": "test | Zanran"
-  },
-  {
     "url": "https://popkey.co/",
     "status": "200",
     "title": "PopKey | An animated GIF keyboard"
@@ -1910,38 +1202,6 @@
     "title": "Europeana - Search results"
   },
   {
-    "url": "https://www.ixquick.eu/do/asearch",
-    "status": "302",
-    "redirect": "http://www.ixquick.eu",
-    "title": "302 Found"
-  },
-  {
-    "url": "https://www.ixquick.eu/do/preferences",
-    "status": "200",
-    "title": " Settings "
-  },
-  {
-    "url": "https://www.ixquick.eu/",
-    "status": "301"
-  },
-  {
-    "url": "https://datahub.io/dataset?q=test",
-    "status": "302",
-    "redirect": "https://datahub.io/dataset",
-    "title": "Search for a Dataset - the Datahub"
-  },
-  {
-    "url": "https://datahub.io/",
-    "status": "302",
-    "title": "Welcome - the Datahub"
-  },
-  {
-    "url": "https://www.echosim.io/",
-    "status": "301",
-    "redirect": "https://echosim.io/",
-    "title": "Redirecting..."
-  },
-  {
     "url": "https://gifme.io/",
     "status": "200",
     "title": "GifMe"
@@ -1984,22 +1244,6 @@
     "title": "キーワードで動画検索 test - ニコニコ動画"
   },
   {
-    "url": "http://www.hoax-slayer.net/",
-    "status": "200",
-    "title": "Hoax-Slayer -"
-  },
-  {
-    "url": "https://www.slideshare.net/",
-    "status": "302",
-    "title": "Share and Discover Knowledge on LinkedIn SlideShare"
-  },
-  {
-    "url": "https://www.slideshare.net/search/slideshow?q=test",
-    "status": "302",
-    "redirect": "https://www.slideshare.net/search/slideshow",
-    "title": "&#x27;test&#x27; on SlideShare"
-  },
-  {
     "url": "http://www.squidtv.net/",
     "status": "200",
     "title": "Squid TV"
@@ -2013,17 +1257,6 @@
     "url": "http://videolectures.net/site/search/?q=test",
     "status": "200",
     "title": "Search lectures test - VideoLectures.NET"
-  },
-  {
-    "url": "https://able2know.org/",
-    "status": "302",
-    "title": "Ask an Expert at able2know - Ask Questions, Share Answers"
-  },
-  {
-    "url": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q=test",
-    "status": "302",
-    "redirect": "https://able2know.org/search/",
-    "title": "Search - able2know"
   },
   {
     "url": "https://archive.org/details/movies?and[]=test",
@@ -2053,17 +1286,6 @@
     "title": "TV NEWS : Search Captions. Borrow Broadcasts : TV Archive : Internet Archive"
   },
   {
-    "url": "https://archive.org/",
-    "status": "301",
-    "redirect": "https://archive.org",
-    "title": "Internet Archive: Digital Library of Free Books, Movies, Music & Wayback Machine"
-  },
-  {
-    "url": "https://archive.org/search.php?query=test",
-    "status": "200",
-    "title": "Internet Archive Search: test"
-  },
-  {
     "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",
     "status": "301",
     "redirect": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx"
@@ -2071,15 +1293,6 @@
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
     "status": "301"
-  },
-  {
-    "url": "http://search.carrot2.org/stable/search",
-    "status": "200",
-    "title": "Carrot2 Clustering Engine"
-  },
-  {
-    "url": "http://search.carrot2.org/stable/search?view=foamtree&query=test",
-    "status": "200"
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -2119,25 +1332,6 @@
     "title": "Search Results for test | DailyStrength"
   },
   {
-    "url": "https://search.datacite.org/",
-    "status": "301"
-  },
-  {
-    "url": "https://search.datacite.org/works?query=test",
-    "status": "301",
-    "redirect": "https://search.datacite.org/works"
-  },
-  {
-    "url": "https://search.dataone.org/",
-    "status": "301",
-    "redirect": "https://search.dataone.org"
-  },
-  {
-    "url": "http://dataportals.org/",
-    "status": "200",
-    "title": " - Data Portals"
-  },
-  {
     "url": "https://freedocumentaries.org/",
     "status": "301",
     "title": "Watch Free Online Documentary Films and Free Documentaries | FreeDocumentaries.Org"
@@ -2146,21 +1340,6 @@
     "url": "https://freedocumentaries.org/search?q=test",
     "status": "301",
     "redirect": "https://freedocumentaries.org/search"
-  },
-  {
-    "url": "http://gdeltproject.org/data.html",
-    "status": "200",
-    "title": "Data: Querying, Analyzing and Downloading: The GDELT Project"
-  },
-  {
-    "url": "https://www.hatebase.org/",
-    "status": "301",
-    "title": "Hatebase"
-  },
-  {
-    "url": "https://www.hatebase.org/search_results/keywords=test",
-    "status": "301",
-    "title": "Search Results - Hatebase"
   },
   {
     "url": "http://homemovieregistry.org/",
@@ -2189,26 +1368,6 @@
     "title": "PBS: Browse Videos"
   },
   {
-    "url": "http://www.re3data.org/",
-    "status": "200",
-    "title": "Home | re3data.org"
-  },
-  {
-    "url": "http://www.re3data.org/search?query=test",
-    "status": "200",
-    "title": "Search | re3data.org"
-  },
-  {
-    "url": "http://slang.org/",
-    "status": "200",
-    "title": "Slang.org | The Ultimate Internet Slang Dictionary"
-  },
-  {
-    "url": "http://slang.org/?s=test",
-    "status": "200",
-    "title": "You searched for test &raquo; Slang.org"
-  },
-  {
     "url": "http://www.taforum.org/Members/search/test",
     "status": "200",
     "title": "Trade Association Forum"
@@ -2228,17 +1387,6 @@
     "status": "301",
     "redirect": "https://www.themoviedb.org/search",
     "title": "test — The Movie Database (TMDb)"
-  },
-  {
-    "url": "https://certificates.theodi.org/en/datasets",
-    "status": "301",
-    "title": "ODI Open Data Certificate"
-  },
-  {
-    "url": "https://certificates.theodi.org/en/datasets?search=test",
-    "status": "301",
-    "redirect": "https://certificates.theodi.org/en/datasets",
-    "title": "ODI Open Data Certificate"
   },
   {
     "url": "http://tvtropes.org/",
@@ -2270,34 +1418,6 @@
     "status": "200"
   },
   {
-    "url": "https://www.wikidata.org/w/index.php?title=Special:Search&fulltext=1&search=test",
-    "status": "301",
-    "redirect": "https://www.wikidata.org/w/index.php",
-    "title": "Search results for \"test\" - Wikidata"
-  },
-  {
-    "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
-    "status": "301",
-    "title": "Wikidata"
-  },
-  {
-    "url": "https://wikileaks.org/",
-    "status": "302",
-    "title": "WikiLeaks"
-  },
-  {
-    "url": "https://search.wikileaks.org/?q=test",
-    "status": "302",
-    "redirect": "https://search.wikileaks.org/",
-    "title": "Search WikiLeaks"
-  },
-  {
-    "url": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
-    "status": "301",
-    "redirect": "https://en.wikipedia.org/w/index.php",
-    "title": "test - Search results - Wikipedia"
-  },
-  {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
     "status": "301",
     "title": "Bechdel test - Wikipedia"
@@ -2306,11 +1426,6 @@
     "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
     "status": "301",
     "title": "Internet Relay Chat - Wikipedia"
-  },
-  {
-    "url": "https://en.wikipedia.org/wiki/Main_Page",
-    "status": "301",
-    "title": "Wikipedia, the free encyclopedia"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Public_domain",
@@ -2379,19 +1494,5 @@
     "url": "http://www.bbc.co.uk/iplayer",
     "status": "200",
     "title": "BBC iPlayer"
-  },
-  {
-    "url": "http://www.peevish.co.uk/slang/",
-    "status": "200",
-    "title": "Dictionary of English slang and colloquialisms of the UK"
-  },
-  {
-    "url": "https://data.world/",
-    "status": "301"
-  },
-  {
-    "url": "https://data.world/search?q=test",
-    "status": "301",
-    "redirect": "https://data.world/search"
   }
 ]
