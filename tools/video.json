@@ -383,7 +383,7 @@
         },
         {
           "name": "Tenor",
-          "searchUrl": "https://www.tenor.com/search/{q}-gifs",
+          "searchUrl": "https://tenor.com/search/{q}-gifs",
           "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
         },
         {

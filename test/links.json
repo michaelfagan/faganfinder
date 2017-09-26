@@ -879,14 +879,12 @@
     "redirect": "https://www.ted.com/search"
   },
   {
-    "url": "https://www.tenor.com/",
-    "status": "301",
-    "redirect": "https://tenor.com/"
+    "url": "https://tenor.com/",
+    "status": "301"
   },
   {
-    "url": "https://www.tenor.com/search/test-gifs",
-    "status": "301",
-    "redirect": "https://tenor.com/search/test-gifs"
+    "url": "https://tenor.com/search/test-gifs",
+    "status": "301"
   },
   {
     "url": "https://thetvdb.com/",

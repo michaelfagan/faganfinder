@@ -85,7 +85,7 @@
       <section role="navigation" style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
-        <% pages.reject{|p| (p.id == page.id) || p.unpublished }.each do |other_page| %>
+        <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
           <li>
             <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %></a>:
             <%= other_page.description.internal %>
