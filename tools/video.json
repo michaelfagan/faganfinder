@@ -164,7 +164,7 @@
         },
         {
           "name": "Alexander Street",
-          "searchUrl": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={q}"
+          "searchUrl": "https://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={q}"
         }
       ]
     },
@@ -173,7 +173,7 @@
       "tools": [
         {
           "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
-          "searchUrl": "http://www.bbc.co.uk/iplayer/search?q={q}"
+          "searchUrl": "https://www.bbc.co.uk/iplayer/search?q={q}"
         },
         {
           "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
@@ -303,7 +303,7 @@
         },
         {
           "name": "Top Documentary Films",
-          "searchUrl": "http://topdocumentaryfilms.com/search/?results={q}"
+          "searchUrl": "https://topdocumentaryfilms.com/search/?results={q}"
         },
         {
           "name": "Reddit",
@@ -341,10 +341,6 @@
         {
           "name": "Free Video Lectures",
           "searchUrl": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={q}"
-        },
-        {
-          "name": "LearnersTV",
-          "searchUrl": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q={q}"
         }
       ]
     },
@@ -387,7 +383,7 @@
         },
         {
           "name": "Tenor",
-          "searchUrl": "https://www.tenor.co/search/{q}-gifs",
+          "searchUrl": "https://www.tenor.com/search/{q}-gifs",
           "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
         },
         {
@@ -468,7 +464,7 @@
         },
         {
           "name": "TheTVDB.com",
-          "searchUrl": "http://thetvdb.com/?tab=listseries&function=Search&string={q}"
+          "searchUrl": "https://thetvdb.com/?tab=listseries&function=Search&string={q}"
         },
         {
           "name": "What is my movie?",
@@ -529,7 +525,7 @@
       "tools": [
         {
           "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
-          "searchUrl": "http://www.fandango.com/search?q={q}"
+          "searchUrl": "https://www.fandango.com/search?q={q}"
         },
         {
           "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
@@ -592,7 +588,7 @@
         },
         {
           "name": "Tune.pk (Pakistan)",
-          "searchUrl": "http://tune.pk/search_result.php?query={q}"
+          "searchUrl": "https://tune.pk/search_result.php?query={q}"
         },
         {
           "name": "Niconico (Japan)",

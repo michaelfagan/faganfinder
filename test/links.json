@@ -40,14 +40,14 @@
     "redirect": "https://www.nfb.ca/search/"
   },
   {
-    "url": "http://search.alexanderstreet.com/",
+    "url": "https://search.alexanderstreet.com/",
     "status": "302",
-    "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
+    "redirect": "https://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
   },
   {
-    "url": "http://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring=test",
+    "url": "https://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring=test",
     "status": "302",
-    "redirect": "http://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/search"
+    "redirect": "https://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/search"
   },
   {
     "url": "http://www.allmovie.com/",
@@ -92,8 +92,7 @@
   },
   {
     "url": "https://www.asiancrush.com/?s=test",
-    "status": "301",
-    "redirect": "https://www.asiancrush.com/",
+    "status": "200",
     "title": "AsianCrush | Watch Your Favorite Asian Movies &amp; Shows"
   },
   {
@@ -112,11 +111,13 @@
   },
   {
     "url": "http://bigthink.com/search?type=video_idea&q=test",
-    "status": "200"
+    "status": "200",
+    "title": ""
   },
   {
     "url": "http://bigthink.com/videos",
-    "status": "200"
+    "status": "200",
+    "title": ""
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -156,13 +157,13 @@
     "title": ""
   },
   {
-    "url": "http://www.crackle.com/",
-    "status": "200"
+    "url": "https://www.crackle.com/",
+    "status": "301"
   },
   {
     "url": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase=test",
     "status": "200",
-    "title": "test | Work TV/Video - Search Results - Creativity Online"
+    "title": ""
   },
   {
     "url": "http://creativity-online.com/tv",
@@ -171,13 +172,13 @@
   },
   {
     "url": "http://www.dailymotion.com/",
-    "status": "302",
-    "redirect": "/ca-en"
+    "status": "200",
+    "title": "Videos that you actually want to watch - Dailymotion"
   },
   {
     "url": "http://www.dailymotion.com/us/relevance/universal/search/test/1",
     "status": "200",
-    "title": "test videos on Dailymotion"
+    "title": "test videos - Dailymotion"
   },
   {
     "url": "http://www.delphiforums.com/",
@@ -196,8 +197,7 @@
   },
   {
     "url": "http://groups.deviantart.com/?q=test",
-    "status": "200",
-    "title": "Groups | DeviantArt"
+    "status": "200"
   },
   {
     "url": "http://documentaryheaven.com/find/?q=test",
@@ -275,14 +275,14 @@
     "redirect": "https://www.facebook.com/search/videos/"
   },
   {
-    "url": "http://www.fandango.com/",
-    "status": "200",
+    "url": "https://www.fandango.com/",
+    "status": "302",
     "title": "Movie Tickets &amp; Movie Times | Fandango"
   },
   {
-    "url": "http://www.fandango.com/search?q=test",
-    "status": "301",
-    "redirect": "http://www.fandango.com/search/",
+    "url": "https://www.fandango.com/search?q=test",
+    "status": "302",
+    "redirect": "https://www.fandango.com/search",
     "title": "Movie Tickets &amp; Movie Times - Fandango.com"
   },
   {
@@ -366,12 +366,13 @@
     "title": "Search Results for test - ABC News"
   },
   {
-    "url": "http://www.goodreads.com/group/search?q=test",
-    "status": "200"
+    "url": "https://www.goodreads.com/group/search?q=test",
+    "status": "301",
+    "redirect": "https://www.goodreads.com/group/search"
   },
   {
-    "url": "http://www.goodreads.com/group",
-    "status": "200"
+    "url": "https://www.goodreads.com/group",
+    "status": "301"
   },
   {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
@@ -390,7 +391,7 @@
   {
     "url": "https://plus.google.com/s/test/communities",
     "status": "301",
-    "title": "Search - Google+"
+    "title": "Search Results - Google+"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -431,10 +432,6 @@
     "url": "http://groupspaces.com/",
     "status": "200",
     "title": "Free Group Website, Membership Database, Listserv Mailing List, Online Group Management Software : GroupSpaces"
-  },
-  {
-    "url": "https://www.hamsterpad.com/",
-    "status": "timeout"
   },
   {
     "url": "https://www.hoopladigital.com/",
@@ -551,23 +548,13 @@
     "status": "200"
   },
   {
-    "url": "http://www.learnerstv.com/",
-    "status": "200",
-    "title": "Free video lectures,Free Animations, Free Lecture Notes, Free Online Tests, Free Lecture Presentations"
-  },
-  {
-    "url": "http://www.learnerstv.com/search.php?cx=004593499606170306511%3Abo5aumzjjyg&cof=FORID%3A9&q=test",
-    "status": "200",
-    "title": "LearnersTV Search results"
-  },
-  {
     "url": "https://www.linkedin.com/groups/",
     "status": "404"
   },
   {
-    "url": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords=test",
-    "status": "302",
-    "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fvsearch%2Fg"
+    "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
+    "status": "200",
+    "title": "LinkedIn"
   },
   {
     "url": "http://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
@@ -575,14 +562,14 @@
     "title": "Capture Streaming Video From Any Website With These 5 Tools"
   },
   {
-    "url": "https://www.meetup.com/find/events/?keywords=test",
-    "status": "200",
-    "title": "address"
+    "url": "https://www.meetup.com/find/?keywords=test",
+    "status": "301",
+    "redirect": "https://www.meetup.com/find/"
   },
   {
     "url": "https://www.meetup.com/",
-    "status": "200",
-    "title": "We are what we do | Meetup"
+    "status": "301",
+    "title": "arrow-left--small"
   },
   {
     "url": "http://www.mefeedia.com/",
@@ -630,7 +617,7 @@
   {
     "url": "https://www.moviefone.com/search/test/",
     "status": "301",
-    "title": "Search Movie Times - Movies - TV Shows - Celebrities | Moviefone"
+    "title": "Search Movies - Theaters - TV Shows - Celebrities | Moviefone"
   },
   {
     "url": "http://www.movies.com/",
@@ -679,7 +666,7 @@
   {
     "url": "https://www.opened.com/",
     "status": "301",
-    "title": "The Leading K-12 Standards Aligned Open Educational Resource Library"
+    "title": "The Leading K-12 Standards Aligned Educational Resource Library"
   },
   {
     "url": "https://www.opened.com/search?resource_type=video&descriptive=test",
@@ -690,13 +677,13 @@
   {
     "url": "https://www.overdrive.com/",
     "status": "301",
-    "title": "OverDrive: eBooks, audiobooks and videos for libraries &middot; OverDrive: eBooks, audiobooks and videos for libraries"
+    "title": "OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
     "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
     "status": "301",
     "redirect": "https://www.overdrive.com/search",
-    "title": "341 results for test &middot; OverDrive: eBooks, audiobooks and videos for libraries"
+    "title": "343 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
@@ -745,35 +732,34 @@
   },
   {
     "url": "https://www.quora.com/search?type=topic&q=test",
-    "status": "403",
-    "title": "503 Service Unavailable"
+    "status": "403"
   },
   {
     "url": "https://www.reddit.com/",
     "status": "301",
-    "title": "Too Many Requests"
+    "title": "reddit: the front page of the internet"
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/",
     "status": "301",
-    "title": "Too Many Requests"
+    "title": "Documentaries"
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/Documentaries/search",
-    "title": "Too Many Requests"
+    "title": "Documentaries: search results - test"
   },
   {
     "url": "https://www.reddit.com/r/lectures/",
     "status": "301",
-    "title": "Too Many Requests"
+    "title": "Video Lectures"
   },
   {
     "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/lectures/search",
-    "title": "Too Many Requests"
+    "title": "lectures: search results - test"
   },
   {
     "url": "https://www.reddit.com/subreddits/search?q=test",
@@ -835,12 +821,12 @@
   {
     "url": "http://www.simplyscripts.com/",
     "status": "200",
-    "title": "SimplyScripts &#8211; Movie Scripts and Screenplays SimplyScripts - Movie Scripts and Screenplays | Downloadable movie scripts and movie screenplays on the internet. Searchable database of movie, television, radio, anime scripts, transcripts and plays. A screenwriting resource."
+    "title": "SimplyScripts SimplyScripts | Free screenwriters screenplay resource and discussion board. Make your script better. Read professional movie scripts and screenplays. Searchable database of movie, television, radio, anime scripts, transcripts and plays. A screenwriter&#039;s resource. Directors and Producers, find your next award winning script here."
   },
   {
     "url": "https://slack.com/",
     "status": "302",
-    "title": "Slack: Where work happens"
+    "title": "Where work happens | Slack"
   },
   {
     "url": "https://slofile.com/",
@@ -855,8 +841,7 @@
   },
   {
     "url": "http://www.snagfilms.com/",
-    "status": "200",
-    "title": "Free Full Philanthropic Movies Online, Free Streaming TV  | Snagfilms"
+    "status": "200"
   },
   {
     "url": "http://www.soku.com/search_video/q_test",
@@ -894,23 +879,34 @@
     "redirect": "https://www.ted.com/search"
   },
   {
-    "url": "http://thetvdb.com/",
-    "status": "200",
-    "title": "Online TV Database - An open directory of television shows for HTPC software"
+    "url": "https://www.tenor.com/",
+    "status": "301",
+    "redirect": "https://tenor.com/"
   },
   {
-    "url": "http://thetvdb.com/?tab=listseries&function=Search&string=test",
-    "status": "200",
-    "title": "Online TV Database - An open directory of television shows for HTPC software"
+    "url": "https://www.tenor.com/search/test-gifs",
+    "status": "301",
+    "redirect": "https://tenor.com/search/test-gifs"
   },
   {
-    "url": "http://topdocumentaryfilms.com/",
-    "status": "200",
+    "url": "https://thetvdb.com/",
+    "status": "301",
+    "redirect": "https://www.thetvdb.com/"
+  },
+  {
+    "url": "https://thetvdb.com/?tab=listseries&function=Search&string=test",
+    "status": "301",
+    "redirect": "https://www.thetvdb.com/"
+  },
+  {
+    "url": "https://topdocumentaryfilms.com/",
+    "status": "301",
     "title": "Top Documentary Films - Watch Free Documentaries Online"
   },
   {
-    "url": "http://topdocumentaryfilms.com/search/?results=test",
-    "status": "200",
+    "url": "https://topdocumentaryfilms.com/search/?results=test",
+    "status": "301",
+    "redirect": "https://topdocumentaryfilms.com/search/",
     "title": "Search Results - Top Documentary Films"
   },
   {
@@ -996,13 +992,13 @@
   {
     "url": "https://www.viki.com/",
     "status": "301",
-    "title": "Korean Drama, Taiwanese Drama, Bollywood, Anime and Telenovelas free online with subtitles - Viki"
+    "title": "Korean Drama, Taiwanese Drama, Bollywood, Anime and Telenovelas free online with subtitles - Rakuten Viki"
   },
   {
     "url": "https://www.viki.com/search?q=test",
     "status": "301",
     "redirect": "https://www.viki.com/search",
-    "title": "Viki"
+    "title": "Rakuten Viki"
   },
   {
     "url": "https://vimeo.com/categories/music",
@@ -1012,7 +1008,7 @@
   {
     "url": "https://vimeo.com/",
     "status": "301",
-    "title": "Vimeo: Watch, upload and share HD and 4k videos with no ads"
+    "title": "Vimeo | The high-quality home for video hosting and watching on Vimeo"
   },
   {
     "url": "https://vimeo.com/search?license=by-nc-nd&q=test",
@@ -1027,8 +1023,8 @@
     "title": "VimeUhOh"
   },
   {
-    "url": "http://www.weeklyscript.com/",
-    "status": "200",
+    "url": "https://www.weeklyscript.com/",
+    "status": "301",
     "title": "Movie Scripts and Screenplays | WeeklyScript.com"
   },
   {
@@ -1044,12 +1040,12 @@
   {
     "url": "http://www.wikia.com/Special:Search?search=test",
     "status": "200",
-    "title": "Search results for 'Test' - Wikia | Fandom powered by Wikia"
+    "title": "Search results for 'Test' - FANDOM | FANDOM powered by Wikia"
   },
   {
     "url": "http://www.wikia.com/fandom",
     "status": "200",
-    "title": "Fandom powered by Wikia"
+    "title": "FANDOM"
   },
   {
     "url": "https://www.wonderhowto.com/",
@@ -1086,11 +1082,13 @@
   },
   {
     "url": "https://yandex.com/video/",
-    "status": "timeout"
+    "status": "200",
+    "title": "Watch tv series, cartoons, clips, and movies online with Yandex"
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
-    "status": "timeout"
+    "status": "200",
+    "title": "Yandex.Video"
   },
   {
     "url": "http://www.youku.com/",
@@ -1162,14 +1160,6 @@
     "title": "test GIFs | PopKey"
   },
   {
-    "url": "https://www.tenor.co/",
-    "status": "301"
-  },
-  {
-    "url": "https://www.tenor.co/search/test-gifs",
-    "status": "301"
-  },
-  {
     "url": "https://vine.co/",
     "status": "301",
     "title": "Vine"
@@ -1193,13 +1183,13 @@
     "url": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
     "status": "302",
     "redirect": "http://www.europeana.eu/portal/en",
-    "title": "test - Europeana - Search results"
+    "title": "test - Search Results - Europeana Collections"
   },
   {
     "url": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO",
     "status": "302",
     "redirect": "http://www.europeana.eu/portal/en",
-    "title": "Europeana - Search results"
+    "title": "Search Results - Europeana Collections"
   },
   {
     "url": "https://gifme.io/",
@@ -1244,8 +1234,8 @@
     "title": "キーワードで動画検索 test - ニコニコ動画"
   },
   {
-    "url": "http://www.squidtv.net/",
-    "status": "200",
+    "url": "https://www.squidtv.net/",
+    "status": "301",
     "title": "Squid TV"
   },
   {
@@ -1333,13 +1323,11 @@
   },
   {
     "url": "https://freedocumentaries.org/",
-    "status": "301",
-    "title": "Watch Free Online Documentary Films and Free Documentaries | FreeDocumentaries.Org"
+    "status": "timeout"
   },
   {
     "url": "https://freedocumentaries.org/search?q=test",
-    "status": "301",
-    "redirect": "https://freedocumentaries.org/search"
+    "status": "timeout"
   },
   {
     "url": "http://homemovieregistry.org/",
@@ -1360,12 +1348,12 @@
   {
     "url": "http://www.pbs.org/search/?q=test",
     "status": "200",
-    "title": "PBS: Search Results"
+    "title": "PBS: Public Broadcasting System | 500"
   },
   {
     "url": "http://www.pbs.org/video/",
     "status": "200",
-    "title": "PBS: Browse Videos"
+    "title": "Browse Videos | PBS"
   },
   {
     "url": "http://www.taforum.org/Members/search/test",
@@ -1400,13 +1388,12 @@
   },
   {
     "url": "https://www.uia.org/ybio/",
-    "status": "302",
+    "status": "200",
     "title": "International Organizations Search | Union of International Associations"
   },
   {
     "url": "https://www.uia.org/ybio?name=test",
-    "status": "302",
-    "redirect": "https://www.uia.org/ybio",
+    "status": "200",
     "title": "International Organizations Search | Union of International Associations"
   },
   {
@@ -1438,12 +1425,13 @@
     "title": "Usenet - Wikipedia"
   },
   {
-    "url": "http://tune.pk/search_result.php?query=test",
-    "status": "200",
+    "url": "https://tune.pk/search_result.php?query=test",
+    "status": "301",
+    "redirect": "https://tune.pk/search_result.php",
     "title": "test | Tune.pk"
   },
   {
-    "url": "http://tune.pk",
+    "url": "https://tune.pk",
     "status": "timeout"
   },
   {
@@ -1464,8 +1452,7 @@
   },
   {
     "url": "https://adland.tv/search/node/test",
-    "status": "200",
-    "title": "Search | Adland ®"
+    "status": "timeout"
   },
   {
     "url": "https://www.periscope.tv/",
@@ -1486,13 +1473,13 @@
     "title": "USTREAM - Broadcast Live Streaming Video, Watch Online Events, Chat Live, send a Tweet, follow on Facebook, record your Live Shows"
   },
   {
-    "url": "http://www.bbc.co.uk/iplayer/search?q=test",
+    "url": "https://www.bbc.co.uk/iplayer/search?q=test",
     "status": "200",
     "title": "BBC iPlayer - Search - test"
   },
   {
-    "url": "http://www.bbc.co.uk/iplayer",
-    "status": "200",
+    "url": "https://www.bbc.co.uk/iplayer",
+    "status": "301",
     "title": "BBC iPlayer"
   }
 ]

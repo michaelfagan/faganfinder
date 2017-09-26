@@ -22,7 +22,7 @@
         },
         {
           "name": "LinkedIn Groups",
-          "searchUrl": "https://www.linkedin.com/vsearch/g?trk=vsrp_groups_sel&keywords={q}"
+          "searchUrl": "https://www.linkedin.com/search/results/groups/?keywords={q}"
         },
         {
           "name": "Reddit",
@@ -60,7 +60,7 @@
       "tools": [
         {
           "name": "Meetup",
-          "searchUrl": "https://www.meetup.com/find/events/?keywords={q}"
+          "searchUrl": "https://www.meetup.com/find/?keywords={q}"
         },
         {
           "name": "GroupSpaces",
@@ -158,7 +158,7 @@
         },
         {
           "name": "Goodreads",
-          "searchUrl": "http://www.goodreads.com/group/search?q={q}"
+          "searchUrl": "https://www.goodreads.com/group/search?q={q}"
         }
       ]
     }
