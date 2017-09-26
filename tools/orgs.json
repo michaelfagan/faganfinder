@@ -1,0 +1,87 @@
+{
+  "description": {
+    "internal": "this is temporary this is temporary",
+    "external": "this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary"
+  },
+  "path": "organizations/",
+  "sections": [
+    {
+      "name": "Temp name",
+      "tools": [
+        {
+          "name": "OpenCorporates",
+          "searchUrl": "https://opencorporates.com/companies?q={q}"
+        },
+        {
+          "name": "Hoovers",
+          "searchUrl": "http://www.hoovers.com/company-information/company-search.html?term={q}"
+        },
+        {
+          "name": "Zirra",
+          "searchUrl": "https://www.zirra.com/search?q={q}"
+        },
+        {
+          "name": "EDGAR",
+          "searchUrl": "https://www.sec.gov/cgi-bin/browse-edgar?company={q}"
+        },
+        {
+          "name": "Corporation Wiki",
+          "searchUrl": "https://www.corporationwiki.com/search/results?term={q}"
+        },
+
+        {
+          "name": "LinkedIn",
+          "searchUrl": "https://www.linkedin.com/search/results/companies/?keywords={q}"
+        },
+        {
+          "name": "XING",
+          "searchUrl": "https://www.xing.com/search/companies?keywords={q}"
+        },
+
+        {
+          "name": "Glassdoor",
+          "searchUrl": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword={q}"
+        },
+        {
+          "name": "Comparably",
+          "searchUrl": "https://www.comparably.com/search?mode=companies&q={q}"
+        },
+
+        {
+          "name": "Crunchbase",
+          "searchUrl": "https://www.crunchbase.com/app/search?q={q}"
+        },
+        {
+          "name": "AngelList",
+          "searchUrl": "https://angel.co/search?type=companies&q={q}"
+        },
+        {
+          "name": "ThomasNet",
+          "searchUrl": "http://www.thomasnet.com/search.html?which=comp&what={q}"
+        },
+        {
+          "name": "GoodGuide",
+          "searchUrl": "https://www.google.com/search?q={q}+site%3Agoodguide.com%2Fcompanies+OR+site%3Agoodguide.com%2Fbrands"
+        },
+        {
+          "name": "Corporate Critic",
+          "searchUrl": "http://www.corporatecritic.org/companies.aspx",
+          "post": "txtSearch"
+        },
+        {
+          "name": "EWG",
+          "searchUrl": "http://www.ewg.org/skindeep/search.php?search_group=companies&query={q}"
+        },
+        {
+          "name": "<abbr title=\"People for the Ethical Treatment of Animals\">PETA</abbr>",
+          "searchUrl": "http://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx?Keyword={q}"
+        },
+        {
+          "name": "Household Products Database",
+          "searchUrl": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
+          "post": "queryx"
+        }
+      ]
+    }
+  ]
+}
