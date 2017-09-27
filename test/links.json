@@ -40,6 +40,16 @@
     "redirect": "https://www.nfb.ca/search/"
   },
   {
+    "url": "https://angel.co/",
+    "status": "301",
+    "title": "AngelList - Where the world meets startups"
+  },
+  {
+    "url": "https://angel.co/search?type=companies&q=test",
+    "status": "301",
+    "redirect": "https://angel.co/search"
+  },
+  {
     "url": "https://search.alexanderstreet.com/",
     "status": "302",
     "redirect": "https://authorize.alexanderstreet.com/access/sso/check?return=http%3A//search.alexanderstreet.com/front-page"
@@ -157,6 +167,28 @@
     "title": ""
   },
   {
+    "url": "https://www.comparably.com/",
+    "status": "301",
+    "title": "An error has occured"
+  },
+  {
+    "url": "https://www.comparably.com/search?mode=companies&q=test",
+    "status": "301",
+    "redirect": "https://www.comparably.com/search",
+    "title": "An error has occured | Comparably"
+  },
+  {
+    "url": "https://www.corporationwiki.com/",
+    "status": "301",
+    "title": "Corporation Wiki - Find Connections between People and Companies"
+  },
+  {
+    "url": "https://www.corporationwiki.com/search/results?term=test",
+    "status": "301",
+    "redirect": "https://www.corporationwiki.com/search/results",
+    "title": "Search results for Test"
+  },
+  {
     "url": "https://www.crackle.com/",
     "status": "301"
   },
@@ -169,6 +201,16 @@
     "url": "http://creativity-online.com/tv",
     "status": "200",
     "title": "The Best In Video &amp; TV Commercials - Creativity Online"
+  },
+  {
+    "url": "https://www.crunchbase.com/app/search?q=test",
+    "status": "416",
+    "title": "Pardon Our Interruption"
+  },
+  {
+    "url": "https://www.crunchbase.com/",
+    "status": "416",
+    "title": "Pardon Our Interruption"
   },
   {
     "url": "http://www.dailymotion.com/",
@@ -347,6 +389,16 @@
     "redirect": "https://giphy.com/search/test"
   },
   {
+    "url": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword=test",
+    "status": "301",
+    "redirect": "https://www.glassdoor.com/Reviews/company-reviews.htm"
+  },
+  {
+    "url": "https://www.glassdoor.com/",
+    "status": "301",
+    "redirect": "https://www.glassdoor.com/index.htm"
+  },
+  {
     "url": "https://globoplay.globo.com/busca/?q=test",
     "status": "301",
     "redirect": "https://globoplay.globo.com/busca/"
@@ -364,6 +416,11 @@
     "url": "http://abcnews.go.com/search?r=video&searchtext=test",
     "status": "200",
     "title": "Search Results for test - ABC News"
+  },
+  {
+    "url": "https://www.goodguide.com/companies",
+    "status": "301",
+    "title": "Companies Index | GoodGuide"
   },
   {
     "url": "https://www.goodreads.com/group/search?q=test",
@@ -409,6 +466,11 @@
     "redirect": "http://www.google.com/webhp"
   },
   {
+    "url": "https://www.google.com/search?q=test+site%3Agoodguide.com%2Fcompanies+OR+site%3Agoodguide.com%2Fbrands",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
     "url": "https://www.google.com/search?tbm=vid&q=test",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
@@ -441,6 +503,16 @@
     "url": "https://www.hoopladigital.com/search/test?kind=MOVIE",
     "status": "301",
     "redirect": "https://www.hoopladigital.com/search/test"
+  },
+  {
+    "url": "http://www.hoovers.com/company-information/company-search.html?term=test",
+    "status": "200",
+    "title": "Company Search | Company Information | Hoover&#39;s Company Profiles - D&B Hoovers"
+  },
+  {
+    "url": "http://www.hoovers.com/",
+    "status": "200",
+    "title": "Sales leads, Company Profiles, Business Database &amp; Sales Acceleration Solutions - D&B Hoovers"
   },
   {
     "url": "http://www.howcast.com/",
@@ -550,6 +622,15 @@
   {
     "url": "https://www.linkedin.com/groups/",
     "status": "404"
+  },
+  {
+    "url": "http://www.linkedin.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.linkedin.com/search/results/companies/?keywords=test",
+    "status": "200",
+    "title": "LinkedIn"
   },
   {
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
@@ -662,6 +743,15 @@
     "url": "https://www.nytimes.com/video",
     "status": "301",
     "title": "Times Video - NYTimes.com"
+  },
+  {
+    "url": "https://opencorporates.com/companies?q=test",
+    "status": "301",
+    "redirect": "https://opencorporates.com/companies"
+  },
+  {
+    "url": "https://opencorporates.com/",
+    "status": "301"
   },
   {
     "url": "https://www.opened.com/",
@@ -897,6 +987,17 @@
     "redirect": "https://www.thetvdb.com/"
   },
   {
+    "url": "https://www.thomasnet.com/",
+    "status": "301",
+    "title": "ThomasNet&reg; - Product Sourcing and Supplier Discovery Platform"
+  },
+  {
+    "url": "https://www.thomasnet.com/search.html?which=comp&what=test",
+    "status": "301",
+    "redirect": "https://www.thomasnet.com/search.html",
+    "title": "ThomasNet&reg; - Results for \"test\""
+  },
+  {
     "url": "https://topdocumentaryfilms.com/",
     "status": "301",
     "title": "Top Documentary Films - Watch Free Documentaries Online"
@@ -1059,6 +1160,15 @@
     "title": "wwiTV.com - The ultimate guide to live TV webcasts."
   },
   {
+    "url": "https://www.xing.com/",
+    "status": "301",
+    "title": "XING – For a better working life"
+  },
+  {
+    "url": "https://www.xing.com/search/companies?keywords=test",
+    "status": "timeout"
+  },
+  {
     "url": "https://groups.yahoo.com/",
     "status": "301",
     "title": "Yahoo - 302 Found"
@@ -1148,6 +1258,15 @@
     "title": "YOVISTO :: SEARCH :: test"
   },
   {
+    "url": "https://www.zirra.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.zirra.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.zirra.com/search"
+  },
+  {
     "url": "https://popkey.co/",
     "status": "200",
     "title": "PopKey | An animated GIF keyboard"
@@ -1188,6 +1307,26 @@
     "status": "302",
     "redirect": "http://www.europeana.eu/portal/en",
     "title": "Search Results - Europeana Collections"
+  },
+  {
+    "url": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
+    "status": "301"
+  },
+  {
+    "url": "https://hpd.nlm.nih.gov/",
+    "status": "301",
+    "title": "Household Products Database - Health and Safety Information on Household Products"
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=test",
+    "status": "301",
+    "redirect": "https://www.sec.gov/cgi-bin/browse-edgar",
+    "title": "EDGAR Search Results"
+  },
+  {
+    "url": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+    "status": "301",
+    "title": "SEC.gov | Company Search Page"
   },
   {
     "url": "https://gifme.io/",
@@ -1293,6 +1432,15 @@
     "title": "Showing results for \"test\" | Common Sense Media"
   },
   {
+    "url": "http://www.corporatecritic.org/companies.aspx",
+    "status": "200",
+    "title": "Corporate Critic Companies"
+  },
+  {
+    "url": "http://www.corporatecritic.org/",
+    "status": "200"
+  },
+  {
     "url": "https://cosmolearning.org/",
     "status": "302",
     "title": "CosmoLearning | Your Free Online School: Courses, Video Lectures, Documentaries, Images, Books and more"
@@ -1318,6 +1466,16 @@
     "status": "302",
     "redirect": "https://www.dailystrength.org/search",
     "title": "Search Results for test | DailyStrength"
+  },
+  {
+    "url": "http://www.ewg.org/skindeep/",
+    "status": "200",
+    "title": " Skin Deep&reg; Cosmetics Database | EWG"
+  },
+  {
+    "url": "http://www.ewg.org/skindeep/search.php?search_group=companies&query=test",
+    "status": "200",
+    "title": "Skin Deep&reg; Cosmetics Database | EWG"
   },
   {
     "url": "https://freedocumentaries.org/",
@@ -1352,6 +1510,17 @@
     "url": "http://www.pbs.org/video/",
     "status": "200",
     "title": "Browse Videos | PBS"
+  },
+  {
+    "url": "http://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx?Keyword=test",
+    "status": "200",
+    "title": "Search Results for \"Test\" | Search for Cruelty-Free Companies, Products, and More | PETA"
+  },
+  {
+    "url": "http://features.peta.org/cruelty-free-company-search/",
+    "status": "302",
+    "redirect": "/cruelty-free-company-search/index.aspx",
+    "title": "Object moved"
   },
   {
     "url": "http://www.taforum.org/Members/search/test",

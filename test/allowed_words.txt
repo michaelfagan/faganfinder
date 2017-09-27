@@ -1,5 +1,6 @@
 Adland
 AllMovie
+AngelList
 anime
 Aparat
 Bechdel
@@ -9,6 +10,7 @@ BoxTV
 CareerOneStop
 CosmoLearning
 CraveTV
+Crunchbase
 DailyMotion
 DailyStrength
 de
@@ -18,6 +20,7 @@ DocumentaryHeaven
 DramaFever
 Epix
 Europeana
+EWG
 Exalead
 Fagan
 faganfinder
@@ -30,7 +33,9 @@ FreeDocumentaries
 GifMe
 GIFs
 Giphy
+Glassdoor
 Globo
+GoodGuide
 Goodreads
 GroupSpaces
 Howcast
@@ -58,9 +63,11 @@ netsplit
 Nextdoor
 NFB
 Niconico
+OpenCorporates
 OpenEd
 OverDrive
 PDF
+PETA
 Pixabay
 Playstation
 Popcornflix
@@ -84,6 +91,7 @@ Subreddit
 TeacherTube
 TEDx
 TheTVDB
+ThomasNet
 Tubi
 TVmaze
 TVopedia
@@ -103,6 +111,8 @@ WeeklyScript
 Wikia
 Wuaki
 wwiTV
+XING
 Yandex
 Youku
 Yovisto
+Zirra
