@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://www.seek.com.au/companies/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.seek.com.au/companies/search?keywords=test",
+    "status": "301",
+    "redirect": "https://www.seek.com.au/companies/search"
+  },
+  {
     "url": "http://iview.abc.net.au/",
     "status": "200",
     "title": "Never miss a moment : ABC iview"
@@ -167,6 +176,18 @@
     "title": ""
   },
   {
+    "url": "https://www.careerbliss.com/index/?pageType=Companies",
+    "status": "301",
+    "redirect": "https://www.careerbliss.com/index/",
+    "title": "Object moved"
+  },
+  {
+    "url": "https://www.careerbliss.com/search/?typeFilter=company&q=test",
+    "status": "301",
+    "redirect": "https://www.careerbliss.com/search/",
+    "title": "Search Results for test | CareerBliss"
+  },
+  {
     "url": "https://www.comparably.com/",
     "status": "301",
     "title": "An error has occured"
@@ -176,6 +197,38 @@
     "status": "301",
     "redirect": "https://www.comparably.com/search",
     "title": "An error has occured | Comparably"
+  },
+  {
+    "url": "https://www.complaintsboard.com/",
+    "status": "301",
+    "title": "Complaints Board – Complaints and Reviews"
+  },
+  {
+    "url": "https://www.complaintsboard.com/?search=test",
+    "status": "301",
+    "redirect": "https://www.complaintsboard.com/",
+    "title": "test Complaints, Reviews, Information"
+  },
+  {
+    "url": "https://www.consumeraffairs.com/",
+    "status": "301",
+    "title": "ConsumerAffairs.com: Research. Review. Resolve."
+  },
+  {
+    "url": "https://www.consumeraffairs.com/search.html?q=test",
+    "status": "301",
+    "redirect": "https://www.consumeraffairs.com/search.html",
+    "title": "ConsumerAffairs.com Search Page"
+  },
+  {
+    "url": "http://consumerwatch.com/",
+    "status": "200",
+    "title": "Consumer Affairs &amp; Public Safety Website | ConsumerWatch.com"
+  },
+  {
+    "url": "http://consumerwatch.com/?s=test",
+    "status": "200",
+    "title": "You searched for test | Consumer Watch"
   },
   {
     "url": "https://www.corporationwiki.com/",
@@ -221,6 +274,16 @@
     "url": "http://www.dailymotion.com/us/relevance/universal/search/test/1",
     "status": "200",
     "title": "test videos - Dailymotion"
+  },
+  {
+    "url": "https://en.datocapital.com/_search?q=test",
+    "status": "403",
+    "title": "Dato Capital Search test"
+  },
+  {
+    "url": "https://en.datocapital.com/",
+    "status": "403",
+    "title": "International company and director search"
   },
   {
     "url": "http://www.delphiforums.com/",
@@ -317,6 +380,17 @@
     "redirect": "https://www.facebook.com/search/videos/"
   },
   {
+    "url": "https://fairygodboss.com/",
+    "status": "301",
+    "title": "Jobs and company reviews for women | Fairygodboss"
+  },
+  {
+    "url": "https://fairygodboss.com/search?term=test",
+    "status": "301",
+    "redirect": "https://fairygodboss.com/search",
+    "title": "Fairygodboss search results for test"
+  },
+  {
     "url": "https://www.fandango.com/",
     "status": "302",
     "title": "Movie Tickets &amp; Movie Times | Fandango"
@@ -347,6 +421,16 @@
     "url": "https://filmfreeway.com/",
     "status": "301",
     "title": "Film Festivals, Screenplay Contests, Submissions - FilmFreeway"
+  },
+  {
+    "url": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22test%22%7D%5D",
+    "status": "416",
+    "title": "Rate Limited"
+  },
+  {
+    "url": "http://www.findthecompany.com/",
+    "status": "416",
+    "title": "Rate Limited"
   },
   {
     "url": "https://www.flickr.com/groups",
@@ -545,6 +629,16 @@
     "title": ""
   },
   {
+    "url": "https://www.indeed.com/Best-Places-to-Work",
+    "status": "501",
+    "title": "Best Corporate Employers in the US | Indeed.com"
+  },
+  {
+    "url": "https://www.indeed.com/cmp?q=test",
+    "status": "501",
+    "title": "Company Search | Indeed.com"
+  },
+  {
     "url": "https://www.indieflix.com/",
     "status": "302"
   },
@@ -620,6 +714,15 @@
     "status": "200"
   },
   {
+    "url": "https://www.kununu.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.kununu.com/search#/?q=test",
+    "status": "301",
+    "redirect": "https://www.kununu.com/search"
+  },
+  {
     "url": "https://www.linkedin.com/groups/",
     "status": "404"
   },
@@ -643,6 +746,17 @@
     "title": "Capture Streaming Video From Any Website With These 5 Tools"
   },
   {
+    "url": "https://www.matchdeck.com/homepage-mk2/search?search_keywords=test",
+    "status": "301",
+    "redirect": "https://www.matchdeck.com/homepage-mk2/search",
+    "title": "Matchdeck - find new suppliers, buyers, and partners."
+  },
+  {
+    "url": "https://www.matchdeck.com/",
+    "status": "301",
+    "title": "Matchdeck - find new suppliers, buyers, and partners."
+  },
+  {
     "url": "https://www.meetup.com/find/?keywords=test",
     "status": "301",
     "redirect": "https://www.meetup.com/find/"
@@ -661,6 +775,11 @@
     "url": "http://www.mefeedia.com/search/test",
     "status": "200",
     "title": "Test videos - MeFeedia"
+  },
+  {
+    "url": "http://www.mergentonline.com/",
+    "status": "302",
+    "redirect": "basicsearch.php"
   },
   {
     "url": "http://www.metacafe.com/",
@@ -977,6 +1096,16 @@
     "status": "301"
   },
   {
+    "url": "http://www.thejobcrowd.com/graduates/companies",
+    "status": "200",
+    "title": "Graduate Employer List - A List of Graduate Employers"
+  },
+  {
+    "url": "http://www.thejobcrowd.com/search/node/test/employers",
+    "status": "200",
+    "title": "Search | TheJobCrowd"
+  },
+  {
     "url": "https://thetvdb.com/",
     "status": "301",
     "redirect": "https://www.thetvdb.com/"
@@ -1058,6 +1187,14 @@
     "status": "301",
     "redirect": "https://twitter.com/search",
     "title": "test - Twitter Search"
+  },
+  {
+    "url": "http://www.vault.com/rankings-reviews/explore-companies",
+    "status": "200"
+  },
+  {
+    "url": "http://www.vault.com/search-results.aspx?pref=comp&q=test",
+    "status": "200"
   },
   {
     "url": "http://www.veoh.com/find/?query=test",
@@ -1486,6 +1623,26 @@
     "status": "timeout"
   },
   {
+    "url": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company=test",
+    "status": "200",
+    "title": "Subsidy Tracker 3.0 Search Results | Good Jobs First"
+  },
+  {
+    "url": "https://violationtracker.goodjobsfirst.org/prog.php?company_op=word&company=test",
+    "status": "200",
+    "title": "Violation Tracker 2.0 Search Results | Corporate Research Project of Good Jobs First"
+  },
+  {
+    "url": "http://www.goodjobsfirst.org/subsidy-tracker",
+    "status": "301",
+    "redirect": "https://www.goodjobsfirst.org/subsidy-tracker"
+  },
+  {
+    "url": "http://www.goodjobsfirst.org/violation-tracker",
+    "status": "301",
+    "redirect": "https://www.goodjobsfirst.org/violation-tracker"
+  },
+  {
     "url": "http://homemovieregistry.org/",
     "status": "301",
     "redirect": "http://www.homemovieregistry.org/wp",
@@ -1495,6 +1652,26 @@
     "url": "http://homemovieregistry.org/wp/search/#search/text=test",
     "status": "200",
     "title": "Search | Home Movie Registry"
+  },
+  {
+    "url": "https://offshoreleaks.icij.org/",
+    "status": "301",
+    "title": "ICIJ Offshore Leaks Database"
+  },
+  {
+    "url": "https://offshoreleaks.icij.org/search?q=test",
+    "status": "301",
+    "redirect": "https://offshoreleaks.icij.org/search",
+    "title": " Search results for “test” | ICIJ Offshore Leaks Database"
+  },
+  {
+    "url": "https://www.jobadvisor.org/companies?keyword=test",
+    "status": "timeout",
+    "redirect": "https://www.jobadvisor.org/companies"
+  },
+  {
+    "url": "https://www.jobadvisor.org/",
+    "status": "timeout"
   },
   {
     "url": "https://www.khanacademy.org/",

@@ -13,12 +13,24 @@
           "searchUrl": "https://opencorporates.com/companies?q={q}"
         },
         {
+          "name": "Dato Capital",
+          "searchUrl": "https://en.datocapital.com/_search?q={q}"
+        },
+        {
           "name": "Hoovers",
           "searchUrl": "http://www.hoovers.com/company-information/company-search.html?term={q}"
         },
         {
           "name": "Zirra",
           "searchUrl": "https://www.zirra.com/search?q={q}"
+        },
+        {
+          "name": "FindTheCompany",
+          "searchUrl": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22{q}%22%7D%5D"
+        },
+        {
+          "name": "Matchdeck",
+          "searchUrl": "https://www.matchdeck.com/homepage-mk2/search?search_keywords={q}"
         },
         {
           "name": "EDGAR",
@@ -28,25 +40,6 @@
           "name": "Corporation Wiki",
           "searchUrl": "https://www.corporationwiki.com/search/results?term={q}"
         },
-
-        {
-          "name": "LinkedIn",
-          "searchUrl": "https://www.linkedin.com/search/results/companies/?keywords={q}"
-        },
-        {
-          "name": "XING",
-          "searchUrl": "https://www.xing.com/search/companies?keywords={q}"
-        },
-
-        {
-          "name": "Glassdoor",
-          "searchUrl": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword={q}"
-        },
-        {
-          "name": "Comparably",
-          "searchUrl": "https://www.comparably.com/search?mode=companies&q={q}"
-        },
-
         {
           "name": "Crunchbase",
           "searchUrl": "https://www.crunchbase.com/app/search?q={q}"
@@ -58,7 +51,57 @@
         {
           "name": "ThomasNet",
           "searchUrl": "https://www.thomasnet.com/search.html?which=comp&what={q}"
+        }
+      ]
+    },
+    {
+      "name": "Employee reviews",
+      "tools": [
+        {
+          "name": "Glassdoor",
+          "searchUrl": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword={q}"
         },
+        {
+          "name": "Comparably",
+          "searchUrl": "https://www.comparably.com/search?mode=companies&q={q}"
+        },
+        {
+          "name": "Indeed",
+          "searchUrl": "https://www.indeed.com/cmp?q={q}"
+        },
+        {
+          "name": "kununu",
+          "searchUrl": "https://www.kununu.com/search#/?q={q}"
+        },
+        {
+          "name": "Vault",
+          "searchUrl": "http://www.vault.com/search-results.aspx?pref=comp&q={q}"
+        },
+        {
+          "name": "CareerBliss",
+          "searchUrl": "https://www.careerbliss.com/search/?typeFilter=company&q={q}"          
+        },
+        {
+          "name": "Fairygodboss",
+          "searchUrl": "https://fairygodboss.com/search?term={q}"
+        },
+        {
+          "name": "JobAdvisor",
+          "searchUrl": "https://www.jobadvisor.org/companies?keyword={q}"
+        },
+        {
+          "name": "SEEK",
+          "searchUrl": "https://www.seek.com.au/companies/search?keywords={q}"
+        },
+        {
+          "name": "TheJobCrowd",
+          "searchUrl": "http://www.thejobcrowd.com/search/node/{q}/employers"
+        }
+      ]
+    },
+    {
+      "name": "Ethics, health, and safety",
+      "tools": [
         {
           "name": "GoodGuide",
           "searchUrl": "https://www.google.com/search?q={q}+site%3Agoodguide.com%2Fcompanies+OR+site%3Agoodguide.com%2Fbrands"
@@ -73,13 +116,60 @@
           "searchUrl": "http://www.ewg.org/skindeep/search.php?search_group=companies&query={q}"
         },
         {
+          "name": "Household Products Database",
+          "searchUrl": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
+          "post": "queryx"
+        },
+        {
+          "name": "Violation Tracker",
+          "searchUrl": "https://violationtracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
+        },
+        {
           "name": "<abbr title=\"People for the Ethical Treatment of Animals\">PETA</abbr>",
           "searchUrl": "http://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx?Keyword={q}"
         },
         {
-          "name": "Household Products Database",
-          "searchUrl": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
-          "post": "queryx"
+          "name": "ConsumerWatch.com",
+          "searchUrl": "http://consumerwatch.com/?s={q}"
+        },
+        {
+          "name": "Offshore Leaks Database",
+          "searchUrl": "https://offshoreleaks.icij.org/search?q={q}"
+        }
+     ]
+    },
+    {
+      "name": "Consumer reviews",
+      "tools": [
+        {
+          "name": "Complaints Board",
+          "searchUrl": "https://www.complaintsboard.com/?search={q}"
+        },
+        {
+          "name": "ConsumerAffairs",
+          "searchUrl": "https://www.consumeraffairs.com/search.html?q={q}"
+        }        
+      ]
+    },
+    {
+      "name": "Social networks",
+      "tools": [
+        {
+          "name": "LinkedIn",
+          "searchUrl": "https://www.linkedin.com/search/results/companies/?keywords={q}"
+        },
+        {
+          "name": "XING",
+          "searchUrl": "https://www.xing.com/search/companies?keywords={q}"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "tools": [
+        {
+          "name": "Subsidy Tracker",
+          "searchUrl": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
         }
       ]
     }
