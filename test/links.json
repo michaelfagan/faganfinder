@@ -25,18 +25,67 @@
     "title": "TV UOL"
   },
   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities-listings.html",
+    "status": "301",
+    "title": "List of charities - Canada.ca"
+  },
+  {
     "url": "http://watch.cbc.ca/",
     "status": "200",
     "title": "CBC TV"
+  },
+  {
+    "url": "https://www.charityintelligence.ca/charity-search-results?k=test",
+    "status": "301",
+    "redirect": "https://www.charityintelligence.ca/charity-search-results"
+  },
+  {
+    "url": "https://www.charityintelligence.ca/",
+    "status": "301",
+    "title": "Charity Intelligence Canada - Charity Intelligence Canada"
+  },
+  {
+    "url": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k=test",
+    "status": "200",
+    "title": "Charities Listings - Basic search results"
+  },
+  {
+    "url": "http://www.ic.gc.ca/app/ccc/srch/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?lang=eng&prtl=1&searchCriteriaBean.portal=1&V_SEARCH.documentJSP=%2FretrieveEstablishmentIdFromVerity.do&searchPage=%252Fapp%252Fccc%252Fsrch%252FcccBscSrch.do%253Flang%253Deng%2526amp%253Bprtl%253D1%2526amp%253Btagid%253D&searchCriteriaBean.resultJsp=%2Fresults.do&V_SEARCH.scopeCategory=CCC.Root&V_SEARCH.depth=1&V_SEARCH.showStricts=false&searchCriteriaBean.conceptOperator=and&searchCriteriaBean.isExportingOrInterested=exportingActively&searchCriteriaBean.hitsPerPage=10&searchCriteriaBean.sortSpec=title+asc&searchCriteriaBean.isSummaryOn=Y&searchCriteriaBean.textField=test",
+    "status": "200"
   },
   {
     "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField=test",
     "status": "200"
   },
   {
+    "url": "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html",
+    "status": "302",
+    "title": "Search for a Federal Corporation - Online Filing Centre - Corporations Canada - Corporations - Innovation, Science and Economic Development Canada"
+  },
+  {
+    "url": "https://www.ic.gc.ca/app/scr/ccbr/search-chercher?lang=eng",
+    "status": "302",
+    "redirect": "https://www.ic.gc.ca/app/scr/ccbr/search-chercher",
+    "title": "Business Registry Search Pilot&lt;br/&gt;&lt;span class=&quot;h2&quot;&gt;&lt;i&gt;Partners:  Corporations Canada, Nova Scotia, Ontario and Quebec&lt;/i&gt;&lt;/span&gt;"
+  },
+  {
     "url": "http://www.ic.gc.ca/eic/site/ccc_bt-rec_ec.nsf/eng/h_00001.html",
     "status": "200",
     "title": "Directory of Business and Trade Associations / Organizations - Canadian Company Capabilities (Associations)"
+  },
+  {
+    "url": "https://finance.google.ca/finance",
+    "status": "200",
+    "title": "Google Finance: Stock market quotes, news, currency conversions &amp; more"
+  },
+  {
+    "url": "https://finance.google.ca/finance?q=test",
+    "status": "200",
+    "title": "test – Google Finance Search"
   },
   {
     "url": "https://www.nfb.ca/",
@@ -47,6 +96,15 @@
     "url": "https://www.nfb.ca/search/#?queryString=test",
     "status": "301",
     "redirect": "https://www.nfb.ca/search/"
+  },
+  {
+    "url": "https://www.yellowpages.ca/",
+    "status": "301",
+    "title": "Find local businesses, products, reviews and deals on YellowPages.ca - YP.ca"
+  },
+  {
+    "url": "https://www.yellowpages.ca/search/si/1/test",
+    "status": "301"
   },
   {
     "url": "https://angel.co/",
@@ -77,6 +135,16 @@
     "url": "http://www.allmovie.com/search/all/test",
     "status": "200",
     "title": "Top search results for \"test\" | AllMovie"
+  },
+  {
+    "url": "http://www.annualreports.com/Companies?search=test",
+    "status": "200",
+    "title": "AnnualReports.com"
+  },
+  {
+    "url": "http://www.annualreports.com/",
+    "status": "200",
+    "title": "AnnualReports.com"
   },
   {
     "url": "https://www.aol.com/video/",
@@ -166,6 +234,11 @@
     "title": "Search for &quot;test&quot; | Blinkx"
   },
   {
+    "url": "https://www.bloomberg.com/",
+    "status": "301",
+    "title": "Bloomberg.com"
+  },
+  {
     "url": "http://www.boxtv.com/",
     "status": "200",
     "title": "Watch Hindi English Movies Online 2016, Watch TV Shows Online"
@@ -174,6 +247,16 @@
     "url": "http://www.boxtv.com/search/test",
     "status": "200",
     "title": ""
+  },
+  {
+    "url": "https://www.calcbench.com/dashboard/test",
+    "status": "302",
+    "title": "CALCBENCH: Dashboard"
+  },
+  {
+    "url": "https://www.calcbench.com/",
+    "status": "302",
+    "title": "CALCBENCH | Financial Data | Financial Statements from XBRL"
   },
   {
     "url": "https://www.careerbliss.com/index/?pageType=Companies",
@@ -186,6 +269,16 @@
     "status": "301",
     "redirect": "https://www.careerbliss.com/search/",
     "title": "Search Results for test | CareerBliss"
+  },
+  {
+    "url": "http://www.companyspotlight.com/",
+    "status": "200",
+    "title": "Company Spotlight"
+  },
+  {
+    "url": "http://www.companyspotlight.com/library/companies/keyword/test",
+    "status": "200",
+    "title": "Company Spotlight"
   },
   {
     "url": "https://www.comparably.com/",
@@ -229,6 +322,16 @@
     "url": "http://consumerwatch.com/?s=test",
     "status": "200",
     "title": "You searched for test | Consumer Watch"
+  },
+  {
+    "url": "http://www.corporateregister.com/",
+    "status": "200",
+    "title": "Corporate Register - Global CSR Resources"
+  },
+  {
+    "url": "http://www.corporateregister.com/search/?s=test",
+    "status": "200",
+    "title": "Corporate Register Search"
   },
   {
     "url": "https://www.corporationwiki.com/",
@@ -423,6 +526,12 @@
     "title": "Film Festivals, Screenplay Contests, Submissions - FilmFreeway"
   },
   {
+    "url": "https://findnaics.com/",
+    "status": "302",
+    "redirect": "https://findnaics.com",
+    "title": "NAICs Company Search Tool"
+  },
+  {
     "url": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22test%22%7D%5D",
     "status": "416",
     "title": "Rate Limited"
@@ -431,6 +540,15 @@
     "url": "http://www.findthecompany.com/",
     "status": "416",
     "title": "Rate Limited"
+  },
+  {
+    "url": "https://www.fitchratings.com/",
+    "status": "timeout",
+    "redirect": "https://www.fitchratings.com/site/home"
+  },
+  {
+    "url": "https://www.fitchratings.com/site/search?content=entity&request=test",
+    "status": "timeout"
   },
   {
     "url": "https://www.flickr.com/groups",
@@ -526,6 +644,17 @@
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
+    "url": "https://patents.google.com/?assignee=test",
+    "status": "301",
+    "redirect": "https://patents.google.com/",
+    "title": "Google Patents"
+  },
+  {
+    "url": "https://patents.google.com/",
+    "status": "301",
+    "title": "Google Patents"
+  },
+  {
     "url": "https://plus.google.com/communities",
     "status": "301"
   },
@@ -545,7 +674,17 @@
     "redirect": "http://www.google.com/webhp"
   },
   {
+    "url": "https://www.google.com/search?q=test%20site%3Aunglobalcompact.org%2Fwhat-is-gc%2Fparticipants",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp"
+  },
+  {
+    "url": "https://www.google.com/search?q=test+site%3Abloomberg.com%2Fresearch%2Fstocks",
     "status": "302",
     "redirect": "http://www.google.com/webhp"
   },
@@ -657,6 +796,22 @@
     "title": "search results for \"test\""
   },
   {
+    "url": "https://www.industrynet.com/",
+    "status": "303",
+    "title": "IndustryNet&reg; - Machinery, Parts, Supplies, Services - Industrial Marketplace - Buyers Guide Directory"
+  },
+  {
+    "url": "https://www.industrynet.com/suppliers/?company=test",
+    "status": "303",
+    "redirect": "https://www.industrynet.com/suppliers/",
+    "title": "Search for Companies \"test\" on IndustryNet&reg;"
+  },
+  {
+    "url": "http://www.investorcalendar.com/",
+    "status": "200",
+    "title": "Investor Calendar"
+  },
+  {
     "url": "http://so.iqiyi.com/so/q_test",
     "status": "200",
     "title": "test_视频在线观看-爱奇艺搜索"
@@ -712,6 +867,11 @@
   {
     "url": "https://kiwiirc.com/search?q=test",
     "status": "200"
+  },
+  {
+    "url": "https://www.kompany.com/",
+    "status": "301",
+    "title": "kompany - KYC KYB AML UBO ✔ Register Report, Company Check, Credit Report – Instant Online Access"
   },
   {
     "url": "https://www.kununu.com/",
@@ -810,6 +970,25 @@
     "title": "Channel search  &gt; test"
   },
   {
+    "url": "https://www.moodys.com/",
+    "status": "503"
+  },
+  {
+    "url": "https://www.moodys.com/page/search.aspx?cy=global&spk=qs&tb=1&kw=test",
+    "status": "503",
+    "title": "Object moved"
+  },
+  {
+    "url": "http://beta.morningstar.com/",
+    "status": "200",
+    "title": "Today"
+  },
+  {
+    "url": "http://beta.morningstar.com/search.html?q=test",
+    "status": "200",
+    "title": "All Categories"
+  },
+  {
     "url": "https://www.moviefone.com/",
     "status": "301",
     "title": "Movies | Movie Times | Movie Tickets | Movie Theaters | Moviefone"
@@ -828,6 +1007,16 @@
     "url": "http://www.movies.com/search-result?search=test",
     "status": "200",
     "title": "Search Results | Movies.com"
+  },
+  {
+    "url": "https://www.naics.com/naics-search-results/",
+    "status": "301",
+    "title": "NAICS Search Results | NAICS Association"
+  },
+  {
+    "url": "https://www.naics.com/search/",
+    "status": "301",
+    "title": "NAICS Identification Tools | NAICS Association"
   },
   {
     "url": "http://video.nationalgeographic.com/",
@@ -923,6 +1112,11 @@
     "url": "https://www.proboards.com/forum-directory",
     "status": "301",
     "title": "ProBoards Forum Directory | ProBoards"
+  },
+  {
+    "url": "http://www.proquest.com/products-services/pq_hist_annual_repts.html",
+    "status": "200",
+    "title": "ProQuest Historical Annual Reports - ProQuest Historical Annual Reports"
   },
   {
     "url": "https://groups.psychologytoday.com/",
@@ -1023,6 +1217,10 @@
     "status": "200"
   },
   {
+    "url": "http://www.sedar.com/search/search_form_pc_en.htm",
+    "status": "200"
+  },
+  {
     "url": "http://www.simplyscripts.com/cgi-bin/search.pl?search=test",
     "status": "200",
     "title": "Simply Scripts Search Results"
@@ -1058,9 +1256,50 @@
     "title": "test – 搜库"
   },
   {
+    "url": "http://www.standardandpoors.com/en_US/web/guest/ratings/search/-/search/searchType/E/searchTerm/test",
+    "status": "200",
+    "title": "Standard &amp; Poor's | Americas "
+  },
+  {
+    "url": "http://www.standardandpoors.com/",
+    "status": "404",
+    "title": ""
+  },
+  {
+    "url": "http://www.stockchase.com/company/find?companysearch=test",
+    "status": "200",
+    "title": "Company Index | StockChase"
+  },
+  {
+    "url": "http://www.stockchase.com/",
+    "status": "200",
+    "title": "Blog | StockChase"
+  },
+  {
+    "url": "https://stocktwits.com/",
+    "status": "301",
+    "title": "StockTwits® - Share Ideas &amp; Learn from Passionate Investors &amp; Traders"
+  },
+  {
+    "url": "https://stocktwits.com/search?filter=tickers&q=test",
+    "status": "301",
+    "redirect": "https://stocktwits.com/search",
+    "title": "StockTwits® - Share Ideas &amp; Learn from Passionate Investors &amp; Traders"
+  },
+  {
     "url": "https://online.supportgroups.com/",
     "status": "301",
     "title": "Online Support Groups | Support Groups"
+  },
+  {
+    "url": "http://www.sustainability-reports.com/bedrijf/?_sf_s=test",
+    "status": "200",
+    "title": "Sustainability-Reports.com"
+  },
+  {
+    "url": "http://www.sustainability-reports.com/",
+    "status": "200",
+    "title": "Sustainability-Reports.com &#8211; The portal for Sustainability Reporting"
   },
   {
     "url": "http://swwitv.com/search.php?zoom_query=test",
@@ -1104,6 +1343,17 @@
     "url": "http://www.thejobcrowd.com/search/node/test/employers",
     "status": "200",
     "title": "Search | TheJobCrowd"
+  },
+  {
+    "url": "https://www.theofficialboard.com/company/search?q=test",
+    "status": "301",
+    "redirect": "https://www.theofficialboard.com/company/search",
+    "title": " Results of your search - The Official Board "
+  },
+  {
+    "url": "https://www.theofficialboard.com/",
+    "status": "301",
+    "title": "The organizational charts of the 50,000 largest corporations - The Official Board "
   },
   {
     "url": "https://thetvdb.com/",
@@ -1306,6 +1556,17 @@
     "status": "timeout"
   },
   {
+    "url": "https://finance.yahoo.com/",
+    "status": "301",
+    "title": "Yahoo Finance - Business Finance, Stock Market, Quotes, News"
+  },
+  {
+    "url": "https://finance.yahoo.com/lookup?s=test",
+    "status": "301",
+    "redirect": "https://finance.yahoo.com/lookup",
+    "title": "Symbol Lookup from Yahoo! Finance"
+  },
+  {
     "url": "https://groups.yahoo.com/",
     "status": "301",
     "title": "Yahoo - 302 Found"
@@ -1334,6 +1595,17 @@
     "url": "https://www.yandex.com/video/search?text=test",
     "status": "200",
     "title": "Yandex.Video"
+  },
+  {
+    "url": "https://www.yellowpages.com/",
+    "status": "301",
+    "title": "YP.com | The Real Yellow Pages"
+  },
+  {
+    "url": "https://www.yellowpages.com/search?search_terms=test",
+    "status": "301",
+    "redirect": "https://www.yellowpages.com/search",
+    "title": "Best 30 Test in Toronto, OH with Reviews - YP.com"
   },
   {
     "url": "http://www.youku.com/",
@@ -1395,6 +1667,17 @@
     "title": "YOVISTO :: SEARCH :: test"
   },
   {
+    "url": "https://www.zacks.com/",
+    "status": "301",
+    "title": "Zacks Investment Research: Stock Research, Analysis, & Recommendations"
+  },
+  {
+    "url": "https://www.zacks.com/search.php?q=test",
+    "status": "301",
+    "redirect": "https://www.zacks.com/search.php",
+    "title": "Zacks Search Results"
+  },
+  {
     "url": "https://www.zirra.com/",
     "status": "301"
   },
@@ -1444,6 +1727,10 @@
     "status": "302",
     "redirect": "http://www.europeana.eu/portal/en",
     "title": "Search Results - Europeana Collections"
+  },
+  {
+    "url": "https://portal.kyckr.eu/",
+    "status": "303"
   },
   {
     "url": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
@@ -1508,6 +1795,17 @@
     "title": "キーワードで動画検索 test - ニコニコ動画"
   },
   {
+    "url": "https://www.ebr.lv/en/advanced-search?AdvancedSearch%5Bname%5D=test",
+    "status": "301",
+    "redirect": "https://www.ebr.lv/en/advanced-search",
+    "title": "Advanced search"
+  },
+  {
+    "url": "https://www.ebr.lv/en",
+    "status": "301",
+    "title": "European Business register"
+  },
+  {
     "url": "https://www.squidtv.net/",
     "status": "301",
     "title": "Squid TV"
@@ -1550,6 +1848,17 @@
     "title": "TV NEWS : Search Captions. Borrow Broadcasts : TV Archive : Internet Archive"
   },
   {
+    "url": "https://www.canadahelps.org/en/explore/charities/?q=test",
+    "status": "301",
+    "redirect": "https://www.canadahelps.org/en//en/explore/charities/"
+  },
+  {
+    "url": "https://www.canadahelps.org/en/",
+    "status": "301",
+    "redirect": "https://www.canadahelps.org/en//en/",
+    "title": "CanadaHelps - Donate to any charity in Canada"
+  },
+  {
     "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",
     "status": "301",
     "redirect": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx"
@@ -1557,6 +1866,36 @@
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
     "status": "301"
+  },
+  {
+    "url": "http://www.charity-charities.org/google.htm?cx=partner-pub-0757242901800135%3A10a05svcoyz&cof=FORID%3A9&q=test",
+    "status": "200",
+    "title": "Search The Charity Vault."
+  },
+  {
+    "url": "http://www.charity-charities.org/",
+    "status": "200",
+    "title": "Charities guide and news find a charity to donate or volunteer for child elderly homeless organizations and more."
+  },
+  {
+    "url": "https://www.charitynavigator.org/?bay=search.results&keyword_list=test",
+    "status": "301",
+    "redirect": "https://www.charitynavigator.org/",
+    "title": "Charity Navigator - Your Search Results"
+  },
+  {
+    "url": "https://www.charitynavigator.org/",
+    "status": "301",
+    "title": "Charity Navigator - Your Guide To Intelligent Giving  | Home"
+  },
+  {
+    "url": "https://www.citizenaudit.org/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.citizenaudit.org/search?q=test",
+    "status": "301",
+    "redirect": "https://www.citizenaudit.org/search"
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -1623,6 +1962,21 @@
     "status": "timeout"
   },
   {
+    "url": "https://www.givewell.org/",
+    "status": "302",
+    "title": "GiveWell | Charity Reviews and Research"
+  },
+  {
+    "url": "http://www.give.org/",
+    "status": "200",
+    "title": "BBB Wise Giving Alliance - give.org"
+  },
+  {
+    "url": "http://www.give.org/search/?term=test",
+    "status": "200",
+    "title": "Search - give.org"
+  },
+  {
     "url": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company=test",
     "status": "200",
     "title": "Subsidy Tracker 3.0 Search Results | Good Jobs First"
@@ -1641,6 +1995,16 @@
     "url": "http://www.goodjobsfirst.org/violation-tracker",
     "status": "301",
     "redirect": "https://www.goodjobsfirst.org/violation-tracker"
+  },
+  {
+    "url": "https://www.guidestar.org/",
+    "status": "416",
+    "title": "Pardon Our Interruption"
+  },
+  {
+    "url": "https://www.guidestar.org/search?q=test",
+    "status": "416",
+    "title": "Pardon Our Interruption"
   },
   {
     "url": "http://homemovieregistry.org/",
@@ -1679,6 +2043,16 @@
     "title": "Khan Academy | Free Online Courses, Lessons &amp; Practice"
   },
   {
+    "url": "http://www.opensecrets.org/dark-money/explore-our-reports/",
+    "status": "200",
+    "title": "Nonprofit Data Search • OpenSecrets"
+  },
+  {
+    "url": "http://www.opensecrets.org/dark-money/explore-our-reports/results?org_query=test",
+    "status": "200",
+    "title": "Explore the Reports • OpenSecrets"
+  },
+  {
     "url": "http://www.pbs.org/search/?q=test",
     "status": "200",
     "title": "PBS: Public Broadcasting System | 500"
@@ -1698,6 +2072,27 @@
     "status": "302",
     "redirect": "/cruelty-free-company-search/index.aspx",
     "title": "Object moved"
+  },
+  {
+    "url": "https://projects.propublica.org/nonprofits/",
+    "status": "301",
+    "title": "Nonprofit Explorer - ProPublica"
+  },
+  {
+    "url": "https://projects.propublica.org/nonprofits/search?q=test",
+    "status": "301",
+    "redirect": "https://projects.propublica.org/nonprofits/search",
+    "title": "Nonprofit Explorer: Organization Search - ProPublica"
+  },
+  {
+    "url": "http://proxydemocracy.org/data/companies/search?query=test",
+    "status": "500",
+    "title": "ProxyDemocracy | Companies matching \"test\""
+  },
+  {
+    "url": "http://proxydemocracy.org/",
+    "status": "200",
+    "title": "ProxyDemocracy"
   },
   {
     "url": "http://www.taforum.org/Members/search/test",
@@ -1739,6 +2134,11 @@
     "url": "https://www.uia.org/ybio?name=test",
     "status": "200",
     "title": "International Organizations Search | Union of International Associations"
+  },
+  {
+    "url": "https://www.unglobalcompact.org/participation/report",
+    "status": "302",
+    "title": "Reporting | UN Global Compact"
   },
   {
     "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
@@ -1825,5 +2225,41 @@
     "url": "https://www.bbc.co.uk/iplayer",
     "status": "301",
     "title": "BBC iPlayer"
+  },
+  {
+    "url": "https://companycheck.co.uk/",
+    "status": "301",
+    "title": "Company Check | Free Company &amp; Director Information &amp; Reports"
+  },
+  {
+    "url": "https://companycheck.co.uk/search?term=test",
+    "status": "301",
+    "redirect": "https://companycheck.co.uk/search",
+    "title": "Test, Company and Director Search."
+  },
+  {
+    "url": "http://www.europages.co.uk/companies/test.html",
+    "status": "200"
+  },
+  {
+    "url": "http://www.europages.co.uk/",
+    "status": "200",
+    "title": "Search for international B2B companies, products and services - EUROPAGES"
+  },
+  {
+    "url": "https://beta.companieshouse.gov.uk/",
+    "status": "302",
+    "title": "Companies House service"
+  },
+  {
+    "url": "https://beta.companieshouse.gov.uk/search?q=test",
+    "status": "302",
+    "redirect": "https://beta.companieshouse.gov.uk/search",
+    "title": "Companies House"
+  },
+  {
+    "url": "https://www.gov.uk/get-information-about-a-company",
+    "status": "301",
+    "title": "Get information about a company - GOV.UK"
   }
 ]

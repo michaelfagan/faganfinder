@@ -21,6 +21,10 @@
           "searchUrl": "http://www.hoovers.com/company-information/company-search.html?term={q}"
         },
         {
+          "name": "Bloomberg",
+          "searchUrl": "https://www.google.com/search?q={q}+site%3Abloomberg.com%2Fresearch%2Fstocks"
+        },
+        {
           "name": "Zirra",
           "searchUrl": "https://www.zirra.com/search?q={q}"
         },
@@ -51,6 +55,101 @@
         {
           "name": "ThomasNet",
           "searchUrl": "https://www.thomasnet.com/search.html?which=comp&what={q}"
+        },
+        {
+          "name": "IndustryNet",
+          "searchUrl": "https://www.industrynet.com/suppliers/?company={q}"
+        },
+        {
+          "name": "Europages",
+          "searchUrl": "http://www.europages.co.uk/companies/{q}.html"  
+        },
+        {
+          "name": "Company Check",
+          "searchUrl": "https://companycheck.co.uk/search?term={q}"
+        },
+        {
+          "name": "European Business Register",
+          "searchUrl": "https://www.ebr.lv/en/advanced-search?AdvancedSearch%5Bname%5D={q}"
+        },
+        {
+          "name": "Yellow Pages",
+          "searchUrl": "https://www.yellowpages.com/search?search_terms={q}"
+        },
+        {
+          "name": "Companies House (<abbr title=\"United Kingdom\">UK</abbr>)",
+          "searchUrl": "https://beta.companieshouse.gov.uk/search?q={q}"          
+        },
+        {
+          "name": "Canadian companies",
+          "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?lang=eng&prtl=1&searchCriteriaBean.portal=1&V_SEARCH.documentJSP=%2FretrieveEstablishmentIdFromVerity.do&searchPage=%252Fapp%252Fccc%252Fsrch%252FcccBscSrch.do%253Flang%253Deng%2526amp%253Bprtl%253D1%2526amp%253Btagid%253D&searchCriteriaBean.resultJsp=%2Fresults.do&V_SEARCH.scopeCategory=CCC.Root&V_SEARCH.depth=1&V_SEARCH.showStricts=false&searchCriteriaBean.conceptOperator=and&searchCriteriaBean.isExportingOrInterested=exportingActively&searchCriteriaBean.hitsPerPage=10&searchCriteriaBean.sortSpec=title+asc&searchCriteriaBean.isSummaryOn=Y&searchCriteriaBean.textField={q}"
+        },
+        {
+          "name": "Federal corporations (Canada)",
+          "searchUrl": "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html",
+          "post": "corpName"
+        },
+        {
+          "name": "Yellow Pages",
+          "searchUrl": "https://www.yellowpages.ca/search/si/1/{q}"
+        }
+      ]
+    },
+    {
+      "name": "Financials",
+      "tools": [
+        {
+          "name": "Google Finance",
+          "searchUrl": "https://finance.google.ca/finance?q={q}"
+        },
+        {
+          "name": "Yahoo! Finance",
+          "searchUrl": "https://finance.yahoo.com/lookup?s={q}"  
+        },
+        {
+          "name": "Morningstar",
+          "searchUrl": "http://beta.morningstar.com/search.html?q={q}"
+        },
+        {
+          "name": "StockChase",
+          "searchUrl": "http://www.stockchase.com/company/find?companysearch={q}"
+        },
+        {
+          "name": "Company Spotlight",
+          "searchUrl": "http://www.companyspotlight.com/library/companies/keyword/{q}"
+        },
+        {
+          "name": "AnnualReports.com",
+          "searchUrl": "http://www.annualreports.com/Companies?search={q}"
+        },
+        {
+          "name": "Calcbench",
+          "searchUrl": "https://www.calcbench.com/dashboard/{q}"
+        },
+        {
+          "name": "StockTwits",
+          "searchUrl": "https://stocktwits.com/search?filter=tickers&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Credit ratings",
+      "tools": [
+        {
+          "name": "Moody’s",
+          "searchUrl": "https://www.moodys.com/page/search.aspx?cy=global&spk=qs&tb=1&kw={q}"          
+        },
+        {
+          "name": "Standard & Poor’s",
+          "searchUrl": "http://www.standardandpoors.com/en_US/web/guest/ratings/search/-/search/searchType/E/searchTerm/{q}"
+        },
+        {
+          "name": "Fitch Ratings",
+          "searchUrl": "https://www.fitchratings.com/site/search?content=entity&request={q}"
+        },
+        {
+          "name": "Zacks",
+          "searchUrl": "https://www.zacks.com/search.php?q={q}"
         }
       ]
     },
@@ -133,6 +232,18 @@
           "searchUrl": "http://consumerwatch.com/?s={q}"
         },
         {
+          "name": "Corporate Register",
+          "searchUrl": "http://www.corporateregister.com/search/?s={q}"
+        },
+        {
+          "name": "Portal for Sustainability Reporting",
+          "searchUrl": "http://www.sustainability-reports.com/bedrijf/?_sf_s={q}"
+        },
+        {
+          "name": "<abbr title=\"United Nations\">UN</abbr> <abbr title=\"Global Compact Communication on Progress reports\">COPs</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Aunglobalcompact.org%2Fwhat-is-gc%2Fparticipants"
+        },
+        {
           "name": "Offshore Leaks Database",
           "searchUrl": "https://offshoreleaks.icij.org/search?q={q}"
         }
@@ -168,8 +279,70 @@
       "name": "Miscellaneous",
       "tools": [
         {
+          "name": "ProxyDemocracy",
+          "searchUrl": "http://proxydemocracy.org/data/companies/search?query={q}"
+        },
+        {
           "name": "Subsidy Tracker",
           "searchUrl": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
+        },
+        {
+          "name": "The Official Board",
+          "searchUrl": "https://www.theofficialboard.com/company/search?q={q}"
+        },
+        {
+          "name": "Google Patents",
+          "searchUrl": "https://patents.google.com/?assignee={q}"
+        },
+        {
+          "name": "<abbr title=\"North American Industry Classification System\">NAICS</abbr> codes",
+          "searchUrl": "https://www.naics.com/naics-search-results/",
+          "post": "words"
+        }
+      ]
+    },
+    {
+      "name": "Not-for-profits",
+      "tools": [
+        {
+          "name": "Charity Vault",
+          "searchUrl": "http://www.charity-charities.org/google.htm?cx=partner-pub-0757242901800135%3A10a05svcoyz&cof=FORID%3A9&q={q}"
+        },
+        {
+          "name": "Give.org",
+          "searchUrl": "http://www.give.org/search/?term={q}"
+        },
+        {
+          "name": "Charity Navigator",
+          "searchUrl": "https://www.charitynavigator.org/?bay=search.results&keyword_list={q}"
+        },
+        {
+          "name": "GuideStar",
+          "searchUrl": "https://www.guidestar.org/search?q={q}"
+        },
+        {
+          "name": "CitizenAudit",
+          "searchUrl": "https://www.citizenaudit.org/search?q={q}"
+        },
+        {
+          "name": "Nonprofit Explorer",
+          "searchUrl": "https://projects.propublica.org/nonprofits/search?q={q}"
+        },
+        {
+          "name": "OpenSecrets.org",
+          "searchUrl": "http://www.opensecrets.org/dark-money/explore-our-reports/results?org_query={q}"
+        },
+        {
+          "name": "Government of Canada",
+          "searchUrl": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k={q}"
+        },
+        {
+          "name": "CanadaHelps",
+          "searchUrl": "https://www.canadahelps.org/en/explore/charities/?q={q}"
+        },
+        {
+          "name": "Charity Intelligence Canada",
+          "searchUrl": "https://www.charityintelligence.ca/charity-search-results?k={q}"
         }
       ]
     }
