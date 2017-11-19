@@ -45,6 +45,11 @@
     "title": "Charity Intelligence Canada - Charity Intelligence Canada"
   },
   {
+    "url": "https://www.dnbexpress.ca/search_results.asp",
+    "status": "403",
+    "title": "Object moved"
+  },
+  {
     "url": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k=test",
     "status": "200",
     "title": "Charities Listings - Basic search results"
@@ -1742,6 +1747,17 @@
     "title": "Household Products Database - Health and Safety Information on Household Products"
   },
   {
+    "url": "https://www.osha.gov/pls/imis/establishment.html",
+    "status": "301",
+    "title": "Establishment Search Page | Occupational Safety and Health Administration"
+  },
+  {
+    "url": "https://www.osha.gov/pls/imis/establishment.search?establishment=test",
+    "status": "301",
+    "redirect": "https://www.osha.gov/pls/imis/establishment.search",
+    "title": "Establishment Search Results Page | Occupational Safety and Health Administration"
+  },
+  {
     "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=test",
     "status": "301",
     "redirect": "https://www.sec.gov/cgi-bin/browse-edgar",
@@ -1846,6 +1862,17 @@
     "status": "301",
     "redirect": "https://archive.org/details/tv",
     "title": "TV NEWS : Search Captions. Borrow Broadcasts : TV Archive : Internet Archive"
+  },
+  {
+    "url": "https://business-humanrights.org/en/find-companies",
+    "status": "301",
+    "title": "Find Companies | Business &amp; Human Rights Resource Centre"
+  },
+  {
+    "url": "https://business-humanrights.org/en/search-results?langcode=en&keywords=test",
+    "status": "301",
+    "redirect": "https://business-humanrights.org/en/search-results",
+    "title": "Search Results | Business &amp; Human Rights Resource Centre"
   },
   {
     "url": "https://www.canadahelps.org/en/explore/charities/?q=test",

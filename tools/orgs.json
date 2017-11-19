@@ -33,6 +33,10 @@
           "searchUrl": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22{q}%22%7D%5D"
         },
         {
+          "name": "Alacra",
+          "searchUrl": "http://www.alacrastore.com/cgi-bin/alacraswitchISAPI.dll?app=pubsite&msg=GetSearchOptions&topic=company&includesubs=Y&sk=guest&syntax=Boolean&companytype=all&sicnaics=SIC&primarysic=ON&stepForward.x=1&stepForward.x.x=0&stepForward.x.y=0&stepForward.x=Search&name={q}"
+        },
+        {
           "name": "Matchdeck",
           "searchUrl": "https://www.matchdeck.com/homepage-mk2/search?search_keywords={q}"
         },
@@ -150,6 +154,10 @@
         {
           "name": "Zacks",
           "searchUrl": "https://www.zacks.com/search.php?q={q}"
+        },
+        {
+          "name": "Dun & Bradstreet",
+          "searchUrl": "https://businesscredit.dnb.com/intl-search/?companyName={q}",
         }
       ]
     },
@@ -242,6 +250,14 @@
         {
           "name": "<abbr title=\"United Nations\">UN</abbr> <abbr title=\"Global Compact Communication on Progress reports\">COPs</abbr>",
           "searchUrl": "https://www.google.com/search?q={q}%20site%3Aunglobalcompact.org%2Fwhat-is-gc%2Fparticipants"
+        },
+        {
+          "name": "<abbr title=\"Business &amp; Human Rights Resource Centre\">Business &amp; Human Rights</abbr>",
+          "searchUrl": "https://business-humanrights.org/en/search-results?langcode=en&keywords={q}"
+        },
+        {
+          "name": "<abbr title=\"Occupational Safety and Health Administration\">OSHA</abbr> inspections",
+          "searchUrl": "https://www.osha.gov/pls/imis/establishment.search?establishment={q}"
         },
         {
           "name": "Offshore Leaks Database",
