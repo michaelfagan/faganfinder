@@ -45,11 +45,6 @@
     "title": "Charity Intelligence Canada - Charity Intelligence Canada"
   },
   {
-    "url": "https://www.dnbexpress.ca/search_results.asp",
-    "status": "403",
-    "title": "Object moved"
-  },
-  {
     "url": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k=test",
     "status": "200",
     "title": "Charities Listings - Basic search results"
@@ -120,6 +115,21 @@
     "url": "https://angel.co/search?type=companies&q=test",
     "status": "301",
     "redirect": "https://angel.co/search"
+  },
+  {
+    "url": "http://www.alacrastore.com/cgi-bin/alacraswitchISAPI.dll?app=pubsite&msg=GetSearchOptions&topic=company&includesubs=Y&sk=guest&syntax=Boolean&companytype=all&sicnaics=SIC&primarysic=ON&stepForward.x=1&stepForward.x.x=0&stepForward.x.y=0&stepForward.x=Search&name=test",
+    "status": "400",
+    "title": "Company Search Results: test "
+  },
+  {
+    "url": "http://www.alacrastore.com/search-by/company",
+    "status": "400",
+    "title": "AlacraStore.com - Company Search"
+  },
+  {
+    "url": "https://www.alacra.com/reference-data-solutions/",
+    "status": "200",
+    "title": "Reference Data Solutions -"
   },
   {
     "url": "https://search.alexanderstreet.com/",
@@ -411,6 +421,17 @@
   {
     "url": "http://groups.deviantart.com/?q=test",
     "status": "200"
+  },
+  {
+    "url": "https://businesscredit.dnb.com/",
+    "status": "302",
+    "title": " Business Credit Checks and Reports | D&amp;B "
+  },
+  {
+    "url": "https://businesscredit.dnb.com/intl-search/?companyName=test",
+    "status": "302",
+    "redirect": "https://businesscredit.dnb.com/intl-search/",
+    "title": " International Business Report | Check Business Credit Scores &amp; Ratings | Dun &amp; Bradstreet "
   },
   {
     "url": "http://documentaryheaven.com/find/?q=test",

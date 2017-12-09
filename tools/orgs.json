@@ -157,7 +157,7 @@
         },
         {
           "name": "Dun & Bradstreet",
-          "searchUrl": "https://businesscredit.dnb.com/intl-search/?companyName={q}",
+          "searchUrl": "https://businesscredit.dnb.com/intl-search/?companyName={q}"
         }
       ]
     },
