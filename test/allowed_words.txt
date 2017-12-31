@@ -21,6 +21,7 @@ COPs
 CosmoLearning
 CraveTV
 Crunchbase
+CSRHub
 DailyMotion
 DailyStrength
 Dato
@@ -62,6 +63,7 @@ IMSDb
 IndieFlix
 IndiePix
 IndustryNet
+InvestEgate
 InvestorCalendar
 io
 iQIYI

@@ -384,6 +384,11 @@
     "title": "Pardon Our Interruption"
   },
   {
+    "url": "https://www.csrhub.com/",
+    "status": "301",
+    "title": "Corporate Social Responsibility and Sustainability Reports | CSR Ratings"
+  },
+  {
     "url": "http://www.dailymotion.com/",
     "status": "200",
     "title": "Videos that you actually want to watch - Dailymotion"
@@ -556,6 +561,11 @@
     "status": "302",
     "redirect": "https://findnaics.com",
     "title": "NAICs Company Search Tool"
+  },
+  {
+    "url": "http://executives.findthecompany.com/",
+    "status": "416",
+    "title": "Rate Limited"
   },
   {
     "url": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22test%22%7D%5D",
@@ -2143,6 +2153,16 @@
     "title": "ProxyDemocracy"
   },
   {
+    "url": "http://snaccooperative.org/?entity_type=corporateBody&command=search&term=test",
+    "status": "200",
+    "title": "Search - Social Networks and Archival Context"
+  },
+  {
+    "url": "http://snaccooperative.org/",
+    "status": "200",
+    "title": "Explore - Social Networks and Archival Context"
+  },
+  {
     "url": "http://www.taforum.org/Members/search/test",
     "status": "200",
     "title": "Trade Association Forum"
@@ -2293,6 +2313,17 @@
     "url": "http://www.europages.co.uk/",
     "status": "200",
     "title": "Search for international B2B companies, products and services - EUROPAGES"
+  },
+  {
+    "url": "https://www.investegate.co.uk/Index.aspx?searchtype=2&words=test",
+    "status": "301",
+    "redirect": "https://www.investegate.co.uk/Index.aspx",
+    "title": "InvestEgate | Company Announcements | XYZ Test Agency"
+  },
+  {
+    "url": "https://www.investegate.co.uk/",
+    "status": "301",
+    "title": "InvestEgate | Company Announcements | Home | FTSE 100, 250, AIM, techMARK "
   },
   {
     "url": "https://beta.companieshouse.gov.uk/",

@@ -82,7 +82,11 @@
         },
         {
           "name": "Companies House (<abbr title=\"United Kingdom\">UK</abbr>)",
-          "searchUrl": "https://beta.companieshouse.gov.uk/search?q={q}"          
+          "searchUrl": "https://beta.companieshouse.gov.uk/search?q={q}"
+        },
+        {
+          "name": "InvestEgate",
+          "searchUrl": "https://www.investegate.co.uk/Index.aspx?searchtype=2&words={q}"
         },
         {
           "name": "Canadian companies",
@@ -228,6 +232,10 @@
           "post": "queryx"
         },
         {
+          "name": "<abbr title=\"Occupational Safety and Health Administration\">OSHA</abbr> inspections",
+          "searchUrl": "https://www.osha.gov/pls/imis/establishment.search?establishment={q}"
+        },
+        {
           "name": "Violation Tracker",
           "searchUrl": "https://violationtracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
         },
@@ -244,7 +252,7 @@
           "searchUrl": "http://www.corporateregister.com/search/?s={q}"
         },
         {
-          "name": "Portal for Sustainability Reporting",
+          "name": "<abbr title=\"Portal for Sustainability Reporting\">Sustainability Reporting</abbr>",
           "searchUrl": "http://www.sustainability-reports.com/bedrijf/?_sf_s={q}"
         },
         {
@@ -309,6 +317,10 @@
         {
           "name": "Google Patents",
           "searchUrl": "https://patents.google.com/?assignee={q}"
+        },
+        {
+          "name": "<abbr title=\"Social Networks and Archival Context\">Networks and Archival Context</abbr>",
+          "searchUrl": "http://snaccooperative.org/?entity_type=corporateBody&command=search&term={q}"
         },
         {
           "name": "<abbr title=\"North American Industry Classification System\">NAICS</abbr> codes",
