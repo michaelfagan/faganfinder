@@ -73,7 +73,7 @@
           "searchUrl": "https://companycheck.co.uk/search?term={q}"
         },
         {
-          "name": "European Business Register",
+          "name": "European <abbr title=\"Business\">Bus.</abbr> Register",
           "searchUrl": "https://www.ebr.lv/en/advanced-search?AdvancedSearch%5Bname%5D={q}"
         },
         {
@@ -227,7 +227,7 @@
           "searchUrl": "http://www.ewg.org/skindeep/search.php?search_group=companies&query={q}"
         },
         {
-          "name": "Household Products Database",
+          "name": "Household Products <abbr title=\"Database\">DB</abbr>",
           "searchUrl": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
           "post": "queryx"
         },
@@ -300,6 +300,31 @@
       ]
     },
     {
+      "name": "Intellectual property",
+      "tools": [
+        {
+          "name": "Google Patents",
+          "searchUrl": "https://patents.google.com/?assignee={q}"
+        },
+        {
+          "name": "The Lens",
+          "searchUrl": "https://www.lens.org/lens/search?q=applicant%3A{q}"
+        },
+        {
+          "name": "Espacenet",
+          "searchUrl": "https://worldwide.espacenet.com/searchResults?PA={q}"
+        },
+        {
+          "name": "<abbr title=\"United States Patent and Trademark Office\">USPTO</abbr>",
+          "searchUrl": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=ASNM&d=PTXT&TERM1={q}"
+        },
+        {
+          "name": "<abbr title=\"United States Patent and Trademark Office\">USPTO</abbr> applications",
+          "searchUrl": "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=AS&d=PG01&TERM1={q}"
+        }
+      ]
+    },
+    {
       "name": "Miscellaneous",
       "tools": [
         {
@@ -313,10 +338,6 @@
         {
           "name": "The Official Board",
           "searchUrl": "https://www.theofficialboard.com/company/search?q={q}"
-        },
-        {
-          "name": "Google Patents",
-          "searchUrl": "https://patents.google.com/?assignee={q}"
         },
         {
           "name": "<abbr title=\"Social Networks and Archival Context\">Networks and Archival Context</abbr>",

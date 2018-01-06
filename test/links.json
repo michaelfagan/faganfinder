@@ -482,6 +482,15 @@
     "title": "Twitter List Search - Electoral"
   },
   {
+    "url": "https://worldwide.espacenet.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://worldwide.espacenet.com/searchResults?PA=test",
+    "status": "302",
+    "redirect": "https://worldwide.espacenet.com/searchResults"
+  },
+  {
     "url": "http://www.exalead.com/search/video/",
     "status": "200"
   },
@@ -1800,6 +1809,44 @@
     "title": "SEC.gov | Company Search Page"
   },
   {
+    "url": "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=AS&d=PG01&TERM1=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://appft.uspto.gov/netahtml/PTO/search-bool.html",
+    "status": "200",
+    "title": "US Published Application Full-Text Database Boolean Search"
+  },
+  {
+    "url": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=ASNM&d=PTXT&TERM1=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://patft.uspto.gov/netahtml/PTO/search-bool.html",
+    "status": "200"
+  },
+  {
+    "url": "http://tmsearch.uspto.gov/",
+    "status": "302",
+    "redirect": "http://tmsearch.uspto.gov/bin/gate.exe?f=login&p_lang=english&p_d=trmk",
+    "title": "302 Found"
+  },
+  {
+    "url": "https://patentscope.wipo.int/search/en/search.jsf",
+    "status": "301",
+    "title": "WIPO - Search International and National Patent Collections"
+  },
+  {
+    "url": "http://www.wipo.int/branddb/en/",
+    "status": "200",
+    "title": "WIPO&#xA0;Global Brand Database"
+  },
+  {
+    "url": "http://www.wipo.int/designdb/en/index.jsp",
+    "status": "200",
+    "title": "WIPO&#xA0;Global Design Database"
+  },
+  {
     "url": "https://gifme.io/",
     "status": "200",
     "title": "GifMe"
@@ -2101,6 +2148,15 @@
     "title": "Khan Academy | Free Online Courses, Lessons &amp; Practice"
   },
   {
+    "url": "https://www.lens.org/lens/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.lens.org/lens/search?q=applicant%3Atest",
+    "status": "301",
+    "redirect": "https://www.lens.org/lens/search"
+  },
+  {
     "url": "http://www.opensecrets.org/dark-money/explore-our-reports/",
     "status": "200",
     "title": "Nonprofit Data Search • OpenSecrets"
@@ -2182,6 +2238,18 @@
     "status": "301",
     "redirect": "https://www.themoviedb.org/search",
     "title": "test — The Movie Database (TMDb)"
+  },
+  {
+    "url": "https://www.tmdn.org/tmdsview-web/welcome",
+    "status": "302",
+    "redirect": "https://www.tmdn.org/network/",
+    "title": "Designview"
+  },
+  {
+    "url": "https://www.tmdn.org/tmview/welcome",
+    "status": "302",
+    "redirect": "https://www.tmdn.org/network/",
+    "title": "TMview"
   },
   {
     "url": "http://tvtropes.org/",

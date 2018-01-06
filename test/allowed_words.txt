@@ -27,10 +27,12 @@ DailyStrength
 Dato
 de
 Dendy
+DesignView
 DeviantArt
 DocumentaryHeaven
 DramaFever
 Epix
+Espacenet
 Europages
 Europeana
 EWG
@@ -96,6 +98,7 @@ OpenCorporates
 OpenEd
 OpenSecrets
 OverDrive
+PATENTSCOPE
 PDF
 PETA
 Pixabay
@@ -128,12 +131,14 @@ TEDx
 TheJobCrowd
 TheTVDB
 ThomasNet
+TMview
 Tubi
 TVmaze
 TVopedia
 UIA
 UOL
 URLinfo
+USPTO
 Ustream
 Veoh
 Vevo
@@ -145,6 +150,7 @@ Vudu
 WatchKnowLearn
 WeeklyScript
 Wikia
+WIPO
 Wuaki
 wwiTV
 XING
