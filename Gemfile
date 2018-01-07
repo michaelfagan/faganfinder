@@ -11,4 +11,5 @@ gem 'sass'
 
 gem 'uglifier' # javascript
 
+gem 'nokogiri'
 gem 'ffi-aspell' # spell check, requires aspell locally
