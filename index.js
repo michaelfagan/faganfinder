@@ -1,5 +1,44 @@
 "use strict";
 
+function setTool(button) {
+  var u = button.getAttribute('value');
+  var tmp = u.split('|x|');
+  form.setAttribute('data-post', tmp.length > 1);
+  if (tmp.length > 1) {
+    document.forms[1].setAttribute('action', tmp[1]);
+    document.forms[1].elements[0].setAttribute('name', tmp[0]);
+  }
+  else {
+    form.setAttribute('data-s', u);
+  }
+  form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
+  form.setAttribute('data-tool', button.textContent);
+  var active = form.getElementsByClassName('activeb');
+  if (active.length > 0) {
+    active[0].classList.remove('activeb');
+  }
+  button.classList.add('activeb');
+}
+
+function trackLink(link, section) {
+  link.addEventListener('click', function(e){
+    var l = e.target.textContent + '||' + e.target.getAttribute('href');
+    function go(){
+      location.href = e.target.getAttribute('href');
+    }
+    if (link.getAttribute('href')[0] === 'h') {
+      // delay visiting until logged, unless it is taking too long
+      e.preventDefault();
+      setTimeout(go, 1000);
+      ga('send', 'event', section, 'link', l, {hitCallback: go });
+    }
+    else {
+      ga('send', 'event', section, 'in-page link', l);
+    }
+  });
+}
+
+
 // if a browser supports classList, then it almost certainly supports all other methods used here
 // IE 9 does not support it
 // treat browsers which do not as if they don't have javascript at all
@@ -12,26 +51,6 @@ if (typeof document.body.classList === 'object') {
 
   // add the form needed for tools that use POST
   form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"><input type="hidden"></form>');
-
-  function setTool(button) {
-    var u = button.getAttribute('value');
-    var tmp = u.split('|x|');
-    form.setAttribute('data-post', tmp.length > 1);
-    if (tmp.length > 1) {
-      document.forms[1].setAttribute('action', tmp[1]);
-      document.forms[1].elements[0].setAttribute('name', tmp[0]);
-    }
-    else {
-      form.setAttribute('data-s', u);
-    }
-    form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
-    form.setAttribute('data-tool', button.textContent);
-    var active = form.getElementsByClassName('activeb');
-    if (active.length > 0) {
-      active[0].classList.remove('activeb');
-    }
-    button.classList.add('activeb');
-  }
 
   // initialize
   setTool(form.elements[2]);
@@ -115,24 +134,6 @@ if (typeof document.body.classList === 'object') {
 
 
   // analytics for external links, the mailto: link, and in-page links that aren't to search tool sections
-
-  function trackLink(link, section) {
-    link.addEventListener('click', function(e){
-      var l = e.target.textContent + '||' + e.target.getAttribute('href');
-      if (link.getAttribute('href')[0] === 'h') {
-        // delay visiting until logged, unless it is taking too long
-        e.preventDefault();
-        function go(){
-          location.href = e.target.getAttribute('href');
-        }
-        setTimeout(go, 1000);
-        ga('send', 'event', section, 'link', l, {hitCallback: go });
-      }
-      else {
-        ga('send', 'event', section, 'in-page link', l);
-      }
-    });
-  }
 
   var sections  = document.getElementById('details').getElementsByTagName('section');
   for (var i=0; i<sections.length; i++) {
