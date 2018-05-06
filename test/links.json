@@ -21,10 +21,6 @@
     "title": "CBC TV"
   },
   {
-    "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField=test",
-    "status": "200"
-  },
-  {
     "url": "https://www.nfb.ca/",
     "status": "301",
     "title": "National Film Board of Canada"
