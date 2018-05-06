@@ -21,14 +21,6 @@
           "searchUrl": "https://www.yandex.com/video/search?text={q}"
         },
         {
-          "name": "blinkx",
-          "searchUrl": "http://www.blinkx.com/search/{q}"
-        },
-        {
-          "name": "Exalead",
-          "searchUrl": "http://www.exalead.com/search/video/results/?q={q}"
-        },
-        {
           "name": "MeFeedia",
           "searchUrl": "http://www.mefeedia.com/search/{q}"
         }
@@ -60,7 +52,7 @@
         },
         {
           "name": "DailyMotion",
-          "searchUrl": "http://www.dailymotion.com/us/relevance/universal/search/{q}/1"
+          "searchUrl": "http://www.dailymotion.com/search/{q}"
         },
         {
           "name": "Vimeo",
@@ -102,7 +94,7 @@
       "tools": [
         {
           "name": "Tubi TV",
-          "searchUrl": "http://tubitv.com/search/{q}"
+          "searchUrl": "https://tubitv.com/search/{q}"
         },
         {
           "name": "Yahoo! View (Hulu)",
@@ -110,7 +102,7 @@
         },
         {
           "name": "Popcornflix",
-          "searchUrl": "http://www.popcornflix.com/search?query={q}"
+          "searchUrl": "https://www.popcornflix.com/search?query={q}"
         },
         {
           "name": "Viewster",
@@ -210,7 +202,7 @@
         },
         {
           "name": "Europeana",
-          "searchUrl": "http://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
+          "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
         }
       ]
     },
@@ -227,15 +219,11 @@
         },
         {
           "name": "Reuters",
-          "searchUrl": "http://www.reuters.com/search/video?blob={q}"
-        },
-        {
-          "name": "The New York Times",
-          "searchUrl": "https://query.nytimes.com/search/sitesearch/?vertical=video/#/{q}"
+          "searchUrl": "https://www.reuters.com/search/video?blob={q}"
         },
         {
           "name": "ABC News",
-          "searchUrl": "http://abcnews.go.com/search?r=video&searchtext={q}"
+          "searchUrl": "https://abcnews.go.com/search?r=video&searchtext={q}"
         }
       ]
     },
@@ -251,8 +239,8 @@
           "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={q}"
         },
         {
-          "name": "Ustream",
-          "searchUrl": "http://www.ustream.tv/search?q={q}"
+          "name": "Facebook",
+          "searchUrl": "https://www.facebook.com/search/videos/?filters_videos_source=%7B%22name%22%3A%22videos_live%22%2C%22args%22%3A%22%22%7D&q={q}"
         }
       ]
     },
@@ -274,7 +262,7 @@
       "tools": [
         {
           "name": "TeacherTube",
-          "searchUrl": "http://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
+          "searchUrl": "https://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
         },
         {
           "name": "OpenEd",
@@ -286,11 +274,11 @@
         },
         {
           "name": "SchoolTube",
-          "searchUrl": "http://www.schooltube.com/search/?term={q}"
+          "searchUrl": "https://www.schooltube.com/search/?term={q}"
         },
         {
           "name": "National Geographic",
-          "searchUrl": "http://video.nationalgeographic.com/search?q={q}"
+          "searchUrl": "https://video.nationalgeographic.com/search?q={q}"
         }
       ]
     },
@@ -323,10 +311,6 @@
       "name": "Lectures",
       "tools": [
         {
-          "name": "Yovisto",
-          "searchUrl": "http://vintage.yovisto.com/search.jsp?q={q}"
-        },
-        {
           "name": "VideoLectures.NET",
           "searchUrl": "http://videolectures.net/site/search/?q={q}"
         },
@@ -340,7 +324,7 @@
         },
         {
           "name": "Free Video Lectures",
-          "searchUrl": "http://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={q}"
+          "searchUrl": "https://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={q}"
         }
       ]
     },
@@ -366,7 +350,7 @@
       "tools": [
         {
           "name": "Howcast",
-          "searchUrl": "http://www.howcast.com/?s={q}"
+          "searchUrl": "https://www.howcast.com/?s={q}"
         },
         {
           "name": "Wonder How To",
@@ -418,7 +402,7 @@
         },
         {
           "name": "Home Movie Registry",
-          "searchUrl": "http://homemovieregistry.org/wp/search/#search/text={q}"
+          "searchUrl": "http://www.homemovieregistry.org/wp/?s={q}"
         },
         {
           "name": "YouTube channels",
@@ -436,7 +420,7 @@
       "tools": [
         {
           "name": "<abbr title=\"Internet Movie Database\">IMDb</abbr>",
-          "searchUrl": "http://www.imdb.com/find?q={q}"
+          "searchUrl": "https://www.imdb.com/find?q={q}"
         },
         {
           "name": "The Movie Database",
@@ -448,7 +432,7 @@
         },
         {
           "name": "AllMovie",
-          "searchUrl": "http://www.allmovie.com/search/all/{q}"
+          "searchUrl": "https://www.allmovie.com/search/all/{q}"
         },
         {
           "name": "Movies.com",
@@ -493,7 +477,7 @@
         },
         {
           "name": "Kids-in-Mind",
-          "searchUrl": "http://www.kids-in-mind.com/cgi-bin/search/search.pl?q={q}"
+          "searchUrl": "https://www.kids-in-mind.com/cgi-bin/search/search.pl?q={q}"
         },
         {
           "name": "Bechdel Test",
@@ -596,11 +580,11 @@
         },
         {
           "name": "FC2 (Japan)",
-          "searchUrl": "http://video.fc2.com/en/movie_search.php?keyword={q}"
+          "searchUrl": "http://video.fc2.com/search/video/?keyword={q}"
         },
         {
           "name": "Aparat (Iran)",
-          "searchUrl": "http://www.aparat.com/result/{q}"
+          "searchUrl": "https://www.aparat.com/result/{q}"
         },
         {
           "name": "Naver (Korea)",

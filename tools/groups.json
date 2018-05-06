@@ -82,10 +82,6 @@
         {
           "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum (<abbr title=\"United Kingdom\">UK</abbr>)",
           "searchUrl": "http://www.taforum.org/Members/search/{q}"
-        },
-        {
-          "name": "Government of Canada",
-          "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?prtl=1&searchCriteriaBean.specializedDirectory=221001&searchCriteriaBean.textField={q}"
         }
       ]
     },
@@ -137,7 +133,7 @@
       "tools": [
         {
           "name": "Twitter lists",
-          "searchUrl": "https://www.electoralhq.com/twitter-lists/search?q={q}"
+          "searchUrl": "https://www.scoutzen.com/twitter-lists/search?q={q}"
         },
         {
           "name": "Quora topics",
