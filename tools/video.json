@@ -491,7 +491,7 @@
       "tools": [
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
+          "searchUrl": "https://www.google.com/search?q={q}%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:scripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay"
         },
         {
           "name": "<abbr title=\"Internet Movie Script Database\">IMSDb</abbr>",
