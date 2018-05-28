@@ -9,12 +9,12 @@
       "name": "Search engines",
       "tools": [
         {
-          "name": "Google",
-          "searchUrl": "https://www.google.com/search?tbm=vid&q={q}"
-        },
-        {
           "name": "Bing",
           "searchUrl": "http://www.bing.com/videos/search?q={q}"
+        },
+        {
+          "name": "Google",
+          "searchUrl": "https://www.google.com/search?tbm=vid&q={q}"
         },
         {
           "name": "Yandex",

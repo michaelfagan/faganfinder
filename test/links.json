@@ -856,6 +856,11 @@
     "redirect": "https://www.ted.com/search"
   },
   {
+    "url": "https://www.tellmetv.com/",
+    "status": "301",
+    "title": "described video on-demand"
+  },
+  {
     "url": "https://tenor.com/",
     "status": "301"
   },
@@ -1171,6 +1176,11 @@
     "title": "GifMe"
   },
   {
+    "url": "http://youtube.github.io/geo-search-tool/search.html",
+    "status": "200",
+    "title": "Geo Search Tool"
+  },
+  {
     "url": "http://groups.io/",
     "status": "302",
     "redirect": "https://groups.io/",
@@ -1432,6 +1442,11 @@
   {
     "url": "https://www.periscope.tv/search?q=test",
     "status": "403"
+  },
+  {
+    "url": "https://www.twitch.tv/",
+    "status": "301",
+    "title": "Twitch"
   },
   {
     "url": "http://www.ustream.tv/explore/all",
