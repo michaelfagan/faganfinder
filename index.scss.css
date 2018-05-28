@@ -29,9 +29,6 @@ input, button {
 p, section li {
   font-family: Georgia, "Times New Roman", Serif;
   max-width: $readingwidth;
-  a {
-    white-space: nowrap;
-  }
 }
 p {
   margin: $p_space 0;
@@ -220,7 +217,7 @@ a[href^="h"] {
 }
 .has-js #adtwo {
   float: left;
-  margin-right: 1em;
+  margin: 0 1em 1em 0;
   > ins {
     width: 336px;
     height: 280px;
