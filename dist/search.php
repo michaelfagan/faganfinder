@@ -41,7 +41,8 @@
       $tmp = explode('|x|', $searchUrl);
       if (count($tmp) > 1 && strlen($tmp[0]) > 0) {
         $searchUrl = $tmp[1];
-        $post_var = $tmp[0];
+        $post_vars = explode('&', $tmp[0]);
+        $post_vars[0] = preg_replace('=', '=' . $q, $post_vars[0]);
         $dopost = true;
         trackEvent('valid', $searchUrl);
       }
@@ -68,7 +69,11 @@
     <?php if ($dopost) { ?>
  
     <form method="post" action="<?php echo $searchUrl ?>">
-      <input type="hidden" name="<?php echo $post_var ?>" value="<?php echo $q ?>">
+      <?php foreach($postvars as $postvar) {
+        $postvar = explode('=', $postvar);
+      ?>
+      <input type="hidden" name="<?php echo $post_var[0] ?>" value="<?php echo $post_var[1] ?>">
+      <?php } ?>
       <input type="submit" value="Click to continue" style="padding:1em;font-size:inherit">
     </form>
  

@@ -50,8 +50,14 @@
           </h3>
           <ul>
           <% group.tools.each do |tool| %>
-            <li>
-              <button name="u" value="<%= "#{tool.post}|x|" if tool.post %><%= tool.searchUrl.gsub('&', '&amp;') %>"><%= tool.name %></button>
+            <li><%
+              url = tool.searchUrl.gsub '&', '&amp;'
+              if tool.post
+                params = ({tool.post => ''}).merge(tool.postMore.to_h || {})
+                url.prepend params.map{|n,v| "#{n}=#{v}"}.join('&') + '|x|'
+              end
+              %>
+              <button name="u" value="<%= url %>"><%= tool.name %></button>
             </li>
           <% end %>
           </ul>

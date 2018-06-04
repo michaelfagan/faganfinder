@@ -6,7 +6,13 @@ function setTool(button) {
   form.setAttribute('data-post', tmp.length > 1);
   if (tmp.length > 1) {
     document.forms[1].setAttribute('action', tmp[1]);
-    document.forms[1].elements[0].setAttribute('name', tmp[0]);
+    var params = tmp[0].split('&');
+    var params_html = '';
+    params.forEach(function(p){
+      p = p.split('=');
+      params_html += '<input type="hidden" name="' + p[0] + '" value="' + p[1] + '">';
+    });
+    document.forms[1].innerHTML = params_html;
   }
   else {
     form.setAttribute('data-s', u);
@@ -50,7 +56,7 @@ if (typeof document.body.classList === 'object') {
   var form = document.forms[0];
 
   // add the form needed for tools that use POST
-  form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"><input type="hidden"></form>');
+  form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"></form>');
 
   // initialize
   setTool(form.elements[2]);

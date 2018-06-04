@@ -411,6 +411,14 @@
         {
           "name": "Google, with <abbr title=\"closed captions\">captions</abbr>",
           "searchUrl": "https://www.google.com/search?tbm=vid&tbs=cc:1&q={q}"
+        },
+        {
+          "name": "Unlisted Videos (YouTube)",
+          "searchUrl": "http://unlistedvideos.com/search.php",
+          "post": "searchterm",
+          "postMore": {
+            "general": "general"
+          }
         }
       ]
     },
