@@ -1175,6 +1175,14 @@
     "title": "Search Results - Europeana Collections"
   },
   {
+    "url": "http://www.filmarchives-online.eu/hitlist?Fulltext=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.filmarchives-online.eu/",
+    "status": "200"
+  },
+  {
     "url": "https://gifme.io/",
     "status": "200",
     "title": "GifMe"
@@ -1262,6 +1270,17 @@
     "status": "301",
     "redirect": "https://archive.org/details/tv",
     "title": "Internet Archive"
+  },
+  {
+    "url": "https://www.c-span.org/about/videoLibrary/",
+    "status": "301",
+    "title": "Video Library | C-SPAN.org"
+  },
+  {
+    "url": "https://www.c-span.org/search/?searchtype=All&query=test",
+    "status": "301",
+    "redirect": "https://www.c-span.org/search/",
+    "title": "test | Search | C-SPAN.org"
   },
   {
     "url": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword=test",

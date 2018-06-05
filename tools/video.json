@@ -172,6 +172,10 @@
           "searchUrl": "http://www.pbs.org/search/?q={q}"
         },
         {
+          "name": "C-SPAN (<abbr title=\"United States\">USA</abbr> government)",
+          "searchUrl": "https://www.c-span.org/search/?searchtype=All&query={q}"
+        },
+        {
           "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
           "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
         }
@@ -419,6 +423,10 @@
           "postMore": {
             "general": "general"
           }
+        },
+        {
+          "name": "filmarchives online (Europe)",
+          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
         }
       ]
     },
