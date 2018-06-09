@@ -1,5 +1,15 @@
 [
   {
+    "url": "https://search.nfsa.gov.au/search?client=nfsa_govcms&proxystylesheet=nfsa_govcms&site=default_collection&filter=0&getfields=*&q=test",
+    "status": "timeout",
+    "redirect": "https://search.nfsa.gov.au:443/"
+  },
+  {
+    "url": "https://www.nfsa.gov.au/",
+    "status": "301",
+    "title": "National Film & Sound Archive of Australia [Australia's Living Archive]"
+  },
+  {
     "url": "https://iview.abc.net.au/",
     "status": "301",
     "title": "ABC iview : ABC iview"
@@ -19,6 +29,14 @@
     "url": "https://watch.cbc.ca/",
     "status": "301",
     "title": "CBC TV"
+  },
+  {
+    "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/Pages/films-videos-sound-recordings.aspx",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k=test",
+    "status": "200"
   },
   {
     "url": "https://www.nfb.ca/",
@@ -1183,6 +1201,27 @@
     "status": "200"
   },
   {
+    "url": "https://catalog.archives.gov/search?f.materialsType=movingimages&q=test",
+    "status": "302",
+    "redirect": "https://catalog.archives.gov/search"
+  },
+  {
+    "url": "https://www.archives.gov/",
+    "status": "301",
+    "title": "National Archives |"
+  },
+  {
+    "url": "https://www.loc.gov/film-and-videos/",
+    "status": "301",
+    "title": "Film, Video | Library of Congress"
+  },
+  {
+    "url": "https://www.loc.gov/film-and-videos/?q=test",
+    "status": "301",
+    "redirect": "https://www.loc.gov/film-and-videos/",
+    "title": "Search results for  Film, Video, Test | Library of Congress"
+  },
+  {
     "url": "https://gifme.io/",
     "status": "200",
     "title": "GifMe"
@@ -1491,5 +1530,16 @@
     "url": "https://www.bbc.co.uk/iplayer",
     "status": "301",
     "title": "BBC iPlayer"
+  },
+  {
+    "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",
+    "status": "301",
+    "title": "Video | The National Archives"
+  },
+  {
+    "url": "https://media.nationalarchives.gov.uk/?s=test",
+    "status": "301",
+    "redirect": "https://media.nationalarchives.gov.uk/",
+    "title": "Search for &quot;test&quot; - Archives Media Player"
   }
 ]

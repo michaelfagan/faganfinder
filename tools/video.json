@@ -398,6 +398,35 @@
       ]
     },
     {
+      "name": "National archives",
+      "tools": [
+        {
+          "name": "filmarchives online (Europe)",
+          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United States\">United States</abbr>",
+          "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
+        },
+        {
+          "name": "Library of Congress (<abbr title=\"United States\">USA</abbr>)",
+          "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United Kingdom\">United Kingdom</abbr>",
+          "searchUrl": "https://media.nationalarchives.gov.uk/?s={q}"
+        },
+        {
+          "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
+          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
+        },
+        {
+          "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
+          "searchUrl": "https://search.nfsa.gov.au/search?client=nfsa_govcms&proxystylesheet=nfsa_govcms&site=default_collection&filter=0&getfields=*&q={q}"
+        }
+      ]
+    },
+    {
       "name": "Other video",
       "tools": [
         {
@@ -423,10 +452,6 @@
           "postMore": {
             "general": "general"
           }
-        },
-        {
-          "name": "filmarchives online (Europe)",
-          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
         }
       ]
     },
