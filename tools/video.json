@@ -198,7 +198,7 @@
         },
         {
           "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
-          "searchUrl": "http://www.pbs.org/search/?q={q}"
+          "searchUrl": "https://www.pbs.org/search/?q={q}"
         },
         {
           "name": "C-SPAN (<abbr title=\"United States\">USA</abbr> government)",
@@ -410,10 +410,6 @@
         {
           "name": "GifMe",
           "searchUrl": "https://gifme.io/search/q?query={q}"
-        },
-        {
-          "name": "PopKey",
-          "searchUrl": "http://popkey.co/search/{q}"
         }
       ]
     },
@@ -433,10 +429,6 @@
     {
       "name": "Other video",
       "tools": [
-        {
-          "name": "Vevo (music video)",
-          "searchUrl": "https://www.vevo.com/search?q={q}"
-        },
         {
           "name": "Home Movie Registry",
           "searchUrl": "http://www.homemovieregistry.org/wp/?s={q}"
@@ -522,7 +514,7 @@
         },
         {
           "name": "Kids-in-Mind",
-          "searchUrl": "https://www.kids-in-mind.com/cgi-bin/search/search.pl?q={q}"
+          "searchUrl": "https://kids-in-mind.com/?s={q}"
         },
         {
           "name": "Bechdel Test",
@@ -601,7 +593,7 @@
       "tools": [
         {
           "name": "Youku (China)",
-          "searchUrl": "http://www.soku.com/search_video/q_{q}"
+          "searchUrl": "http://so.youku.com/search_video/q_{q}"
         },
         {
           "name": "iQIYI (China)",
@@ -637,7 +629,7 @@
         },
         {
           "name": "Naver (Korea)",
-          "searchUrl": "http://tv.naver.com/search?query={q}"
+          "searchUrl": "https://tv.naver.com/search?query={q}"
         }
       ]
     }

@@ -65,7 +65,6 @@ Pexels
 Pixabay
 Playstation
 Popcornflix
-PopKey
 Prelinger
 ProBoards
 Quickflix
@@ -95,7 +94,6 @@ UOL
 URLinfo
 Ustream
 Veoh
-Vevo
 VideoLectures
 Viewster
 Viki
