@@ -550,7 +550,7 @@
       ]
     },
     {
-      "name": "Movie showtimes",
+      "name": "Showtimes <abbr title=\"and\">/</abbr> listings",
       "tools": [
         {
           "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
@@ -559,6 +559,10 @@
         {
           "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
           "searchUrl": "https://www.moviefone.com/search/{q}/"
+        },
+        {
+          "name": "TV Guide",
+          "searchUrl": "http://www.tvguide.com/search/listings/?keyword={q}"
         }
       ]
     },

@@ -926,6 +926,16 @@
     "status": "301"
   },
   {
+    "url": "http://www.tvguide.com/listings/",
+    "status": "200",
+    "title": "TV Listings - Find Local TV Shows and Movie Schedules - Listings Grid | TV Guide"
+  },
+  {
+    "url": "http://www.tvguide.com/search/listings/?keyword=test",
+    "status": "200",
+    "title": "Search results for test | TV Guide"
+  },
+  {
     "url": "http://www.tvmaze.com/",
     "status": "200",
     "title": "TVmaze.com - Your personal TV guide"
