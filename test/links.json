@@ -668,6 +668,16 @@
     "title": "330 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
+    "url": "https://videos.pexels.com/",
+    "status": "301",
+    "title": "Free stock videos – Pexels Videos"
+  },
+  {
+    "url": "https://videos.pexels.com/search/test",
+    "status": "301",
+    "title": "Free stock videos of test"
+  },
+  {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
     "status": "301",
     "redirect": "https://pixabay.com/en/videos/list/",

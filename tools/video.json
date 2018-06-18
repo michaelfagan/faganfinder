@@ -161,27 +161,6 @@
       ]
     },
     {
-      "name": "Public media",
-      "tools": [
-        {
-          "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
-          "searchUrl": "https://www.bbc.co.uk/iplayer/search?q={q}"
-        },
-        {
-          "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
-          "searchUrl": "http://www.pbs.org/search/?q={q}"
-        },
-        {
-          "name": "C-SPAN (<abbr title=\"United States\">USA</abbr> government)",
-          "searchUrl": "https://www.c-span.org/search/?searchtype=All&query={q}"
-        },
-        {
-          "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
-          "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
-        }
-      ]
-    },
-    {
       "name": "Open licences",
       "tools": [
         {
@@ -205,8 +184,62 @@
           "searchUrl": "https://pixabay.com/en/videos/list/?image_type=video&q={q}"
         },
         {
+          "name": "Pexels",
+          "searchUrl": "https://videos.pexels.com/search/{q}"
+        }
+      ]
+    },
+    {
+      "name": "Public media",
+      "tools": [
+        {
+          "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
+          "searchUrl": "https://www.bbc.co.uk/iplayer/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
+          "searchUrl": "http://www.pbs.org/search/?q={q}"
+        },
+        {
+          "name": "C-SPAN (<abbr title=\"United States\">USA</abbr> government)",
+          "searchUrl": "https://www.c-span.org/search/?searchtype=All&query={q}"
+        },
+        {
+          "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
+          "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
+        }
+      ]
+    },
+    {
+      "name": "National archives",
+      "tools": [
+        {
           "name": "Europeana",
           "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
+        },
+        {
+          "name": "filmarchives online (Europe)",
+          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United States\">United States</abbr>",
+          "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
+        },
+        {
+          "name": "Library of Congress (<abbr title=\"United States\">USA</abbr>)",
+          "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United Kingdom\">United Kingdom</abbr>",
+          "searchUrl": "https://media.nationalarchives.gov.uk/?s={q}"
+        },
+        {
+          "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
+          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
+        },
+        {
+          "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
+          "searchUrl": "https://search.nfsa.gov.au/search?client=nfsa_govcms&proxystylesheet=nfsa_govcms&site=default_collection&filter=0&getfields=*&q={q}"
         }
       ]
     },
@@ -394,35 +427,6 @@
         {
           "name": "Adland",
           "searchUrl": "https://adland.tv/search/node/{q}"
-        }
-      ]
-    },
-    {
-      "name": "National archives",
-      "tools": [
-        {
-          "name": "filmarchives online (Europe)",
-          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
-        },
-        {
-          "name": "<abbr title=\"National Archives, United States\">United States</abbr>",
-          "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
-        },
-        {
-          "name": "Library of Congress (<abbr title=\"United States\">USA</abbr>)",
-          "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
-        },
-        {
-          "name": "<abbr title=\"National Archives, United Kingdom\">United Kingdom</abbr>",
-          "searchUrl": "https://media.nationalarchives.gov.uk/?s={q}"
-        },
-        {
-          "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
-          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
-        },
-        {
-          "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
-          "searchUrl": "https://search.nfsa.gov.au/search?client=nfsa_govcms&proxystylesheet=nfsa_govcms&site=default_collection&filter=0&getfields=*&q={q}"
         }
       ]
     },
