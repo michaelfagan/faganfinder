@@ -10,12 +10,18 @@ RewriteEngine On
 RewriteBase /
 
 
+RewriteCond %{HTTPS} !=on
+RewriteRule video/$ https://www.faganfinder.com/video/ [R=301,L]
+RewriteRule group/$ https://www.faganfinder.com/group/ [R=301,L]
+
+
 # new pages
 RewriteRule video/$ video.html [L]
 RewriteRule group/$ groups.html [L]
 
 # new pages do not have changelogs
 RewriteRule (video|group)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
+
 
 
 # my personal blog no longer on faganfinder.com

@@ -85,6 +85,7 @@ var textbox = "false";
 		Most significant are the additions to the video search page, including
 		Twitch, a video service for the hearing-impaired, Geo Search Tool, another movie/television scripts site, another free stock video site, Unlisted Videos on YouTube, TV Guide listings, C-SPAN, and a whole section for national archives.
 	</p>
+	<p style="margin-top:0.5em">Also, the two above pages are now using HTTPS.</p>
 </div>
 <div class="change">
 	<h3>May 4, 2017</h3>
