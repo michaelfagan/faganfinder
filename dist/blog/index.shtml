@@ -74,6 +74,19 @@ var textbox = "false";
 
 <div id="changes">
 <div class="change">
+	<h3>June 21, 2018</h3>
+	<p>
+		I have updated the
+		<a href="http://www.faganfinder.com/video/">Video search</a>
+		and
+		<a href="http://www.faganfinder.com/group/">Goups search</a>
+		pages,
+		removing old sites, updating others, and adding new ones.
+		Most significant are the additions to the video search page, including
+		Twitch, a video service for the hearing-impaired, Geo Search Tool, another movie/television scripts site, another free stock video site, Unlisted Videos on YouTube, TV Guide listings, C-SPAN, and a whole section for national archives.
+	</p>
+</div>
+<div class="change">
 	<h3>May 4, 2017</h3>
 	<p>
 		Fixed a small bug on the new
