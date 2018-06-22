@@ -42,7 +42,7 @@
       if (count($tmp) > 1 && strlen($tmp[0]) > 0) {
         $searchUrl = $tmp[1];
         $post_vars = explode('&', $tmp[0]);
-        $post_vars[0] = preg_replace('=', '=' . $q, $post_vars[0]);
+        $post_vars[0] = preg_replace('/=/', '=' . $q, $post_vars[0]);
         $dopost = true;
         trackEvent('valid', $searchUrl);
       }
@@ -65,12 +65,13 @@
     <meta name="robots" content="noindex,nofollow,noarchive">
   </head>
   <body style="font-size:2em;padding:1em">
+
  
     <?php if ($dopost) { ?>
  
     <form method="post" action="<?php echo $searchUrl ?>">
-      <?php foreach($postvars as $postvar) {
-        $postvar = explode('=', $postvar);
+      <?php foreach($post_vars as $post_var) {
+        $post_var = explode('=', $post_var);
       ?>
       <input type="hidden" name="<?php echo $post_var[0] ?>" value="<?php echo $post_var[1] ?>">
       <?php } ?>
