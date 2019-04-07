@@ -43,8 +43,8 @@
 
       <h2 class="sr-only">Search tools</h2>
       <ul class="inner">
-      <% page.sections.each do |group| %>
-        <li><div>
+      <% page.sections.each_with_index do |group, i| %>
+        <li><div<%= i==0 ? ' class="active"' : '' %>>
           <h3>
             <a href="#<%= group.id %>"><%= group.shortName %></a>
           </h3>

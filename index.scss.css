@@ -27,8 +27,8 @@ input, button {
   font-size: inherit;
 }
 p, section li {
-  font-family: Georgia, "Times New Roman", Serif;
   max-width: $readingwidth;
+  line-height: 1.4;
 }
 p {
   margin: $p_space 0;
@@ -209,11 +209,6 @@ section + section {
   a {
     font-size: 0.8em;
   }
-}
-a[href^="h"] {
-  /* external links */
-  font-weight: bold;
-  font-size: 0.9em;
 }
 .has-js #adtwo {
   float: left;
