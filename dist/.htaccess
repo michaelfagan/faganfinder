@@ -12,6 +12,8 @@ RewriteBase /
 
 RewriteCond %{HTTPS} !=on
 RewriteRule video/$ https://www.faganfinder.com/video/ [R=301,L]
+
+RewriteCond %{HTTPS} !=on
 RewriteRule group/$ https://www.faganfinder.com/group/ [R=301,L]
 
 
@@ -46,7 +48,7 @@ RewriteRule news/(google|weather|moreover|read|weather|daypop)\.shtml http://www
 Redirect 301 /img/google.shtml http://www.faganfinder.com/img/
 Redirect 301 /misc/popular.shtml http://www.faganfinder.com/engines/
 Redirect 301 /site/target.shtml http://www.faganfinder.com/
-Redirect 301 /group/google.shtml http://www.faganfinder.com/group/
+Redirect 301 /group/google.shtml https://www.faganfinder.com/group/
 Redirect 301 /misc/login.shtml http://www.faganfinder.com/
 Redirect 301 /misc/index.shtml http://www.faganfinder.com/
 Redirect 301 /misc/this_page.php http://www.faganfinder.com/urlinfo/
