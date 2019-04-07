@@ -29,27 +29,33 @@ See http://www.faganfinder.com/
 
 
 ## Understanding Google Analytics events
-* Category: section name or 'overview', 'header', or 'footer'
+* Category: section name or `overview`, `header`, or `footer`
     * overview is for the first (untitled) details section
     * header and footer are for the 'About' link and the email link
 * Action and label
-    * 'search'/'noquery'-'button'/'enter'
+    * `search`/`noquery-button`/`enter`
         * tool name
-    * 'details'-'name'/'details'
+    * `detail-name`/`details`
        * i.e. clicking the section name (non-mobile) or 'Details' link (mobile)
-    * 'expand'/'collapse'
-    * 'link' or 'in-page link'
-        * link text, then link URL, separated by '||'
+    * `expand`/`collapse`
+    * `link` or `in-page link`
+        * link text, then link URL, separated by `||`
     * links to other pages on the site are not tracked via events
 * for users without JavaScript, the tracking is different:
-    * Category: 'No JavaScript'
-    * Action: 'valid'/'invalid'
+    * Category: `No JavaScript`
+    * Action: `valid`/`invalid`
     * Label: the search URL template (roughly)
 
-## Check links
+## Maintenance
+
+### Check links
 1. `irb`
 2. `require './test/links.rb'`
 3. `Link.check_all` (and wait...)
 4. `exit`
 5. `git diff test/links.json`
 6. manually test links which were determined to be broken on `test/bad_links.html`
+
+### Update dependencies
+1. `bundle outdated`
+2. `bundle update *gem*`

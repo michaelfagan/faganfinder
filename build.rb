@@ -1,7 +1,7 @@
 require 'erubis'
 require 'htmlcompressor'
 require 'html5_validator/validator'
-require 'sass'
+require 'sassc'
 require 'uglifier'
 require_relative 'page'
 require_relative 'test/links'
@@ -18,7 +18,7 @@ end
 
 # compile css
 begin
-  css = Sass::Engine.new(File.read('index.scss.css'), syntax: :scss, style: :compressed).render.strip
+  css = SassC::Engine.new(File.read('index.scss.css'), syntax: :scss, style: :compressed).render.strip
 rescue Exception => e
   has_error "SCSS error: #{e.message}"
 end
