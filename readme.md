@@ -58,4 +58,4 @@ See http://www.faganfinder.com/
 
 ### Update dependencies
 1. `bundle outdated`
-2. `bundle update *gem*`
+2. `bundle update <gem>`

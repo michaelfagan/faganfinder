@@ -137,8 +137,9 @@
     "redirect": "https://bigthink.com/search"
   },
   {
-    "url": "https://bigthink.com/videos",
-    "status": "301"
+    "url": "https://bigthink.com/videos/",
+    "status": "301",
+    "title": "Big Think - Videos"
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -204,16 +205,23 @@
     "title": "Watch Free Documentaries Online | Documentary Heaven"
   },
   {
-    "url": "https://documentarystorm.com/",
-    "status": "301"
-  },
-  {
-    "url": "https://documentarystorm.com/?s=test",
+    "url": "https://www.documentarystorm.com/",
     "status": "301",
-    "redirect": "https://documentarystorm.com/"
+    "title": "Documentary Storm - Watch Free Documentaries Online"
   },
   {
-    "url": "https://www.facebook.com/groups",
+    "url": "https://www.documentarystorm.com/?s=test",
+    "status": "301",
+    "redirect": "https://www.documentarystorm.com/",
+    "title": "Search for &quot;test&quot; - Documentary Storm - DocumentaryStorm.com"
+  },
+  {
+    "url": "https://www.doesthedogdie.com/",
+    "status": "301",
+    "title": "DoesTheDogDie.com"
+  },
+  {
+    "url": "https://www.facebook.com/groups/?category=discover",
     "status": "200"
   },
   {
@@ -265,6 +273,12 @@
     "url": "http://video.fc2.com/search/video/?keyword=test",
     "status": "200",
     "title": "test - FC2動画"
+  },
+  {
+    "url": "https://www.filmfestivaldatabase.com/",
+    "status": "302",
+    "redirect": "https://filmfestivaldatabase.com/",
+    "title": "Home Page - Film Festival Database"
   },
   {
     "url": "https://filmfreeway.com/festivals?q=test",
@@ -453,11 +467,6 @@
     "title": "IndieFlix - Movies for Independent Thinkers"
   },
   {
-    "url": "https://www.indieflix.com/search/test",
-    "status": "200",
-    "title": "IndieFlix - Movies for Independent Thinkers"
-  },
-  {
     "url": "http://www.indiepixfilms.com/",
     "status": "200",
     "title": "IndiePix Films | Independent Films"
@@ -507,14 +516,15 @@
     "title": "JustWatch"
   },
   {
+    "url": "https://kids-in-mind.com/",
+    "status": "301",
+    "title": "Kids-In-Mind.com | Parents&#039; Movie Guide, Ratings and Reviews"
+  },
+  {
     "url": "https://kids-in-mind.com/?s=test",
     "status": "301",
     "redirect": "https://kids-in-mind.com/",
     "title": "You searched for test | Kids-In-Mind.com"
-  },
-  {
-    "url": "https://www.kids-in-mind.com/",
-    "status": "301"
   },
   {
     "url": "https://kiwiirc.com/",
@@ -656,12 +666,14 @@
     "title": "349 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
-    "url": "https://videos.pexels.com/",
-    "status": "301"
+    "url": "https://www.pexels.com/search/videos/test/",
+    "status": "301",
+    "title": "Free Test Videos · Pexels"
   },
   {
-    "url": "https://videos.pexels.com/search/test",
-    "status": "301"
+    "url": "https://www.pexels.com/videos/",
+    "status": "301",
+    "title": "Free stock videos · Pexels Videos"
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
@@ -695,13 +707,14 @@
     "title": "ProBoards Forum Directory | ProBoards"
   },
   {
-    "url": "https://groups.psychologytoday.com/",
-    "status": "301"
-  },
-  {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
     "status": "301",
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
+  },
+  {
+    "url": "https://www.psychologytoday.com/us/groups",
+    "status": "301",
+    "title": "Find Group Therapy, Support Groups, Group Counseling - Psychology Today"
   },
   {
     "url": "https://www.quora.com/",
@@ -745,6 +758,15 @@
     "status": "301",
     "redirect": "https://www.reddit.com/subreddits/search",
     "title": "search results"
+  },
+  {
+    "url": "https://reelgood.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://reelgood.com/search?q=test",
+    "status": "301",
+    "redirect": "https://reelgood.com/search"
   },
   {
     "url": "https://www.reuters.com/search/video?blob=test",
@@ -854,14 +876,26 @@
     "title": "test - Search"
   },
   {
-    "url": "http://www.ted.com/",
+    "url": "https://www.ted.com/",
     "status": "301",
-    "redirect": "https://www.ted.com/"
+    "title": "TED: Ideas worth spreading"
   },
   {
-    "url": "http://www.ted.com/search?cat=talks&q=test",
+    "url": "https://www.ted.com/search?cat=talks&q=test",
     "status": "301",
-    "redirect": "https://www.ted.com/search"
+    "redirect": "https://www.ted.com/search",
+    "title": "test | Search Results | TED"
+  },
+  {
+    "url": "https://telescopefilm.com/",
+    "status": "302",
+    "title": "Telescope Film | Connecting American audiences with international movies"
+  },
+  {
+    "url": "https://telescopefilm.com/search.php?findfilm=test",
+    "status": "302",
+    "redirect": "https://telescopefilm.com/search.php",
+    "title": "Search Telescope for international films and series"
   },
   {
     "url": "https://www.tellmetv.com/",
@@ -877,14 +911,19 @@
     "status": "301"
   },
   {
-    "url": "https://thetvdb.com/",
+    "url": "https://www.thetvdb.com/",
     "status": "301",
-    "redirect": "https://www.thetvdb.com/"
+    "title": "Home :: TheTVDB"
   },
   {
-    "url": "https://thetvdb.com/?tab=listseries&function=Search&string=test",
+    "url": "https://www.thetvdb.com/search?l=en&q=test",
     "status": "301",
-    "redirect": "https://www.thetvdb.com/"
+    "redirect": "https://www.thetvdb.com/search",
+    "title": "Search :: TheTVDB"
+  },
+  {
+    "url": "https://www.tiktok.com/",
+    "status": "301"
   },
   {
     "url": "https://topdocumentaryfilms.com/",
@@ -1039,14 +1078,14 @@
     "title": "Watch live TV channels broadcasting on the Internet."
   },
   {
-    "url": "https://groups.yahoo.com/",
-    "status": "301",
-    "title": "Yahoo - 302 Found"
-  },
-  {
     "url": "https://groups.yahoo.com/neo/search?query=test",
     "status": "301",
     "redirect": "https://groups.yahoo.com/neo/search",
+    "title": "Yahoo! Groups"
+  },
+  {
+    "url": "https://groups.yahoo.com/neo",
+    "status": "301",
     "title": "Yahoo! Groups"
   },
   {
@@ -1165,6 +1204,17 @@
     "status": "200"
   },
   {
+    "url": "https://tiktokapi.ga/",
+    "status": "301",
+    "title": "TikTok Browser"
+  },
+  {
+    "url": "https://tiktokapi.ga/search/search_hashtag.php?q=test",
+    "status": "301",
+    "redirect": "https://tiktokapi.ga/search/search_hashtag.php",
+    "title": "TikTok Browser"
+  },
+  {
     "url": "https://catalog.archives.gov/search?f.materialsType=movingimages&q=test",
     "status": "302",
     "redirect": "https://catalog.archives.gov/search"
@@ -1186,15 +1236,25 @@
     "title": "Search results for  Film, Video, Test | Library of Congress"
   },
   {
+    "url": "https://anvaka.github.io/sayit/",
+    "status": "301",
+    "title": "Related subreddits based on your comments"
+  },
+  {
+    "url": "https://anvaka.github.io/sayit/?query=test",
+    "status": "301",
+    "redirect": "https://anvaka.github.io/sayit/",
+    "title": "Related subreddits based on your comments"
+  },
+  {
     "url": "http://youtube.github.io/geo-search-tool/search.html",
     "status": "200",
     "title": "Geo Search Tool"
   },
   {
-    "url": "http://groups.io/",
+    "url": "https://groups.io/",
     "status": "302",
-    "redirect": "https://groups.io/",
-    "title": "302 Found"
+    "title": "Welcome to Groups.io!"
   },
   {
     "url": "https://groups.io/search?q=test",
@@ -1319,18 +1379,18 @@
     "title": "Search Results for test | DailyStrength"
   },
   {
-    "url": "https://freedocumentaries.org/",
-    "status": "timeout"
+    "url": "http://freedocumentaries.org/",
+    "status": "200",
+    "title": "Watch Free Online Documentary Films and Free Documentaries | FreeDocumentaries.Org"
   },
   {
-    "url": "https://freedocumentaries.org/search?q=test",
-    "status": "timeout"
+    "url": "http://freedocumentaries.org/search?q=test",
+    "status": "200"
   },
   {
-    "url": "http://homemovieregistry.org/",
-    "status": "301",
-    "redirect": "http://homemovieregistry.org/wp",
-    "title": "301 Moved Permanently"
+    "url": "http://www.homemovieregistry.org/wp/",
+    "status": "200",
+    "title": "Home Movie Registry | A LISTING OF AMATEUR FILM HOLDINGS"
   },
   {
     "url": "http://www.homemovieregistry.org/wp/?s=test",

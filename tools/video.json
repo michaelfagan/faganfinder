@@ -38,6 +38,10 @@
           "searchUrl": "https://www.facebook.com/watch/?query={q}"
         },
         {
+          "name": "TikTok",
+          "searchUrl": "https://tiktokapi.ga/search/search_hashtag.php?q={q}"
+        },
+        {
           "name": "Vine",
           "searchUrl": "https://vine.co/search/{q}"
         }
@@ -114,24 +118,24 @@
       "name": "Movies, series (paid)",
       "tools": [
         {
-          "name": "JustWatch <abbr title=\"United States\">USA</abbr>",
+          "name": "JustWatch — <abbr title=\"United States\">USA</abbr>",
           "searchUrl": "https://www.justwatch.com/us/search?q={q}"
         },
         {
-          "name": "JustWatch <abbr title=\"United Kingdom\">UK</abbr>",
+          "name": "JustWatch — <abbr title=\"United Kingdom\">UK</abbr>",
           "searchUrl": "https://www.justwatch.com/uk/search?q={q}"
         },
         {
-          "name": "JustWatch Canada",
+          "name": "JustWatch — Canada",
           "searchUrl": "https://www.justwatch.com/ca/search?q={q}"
         },
         {
-          "name": "JustWatch Australia",
+          "name": "JustWatch — Australia",
           "searchUrl": "https://www.justwatch.com/au/search?q={q}"
         },
         {
-          "name": "IndieFlix",
-          "searchUrl": "https://www.indieflix.com/search/{q}"
+          "name": "Reelgood — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://reelgood.com/search?q={q}"
         },
         {
           "name": "IndiePix Films",
@@ -181,7 +185,7 @@
         },
         {
           "name": "Pexels",
-          "searchUrl": "https://videos.pexels.com/search/{q}"
+          "searchUrl": "https://www.pexels.com/search/videos/{q}/"
         }
       ]
     },
@@ -189,19 +193,19 @@
       "name": "Public media",
       "tools": [
         {
-          "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> (<abbr title=\"United Kingdom\">UK</abbr>)",
+          "name": "<abbr title=\"British Broadcasting Corporation\">BBC</abbr> — <abbr title=\"United Kingdom\">UK</abbr>",
           "searchUrl": "https://www.bbc.co.uk/iplayer/search?q={q}"
         },
         {
-          "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> (<abbr title=\"United States\">USA</abbr>)",
+          "name": "<abbr title=\"Public Broadcasting Service\">PBS</abbr> — <abbr title=\"United States\">USA</abbr>",
           "searchUrl": "https://www.pbs.org/search/?q={q}"
         },
         {
-          "name": "C-SPAN (<abbr title=\"United States\">USA</abbr> government)",
+          "name": "C-SPAN — <abbr title=\"United States\">USA</abbr> government",
           "searchUrl": "https://www.c-span.org/search/?searchtype=All&query={q}"
         },
         {
-          "name": "<abbr title=\"National Film Board\">NFB</abbr> (Canada)",
+          "name": "<abbr title=\"National Film Board\">NFB</abbr> — Canada",
           "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
         }
       ]
@@ -214,7 +218,7 @@
           "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
         },
         {
-          "name": "filmarchives online (Europe)",
+          "name": "filmarchives online — Europe",
           "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
         },
         {
@@ -222,7 +226,7 @@
           "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
         },
         {
-          "name": "Library of Congress (<abbr title=\"United States\">USA</abbr>)",
+          "name": "Library of Congress — <abbr title=\"United States\">USA</abbr>",
           "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
         },
         {
@@ -328,11 +332,11 @@
         },
         {
           "name": "FreeDocumentaries.org",
-          "searchUrl": "https://freedocumentaries.org/search?q={q}"
+          "searchUrl": "http://freedocumentaries.org/search?q={q}"
         },
         {
           "name": "Documentary Storm",
-          "searchUrl": "https://documentarystorm.com/?s={q}"
+          "searchUrl": "https://www.documentarystorm.com/?s={q}"
         }
       ]
     },
@@ -362,7 +366,7 @@
       "tools": [
         {
           "name": "TED",
-          "searchUrl": "http://www.ted.com/search?cat=talks&q={q}"
+          "searchUrl": "https://www.ted.com/search?cat=talks&q={q}"
         },
         {
           "name": "Ignite",
@@ -452,7 +456,7 @@
           "searchUrl": "https://www.themoviedb.org/search?query={q}"
         },
         {
-          "name": "Fandom (Wikia)",
+          "name": "Fandom",
           "searchUrl": "https://www.fandom.com/?s={q}"
         },
         {
@@ -473,7 +477,7 @@
         },
         {
           "name": "TheTVDB.com",
-          "searchUrl": "https://thetvdb.com/?tab=listseries&function=Search&string={q}"
+          "searchUrl": "https://www.thetvdb.com/search?l=en&q={q}"
         },
         {
           "name": "What is my movie?",
@@ -533,11 +537,11 @@
       "name": "Showtimes <abbr title=\"and\">/</abbr> listings",
       "tools": [
         {
-          "name": "Fandango (<abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>)",
+          "name": "Fandango — <abbr title=\"United States\">USA</abbr>, <abbr title=\"Canada\">CA</abbr>",
           "searchUrl": "https://www.fandango.com/search?q={q}"
         },
         {
-          "name": "Moviefone (<abbr title=\"United States\">USA</abbr>)",
+          "name": "Moviefone — <abbr title=\"United States\">USA</abbr>",
           "searchUrl": "https://www.moviefone.com/search/{q}/"
         },
         {
@@ -565,6 +569,10 @@
         {
           "name": "Asian Crush",
           "searchUrl": "https://www.asiancrush.com/?s={q}"
+        },
+        {
+          "name": "Telescope",
+          "searchUrl": "https://telescopefilm.com/search.php?findfilm={q}"
         }
       ]
     },
@@ -572,43 +580,43 @@
       "name": "Non-English",
       "tools": [
         {
-          "name": "Youku (China)",
+          "name": "Youku — China",
           "searchUrl": "https://so.youku.com/search_video/q_{q}"
         },
         {
-          "name": "iQIYI (China)",
+          "name": "iQIYI — China",
           "searchUrl": "https://so.iqiyi.com/so/q_{q}"
         },
         {
-          "name": "TV UOL (Brazil)",
+          "name": "TV UOL — Brazil",
           "searchUrl": "https://tvuol.uol.com.br/busca?q={q}"
         },
         {
-          "name": "Globo Play (Brazil)",
+          "name": "Globo Play — Brazil",
           "searchUrl": "https://globoplay.globo.com/busca/?q={q}"
         },
         {
-          "name": "Rutube (Russia)",
+          "name": "Rutube — Russia",
           "searchUrl": "https://rutube.ru/search/?query={q}"
         },
         {
-          "name": "Tune.pk (Pakistan)",
+          "name": "Tune.pk — Pakistan",
           "searchUrl": "https://tune.pk/search_result.php?query={q}"
         },
         {
-          "name": "Niconico (Japan)",
+          "name": "Niconico — Japan",
           "searchUrl": "http://www.nicovideo.jp/search/{q}"
         },
         {
-          "name": "FC2 (Japan)",
+          "name": "FC2 — Japan",
           "searchUrl": "http://video.fc2.com/search/video/?keyword={q}"
         },
         {
-          "name": "Aparat (Iran)",
+          "name": "Aparat — Iran",
           "searchUrl": "https://www.aparat.com/result/{q}"
         },
         {
-          "name": "Naver (Korea)",
+          "name": "Naver — Korea",
           "searchUrl": "https://tv.naver.com/search?query={q}"
         }
       ]

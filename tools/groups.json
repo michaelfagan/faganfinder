@@ -39,6 +39,10 @@
         {
           "name": "Delphi Forums",
           "searchUrl": "https://www.delphiforums.com/index.ptt?query={q}"
+        },
+        {
+          "name": "Related subreddits",
+          "searchUrl": "https://anvaka.github.io/sayit/?query={q}"
         }
       ]
     },
@@ -72,11 +76,11 @@
           "searchUrl": "https://www.uia.org/ybio?name={q}"
         },
         {
-          "name": "CareerOneStop (<abbr title=\"United States of America\">USA</abbr>)",
+          "name": "CareerOneStop — <abbr title=\"United States of America\">USA</abbr>",
           "searchUrl": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword={q}"
         },
         {
-          "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum (<abbr title=\"United Kingdom\">UK</abbr>)",
+          "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum — <abbr title=\"United Kingdom\">UK</abbr>",
           "searchUrl": "http://www.taforum.org/Members/search/{q}"
         }
       ]
@@ -85,7 +89,7 @@
       "name": "Wikis",
       "tools": [
         {
-          "name": "Fandom (Wikia)",
+          "name": "Fandom",
           "searchUrl": "https://community-search.fandom.com/wiki/Special:Search?search={q}"
         }
       ]
