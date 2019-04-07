@@ -33,16 +33,12 @@
           "searchUrl": "https://groups.io/search?q={q}"
         },
         {
-          "name": "<span title=\"Google+ Communities\">Google+</span>",
-          "searchUrl": "https://plus.google.com/s/{q}/communities"
-        },
-        {
           "name": "ProBoards",
           "searchUrl": "https://www.proboards.com/forum-directory/search/results/1?q={q}"
         },
         {
           "name": "Delphi Forums",
-          "searchUrl": "http://www.delphiforums.com/index.ptt?query={q}"
+          "searchUrl": "https://www.delphiforums.com/index.ptt?query={q}"
         }
       ]
     },
@@ -77,7 +73,7 @@
         },
         {
           "name": "CareerOneStop (<abbr title=\"United States of America\">USA</abbr>)",
-          "searchUrl": "https://www.careeronestop.org/businesscenter/professionalassociations/find-professional-associations.aspx?keyword={q}"
+          "searchUrl": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword={q}"
         },
         {
           "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum (<abbr title=\"United Kingdom\">UK</abbr>)",
@@ -90,7 +86,7 @@
       "tools": [
         {
           "name": "Fandom (Wikia)",
-          "searchUrl": "http://www.wikia.com/Special:Search?search={q}"
+          "searchUrl": "https://community-search.fandom.com/wiki/Special:Search?search={q}"
         }
       ]
     },

@@ -35,7 +35,7 @@
         },
         {
           "name": "Facebook",
-          "searchUrl": "https://www.facebook.com/search/videos/?q={q}"
+          "searchUrl": "https://www.facebook.com/watch/?query={q}"
         },
         {
           "name": "Vine",
@@ -52,7 +52,7 @@
         },
         {
           "name": "DailyMotion",
-          "searchUrl": "http://www.dailymotion.com/search/{q}"
+          "searchUrl": "https://www.dailymotion.com/search/{q}"
         },
         {
           "name": "Vimeo",
@@ -64,7 +64,7 @@
         },
         {
           "name": "Veoh",
-          "searchUrl": "http://www.veoh.com/find/?query={q}"
+          "searchUrl": "https://www.veoh.com/find/{q}"
         },
         {
           "name": "Metacafe",
@@ -103,10 +103,6 @@
         {
           "name": "Popcornflix",
           "searchUrl": "https://www.popcornflix.com/search?query={q}"
-        },
-        {
-          "name": "Viewster",
-          "searchUrl": "http://www.viewster.com/search/{q}/"
         },
         {
           "name": "AOL Video",
@@ -239,7 +235,7 @@
         },
         {
           "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
-          "searchUrl": "https://search.nfsa.gov.au/search?client=nfsa_govcms&proxystylesheet=nfsa_govcms&site=default_collection&filter=0&getfields=*&q={q}"
+          "searchUrl": "https://www.nfsa.gov.au/search?query={q}"
         }
       ]
     },
@@ -274,10 +270,6 @@
         {
           "name": "YouTube",
           "searchUrl": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q={q}"
-        },
-        {
-          "name": "Facebook",
-          "searchUrl": "https://www.facebook.com/search/videos/?filters_videos_source=%7B%22name%22%3A%22videos_live%22%2C%22args%22%3A%22%22%7D&q={q}"
         }
       ]
     },
@@ -286,7 +278,7 @@
       "tools": [
         {
           "name": "wwiTV",
-          "searchUrl": "http://swwitv.com/search.php?zoom_query={q}"
+          "searchUrl": "https://swwitv.com/search.php?zoom_query={q}"
         },
         {
           "name": "TVopedia",
@@ -302,7 +294,7 @@
           "searchUrl": "https://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
         },
         {
-          "name": "OpenEd",
+          "name": "ACT Academy",
           "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={q}"
         },
         {
@@ -311,7 +303,7 @@
         },
         {
           "name": "SchoolTube",
-          "searchUrl": "https://www.schooltube.com/search/?term={q}"
+          "searchUrl": "https://app.schooltube.com/search/{q}"
         },
         {
           "name": "National Geographic",
@@ -324,7 +316,7 @@
       "tools": [
         {
           "name": "DocumentaryHeaven",
-          "searchUrl": "http://documentaryheaven.com/find/?q={q}"
+          "searchUrl": "https://documentaryheaven.com/find/?q={q}"
         },
         {
           "name": "Top Documentary Films",
@@ -361,7 +353,7 @@
         },
         {
           "name": "Free Video Lectures",
-          "searchUrl": "https://freevideolectures.com/search?cx=partner-pub-4905108038008617%3Aorkq27-ucfp&cof=FORID%3A10&&q={q}"
+          "searchUrl": "https://freevideolectures.com/search/{q}/"
         }
       ]
     },
@@ -378,7 +370,7 @@
         },
         {
           "name": "Big Think",
-          "searchUrl": "http://bigthink.com/search?type=video_idea&q={q}"
+          "searchUrl": "https://bigthink.com/search?type=video_idea&q={q}"
         }
       ]
     },
@@ -387,7 +379,7 @@
       "tools": [
         {
           "name": "Howcast",
-          "searchUrl": "https://www.howcast.com/?s={q}"
+          "searchUrl": "https://www.howcast.com/search?query={q}"
         },
         {
           "name": "Wonder How To",
@@ -406,10 +398,6 @@
           "name": "Tenor",
           "searchUrl": "https://tenor.com/search/{q}-gifs",
           "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
-        },
-        {
-          "name": "GifMe",
-          "searchUrl": "https://gifme.io/search/q?query={q}"
         }
       ]
     },
@@ -418,7 +406,7 @@
       "tools": [
         {
           "name": "Creativity Online",
-          "searchUrl": "http://creativity-online.com/search.php?N=26+36+4294967275&search_phrase={q}"
+          "searchUrl": "https://adage.com/creativity/search?search_phrase={q}"
         },
         {
           "name": "Adland",
@@ -465,7 +453,7 @@
         },
         {
           "name": "Fandom (Wikia)",
-          "searchUrl": "http://www.wikia.com/Special:Search?search={q}"
+          "searchUrl": "https://www.fandom.com/?s={q}"
         },
         {
           "name": "AllMovie",
@@ -493,7 +481,7 @@
         },
         {
           "name": "TV Tropes",
-          "searchUrl": "http://tvtropes.org/pmwiki/search_result.php?q={q}"
+          "searchUrl": "https://tvtropes.org/pmwiki/search_result.php?q={q}"
         }
       ]
     },
@@ -506,7 +494,7 @@
         },
         {
           "name": "Metacritic",
-          "searchUrl": "http://www.metacritic.com/search/movie/{q}/results"
+          "searchUrl": "https://www.metacritic.com/search/movie/{q}/results"
         },
         {
           "name": "Common Sense Media",
@@ -532,12 +520,12 @@
         },
         {
           "name": "<abbr title=\"Internet Movie Script Database\">IMSDb</abbr>",
-          "searchUrl": "http://www.imsdb.com/search.php",
+          "searchUrl": "https://www.imsdb.com/search.php",
           "post": "search_query"
         },
         {
           "name": "SimplyScripts",
-          "searchUrl": "http://www.simplyscripts.com/cgi-bin/search.pl?search={q}"
+          "searchUrl": "https://www.simplyscripts.com/cgi-bin/search.pl?search={q}"
         }
       ]
     },
@@ -554,7 +542,7 @@
         },
         {
           "name": "TV Guide",
-          "searchUrl": "http://www.tvguide.com/search/listings/?keyword={q}"
+          "searchUrl": "https://www.tvguide.com/search/listings/?keyword={q}"
         }
       ]
     },
@@ -575,16 +563,8 @@
           "searchUrl": "https://www.viki.com/search?q={q}"
         },
         {
-          "name": "DramaFever",
-          "searchUrl": "https://www.dramafever.com/search/?search={q}"
-        },
-        {
           "name": "Asian Crush",
           "searchUrl": "https://www.asiancrush.com/?s={q}"
-        },
-        {
-          "name": "BoxTV (India)",
-          "searchUrl": "http://www.boxtv.com/search/{q}"
         }
       ]
     },
@@ -593,11 +573,11 @@
       "tools": [
         {
           "name": "Youku (China)",
-          "searchUrl": "http://so.youku.com/search_video/q_{q}"
+          "searchUrl": "https://so.youku.com/search_video/q_{q}"
         },
         {
           "name": "iQIYI (China)",
-          "searchUrl": "http://so.iqiyi.com/so/q_{q}"
+          "searchUrl": "https://so.iqiyi.com/so/q_{q}"
         },
         {
           "name": "TV UOL (Brazil)",
