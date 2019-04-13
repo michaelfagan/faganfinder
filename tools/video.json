@@ -40,10 +40,6 @@
         {
           "name": "TikTok",
           "searchUrl": "https://tiktokapi.ga/search/search_hashtag.php?q={q}"
-        },
-        {
-          "name": "Vine",
-          "searchUrl": "https://vine.co/search/{q}"
         }
       ]
     },

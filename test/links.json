@@ -1164,16 +1164,6 @@
     "title": "test - YouTube"
   },
   {
-    "url": "https://vine.co/",
-    "status": "301",
-    "title": "Vine"
-  },
-  {
-    "url": "https://vine.co/search/test",
-    "status": "301",
-    "title": "Vine"
-  },
-  {
     "url": "http://irc.netsplit.de/channels/?chat=test",
     "status": "200",
     "title": "test - Chat Rooms"
