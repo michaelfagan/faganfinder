@@ -32,10 +32,11 @@ end
 
 site = {
   name: 'Fagan Finder', # repeated in dist/search.php
-  root: 'http://www.faganfinder.com/',
+  root: 'https://www.faganfinder.com/',
   email: 'michael@faganfinder.com',
   ga: 'UA-13006445-2' # repeated in dist/search.php
 }
+site[:root_old] = site[:root].sub 'https', 'http'
 
 pages = Page.ids.map{|pid| Page.new pid }
 

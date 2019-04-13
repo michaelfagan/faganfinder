@@ -32,7 +32,7 @@ function trackLink(link, section) {
     function go(){
       location.href = e.target.getAttribute('href');
     }
-    if (link.getAttribute('href')[0] === 'h') {
+    if (link.getAttribute('href')[0] === 'h' && !e.metaKey) {
       // delay visiting until logged, unless it is taking too long
       e.preventDefault();
       setTimeout(go, 1000);
