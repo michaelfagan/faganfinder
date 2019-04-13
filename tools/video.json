@@ -396,7 +396,7 @@
       "tools": [
         {
           "name": "Giphy",
-          "searchUrl": "http://giphy.com/search/{q}"
+          "searchUrl": "https://giphy.com/search/{q}"
         },
         {
           "name": "Tenor",

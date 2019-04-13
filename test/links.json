@@ -327,9 +327,9 @@
     "title": "GIPHY | Search All the GIFs &amp; Make Your Own Animated GIF"
   },
   {
-    "url": "http://giphy.com/search/test",
-    "status": "301",
-    "redirect": "https://giphy.com/search/test"
+    "url": "https://giphy.com/search/test",
+    "status": "403",
+    "title": "Access to this page has been denied."
   },
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
