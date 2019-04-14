@@ -300,7 +300,7 @@
       ]
     },
     {
-      "name": "Intellectual property",
+      "name": "Patents",
       "tools": [
         {
           "name": "Google Patents",
@@ -313,6 +313,10 @@
         {
           "name": "Espacenet",
           "searchUrl": "https://worldwide.espacenet.com/searchResults?PA={q}"
+        },
+        {
+          "name": "FreePatentsOnline",
+          "searchUrl": "http://www.freepatentsonline.com/result.html?uspat=on&usapp=on&eupat=on&jp=on&pct=on&depat=on&date_range=all&stemming=on&sort=relevance&an={q}"
         },
         {
           "name": "<abbr title=\"United States Patent and Trademark Office\">USPTO</abbr>",

@@ -48,6 +48,7 @@ Financials
 FindTheCompany
 Flickr
 FreeDocumentaries
+FreePatentsOnline
 GifMe
 GIFs
 Giphy
