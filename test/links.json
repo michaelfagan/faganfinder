@@ -93,13 +93,11 @@
   },
   {
     "url": "https://www.aparat.com/",
-    "status": "301",
-    "title": "آپارات - سرویس اشتراک ویدیو"
+    "status": "301"
   },
   {
     "url": "https://www.aparat.com/result/test",
-    "status": "301",
-    "title": "آپارات - test"
+    "status": "301"
   },
   {
     "url": "http://www.aparchive.com/",
@@ -313,8 +311,8 @@
   },
   {
     "url": "https://giphy.com/",
-    "status": "301",
-    "title": "GIPHY | Search All the GIFs &amp; Make Your Own Animated GIF"
+    "status": "403",
+    "title": "Access to this page has been denied."
   },
   {
     "url": "https://giphy.com/search/test",
@@ -324,13 +322,11 @@
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
     "status": "301",
-    "redirect": "https://globoplay.globo.com/busca/",
-    "title": ""
+    "redirect": "https://globoplay.globo.com/busca/"
   },
   {
     "url": "https://globoplay.globo.com/",
-    "status": "301",
-    "title": ""
+    "status": "301"
   },
   {
     "url": "https://abcnews.go.com/Video",
@@ -653,7 +649,7 @@
     "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
     "status": "301",
     "redirect": "https://www.overdrive.com/search",
-    "title": "349 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
+    "title": "356 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
     "url": "https://www.pexels.com/search/videos/test/",
@@ -709,18 +705,18 @@
   },
   {
     "url": "https://www.quora.com/",
-    "status": "301",
+    "status": "308",
     "title": "Quora - A place to share knowledge and better understand the world"
   },
   {
     "url": "https://www.quora.com/search?type=topic&q=test",
-    "status": "301",
+    "status": "308",
     "redirect": "https://www.quora.com/search"
   },
   {
     "url": "https://www.reddit.com/",
     "status": "301",
-    "title": "Too Many Requests"
+    "title": "reddit: the front page of the internet"
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/",
@@ -731,7 +727,7 @@
     "url": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/Documentaries/search",
-    "title": "reddit: the front page of the internet"
+    "title": "Too Many Requests"
   },
   {
     "url": "https://www.reddit.com/r/lectures/",
@@ -748,7 +744,7 @@
     "url": "https://www.reddit.com/subreddits/search?q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/subreddits/search",
-    "title": "search results"
+    "title": "Too Many Requests"
   },
   {
     "url": "https://reelgood.com/",
@@ -783,13 +779,12 @@
   },
   {
     "url": "https://rumble.com/all/q/test/",
-    "status": "301",
-    "title": "Test"
+    "status": "301"
   },
   {
     "url": "https://rumble.com/",
     "status": "301",
-    "title": "Rumble | Manage your professional, social and viral videos"
+    "title": "Rumble"
   },
   {
     "url": "https://app.schooltube.com/search/test",
@@ -826,8 +821,7 @@
   },
   {
     "url": "https://slack.com/",
-    "status": "302",
-    "title": "Where work happens | Slack"
+    "status": "302"
   },
   {
     "url": "https://slofile.com/",
@@ -1091,13 +1085,13 @@
   {
     "url": "https://yandex.com/video/",
     "status": "302",
-    "redirect": "https://yandex.com/video/?redircnt=1554649760.1",
+    "redirect": "https://yandex.com/video/?redircnt=1556588699.1",
     "title": "Watch tv series, cartoons, clips, and movies online with Yandex"
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
     "status": "302",
-    "redirect": "https://www.yandex.com/video/search?redircnt=1554649762.1",
+    "redirect": "https://www.yandex.com/video/search?redircnt=1556588702.1",
     "title": "Yandex.Video"
   },
   {
@@ -1263,8 +1257,7 @@
   },
   {
     "url": "http://videolectures.net/site/search/?q=test",
-    "status": "200",
-    "title": "Search lectures test - VideoLectures.NET"
+    "status": "timeout"
   },
   {
     "url": "https://archive.org/details/movies?and[]=test",
@@ -1417,13 +1410,14 @@
     "title": "Search: test - TV Tropes"
   },
   {
-    "url": "https://www.uia.org/ybio/",
-    "status": "200",
+    "url": "https://uia.org/ybio/",
+    "status": "301",
     "title": "International Organizations Search | Union of International Associations"
   },
   {
-    "url": "https://www.uia.org/ybio?name=test",
-    "status": "200",
+    "url": "https://uia.org/ybio?name=test",
+    "status": "301",
+    "redirect": "https://uia.org/ybio",
     "title": "International Organizations Search | Union of International Associations"
   },
   {
