@@ -27,28 +27,15 @@
       ]
     },
     {
-      "name": "Social media",
-      "tools": [
-        {
-          "name": "Twitter",
-          "searchUrl": "https://twitter.com/search?f=videos&q={q}"
-        },
-        {
-          "name": "Facebook",
-          "searchUrl": "https://www.facebook.com/watch/?query={q}"
-        },
-        {
-          "name": "TikTok",
-          "searchUrl": "https://tiktokapi.ga/search/search_hashtag.php?q={q}"
-        }
-      ]
-    },
-    {
       "name": "Video hosts",
       "tools": [
         {
           "name": "YouTube",
           "searchUrl": "https://www.youtube.com/results?search_query={q}"
+        },
+        {
+          "name": "Rumble",
+          "searchUrl": "https://rumble.com/all/q/{q}/"
         },
         {
           "name": "DailyMotion",
@@ -57,10 +44,6 @@
         {
           "name": "Vimeo",
           "searchUrl": "https://vimeo.com/search?q={q}"
-        },
-        {
-          "name": "Rumble",
-          "searchUrl": "https://rumble.com/all/q/{q}/"
         },
         {
           "name": "Veoh",
@@ -97,16 +80,16 @@
           "searchUrl": "https://tubitv.com/search/{q}"
         },
         {
-          "name": "Yahoo! View (Hulu)",
-          "searchUrl": "https://view.yahoo.com/search?query={q}"
+          "name": "AOL Video",
+          "searchUrl": "https://www.aol.com/video/search/?q={q}"
         },
         {
           "name": "Popcornflix",
-          "searchUrl": "https://www.popcornflix.com/search?query={q}"
+          "searchUrl": "https://www.popcornflix.com/searchs?q={q}"
         },
         {
-          "name": "AOL Video",
-          "searchUrl": "https://www.aol.com/video/search/?q={q}"
+          "name": "Yahoo! View (Hulu)",
+          "searchUrl": "https://view.yahoo.com/search?query={q}"
         }
       ]
     },
@@ -140,19 +123,64 @@
       ]
     },
     {
-      "name": "Library services",
+      "name": "Social media",
       "tools": [
         {
-          "name": "hoopla",
-          "searchUrl": "https://www.hoopladigital.com/search/{q}?kind=MOVIE"
+          "name": "Twitter",
+          "searchUrl": "https://twitter.com/search?f=videos&q={q}"
         },
         {
-          "name": "OverDrive",
-          "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={q}"
+          "name": "Facebook",
+          "searchUrl": "https://www.facebook.com/watch/?query={q}"
         },
         {
-          "name": "Alexander Street",
-          "searchUrl": "https://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={q}"
+          "name": "TikTok",
+          "searchUrl": "https://tiktokapi.ga/search/search_hashtag.php?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Non-English",
+      "tools": [
+        {
+          "name": "Rutube — Russia",
+          "searchUrl": "https://rutube.ru/search/?query={q}"
+        },
+        {
+          "name": "Youku — China",
+          "searchUrl": "https://so.youku.com/search_video/q_{q}"
+        },
+        {
+          "name": "iQIYI — China",
+          "searchUrl": "https://so.iqiyi.com/so/q_{q}"
+        },
+        {
+          "name": "TV UOL — Brazil",
+          "searchUrl": "https://tvuol.uol.com.br/busca?q={q}"
+        },
+        {
+          "name": "Globo Play — Brazil",
+          "searchUrl": "https://globoplay.globo.com/busca/?q={q}"
+        },
+        {
+          "name": "Tune.pk — Pakistan",
+          "searchUrl": "https://tune.pk/search_result.php?query={q}"
+        },
+        {
+          "name": "Niconico — Japan",
+          "searchUrl": "http://www.nicovideo.jp/search/{q}"
+        },
+        {
+          "name": "FC2 — Japan",
+          "searchUrl": "http://video.fc2.com/search/video/?keyword={q}"
+        },
+        {
+          "name": "Aparat — Iran",
+          "searchUrl": "https://www.aparat.com/result/{q}"
+        },
+        {
+          "name": "Naver — Korea",
+          "searchUrl": "https://tv.naver.com/search?query={q}"
         }
       ]
     },
@@ -168,12 +196,8 @@
           "searchUrl": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q={q}"
         },
         {
-          "name": "Vimeo",
-          "searchUrl": "https://vimeo.com/search?license=by-nc-nd&q={q}"
-        },
-        {
           "name": "Flickr",
-          "searchUrl": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text={q}"
+          "searchUrl": "https://www.flickr.com/search/?media=videos&license=2%2C3%2C4%2C5%2C6%2C9&text={q}"
         },
         {
           "name": "Pixabay",
@@ -182,6 +206,24 @@
         {
           "name": "Pexels",
           "searchUrl": "https://www.pexels.com/search/videos/{q}/"
+        },
+        {
+          "name": "Vimeo",
+          "searchUrl": "https://vimeo.com/search?license=by-nc-nd&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Animated GIFs",
+      "tools": [
+        {
+          "name": "Giphy",
+          "searchUrl": "https://giphy.com/search/{q}"
+        },
+        {
+          "name": "Tenor",
+          "searchUrl": "https://tenor.com/search/{q}-gifs",
+          "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
         }
       ]
     },
@@ -197,66 +239,12 @@
           "searchUrl": "https://www.pbs.org/search/?q={q}"
         },
         {
-          "name": "C-SPAN — <abbr title=\"United States\">USA</abbr> government",
+          "name": "C-SPAN — <abbr title=\"United States government\">USA gov</abbr>",
           "searchUrl": "https://www.c-span.org/search/?searchtype=All&query={q}"
         },
         {
           "name": "<abbr title=\"National Film Board\">NFB</abbr> — Canada",
           "searchUrl": "https://www.nfb.ca/search/#?queryString={q}"
-        }
-      ]
-    },
-    {
-      "name": "National archives",
-      "tools": [
-        {
-          "name": "Europeana",
-          "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
-        },
-        {
-          "name": "filmarchives online — Europe",
-          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
-        },
-        {
-          "name": "<abbr title=\"National Archives, United States\">United States</abbr>",
-          "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
-        },
-        {
-          "name": "Library of Congress — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
-        },
-        {
-          "name": "<abbr title=\"National Archives, United Kingdom\">United Kingdom</abbr>",
-          "searchUrl": "https://media.nationalarchives.gov.uk/?s={q}"
-        },
-        {
-          "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
-          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
-        },
-        {
-          "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
-          "searchUrl": "https://www.nfsa.gov.au/search?query={q}"
-        }
-      ]
-    },
-    {
-      "name": "News",
-      "tools": [
-        {
-          "name": "Associated Press",
-          "searchUrl": "http://www.aparchive.com/search?query={q}"
-        },
-        {
-          "name": "TV News Archive",
-          "searchUrl": "https://archive.org/details/tv?q={q}"
-        },
-        {
-          "name": "Reuters",
-          "searchUrl": "https://www.reuters.com/search/video?blob={q}"
-        },
-        {
-          "name": "ABC News",
-          "searchUrl": "https://abcnews.go.com/search?r=video&searchtext={q}"
         }
       ]
     },
@@ -287,27 +275,69 @@
       ]
     },
     {
-      "name": "Educational",
+      "name": "Library services",
       "tools": [
         {
-          "name": "TeacherTube",
-          "searchUrl": "https://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
+          "name": "hoopla",
+          "searchUrl": "https://www.hoopladigital.com/search?facets=%7B&quot;kind&quot;%3A%5B&quot;MOVIE&quot;%2C&quot;TELEVISION&quot;%5D%7D&scope=everything&type=direct&q={q}"
         },
         {
-          "name": "ACT Academy",
-          "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={q}"
+          "name": "OverDrive",
+          "searchUrl": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q={q}"
         },
         {
-          "name": "WatchKnowLearn",
-          "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={q}"
+          "name": "Alexander Street",
+          "searchUrl": "https://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring={q}"
+        }
+      ]
+    },
+    {
+      "name": "International",
+      "tools": [
+        {
+          "name": "Viki",
+          "searchUrl": "https://www.viki.com/search?q={q}"
         },
         {
-          "name": "SchoolTube",
-          "searchUrl": "https://app.schooltube.com/search/{q}"
+          "name": "Asian Crush",
+          "searchUrl": "https://www.asiancrush.com/?s={q}"
         },
         {
-          "name": "National Geographic",
-          "searchUrl": "https://video.nationalgeographic.com/search?q={q}"
+          "name": "Telescope",
+          "searchUrl": "https://telescopefilm.com/search.php?findfilm={q}"
+        }
+      ]
+    },
+    {
+      "name": "National archives",
+      "tools": [
+        {
+          "name": "Europeana",
+          "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
+        },
+        {
+          "name": "filmarchives — Europe",
+          "searchUrl": "http://www.filmarchives-online.eu/hitlist?Fulltext={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United States\">United States</abbr>",
+          "searchUrl": "https://catalog.archives.gov/search?f.materialsType=movingimages&q={q}"
+        },
+        {
+          "name": "Library of Congress — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://www.loc.gov/film-and-videos/?q={q}"
+        },
+        {
+          "name": "<abbr title=\"National Archives, United Kingdom\">United Kingdom</abbr>",
+          "searchUrl": "https://media.nationalarchives.gov.uk/?s={q}"
+        },
+        {
+          "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
+          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
+        },
+        {
+          "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
+          "searchUrl": "https://www.nfsa.gov.au/search?query={q}"
         }
       ]
     },
@@ -337,6 +367,31 @@
       ]
     },
     {
+      "name": "Educational",
+      "tools": [
+        {
+          "name": "TeacherTube",
+          "searchUrl": "https://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
+        },
+        {
+          "name": "ACT Academy",
+          "searchUrl": "https://www.opened.com/search?resource_type=video&descriptive={q}"
+        },
+        {
+          "name": "WatchKnowLearn",
+          "searchUrl": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText={q}"
+        },
+        {
+          "name": "SchoolTube",
+          "searchUrl": "https://app.schooltube.com/search/{q}"
+        },
+        {
+          "name": "National Geographic",
+          "searchUrl": "https://video.nationalgeographic.com/search?q={q}"
+        }
+      ]
+    },
+    {
       "name": "Lectures",
       "tools": [
         {
@@ -354,23 +409,10 @@
         {
           "name": "Free Video Lectures",
           "searchUrl": "https://freevideolectures.com/search/{q}/"
-        }
-      ]
-    },
-    {
-      "name": "Talks",
-      "tools": [
+        },
         {
-          "name": "TED",
+          "name": "TED Talks",
           "searchUrl": "https://www.ted.com/search?cat=talks&q={q}"
-        },
-        {
-          "name": "Ignite",
-          "searchUrl": "http://www.ignitetalks.io/videos?query={q}"
-        },
-        {
-          "name": "Big Think",
-          "searchUrl": "https://bigthink.com/search?type=video_idea&q={q}"
         }
       ]
     },
@@ -388,16 +430,23 @@
       ]
     },
     {
-      "name": "Animated GIFs",
+      "name": "News",
       "tools": [
         {
-          "name": "Giphy",
-          "searchUrl": "https://giphy.com/search/{q}"
+          "name": "Associated Press",
+          "searchUrl": "http://www.aparchive.com/search?query={q}"
         },
         {
-          "name": "Tenor",
-          "searchUrl": "https://tenor.com/search/{q}-gifs",
-          "notes": "needs to have spaces converted to hyphens, other nonalphanumeric removed"
+          "name": "TV News Archive",
+          "searchUrl": "https://archive.org/details/tv?q={q}"
+        },
+        {
+          "name": "Reuters",
+          "searchUrl": "https://www.reuters.com/search/video?blob={q}"
+        },
+        {
+          "name": "ABC News",
+          "searchUrl": "https://abcnews.go.com/search?r=video&searchtext={q}"
         }
       ]
     },
@@ -418,6 +467,14 @@
       "name": "Other video",
       "tools": [
         {
+          "name": "Unlisted Videos (YouTube)",
+          "searchUrl": "http://unlistedvideos.com/search.php",
+          "post": "searchterm",
+          "postMore": {
+            "general": "general"
+          }
+        },
+        {
           "name": "Home Movie Registry",
           "searchUrl": "http://www.homemovieregistry.org/wp/?s={q}"
         },
@@ -428,14 +485,6 @@
         {
           "name": "Google, with <abbr title=\"closed captions\">captions</abbr>",
           "searchUrl": "https://www.google.com/search?tbm=vid&tbs=cc:1&q={q}"
-        },
-        {
-          "name": "Unlisted Videos (YouTube)",
-          "searchUrl": "http://unlistedvideos.com/search.php",
-          "post": "searchterm",
-          "postMore": {
-            "general": "general"
-          }
         }
       ]
     },
@@ -552,68 +601,6 @@
         {
           "name": "FilmFreeway",
           "searchUrl": "https://filmfreeway.com/festivals?q={q}"
-        }
-      ]
-    },
-    {
-      "name": "International",
-      "tools": [
-        {
-          "name": "Viki",
-          "searchUrl": "https://www.viki.com/search?q={q}"
-        },
-        {
-          "name": "Asian Crush",
-          "searchUrl": "https://www.asiancrush.com/?s={q}"
-        },
-        {
-          "name": "Telescope",
-          "searchUrl": "https://telescopefilm.com/search.php?findfilm={q}"
-        }
-      ]
-    },
-    {
-      "name": "Non-English",
-      "tools": [
-        {
-          "name": "Youku — China",
-          "searchUrl": "https://so.youku.com/search_video/q_{q}"
-        },
-        {
-          "name": "iQIYI — China",
-          "searchUrl": "https://so.iqiyi.com/so/q_{q}"
-        },
-        {
-          "name": "TV UOL — Brazil",
-          "searchUrl": "https://tvuol.uol.com.br/busca?q={q}"
-        },
-        {
-          "name": "Globo Play — Brazil",
-          "searchUrl": "https://globoplay.globo.com/busca/?q={q}"
-        },
-        {
-          "name": "Rutube — Russia",
-          "searchUrl": "https://rutube.ru/search/?query={q}"
-        },
-        {
-          "name": "Tune.pk — Pakistan",
-          "searchUrl": "https://tune.pk/search_result.php?query={q}"
-        },
-        {
-          "name": "Niconico — Japan",
-          "searchUrl": "http://www.nicovideo.jp/search/{q}"
-        },
-        {
-          "name": "FC2 — Japan",
-          "searchUrl": "http://video.fc2.com/search/video/?keyword={q}"
-        },
-        {
-          "name": "Aparat — Iran",
-          "searchUrl": "https://www.aparat.com/result/{q}"
-        },
-        {
-          "name": "Naver — Korea",
-          "searchUrl": "https://tv.naver.com/search?query={q}"
         }
       ]
     }

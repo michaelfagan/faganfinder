@@ -132,16 +132,6 @@
     "title": "Search - Bechdel Test Movie List"
   },
   {
-    "url": "https://bigthink.com/search?type=video_idea&q=test",
-    "status": "301",
-    "redirect": "https://bigthink.com/search"
-  },
-  {
-    "url": "https://bigthink.com/videos/",
-    "status": "301",
-    "title": "Big Think - Videos"
-  },
-  {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
     "status": "302",
     "redirect": "/videos?FORM=HDRSC2",
@@ -297,12 +287,12 @@
     "title": "Groups | Flickr"
   },
   {
-    "url": "https://www.flickr.com/search/?advanced=1&media=videos&license=2%2C3%2C4%2C5%2C6%2C9text=test",
+    "url": "https://www.flickr.com/search/groups/?text=test",
     "status": "200",
-    "title": "Search | Flickr"
+    "title": "Search: test | Flickr"
   },
   {
-    "url": "https://www.flickr.com/search/groups/?text=test",
+    "url": "https://www.flickr.com/search/?media=videos&license=2%2C3%2C4%2C5%2C6%2C9&text=test",
     "status": "200",
     "title": "Search: test | Flickr"
   },
@@ -425,9 +415,9 @@
     "status": "301"
   },
   {
-    "url": "https://www.hoopladigital.com/search/test?kind=MOVIE",
+    "url": "https://www.hoopladigital.com/search?facets=%7B&quot;kind&quot;%3A%5B&quot;MOVIE&quot;%2C&quot;TELEVISION&quot;%5D%7D&scope=everything&type=direct&q=test",
     "status": "301",
-    "redirect": "https://www.hoopladigital.com/search/test"
+    "redirect": "https://www.hoopladigital.com/search"
   },
   {
     "url": "https://www.howcast.com/",
@@ -691,9 +681,10 @@
     "title": "Watch Free Movies &amp; TV Shows Online  | Popcornflix"
   },
   {
-    "url": "https://www.popcornflix.com/search?query=test",
+    "url": "https://www.popcornflix.com/searchs?q=test",
     "status": "301",
-    "redirect": "https://www.popcornflix.com/search"
+    "redirect": "https://www.popcornflix.com/searchs",
+    "title": "Watch Free Movies &amp; TV Shows Online  | Popcornflix"
   },
   {
     "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
@@ -740,7 +731,7 @@
     "url": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/Documentaries/search",
-    "title": "Too Many Requests"
+    "title": "reddit: the front page of the internet"
   },
   {
     "url": "https://www.reddit.com/r/lectures/",
@@ -1073,9 +1064,9 @@
     "title": "Test Search Results &#171; WonderHowTo"
   },
   {
-    "url": "https://wwitv.com/",
+    "url": "https://wwitv.com/portal.htm",
     "status": "301",
-    "title": "Watch live TV channels broadcasting on the Internet."
+    "title": "wwiTV - Watch live TV channels broadcasting on the Internet for free"
   },
   {
     "url": "https://groups.yahoo.com/neo/search?query=test",
@@ -1251,16 +1242,6 @@
     "status": "302",
     "redirect": "https://groups.io/search",
     "title": "Search"
-  },
-  {
-    "url": "http://www.ignitetalks.io/",
-    "status": "200",
-    "title": "Ignite. Enlighten us, but make it quick"
-  },
-  {
-    "url": "http://www.ignitetalks.io/videos?query=test",
-    "status": "200",
-    "title": "Ignite. Enlighten us, but make it quick"
   },
   {
     "url": "http://www.nicovideo.jp/",
