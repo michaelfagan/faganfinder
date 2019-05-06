@@ -21,6 +21,10 @@
           "searchUrl": "https://www.yandex.com/video/search?text={q}"
         },
         {
+          "name": "Petey Vid",
+          "searchUrl": "https://www.peteyvid.com/index.php?q={q}"
+        },
+        {
           "name": "MeFeedia",
           "searchUrl": "http://www.mefeedia.com/search/{q}"
         }
@@ -69,6 +73,10 @@
         {
           "name": "YouTube",
           "searchUrl": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q={q}"
+        },
+        {
+          "name": "Petey Vid",
+          "searchUrl": "https://www.peteyvid.com/index.php?dur=F&q={q}"
         }
       ]
     },

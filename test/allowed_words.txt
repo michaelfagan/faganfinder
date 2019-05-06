@@ -54,6 +54,7 @@ Niconico
 OpenEd
 OverDrive
 PDF
+Petey
 Pexels
 Pixabay
 Popcornflix
@@ -87,6 +88,7 @@ UOL
 URLinfo
 Ustream
 Veoh
+Vid
 VideoLectures
 Viki
 Vimeo

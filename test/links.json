@@ -652,6 +652,23 @@
     "title": "356 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
+    "url": "https://www.peteyvid.com/",
+    "status": "302",
+    "title": "PETEY VID - Video Search"
+  },
+  {
+    "url": "https://www.peteyvid.com/index.php?dur=F&q=test",
+    "status": "302",
+    "redirect": "https://www.peteyvid.com/index.php",
+    "title": "PETEY VID - Test"
+  },
+  {
+    "url": "https://www.peteyvid.com/index.php?q=test",
+    "status": "302",
+    "redirect": "https://www.peteyvid.com/index.php",
+    "title": "PETEY VID - Test"
+  },
+  {
     "url": "https://www.pexels.com/search/videos/test/",
     "status": "301",
     "title": "Free Test Videos · Pexels"
