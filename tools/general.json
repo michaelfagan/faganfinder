@@ -47,6 +47,10 @@
           "searchUrl": "https://duckduckgo.com/?q={q}"
         },
         {
+          "name": "Ecosia",
+          "searchUrl": "https://www.ecosia.org/search?q={q}"
+        },
+        {
           "name": "eTools.ch",
           "searchUrl": "https://www.etools.ch/searchSubmit.do?query={q}"
         },
