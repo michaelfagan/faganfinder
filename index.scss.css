@@ -89,6 +89,7 @@ body, .highlight {
 
 /* top ad */
 .has-js #adone {
+  height: 90px;
   margin-bottom: 0.5em;
 }
 
