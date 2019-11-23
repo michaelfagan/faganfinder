@@ -1228,6 +1228,17 @@
     "title": "Search results for  Film, Video, Test | Library of Congress"
   },
   {
+    "url": "https://getyarn.io/",
+    "status": "301",
+    "title": "Yarn | Find video clips by quote | GetYarn.io"
+  },
+  {
+    "url": "https://getyarn.io/yarn-find?text=test",
+    "status": "301",
+    "redirect": "https://getyarn.io/yarn-find",
+    "title": "Yarn | Find video clips by quote | GetYarn.io"
+  },
+  {
     "url": "https://anvaka.github.io/sayit/",
     "status": "301",
     "title": "Related subreddits based on your comments"

@@ -27,6 +27,10 @@
         {
           "name": "MeFeedia",
           "searchUrl": "http://www.mefeedia.com/search/{q}"
+        },
+        {
+          "name": "Yarn",
+          "searchUrl": "https://getyarn.io/yarn-find?text={q}"
         }
       ]
     },
