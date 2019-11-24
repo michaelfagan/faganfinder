@@ -2,50 +2,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://www.faganfinder.com/site/about.shtml">
 
-<!-- Metadata Metadata (crazy...) -->
-<link rel="schema.DC" href="http://purl.org/dc" />
 
 <!-- Content Metadata -->
 <title>Site &gt; Blog || Fagan Finder</title>
-<meta name="DC.Title" xml:lang="en" lang="en" content="Site &gt; Blog || Fagan Finder" />
-<meta name="description" content="A weblog describing the major updates and revisions to all of Fagan Finder." />
-<meta name="DC.Description" xml:lang="en" lang="en" content="A weblog describing the major updates and revisions to all of Fagan Finder." />
-<meta name="keywords" content="faganfinder, fagan finder, weblog, blog, log, history, revisions, updates, changes, journal, news" />
-<meta name="DC.Subject" xml:lang="en" lang="en" content="faganfinder, fagan finder, weblog, blog, log, history, revisions, updates, changes, journal, news" />
-<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline v2.0" l gen false for "http://www.faganfinder.com/blog/" r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen false for "http://www.faganfinder.com/blog/"  r (n 0 s 0 v 0 l 0))' />
-<meta name="DC.Date.Modified" content="2004-10-16" />
 
 <!-- Location/Language/Character Set Metadata -->
-<meta name="language" content="English" />
-<meta name="DC.Language" content="en-ca" />
 <meta http-equiv="Content-Language" content="en-ca" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="DC.Coverage" content="global" />
-
-<!-- Author Metadata -->
-<meta name="author" content="Michael Fagan" />
-<meta name="DC.Creator" content="Michael Fagan" />
-<meta name="DC.Creator" content="Fagan, Michael" />
-<link rel="contact" title="Help" href="http://www.faganfinder.com/site/contact.shtml" />
 
 <!-- Usage Metadata -->
 <meta name="robots" content="index,follow" />
-<meta name="DC.Rights" content="http://www.faganfinder.com/site/copyright.shtml" />
-<meta name="copyright" content="See http://www.faganfinder.com/site/copyright.shtml for copywrite information." />
-<link rel="copyright" title="Copyright" href="http://www.faganfinder.com/site/copyright.shtml" />
 
 <!-- 'Related' Metadata -->
-<meta name="DC.Relation.IsPartOf" content="http://www.faganfinder.com/" />
-<meta name="DC.Relation.IsPartOf" content="http://www.faganfinder.com/site/" />
 <link rel="shortcut icon" href="http://www.faganfinder.com/favicon.ico" />
-<link rel="start" title="Home" href="http://www.faganfinder.com/" />
-<link rel="contents" title="Site Map" href="http://www.faganfinder.com/site/sitemap.shtml" />
-<link rel="help" title="Help" href="http://www.faganfinder.com/site/help.shtml" />
-<link rev="revisions" title="Document Revisions" href="http://www.faganfinder.com/" />
-<link rel="alternate" title="RSS" type="application/rss+xml" href="http://www.faganfinder.com/blog/rss.php" hreflang="en" />
-<link rel="privacy" title="Privacy Policy" href="http://www.faganfinder.com/site/privacy.shtml" />
-<link rel="disclaimer" title="Disclaimer" href="http://www.faganfinder.com/site/disclaimer.shtml" />
-<link rel="search" title="Search" href="http://www.faganfinder.com/site/search.shtml" />
+<link rel="alternate" title="RSS" type="application/rss+xml" href="http://www.faganfinder.com/blog/rss.php" />
 
 <!-- Styles -->
 <meta http-equiv="Content-Style-Type" content="text/css" />
@@ -63,17 +33,30 @@ var textbox = "false";
 <!-- Header -->
 
 <div id="header">
-<h1><a href="http://www.faganfinder.com/" hreflang="en-ca" title="return to Fagan Finder&#8217;s home page" rel="start" accesskey="h">Fagan Finder</a> &gt; <a href="../site/index.shtml" hreflang="en" title="information about Fagan Finder">Site</a> &gt; Blog</h1>
+<h1><a href="http://www.faganfinder.com/" title="return to Fagan Finder&#8217;s home page" rel="start" accesskey="h">Fagan Finder</a> &gt; <a href="../site/index.shtml" title="information about Fagan Finder">Site</a> &gt; Blog</h1>
 </div>
 
 <!--z-include virtual="../topinclude.php"-->
 
 <div id="logRss">
-<a href="rss.php" title="RSS Feed" rel="alternate" hreflang="en"><img src="../xml.gif" border="0" width="36" height="14" alt="[XML]" title="Syndicate this Page" /></a>
+<a href="rss.php" title="RSS Feed" rel="alternate"><img src="../xml.gif" border="0" width="36" height="14" alt="[XML]" title="Syndicate this Page" /></a>
 </div>
 
 <div id="changes">
 <div class="change">
+	<h3>November 23, 2019</h3>
+	<p>
+		I have updated the
+		<a href="http://www.faganfinder.com/video/">Video search</a>
+		and
+		<a href="http://www.faganfinder.com/group/">Goups search</a>
+		pages, fixing or removing broken links, and adding a new video search tool (Yarn).
+	</p>
+	<p>
+	<p>
+		Google Adsense seems to have decided to put in bigger ads a few months ago, so I have forced them to return to the smaller size.
+	</p>
+</div><div class="change">
 	<h3>April 29, 2019</h3>
 	<p>
 		Over the last few weeks I have made updates to the 
@@ -303,29 +286,29 @@ The <a href="http://www.faganfinder.com/engines.html">Search Engine Ultimate Int
 <td valign="top">
 <strong>Inside Fagan Finder</strong><br />
 <ul class="in">
-<li><a href="../site/index.shtml" hreflang="en" title="information about Fagan Finder, its creator, how to use the site, etc.">Site Information</a></li>
-<li><a href="../site/news4.shtml" hreflang="en" title="Fagan Finder's blog, 2002">Blog Archive (2002)</a></li>
-<li><a href="../site/news3.shtml" hreflang="en" title="Fagan Finder's blog, December 2001">Blog Archive (December 2001)</a></li>
-<li><a href="../site/news2.shtml" hreflang="en" title="Fagan Finder's blog, November 2001">Blog Archive (November 2001)</a></li>
-<li><a href="../site/news1.shtml" hreflang="en" title="Fagan Finder's blog, September and October 2001">Blog Archive (September-October 2001)</a></li>
+<li><a href="../site/index.shtml" title="information about Fagan Finder, its creator, how to use the site, etc.">Site Information</a></li>
+<li><a href="../site/news4.shtml" title="Fagan Finder's blog, 2002">Blog Archive (2002)</a></li>
+<li><a href="../site/news3.shtml" title="Fagan Finder's blog, December 2001">Blog Archive (December 2001)</a></li>
+<li><a href="../site/news2.shtml" title="Fagan Finder's blog, November 2001">Blog Archive (November 2001)</a></li>
+<li><a href="../site/news1.shtml" title="Fagan Finder's blog, September and October 2001">Blog Archive (September-October 2001)</a></li>
 </ul>
 </td>
 <td valign="top">
 <strong>Search Engine Blog Archives</strong><br />
 <ul class="in">
-<li><a href="../blog/2002_08_04_archive.html" hreflang="en">August 4 2002</a></li>
-<li><a href="../blog/2002_07_28_archive.html" hreflang="en">July 30 2002</a></li>
-<li><a href="../blog/2002_07_21_archive.html" hreflang="en">July 27 2002</a></li>
-<li><a href="../blog/2002_07_07_archive.html" hreflang="en">July 7-12 2002</a></li>
-<li><a href="../blog/2002_06_30_archive.html" hreflang="en">June 30 - July 6 2002</a></li>
-<li><a href="../blog/2002_06_23_archive.html" hreflang="en">June 23-29</a></li>
-<li><a href="../blog/2002_06_16_archive.html" hreflang="en">June 16-21</a></li>
+<li><a href="../blog/2002_08_04_archive.html">August 4 2002</a></li>
+<li><a href="../blog/2002_07_28_archive.html">July 30 2002</a></li>
+<li><a href="../blog/2002_07_21_archive.html">July 27 2002</a></li>
+<li><a href="../blog/2002_07_07_archive.html">July 7-12 2002</a></li>
+<li><a href="../blog/2002_06_30_archive.html">June 30 - July 6 2002</a></li>
+<li><a href="../blog/2002_06_23_archive.html">June 23-29</a></li>
+<li><a href="../blog/2002_06_16_archive.html">June 16-21</a></li>
 </ul>
 </td>
 <td valign="top">
 <strong>Elsewhere</strong><br />
 <ul class="out">
-<li><a href="http://www.blogstreet.com/blogsqlbin/home.cgi?url=faganfinder.com/blog" hreflang="en">BlogStreet page for this blog</a></li>
+<li><a href="http://www.blogstreet.com/blogsqlbin/home.cgi?url=faganfinder.com/blog">BlogStreet page for this blog</a></li>
 </ul>
 </td>
 </tr></table>
@@ -337,8 +320,8 @@ The <a href="http://www.faganfinder.com/engines.html">Search Engine Ultimate Int
 <a name="info"></a><h2>information</h2>
 <p>
 This page is a blog which logs the new pages on Fagan Finder and major revisions to existing pages.
-This is <em>not</em> a blog about search engines. I did that for several months (see links above), but it was more work than I could handle. For blogs about search engines, see these <a href="../search/links.shtml" hreflang="en" title="news about search engines and online information">links</a>.
-This is also <em>not</em> a search engine for blogs. For those, see <a href="../blogs/index.shtml" hreflang="en">Weblogs, Journals, and <acronym title="Really Simple Syndication, Rich Site Summary, RDF Site Summary, etc.">RSS</acronym></a>.
+This is <em>not</em> a blog about search engines. I did that for several months (see links above), but it was more work than I could handle. For blogs about search engines, see these <a href="../search/links.shtml" title="news about search engines and online information">links</a>.
+This is also <em>not</em> a search engine for blogs. For those, see <a href="../blogs/index.shtml">Weblogs, Journals, and <acronym title="Really Simple Syndication, Rich Site Summary, RDF Site Summary, etc.">RSS</acronym></a>.
 </p>
 </div>
 
