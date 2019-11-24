@@ -85,56 +85,6 @@
       ]
     },
     {
-      "name": "Movies, series (free)",
-      "tools": [
-        {
-          "name": "Tubi TV",
-          "searchUrl": "https://tubitv.com/search/{q}"
-        },
-        {
-          "name": "AOL Video",
-          "searchUrl": "https://www.aol.com/video/search/?q={q}"
-        },
-        {
-          "name": "Popcornflix",
-          "searchUrl": "https://www.popcornflix.com/searchs?q={q}"
-        },
-        {
-          "name": "Yahoo! View (Hulu)",
-          "searchUrl": "https://view.yahoo.com/search?query={q}"
-        }
-      ]
-    },
-    {
-      "name": "Movies, series (paid)",
-      "tools": [
-        {
-          "name": "JustWatch — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://www.justwatch.com/us/search?q={q}"
-        },
-        {
-          "name": "JustWatch — <abbr title=\"United Kingdom\">UK</abbr>",
-          "searchUrl": "https://www.justwatch.com/uk/search?q={q}"
-        },
-        {
-          "name": "JustWatch — Canada",
-          "searchUrl": "https://www.justwatch.com/ca/search?q={q}"
-        },
-        {
-          "name": "JustWatch — Australia",
-          "searchUrl": "https://www.justwatch.com/au/search?q={q}"
-        },
-        {
-          "name": "Reelgood — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://reelgood.com/search?q={q}"
-        },
-        {
-          "name": "IndiePix Films",
-          "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={q}"
-        }
-      ]
-    },
-    {
       "name": "Social media",
       "tools": [
         {
@@ -193,6 +143,56 @@
         {
           "name": "Naver — Korea",
           "searchUrl": "https://tv.naver.com/search?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Movies, series (free)",
+      "tools": [
+        {
+          "name": "Tubi TV",
+          "searchUrl": "https://tubitv.com/search/{q}"
+        },
+        {
+          "name": "AOL Video",
+          "searchUrl": "https://www.aol.com/video/search/?q={q}"
+        },
+        {
+          "name": "Popcornflix",
+          "searchUrl": "https://www.popcornflix.com/searchs?q={q}"
+        },
+        {
+          "name": "Yahoo! View (Hulu)",
+          "searchUrl": "https://view.yahoo.com/search?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Movies, series (paid)",
+      "tools": [
+        {
+          "name": "JustWatch — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://www.justwatch.com/us/search?q={q}"
+        },
+        {
+          "name": "JustWatch — <abbr title=\"United Kingdom\">UK</abbr>",
+          "searchUrl": "https://www.justwatch.com/uk/search?q={q}"
+        },
+        {
+          "name": "JustWatch — Canada",
+          "searchUrl": "https://www.justwatch.com/ca/search?q={q}"
+        },
+        {
+          "name": "JustWatch — Australia",
+          "searchUrl": "https://www.justwatch.com/au/search?q={q}"
+        },
+        {
+          "name": "Reelgood — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://reelgood.com/search?q={q}"
+        },
+        {
+          "name": "IndiePix Films",
+          "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={q}"
         }
       ]
     },
