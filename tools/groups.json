@@ -81,7 +81,7 @@
         },
         {
           "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum — <abbr title=\"United Kingdom\">UK</abbr>",
-          "searchUrl": "http://www.taforum.org/Members/search/{q}"
+          "searchUrl": "https://www.taforum.org/trade-associations/?trade={q}"
         }
       ]
     },
@@ -111,7 +111,7 @@
         },
         {
           "name": "netsplit.de (<abbr title=\"internet relay chat\">IRC</abbr>)",
-          "searchUrl": "http://irc.netsplit.de/channels/?chat={q}"
+          "searchUrl": "https://netsplit.de/channels/?chat={q}"
         }
       ]
     },

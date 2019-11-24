@@ -1,4 +1,3 @@
-Adland
 aggregators
 AllMovie
 anime
@@ -67,6 +66,7 @@ Reelgood
 RSS
 Rutube
 SchoolTube
+searchable
 Showtimes
 showtimes
 SimplyScripts
@@ -86,7 +86,6 @@ TVopedia
 UIA
 UOL
 URLinfo
-Ustream
 Veoh
 Vid
 VideoLectures

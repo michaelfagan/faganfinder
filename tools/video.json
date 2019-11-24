@@ -147,7 +147,7 @@
         },
         {
           "name": "TikTok",
-          "searchUrl": "https://tiktokapi.ga/search/search_hashtag.php?q={q}"
+          "searchUrl": "https://www.tiktok.com/tag/{q}"
         }
       ]
     },
@@ -168,7 +168,7 @@
         },
         {
           "name": "TV UOL — Brazil",
-          "searchUrl": "https://tvuol.uol.com.br/busca?q={q}"
+          "searchUrl": "https://www.uol.com.br/mov/busca/?q={q}"
         },
         {
           "name": "Globo Play — Brazil",
@@ -369,10 +369,6 @@
           "searchUrl": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q={q}"
         },
         {
-          "name": "FreeDocumentaries.org",
-          "searchUrl": "http://freedocumentaries.org/search?q={q}"
-        },
-        {
           "name": "Documentary Storm",
           "searchUrl": "https://www.documentarystorm.com/?s={q}"
         }
@@ -383,7 +379,7 @@
       "tools": [
         {
           "name": "TeacherTube",
-          "searchUrl": "https://www.teachertube.com/search/google-search?safe=high&search-type=videos&query={q}"
+          "searchUrl": "https://www.teachertube.com/search?q={q}"
         },
         {
           "name": "ACT Academy",
@@ -395,7 +391,7 @@
         },
         {
           "name": "SchoolTube",
-          "searchUrl": "https://app.schooltube.com/search/{q}"
+          "searchUrl": "https://www.schooltube.com/esearch/search?keyword={q}"
         },
         {
           "name": "National Geographic",
@@ -463,19 +459,6 @@
       ]
     },
     {
-      "name": "Commercials",
-      "tools": [
-        {
-          "name": "Creativity Online",
-          "searchUrl": "https://adage.com/creativity/search?search_phrase={q}"
-        },
-        {
-          "name": "Adland",
-          "searchUrl": "https://adland.tv/search/node/{q}"
-        }
-      ]
-    },
-    {
       "name": "Other video",
       "tools": [
         {
@@ -485,6 +468,10 @@
           "postMore": {
             "general": "general"
           }
+        },
+        {
+          "name": "Creativity Online — ads",
+          "searchUrl": "https://adage.com/creativity/search?search_phrase={q}"
         },
         {
           "name": "Home Movie Registry",
