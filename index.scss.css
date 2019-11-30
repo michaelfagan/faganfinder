@@ -88,9 +88,10 @@ body, .highlight {
 
 
 /* top ad */
-.has-js #adone {
+.has-js #adone ins {
+  display: inline-block;
+  width: 728px;
   height: 90px;
-  margin-bottom: 0.5em;
 }
 
 /* about link */
