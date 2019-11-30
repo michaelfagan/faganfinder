@@ -36,8 +36,6 @@ var textbox = "false";
 <h1><a href="http://www.faganfinder.com/" title="return to Fagan Finder&#8217;s home page" rel="start" accesskey="h">Fagan Finder</a> &gt; <a href="../site/index.shtml" title="information about Fagan Finder">Site</a> &gt; Blog</h1>
 </div>
 
-<!--z-include virtual="../topinclude.php"-->
-
 <div id="logRss">
 <a href="rss.php" title="RSS Feed" rel="alternate"><img src="../xml.gif" border="0" width="36" height="14" alt="[XML]" title="Syndicate this Page" /></a>
 </div>
@@ -332,7 +330,6 @@ This is also <em>not</em> a search engine for blogs. For those, see <a href="../
 </p>
 </div>
 
-<!--z-include virtual="../footer.php"-->
 
 <script type="text/javascript">
    var _gaq = _gaq || [];
