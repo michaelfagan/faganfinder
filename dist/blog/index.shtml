@@ -44,6 +44,14 @@ var textbox = "false";
 
 <div id="changes">
 <div class="change">
+	<h3>November 29, 2019</h3>
+	<p>
+		Small design improvements today.
+		The search box is now sticky, meaning it remains on the screen when you scroll down the page over the lower search tools.
+		As a result of this I was able to increase the font size of the buttons to make them more readable, and increase the spacing between buttons to reduce accidental clicks.
+		As always, feedback welcome.
+	</p>
+</div><div class="change">
 	<h3>November 23, 2019</h3>
 	<p>
 		I have updated the
@@ -52,7 +60,6 @@ var textbox = "false";
 		<a href="http://www.faganfinder.com/group/">Goups search</a>
 		pages, fixing or removing broken links, and adding a new video search tool (Yarn).
 	</p>
-	<p>
 	<p>
 		Google Adsense seems to have decided to put in bigger ads a few months ago, so I have forced them to return to the smaller size.
 	</p>
