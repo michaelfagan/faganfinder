@@ -76,11 +76,11 @@
           "searchUrl": "https://uia.org/ybio?name={q}"
         },
         {
-          "name": "CareerOneStop — <abbr title=\"United States of America\">USA</abbr>",
+          "name": "<abbr title=\"United States of America\">USA</abbr> CareerOneStop",
           "searchUrl": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword={q}"
         },
         {
-          "name": "Trade <abbr title=\"Association\">Assoc.</abbr> Forum — <abbr title=\"United Kingdom\">UK</abbr>",
+          "name": "<abbr title=\"United Kingdom\">UK</abbr> Trade <abbr title=\"Association\">Assoc.</abbr> Forum",
           "searchUrl": "https://www.taforum.org/trade-associations/?trade={q}"
         }
       ]

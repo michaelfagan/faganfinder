@@ -361,7 +361,7 @@
           "searchUrl": "https://documentaryheaven.com/find/?q={q}"
         },
         {
-          "name": "Top Documentary Films",
+          "name": "Top <abbr title=\"Documentary\">Doc.</abbr> Films",
           "searchUrl": "https://topdocumentaryfilms.com/search/?results={q}"
         },
         {
@@ -462,7 +462,7 @@
       "name": "Other video",
       "tools": [
         {
-          "name": "Unlisted Videos (YouTube)",
+          "name": "Unlisted YouTube Videos",
           "searchUrl": "http://unlistedvideos.com/search.php",
           "post": "searchterm",
           "postMore": {
@@ -470,7 +470,7 @@
           }
         },
         {
-          "name": "Creativity Online — ads",
+          "name": "Creativity Online ads",
           "searchUrl": "https://adage.com/creativity/search?search_phrase={q}"
         },
         {
