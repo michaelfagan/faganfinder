@@ -28,6 +28,9 @@ RewriteRule listen/$ listen.html [L]
 # new pages do not have changelogs
 RewriteRule (video|group)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
+# access without trailing slash - why not needed for other pages?
+RewriteRule listen$ https://www.faganfinder.com/listen/ [R=301,L]
+
 
 
 # my personal blog no longer on faganfinder.com
