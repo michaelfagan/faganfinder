@@ -110,6 +110,11 @@
     "title": "test | AP Archive"
   },
   {
+    "url": "https://www.apple.com/itunes/podcasts/discover/",
+    "status": "301",
+    "title": "iTunes - Podcasts - Discovering Podcasts - Apple"
+  },
+  {
     "url": "https://www.asiancrush.com/?s=test",
     "status": "200",
     "title": "AsianCrush | Watch Your Favorite Asian Movies &amp; Shows"
@@ -117,6 +122,38 @@
   {
     "url": "https://www.asiancrush.com",
     "status": "timeout"
+  },
+  {
+    "url": "https://www.audible.com/",
+    "status": "301",
+    "title": "Audiobooks & Original Audio Shows - Get More from Audible"
+  },
+  {
+    "url": "https://www.audible.com/search?keywords=test",
+    "status": "301",
+    "redirect": "https://www.audible.com/search",
+    "title": "Audiobooks matching keywords test | Audible.com"
+  },
+  {
+    "url": "https://www.audiobooks.com/",
+    "status": "301",
+    "title": "Audiobooks.com | Get 2 Audiobooks Free & Access to 700,000+ Podcasts"
+  },
+  {
+    "url": "https://www.audiobooks.com/search/book/test",
+    "status": "301",
+    "title": "Search Results For test - Sorted by Relevance - Page 1 | Audiobooks.com"
+  },
+  {
+    "url": "https://search.audioburst.com/",
+    "status": "301",
+    "title": "Audioburst | Search, listen and share: News from top podcasts and radio stations"
+  },
+  {
+    "url": "https://search.audioburst.com/search?q=test",
+    "status": "301",
+    "redirect": "https://search.audioburst.com/search",
+    "title": "Listen to top audio clips on test | Audioburst Search"
   },
   {
     "url": "http://bechdeltest.com/",
@@ -362,6 +399,21 @@
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
+    "url": "https://play.google.com/store/books/category/audiobooks",
+    "status": "301"
+  },
+  {
+    "url": "https://play.google.com/store/search?c=books&q=test",
+    "status": "301",
+    "redirect": "https://play.google.com/store/search"
+  },
+  {
+    "url": "https://www.google.com/search?q=site%3Apodcasts.apple.com%20test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "site:podcasts.apple.com test - Google Search"
+  },
+  {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
@@ -428,6 +480,14 @@
     "title": "Search  for &quot;test&quot; - Howcast | The best how-to videos"
   },
   {
+    "url": "https://www.iheart.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.iheart.com/podcast/",
+    "status": "301"
+  },
+  {
     "url": "https://www.imdb.com/find?q=test",
     "status": "301",
     "redirect": "https://www.imdb.com/find",
@@ -462,6 +522,17 @@
     "url": "http://www.indiepixfilms.com/search-results?type=all&id=test",
     "status": "200",
     "title": "search results for \"test\""
+  },
+  {
+    "url": "https://instantwatcher.com/podcasts/feeds",
+    "status": "301",
+    "title": "instantwatcher podcasts - Search Podcasts"
+  },
+  {
+    "url": "https://instantwatcher.com/podcasts/feeds?sort=popularity+desc&infinite=on&q=test",
+    "status": "301",
+    "redirect": "https://instantwatcher.com/podcasts/feeds",
+    "title": "instantwatcher podcasts - Search Podcasts"
   },
   {
     "url": "https://so.iqiyi.com/so/q_test",
@@ -522,6 +593,22 @@
     "status": "200"
   },
   {
+    "url": "https://www.kobo.com/ca/en/audiobooks",
+    "status": "301",
+    "redirect": "https://www.kobo.com/p/blackfridayaudiobooks"
+  },
+  {
+    "url": "https://www.kobo.com/ca/en/search?fcmedia=Audiobook&query=test",
+    "status": "301",
+    "redirect": "https://www.kobo.com/ca/en/search",
+    "title": "&quot;test&quot; | audiobook search results | Rakuten Kobo"
+  },
+  {
+    "url": "https://www.learnoutloud.com/Podcast-Directory",
+    "status": "301",
+    "title": "Podcast Directory"
+  },
+  {
     "url": "https://www.linkedin.com/groups/",
     "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fgroups%2F"
@@ -530,6 +617,33 @@
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
     "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fgroups%2F"
+  },
+  {
+    "url": "https://www.listennotes.com/",
+    "status": "301",
+    "title": "Listen Notes: The best podcast search engine"
+  },
+  {
+    "url": "https://www.listennotes.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://www.listennotes.com/search/",
+    "title": "test in podcasts | Listen Notes"
+  },
+  {
+    "url": "https://www.listennotes.com/search/?scope=podcast&q=test",
+    "status": "301",
+    "redirect": "https://www.listennotes.com/search/",
+    "title": "test in podcasts | Listen Notes"
+  },
+  {
+    "url": "http://www.loyalbooks.com/",
+    "status": "200",
+    "title": "7,000+ Free Audio Books & eBook Downloads - Loyal Books"
+  },
+  {
+    "url": "http://www.loyalbooks.com/search?q=test",
+    "status": "200",
+    "title": "Search Free Audio Books & eBooks - Download books for iPhone, Android, Kindle and more!"
   },
   {
     "url": "https://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
@@ -586,6 +700,11 @@
     "title": "Channel search  &gt; test"
   },
   {
+    "url": "https://www.mixcloud.com/",
+    "status": "301",
+    "title": "Mixcloud - Making radio better | Mixcloud"
+  },
+  {
     "url": "https://www.moviefone.com/",
     "status": "302",
     "title": "Movies | Showtimes | Movie Tickets | Theaters | Moviefone"
@@ -604,6 +723,21 @@
     "url": "http://www.movies.com/search-result?search=test",
     "status": "200",
     "title": "Search Results | Movies.com"
+  },
+  {
+    "url": "https://mytuner-radio.com/",
+    "status": "301",
+    "title": "Listen to your favorite online radio stations - myTuner"
+  },
+  {
+    "url": "https://mytuner-radio.com/podcasts/",
+    "status": "301"
+  },
+  {
+    "url": "https://mytuner-radio.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://mytuner-radio.com/search/",
+    "title": "Radio Online, listen to thousands of statio​ns - myTuner"
   },
   {
     "url": "https://video.nationalgeographic.com/",
@@ -630,6 +764,26 @@
     "status": "301"
   },
   {
+    "url": "https://onlineradiobox.com/genres/",
+    "status": "200",
+    "title": "Listen to radio stations of any genre at OnlineRadioBox."
+  },
+  {
+    "url": "https://onlineradiobox.com/",
+    "status": "200",
+    "title": "Free online radio stations – listen for free at OnlineRadioBox.com"
+  },
+  {
+    "url": "https://onlineradiobox.com/search?q=test",
+    "status": "500",
+    "title": "Online Radio Box - listen to the radio online for free"
+  },
+  {
+    "url": "http://www.openculture.com/freeaudiobooks",
+    "status": "200",
+    "title": "1,000 Free Audio Books: Download Great Books for Free |  Open Culture"
+  },
+  {
     "url": "https://www.opened.com/search",
     "status": "301",
     "title": "301 Moved Permanently"
@@ -646,10 +800,21 @@
     "title": "OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
   },
   {
+    "url": "https://www.overdrive.com/search?f-formatClassification=eBook&q=test",
+    "status": "301",
+    "redirect": "https://www.overdrive.com/search",
+    "title": "10,407 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
+  },
+  {
     "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
     "status": "301",
     "redirect": "https://www.overdrive.com/search",
     "title": "43 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries"
+  },
+  {
+    "url": "https://www.pandora.com/",
+    "status": "302",
+    "redirect": "http://www.pandora.com/restricted"
   },
   {
     "url": "https://www.peteyvid.com/",
@@ -685,6 +850,58 @@
     "url": "https://pixabay.com/",
     "status": "301",
     "title": "1 million+ Stunning Free Images to Use Anywhere - Pixabay"
+  },
+  {
+    "url": "https://www.podbean.com/all",
+    "status": "200",
+    "title": "The Podcast Directory | Popular Podcasts | All Podcasts"
+  },
+  {
+    "url": "https://www.podbean.com/site/Search/index?v=test",
+    "status": "200",
+    "title": "Search | Podbean"
+  },
+  {
+    "url": "https://www.podbean.com/site/search/episodes/v/test",
+    "status": "200",
+    "title": "Search | Podbean"
+  },
+  {
+    "url": "https://www.podbean.com/site/search/podcasts/v/test",
+    "status": "200",
+    "title": "Search | Podbean"
+  },
+  {
+    "url": "https://www.podcasts.com/",
+    "status": "301",
+    "title": "Podcasts"
+  },
+  {
+    "url": "https://www.podcasts.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.podcasts.com/search",
+    "title": "test Podcasts"
+  },
+  {
+    "url": "https://www.podchaser.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.podchaser.com/search/episodes/q/test",
+    "status": "301"
+  },
+  {
+    "url": "https://www.podchaser.com/search/podcasts/q/test",
+    "status": "301"
+  },
+  {
+    "url": "https://podsearch.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://podsearch.com/search?keyword=test",
+    "status": "timeout",
+    "redirect": "https://podsearch.com/search.php"
   },
   {
     "url": "https://www.popcornflix.com/",
@@ -727,6 +944,15 @@
     "url": "https://www.quora.com/search?type=topic&q=test",
     "status": "301",
     "redirect": "https://www.quora.com/search"
+  },
+  {
+    "url": "https://radio-locator.com/",
+    "status": "301",
+    "title": "Radio-Locator.com"
+  },
+  {
+    "url": "https://www.rbdigital.com/service/rbdigital",
+    "status": "200"
   },
   {
     "url": "https://www.reddit.com/",
@@ -826,6 +1052,25 @@
     "status": "200"
   },
   {
+    "url": "https://scribl.com/browse?bf=audio_ebooks:podcasts&search=test",
+    "status": "301",
+    "redirect": "https://scribl.com/browse",
+    "title": "Scribl"
+  },
+  {
+    "url": "https://scribl.com/",
+    "status": "301",
+    "title": "Scribl"
+  },
+  {
+    "url": "https://directory.shoutcast.com/Search?query=test",
+    "status": "200"
+  },
+  {
+    "url": "https://directory.shoutcast.com/",
+    "status": "200"
+  },
+  {
     "url": "https://www.simplyscripts.com/cgi-bin/search.pl?search=test",
     "status": "301",
     "redirect": "https://www.simplyscripts.com/cgi-bin/search.pl",
@@ -859,6 +1104,69 @@
     "url": "https://www.sonycrackle.com/",
     "status": "301",
     "title": ""
+  },
+  {
+    "url": "https://open.spotify.com/browse/podcasts",
+    "status": "301",
+    "title": "Spotify - Web Player: Music for everyone"
+  },
+  {
+    "url": "https://open.spotify.com/search/test/episodes",
+    "status": "301",
+    "title": "Redirecting to /"
+  },
+  {
+    "url": "https://open.spotify.com/search/test/podcasts",
+    "status": "301",
+    "title": "Redirecting to /"
+  },
+  {
+    "url": "https://www.spreaker.com/explore",
+    "status": "302",
+    "title": "Listen to the world&#039;s trendiest podcasts or create your own on Spreaker!"
+  },
+  {
+    "url": "https://www.spreaker.com/search/show?query=test",
+    "status": "302",
+    "redirect": "https://www.spreaker.com/search/show",
+    "title": "Test"
+  },
+  {
+    "url": "https://www.spreaker.com/search?query=test",
+    "status": "302",
+    "redirect": "https://www.spreaker.com/search",
+    "title": "Test"
+  },
+  {
+    "url": "https://www.stitcher.com/",
+    "status": "302",
+    "title": "Listen to podcasts via our app. Get features like custom playlists, personalized recommendations &amp; offline listening. | Stitcher"
+  },
+  {
+    "url": "https://www.stitcher.com/search?q=test",
+    "status": "302",
+    "redirect": "https://www.stitcher.com/search",
+    "title": "Stitcher for Podcasts | Search"
+  },
+  {
+    "url": "https://www.storynory.com/",
+    "status": "301",
+    "title": "Storynory - Audio Stories for Kids"
+  },
+  {
+    "url": "https://www.storynory.com/?s=test",
+    "status": "301",
+    "redirect": "https://www.storynory.com/",
+    "title": "You searched for test - Storynory"
+  },
+  {
+    "url": "https://streema.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://streema.com/radios/search/?q=test",
+    "status": "301",
+    "redirect": "https://streema.com/radios/search/"
   },
   {
     "url": "https://online.supportgroups.com/",
@@ -929,6 +1237,11 @@
     "title": "Search - TheTVDB.com"
   },
   {
+    "url": "http://thoughtaudio.com/",
+    "status": "200",
+    "title": "THOUGHTAUDIO | THE GIFT OF KNOWLEDGE"
+  },
+  {
     "url": "https://www.tiktok.com/",
     "status": "301",
     "title": "TikTok - Make Your Day"
@@ -956,6 +1269,15 @@
   {
     "url": "https://tubitv.com/search/test",
     "status": "301"
+  },
+  {
+    "url": "https://tunein.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://tunein.com/search/?query=test",
+    "status": "301",
+    "redirect": "https://tunein.com/search/"
   },
   {
     "url": "https://www.tvguide.com/listings/",
@@ -1187,6 +1509,17 @@
     "status": "timeout"
   },
   {
+    "url": "https://etc.usf.edu/lit2go/",
+    "status": "301",
+    "title": "Welcome to Lit2Go ETC"
+  },
+  {
+    "url": "https://etc.usf.edu/lit2go/search/?q=test",
+    "status": "301",
+    "redirect": "https://etc.usf.edu/lit2go/search/",
+    "title": "Search results for 'test' | Lit2Go ETC"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/search",
@@ -1205,6 +1538,11 @@
   {
     "url": "http://www.filmarchives-online.eu/",
     "status": "200"
+  },
+  {
+    "url": "https://radio.garden/",
+    "status": "200",
+    "title": "Radio Garden"
   },
   {
     "url": "https://catalog.archives.gov/search?f.materialsType=movingimages&q=test",
@@ -1226,6 +1564,16 @@
     "status": "301",
     "redirect": "https://www.loc.gov/film-and-videos/",
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
+  },
+  {
+    "url": "http://www.radio-browser.info/gui/#!/byname/test",
+    "status": "200",
+    "title": "Community Radio Station Board"
+  },
+  {
+    "url": "http://www.radio-browser.info/",
+    "status": "200",
+    "title": "Community Radio Station Board"
   },
   {
     "url": "https://getyarn.io/",
@@ -1289,6 +1637,28 @@
     "title": "Search VideoLectures for test - VideoLectures.NET"
   },
   {
+    "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/audio_bookspoetry",
+    "title": "Audio Books &amp; Poetry : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/audio_bookspoetry",
+    "status": "301",
+    "title": "Audio Books &amp; Poetry : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/audio?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/audio",
+    "title": "Download &amp; Streaming : Audio Archive : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/audio",
+    "status": "301",
+    "title": "Download &amp; Streaming : Audio Archive : Internet Archive"
+  },
+  {
     "url": "https://archive.org/details/movies?and[]=test",
     "status": "301",
     "redirect": "https://archive.org/details/movies",
@@ -1300,9 +1670,31 @@
     "title": "Download &amp; Streaming : Moving Image Archive : Internet Archive"
   },
   {
+    "url": "https://archive.org/details/podcasts?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/podcasts",
+    "title": "Podcasts : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/podcasts",
+    "status": "301",
+    "title": "Podcasts : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
     "url": "https://archive.org/details/prelinger&tab=about",
     "status": "200",
     "title": "Prelinger Archives : Free Movies : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/radioprograms?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/radioprograms",
+    "title": "Radio Programs : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/radioprograms",
+    "status": "301",
+    "title": "Radio Programs : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
   },
   {
     "url": "https://archive.org/details/tv",
@@ -1373,6 +1765,11 @@
     "title": "Search Results for test | DailyStrength"
   },
   {
+    "url": "https://www.gutenberg.org/browse/categories/1",
+    "status": "200",
+    "title": "Browse By Category: Audio Book, human-read - Project Gutenberg"
+  },
+  {
     "url": "http://www.homemovieregistry.org/wp/",
     "status": "200"
   },
@@ -1384,6 +1781,17 @@
     "url": "https://www.khanacademy.org/",
     "status": "301",
     "title": "Khan Academy | Free Online Courses, Lessons &amp; Practice"
+  },
+  {
+    "url": "https://librivox.org/",
+    "status": "301",
+    "title": " LibriVox  | free public domain audiobooks "
+  },
+  {
+    "url": "https://librivox.org/search?q=test",
+    "status": "301",
+    "redirect": "https://librivox.org/search",
+    "title": "LibriVox"
   },
   {
     "url": "https://www.pbs.org/search/?q=test",
@@ -1507,6 +1915,17 @@
     "url": "https://www.bbc.co.uk/iplayer",
     "status": "301",
     "title": "BBC iPlayer"
+  },
+  {
+    "url": "https://www.bookbeat.co.uk/search",
+    "status": "301",
+    "title": "BookBeat - Search"
+  },
+  {
+    "url": "https://www.bookbeat.co.uk/search?q=test",
+    "status": "301",
+    "redirect": "https://www.bookbeat.co.uk/search",
+    "title": "BookBeat - Search"
   },
   {
     "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",

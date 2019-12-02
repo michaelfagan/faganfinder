@@ -1,0 +1,211 @@
+{
+  "description": {
+    "internal": "podcasts shows and episodes, audiobooks, radio, and more",
+    "external": "Find anything to listen to for entertainment or education. Podcasts, audiobooks, radio, and more."
+  },
+  "path": "listen/",
+  "sections": [
+    {
+      "name": "General",
+      "tools": [
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/audio?and%5B%5D={q}"
+        },
+        {
+          "name": "TuneIn",
+          "searchUrl": "https://tunein.com/search/?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Podcast shows and episodes",
+      "tools": [
+        {
+          "name": "Stitcher",
+          "searchUrl": "https://www.stitcher.com/search?q={q}"
+        },
+        {
+          "name": "Podbean",
+          "searchUrl": "https://www.podbean.com/site/Search/index?v={q}"
+        },
+        {
+          "name": "Spreaker",
+          "searchUrl": "https://www.spreaker.com/search?query={q}"
+        },
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/podcasts?and%5B%5D={q}"
+        },
+        {
+          "name": "Apple iTunes",
+          "searchUrl": "https://www.google.com/search?q=site%3Apodcasts.apple.com%20{q}"
+        }
+      ]
+    },
+    {
+      "name": "Podcast shows",
+      "tools": [
+        {
+          "name": "Listen Notes",
+          "searchUrl": "https://www.listennotes.com/search/?scope=podcast&q={q}"
+        },
+        {
+          "name": "Podchaser",
+          "searchUrl": "https://www.podchaser.com/search/podcasts/q/{q}"
+        },
+        {
+          "name": "Spotify",
+          "searchUrl": "https://open.spotify.com/search/{q}/podcasts"
+        },
+        {
+          "name": "Podbean",
+          "searchUrl": "https://www.podbean.com/site/search/podcasts/v/{q}"
+        },
+        {
+          "name": "Podcasts.com",
+          "searchUrl": "https://www.podcasts.com/search?q={q}"
+        },
+        {
+          "name": "Spreaker",
+          "searchUrl": "https://www.spreaker.com/search/show?query={q}"
+        },
+        {
+          "name": "InstantWatcher",
+          "searchUrl": "https://instantwatcher.com/podcasts/feeds?sort=popularity+desc&infinite=on&q={q}"
+        },
+        {
+          "name": "PodSearch",
+          "searchUrl": "https://podsearch.com/search?keyword={q}"
+        }
+      ]
+    },
+    {
+      "name": "Podcast episodes",
+      "tools": [
+        {
+          "name": "Listen Notes",
+          "searchUrl": "https://www.listennotes.com/search/?q={q}"
+        },
+        {
+          "name": "Podbean",
+          "searchUrl": "https://www.podbean.com/site/search/episodes/v/{q}"
+        },
+        {
+          "name": "Podchaser",
+          "searchUrl": "https://www.podchaser.com/search/episodes/q/{q}"
+        },
+        {
+          "name": "Spotify",
+          "searchUrl": "https://open.spotify.com/search/{q}/episodes"
+        }
+      ]
+    },
+    {
+      "name": "Episodes - full text",
+      "tools": [
+        {
+          "name": "Audioburst",
+          "searchUrl": "https://search.audioburst.com/search?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Audiobooks",
+      "tools": [
+        {
+          "name": "LibriVox",
+          "searchUrl": "https://librivox.org/search?q={q}"
+        },
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/audio_bookspoetry?and%5B%5D={q}"
+        },
+        {
+          "name": "Lit2Go",
+          "searchUrl": "https://etc.usf.edu/lit2go/search/?q={q}"
+        },
+        {
+          "name": "Loyal Books",
+          "searchUrl": "http://www.loyalbooks.com/search?q={q}"
+        },
+        {
+          "name": "Storynory",
+          "searchUrl": "https://www.storynory.com/?s={q}"
+        }
+      ]
+    },
+    {
+      "name": "Audiobooks (library)",
+      "tools": [
+        {
+          "name": "Overdrive",
+          "searchUrl": "https://www.overdrive.com/search?f-formatClassification=eBook&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Audiobooks (not free)",
+      "tools": [
+        {
+          "name": "Audiobooks.com",
+          "searchUrl": "https://www.audiobooks.com/search/book/{q}"
+        },
+        {
+          "name": "Audible",
+          "searchUrl": "https://www.audible.com/search?keywords={q}"
+        },
+        {
+          "name": "Rakuten Kobo",
+          "searchUrl": "https://www.kobo.com/ca/en/search?fcmedia=Audiobook&query={q}"
+        },
+        {
+          "name": "Google Play",
+          "searchUrl": "https://play.google.com/store/search?c=books&q={q}"
+        },
+        {
+          "name": "Scribl",
+          "searchUrl": "https://scribl.com/browse?bf=audio_ebooks:podcasts&search={q}"
+        },
+        {
+          "name": "BookBeat",
+          "searchUrl": "https://www.bookbeat.co.uk/search?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Radio stations",
+      "tools": [
+        {
+          "name": "Streema",
+          "searchUrl": "https://streema.com/radios/search/?q={q}"
+        },
+        {
+          "name": "Online Radio Box",
+          "searchUrl": "https://onlineradiobox.com/search?q={q}"
+        },
+        {
+          "name": "SHOUTcast",
+          "searchUrl": "https://directory.shoutcast.com/Search?query={q}"
+        },
+        {
+          "name": "Community Radio Browser",
+          "searchUrl": "http://www.radio-browser.info/gui/#!/byname/{q}"
+        },
+        {
+          "name": "myTuner",
+          "searchUrl": "https://mytuner-radio.com/search/?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Radio shows",
+      "tools": [
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/radioprograms?and%5B%5D={q}"
+        }
+      ]
+    }
+  ]
+}
