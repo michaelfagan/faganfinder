@@ -16,10 +16,14 @@ RewriteRule video/$ https://www.faganfinder.com/video/ [R=301,L]
 RewriteCond %{HTTPS} !=on
 RewriteRule group/$ https://www.faganfinder.com/group/ [R=301,L]
 
+RewriteCond %{HTTPS} !=on
+RewriteRule listen/$ https://www.faganfinder.com/listen/ [R=301,L]
+
 
 # new pages
 RewriteRule video/$ video.html [L]
 RewriteRule group/$ groups.html [L]
+RewriteRule listen/$ listen.html [L]
 
 # new pages do not have changelogs
 RewriteRule (video|group)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]

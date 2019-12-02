@@ -36,7 +36,7 @@
             <input type="text" name="q">
           </label>
           <button>Search</button><%# just used to prevent 'enter' submission from triggering a click on an actual button, is hidden %>
-          <span style="white-space:nowrap">to find <%= page.id %> and more using:</span>
+          <span style="white-space:nowrap">to find <%= page.noun || page.id %> and more using:</span>
         </h2>
       </div>
 

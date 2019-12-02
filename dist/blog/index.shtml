@@ -42,6 +42,11 @@ var textbox = "false";
 
 <div id="changes">
 <div class="change">
+	<h3>December 2, 2019</h3>
+	<p>
+		New page today: <a href="https://www.faganfinder.com/listen/">Listen</a>, for podcasts, audiobooks, and radio.
+	</p>
+</div><div class="change">
 	<h3>November 29, 2019</h3>
 	<p>
 		Small design improvements today.
@@ -53,9 +58,9 @@ var textbox = "false";
 	<h3>November 23, 2019</h3>
 	<p>
 		I have updated the
-		<a href="http://www.faganfinder.com/video/">Video search</a>
+		<a href="https://www.faganfinder.com/video/">Video search</a>
 		and
-		<a href="http://www.faganfinder.com/group/">Goups search</a>
+		<a href="https://www.faganfinder.com/group/">Goups search</a>
 		pages, fixing or removing broken links, and adding a new video search tool (Yarn).
 	</p>
 	<p>
