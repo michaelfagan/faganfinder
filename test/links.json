@@ -361,6 +361,16 @@
     "title": "Search: video | Flickr"
   },
   {
+    "url": "https://www.freeimages.com/",
+    "status": "301",
+    "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com"
+  },
+  {
+    "url": "https://www.freeimages.com/search/test",
+    "status": "301",
+    "title": "Free test Images, Pictures, and Royalty-Free Stock Photos - FreeImages.com"
+  },
+  {
     "url": "https://freevideolectures.com/",
     "status": "301",
     "title": "Free Video Lectures, Online Courses and Tutorials from best Universities"
@@ -737,6 +747,16 @@
     "url": "https://www.mixcloud.com/",
     "status": "301",
     "title": "Mixcloud - Making radio better | Mixcloud"
+  },
+  {
+    "url": "https://morguefile.com/",
+    "status": "301",
+    "title": "Morguefile.com free photographs for commercial use"
+  },
+  {
+    "url": "https://morguefile.com/photos/morguefile/1/test/pop",
+    "status": "301",
+    "title": "Morguefile.com free photographs for commercial use"
   },
   {
     "url": "https://www.moviefone.com/",
