@@ -928,6 +928,18 @@
     "title": "Free stock videos · Pexels Videos"
   },
   {
+    "url": "https://beta.photobucket.com/search",
+    "status": "301",
+    "redirect": "https://beta.photobucket.com:443/search",
+    "title": "Photobucket"
+  },
+  {
+    "url": "https://beta.photobucket.com/search?source=COMMUNITY&query=test",
+    "status": "301",
+    "redirect": "https://beta.photobucket.com:443/search",
+    "title": "Photobucket"
+  },
+  {
     "url": "https://www.picsearch.com/",
     "status": "302",
     "title": " Pictures"

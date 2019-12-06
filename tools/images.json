@@ -61,6 +61,10 @@
         {
           "name": "Flickr",
           "searchUrl": "https://www.flickr.com/search/?text={q}"
+        },
+        {
+          "name": "Photobucket",
+          "searchUrl": "https://beta.photobucket.com/search?source=COMMUNITY&query={q}"
         }
       ]
     }
