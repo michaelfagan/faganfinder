@@ -65,6 +65,14 @@
         {
           "name": "Photobucket",
           "searchUrl": "https://beta.photobucket.com/search?source=COMMUNITY&query={q}"
+        },
+        {
+          "name": "SmugMug",
+          "searchUrl": "https://www.smugmug.com/search?q={q}"
+        },
+        {
+          "name": "fotocommunity",
+          "searchUrl": "https://www.fotocommunity.com/photos?term={q}"
         }
       ]
     }

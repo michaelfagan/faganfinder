@@ -383,6 +383,17 @@
     "title": "Search: video | Flickr"
   },
   {
+    "url": "https://www.fotocommunity.com/",
+    "status": "301",
+    "title": "fotocommunity"
+  },
+  {
+    "url": "https://www.fotocommunity.com/photos?term=test",
+    "status": "301",
+    "redirect": "https://www.fotocommunity.com/photos",
+    "title": "Test photos & pictures on fotocommunity"
+  },
+  {
     "url": "https://www.freeimages.com/",
     "status": "301",
     "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com"
@@ -1204,6 +1215,15 @@
     "status": "301",
     "redirect": "https://slofile.com/slack",
     "title": "test communities - Slofile"
+  },
+  {
+    "url": "https://www.smugmug.com/",
+    "status": "500"
+  },
+  {
+    "url": "https://www.smugmug.com/search?q=test",
+    "status": "200",
+    "title": "Looking for Photos? Find Millions Here at SmugMug"
   },
   {
     "url": "http://www.snagfilms.com/",

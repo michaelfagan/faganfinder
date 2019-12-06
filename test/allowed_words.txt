@@ -27,6 +27,7 @@ FC2
 filmarchives
 FilmFreeway
 Flickr
+fotocommunity
 FreeDocumentaries
 Freeimages
 GIFs
@@ -97,6 +98,7 @@ Showtimes
 showtimes
 SimplyScripts
 Slofile
+SmugMug
 SnagFilms
 Spotify
 Spreaker
