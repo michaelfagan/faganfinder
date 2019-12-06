@@ -166,6 +166,18 @@
     "title": "Search - Bechdel Test Movie List"
   },
   {
+    "url": "https://www.bing.com/images/search?q=test",
+    "status": "302",
+    "redirect": "/?scope=images&nr=1&FORM=NOFORM",
+    "title": "test - Bing images"
+  },
+  {
+    "url": "https://www.bing.com/images/trending",
+    "status": "302",
+    "redirect": "/?scope=images&nr=1&FORM=NOFORM",
+    "title": "Object moved"
+  },
+  {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
     "status": "302",
     "redirect": "/videos?FORM=HDRSC2",
@@ -399,6 +411,11 @@
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
+    "url": "https://images.google.com/",
+    "status": "200",
+    "title": "Google Images"
+  },
+  {
     "url": "https://play.google.com/store/books/category/audiobooks",
     "status": "301"
   },
@@ -430,6 +447,12 @@
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:imsdb.com OR site:simplyscripts.com OR site:scripts.com OR site:springfieldspringfield.co.uk OR site:sfy.ru OR site:awesomefilm.com OR site:script-o-rama.com OR site:dailyscript.com OR site:thescriptlab.com/screenwriting-101/screenplay - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=isch&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",

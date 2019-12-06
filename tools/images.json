@@ -1,0 +1,22 @@
+{
+  "description": {
+    "internal": "bla bla bla bla bla bla bla bla bla",
+    "external": "bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla"
+  },
+  "path": "img/",
+  "sections": [
+    {
+      "name": "Search engines",
+      "tools": [
+        {
+          "name": "Bing",
+          "searchUrl": "https://www.bing.com/images/search?q={q}"
+        },
+        {
+          "name": "Google",
+          "searchUrl": "https://www.google.com/search?tbm=isch&q={q}"
+        }
+      ]
+    }
+  ]
+}
