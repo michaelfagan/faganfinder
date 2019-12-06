@@ -36,6 +36,14 @@
         {
           "name": "Morguefile",
           "searchUrl": "https://morguefile.com/photos/morguefile/1/{q}/pop"
+        },
+        {
+          "name": "DHD Multimedia Gallery",
+          "searchUrl": "http://gallery.hd.org/_cat/doHTMLSearch.jsp?q={q}"
+        },
+        {
+          "name": "Image * After",
+          "searchUrl": "http://www.imageafter.com/search.php?search={q}"
         }
       ]
     }
