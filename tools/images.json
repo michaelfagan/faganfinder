@@ -44,6 +44,23 @@
         {
           "name": "Image * After",
           "searchUrl": "http://www.imageafter.com/search.php?search={q}"
+        },
+        {
+          "name": "Stockvault.net",
+          "searchUrl": "https://www.stockvault.net/free-photos/{q}/"
+        },
+        {
+          "name": "Cepolina",
+          "searchUrl": "https://www.cepolina.com/photo.aspx?S={q}"
+        }
+      ]
+    },
+    {
+      "name": "Photo sharing sites",
+      "tools": [
+        {
+          "name": "Flickr",
+          "searchUrl": "https://www.flickr.com/search/?text={q}"
         }
       ]
     }

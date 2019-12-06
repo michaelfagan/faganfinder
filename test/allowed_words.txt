@@ -9,6 +9,7 @@ Bechdel
 Bing
 BookBeat
 CareerOneStop
+Cepolina
 CosmoLearning
 DailyMotion
 DailyStrength
@@ -99,6 +100,7 @@ SnagFilms
 Spotify
 Spreaker
 Stitcher
+Stockvault
 Storynory
 Streema
 subcollections

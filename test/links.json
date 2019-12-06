@@ -195,6 +195,17 @@
     "title": "Bing video"
   },
   {
+    "url": "https://www.cepolina.com/freephoto/",
+    "status": "301",
+    "title": "Cepolina Free Photo Collection | travel, objects, people nature photos"
+  },
+  {
+    "url": "https://www.cepolina.com/photo.aspx?S=test",
+    "status": "301",
+    "redirect": "https://www.cepolina.com/photo.aspx",
+    "title": "test"
+  },
+  {
     "url": "https://www.dailymotion.com/",
     "status": "301",
     "title": "Dailymotion - the home for videos that matter"
@@ -343,6 +354,11 @@
     "status": "301"
   },
   {
+    "url": "https://www.flickr.com/",
+    "status": "301",
+    "title": "Find your inspiration. | Flickr"
+  },
+  {
     "url": "https://www.flickr.com/search/groups/?text=test",
     "status": "301",
     "redirect": "https://www.flickr.com/search/groups/",
@@ -350,6 +366,12 @@
   },
   {
     "url": "https://www.flickr.com/search/?media=videos&license=2%2C3%2C4%2C5%2C6%2C9&text=test",
+    "status": "301",
+    "redirect": "https://www.flickr.com/search/",
+    "title": "Search: test | Flickr"
+  },
+  {
+    "url": "https://www.flickr.com/search/?text=test",
     "status": "301",
     "redirect": "https://www.flickr.com/search/",
     "title": "Search: test | Flickr"
@@ -1700,6 +1722,16 @@
     "url": "https://www.squidtv.net/",
     "status": "301",
     "title": "Squid TV"
+  },
+  {
+    "url": "https://www.stockvault.net/free-photos/test/",
+    "status": "301",
+    "title": "Free test Stock Photos - Stockvault.net"
+  },
+  {
+    "url": "https://www.stockvault.net/",
+    "status": "301",
+    "title": "Free Stock Photos | Free Images and Vectors | Stockvault"
   },
   {
     "url": "http://videolectures.net/",
