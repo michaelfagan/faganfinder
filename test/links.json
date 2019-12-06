@@ -557,6 +557,17 @@
     "title": "Search  for &quot;test&quot; - Howcast | The best how-to videos"
   },
   {
+    "url": "https://www.iconfinder.com/",
+    "status": "301",
+    "title": "3,925,000+ free and premium vector icons. SVG, PNG, AI, CSH and PNG format."
+  },
+  {
+    "url": "https://www.iconfinder.com/search/?price=free&q=test",
+    "status": "301",
+    "redirect": "https://www.iconfinder.com/search/",
+    "title": "Test icons - 87 free & premium icons on Iconfinder"
+  },
+  {
     "url": "https://www.iheart.com/",
     "status": "301"
   },

@@ -75,6 +75,15 @@
           "searchUrl": "https://www.fotocommunity.com/photos?term={q}"
         }
       ]
+    },
+    {
+      "name": "Graphics",
+      "tools": [
+        {
+          "name": "Iconfinder",
+          "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
+        }
+      ]
     }
   ]
 }
