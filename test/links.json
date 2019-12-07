@@ -2019,6 +2019,17 @@
     "title": "Download &amp; Streaming : Audio Archive : Internet Archive"
   },
   {
+    "url": "https://archive.org/details/image?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/image",
+    "title": "Download &amp; Streaming : Image : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/image",
+    "status": "301",
+    "title": "Download &amp; Streaming : Image : Internet Archive"
+  },
+  {
     "url": "https://archive.org/details/movies?and[]=test",
     "status": "301",
     "redirect": "https://archive.org/details/movies",
@@ -2245,6 +2256,16 @@
   {
     "url": "http://www.watchknowlearn.org/",
     "status": "200"
+  },
+  {
+    "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
+    "status": "301",
+    "redirect": "https://commons.m.wikimedia.org/w/index.php"
+  },
+  {
+    "url": "https://commons.m.wikimedia.org/wiki/Main_Page",
+    "status": "301",
+    "title": "Wikimedia Commons"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",

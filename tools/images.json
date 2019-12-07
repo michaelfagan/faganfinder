@@ -21,12 +21,25 @@
           "searchUrl": "https://yandex.com/images/search?text={q}"
         },
         {
+          "name": "Picsearch",
+          "searchUrl": "https://www.picsearch.com/index.cgi?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Open licences",
+      "tools": [
+        {
           "name": "Creative Commons",
           "searchUrl": "https://ccsearch.creativecommons.org/search?q={q}"
         },
         {
-          "name": "Picsearch",
-          "searchUrl": "https://www.picsearch.com/index.cgi?q={q}"
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/image?and%5B%5D={q}"
+        },
+        {
+          "name": "Wikimedia",
+          "searchUrl": "https://commons.m.wikimedia.org/w/index.php?search={q}"
         }
       ]
     },

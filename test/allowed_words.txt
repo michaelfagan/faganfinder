@@ -140,6 +140,7 @@ Viki
 Vimeo
 WatchKnowLearn
 WeeklyScript
+Wikimedia
 wwiTV
 Yandex
 Youku
