@@ -115,6 +115,14 @@
     "title": "iTunes - Podcasts - Discovering Podcasts - Apple"
   },
   {
+    "url": "http://www.artcyclopedia.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.asiancrush.com/?s=test",
     "status": "200",
     "title": "AsianCrush | Watch Your Favorite Asian Movies &amp; Shows"
@@ -1339,6 +1347,16 @@
     "status": "301",
     "redirect": "https://www.teachertube.com/search",
     "title": "Search"
+  },
+  {
+    "url": "http://pics.tech4learning.com/",
+    "status": "200",
+    "title": "Free Photos for Education | Pics4Learning"
+  },
+  {
+    "url": "http://pics.tech4learning.com/results.php?query=test",
+    "status": "200",
+    "title": "Free Photos for Education | Pics4Learning"
   },
   {
     "url": "https://www.ted.com/",

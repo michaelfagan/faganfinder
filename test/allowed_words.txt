@@ -12,6 +12,7 @@ CareerOneStop
 Cepolina
 Clipart
 CosmoLearning
+cyclopedia
 DailyMotion
 DailyStrength
 de
@@ -76,6 +77,7 @@ PDF
 Petey
 Pexels
 Photobucket
+Pics4Learning
 Picsearch
 Pixabay
 Podbean

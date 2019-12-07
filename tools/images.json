@@ -86,6 +86,10 @@
         {
           "name": "Classroom Clipart",
           "searchUrl": "https://classroomclipart.com/clipart-search/all-phrase/{q}/"
+        },
+        {
+          "name": "Pics4Learning",
+          "searchUrl": "http://pics.tech4learning.com/results.php?query={q}"
         }
       ]
     },
@@ -99,6 +103,15 @@
         {
           "name": "Fish and Wildlife Service",
           "searchUrl": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/{q}"
+        }
+      ]
+    },
+    {
+      "name": "Artwork",
+      "tools": [
+        {
+          "name": "Art cyclopedia",
+          "searchUrl": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t={q}"
         }
       ]
     }
