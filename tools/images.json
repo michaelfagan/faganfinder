@@ -75,8 +75,20 @@
           "searchUrl": "https://imgur.com/search?q={q}"
         },
         {
+          "name": "Twitter",
+          "searchUrl": "https://twitter.com/search?f=image&q={q}"
+        },
+        {
+          "name": "500px",
+          "searchUrl": "https://500px.com/search?type=photos&q={q}"
+        },
+        {
           "name": "Flickr",
           "searchUrl": "https://www.flickr.com/search/?text={q}"
+        },
+        {
+          "name": "Facebook",
+          "searchUrl": "https://www.facebook.com/search/photos/?q={q}"
         },
         {
           "name": "Photobucket",
