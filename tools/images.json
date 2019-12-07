@@ -82,6 +82,10 @@
         {
           "name": "Iconfinder",
           "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
+        },
+        {
+          "name": "Classroom Clipart",
+          "searchUrl": "https://classroomclipart.com/clipart-search/all-phrase/{q}/"
         }
       ]
     },

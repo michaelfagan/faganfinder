@@ -10,6 +10,7 @@ Bing
 BookBeat
 CareerOneStop
 Cepolina
+Clipart
 CosmoLearning
 DailyMotion
 DailyStrength
