@@ -1688,6 +1688,16 @@
     "title": "Search results for 'test' | Lit2Go ETC"
   },
   {
+    "url": "https://imagebase.lib.vt.edu/",
+    "status": "301",
+    "title": "ImageBase"
+  },
+  {
+    "url": "https://imagebase.lib.vt.edu/search.php",
+    "status": "301",
+    "title": "Imagebase"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/search",
