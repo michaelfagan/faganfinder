@@ -17,6 +17,14 @@
           "searchUrl": "https://www.google.com/search?tbm=isch&q={q}"
         },
         {
+          "name": "Yandex",
+          "searchUrl": "https://yandex.com/images/search?text={q}"
+        },
+        {
+          "name": "Creative Commons",
+          "searchUrl": "https://ccsearch.creativecommons.org/search?q={q}"
+        },
+        {
           "name": "Picsearch",
           "searchUrl": "https://www.picsearch.com/index.cgi?q={q}"
         }

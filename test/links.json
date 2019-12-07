@@ -1603,6 +1603,17 @@
     "title": "Yahoo View"
   },
   {
+    "url": "https://yandex.com/images/",
+    "status": "302",
+    "redirect": "https://yandex.com/images/?redircnt=1575693268.1"
+  },
+  {
+    "url": "https://yandex.com/images/search?text=test",
+    "status": "302",
+    "redirect": "https://yandex.com/images/search?redircnt=1575693266.1",
+    "title": "Yandex.Images"
+  },
+  {
     "url": "https://yandex.com/video/",
     "status": "302",
     "redirect": "https://yandex.com/video/?redircnt=1574549172.1"
@@ -1981,6 +1992,18 @@
     "url": "https://creativecommons.org/",
     "status": "301",
     "title": "When we share, everyone wins - Creative Commons"
+  },
+  {
+    "url": "https://ccsearch.creativecommons.org/",
+    "status": "301",
+    "redirect": "https://ccsearch.creativecommons.org:443/",
+    "title": "CC Search"
+  },
+  {
+    "url": "https://ccsearch.creativecommons.org/search?q=test",
+    "status": "301",
+    "redirect": "https://ccsearch.creativecommons.org:443/search",
+    "title": "CC Search"
   },
   {
     "url": "https://www.dailystrength.org/",
