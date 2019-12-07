@@ -125,6 +125,10 @@
         {
           "name": "Library of Congress",
           "searchUrl": "https://www.loc.gov/photos/?q={q}"
+        },
+        {
+          "name": "New York Public Library",
+          "searchUrl": "https://digitalcollections.nypl.org/search/index?filters%5Btype%5D=still+image&keywords={q}"
         }
       ]
     }

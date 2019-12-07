@@ -1744,6 +1744,17 @@
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
   },
   {
+    "url": "https://www.loc.gov/photos/",
+    "status": "301",
+    "title": "Photo, Print, Drawing, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://www.loc.gov/photos/?q=test",
+    "status": "301",
+    "redirect": "https://www.loc.gov/photos/",
+    "title": "Search results for  Photo, Print, Drawing, Test, Available Online | Library of Congress"
+  },
+  {
     "url": "https://images.nasa.gov/",
     "status": "301"
   },
@@ -2010,6 +2021,17 @@
     "status": "301",
     "redirect": "https://librivox.org/search",
     "title": "LibriVox"
+  },
+  {
+    "url": "https://digitalcollections.nypl.org/",
+    "status": "301",
+    "title": "NYPL Digital Collections"
+  },
+  {
+    "url": "https://digitalcollections.nypl.org/search/index?filters%5Btype%5D=still+image&keywords=test",
+    "status": "301",
+    "redirect": "https://digitalcollections.nypl.org/search/index",
+    "title": "Search results - \"test\" - NYPL Digital Collections"
   },
   {
     "url": "https://www.pbs.org/search/?q=test",
