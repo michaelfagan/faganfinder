@@ -31,8 +31,25 @@
       ]
     },
     {
+      "name": "Image sites",
+      "tools": [
+        {
+          "name": "Pixabay",
+          "searchUrl": "https://pixabay.com/images/search/{q}/"
+        }
+      ]
+    },
+    {
       "name": "Stock photos",
       "tools": [
+        {
+          "name": "Unsplash",
+          "searchUrl": "https://unsplash.com/s/photos/{q}"
+        },
+        {
+          "name": "Pixabay",
+          "searchUrl": "https://pixabay.com/photos/search/{q}/"
+        },
         {
           "name": "everystockphoto",
           "searchUrl": "http://www.everystockphoto.com/search.php?initialSearch=true&perPage=20&oSort=desc&sSort=1&sLayout=1&x=0&y=0&sBool=and&sLicense%5B%5D=4&sLicense%5B%5D=6&sLicense%5B%5D=2&sLicense%5B%5D=3&sLicense%5B%5D=1&sLicense%5B%5D=5&sLicense%5B%5D=7&sLicense%5B%5D=99&multiselect_sLicense=4&multiselect_sLicense=6&multiselect_sLicense=2&multiselect_sLicense=3&multiselect_sLicense=1&multiselect_sLicense=5&multiselect_sLicense=7&multiselect_sLicense=99&restrict%5B%5D=none&restrict%5B%5D=account&restrict%5B%5D=restrict&sSource%5B%5D=1&sSource%5B%5D=5&sSource%5B%5D=4&sSource%5B%5D=2&sSource%5B%5D=8&sSource%5B%5D=11&sSource%5B%5D=3&sSource%5B%5D=7&sSource%5B%5D=6&sPortrait=on&sLandscape=on&sSquare=on&sMinW=&sMinH=&sDispRes=on&sDispLic=on&sDispSrc=on&sField={q}"
@@ -64,19 +81,11 @@
       ]
     },
     {
-      "name": "Image sharing sites",
+      "name": "Photo sharing sites",
       "tools": [
         {
           "name": "Instagram by tag",
           "searchUrl": "https://www.instagram.com/explore/tags/{q}/"
-        },
-        {
-          "name": "Imgur",
-          "searchUrl": "https://imgur.com/search?q={q}"
-        },
-        {
-          "name": "Twitter",
-          "searchUrl": "https://twitter.com/search?f=image&q={q}"
         },
         {
           "name": "500px",
@@ -105,8 +114,29 @@
       ]
     },
     {
+      "name": "Image sharing sites",
+      "tools": [
+        {
+          "name": "Imgur",
+          "searchUrl": "https://imgur.com/search?q={q}"
+        },
+        {
+          "name": "Twitter",
+          "searchUrl": "https://twitter.com/search?f=image&q={q}"
+        }
+      ]
+    },
+    {
       "name": "Graphics",
       "tools": [
+        {
+          "name": "Pixabay vector",
+          "searchUrl": "https://pixabay.com/vectors/search/{q}/"
+        },
+        {
+          "name": "Pixabay illustration",
+          "searchUrl": "https://pixabay.com/illustrations/search/{q}/"
+        },
         {
           "name": "Iconfinder",
           "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
