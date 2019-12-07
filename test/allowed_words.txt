@@ -111,6 +111,7 @@ SnagFilms
 Spotify
 Spreaker
 Stitcher
+Stockio
 Stockvault
 Storynory
 Streema

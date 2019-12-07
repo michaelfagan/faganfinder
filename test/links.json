@@ -1365,6 +1365,31 @@
     "title": "Stitcher for Podcasts | Search"
   },
   {
+    "url": "https://www.stockio.com/free-icons/?q=test",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-icons/"
+  },
+  {
+    "url": "https://www.stockio.com/free-photos/?q=test",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-photos/"
+  },
+  {
+    "url": "https://www.stockio.com/free-vectors/",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-vectors/"
+  },
+  {
+    "url": "https://www.stockio.com/free-vectors/?q=test",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-vectors/"
+  },
+  {
+    "url": "https://www.stockio.com/",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/"
+  },
+  {
     "url": "https://www.storynory.com/",
     "status": "301",
     "title": "Storynory - Audio Stories for Kids"
