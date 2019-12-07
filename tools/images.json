@@ -64,8 +64,16 @@
       ]
     },
     {
-      "name": "Photo sharing sites",
+      "name": "Image sharing sites",
       "tools": [
+        {
+          "name": "Instagram by tag",
+          "searchUrl": "https://www.instagram.com/explore/tags/{q}/"
+        },
+        {
+          "name": "Imgur",
+          "searchUrl": "https://imgur.com/search?q={q}"
+        },
         {
           "name": "Flickr",
           "searchUrl": "https://www.flickr.com/search/?text={q}"

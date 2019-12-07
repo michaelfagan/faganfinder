@@ -615,6 +615,16 @@
     "title": "Ratings and Reviews for New Movies and TV Shows - IMDb"
   },
   {
+    "url": "https://imgur.com/",
+    "status": "301",
+    "title": "Imgur: The magic of the Internet"
+  },
+  {
+    "url": "https://imgur.com/search?q=test",
+    "status": "301",
+    "redirect": "https://imgur.com/search"
+  },
+  {
     "url": "https://www.imsdb.com/",
     "status": "301",
     "title": "The Internet Movie Script Database (IMSDb)"
@@ -638,6 +648,14 @@
     "url": "http://www.indiepixfilms.com/search-results?type=all&id=test",
     "status": "200",
     "title": "search results for \"test\""
+  },
+  {
+    "url": "https://www.instagram.com/explore/tags/test/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.instagram.com/",
+    "status": "301"
   },
   {
     "url": "https://instantwatcher.com/podcasts/feeds",
