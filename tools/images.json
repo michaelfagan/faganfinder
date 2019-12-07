@@ -84,6 +84,19 @@
           "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
         }
       ]
+    },
+    {
+      "name": "Science and nature",
+      "tools": [
+        {
+          "name": "NASA",
+          "searchUrl": "https://images.nasa.gov/search-results?media=image&q={q}"
+        },
+        {
+          "name": "Fish and Wildlife Service",
+          "searchUrl": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/{q}"
+        }
+      ]
     }
   ]
 }

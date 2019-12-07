@@ -1695,6 +1695,16 @@
     "title": "National Archives |"
   },
   {
+    "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/test",
+    "status": "302",
+    "title": "CONTENTdm"
+  },
+  {
+    "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search",
+    "status": "302",
+    "title": "CONTENTdm"
+  },
+  {
     "url": "https://www.loc.gov/film-and-videos/",
     "status": "301",
     "title": "Film, Video, Available Online | Library of Congress"
@@ -1704,6 +1714,15 @@
     "status": "301",
     "redirect": "https://www.loc.gov/film-and-videos/",
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://images.nasa.gov/",
+    "status": "301"
+  },
+  {
+    "url": "https://images.nasa.gov/search-results?media=image&q=test",
+    "status": "301",
+    "redirect": "https://images.nasa.gov/search-results"
   },
   {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
