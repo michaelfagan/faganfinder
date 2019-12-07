@@ -114,6 +114,19 @@
           "searchUrl": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t={q}"
         }
       ]
+    },
+    {
+      "name": "Regional and historical",
+      "tools": [
+        {
+          "name": "USA.gov",
+          "searchUrl": "https://search.usa.gov/search/images?affiliate=usagov&query={q}"
+        },
+        {
+          "name": "Library of Congress",
+          "searchUrl": "https://www.loc.gov/photos/?q={q}"
+        }
+      ]
     }
   ]
 }
