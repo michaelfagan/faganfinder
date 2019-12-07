@@ -388,6 +388,17 @@
     "title": "Film Festivals, Screenplay Contests, Submissions - FilmFreeway"
   },
   {
+    "url": "https://www.flaticon.com/",
+    "status": "301",
+    "title": "Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons"
+  },
+  {
+    "url": "https://www.flaticon.com/search?word=test",
+    "status": "301",
+    "redirect": "https://www.flaticon.com/search",
+    "title": "Search results for Test - Flaticon"
+  },
+  {
     "url": "https://www.flickr.com/groups",
     "status": "301"
   },
@@ -1475,6 +1486,18 @@
   {
     "url": "https://tenor.com/search/test-gifs",
     "status": "301"
+  },
+  {
+    "url": "https://thenounproject.com/",
+    "status": "302",
+    "redirect": "https://thenounproject.com:443/",
+    "title": "Free Icons for Everything - Noun Project"
+  },
+  {
+    "url": "https://thenounproject.com/search/?q=test",
+    "status": "302",
+    "redirect": "https://thenounproject.com:443/search/",
+    "title": "Noun Project Search"
   },
   {
     "url": "https://www.thetvdb.com/",

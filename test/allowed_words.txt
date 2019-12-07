@@ -29,6 +29,7 @@ Fandom
 FC2
 filmarchives
 FilmFreeway
+Flaticon
 Flickr
 fotocommunity
 FreeDocumentaries
