@@ -304,6 +304,17 @@
     "title": "DoesTheDogDie.com"
   },
   {
+    "url": "https://www.dreamstime.com/free-photos",
+    "status": "301",
+    "title": "Free Stock Photos & Images - Royalty-Free &amp; CC0 Public Domain Images by Dreamstime"
+  },
+  {
+    "url": "https://www.dreamstime.com/free-results.php?searchby=test",
+    "status": "301",
+    "redirect": "https://www.dreamstime.com/free-results.php",
+    "title": "Test Free Stock Photos & Pictures, Test Royalty-Free and Public Domain Images - Dreamstime"
+  },
+  {
     "url": "http://www.everystockphoto.com/",
     "status": "200",
     "title": "everystockphoto - searching free photos"
@@ -468,8 +479,9 @@
     "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com"
   },
   {
-    "url": "https://www.freeimages.com/search/test",
+    "url": "https://www.freeimages.com/search/test?free=1",
     "status": "301",
+    "redirect": "https://www.freeimages.com/search/test",
     "title": "Free test Images, Pictures, and Royalty-Free Stock Photos - FreeImages.com"
   },
   {
