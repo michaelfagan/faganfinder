@@ -23,6 +23,10 @@
         {
           "name": "Picsearch",
           "searchUrl": "https://www.picsearch.com/index.cgi?q={q}"
+        },
+        {
+          "name": "Yahoo",
+          "searchUrl": "https://images.search.yahoo.com/search/images?p={q}"
         }
       ]
     },
@@ -56,8 +60,16 @@
       "name": "Stock photos",
       "tools": [
         {
+          "name": "Canva",
+          "searchUrl": "https://www.canva.com/photos/search/{q}/"
+        },
+        {
           "name": "Unsplash",
           "searchUrl": "https://unsplash.com/s/photos/{q}"
+        },
+        {
+          "name": "Pexels",
+          "searchUrl": "https://www.pexels.com/search/{q}/"
         },
         {
           "name": "Pixabay",
@@ -66,6 +78,10 @@
         {
           "name": "Stockio.com",
           "searchUrl": "https://www.stockio.com/free-photos/?q={q}"
+        },
+        {
+          "name": "Gratisography",
+          "searchUrl": "https://gratisography.com/?s={q}"
         },
         {
           "name": "everystockphoto",
@@ -80,10 +96,6 @@
           "searchUrl": "https://morguefile.com/photos/morguefile/1/{q}/pop"
         },
         {
-          "name": "DHD Multimedia Gallery",
-          "searchUrl": "http://gallery.hd.org/_cat/doHTMLSearch.jsp?q={q}"
-        },
-        {
           "name": "Image * After",
           "searchUrl": "http://www.imageafter.com/search.php?search={q}"
         },
@@ -94,6 +106,10 @@
         {
           "name": "Cepolina",
           "searchUrl": "https://www.cepolina.com/photo.aspx?S={q}"
+        },
+        {
+          "name": "DHD Multimedia Gallery",
+          "searchUrl": "http://gallery.hd.org/_cat/doHTMLSearch.jsp?q={q}"
         }
       ]
     },
@@ -127,6 +143,10 @@
         {
           "name": "fotocommunity",
           "searchUrl": "https://www.fotocommunity.com/photos?term={q}"
+        },
+        {
+          "name": "Fotki",
+          "searchUrl": "https://search.fotki.com/?q={q}"
         }
       ]
     },
@@ -225,6 +245,10 @@
           "name": "Virginia Tech ImageBase",
           "searchUrl": "https://imagebase.lib.vt.edu/search.php",
           "post": "searchTerm"
+        },
+        {
+          "name": "WorldCat",
+          "searchUrl": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q={q}"
         }
       ]
     }

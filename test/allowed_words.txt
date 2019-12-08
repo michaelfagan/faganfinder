@@ -9,6 +9,7 @@ Audioburst
 Bechdel
 Bing
 BookBeat
+Canva
 CareerOneStop
 Cepolina
 Clipart
@@ -31,6 +32,7 @@ filmarchives
 FilmFreeway
 Flaticon
 Flickr
+Fotki
 fotocommunity
 FreeDocumentaries
 Freeimages
@@ -38,6 +40,7 @@ GIFs
 Giphy
 Globo
 Goodreads
+Gratisography
 GroupSpaces
 Howcast
 Hulu
@@ -141,6 +144,7 @@ Vimeo
 WatchKnowLearn
 WeeklyScript
 Wikimedia
+WorldCat
 wwiTV
 Yandex
 Youku
