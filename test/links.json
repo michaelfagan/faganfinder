@@ -453,6 +453,12 @@
     "title": "Search: video | Flickr"
   },
   {
+    "url": "https://foter.com/search/instant/?q=test",
+    "status": "301",
+    "redirect": "https://foter.com/search/instant/",
+    "title": "Search \"test\" Free Photos & Stock Images - Foter"
+  },
+  {
     "url": "https://search.fotki.com/?q=test",
     "status": "302",
     "redirect": "https://search.fotki.com/",

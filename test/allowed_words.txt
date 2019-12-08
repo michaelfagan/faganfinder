@@ -33,6 +33,7 @@ filmarchives
 FilmFreeway
 Flaticon
 Flickr
+Foter
 Fotki
 fotocommunity
 FreeDocumentaries
