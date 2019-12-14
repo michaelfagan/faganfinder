@@ -9,6 +9,8 @@ AddType text/html shtml
 RewriteEngine On
 RewriteBase /
 
+RewriteCond %{HTTPS} !=on
+RewriteRule img/$ https://www.faganfinder.com/img/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
 RewriteRule video/$ https://www.faganfinder.com/video/ [R=301,L]
@@ -21,6 +23,7 @@ RewriteRule listen/$ https://www.faganfinder.com/listen/ [R=301,L]
 
 
 # new pages
+RewriteRule img/$ images.html [L]
 RewriteRule video/$ video.html [L]
 RewriteRule group/$ groups.html [L]
 RewriteRule listen/$ listen.html [L]
