@@ -11,7 +11,6 @@ Bing
 BookBeat
 Canva
 CareerOneStop
-Cepolina
 Clipart
 CosmoLearning
 cyclopedia
@@ -19,11 +18,11 @@ DailyMotion
 DailyStrength
 de
 DeviantArt
-DHD
 DocumentaryHeaven
 Dreamstime
 ebooks
 Europeana
+Everypixel
 everystockphoto
 Fagan
 faganfinder
@@ -42,7 +41,6 @@ GIFs
 Giphy
 Globo
 Goodreads
-Gratisography
 GroupSpaces
 Howcast
 Hulu
@@ -89,6 +87,7 @@ Pexels
 Photobucket
 Pics4Learning
 Picsearch
+Picspree
 Pixabay
 Podbean
 Podchaser
@@ -130,6 +129,7 @@ TellMe
 TheTVDB
 ThoughtAudio
 TikTok
+Tookapic
 Tubi
 TuneIn
 TVmaze
