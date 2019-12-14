@@ -118,6 +118,27 @@
       ]
     },
     {
+      "name": "Non-free stock photos",
+      "tools": [
+        {
+          "name": "Getty Images",
+          "searchUrl": "https://www.gettyimages.com/photos/smile?sort=best&phrase={q}"
+        },
+        {
+          "name": "iStock",
+          "searchUrl": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase={q}"
+        },
+        {
+          "name": "Shutterstock",
+          "searchUrl": "https://www.shutterstock.com/search/{q}?image_type=photo"
+        },
+        {
+          "name": "Adobe Stock",
+          "searchUrl": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k={q}"
+        }
+      ]
+    },
+    {
       "name": "Photo sharing sites",
       "tools": [
         {

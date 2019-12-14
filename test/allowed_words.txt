@@ -57,6 +57,7 @@ InstantWatcher
 io
 iQIYI
 IRC
+iStock
 JustWatch
 Kobo
 LibriVox
@@ -109,6 +110,7 @@ searchable
 SHOUTcast
 Showtimes
 showtimes
+Shutterstock
 SimplyScripts
 Slofile
 SmugMug

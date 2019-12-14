@@ -71,6 +71,15 @@
     "title": "The Best In Advertising, Design &amp; Digital - Creativity Online"
   },
   {
+    "url": "https://stock.adobe.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k=test",
+    "status": "301",
+    "redirect": "https://stock.adobe.com/search/images"
+  },
+  {
     "url": "https://search.alexanderstreet.com/",
     "status": "301",
     "title": "Alexander Street, a ProQuest Company"
@@ -501,6 +510,15 @@
     "title": "Search Online Courses, Lecture Videos, Video tutorials"
   },
   {
+    "url": "https://www.gettyimages.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.gettyimages.com/photos/smile?sort=best&phrase=test",
+    "status": "301",
+    "redirect": "https://www.gettyimages.com/photos/smile"
+  },
+  {
     "url": "https://giphy.com/",
     "status": "403",
     "title": "Access to this page has been denied."
@@ -736,6 +754,15 @@
     "url": "https://www.iqiyi.com/",
     "status": "302",
     "title": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
+  },
+  {
+    "url": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase=test",
+    "status": "301",
+    "redirect": "https://www.istockphoto.com/search/2/image"
+  },
+  {
+    "url": "https://www.istockphoto.com/stock-photos",
+    "status": "301"
   },
   {
     "url": "https://www.justwatch.com/au/search?q=test",
@@ -1335,6 +1362,15 @@
   {
     "url": "https://directory.shoutcast.com/",
     "status": "200"
+  },
+  {
+    "url": "https://www.shutterstock.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.shutterstock.com/search/test?image_type=photo",
+    "status": "301",
+    "redirect": "https://www.shutterstock.com/search/test"
   },
   {
     "url": "https://www.simplyscripts.com/cgi-bin/search.pl?search=test",
