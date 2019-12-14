@@ -1,0 +1,281 @@
+{
+  "description": {
+    "internal": "photographs, illustrations, icons, artwork",
+    "external": "Find images of all types with this comprehensive collection of search engines and databases."
+  },
+  "path": "img/",
+  "sections": [
+    {
+      "name": "Search engines",
+      "tools": [
+        {
+          "name": "Bing",
+          "searchUrl": "https://www.bing.com/images/search?q={q}"
+        },
+        {
+          "name": "Google",
+          "searchUrl": "https://www.google.com/search?tbm=isch&q={q}"
+        },
+        {
+          "name": "Yandex",
+          "searchUrl": "https://yandex.com/images/search?text={q}"
+        },
+        {
+          "name": "Picsearch",
+          "searchUrl": "https://www.picsearch.com/index.cgi?q={q}"
+        },
+        {
+          "name": "Yahoo",
+          "searchUrl": "https://images.search.yahoo.com/search/images?p={q}"
+        }
+      ]
+    },
+    {
+      "name": "Open licences",
+      "tools": [
+        {
+          "name": "Creative Commons",
+          "searchUrl": "https://ccsearch.creativecommons.org/search?q={q}"
+        },
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/details/image?and%5B%5D={q}"
+        },
+        {
+          "name": "Wikimedia",
+          "searchUrl": "https://commons.m.wikimedia.org/w/index.php?search={q}"
+        }
+      ]
+    },
+    {
+      "name": "Image sites",
+      "tools": [
+        {
+          "name": "Pixabay",
+          "searchUrl": "https://pixabay.com/images/search/{q}/"
+        }
+      ]
+    },
+    {
+      "name": "Free photos",
+      "tools": [
+        {
+          "name": "Everypixel",
+          "searchUrl": "https://www.everypixel.com/search?stocks_type=free&media_type=0&page=1&q={q}"
+        },
+        {
+          "name": "Pixabay",
+          "searchUrl": "https://pixabay.com/photos/search/{q}/"
+        },
+        {
+          "name": "everystockphoto",
+          "searchUrl": "http://www.everystockphoto.com/search.php?initialSearch=true&perPage=20&oSort=desc&sSort=1&sLayout=1&x=0&y=0&sBool=and&sLicense%5B%5D=4&sLicense%5B%5D=6&sLicense%5B%5D=2&sLicense%5B%5D=3&sLicense%5B%5D=1&sLicense%5B%5D=5&sLicense%5B%5D=7&sLicense%5B%5D=99&multiselect_sLicense=4&multiselect_sLicense=6&multiselect_sLicense=2&multiselect_sLicense=3&multiselect_sLicense=1&multiselect_sLicense=5&multiselect_sLicense=7&multiselect_sLicense=99&restrict%5B%5D=none&restrict%5B%5D=account&restrict%5B%5D=restrict&sSource%5B%5D=1&sSource%5B%5D=5&sSource%5B%5D=4&sSource%5B%5D=2&sSource%5B%5D=8&sSource%5B%5D=11&sSource%5B%5D=3&sSource%5B%5D=7&sSource%5B%5D=6&sPortrait=on&sLandscape=on&sSquare=on&sMinW=&sMinH=&sDispRes=on&sDispLic=on&sDispSrc=on&sField={q}"
+        },
+        {
+          "name": "Picspree",
+          "searchUrl": "https://picspree.com/en/search/{q}"
+        },
+        {
+          "name": "Unsplash",
+          "searchUrl": "https://unsplash.com/s/photos/{q}"
+        },
+        {
+          "name": "Canva",
+          "searchUrl": "https://www.canva.com/photos/search/{q}/"
+        },
+        {
+          "name": "Freeimages",
+          "searchUrl": "https://www.freeimages.com/search/{q}?free=1"
+        },
+        {
+          "name": "Tookapic",
+          "searchUrl": "https://tookapic.com/search/photos?q={q}"
+        },
+        {
+          "name": "Pexels",
+          "searchUrl": "https://www.pexels.com/search/{q}/"
+        },
+        {
+          "name": "Dreamstime",
+          "searchUrl": "https://www.dreamstime.com/free-results.php?s_free=y&s_cc0=y&searchby={q}"
+        },
+        {
+          "name": "Morguefile",
+          "searchUrl": "https://morguefile.com/photos/morguefile/1/{q}/pop"
+        },
+        {
+          "name": "Stockvault.net",
+          "searchUrl": "https://www.stockvault.net/free-photos/{q}/"
+        },
+        {
+          "name": "Foter",
+          "searchUrl": "https://foter.com/search/instant/?q={q}"
+        },
+        {
+          "name": "Visual Hunt",
+          "searchUrl": "https://visualhunt.com/search/instant/?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Non-free stock photos",
+      "tools": [
+        {
+          "name": "Getty Images",
+          "searchUrl": "https://www.gettyimages.com/photos/smile?sort=best&phrase={q}"
+        },
+        {
+          "name": "iStock",
+          "searchUrl": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase={q}"
+        },
+        {
+          "name": "Shutterstock",
+          "searchUrl": "https://www.shutterstock.com/search/{q}?image_type=photo"
+        },
+        {
+          "name": "Adobe Stock",
+          "searchUrl": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k={q}"
+        }
+      ]
+    },
+    {
+      "name": "Photo sharing sites",
+      "tools": [
+        {
+          "name": "Instagram by tag",
+          "searchUrl": "https://www.instagram.com/explore/tags/{q}/"
+        },
+        {
+          "name": "500px",
+          "searchUrl": "https://500px.com/search?type=photos&q={q}"
+        },
+        {
+          "name": "Flickr",
+          "searchUrl": "https://www.flickr.com/search/?text={q}"
+        },
+        {
+          "name": "Facebook",
+          "searchUrl": "https://www.facebook.com/search/photos/?q={q}"
+        },
+        {
+          "name": "Photobucket",
+          "searchUrl": "https://beta.photobucket.com/search?source=COMMUNITY&query={q}"
+        },
+        {
+          "name": "SmugMug",
+          "searchUrl": "https://www.smugmug.com/search?q={q}"
+        },
+        {
+          "name": "fotocommunity",
+          "searchUrl": "https://www.fotocommunity.com/photos?term={q}"
+        },
+        {
+          "name": "Fotki",
+          "searchUrl": "https://search.fotki.com/?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Image sharing sites",
+      "tools": [
+        {
+          "name": "Imgur",
+          "searchUrl": "https://imgur.com/search?q={q}"
+        },
+        {
+          "name": "Twitter",
+          "searchUrl": "https://twitter.com/search?f=image&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Graphics",
+      "tools": [
+        {
+          "name": "Pixabay vector",
+          "searchUrl": "https://pixabay.com/vectors/search/{q}/"
+        },
+        {
+          "name": "Pixabay illustration",
+          "searchUrl": "https://pixabay.com/illustrations/search/{q}/"
+        },
+        {
+          "name": "Noun Project",
+          "searchUrl": "https://thenounproject.com/search/?q={q}"
+        },
+        {
+          "name": "Flaticon",
+          "searchUrl": "https://www.flaticon.com/search?word={q}"
+        },
+        {
+          "name": "Stockio.com vector",
+          "searchUrl": "https://www.stockio.com/free-vectors/?q={q}"
+        },
+        {
+          "name": "Stockio.com icons",
+          "searchUrl": "https://www.stockio.com/free-icons/?q={q}"
+        },
+        {
+          "name": "Iconfinder",
+          "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
+        },
+        {
+          "name": "Classroom Clipart",
+          "searchUrl": "https://classroomclipart.com/clipart-search/all-phrase/{q}/"
+        },
+        {
+          "name": "Pics4Learning",
+          "searchUrl": "http://pics.tech4learning.com/results.php?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Science and nature",
+      "tools": [
+        {
+          "name": "NASA",
+          "searchUrl": "https://images.nasa.gov/search-results?media=image&q={q}"
+        },
+        {
+          "name": "Fish and Wildlife Service",
+          "searchUrl": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/{q}"
+        }
+      ]
+    },
+    {
+      "name": "Artwork",
+      "tools": [
+        {
+          "name": "Art cyclopedia",
+          "searchUrl": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t={q}"
+        }
+      ]
+    },
+    {
+      "name": "Regional and historical",
+      "tools": [
+        {
+          "name": "USA.gov",
+          "searchUrl": "https://search.usa.gov/search/images?affiliate=usagov&query={q}"
+        },
+        {
+          "name": "Library of Congress",
+          "searchUrl": "https://www.loc.gov/photos/?q={q}"
+        },
+        {
+          "name": "New York Public Library",
+          "searchUrl": "https://digitalcollections.nypl.org/search/index?filters%5Btype%5D=still+image&keywords={q}"
+        },
+        {
+          "name": "Virginia Tech ImageBase",
+          "searchUrl": "https://imagebase.lib.vt.edu/search.php",
+          "post": "searchTerm"
+        },
+        {
+          "name": "WorldCat",
+          "searchUrl": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q={q}"
+        }
+      ]
+    }
+  ]
+}

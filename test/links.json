@@ -49,6 +49,17 @@
     "title": "Search - NFB"
   },
   {
+    "url": "https://500px.com/search?type=photos&q=test",
+    "status": "301",
+    "redirect": "https://500px.com:443/search",
+    "title": "test photos / 500px"
+  },
+  {
+    "url": "https://web.500px.com/",
+    "status": "301",
+    "title": "500px"
+  },
+  {
     "url": "https://adage.com/creativity/search?search_phrase=test",
     "status": "301",
     "redirect": "https://adage.com/creativity/search",
@@ -58,6 +69,15 @@
     "url": "https://adage.com/creativity",
     "status": "301",
     "title": "The Best In Advertising, Design &amp; Digital - Creativity Online"
+  },
+  {
+    "url": "https://stock.adobe.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k=test",
+    "status": "301",
+    "redirect": "https://stock.adobe.com/search/images"
   },
   {
     "url": "https://search.alexanderstreet.com/",
@@ -115,6 +135,14 @@
     "title": "iTunes - Podcasts - Discovering Podcasts - Apple"
   },
   {
+    "url": "http://www.artcyclopedia.com/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t=test",
+    "status": "200"
+  },
+  {
     "url": "https://www.asiancrush.com/?s=test",
     "status": "200",
     "title": "AsianCrush | Watch Your Favorite Asian Movies &amp; Shows"
@@ -166,6 +194,18 @@
     "title": "Search - Bechdel Test Movie List"
   },
   {
+    "url": "https://www.bing.com/images/search?q=test",
+    "status": "302",
+    "redirect": "/?scope=images&nr=1&FORM=NOFORM",
+    "title": "test - Bing images"
+  },
+  {
+    "url": "https://www.bing.com/images/trending",
+    "status": "302",
+    "redirect": "/?scope=images&nr=1&FORM=NOFORM",
+    "title": "Object moved"
+  },
+  {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
     "status": "302",
     "redirect": "/videos?FORM=HDRSC2",
@@ -181,6 +221,26 @@
     "url": "http://www.bing.com/videos/trending",
     "status": "200",
     "title": "Bing video"
+  },
+  {
+    "url": "https://www.canva.com/photos/free/",
+    "status": "403",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "url": "https://www.canva.com/photos/search/test/",
+    "status": "403",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "url": "https://classroomclipart.com/clipart-search/all-phrase/test/",
+    "status": "301",
+    "title": ">Search Results for test - Clip Art - Pictures - Graphics - Illustrations"
+  },
+  {
+    "url": "https://classroomclipart.com/",
+    "status": "301",
+    "title": "Free Clipart - Clip Art Pictures - Graphics - Illustrations - Royalty Free Photographs"
   },
   {
     "url": "https://www.dailymotion.com/",
@@ -242,14 +302,56 @@
     "title": "DoesTheDogDie.com"
   },
   {
+    "url": "https://www.dreamstime.com/free-photos",
+    "status": "301",
+    "title": "Free Stock Photos & Images - Royalty-Free &amp; CC0 Public Domain Images by Dreamstime"
+  },
+  {
+    "url": "https://www.dreamstime.com/free-results.php?s_free=y&s_cc0=y&searchby=test",
+    "status": "301",
+    "redirect": "https://www.dreamstime.com/free-results.php",
+    "title": "Test Free Stock Photos & Pictures, Test Royalty-Free and Public Domain Images - Dreamstime"
+  },
+  {
+    "url": "https://www.everypixel.com/",
+    "status": "301",
+    "title": "Stock Image Search Engine - More Than 50 Best Sources | Everypixel"
+  },
+  {
+    "url": "https://www.everypixel.com/search?stocks_type=free&media_type=0&page=1&q=test",
+    "status": "301",
+    "redirect": "https://www.everypixel.com/search",
+    "title": "Everypixel.com | Search"
+  },
+  {
+    "url": "http://www.everystockphoto.com/",
+    "status": "200",
+    "title": "everystockphoto - searching free photos"
+  },
+  {
+    "url": "http://www.everystockphoto.com/search.php?initialSearch=true&perPage=20&oSort=desc&sSort=1&sLayout=1&x=0&y=0&sBool=and&sLicense%5B%5D=4&sLicense%5B%5D=6&sLicense%5B%5D=2&sLicense%5B%5D=3&sLicense%5B%5D=1&sLicense%5B%5D=5&sLicense%5B%5D=7&sLicense%5B%5D=99&multiselect_sLicense=4&multiselect_sLicense=6&multiselect_sLicense=2&multiselect_sLicense=3&multiselect_sLicense=1&multiselect_sLicense=5&multiselect_sLicense=7&multiselect_sLicense=99&restrict%5B%5D=none&restrict%5B%5D=account&restrict%5B%5D=restrict&sSource%5B%5D=1&sSource%5B%5D=5&sSource%5B%5D=4&sSource%5B%5D=2&sSource%5B%5D=8&sSource%5B%5D=11&sSource%5B%5D=3&sSource%5B%5D=7&sSource%5B%5D=6&sPortrait=on&sLandscape=on&sSquare=on&sMinW=&sMinH=&sDispRes=on&sDispLic=on&sDispSrc=on&sField=test",
+    "status": "302",
+    "redirect": "/index.php",
+    "title": "test | search results - everystockphoto - searching free photos"
+  },
+  {
     "url": "https://www.facebook.com/groups/?category=discover",
     "status": "302",
     "redirect": "https://www.facebook.com/groups/"
   },
   {
+    "url": "https://www.facebook.com/",
+    "status": "302"
+  },
+  {
     "url": "https://www.facebook.com/search/groups/?q=test",
     "status": "302",
     "redirect": "https://www.facebook.com/search/groups/"
+  },
+  {
+    "url": "https://www.facebook.com/search/photos/?q=test",
+    "status": "302",
+    "redirect": "https://www.facebook.com/search/photos/"
   },
   {
     "url": "https://www.facebook.com/watch/",
@@ -316,8 +418,24 @@
     "title": "Film Festivals, Screenplay Contests, Submissions - FilmFreeway"
   },
   {
+    "url": "https://www.flaticon.com/",
+    "status": "301",
+    "title": "Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons"
+  },
+  {
+    "url": "https://www.flaticon.com/search?word=test",
+    "status": "301",
+    "redirect": "https://www.flaticon.com/search",
+    "title": "Search results for Test - Flaticon"
+  },
+  {
     "url": "https://www.flickr.com/groups",
     "status": "301"
+  },
+  {
+    "url": "https://www.flickr.com/",
+    "status": "301",
+    "title": "Find your inspiration. | Flickr"
   },
   {
     "url": "https://www.flickr.com/search/groups/?text=test",
@@ -332,10 +450,54 @@
     "title": "Search: test | Flickr"
   },
   {
+    "url": "https://www.flickr.com/search/?text=test",
+    "status": "301",
+    "redirect": "https://www.flickr.com/search/",
+    "title": "Search: test | Flickr"
+  },
+  {
     "url": "https://www.flickr.com/search/?text=video&media=videos",
     "status": "301",
     "redirect": "https://www.flickr.com/search/",
     "title": "Search: video | Flickr"
+  },
+  {
+    "url": "https://foter.com/search/instant/?q=test",
+    "status": "301",
+    "redirect": "https://foter.com/search/instant/",
+    "title": "Search \"test\" Free Photos & Stock Images - Foter"
+  },
+  {
+    "url": "https://search.fotki.com/?q=test",
+    "status": "302",
+    "redirect": "https://search.fotki.com/",
+    "title": "test - Global Fotki.com Search | Fotki.com, photo and video sharing made easy."
+  },
+  {
+    "url": "https://www.fotki.com/",
+    "status": "302"
+  },
+  {
+    "url": "https://www.fotocommunity.com/",
+    "status": "301",
+    "title": "fotocommunity"
+  },
+  {
+    "url": "https://www.fotocommunity.com/photos?term=test",
+    "status": "301",
+    "redirect": "https://www.fotocommunity.com/photos",
+    "title": "Test photos & pictures on fotocommunity"
+  },
+  {
+    "url": "https://www.freeimages.com/",
+    "status": "301",
+    "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com"
+  },
+  {
+    "url": "https://www.freeimages.com/search/test?free=1",
+    "status": "301",
+    "redirect": "https://www.freeimages.com/search/test",
+    "title": "Free test Images, Pictures, and Royalty-Free Stock Photos - FreeImages.com"
   },
   {
     "url": "https://freevideolectures.com/",
@@ -346,6 +508,15 @@
     "url": "https://freevideolectures.com/search/test/",
     "status": "301",
     "title": "Search Online Courses, Lecture Videos, Video tutorials"
+  },
+  {
+    "url": "https://www.gettyimages.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.gettyimages.com/photos/smile?sort=best&phrase=test",
+    "status": "301",
+    "redirect": "https://www.gettyimages.com/photos/smile"
   },
   {
     "url": "https://giphy.com/",
@@ -399,6 +570,11 @@
     "redirect": "http://groups.google.com/d/homeredir"
   },
   {
+    "url": "https://images.google.com/",
+    "status": "200",
+    "title": "Google Images"
+  },
+  {
     "url": "https://play.google.com/store/books/category/audiobooks",
     "status": "301"
   },
@@ -430,6 +606,12 @@
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:imsdb.com OR site:simplyscripts.com OR site:scripts.com OR site:springfieldspringfield.co.uk OR site:sfy.ru OR site:awesomefilm.com OR site:script-o-rama.com OR site:dailyscript.com OR site:thescriptlab.com/screenwriting-101/screenplay - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=isch&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",
@@ -480,6 +662,17 @@
     "title": "Search  for &quot;test&quot; - Howcast | The best how-to videos"
   },
   {
+    "url": "https://www.iconfinder.com/",
+    "status": "301",
+    "title": "3,925,000+ free and premium vector icons. SVG, PNG, AI, CSH and PNG format."
+  },
+  {
+    "url": "https://www.iconfinder.com/search/?price=free&q=test",
+    "status": "301",
+    "redirect": "https://www.iconfinder.com/search/",
+    "title": "Test icons - 87 free & premium icons on Iconfinder"
+  },
+  {
     "url": "https://www.iheart.com/",
     "status": "301"
   },
@@ -497,6 +690,16 @@
     "url": "https://www.imdb.com/",
     "status": "301",
     "title": "Ratings and Reviews for New Movies and TV Shows - IMDb"
+  },
+  {
+    "url": "https://imgur.com/",
+    "status": "301",
+    "title": "Imgur: The magic of the Internet"
+  },
+  {
+    "url": "https://imgur.com/search?q=test",
+    "status": "301",
+    "redirect": "https://imgur.com/search"
   },
   {
     "url": "https://www.imsdb.com/",
@@ -524,6 +727,14 @@
     "title": "search results for \"test\""
   },
   {
+    "url": "https://www.instagram.com/explore/tags/test/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.instagram.com/",
+    "status": "301"
+  },
+  {
     "url": "https://instantwatcher.com/podcasts/feeds",
     "status": "301",
     "title": "instantwatcher podcasts - Search Podcasts"
@@ -543,6 +754,15 @@
     "url": "https://www.iqiyi.com/",
     "status": "302",
     "title": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
+  },
+  {
+    "url": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase=test",
+    "status": "301",
+    "redirect": "https://www.istockphoto.com/search/2/image"
+  },
+  {
+    "url": "https://www.istockphoto.com/stock-photos",
+    "status": "301"
   },
   {
     "url": "https://www.justwatch.com/au/search?q=test",
@@ -705,6 +925,16 @@
     "title": "Mixcloud - Making radio better | Mixcloud"
   },
   {
+    "url": "https://morguefile.com/",
+    "status": "301",
+    "title": "Morguefile.com free photographs for commercial use"
+  },
+  {
+    "url": "https://morguefile.com/photos/morguefile/1/test/pop",
+    "status": "301",
+    "title": "Morguefile.com free photographs for commercial use"
+  },
+  {
     "url": "https://www.moviefone.com/",
     "status": "302",
     "title": "Movies | Showtimes | Movie Tickets | Theaters | Moviefone"
@@ -832,6 +1062,16 @@
     "redirect": "https://www.peteyvid.com/index.php"
   },
   {
+    "url": "https://www.pexels.com/",
+    "status": "301",
+    "title": "Free stock photos · Pexels"
+  },
+  {
+    "url": "https://www.pexels.com/search/test/",
+    "status": "301",
+    "title": "Test Images · Pexels · Free Stock Photos"
+  },
+  {
     "url": "https://www.pexels.com/search/videos/test/",
     "status": "301",
     "title": "20+ Engaging Test Videos  Pexels · Free Stock Videos"
@@ -842,6 +1082,39 @@
     "title": "Free stock videos · Pexels Videos"
   },
   {
+    "url": "https://beta.photobucket.com/search",
+    "status": "301",
+    "redirect": "https://beta.photobucket.com:443/search",
+    "title": "Photobucket"
+  },
+  {
+    "url": "https://beta.photobucket.com/search?source=COMMUNITY&query=test",
+    "status": "301",
+    "redirect": "https://beta.photobucket.com:443/search",
+    "title": "Photobucket"
+  },
+  {
+    "url": "https://www.picsearch.com/",
+    "status": "302",
+    "title": " Pictures"
+  },
+  {
+    "url": "https://www.picsearch.com/index.cgi?q=test",
+    "status": "302",
+    "redirect": "https://www.picsearch.com/index.cgi",
+    "title": "test Pictures"
+  },
+  {
+    "url": "https://picspree.com/en/search/test",
+    "status": "301",
+    "title": "Free test Images, Stock Photos &amp; Backgrounds | Picspree"
+  },
+  {
+    "url": "https://picspree.com/en",
+    "status": "301",
+    "title": "Free Stock Photos, Images, Illustrations &amp; Vectors for any use |"
+  },
+  {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
     "status": "301",
     "redirect": "https://pixabay.com/en/videos/list/"
@@ -850,6 +1123,26 @@
     "url": "https://pixabay.com/",
     "status": "301",
     "title": "1 million+ Stunning Free Images to Use Anywhere - Pixabay"
+  },
+  {
+    "url": "https://pixabay.com/illustrations/search/test/",
+    "status": "301",
+    "title": "300+ Free Test &amp; Chemistry Illustrations - Pixabay"
+  },
+  {
+    "url": "https://pixabay.com/images/search/test/",
+    "status": "301",
+    "title": "1,000+ Free Test &amp; Laboratory Images - Pixabay"
+  },
+  {
+    "url": "https://pixabay.com/photos/search/test/",
+    "status": "301",
+    "title": "600+ Free Test &amp; Laboratory Photos - Pixabay"
+  },
+  {
+    "url": "https://pixabay.com/vectors/search/test/",
+    "status": "301",
+    "title": "100+ Free Test &amp; Chemistry Vectors - Pixabay"
   },
   {
     "url": "https://www.podbean.com/all",
@@ -1071,6 +1364,15 @@
     "status": "200"
   },
   {
+    "url": "https://www.shutterstock.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.shutterstock.com/search/test?image_type=photo",
+    "status": "301",
+    "redirect": "https://www.shutterstock.com/search/test"
+  },
+  {
     "url": "https://www.simplyscripts.com/cgi-bin/search.pl?search=test",
     "status": "301",
     "redirect": "https://www.simplyscripts.com/cgi-bin/search.pl",
@@ -1095,6 +1397,15 @@
     "status": "301",
     "redirect": "https://slofile.com/slack",
     "title": "test communities - Slofile"
+  },
+  {
+    "url": "https://www.smugmug.com/",
+    "status": "500"
+  },
+  {
+    "url": "https://www.smugmug.com/search?q=test",
+    "status": "200",
+    "title": "Looking for Photos? Find Millions Here at SmugMug"
   },
   {
     "url": "http://www.snagfilms.com/",
@@ -1149,6 +1460,21 @@
     "title": "Stitcher for Podcasts | Search"
   },
   {
+    "url": "https://www.stockio.com/free-icons/?q=test",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-icons/"
+  },
+  {
+    "url": "https://www.stockio.com/free-vectors/",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-vectors/"
+  },
+  {
+    "url": "https://www.stockio.com/free-vectors/?q=test",
+    "status": "301",
+    "redirect": "https://www.www.stockio.com/free-vectors/"
+  },
+  {
     "url": "https://www.storynory.com/",
     "status": "301",
     "title": "Storynory - Audio Stories for Kids"
@@ -1191,6 +1517,16 @@
     "title": "Search"
   },
   {
+    "url": "http://pics.tech4learning.com/",
+    "status": "200",
+    "title": "Free Photos for Education | Pics4Learning"
+  },
+  {
+    "url": "http://pics.tech4learning.com/results.php?query=test",
+    "status": "200",
+    "title": "Free Photos for Education | Pics4Learning"
+  },
+  {
     "url": "https://www.ted.com/",
     "status": "301",
     "title": "TED: Ideas worth spreading"
@@ -1226,6 +1562,18 @@
     "status": "301"
   },
   {
+    "url": "https://thenounproject.com/",
+    "status": "302",
+    "redirect": "https://thenounproject.com:443/",
+    "title": "Free Icons for Everything - Noun Project"
+  },
+  {
+    "url": "https://thenounproject.com/search/?q=test",
+    "status": "302",
+    "redirect": "https://thenounproject.com:443/search/",
+    "title": "Noun Project Search"
+  },
+  {
     "url": "https://www.thetvdb.com/",
     "status": "301",
     "title": "Welcome - TheTVDB.com"
@@ -1250,6 +1598,17 @@
     "url": "https://www.tiktok.com/tag/test",
     "status": "301",
     "title": "#test videos on TikTok"
+  },
+  {
+    "url": "https://tookapic.com/",
+    "status": "307",
+    "title": "365 Project Made Easy - Tookapic"
+  },
+  {
+    "url": "https://tookapic.com/search/photos?q=test",
+    "status": "307",
+    "redirect": "https://tookapic.com/search/photos",
+    "title": "Search Photos - Tookapic"
   },
   {
     "url": "https://topdocumentaryfilms.com/",
@@ -1328,6 +1687,12 @@
     "title": "Twitter. It&#39;s what&#39;s happening."
   },
   {
+    "url": "https://twitter.com/search?f=image&q=test",
+    "status": "301",
+    "redirect": "https://twitter.com/search",
+    "title": "News about test on Twitter"
+  },
+  {
     "url": "https://twitter.com/search?f=videos&q=test",
     "status": "301",
     "redirect": "https://twitter.com/search",
@@ -1341,6 +1706,14 @@
   {
     "url": "http://unlistedvideos.com/search.php",
     "status": "200"
+  },
+  {
+    "url": "https://unsplash.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://unsplash.com/s/photos/test",
+    "status": "301"
   },
   {
     "url": "https://www.veoh.com/find/test",
@@ -1381,6 +1754,17 @@
     "status": "301",
     "redirect": "https://vimeo.com/search",
     "title": "VimeUhOh"
+  },
+  {
+    "url": "https://visualhunt.com/",
+    "status": "301",
+    "title": "Visual Hunt"
+  },
+  {
+    "url": "https://visualhunt.com/search/instant/?q=test",
+    "status": "301",
+    "redirect": "https://visualhunt.com/search/instant/",
+    "title": "Search \"test\" Free Photos & Stock Images - Visual Hunt"
   },
   {
     "url": "https://www.weeklyscript.com/",
@@ -1424,6 +1808,17 @@
     "title": "Yahoo! Groups"
   },
   {
+    "url": "https://images.search.yahoo.com/",
+    "status": "301",
+    "title": "Yahoo Image Search"
+  },
+  {
+    "url": "https://images.search.yahoo.com/search/images?p=test",
+    "status": "301",
+    "redirect": "https://images.search.yahoo.com/search/images",
+    "title": "test - Yahoo Image Search Results"
+  },
+  {
     "url": "https://view.yahoo.com/",
     "status": "301",
     "title": "Yahoo View"
@@ -1433,6 +1828,17 @@
     "status": "301",
     "redirect": "https://view.yahoo.com/search",
     "title": "Yahoo View"
+  },
+  {
+    "url": "https://yandex.com/images/",
+    "status": "302",
+    "redirect": "https://yandex.com/images/?redircnt=1575693268.1"
+  },
+  {
+    "url": "https://yandex.com/images/search?text=test",
+    "status": "302",
+    "redirect": "https://yandex.com/images/search?redircnt=1575693266.1",
+    "title": "Yandex.Images"
   },
   {
     "url": "https://yandex.com/video/",
@@ -1520,6 +1926,16 @@
     "title": "Search results for 'test' | Lit2Go ETC"
   },
   {
+    "url": "https://imagebase.lib.vt.edu/",
+    "status": "301",
+    "title": "ImageBase"
+  },
+  {
+    "url": "https://imagebase.lib.vt.edu/search.php",
+    "status": "301",
+    "title": "Imagebase"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/search",
@@ -1555,6 +1971,16 @@
     "title": "National Archives |"
   },
   {
+    "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/test",
+    "status": "302",
+    "title": "CONTENTdm"
+  },
+  {
+    "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search",
+    "status": "302",
+    "title": "CONTENTdm"
+  },
+  {
     "url": "https://www.loc.gov/film-and-videos/",
     "status": "301",
     "title": "Film, Video, Available Online | Library of Congress"
@@ -1564,6 +1990,37 @@
     "status": "301",
     "redirect": "https://www.loc.gov/film-and-videos/",
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://www.loc.gov/photos/",
+    "status": "301",
+    "title": "Photo, Print, Drawing, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://www.loc.gov/photos/?q=test",
+    "status": "301",
+    "redirect": "https://www.loc.gov/photos/",
+    "title": "Search results for  Photo, Print, Drawing, Test, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://images.nasa.gov/",
+    "status": "301"
+  },
+  {
+    "url": "https://images.nasa.gov/search-results?media=image&q=test",
+    "status": "301",
+    "redirect": "https://images.nasa.gov/search-results"
+  },
+  {
+    "url": "https://search.usa.gov/search/images?affiliate=usagov&query=test",
+    "status": "308",
+    "redirect": "https://search.usa.gov/search/images",
+    "title": "test - USA.gov Search Results"
+  },
+  {
+    "url": "https://www.usa.gov/",
+    "status": "301",
+    "title": "USA.gov: The U.S. Government&#039;s Official Web Portal  &#124; USAGov"
   },
   {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
@@ -1627,6 +2084,16 @@
     "title": "Squid TV"
   },
   {
+    "url": "https://www.stockvault.net/free-photos/test/",
+    "status": "301",
+    "title": "Free test Stock Photos - Stockvault.net"
+  },
+  {
+    "url": "https://www.stockvault.net/",
+    "status": "301",
+    "title": "Free Stock Photos | Free Images and Vectors | Stockvault"
+  },
+  {
     "url": "http://videolectures.net/",
     "status": "200",
     "title": "VideoLectures.NET - VideoLectures.NET"
@@ -1657,6 +2124,17 @@
     "url": "https://archive.org/details/audio",
     "status": "301",
     "title": "Download &amp; Streaming : Audio Archive : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/image?and%5B%5D=test",
+    "status": "301",
+    "redirect": "https://archive.org/details/image",
+    "title": "Download &amp; Streaming : Image : Internet Archive"
+  },
+  {
+    "url": "https://archive.org/details/image",
+    "status": "301",
+    "title": "Download &amp; Streaming : Image : Internet Archive"
   },
   {
     "url": "https://archive.org/details/movies?and[]=test",
@@ -1754,6 +2232,18 @@
     "title": "When we share, everyone wins - Creative Commons"
   },
   {
+    "url": "https://ccsearch.creativecommons.org/",
+    "status": "301",
+    "redirect": "https://ccsearch.creativecommons.org:443/",
+    "title": "CC Search"
+  },
+  {
+    "url": "https://ccsearch.creativecommons.org/search?q=test",
+    "status": "301",
+    "redirect": "https://ccsearch.creativecommons.org:443/search",
+    "title": "CC Search"
+  },
+  {
     "url": "https://www.dailystrength.org/",
     "status": "302",
     "title": "DailyStrength: Online Support Groups and Forums"
@@ -1792,6 +2282,17 @@
     "status": "301",
     "redirect": "https://librivox.org/search",
     "title": "LibriVox"
+  },
+  {
+    "url": "https://digitalcollections.nypl.org/",
+    "status": "301",
+    "title": "NYPL Digital Collections"
+  },
+  {
+    "url": "https://digitalcollections.nypl.org/search/index?filters%5Btype%5D=still+image&keywords=test",
+    "status": "301",
+    "redirect": "https://digitalcollections.nypl.org/search/index",
+    "title": "Search results - \"test\" - NYPL Digital Collections"
   },
   {
     "url": "https://www.pbs.org/search/?q=test",
@@ -1854,6 +2355,16 @@
     "status": "200"
   },
   {
+    "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
+    "status": "301",
+    "redirect": "https://commons.m.wikimedia.org/w/index.php"
+  },
+  {
+    "url": "https://commons.m.wikimedia.org/wiki/Main_Page",
+    "status": "301",
+    "title": "Wikimedia Commons"
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
     "status": "301",
     "title": "Bechdel test - Wikipedia"
@@ -1872,6 +2383,17 @@
     "url": "https://en.wikipedia.org/wiki/Usenet",
     "status": "301",
     "title": "Usenet - Wikipedia"
+  },
+  {
+    "url": "https://www.worldcat.org/",
+    "status": "301",
+    "title": "WorldCat.org: The World's Largest Library Catalog"
+  },
+  {
+    "url": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q=test",
+    "status": "301",
+    "redirect": "https://www.worldcat.org/search",
+    "title": "Results for 'test' &gt; 'image +-2d;' [WorldCat.org]"
   },
   {
     "url": "https://tune.pk/search_result.php?query=test",
