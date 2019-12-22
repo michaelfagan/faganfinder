@@ -13,19 +13,20 @@ See http://www.faganfinder.com/
 
 ## Make changes
 
-1. `bundle install` (may prompt to install Aspell)
-2. To make changes
+1. `bundle install`
+2. `brew install aspell`
+3. To make changes
     * search tools in `tools/*.json`
     * content in `tools/*.html`
     * page template in `index.erb.html`
     * CSS in `index.scss.css` and some inline in the HTML
     * JavaScript in `index.js`
-3. `ruby build.rb`
-4. fix any errors reported and repeat step 3
+4. `ruby build.rb`
+5. fix any errors reported and repeat step 3
     * any new (and existing) links that are found to be possibly broken can be viewed on `test/bad_links.html` and tested manually
     * any new valid words that are reported as misspelled can be added to the end of `test/allowed_words.txt` and it will be sorted when rebuilding
-5. view final output as above
-6. review diffs, commit, push
+6. view final output as above
+7. review diffs, commit, push
 
 
 ## Understanding Google Analytics events
