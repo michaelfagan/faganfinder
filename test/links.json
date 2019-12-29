@@ -49,6 +49,32 @@
     "title": "Search - NFB"
   },
   {
+    "url": "https://www.etools.ch/",
+    "status": "301",
+    "title": "eTools.ch - The Transparent Metasearch Engine from Switzerland"
+  },
+  {
+    "url": "https://www.etools.ch/searchSubmit.do?query=test",
+    "status": "301",
+    "redirect": "https://www.etools.ch/searchSubmit.do",
+    "title": "test - eTools.ch Metasearch"
+  },
+  {
+    "url": "https://swisscows.ch/",
+    "status": "301",
+    "title": "Swisscows die alternative, datensichere Suchmaschine."
+  },
+  {
+    "url": "https://m.sm.cn/",
+    "status": "301",
+    "title": "神马搜索"
+  },
+  {
+    "url": "https://duck.co/ia",
+    "status": "302",
+    "title": "Index: Instant Answers"
+  },
+  {
     "url": "https://500px.com/search?type=photos&q=test",
     "status": "301",
     "redirect": "https://500px.com:443/search",
@@ -101,6 +127,18 @@
     "title": "Top search results for \"test\" | AllMovie"
   },
   {
+    "url": "http://wiki.answers.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.answers.com/search",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "http://www.answers.com/",
+    "status": "301",
+    "redirect": "https://www.answers.com/",
+    "title": "301 Moved Permanently"
+  },
+  {
     "url": "https://www.aol.com/video/",
     "status": "301",
     "title": "AOL Video - Serving the best video content from AOL and around the web"
@@ -128,6 +166,11 @@
     "url": "http://www.aparchive.com/search?query=test",
     "status": "200",
     "title": "test | AP Archive"
+  },
+  {
+    "url": "https://www.apple.com/ca/siri/",
+    "status": "301",
+    "title": "Siri - Apple (CA)"
   },
   {
     "url": "https://www.apple.com/itunes/podcasts/discover/",
@@ -184,6 +227,17 @@
     "title": "Listen to top audio clips on test | Audioburst Search"
   },
   {
+    "url": "http://www.baidu.com/",
+    "status": "200",
+    "title": "百度一下，你就知道"
+  },
+  {
+    "url": "http://www.baidu.com/s?wd=test",
+    "status": "302",
+    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=10212095388936373795&signature=bae8a3f8a7731f90b0872a2918adc437&timestamp=1577577263",
+    "title": "test_百度搜索"
+  },
+  {
     "url": "http://bechdeltest.com/",
     "status": "200",
     "title": "Bechdel Test Movie List"
@@ -192,6 +246,11 @@
     "url": "http://bechdeltest.com/search",
     "status": "404",
     "title": "Search - Bechdel Test Movie List"
+  },
+  {
+    "url": "http://www.bing.com/",
+    "status": "200",
+    "title": "Bing"
   },
   {
     "url": "https://www.bing.com/images/search?q=test",
@@ -204,6 +263,30 @@
     "status": "302",
     "redirect": "/?scope=images&nr=1&FORM=NOFORM",
     "title": "Object moved"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA",
+    "title": "test - Bing"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez2%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA",
+    "title": "test - Bing"
+  },
+  {
+    "url": "http://www.bing.com/search?filters=ex1%3a%22ez3%22&q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA",
+    "title": "test - Bing"
+  },
+  {
+    "url": "http://www.bing.com/search?q=test",
+    "status": "302",
+    "redirect": "/?scope=web&mkt=en-CA",
+    "title": "test - Bing"
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -221,6 +304,53 @@
     "url": "http://www.bing.com/videos/trending",
     "status": "200",
     "title": "Bing video"
+  },
+  {
+    "url": "https://biznar.com/biznar/desktop/en/search.html",
+    "status": "301"
+  },
+  {
+    "url": "https://www.blurtit.com/",
+    "status": "301",
+    "title": "Ask Questions, Get Free Answers - Blurtit"
+  },
+  {
+    "url": "https://www.blurtit.com/search/?search-query=test",
+    "status": "301",
+    "redirect": "https://www.blurtit.com/search/",
+    "title": "Blurtit - Search Page"
+  },
+  {
+    "url": "http://boardreader.com/",
+    "status": "200",
+    "title": "Boardreader - Forum Search Engine"
+  },
+  {
+    "url": "http://boardreader.com/s/test.html",
+    "status": "200",
+    "title": "Boardreader - Forum Search Engine"
+  },
+  {
+    "url": "https://brainly.com/app/ask?q=test",
+    "status": "301",
+    "redirect": "https://brainly.com/app/ask",
+    "title": "Brainly.com - For students. By students."
+  },
+  {
+    "url": "https://brainly.com/",
+    "status": "301",
+    "title": "Brainly.com - For students. By students."
+  },
+  {
+    "url": "https://www.britannica.com/",
+    "status": "301",
+    "title": "Encyclopedia Britannica | Britannica"
+  },
+  {
+    "url": "https://www.britannica.com/search?query=test",
+    "status": "301",
+    "redirect": "https://www.britannica.com/search",
+    "title": "Search | Britannica"
   },
   {
     "url": "https://www.canva.com/photos/free/",
@@ -241,6 +371,17 @@
     "url": "https://classroomclipart.com/",
     "status": "301",
     "title": "Free Clipart - Clip Art Pictures - Graphics - Illustrations - Royalty Free Photographs"
+  },
+  {
+    "url": "https://coccoc.com/search",
+    "status": "303",
+    "title": "Cốc Cốc"
+  },
+  {
+    "url": "https://coccoc.com/search?query=test",
+    "status": "303",
+    "redirect": "https://coccoc.com/search",
+    "title": "Cốc Cốc"
   },
   {
     "url": "https://www.dailymotion.com/",
@@ -313,6 +454,38 @@
     "title": "Test Free Stock Photos & Pictures, Test Royalty-Free and Public Domain Images - Dreamstime"
   },
   {
+    "url": "https://duckduckgo.com/bang",
+    "status": "301",
+    "title": "DuckDuckGo !Bang"
+  },
+  {
+    "url": "https://duckduckgo.com/",
+    "status": "301",
+    "title": "DuckDuckGo — Privacy, simplified."
+  },
+  {
+    "url": "https://duckduckgo.com/?q=test",
+    "status": "301",
+    "redirect": "https://duckduckgo.com/",
+    "title": "test at DuckDuckGo"
+  },
+  {
+    "url": "https://help.duckduckgo.com/results/syntax/",
+    "status": "301",
+    "title": "DuckDuckGo Search Syntax | DuckDuckGo Help Pages"
+  },
+  {
+    "url": "https://www.edocr.com/",
+    "status": "301",
+    "title": "Increase SEO and share documents online with edocr."
+  },
+  {
+    "url": "https://www.edocr.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.edocr.com/search",
+    "title": "Search Results - test | edocr"
+  },
+  {
     "url": "https://www.everypixel.com/",
     "status": "301",
     "title": "Stock Image Search Engine - More Than 50 Best Sources | Everypixel"
@@ -335,6 +508,20 @@
     "title": "test | search results - everystockphoto - searching free photos"
   },
   {
+    "url": "http://www.exalead.com/search/web/",
+    "status": "200"
+  },
+  {
+    "url": "http://www.exalead.com/search/web/results/?q=test",
+    "status": "302",
+    "redirect": "http://www.exalead.com/search/web/"
+  },
+  {
+    "url": "https://www.exalead.com/search/web/search-syntax/",
+    "status": "200",
+    "title": "Web Search Syntax - Exalead"
+  },
+  {
     "url": "https://www.facebook.com/groups/?category=discover",
     "status": "302",
     "redirect": "https://www.facebook.com/groups/"
@@ -352,6 +539,11 @@
     "url": "https://www.facebook.com/search/photos/?q=test",
     "status": "302",
     "redirect": "https://www.facebook.com/search/photos/"
+  },
+  {
+    "url": "https://www.facebook.com/search/top/?q=test",
+    "status": "302",
+    "redirect": "https://www.facebook.com/search/top/"
   },
   {
     "url": "https://www.facebook.com/watch/",
@@ -519,6 +711,21 @@
     "redirect": "https://www.gettyimages.com/photos/smile"
   },
   {
+    "url": "https://www.gigablast.com/",
+    "status": "200",
+    "title": "Gigablast - An Alternative Web Search Engine"
+  },
+  {
+    "url": "http://www.gigablast.com/search?q=test",
+    "status": "200",
+    "title": "Gigablast Search Results"
+  },
+  {
+    "url": "http://www.gigablast.com/syntax.html",
+    "status": "200",
+    "title": "Gigablast - syntax"
+  },
+  {
     "url": "https://giphy.com/",
     "status": "403",
     "title": "Access to this page has been denied."
@@ -565,6 +772,11 @@
     "title": "Google Groups"
   },
   {
+    "url": "https://groups.google.com/forum/#!search/test",
+    "status": "200",
+    "title": "Google Groups"
+  },
+  {
     "url": "https://groups.google.com/",
     "status": "301",
     "redirect": "http://groups.google.com/d/homeredir"
@@ -584,10 +796,26 @@
     "redirect": "https://play.google.com/store/search"
   },
   {
+    "url": "https://support.google.com/websearch/answer/2466433",
+    "status": "301",
+    "title": "Refine web searches - Google Search Help"
+  },
+  {
+    "url": "https://www.google.com/",
+    "status": "200",
+    "title": "Google"
+  },
+  {
     "url": "https://www.google.com/search?q=site%3Apodcasts.apple.com%20test",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "site:podcasts.apple.com test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test data OR spreadsheet OR csv OR tsv OR json OR rdf OR xml - Google Search"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -606,6 +834,18 @@
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:imsdb.com OR site:simplyscripts.com OR site:scripts.com OR site:springfieldspringfield.co.uk OR site:sfy.ru OR site:awesomefilm.com OR site:script-o-rama.com OR site:dailyscript.com OR site:thescriptlab.com/screenwriting-101/screenplay - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test database OR directory OR \"search engine\" OR catalogue OR archive OR library OR warehouse OR repository - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
   },
   {
     "url": "https://www.google.com/search?tbm=isch&q=test",
@@ -632,6 +872,42 @@
     "title": "test - Google Search"
   },
   {
+    "url": "https://www.google.com/search?tbs=li:1&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:d&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:h&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:m&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:w&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbs=qdr:y&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
     "url": "https://www.google.com/videohp",
     "status": "200",
     "title": "Google Videos"
@@ -640,6 +916,17 @@
     "url": "http://groupspaces.com/",
     "status": "200",
     "title": "Free Group Website, Membership Database, Listserv Mailing List, Online Group Management Software : GroupSpaces"
+  },
+  {
+    "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
+    "status": "301",
+    "title": "Object moved"
+  },
+  {
+    "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term=test",
+    "status": "301",
+    "redirect": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
+    "title": "Object moved"
   },
   {
     "url": "https://www.hoopladigital.com/",
@@ -756,6 +1043,18 @@
     "title": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
   },
   {
+    "url": "https://issuu.com/",
+    "status": "301",
+    "redirect": "https://issuu.com:443/",
+    "title": "Digital Publishing Platform for Magazines, Catalogs, and more - Issuu"
+  },
+  {
+    "url": "https://issuu.com/search?q=test",
+    "status": "301",
+    "redirect": "https://issuu.com:443/search",
+    "title": "test – issuu Search"
+  },
+  {
     "url": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase=test",
     "status": "301",
     "redirect": "https://www.istockphoto.com/search/2/image"
@@ -763,6 +1062,20 @@
   {
     "url": "https://www.istockphoto.com/stock-photos",
     "status": "301"
+  },
+  {
+    "url": "http://j-archive.com/",
+    "status": "200",
+    "title": "J! Archive"
+  },
+  {
+    "url": "http://j-archive.com/search.php?search=test",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.jeopardy.com/",
+    "status": "301",
+    "title": "Jeopardy! Official Site | Jeopardy.com"
   },
   {
     "url": "https://www.justwatch.com/au/search?q=test",
@@ -813,6 +1126,16 @@
     "status": "200"
   },
   {
+    "url": "https://knoema.com/",
+    "status": "200",
+    "title": "Free data, statistics, analysis, visualization &amp; sharing - knoema.com"
+  },
+  {
+    "url": "https://knoema.com/search?query=test",
+    "status": "200",
+    "title": "Search - knoema.com"
+  },
+  {
     "url": "https://www.kobo.com/ca/en/audiobooks",
     "status": "301",
     "redirect": "https://www.kobo.com/p/blackfridayaudiobooks"
@@ -834,9 +1157,19 @@
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fgroups%2F"
   },
   {
+    "url": "https://www.linkedin.com/",
+    "status": "200",
+    "title": "LinkedIn: Log In or Sign Up"
+  },
+  {
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
     "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fgroups%2F"
+  },
+  {
+    "url": "https://www.linkedin.com/search/results/index/?keywords=test",
+    "status": "200",
+    "title": "LinkedIn"
   },
   {
     "url": "https://www.listennotes.com/",
@@ -910,6 +1243,17 @@
     "title": "403 Forbidden"
   },
   {
+    "url": "https://ask.metafilter.com/",
+    "status": "301",
+    "title": "Ask MetaFilter"
+  },
+  {
+    "url": "https://ask.metafilter.com/search.mefi?site=ask&q=test",
+    "status": "301",
+    "redirect": "https://ask.metafilter.com/search.mefi",
+    "title": "Search | Ask MetaFilter"
+  },
+  {
     "url": "http://mibbit.com/",
     "status": "200",
     "title": "Mibbit.com - Easy and fast Webchat in your browser"
@@ -920,9 +1264,45 @@
     "title": "Channel search  &gt; test"
   },
   {
+    "url": "http://help.bing.microsoft.com/#apex/18/en/10001/-1",
+    "status": "200"
+  },
+  {
+    "url": "http://help.bing.microsoft.com/#apex/18/en/10002/-1",
+    "status": "200"
+  },
+  {
+    "url": "https://millionshort.com/",
+    "status": "301",
+    "title": "Million Short - What haven't you found?"
+  },
+  {
+    "url": "https://millionshort.com/search?remove=10000&keywords=test",
+    "status": "301",
+    "redirect": "https://millionshort.com/search",
+    "title": "Million Short - What haven't you found?"
+  },
+  {
+    "url": "https://millionshort.com/search?shopping=y&keywords=test",
+    "status": "301",
+    "redirect": "https://millionshort.com/search",
+    "title": "Million Short - What haven't you found?"
+  },
+  {
     "url": "https://www.mixcloud.com/",
     "status": "301",
     "title": "Mixcloud - Making radio better | Mixcloud"
+  },
+  {
+    "url": "https://www.mojeek.com/",
+    "status": "301",
+    "title": "Mojeek "
+  },
+  {
+    "url": "https://www.mojeek.com/search?q=test",
+    "status": "302",
+    "redirect": "/",
+    "title": "test - Mojeek Search"
   },
   {
     "url": "https://morguefile.com/",
@@ -955,6 +1335,11 @@
     "title": "Search Results | Movies.com"
   },
   {
+    "url": "https://moz.com/learn/seo/search-operators",
+    "status": "301",
+    "title": "Google Search Operators | Learn SEO - Moz"
+  },
+  {
     "url": "https://mytuner-radio.com/",
     "status": "301",
     "title": "Listen to your favorite online radio stations - myTuner"
@@ -981,6 +1366,11 @@
     "title": "Search Page"
   },
   {
+    "url": "https://search.naver.com/search.naver?query=test",
+    "status": "200",
+    "title": "test : 네이버 통합검색"
+  },
+  {
     "url": "https://tv.naver.com/",
     "status": "301"
   },
@@ -988,6 +1378,11 @@
     "url": "https://tv.naver.com/search?query=test",
     "status": "301",
     "redirect": "https://tv.naver.com/search"
+  },
+  {
+    "url": "https://www.naver.com/",
+    "status": "302",
+    "title": "NAVER"
   },
   {
     "url": "https://nextdoor.com/",
@@ -1012,6 +1407,18 @@
     "url": "http://www.openculture.com/freeaudiobooks",
     "status": "200",
     "title": "1,000 Free Audio Books: Download Great Books for Free |  Open Culture"
+  },
+  {
+    "url": "https://data.opendatasoft.com/explore/?q=test",
+    "status": "301",
+    "redirect": "https://data.opendatasoft.com:443/explore/",
+    "title": "Explore &mdash; Opendatasoft"
+  },
+  {
+    "url": "https://data.opendatasoft.com/page/home/",
+    "status": "301",
+    "redirect": "https://data.opendatasoft.com:443/page/home/",
+    "title": "Home &mdash; Opendatasoft"
   },
   {
     "url": "https://www.opened.com/search",
@@ -1045,6 +1452,17 @@
     "url": "https://www.pandora.com/",
     "status": "302",
     "redirect": "http://www.pandora.com/restricted"
+  },
+  {
+    "url": "https://peekier.com/#!test",
+    "status": "301",
+    "redirect": "https://peekier.com/",
+    "title": "peekier - A new way to search"
+  },
+  {
+    "url": "https://peekier.com/",
+    "status": "301",
+    "title": "peekier - A new way to search"
   },
   {
     "url": "https://www.peteyvid.com/",
@@ -1113,6 +1531,26 @@
     "url": "https://picspree.com/en",
     "status": "301",
     "title": "Free Stock Photos, Images, Illustrations &amp; Vectors for any use |"
+  },
+  {
+    "url": "https://www.pinterest.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.pinterest.com/search/pins/?q=test",
+    "status": "301",
+    "redirect": "https://www.pinterest.com/search/pins/"
+  },
+  {
+    "url": "https://www.pipilika.com/",
+    "status": "301",
+    "title": "পিপীলিকা (বাংলা সার্চ ইঞ্জিন)"
+  },
+  {
+    "url": "https://www.pipilika.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.pipilika.com/search",
+    "title": "পিপীলিকা (বাংলা সার্চ ইঞ্জিন)"
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
@@ -1208,6 +1646,15 @@
     "title": "Watch Free Movies &amp; TV Shows Online  | Popcornflix"
   },
   {
+    "url": "https://prezi.com/explore/popular/",
+    "status": "301"
+  },
+  {
+    "url": "https://prezi.com/explore/search/?search=test",
+    "status": "301",
+    "redirect": "https://prezi.com/explore/search/"
+  },
+  {
     "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
     "status": "301",
     "redirect": "https://www.proboards.com/forum-directory/search/results/1",
@@ -1229,14 +1676,46 @@
     "title": "Find Group Therapy, Support Groups, Group Counseling - Psychology Today"
   },
   {
+    "url": "https://www.question.com/",
+    "status": "301",
+    "title": "Ask Questions, Get Answers - Question.com"
+  },
+  {
+    "url": "https://www.question.com/search/?query=test",
+    "status": "301",
+    "redirect": "https://www.question.com/search/",
+    "title": "Results for 'test' - Question.com"
+  },
+  {
     "url": "https://www.quora.com/",
     "status": "301",
     "title": "Quora - A place to share knowledge and better understand the world"
   },
   {
+    "url": "https://www.quora.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.quora.com/search"
+  },
+  {
     "url": "https://www.quora.com/search?type=topic&q=test",
     "status": "301",
     "redirect": "https://www.quora.com/search"
+  },
+  {
+    "url": "https://help.qwant.com/help/qwant-search/searching/refine-search-with-operators/",
+    "status": "301",
+    "title": "Refine its search with operators - Qwant Help Center"
+  },
+  {
+    "url": "https://www.qwant.com/",
+    "status": "301",
+    "title": "Qwant"
+  },
+  {
+    "url": "https://www.qwant.com/?q=test",
+    "status": "301",
+    "redirect": "https://www.qwant.com/",
+    "title": "Qwant"
   },
   {
     "url": "https://radio-locator.com/",
@@ -1264,6 +1743,17 @@
     "title": "reddit: the front page of the internet"
   },
   {
+    "url": "https://www.reddit.com/r/datasets/",
+    "status": "301",
+    "title": "reddit: the front page of the internet"
+  },
+  {
+    "url": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/r/datasets/search",
+    "title": "reddit: the front page of the internet"
+  },
+  {
     "url": "https://www.reddit.com/r/lectures/",
     "status": "301",
     "title": "reddit: the front page of the internet"
@@ -1272,6 +1762,12 @@
     "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/r/lectures/search",
+    "title": "reddit: the front page of the internet"
+  },
+  {
+    "url": "https://www.reddit.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/search",
     "title": "reddit: the front page of the internet"
   },
   {
@@ -1288,6 +1784,11 @@
     "url": "https://reelgood.com/search?q=test",
     "status": "301",
     "redirect": "https://reelgood.com/search"
+  },
+  {
+    "url": "https://restoreprivacy.com/private-search-engine/",
+    "status": "301",
+    "title": "13 Best Private Search Engines for 2019 | Restore Privacy"
   },
   {
     "url": "https://www.reuters.com/search/video?blob=test",
@@ -1343,6 +1844,16 @@
   {
     "url": "http://screenit.com/",
     "status": "200"
+  },
+  {
+    "url": "https://www.scribd.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.scribd.com/search?payment=free&content_type=documents&query=test",
+    "status": "301",
+    "redirect": "https://www.scribd.com/search",
+    "title": "Search | Scribd"
   },
   {
     "url": "https://scribl.com/browse?bf=audio_ebooks:podcasts&search=test",
@@ -1412,9 +1923,66 @@
     "status": "200"
   },
   {
+    "url": "https://www.snopes.com/",
+    "status": "301",
+    "title": "Snopes.com - The definitive fact-checking site and reference source for urban legends, folklore, myths, rumors, and misinformation."
+  },
+  {
+    "url": "https://www.snopes.com/?s=test",
+    "status": "301",
+    "redirect": "https://www.snopes.com/",
+    "title": "You searched for test - Snopes.com"
+  },
+  {
+    "url": "https://www.social-searcher.com/",
+    "status": "301",
+    "title": "Social Searcher - Free Social Media Search Engine"
+  },
+  {
+    "url": "https://www.social-searcher.com/social-buzz/?q5=test",
+    "status": "301",
+    "redirect": "https://www.social-searcher.com/social-buzz/",
+    "title": "  Social Buzz &#8211; Free Social Mentions Search and Monitoring"
+  },
+  {
+    "url": "http://socialmention.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://socialmention.com/search?q=test",
+    "status": "timeout"
+  },
+  {
+    "url": "https://opendata.socrata.com/",
+    "status": "301",
+    "title": "Socrata"
+  },
+  {
+    "url": "https://www.sogou.com/",
+    "status": "302",
+    "title": "搜狗搜索引擎 - 上网从搜狗开始"
+  },
+  {
+    "url": "https://www.sogou.com/web?query=test",
+    "status": "302",
+    "redirect": "http://www.sogou.com/",
+    "title": "test - 搜狗搜索"
+  },
+  {
     "url": "https://www.sonycrackle.com/",
     "status": "301",
     "title": ""
+  },
+  {
+    "url": "https://www.so.com/",
+    "status": "302",
+    "title": "360搜索，SO靠谱"
+  },
+  {
+    "url": "https://www.so.com/s?q=test",
+    "status": "302",
+    "redirect": "/s",
+    "title": "302 Found"
   },
   {
     "url": "https://open.spotify.com/browse/podcasts",
@@ -1447,6 +2015,30 @@
     "status": "302",
     "redirect": "https://www.spreaker.com/search",
     "title": "Test"
+  },
+  {
+    "url": "https://stackexchange.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://stackexchange.com/search?q=test",
+    "status": "301",
+    "redirect": "https://stackexchange.com/search"
+  },
+  {
+    "url": "https://startpage.com/do/search",
+    "status": "301",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://startpage.com/",
+    "status": "301",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.statista.com/",
+    "status": "301",
+    "title": "&bull; Statista - The Statistics Portal for Market Data, Market Research and Market Studies"
   },
   {
     "url": "https://www.stitcher.com/",
@@ -1498,6 +2090,23 @@
     "url": "https://online.supportgroups.com/",
     "status": "301",
     "title": "Online Support Groups | Support Groups"
+  },
+  {
+    "url": "https://www.sweetsearch.com/",
+    "status": "302",
+    "title": "SweetSearch - A Search Engine for Students"
+  },
+  {
+    "url": "https://www.sweetsearch.com/search?q=test",
+    "status": "302",
+    "redirect": "https://www.sweetsearch.com/search",
+    "title": "SweetSearch - A Search Engine for Students"
+  },
+  {
+    "url": "https://swisscows.com/web?&query=test",
+    "status": "301",
+    "redirect": "https://swisscows.com/web",
+    "title": "Swisscows die alternative, datensichere Suchmaschine."
   },
   {
     "url": "https://swwitv.com/search.php?zoom_query=test",
@@ -1622,12 +2231,33 @@
     "title": "Search Results - Top Documentary Films"
   },
   {
+    "url": "https://www.truthorfiction.com/",
+    "status": "301",
+    "title": "Truth or Fiction? - Seeking truth, exposing fiction"
+  },
+  {
+    "url": "https://www.truthorfiction.com/?s=test",
+    "status": "301",
+    "redirect": "https://www.truthorfiction.com/",
+    "title": "You searched for test - Truth or Fiction?"
+  },
+  {
     "url": "https://tubitv.com/",
     "status": "301"
   },
   {
     "url": "https://tubitv.com/search/test",
     "status": "301"
+  },
+  {
+    "url": "https://www.tumblr.com/",
+    "status": "301",
+    "title": "Sign up | Tumblr"
+  },
+  {
+    "url": "https://www.tumblr.com/search/test",
+    "status": "301",
+    "title": "test | Tumblr"
   },
   {
     "url": "https://tunein.com/",
@@ -1694,6 +2324,12 @@
   },
   {
     "url": "https://twitter.com/search?f=videos&q=test",
+    "status": "301",
+    "redirect": "https://twitter.com/search",
+    "title": "test - Twitter Search"
+  },
+  {
+    "url": "https://twitter.com/search?q=test",
     "status": "301",
     "redirect": "https://twitter.com/search",
     "title": "test - Twitter Search"
@@ -1782,6 +2418,32 @@
     "title": "What is my movie? - test"
   },
   {
+    "url": "http://www.wikiwand.com/en/test?fullSearch=true",
+    "status": "301",
+    "redirect": "/en/Test"
+  },
+  {
+    "url": "http://www.wikiwand.com/",
+    "status": "200",
+    "title": "Wikiwand"
+  },
+  {
+    "url": "https://www.wolframalpha.com/",
+    "status": "302",
+    "title": "Wolfram|Alpha: Computational Intelligence"
+  },
+  {
+    "url": "https://www.wolframalpha.com/input/?i=test",
+    "status": "302",
+    "redirect": "https://www.wolframalpha.com/input/",
+    "title": "test - Wolfram|Alpha"
+  },
+  {
+    "url": "https://www.wolframalpha.com/tour/",
+    "status": "302",
+    "title": "Wolfram|Alpha Tour"
+  },
+  {
     "url": "https://www.wonderhowto.com/",
     "status": "301",
     "title": "Wonder How To &#187; Fresh Hacks For a Changing World"
@@ -1830,6 +2492,11 @@
     "title": "Yahoo View"
   },
   {
+    "url": "https://yandex.com/",
+    "status": "302",
+    "title": "Yandex"
+  },
+  {
     "url": "https://yandex.com/images/",
     "status": "302",
     "redirect": "https://yandex.com/images/?redircnt=1575693268.1"
@@ -1841,15 +2508,42 @@
     "title": "Yandex.Images"
   },
   {
+    "url": "https://yandex.com/support/search/query-language/search-context.html",
+    "status": "302",
+    "title": "Word forms (morphology) and search context - Search. Help"
+  },
+  {
+    "url": "https://yandex.com/support/search/query-language/search-operators.html",
+    "status": "302",
+    "title": "Document operators - Search. Help"
+  },
+  {
     "url": "https://yandex.com/video/",
     "status": "302",
     "redirect": "https://yandex.com/video/?redircnt=1574549172.1"
+  },
+  {
+    "url": "https://www.yandex.com/search/?text=test",
+    "status": "302",
+    "redirect": "https://www.yandex.com/search/?lr=10115&redircnt=1577577041.1",
+    "title": "Yandex"
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
     "status": "302",
     "redirect": "https://www.yandex.com/video/search?redircnt=1574549173.1",
     "title": "Yandex.Video"
+  },
+  {
+    "url": "https://www.yippy.com/",
+    "status": "301",
+    "title": "Yippy, powered by IBM Watson"
+  },
+  {
+    "url": "https://www.yippy.com/search?query=test",
+    "status": "301",
+    "redirect": "https://www.yippy.com/search",
+    "title": "Yippy.com - test"
   },
   {
     "url": "https://so.youku.com/search_video/q_test",
@@ -1903,6 +2597,26 @@
     "status": "301",
     "redirect": "https://www.youtube.com/results",
     "title": "test - YouTube"
+  },
+  {
+    "url": "http://www.zanran.com/q/",
+    "status": "200",
+    "title": "Zanran Numerical Data Search"
+  },
+  {
+    "url": "http://www.zanran.com/q/test",
+    "status": "200",
+    "title": "test | Zanran"
+  },
+  {
+    "url": "https://search.seznam.cz/?q=test",
+    "status": "302",
+    "redirect": "https://search.seznam.cz/",
+    "title": "test – Seznam.cz"
+  },
+  {
+    "url": "https://www.seznam.cz/",
+    "status": "302"
   },
   {
     "url": "https://netsplit.de/channels/?chat=test",
@@ -2033,6 +2747,20 @@
     "title": "Community Radio Station Board"
   },
   {
+    "url": "https://datahub.io/",
+    "status": "301"
+  },
+  {
+    "url": "https://datahub.io/search?q=test",
+    "status": "301",
+    "redirect": "https://datahub.io/search"
+  },
+  {
+    "url": "https://echosim.io/",
+    "status": "301",
+    "title": "Redirecting..."
+  },
+  {
     "url": "https://getyarn.io/",
     "status": "301",
     "title": "Yarn | Find video clips by quote | GetYarn.io"
@@ -2055,6 +2783,11 @@
     "title": "Related subreddits based on your comments"
   },
   {
+    "url": "https://asciimoo.github.io/searx/",
+    "status": "200",
+    "title": "Welcome to searx &#8212; searx 0.12.0 documentation"
+  },
+  {
     "url": "http://youtube.github.io/geo-search-tool/search.html",
     "status": "200",
     "title": "Geo Search Tool"
@@ -2071,12 +2804,55 @@
     "title": "Search"
   },
   {
+    "url": "http://parsijoo.ir/",
+    "status": "200",
+    "title": "پارسی جو: جستجوگر ایرانی"
+  },
+  {
+    "url": "http://parsijoo.ir/web?q=test",
+    "status": "400",
+    "title": "پارسی جو: جستجوگر ایرانی - test"
+  },
+  {
     "url": "http://www.nicovideo.jp/",
     "status": "200"
   },
   {
     "url": "http://www.nicovideo.jp/search/test",
     "status": "200"
+  },
+  {
+    "url": "https://search.daum.net/search?q=test",
+    "status": "301",
+    "redirect": "http://search.daum.net/search?w=tot&",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.daum.net/",
+    "status": "302",
+    "title": "Daum"
+  },
+  {
+    "url": "https://www.hoax-slayer.net/",
+    "status": "301",
+    "title": "Hoax-Slayer -"
+  },
+  {
+    "url": "https://www.hoax-slayer.net/?s=test",
+    "status": "301",
+    "redirect": "https://www.hoax-slayer.net/",
+    "title": "You searched for test - Hoax-Slayer"
+  },
+  {
+    "url": "https://www.slideshare.net/",
+    "status": "301",
+    "title": "Share and Discover Knowledge on LinkedIn SlideShare"
+  },
+  {
+    "url": "https://www.slideshare.net/search/slideshow?q=test",
+    "status": "301",
+    "redirect": "https://www.slideshare.net/search/slideshow",
+    "title": "&#x27;test&#x27; on SlideShare"
   },
   {
     "url": "https://www.squidtv.net/",
@@ -2102,6 +2878,17 @@
     "url": "http://videolectures.net/site/search/?q=test",
     "status": "200",
     "title": "Search VideoLectures for test - VideoLectures.NET"
+  },
+  {
+    "url": "https://able2know.org/",
+    "status": "302",
+    "title": "Ask an Expert at able2know - Ask Questions, Share Answers"
+  },
+  {
+    "url": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q=test",
+    "status": "302",
+    "redirect": "https://able2know.org/search/",
+    "title": "Search - able2know"
   },
   {
     "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",
@@ -2186,6 +2973,17 @@
     "title": "Internet Archive"
   },
   {
+    "url": "https://archive.org/",
+    "status": "301",
+    "redirect": "https://archive.org",
+    "title": "Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine"
+  },
+  {
+    "url": "https://archive.org/search.php?sin=TXT&query=test",
+    "status": "200",
+    "title": "Internet Archive Search: test"
+  },
+  {
     "url": "https://www.c-span.org/about/videoLibrary/",
     "status": "301",
     "title": "Video Library | C-SPAN.org"
@@ -2255,6 +3053,42 @@
     "title": "Search Results for test | DailyStrength"
   },
   {
+    "url": "https://search.datacite.org/",
+    "status": "301",
+    "redirect": "https://search.datacite.org:443/"
+  },
+  {
+    "url": "https://search.datacite.org/works?query=test",
+    "status": "301",
+    "redirect": "https://search.datacite.org:443/works"
+  },
+  {
+    "url": "https://search.dataone.org/",
+    "status": "301",
+    "redirect": "https://search.dataone.org/index.html"
+  },
+  {
+    "url": "http://dataportals.org/",
+    "status": "200",
+    "title": " - Data Portals"
+  },
+  {
+    "url": "https://www.ecosia.org/",
+    "status": "301",
+    "title": "Ecosia - the search engine that plants trees"
+  },
+  {
+    "url": "https://www.ecosia.org/search?q=test",
+    "status": "301",
+    "redirect": "https://www.ecosia.org/search",
+    "title": "test - Ecosia"
+  },
+  {
+    "url": "https://gdeltproject.org/data.html",
+    "status": "301",
+    "title": "301 Moved Permanently"
+  },
+  {
     "url": "https://www.gutenberg.org/browse/categories/1",
     "status": "200",
     "title": "Browse By Category: Audio Book, human-read - Project Gutenberg"
@@ -2306,6 +3140,17 @@
     "title": "Browse Videos | PBS"
   },
   {
+    "url": "https://www.re3data.org/",
+    "status": "301",
+    "title": "Home | re3data.org"
+  },
+  {
+    "url": "https://www.re3data.org/search?query=test",
+    "status": "301",
+    "redirect": "https://www.re3data.org/search",
+    "title": "Search | re3data.org"
+  },
+  {
     "url": "https://www.taforum.org/trade-associations/",
     "status": "200"
   },
@@ -2323,6 +3168,16 @@
     "status": "301",
     "redirect": "https://www.themoviedb.org/search",
     "title": "test &#8212; The Movie Database (TMDb)"
+  },
+  {
+    "url": "https://certificates.theodi.org/en/datasets",
+    "status": "200",
+    "title": "ODI Open Data Certificate"
+  },
+  {
+    "url": "https://certificates.theodi.org/en/datasets?search=test",
+    "status": "200",
+    "title": "ODI Open Data Certificate"
   },
   {
     "url": "https://tvtropes.org/",
@@ -2355,6 +3210,22 @@
     "status": "200"
   },
   {
+    "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+    "status": "301",
+    "title": "Wikidata"
+  },
+  {
+    "url": "https://wikileaks.org/",
+    "status": "302",
+    "title": "WikiLeaks"
+  },
+  {
+    "url": "https://search.wikileaks.org/?q=test",
+    "status": "302",
+    "redirect": "https://search.wikileaks.org/",
+    "title": "Search WikiLeaks"
+  },
+  {
     "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
     "status": "301",
     "redirect": "https://commons.m.wikimedia.org/w/index.php"
@@ -2363,6 +3234,11 @@
     "url": "https://commons.m.wikimedia.org/wiki/Main_Page",
     "status": "301",
     "title": "Wikimedia Commons"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://en.wikipedia.org/w/index.php"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
@@ -2375,6 +3251,11 @@
     "title": "Internet Relay Chat - Wikipedia"
   },
   {
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "status": "301",
+    "title": "Wikipedia, the free encyclopedia"
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Public_domain",
     "status": "301",
     "title": "Public domain - Wikipedia"
@@ -2383,6 +3264,11 @@
     "url": "https://en.wikipedia.org/wiki/Usenet",
     "status": "301",
     "title": "Usenet - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia",
+    "status": "301",
+    "title": "Wikipedia - Wikipedia"
   },
   {
     "url": "https://www.worldcat.org/",
@@ -2404,6 +3290,16 @@
   {
     "url": "https://tune.pk",
     "status": "timeout"
+  },
+  {
+    "url": "https://mail.ru/",
+    "status": "301",
+    "title": "Mail.ru: почта, поиск в интернете, новости, игры"
+  },
+  {
+    "url": "https://go.mail.ru/search?q=test",
+    "status": "307",
+    "redirect": "https://go.mail.ru/search"
   },
   {
     "url": "https://rutube.ru/",
@@ -2459,5 +3355,20 @@
     "status": "301",
     "redirect": "https://media.nationalarchives.gov.uk/",
     "title": "Search for &quot;test&quot; - Archives Media Player"
+  },
+  {
+    "url": "https://data.world/",
+    "status": "301",
+    "title": "data.world | The Cloud-Native Data Catalog"
+  },
+  {
+    "url": "https://data.world/search?q=test",
+    "status": "301",
+    "redirect": "https://data.world/search"
+  },
+  {
+    "url": "https://stats.searx.xyz/",
+    "status": "301",
+    "title": "searx stats"
   }
 ]
