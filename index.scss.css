@@ -20,7 +20,7 @@ button {
 }
 body {
   font-size: 14pt;
-  font-family: "Lucida Sans Unicode", Helvetica, Arial, Sans-serif;
+  font-family: "Lucida Sans Unicode", Sans-serif;
 }
 input, button {
   font-family: inherit;

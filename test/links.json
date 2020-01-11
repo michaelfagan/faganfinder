@@ -11,6 +11,17 @@
     "title": "Search | NFSA"
   },
   {
+    "url": "https://trove.nla.gov.au/newspaper/",
+    "status": "301",
+    "title": "Newspapers Home - Trove"
+  },
+  {
+    "url": "https://trove.nla.gov.au/newspaper/result?q=test",
+    "status": "301",
+    "redirect": "https://trove.nla.gov.au/newspaper/result",
+    "title": "Search results for 'test' - Digitised newspapers and more - Trove"
+  },
+  {
     "url": "https://iview.abc.net.au/",
     "status": "301"
   },
@@ -36,6 +47,15 @@
   {
     "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k=test",
     "status": "200"
+  },
+  {
+    "url": "https://paperofrecord.hypernet.ca/",
+    "status": "timeout",
+    "redirect": "default.asp"
+  },
+  {
+    "url": "https://paperofrecord.hypernet.ca/papers.asp",
+    "status": "timeout"
   },
   {
     "url": "https://www.nfb.ca/",
@@ -86,6 +106,16 @@
     "title": "500px"
   },
   {
+    "url": "http://www.abyznewslinks.com/",
+    "status": "200",
+    "title": "Newspapers & News Media - ABYZ News Links"
+  },
+  {
+    "url": "https://www.accessible-archives.com/",
+    "status": "200",
+    "title": "Accessible Archives Inc. - Primary Source Material from 18th and 19th Century Publications"
+  },
+  {
     "url": "https://adage.com/creativity/search?search_phrase=test",
     "status": "301",
     "redirect": "https://adage.com/creativity/search",
@@ -104,6 +134,22 @@
     "url": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k=test",
     "status": "301",
     "redirect": "https://stock.adobe.com/search/images"
+  },
+  {
+    "url": "http://www.advantagearchives.com/preservation/preservation-resources/tip-change-the-letters-in-your-search/",
+    "status": "200",
+    "title": "Tip: Change The Letters In Your Search &#8211; Advantage Archives"
+  },
+  {
+    "url": "https://factcheck.afp.com/",
+    "status": "302",
+    "title": "AFP Fact Check |"
+  },
+  {
+    "url": "https://factcheck.afp.com/search?keyword=test",
+    "status": "302",
+    "redirect": "https://factcheck.afp.com/search",
+    "title": "AFP search | AFP Fact Check"
   },
   {
     "url": "https://search.alexanderstreet.com/",
@@ -125,6 +171,17 @@
     "url": "https://www.allmovie.com/search/all/test",
     "status": "301",
     "title": "Top search results for \"test\" | AllMovie"
+  },
+  {
+    "url": "https://search.ancestry.com/search/categories/np_newspapers/",
+    "status": "301",
+    "title": "Object moved"
+  },
+  {
+    "url": "https://www.ancestry.com/search/categories/np_newspapers/?keyword=test",
+    "status": "301",
+    "redirect": "http://search.ancestry.com/search/categories/np_newspapers/",
+    "title": "test - Ancestry.com"
   },
   {
     "url": "http://wiki.answers.com/search?q=test",
@@ -166,6 +223,10 @@
     "url": "http://www.aparchive.com/search?query=test",
     "status": "200",
     "title": "test | AP Archive"
+  },
+  {
+    "url": "https://apnews.com/",
+    "status": "301"
   },
   {
     "url": "https://www.apple.com/ca/siri/",
@@ -238,6 +299,11 @@
     "title": "test_百度搜索"
   },
   {
+    "url": "https://www.bbc.com/news",
+    "status": "301",
+    "title": "Home - BBC News"
+  },
+  {
     "url": "http://bechdeltest.com/",
     "status": "200",
     "title": "Bechdel Test Movie List"
@@ -263,6 +329,16 @@
     "status": "302",
     "redirect": "/?scope=images&nr=1&FORM=NOFORM",
     "title": "Object moved"
+  },
+  {
+    "url": "https://www.bing.com/news/search?q=test",
+    "status": "200",
+    "title": "test - Bing News"
+  },
+  {
+    "url": "https://www.bing.com/news",
+    "status": "200",
+    "title": "Bing News"
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
@@ -373,6 +449,17 @@
     "title": "Free Clipart - Clip Art Pictures - Graphics - Illustrations - Royalty Free Photographs"
   },
   {
+    "url": "https://www.cnn.com/",
+    "status": "301",
+    "title": "CNN - Breaking News, Latest News and Videos"
+  },
+  {
+    "url": "https://www.cnn.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.cnn.com/search",
+    "title": "Search CNN - Videos, Pictures, and News - CNN.com"
+  },
+  {
     "url": "https://coccoc.com/search",
     "status": "303",
     "title": "Cốc Cốc"
@@ -475,6 +562,21 @@
     "title": "DuckDuckGo Search Syntax | DuckDuckGo Help Pages"
   },
   {
+    "url": "https://www.eastview.com/",
+    "status": "301",
+    "title": "Home - East View"
+  },
+  {
+    "url": "https://www.eastview.com/resources/resources-links/",
+    "status": "301",
+    "title": "Resources Links - East View"
+  },
+  {
+    "url": "http://search.ebscohost.com/login.aspx?authtype=guest&custid=s6406031&profile=eds&groupid=main",
+    "status": "200",
+    "title": "Object moved"
+  },
+  {
     "url": "https://www.edocr.com/",
     "status": "301",
     "title": "Increase SEO and share documents online with edocr."
@@ -484,6 +586,23 @@
     "status": "301",
     "redirect": "https://www.edocr.com/search",
     "title": "Search Results - test | edocr"
+  },
+  {
+    "url": "https://elephind.com/?a=q&results=1&txq=test",
+    "status": "301",
+    "redirect": "https://elephind.com/",
+    "title": "test &mdash; Elephind.com search"
+  },
+  {
+    "url": "https://elephind.com/",
+    "status": "301",
+    "title": "Elephind.com: Search the world's historic newspaper archives"
+  },
+  {
+    "url": "https://elephind.com/?p=about",
+    "status": "301",
+    "redirect": "https://elephind.com/",
+    "title": "About Elephind.com"
   },
   {
     "url": "https://www.everypixel.com/",
@@ -520,6 +639,11 @@
     "url": "https://www.exalead.com/search/web/search-syntax/",
     "status": "200",
     "title": "Web Search Syntax - Exalead"
+  },
+  {
+    "url": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,test",
+    "status": "302",
+    "redirect": "https://victoria.primo.exlibrisgroup.com/discovery/search"
   },
   {
     "url": "https://www.facebook.com/groups/?category=discover",
@@ -608,6 +732,11 @@
     "url": "https://filmfreeway.com/",
     "status": "301",
     "title": "Film Festivals, Screenplay Contests, Submissions - FilmFreeway"
+  },
+  {
+    "url": "https://search.findmypast.com/search/us-and-world-newspapers",
+    "status": "301",
+    "title": "US &amp; World newspapers | findmypast.com"
   },
   {
     "url": "https://www.flaticon.com/",
@@ -702,6 +831,31 @@
     "title": "Search Online Courses, Lecture Videos, Video tutorials"
   },
   {
+    "url": "https://fultonhistory.com/Fulton.html",
+    "status": "301",
+    "title": "Old Fulton New York Post Cards"
+  },
+  {
+    "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~test",
+    "status": "301",
+    "redirect": "https://go.gale.com/ps/i.do"
+  },
+  {
+    "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&tabID=T004&qt=OQE~test",
+    "status": "301",
+    "redirect": "https://go.gale.com/ps/i.do"
+  },
+  {
+    "url": "https://www.gale.com/",
+    "status": "301",
+    "title": "Scholarly Resources for Learning and Research | Gale"
+  },
+  {
+    "url": "https://www.gale.com/intl/primary-sources/historical-newspapers",
+    "status": "301",
+    "title": "Gale Historical Newspapers"
+  },
+  {
     "url": "https://www.gettyimages.com/",
     "status": "301"
   },
@@ -785,6 +939,21 @@
     "url": "https://images.google.com/",
     "status": "200",
     "title": "Google Images"
+  },
+  {
+    "url": "https://news.google.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://news.google.com/newspapers",
+    "status": "302",
+    "redirect": "https://news.google.com/newspapers?hl=en",
+    "title": "Google News Archive Search"
+  },
+  {
+    "url": "https://news.google.com/search?q=test",
+    "status": "301",
+    "redirect": "https://news.google.com/search"
   },
   {
     "url": "https://play.google.com/store/books/category/audiobooks",
@@ -999,6 +1168,16 @@
     "title": ""
   },
   {
+    "url": "https://timesofindia.indiatimes.com/",
+    "status": "301",
+    "title": "News: India News, Latest Bollywood News, Sports News, Business &amp; Political News, National &amp; International News | Times of India"
+  },
+  {
+    "url": "https://timesofindia.indiatimes.com/topic/test",
+    "status": "301",
+    "title": "test: Latest News, Videos and Photos of test | Times of India "
+  },
+  {
     "url": "https://www.indieflix.com/",
     "status": "200",
     "title": "IndieFlix - Connecting People Through Movies"
@@ -1041,6 +1220,26 @@
     "url": "https://www.iqiyi.com/",
     "status": "302",
     "title": "爱奇艺-在线视频网站-海量正版高清视频在线观看"
+  },
+  {
+    "url": "http://iseek.com/#/education",
+    "status": "200",
+    "title": "iseek.ai"
+  },
+  {
+    "url": "http://iseek.com/#/search/education?q=test",
+    "status": "200",
+    "title": "iseek.ai"
+  },
+  {
+    "url": "http://iseek.com/#/search/web?q=test",
+    "status": "200",
+    "title": "iseek.ai"
+  },
+  {
+    "url": "http://iseek.com/",
+    "status": "200",
+    "title": "iseek.ai"
   },
   {
     "url": "https://issuu.com/",
@@ -1152,6 +1351,11 @@
     "title": "Podcast Directory"
   },
   {
+    "url": "https://community.libguides.com/",
+    "status": "302",
+    "redirect": "https://community.libguides.com"
+  },
+  {
     "url": "https://www.linkedin.com/groups/",
     "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fgroups%2F"
@@ -1202,6 +1406,11 @@
     "url": "https://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
     "status": "301",
     "title": "The 5 Best Tools to Download Streaming Video From Any Website"
+  },
+  {
+    "url": "https://mediabiasfactcheck.com/",
+    "status": "301",
+    "title": "Media Bias/Fact Check - Search and Learn the Bias of News Media"
   },
   {
     "url": "https://www.meetup.com/find/?keywords=test",
@@ -1340,6 +1549,11 @@
     "title": "Google Search Operators | Learn SEO - Moz"
   },
   {
+    "url": "https://www.myheritage.com/research/category-8000/newspapers",
+    "status": "200",
+    "title": "Newspapers - MyHeritage"
+  },
+  {
     "url": "https://mytuner-radio.com/",
     "status": "301",
     "title": "Listen to your favorite online radio stations - myTuner"
@@ -1385,8 +1599,77 @@
     "title": "NAVER"
   },
   {
+    "url": "http://nl.newsbank.com/",
+    "status": "200",
+    "title": "NewsLibrary.com - news archive, clipping service - newspapers and more"
+  },
+  {
+    "url": "https://www.newsbank.com/",
+    "status": "301",
+    "title": "Home | NewsBank"
+  },
+  {
+    "url": "http://newslookup.com/",
+    "status": "200",
+    "title": "Newslookup.com"
+  },
+  {
+    "url": "https://newslookup.com/results?q=test",
+    "status": "200",
+    "title": "Newslookup.com: Results"
+  },
+  {
+    "url": "https://newspaperarchive.com/",
+    "status": "301",
+    "title": "NewspaperArchive&#174; | 13,727 Historic Newspaper Archives"
+  },
+  {
+    "url": "https://newspaperarchive.com/tags/test",
+    "status": "301",
+    "title": "Document Moved"
+  },
+  {
+    "url": "https://go.newspapers.com/results.php?query=test",
+    "status": "301",
+    "redirect": "https://go.newspapers.com/results.php",
+    "title": "Results for   test  on Newspapers.com"
+  },
+  {
+    "url": "https://www.newspapers.com/browse/US",
+    "status": "301",
+    "title": "Browse Newspapers at Newspapers.com"
+  },
+  {
+    "url": "https://www.newspapers.com/",
+    "status": "301",
+    "title": "Newspapers.com - Historical Newspapers from 1700s-2000s"
+  },
+  {
     "url": "https://nextdoor.com/",
     "status": "301"
+  },
+  {
+    "url": "https://www.nytimes.com/",
+    "status": "301"
+  },
+  {
+    "url": "https://www.nytimes.com/search?query=test",
+    "status": "301",
+    "redirect": "https://www.nytimes.com/search"
+  },
+  {
+    "url": "https://www.onenewspage.com/",
+    "status": "301",
+    "title": "One News Page | Home"
+  },
+  {
+    "url": "https://www.onenewspage.com/topic/test.htm",
+    "status": "301",
+    "title": "LIVE Test News | One News Page"
+  },
+  {
+    "url": "http://www.onlinenewspapers.com/",
+    "status": "200"
   },
   {
     "url": "https://onlineradiobox.com/genres/",
@@ -1452,6 +1735,17 @@
     "url": "https://www.pandora.com/",
     "status": "302",
     "redirect": "http://www.pandora.com/restricted"
+  },
+  {
+    "url": "https://www.pdfdrive.com/",
+    "status": "301",
+    "title": "PDF Drive - Search and download PDF files for free."
+  },
+  {
+    "url": "https://www.pdfdrive.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.pdfdrive.com/search",
+    "title": "test"
   },
   {
     "url": "https://peekier.com/#!test",
@@ -1646,6 +1940,17 @@
     "title": "Watch Free Movies &amp; TV Shows Online  | Popcornflix"
   },
   {
+    "url": "https://www.pressreader.com/",
+    "status": "301",
+    "title": "PressReader.com - Your favorite newspapers and magazines."
+  },
+  {
+    "url": "https://www.pressreader.com/search?languages=en&groupBy=Language&hideSimilar=0&type=1&state=1&query=test",
+    "status": "301",
+    "redirect": "https://www.pressreader.com/search",
+    "title": "PressReader.com - Your favorite newspapers and magazines."
+  },
+  {
     "url": "https://prezi.com/explore/popular/",
     "status": "301"
   },
@@ -1666,6 +1971,11 @@
     "title": "ProBoards Forum Directory | ProBoards"
   },
   {
+    "url": "https://www.proquest.com/",
+    "status": "301",
+    "title": "ProQuest | Databases, EBooks and Technology for Research"
+  },
+  {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
     "status": "301",
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
@@ -1674,6 +1984,14 @@
     "url": "https://www.psychologytoday.com/us/groups",
     "status": "301",
     "title": "Find Group Therapy, Support Groups, Group Counseling - Psychology Today"
+  },
+  {
+    "url": "https://www.questia.com/",
+    "status": "200"
+  },
+  {
+    "url": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords=test",
+    "status": "200"
   },
   {
     "url": "https://www.question.com/",
@@ -1791,6 +2109,17 @@
     "title": "13 Best Private Search Engines for 2019 | Restore Privacy"
   },
   {
+    "url": "https://www.reuters.com/",
+    "status": "301",
+    "title": "Business & Financial News, U.S & International Breaking News  | Reuters"
+  },
+  {
+    "url": "https://www.reuters.com/search/news?blob=test",
+    "status": "301",
+    "redirect": "https://www.reuters.com/search/news",
+    "title": "Search Results"
+  },
+  {
     "url": "https://www.reuters.com/search/video?blob=test",
     "status": "301",
     "redirect": "https://www.reuters.com/search/video",
@@ -1867,6 +2196,10 @@
     "title": "Scribl"
   },
   {
+    "url": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q=test",
+    "status": "200"
+  },
+  {
     "url": "https://directory.shoutcast.com/Search?query=test",
     "status": "200"
   },
@@ -1908,6 +2241,11 @@
     "status": "301",
     "redirect": "https://slofile.com/slack",
     "title": "test communities - Slofile"
+  },
+  {
+    "url": "http://smalltownpapers.com/",
+    "status": "200",
+    "title": "Small Town Newspaper-A newspaper directory featuring small town newspapers and articles."
   },
   {
     "url": "https://www.smugmug.com/",
@@ -2171,6 +2509,15 @@
     "status": "301"
   },
   {
+    "url": "https://www.theancestorhunt.com/newspaper-research-links.html",
+    "status": "301",
+    "title": "Newspaper Links - The Ancestor Hunt"
+  },
+  {
+    "url": "https://www.theguardian.com/",
+    "status": "301"
+  },
+  {
     "url": "https://thenounproject.com/",
     "status": "302",
     "redirect": "https://thenounproject.com:443/",
@@ -2181,6 +2528,11 @@
     "status": "302",
     "redirect": "https://thenounproject.com:443/search/",
     "title": "Noun Project Search"
+  },
+  {
+    "url": "https://www.thepaperboy.com/",
+    "status": "301",
+    "title": "Paperboy Online Newspapers | US & World Newspapers"
   },
   {
     "url": "https://www.thetvdb.com/",
@@ -2335,6 +2687,10 @@
     "title": "test - Twitter Search"
   },
   {
+    "url": "https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/standard-operators",
+    "status": "301"
+  },
+  {
     "url": "http://unlistedvideos.com/",
     "status": "200",
     "title": "Unlisted Videos"
@@ -2401,6 +2757,17 @@
     "status": "301",
     "redirect": "https://visualhunt.com/search/instant/",
     "title": "Search \"test\" Free Photos & Stock Images - Visual Hunt"
+  },
+  {
+    "url": "https://www.washingtonpost.com/",
+    "status": "301",
+    "title": "Washington Post: Breaking News, World, US, DC News &amp; Analysis - The Washington Post"
+  },
+  {
+    "url": "https://www.washingtonpost.com/newssearch/?query=test",
+    "status": "301",
+    "redirect": "https://www.washingtonpost.com/newssearch/",
+    "title": "Search - The Washington Post"
   },
   {
     "url": "https://www.weeklyscript.com/",
@@ -2470,6 +2837,11 @@
     "title": "Yahoo! Groups"
   },
   {
+    "url": "https://news.yahoo.com/",
+    "status": "301",
+    "title": "Yahoo News - Latest News &amp; Headlines"
+  },
+  {
     "url": "https://images.search.yahoo.com/",
     "status": "301",
     "title": "Yahoo Image Search"
@@ -2479,6 +2851,12 @@
     "status": "301",
     "redirect": "https://images.search.yahoo.com/search/images",
     "title": "test - Yahoo Image Search Results"
+  },
+  {
+    "url": "https://news.search.yahoo.com/search?p=test",
+    "status": "301",
+    "redirect": "https://news.search.yahoo.com/search",
+    "title": "test - Yahoo Search Results"
   },
   {
     "url": "https://view.yahoo.com/",
@@ -2650,6 +3028,22 @@
     "title": "Imagebase"
   },
   {
+    "url": "https://www.europeana.eu/portal/en/collections/newspapers/country.html",
+    "status": "302",
+    "title": "Browse newspapers by country - Europeana Collections"
+  },
+  {
+    "url": "https://www.europeana.eu/portal/en/collections/newspapers",
+    "status": "302",
+    "title": "Newspapers - Europeana Collections"
+  },
+  {
+    "url": "https://www.europeana.eu/portal/en/collections/newspapers?q=test",
+    "status": "302",
+    "redirect": "https://www.europeana.eu/portal/en/collections/newspapers",
+    "title": "test - Search Results - Europeana Collections"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/search",
@@ -2695,6 +3089,15 @@
     "title": "CONTENTdm"
   },
   {
+    "url": "https://chroniclingamerica.loc.gov/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://chroniclingamerica.loc.gov/search/pages/results/?proxtext=test",
+    "status": "timeout",
+    "redirect": "https://chroniclingamerica.loc.gov/search/pages/results/"
+  },
+  {
     "url": "https://www.loc.gov/film-and-videos/",
     "status": "301",
     "title": "Film, Video, Available Online | Library of Congress"
@@ -2704,6 +3107,15 @@
     "status": "301",
     "redirect": "https://www.loc.gov/film-and-videos/",
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
+  },
+  {
+    "url": "https://www.loc.gov/newspapers/?all=true&dl=page&q=test",
+    "status": "timeout",
+    "redirect": "https://www.loc.gov/newspapers/"
+  },
+  {
+    "url": "https://www.loc.gov/newspapers/",
+    "status": "timeout"
   },
   {
     "url": "https://www.loc.gov/photos/",
@@ -2793,6 +3205,17 @@
     "title": "Geo Search Tool"
   },
   {
+    "url": "https://beta.grafiti.io/",
+    "status": "301",
+    "title": "Grafiti | The Search Engine for Charts"
+  },
+  {
+    "url": "https://beta.grafiti.io/search/facts/?search_text=test",
+    "status": "301",
+    "redirect": "https://beta.grafiti.io/search/facts/",
+    "title": "Grafiti Search Results | Found more than 1000 charts searching for keyword “test”"
+  },
+  {
     "url": "https://groups.io/",
     "status": "302",
     "title": "Welcome to Groups.io!"
@@ -2842,6 +3265,16 @@
     "status": "301",
     "redirect": "https://www.hoax-slayer.net/",
     "title": "You searched for test - Hoax-Slayer"
+  },
+  {
+    "url": "http://news-explorer.mybluemix.net/",
+    "status": "200",
+    "title": "Crystal+ News Explorer"
+  },
+  {
+    "url": "http://news-explorer.mybluemix.net/?type=unconstrained&query=test",
+    "status": "200",
+    "title": "Crystal+ News Explorer"
   },
   {
     "url": "https://www.slideshare.net/",
@@ -2935,6 +3368,11 @@
     "title": "Download &amp; Streaming : Moving Image Archive : Internet Archive"
   },
   {
+    "url": "https://archive.org/details/newspapers",
+    "status": "301",
+    "title": "Newspapers : Free Books : Free Texts : Free Download, Borrow and Streaming : Internet Archive"
+  },
+  {
     "url": "https://archive.org/details/podcasts?and%5B%5D=test",
     "status": "301",
     "redirect": "https://archive.org/details/podcasts",
@@ -2979,6 +3417,11 @@
     "title": "Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine"
   },
   {
+    "url": "https://archive.org/search.php?and[]=collection:%22newspapers%22&sin=TXT&query=test",
+    "status": "200",
+    "title": "Internet Archive Search: test"
+  },
+  {
     "url": "https://archive.org/search.php?sin=TXT&query=test",
     "status": "200",
     "title": "Internet Archive Search: test"
@@ -3002,6 +3445,11 @@
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword=test",
     "status": "301",
     "redirect": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx"
+  },
+  {
+    "url": "https://www.cjr.org/the_profile/tom-tryniski-fultonhistory.php",
+    "status": "301",
+    "title": "How Tom Tryniski digitized nearly 50 million pages of newspapers in his living room - Columbia Journalism Review"
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -3084,6 +3532,22 @@
     "title": "test - Ecosia"
   },
   {
+    "url": "https://www.factcheck.org/search/",
+    "status": "301",
+    "title": "Search - FactCheck.org"
+  },
+  {
+    "url": "https://fultonsearch.org/",
+    "status": "301",
+    "title": "Fulton Search"
+  },
+  {
+    "url": "https://fultonsearch.org/?q=test",
+    "status": "301",
+    "redirect": "https://fultonsearch.org/",
+    "title": "Fulton Search"
+  },
+  {
     "url": "https://gdeltproject.org/data.html",
     "status": "301",
     "title": "301 Moved Permanently"
@@ -3149,6 +3613,11 @@
     "status": "301",
     "redirect": "https://www.re3data.org/search",
     "title": "Search | re3data.org"
+  },
+  {
+    "url": "https://reporterslab.org/fact-checking/",
+    "status": "301",
+    "title": "Fact- Checking - Duke Reporters&#039; Lab"
   },
   {
     "url": "https://www.taforum.org/trade-associations/",
@@ -3256,6 +3725,21 @@
     "title": "Wikipedia, the free encyclopedia"
   },
   {
+    "url": "https://en.wikipedia.org/wiki/Microform",
+    "status": "301",
+    "title": "Microform - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/News_agency",
+    "status": "301",
+    "title": "News agency - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Optical_character_recognition",
+    "status": "301",
+    "title": "Optical character recognition - Wikipedia"
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Public_domain",
     "status": "301",
     "title": "Public domain - Wikipedia"
@@ -3264,6 +3748,11 @@
     "url": "https://en.wikipedia.org/wiki/Usenet",
     "status": "301",
     "title": "Usenet - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives",
+    "status": "301",
+    "title": "Wikipedia:List of online newspaper archives - Wikipedia"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Wikipedia",
@@ -3335,6 +3824,12 @@
     "title": "BBC iPlayer"
   },
   {
+    "url": "https://www.bbc.co.uk/search?filter=news&q=test",
+    "status": "302",
+    "redirect": "https://www.bbc.co.uk/search",
+    "title": "BBC - Search results for test"
+  },
+  {
     "url": "https://www.bookbeat.co.uk/search",
     "status": "301",
     "title": "BookBeat - Search"
@@ -3344,6 +3839,27 @@
     "status": "301",
     "redirect": "https://www.bookbeat.co.uk/search",
     "title": "BookBeat - Search"
+  },
+  {
+    "url": "https://www.britishnewspaperarchive.co.uk/",
+    "status": "301",
+    "title": "Home | Search the archive | British Newspaper Archive"
+  },
+  {
+    "url": "https://www.britishnewspaperarchive.co.uk/search/results?basicsearch=test",
+    "status": "301",
+    "redirect": "https://www.britishnewspaperarchive.co.uk/search/results",
+    "title": "Results for &#39;test&#39; | British Newspaper Archive"
+  },
+  {
+    "url": "https://www.newsnow.co.uk/h/?search=test",
+    "status": "301",
+    "redirect": "https://www.newsnow.co.uk/h/",
+    "title": "NewsNow: Test news | Every Source, Every Five Minutes, 24/7 news"
+  },
+  {
+    "url": "https://www.newsnow.co.uk/",
+    "status": "301"
   },
   {
     "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",

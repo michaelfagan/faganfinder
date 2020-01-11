@@ -32,12 +32,16 @@ RewriteRule engines/$ information.html [L]
 RewriteRule listen/$ listen.html [L]
 RewriteRule group/$ groups.html [L]
 
+
+RewriteRule news/weather.shtml http://www.faganfinder.com/weather/ [R=301,L]
+RewriteRule news((/.+)|$) https://www.faganfinder.com/engines/ [R=301,L]
+
+
 # new pages do not have changelogs
-RewriteRule (video|group)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
+RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
 # access without trailing slash - why not needed for other pages?
 RewriteRule listen$ https://www.faganfinder.com/listen/ [R=301,L]
-
 
 
 # my personal blog no longer on faganfinder.com
@@ -53,12 +57,11 @@ RewriteRule (meta|dir|keyword|kids)/ http://www.faganfinder.com/engines/ [R=301,
 RewriteRule engines.html http://www.faganfinder.com/engines/ [R=301,L] 
 RewriteRule (gov|comp)/ http://www.faganfinder.com/  [R=301,L]
 Redirect 301 /searchtools.shtml http://www.faganfinder.com/
-RewriteRule (img|news|audio|video|science|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (img|audio|video|science|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule engines/(northernlight|hotbot|msn).shtml http://www.faganfinder.com/engines/ [R=301,L]
 
 # more deprecated pages
 RewriteRule ([a-z]+)/(lycos|infoplease|medlineplus|xrefer|britannica|bartleby|alltheweb|altavista|singingfish|friskit|gograph|ixquick|phibot|scirus)\.shtml http://www.faganfinder.com/$1/ [R=301,L]
-RewriteRule news/(google|weather|moreover|read|weather|daypop)\.shtml http://www.faganfinder.com/news/ [R=301,L]
 Redirect 301 /img/google.shtml http://www.faganfinder.com/img/
 Redirect 301 /misc/popular.shtml http://www.faganfinder.com/engines/
 Redirect 301 /site/target.shtml http://www.faganfinder.com/
@@ -121,11 +124,7 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-
-Redirect 301 /news/weather.shtml http://www.faganfinder.com/weather/
-
-
-RewriteRule (img|news|engines|audio|video|aref|blogs|geo|bio|science|buy|invis|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (img|engines|audio|video|aref|blogs|geo|bio|science|buy|invis|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule (img|blogs)/index_changes.shtml http://www.faganfinder.com/$1/changes/ [R=301,L]
 
 
