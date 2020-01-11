@@ -35,6 +35,7 @@ RewriteRule group/$ groups.html [L]
 
 RewriteRule news/weather.shtml http://www.faganfinder.com/weather/ [R=301,L]
 RewriteRule news((/.+)|$) https://www.faganfinder.com/engines/ [R=301,L]
+RewriteRule blogs.* https://www.faganfinder.com/engines/ [R=301,L]
 
 
 # new pages do not have changelogs
@@ -124,8 +125,8 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-RewriteRule (img|engines|audio|video|aref|blogs|geo|bio|science|buy|invis|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
-RewriteRule (img|blogs)/index_changes.shtml http://www.faganfinder.com/$1/changes/ [R=301,L]
+RewriteRule (img|engines|audio|video|aref|geo|bio|science|buy|invis|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule img/index_changes.shtml https://www.faganfinder.com/img/ [R=301,L]
 
 
 # usability enhancement
