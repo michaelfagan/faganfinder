@@ -92,7 +92,7 @@
       <section role="navigation" style="margin-top:0">
         <h2>More search tools on <%= site[:name] %></h2>
         <ul>
-        <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
+        <% pages.reject{|p| p.id == page.id }.sort{|a,b| b.tools <=> a.tools }.each do |other_page| %>
           <li>
             <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %></a>:
             <%= other_page.description.internal %>
@@ -101,7 +101,6 @@
         </ul>
         <h3 style="font-size:1em">Older tools</h3>
         <ul id="legacy">
-          <li><a href="<%= site[:root_old] %>aref/">Academic search</a></li>
           <li><a href="<%= site[:root_old] %>audio/">Audio and music search</a></li>
           <li><a href="<%= site[:root_old] %>geo/">Maps and geography search</a></li>
           <li><a href="<%= site[:root_old] %>words/">Word reference</a></li>

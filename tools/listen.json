@@ -1,6 +1,6 @@
 {
   "description": {
-    "internal": "podcasts shows and episodes, audiobooks, radio, and more",
+    "internal": "podcasts shows and episodes, audiobooks, and radio",
     "external": "Find anything to listen to for entertainment or education. Podcasts, audiobooks, radio, and more."
   },
   "path": "listen/",

@@ -1,6 +1,6 @@
 {
   "description": {
-    "internal": "movies, television, live, educational, scripts, information, reviews",
+    "internal": "movies, television, live video, educational, scripts, information, and reviews",
     "external": "Find movies, TV, news, educational content, etc., even scripts, reviews and showtimes."
   },
   "path": "video/",
