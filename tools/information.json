@@ -1,6 +1,6 @@
 {
   "description": {
-    "internal": "search engines, questions and answers, social media, fact-checking, publications",
+    "internal": "search engine, research, data, social media, database, fact-checking, archives, full-text",
     "external": "The most comprehensive set of tools for finding information online. All the best search engines and much more."
   },
   "path": "engines",
@@ -89,11 +89,72 @@
       ]
     },
     {
-      "name": "Answer engines",
+      "name": "Non-English search engines",
+      "tools": [
+        {
+          "name": "Baidu — China",
+          "searchUrl": "http://www.baidu.com/s?wd={q}"
+        },
+        {
+          "name": "Sogou — China",
+          "searchUrl": "https://www.sogou.com/web?query={q}"
+        },
+        {
+          "name": "Haosou — China",
+          "searchUrl": "https://www.so.com/s?q={q}"
+        },
+        {
+          "name": "Mail.ru — Russia",
+          "searchUrl": "https://go.mail.ru/search?q={q}"
+        },
+        {
+          "name": "Parsijoo — Iran",
+          "searchUrl": "http://parsijoo.ir/web?q={q}"
+        },
+        {
+          "name": "Naver — South Korea",
+          "searchUrl": "https://search.naver.com/search.naver?query={q}"
+        },
+        {
+          "name": "Daum — South Korea",
+          "searchUrl": "https://search.daum.net/search?q={q}"
+        },
+        {
+          "name": "<span lang=\"vi\">Cốc Cốc</span> — Vietnam",
+          "searchUrl": "https://coccoc.com/search?query={q}"
+        },
+        {
+          "name": "Pipilika — Bangladesh",
+          "searchUrl": "https://www.pipilika.com/search?q={q}"
+        },
+        {
+          "name": "Seznam —  Czechia",
+          "searchUrl": "https://search.seznam.cz/?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
       "tools": [
         {
           "name": "Wolfram|Alpha",
           "searchUrl": "https://www.wolframalpha.com/input/?i={q}"
+        },
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/search.php?sin=TXT&query={q}"
+        },
+        {
+          "name": "Google Books — all",
+          "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
+        },
+        {
+          "name": "WorldCat",
+          "searchUrl": "https://www.worldcat.org/search?q={q}"
+        },
+        {
+          "name": "WikiLeaks",
+          "searchUrl": "https://search.wikileaks.org/?q={q}"
         }
       ]
     },
@@ -111,49 +172,6 @@
         {
           "name": "<span title=\"Encyclopædia Britannica\">Britannica</span>",
           "searchUrl": "https://www.britannica.com/search?query={q}"
-        }
-      ]
-    },
-    {
-      "name": "Paid and library databases",
-      "tools": [
-        {
-          "name": "ProQuest + Gale etc.",
-          "searchUrl": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,{q}"
-        },
-        {
-          "name": "ProQuest",
-          "searchUrl": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q={q}"
-        },
-        {
-          "name": "Questia",
-          "searchUrl": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords={q}"
-        }
-      ]
-    },
-    {
-      "name": "Education-oriented",
-      "tools": [
-        {
-          "name": "SweetSearch",
-          "searchUrl": "https://www.sweetsearch.com/search?q={q}"
-        },
-        {
-          "name": "iseek.ai Education",
-          "searchUrl": "http://iseek.com/#/search/education?q={q}"
-        }
-      ]
-    },
-    {
-      "name": "Find databases",
-      "tools": [
-        {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository"
-        },
-        {
-          "name": "re3data.org",
-          "searchUrl": "https://www.re3data.org/search?query={q}"
         }
       ]
     },
@@ -203,6 +221,214 @@
       ]
     },
     {
+      "name": "Questions and answers",
+      "tools": [
+        {
+          "name": "Quora",
+          "searchUrl": "https://www.quora.com/search?q={q}"
+        },
+        {
+          "name": "StackExchange",
+          "searchUrl": "https://stackexchange.com/search?q={q}"
+        },
+        {
+          "name": "Brainly",
+          "searchUrl": "https://brainly.com/app/ask?q={q}"
+        },
+        {
+          "name": "Answers.com",
+          "searchUrl": "http://wiki.answers.com/search?q={q}"
+        },
+        {
+          "name": "Blurtit",
+          "searchUrl": "https://www.blurtit.com/search/?search-query={q}"
+        },
+        {
+          "name": "Ask MetaFilter",
+          "searchUrl": "https://ask.metafilter.com/search.mefi?site=ask&q={q}"
+        },
+        {
+          "name": "able2know",
+          "searchUrl": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q={q}"
+        },
+        {
+          "name": "Question.com",
+          "searchUrl": "https://www.question.com/search/?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Books",
+      "tools": [
+        {
+          "name": "Google Books — free",
+          "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkv:f&q={q}"
+        },
+        {
+          "name": "Google Books",
+          "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:b&q={q}"
+        },
+        {
+          "name": "Hathi Trust",
+          "searchUrl": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1={q};a=srchls"
+        },
+        {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/search.php?and[]=collection:%22texts%22&sin=TXT&query={q}"
+        },
+        {
+          "name": "Open Library",
+          "searchUrl": "https://openlibrary.org/search/inside?q={q}"
+        },
+        {
+          "name": "Wikisource",
+          "searchUrl": "https://en.wikisource.org/w/index.php?title=Special%3ASearch&search={q}"
+        },
+        {
+          "name": "<abbr title=\"Archive of Our Own\">AO3</abbr>",
+          "searchUrl": "https://archiveofourown.org/works/search?work_search%5Bquery%5D={q}"
+        }
+      ]
+    },
+    {
+      "name": "Publications and documents",
+      "tools": [
+        {
+          "name": "issuu",
+          "searchUrl": "https://issuu.com/search?q={q}"
+        },
+        {
+          "name": "Scribd",
+          "searchUrl": "https://www.scribd.com/search?payment=free&content_type=documents&query={q}"
+        },
+        {
+          "name": "edocr",
+          "searchUrl": "https://www.edocr.com/search?q={q}"
+        },
+        {
+          "name": "PDF Drive",
+          "searchUrl": "https://www.pdfdrive.com/search?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Presentations",
+      "tools": [
+        {
+          "name": "SlideShare",
+          "searchUrl": "https://www.slideshare.net/search/slideshow?q={q}"
+        },
+        {
+          "name": "Prezi",
+          "searchUrl": "https://prezi.com/explore/search/?search={q}"
+        }
+      ]
+    },
+    {
+      "name": "Facts and trivia",
+      "tools": [
+        {
+          "name": "J! Archive (Jeopardy)",
+          "searchUrl": "http://j-archive.com/search.php?search={q}"
+        },
+        {
+          "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
+          "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
+        }
+      ]
+    },
+    {
+      "name": "Academic journals",
+      "tools": [
+        {
+          "name": "Google Scholar",
+          "searchUrl": "https://scholar.google.com/scholar?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Libraries and archives",
+      "tools": [
+        {
+          "name": "World Digital Library",
+          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
+        },
+        {
+          "name": "ArchiveGrid",
+          "searchUrl": "https://researchworks.oclc.org/archivegrid/?q={q}"
+        },
+        {
+          "name": "Google Arts &amp; Culture",
+          "searchUrl": "https://artsandculture.google.com/search?q={q}"
+        },
+        {
+          "name": "Europeana",
+          "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
+        },
+        {
+          "name": "Library of Congress",
+          "searchUrl": "https://www.loc.gov/search/?all=true&q={q}"
+        },
+        {
+          "name": "National Archives — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://search.archives.gov/search?affiliate=national-archives&query={q}"
+        },
+        {
+          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://dp.la/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"National Digital Library\">NDL</abbr> — India",
+          "searchUrl": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22{q}%22,%22s%22:[],%22b%22:{%22filters%22:[]}}"
+        },
+        {
+          "name": "Abhilekh Patal — India",
+          "searchUrl": "https://www.abhilekh-patal.in/jspui/simple-search?query={q}"
+        },
+        {
+          "name": "Granth Sanjeevani — India",
+          "searchUrl": "https://granthsanjeevani.com/jspui/simple-search?query={q}"
+        },
+        {
+          "name": "National Archives — <abbr title=\"United Kingdom\">UK</abbr>",
+          "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
+        },
+        {
+          "name": "British Library",
+          "searchUrl": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,{q}"
+        }
+      ]
+    },
+    {
+      "name": "Paid and library databases",
+      "tools": [
+        {
+          "name": "ProQuest + Gale etc.",
+          "searchUrl": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,{q}"
+        },
+        {
+          "name": "ProQuest",
+          "searchUrl": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q={q}"
+        },
+        {
+          "name": "Questia",
+          "searchUrl": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords={q}"
+        }
+      ]
+    },
+    {
+      "name": "Education-oriented",
+      "tools": [
+        {
+          "name": "SweetSearch",
+          "searchUrl": "https://www.sweetsearch.com/search?q={q}"
+        },
+        {
+          "name": "iseek.ai Education",
+          "searchUrl": "http://iseek.com/#/search/education?q={q}"
+        }
+      ]
+    },    {
       "name": "<abbr title=\"Search engines\">Engines</abbr> by recency",
       "tools": [
         {
@@ -338,6 +564,10 @@
           "searchUrl": "https://www.europeana.eu/portal/en/collections/newspapers?q={q}"
         },
         {
+          "name": "Google Books",
+          "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:s&q={q}"
+        },
+        {
           "name": "Internet Archive",
           "searchUrl": "https://archive.org/search.php?and[]=collection:%22newspapers%22&sin=TXT&query={q}"
         },
@@ -371,6 +601,10 @@
           "searchUrl": "https://go.newspapers.com/results.php?query={q}"
         },
         {
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com"
+        },
+        {
           "name": "Ancestry",
           "searchUrl": "https://www.ancestry.com/search/categories/np_newspapers/?keyword={q}"
         },
@@ -385,108 +619,28 @@
       ]
     },
     {
-      "name": "Paid magazine articles",
+      "name": "Magazine articles",
       "tools": [
         {
-          "name": "Gale",
+          "name": "Google Books",
+          "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q={q}"
+        },
+        {
+          "name": "Gale — not free",
           "searchUrl": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~{q}"
         }
       ]
     },
     {
-      "name": "Questions and answers",
+      "name": "Find databases",
       "tools": [
         {
-          "name": "Quora",
-          "searchUrl": "https://www.quora.com/search?q={q}"
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository"
         },
         {
-          "name": "StackExchange",
-          "searchUrl": "https://stackexchange.com/search?q={q}"
-        },
-        {
-          "name": "Brainly",
-          "searchUrl": "https://brainly.com/app/ask?q={q}"
-        },
-        {
-          "name": "Answers.com",
-          "searchUrl": "http://wiki.answers.com/search?q={q}"
-        },
-        {
-          "name": "Blurtit",
-          "searchUrl": "https://www.blurtit.com/search/?search-query={q}"
-        },
-        {
-          "name": "Ask MetaFilter",
-          "searchUrl": "https://ask.metafilter.com/search.mefi?site=ask&q={q}"
-        },
-        {
-          "name": "able2know",
-          "searchUrl": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q={q}"
-        },
-        {
-          "name": "Question.com",
-          "searchUrl": "https://www.question.com/search/?query={q}"
-        }
-      ]
-    },
-    {
-      "name": "Publications and documents",
-      "tools": [
-        {
-          "name": "issuu",
-          "searchUrl": "https://issuu.com/search?q={q}"
-        },
-        {
-          "name": "Scribd",
-          "searchUrl": "https://www.scribd.com/search?payment=free&content_type=documents&query={q}"
-        },
-        {
-          "name": "edocr",
-          "searchUrl": "https://www.edocr.com/search?q={q}"
-        },
-        {
-          "name": "PDF Drive",
-          "searchUrl": "https://www.pdfdrive.com/search?q={q}"
-        }
-      ]
-    },
-    {
-      "name": "Presentations",
-      "tools": [
-        {
-          "name": "SlideShare",
-          "searchUrl": "https://www.slideshare.net/search/slideshow?q={q}"
-        },
-        {
-          "name": "Prezi",
-          "searchUrl": "https://prezi.com/explore/search/?search={q}"
-        }
-      ]
-    },
-    {
-      "name": "Facts and trivia",
-      "tools": [
-        {
-          "name": "J! Archive (Jeopardy)",
-          "searchUrl": "http://j-archive.com/search.php?search={q}"
-        },
-        {
-          "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
-          "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
-        }
-      ]
-    },
-    {
-      "name": "Other",
-      "tools": [
-        {
-          "name": "Internet Archive",
-          "searchUrl": "https://archive.org/search.php?sin=TXT&query={q}"
-        },
-        {
-          "name": "WikiLeaks",
-          "searchUrl": "https://search.wikileaks.org/?q={q}"
+          "name": "re3data.org",
+          "searchUrl": "https://www.re3data.org/search?query={q}"
         }
       ]
     },
@@ -542,51 +696,6 @@
           "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"          
         }
 
-      ]
-    },
-    {
-      "name": "Non-English search engines",
-      "tools": [
-        {
-          "name": "Baidu — China",
-          "searchUrl": "http://www.baidu.com/s?wd={q}"
-        },
-        {
-          "name": "Sogou — China",
-          "searchUrl": "https://www.sogou.com/web?query={q}"
-        },
-        {
-          "name": "Haosou — China",
-          "searchUrl": "https://www.so.com/s?q={q}"
-        },
-        {
-          "name": "Mail.ru — Russia",
-          "searchUrl": "https://go.mail.ru/search?q={q}"
-        },
-        {
-          "name": "Parsijoo — Iran",
-          "searchUrl": "http://parsijoo.ir/web?q={q}"
-        },
-        {
-          "name": "Naver — South Korea",
-          "searchUrl": "https://search.naver.com/search.naver?query={q}"
-        },
-        {
-          "name": "Daum — South Korea",
-          "searchUrl": "https://search.daum.net/search?q={q}"
-        },
-        {
-          "name": "<span lang=\"vi\">Cốc Cốc</span> — Vietnam",
-          "searchUrl": "https://coccoc.com/search?query={q}"
-        },
-        {
-          "name": "Pipilika — Bangladesh",
-          "searchUrl": "https://www.pipilika.com/search?q={q}"
-        },
-        {
-          "name": "Seznam —  Czechia",
-          "searchUrl": "https://search.seznam.cz/?q={q}"
-        }
       ]
     }
   ]

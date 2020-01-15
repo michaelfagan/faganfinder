@@ -921,6 +921,41 @@
     "title": "Goodreads Groups"
   },
   {
+    "url": "https://artsandculture.google.com/",
+    "status": "301",
+    "title": "Google Arts &amp; Culture"
+  },
+  {
+    "url": "https://artsandculture.google.com/search?q=test",
+    "status": "301",
+    "redirect": "https://artsandculture.google.com/search",
+    "title": "Search — Google Arts &amp; Culture"
+  },
+  {
+    "url": "https://books.google.com/advanced_book_search",
+    "status": "302",
+    "redirect": "https://books.google.com/advanced_book_search?hl=en",
+    "title": "Advanced Book Search"
+  },
+  {
+    "url": "https://books.google.com/books/magazines",
+    "status": "302",
+    "redirect": "https://books.google.com/books/magazines?hl=en",
+    "title": "Google Books"
+  },
+  {
+    "url": "https://books.google.com/books/newspapers",
+    "status": "302",
+    "redirect": "https://books.google.com/books/newspapers?hl=en",
+    "title": "Google Books"
+  },
+  {
+    "url": "https://books.google.com/",
+    "status": "302",
+    "redirect": "https://books.google.com/?hl=en",
+    "title": "Google Books"
+  },
+  {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
     "status": "200",
     "title": "Google Groups"
@@ -963,6 +998,17 @@
     "url": "https://play.google.com/store/search?c=books&q=test",
     "status": "301",
     "redirect": "https://play.google.com/store/search"
+  },
+  {
+    "url": "https://scholar.google.com/",
+    "status": "302",
+    "title": "Google Scholar"
+  },
+  {
+    "url": "https://scholar.google.com/scholar?q=test",
+    "status": "302",
+    "redirect": "https://scholar.google.com/scholar",
+    "title": "Google Scholar"
   },
   {
     "url": "https://support.google.com/websearch/answer/2466433",
@@ -1011,7 +1057,43 @@
     "title": "test database OR directory OR \"search engine\" OR catalogue OR archive OR library OR warehouse OR repository - Google Search"
   },
   {
+    "url": "https://www.google.com/search?q=test+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:newspapers.com OR site:newspaperarchive.com - Google Search"
+  },
+  {
     "url": "https://www.google.com/search?q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=bks&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=bks&tbs=bkt:b&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=bks&tbs=bkt:s&q=test",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?tbm=bks&tbs=bkv:f&q=test",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search"
@@ -1080,6 +1162,17 @@
     "url": "https://www.google.com/videohp",
     "status": "200",
     "title": "Google Videos"
+  },
+  {
+    "url": "https://granthsanjeevani.com/jspui/",
+    "status": "302",
+    "title": "Granth Sanjeevani"
+  },
+  {
+    "url": "https://granthsanjeevani.com/jspui/simple-search?query=test",
+    "status": "302",
+    "redirect": "https://granthsanjeevani.com/jspui/simple-search",
+    "title": "Granth Sanjeevani"
   },
   {
     "url": "http://groupspaces.com/",
@@ -3056,6 +3149,17 @@
     "title": "Search Results - Europeana Collections"
   },
   {
+    "url": "https://www.europeana.eu/portal/en/search?q=test",
+    "status": "302",
+    "redirect": "https://www.europeana.eu/portal/en/search",
+    "title": "test - Search Results - Europeana Collections"
+  },
+  {
+    "url": "https://www.europeana.eu/portal/en",
+    "status": "302",
+    "title": "Europeana Collections"
+  },
+  {
     "url": "http://www.filmarchives-online.eu/hitlist?Fulltext=test",
     "status": "200"
   },
@@ -3072,6 +3176,12 @@
     "url": "https://catalog.archives.gov/search?f.materialsType=movingimages&q=test",
     "status": "302",
     "redirect": "https://catalog.archives.gov/search"
+  },
+  {
+    "url": "https://search.archives.gov/search?affiliate=national-archives&query=test",
+    "status": "308",
+    "redirect": "https://search.archives.gov/search",
+    "title": "test - National Archives Search Results"
   },
   {
     "url": "https://www.archives.gov/",
@@ -3109,6 +3219,10 @@
     "title": "Search results for  Film, Video, Test, Available Online | Library of Congress"
   },
   {
+    "url": "https://www.loc.gov/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.loc.gov/newspapers/?all=true&dl=page&q=test",
     "status": "timeout",
     "redirect": "https://www.loc.gov/newspapers/"
@@ -3129,6 +3243,11 @@
     "title": "Search results for  Photo, Print, Drawing, Test, Available Online | Library of Congress"
   },
   {
+    "url": "https://www.loc.gov/search/?all=true&q=test",
+    "status": "timeout",
+    "redirect": "https://www.loc.gov/search/"
+  },
+  {
     "url": "https://images.nasa.gov/",
     "status": "301"
   },
@@ -3147,6 +3266,29 @@
     "url": "https://www.usa.gov/",
     "status": "301",
     "title": "USA.gov: The U.S. Government&#039;s Official Web Portal  &#124; USAGov"
+  },
+  {
+    "url": "https://www.abhilekh-patal.in/jspui/",
+    "status": "302",
+    "title": "Abhilekh Patal"
+  },
+  {
+    "url": "https://www.abhilekh-patal.in/jspui/simple-search?query=test",
+    "status": "302",
+    "redirect": "https://www.abhilekh-patal.in/jspui/simple-search",
+    "title": "Abhilekh Patal"
+  },
+  {
+    "url": "https://ndl.iitkgp.ac.in/",
+    "status": "302",
+    "redirect": "https://ndl.iitkgp.ac.in",
+    "title": "National Digital Library of India"
+  },
+  {
+    "url": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22test%22,%22s%22:[],%22b%22:{%22filters%22:[]}}",
+    "status": "302",
+    "redirect": "https://ndl.iitkgp.ac.in/result",
+    "title": "NDL India: Guest"
   },
   {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
@@ -3243,6 +3385,15 @@
   {
     "url": "http://www.nicovideo.jp/search/test",
     "status": "200"
+  },
+  {
+    "url": "https://dp.la/",
+    "status": "301",
+    "title": "Digital Public Library of America"
+  },
+  {
+    "url": "https://dp.la/search?q=test",
+    "status": "403"
   },
   {
     "url": "https://search.daum.net/search?q=test",
@@ -3400,6 +3551,11 @@
     "title": "Radio Programs : Free Audio : Free Download, Borrow and Streaming : Internet Archive"
   },
   {
+    "url": "https://archive.org/details/texts",
+    "status": "301",
+    "title": "Free Books : Download &amp; Streaming : eBooks  and Texts : Internet Archive"
+  },
+  {
     "url": "https://archive.org/details/tv",
     "status": "301",
     "title": "Internet Archive"
@@ -3422,9 +3578,23 @@
     "title": "Internet Archive Search: test"
   },
   {
+    "url": "https://archive.org/search.php?and[]=collection:%22texts%22&sin=TXT&query=test",
+    "status": "200",
+    "title": "Internet Archive Search: test"
+  },
+  {
     "url": "https://archive.org/search.php?sin=TXT&query=test",
     "status": "200",
     "title": "Internet Archive Search: test"
+  },
+  {
+    "url": "https://archiveofourown.org/",
+    "status": "302"
+  },
+  {
+    "url": "https://archiveofourown.org/works/search?work_search%5Bquery%5D=test",
+    "status": "302",
+    "redirect": "https://archiveofourown.org/works/search"
   },
   {
     "url": "https://www.c-span.org/about/videoLibrary/",
@@ -3558,6 +3728,22 @@
     "title": "Browse By Category: Audio Book, human-read - Project Gutenberg"
   },
   {
+    "url": "http://www.gutenberg.org/",
+    "status": "200",
+    "title": "Gutenberg"
+  },
+  {
+    "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=test;a=srchls",
+    "status": "301",
+    "redirect": "https://babel.hathitrust.org/cgi/ls",
+    "title": "Full-text Search Results | HathiTrust Digital Library"
+  },
+  {
+    "url": "https://www.hathitrust.org/",
+    "status": "301",
+    "title": "HathiTrust Digital Library | Millions of books online"
+  },
+  {
     "url": "http://www.homemovieregistry.org/wp/",
     "status": "200"
   },
@@ -3591,6 +3777,29 @@
     "status": "301",
     "redirect": "https://digitalcollections.nypl.org/search/index",
     "title": "Search results - \"test\" - NYPL Digital Collections"
+  },
+  {
+    "url": "https://researchworks.oclc.org/archivegrid/",
+    "status": "200"
+  },
+  {
+    "url": "https://researchworks.oclc.org/archivegrid/?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.oclc.org/en/home.html",
+    "status": "301"
+  },
+  {
+    "url": "https://openlibrary.org/",
+    "status": "302",
+    "title": "Welcome to Open Library | Open Library"
+  },
+  {
+    "url": "https://openlibrary.org/search/inside?q=test",
+    "status": "302",
+    "redirect": "https://openlibrary.org/search/inside",
+    "title": "Search Open Library for test | Open Library"
   },
   {
     "url": "https://www.pbs.org/search/?q=test",
@@ -3679,6 +3888,17 @@
     "status": "200"
   },
   {
+    "url": "https://www.wdl.org/en/",
+    "status": "301",
+    "title": "World Digital Library Home"
+  },
+  {
+    "url": "https://www.wdl.org/en/search/?q=test",
+    "status": "301",
+    "redirect": "https://www.wdl.org/en/search/",
+    "title": "Search Results - World Digital Library"
+  },
+  {
     "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
     "status": "301",
     "title": "Wikidata"
@@ -3760,6 +3980,16 @@
     "title": "Wikipedia - Wikipedia"
   },
   {
+    "url": "https://en.wikisource.org/w/index.php?title=Special%3ASearch&search=test",
+    "status": "301",
+    "redirect": "https://en.wikisource.org/w/index.php"
+  },
+  {
+    "url": "https://en.wikisource.org/wiki/Main_Page",
+    "status": "301",
+    "title": "Wikisource, the free library"
+  },
+  {
     "url": "https://www.worldcat.org/",
     "status": "301",
     "title": "WorldCat.org: The World's Largest Library Catalog"
@@ -3769,6 +3999,12 @@
     "status": "301",
     "redirect": "https://www.worldcat.org/search",
     "title": "Results for 'test' &gt; 'image +-2d;' [WorldCat.org]"
+  },
+  {
+    "url": "https://www.worldcat.org/search?q=test",
+    "status": "301",
+    "redirect": "https://www.worldcat.org/search",
+    "title": "Results for 'test' [WorldCat.org]"
   },
   {
     "url": "https://tune.pk/search_result.php?query=test",
@@ -3811,6 +4047,16 @@
     "url": "https://www.twitch.tv/",
     "status": "301",
     "title": "Twitch"
+  },
+  {
+    "url": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,test",
+    "status": "302",
+    "redirect": "http://explore.bl.uk/primo_library/libweb/action/error.do;jsessionid=065339632FDAA234D973A3359210DE43"
+  },
+  {
+    "url": "https://www.bl.uk/",
+    "status": "301",
+    "title": "The British Library   - The British Library"
   },
   {
     "url": "https://www.bbc.co.uk/iplayer/search?q=test",
@@ -3862,6 +4108,12 @@
     "status": "301"
   },
   {
+    "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=test",
+    "status": "301",
+    "redirect": "https://discovery.nationalarchives.gov.uk/results/r",
+    "title": "Search results: test | The National Archives"
+  },
+  {
     "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",
     "status": "301",
     "title": "Video | The National Archives"
@@ -3871,6 +4123,11 @@
     "status": "301",
     "redirect": "https://media.nationalarchives.gov.uk/",
     "title": "Search for &quot;test&quot; - Archives Media Player"
+  },
+  {
+    "url": "https://www.nationalarchives.gov.uk/",
+    "status": "301",
+    "title": "The National Archives"
   },
   {
     "url": "https://data.world/",

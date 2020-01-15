@@ -1,4 +1,5 @@
 500px
+Abhilekh
 able2know
 ABYZ
 AFP
@@ -8,7 +9,9 @@ ai
 Alexa
 AllMovie
 anime
+AO3
 Aparat
+ArchiveGrid
 Audiobooks
 audiobooks
 Audioburst
@@ -36,6 +39,7 @@ de
 DeviantArt
 dia
 DocumentaryHeaven
+DPLA
 Dreamstime
 DuckDuckGo
 ebooks
@@ -75,8 +79,10 @@ Giphy
 Globo
 Goodreads
 Grafiti
+Granth
 GroupSpaces
 Haosou
+Hathi
 Howcast
 Hulu
 Iconfinder
@@ -118,6 +124,7 @@ Moviefone
 MyHeritage
 myTuner
 Naver
+NDL
 netsplit
 NewsBank
 NewsLibrary
@@ -128,12 +135,14 @@ Nextdoor
 NFB
 NFSA
 Niconico
+OCLC
 OnlineNewspapers
 OpenDataSoft
 OpenEd
 OverDrive
 PaperOfRecord
 Parsijoo
+Patal
 PDF
 Peekier
 personalization
@@ -169,6 +178,7 @@ Reelgood
 RSS
 ru
 Rutube
+Sanjeevani
 SchoolTube
 Scribd
 Scribl
@@ -229,6 +239,7 @@ WatchKnowLearn
 WeeklyScript
 WikiLeaks
 Wikimedia
+Wikisource
 Wikiwand
 WorldCat
 wwiTV
