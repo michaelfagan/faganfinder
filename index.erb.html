@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><%= page.id.capitalize %> search | <%= site[:name] %></title>
+    <title><% unless page.path.empty? %><%= page.id.capitalize %> search <% end %><%= site[:name] %></title>
     <meta name="description" content="<%= page.description.external %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style><%= css %></style>
