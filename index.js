@@ -99,7 +99,7 @@ if (typeof document.body.classList === 'object') {
     }
     // click on a section name
     else if (tag === 'a' && ptag === 'h3') {
-      if (getComputedStyle(form.getElementsByTagName('a')[1]).textDecoration.indexOf('none') !== -1) {
+      if (getComputedStyle(form.getElementsByTagName('a')[0]).textDecoration.indexOf('none') !== -1) {
         // ^ check for mobile by looking for a moble style
         var div = e.target.parentNode.parentNode;
         if (div.classList.contains('active')) {

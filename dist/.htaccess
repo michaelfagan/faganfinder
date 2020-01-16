@@ -28,9 +28,9 @@ RewriteRule group/$ https://www.faganfinder.com/group/ [R=301,L]
 # new pages
 RewriteRule /$ information.html [L]
 RewriteRule video/$ video.html [L]
-RewriteRule img/$ images.html [L]
+RewriteRule img/$ image.html [L]
 RewriteRule listen/$ listen.html [L]
-RewriteRule group/$ groups.html [L]
+RewriteRule group/$ group.html [L]
 
 # new pages do not have changelogs
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
