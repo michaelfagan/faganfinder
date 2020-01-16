@@ -36,9 +36,10 @@ RewriteRule group/$ groups.html [L]
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
 # old pages which were merged into /engines/
-RewriteRule (engines|blogs|invis|meta|dir|keyword|kids).* https://www.faganfinder.com/ [R=301,L]
+RewriteRule (engines|blogs|invis|meta|dir|keyword|kids|google).* https://www.faganfinder.com/ [R=301,L]
 RewriteRule news((/.+)|$) https://www.faganfinder.com/ [R=301,L] # prevents newstyle.css and newscript.js from redirecting
 Redirect 301 /misc/popular.shtml https://www.faganfinder.com/
+RewriteRule google(2)?.htm(l)? https://www.faganfinder.com/ [R=301,L]
 
 
 
@@ -78,9 +79,6 @@ Redirect 301 /misc/calc.shtml https://www.faganfinder.com/
 Redirect 301 /sponsors/translation-services.php http://www.faganfinder.com/translate/
 
 #moved pages
-
-RewriteRule google(2)?.htm(l)? http://www.faganfinder.com/google/ [R=301,L]
-RewriteRule engines/google.shtml http://www.faganfinder.com/google/ [R=301,L]
 
 Redirect 301 /index.html https://www.faganfinder.com/
 Redirect 301 /index_changes.shtml http://www.faganfinder.com/changes/
