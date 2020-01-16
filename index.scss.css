@@ -193,7 +193,7 @@ button {
       }
       div {
         display: block; /* i.e. show */
-        margin-left: 1em; /* matches ul left margin above */
+        margin-left: 1.5em; /* matches ul left margin above + button left padding */
       }
     }
     button {
