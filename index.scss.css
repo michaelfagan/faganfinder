@@ -223,11 +223,14 @@ section + section {
     font-size: 0.8em;
   }
 }
+$ad_width: 336px;
 .has-js #adtwo {
-  float: left;
   margin: 0 1em 1em 0;
+  @media (min-width: ($ad_width * 2)) {
+    float: left;
+  }
   > ins {
-    width: 336px;
+    width: $ad_width;
     height: 280px;
     display: inline-block;
   }
