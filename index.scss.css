@@ -142,10 +142,11 @@ form ul div div {
    */
   display: none;
 }
+$button_side_padding: 0.5em;
 button {
   width: 100%;
   text-align: left;
-  padding: 0 0.5em;
+  padding: 0 $button_side_padding;
   margin: 0.1em 0;
   font-size: 0.9em;
   background-color: transparent;
@@ -183,17 +184,18 @@ button {
       display: none;
     }
     .active {
+      $ul_left_margin: 1em;
       ul {
         display: block;
         margin: 0.5em 0;
-        margin-left: 1em;
+        margin-left: $ul_left_margin;
       }
       h3 a:before {
         content: '\25BC\00A0'; /* down arrow and non-breaking space */
       }
       div {
         display: block; /* i.e. show */
-        margin-left: 1.5em; /* matches ul left margin above + button left padding */
+        margin-left: $ul_left_margin + $button_side_padding;
       }
     }
     button {
