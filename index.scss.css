@@ -97,6 +97,7 @@ nav {
 /* top ad */
 .has-js #adone ins {
   display: inline-block;
+  margin-top: 0.2em;
   width: 728px;
   height: 90px;
 }
@@ -227,9 +228,10 @@ section + section {
 }
 $ad_width: 336px;
 .has-js #adtwo {
-  margin: 0 1em 1em 0;
+  margin: 1em 1em 1em 0;
   @media (min-width: ($ad_width * 2)) {
     float: left;
+    margin-top: 0;
   }
   > ins {
     width: $ad_width;

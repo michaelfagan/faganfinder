@@ -10,23 +10,23 @@ RewriteEngine On
 RewriteBase /
 
 RewriteCond %{HTTPS} !=on
-RewriteRule video/$ https://www.faganfinder.com/video/ [R=301,L]
+RewriteRule ^video/$ https://www.faganfinder.com/video/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule img/$ https://www.faganfinder.com/img/ [R=301,L]
+RewriteRule ^img/$ https://www.faganfinder.com/img/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule /$ https://www.faganfinder.com/ [R=301,L]
+RewriteRule ^$ https://www.faganfinder.com/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule listen/$ https://www.faganfinder.com/listen/ [R=301,L]
+RewriteRule ^listen/$ https://www.faganfinder.com/listen/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule group/$ https://www.faganfinder.com/group/ [R=301,L]
+RewriteRule ^group/$ https://www.faganfinder.com/group/ [R=301,L]
 
 
 # new pages
-RewriteRule /$ information.html [L]
+RewriteRule ^$ information.html [L]
 RewriteRule video/$ video.html [L]
 RewriteRule img/$ image.html [L]
 RewriteRule listen/$ listen.html [L]
@@ -36,8 +36,9 @@ RewriteRule group/$ group.html [L]
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
 # old pages which were merged into /engines/
-RewriteRule (engines|blogs|invis|meta|dir|keyword|kids|google).* https://www.faganfinder.com/ [R=301,L]
-RewriteRule news((/.+)|$) https://www.faganfinder.com/ [R=301,L] # prevents newstyle.css and newscript.js from redirecting
+RewriteRule ^(engines|blogs|invis|meta|dir|keyword|kids|google|aref|weather).* https://www.faganfinder.com/ [R=301,L]
+RewriteRule ^news(/.+)?$ https://www.faganfinder.com/ [R=301,L]
+# ^ prevents newstyle.css and newscript.js from redirecting
 Redirect 301 /misc/popular.shtml https://www.faganfinder.com/
 RewriteRule google(2)?.htm(l)? https://www.faganfinder.com/ [R=301,L]
 
@@ -72,7 +73,8 @@ Redirect 301 /misc/info.php http://www.faganfinder.com/urlinfo/
 RewriteRule site/(search|privacy|disclaimer|whyff|help|howto|preferences)\.shtml http://www.faganfinder.com/site/ [R=301,L]
 RewriteRule site/link.shtml http://www.faganfinder.com/searchbox/ [R=301,L]
 Redirect 301 /misc/bookmarklets.shtml https://www.faganfinder.com/
-Redirect 301 /search/links.shtml https://www.faganfinder.com/ # unless I make a new links page
+Redirect 301 /search/links.shtml https://www.faganfinder.com/
+# ^ unless I make a new links page
 RewriteRule search/(index.shtml)? https://www.faganfinder.com/ [R=301,L]
 Redirect 301 /search/happening.shtml https://www.faganfinder.com/
 Redirect 301 /misc/calc.shtml https://www.faganfinder.com/
@@ -126,7 +128,7 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-RewriteRule (img|audio|video|aref|geo|bio|science|buy|group|kids|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (img|audio|video|geo|bio|science|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule img/index_changes.shtml https://www.faganfinder.com/img/ [R=301,L]
 
 
