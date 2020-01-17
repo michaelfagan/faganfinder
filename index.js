@@ -99,19 +99,14 @@ if (typeof document.body.classList === 'object') {
     }
     // click on a section name
     else if (tag === 'a' && ptag === 'h3') {
-      var sections = form.getElementsByTagName('ul')[0].getElementsByTagName('ul');
-      if (getComputedStyle(sections[0]).display === 'none' || getComputedStyle(sections[1]).display === 'none') {
-        // i.e. if showing mobile view
+      if (getComputedStyle(form.getElementsByTagName('a')[0]).textDecoration.indexOf('none') !== -1) {
+        // ^ check for mobile by looking for a moble style
         var div = e.target.parentNode.parentNode;
         if (div.classList.contains('active')) {
           div.classList.remove('active');
           ga('send', 'event', e.target.textContent, 'collapse');
         }
         else {
-          var active = form.getElementsByClassName('active');
-          if (active.length > 0) {
-            active[0].classList.remove('active');
-          }
           div.classList.add('active');
           div.getElementsByTagName('button')[0].focus();
           ga('send', 'event', e.target.textContent, 'expand');

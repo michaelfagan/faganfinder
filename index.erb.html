@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title><%= page.id.capitalize %> search | <%= site[:name] %></title>
+    <title><%= page.path.empty? ? '' : (page.id.capitalize + ' search ') %><%= site[:name] %></title>
     <meta name="description" content="<%= page.description.external %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style><%= css %></style>
@@ -16,7 +16,19 @@
 
   <body class="no-js">
 
-    <h1 class="sr-only"><%= site[:name] %>: <%= page.id.capitalize %> search</h1>
+    <header class="highlight">
+      <h1><%= site[:name] %><%= page.path.empty? ? '' : (': ' + page.id.capitalize + ' search') %></h1>
+      <nav>
+        <ul>
+        <% pages.reject{|p| p.id == page.id }.sort{|a,b| b.tools <=> a.tools }.each do |other_page| %>
+          <li>
+            <a href="<%= site[:root] %><%= other_page.path %>" title="<%= other_page.description.internal %>"><%= other_page.id.capitalize %> search</a>
+          </li>
+        <% end %>
+          <li><a id="about" href="#footer">About</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <div class="inner"><div id="adone">
@@ -28,15 +40,13 @@
 
       <div class="highlight">
 
-        <nav class="oneline"><a id="about" href="#footer">About</a></nav>
-
-        <h2 class="oneline">
+        <h2>
           <label>
             Search for
             <input type="text" name="q">
           </label>
           <button>Search</button><%# just used to prevent 'enter' submission from triggering a click on an actual button, is hidden %>
-          <span style="white-space:nowrap">to find <%= page.noun || page.id %> and more using:</span>
+          using:
         </h2>
       </div>
 
@@ -69,7 +79,7 @@
 
     </form>
 
-    <div class="highlight"><h2 class="oneline">Details and further resources</h2></div>
+    <div class="highlight"><h2>Details and further resources</h2></div>
     <div id="details" class="inner">
 
       <% if page.number_of_tools > 40 %>
@@ -89,31 +99,6 @@
     </div>
 
     <footer tabindex="-1" id="footer" class="highlight" style="padding:1em 0">
-      <section role="navigation" style="margin-top:0">
-        <h2>More search tools on <%= site[:name] %></h2>
-        <ul>
-        <% pages.reject{|p| p.id == page.id }.each do |other_page| %>
-          <li>
-            <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %></a>:
-            <%= other_page.description.internal %>
-          </li>
-        <% end %>
-        </ul>
-        <h3 style="font-size:1em">Older tools</h3>
-        <ul id="legacy">
-          <li><a href="<%= site[:root_old] %>aref/">Academic search</a></li>
-          <li><a href="<%= site[:root_old] %>audio/">Audio and music search</a></li>
-          <li><a href="<%= site[:root_old] %>geo/">Maps and geography search</a></li>
-          <li><a href="<%= site[:root_old] %>words/">Word reference</a></li>
-          <li><a href="<%= site[:root_old] %>bio/">Biography search</a></li>
-          <li><a href="<%= site[:root_old] %>urlinfo/">URLinfo</a></li>
-          <li><a href="<%= site[:root_old] %>translate/">Translation Wizard</a></li>
-          <li><a href="<%= site[:root_old] %>google/">Google Ultimate Interface</a></li>
-          <li><a href="<%= site[:root_old] %>date/">Search by date</a></li>
-          <li><a href="<%= site[:root_old] %>quotes/">Quotation search</a></li>
-          <li><a href="<%= site[:root_old] %>search/rss.php">All about RSS</a></li>
-        </ul>
-      </section>
 
       <section>
         <h2>About <%= site[:name] %></h2>
@@ -123,6 +108,31 @@
           Launched in 2001 and still run by Michael Fagan.
           Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>
+      </section>
+
+      <section role="navigation">
+        <h2>More search pages</h2>
+        <ul>
+        <% pages.reject{|p| p.id == page.id }.sort{|a,b| b.tools <=> a.tools }.each do |other_page| %>
+          <li>
+            <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %> search</a>:
+            <%= other_page.description.internal %>
+          </li>
+        <% end %>
+        </ul>
+        <h3 style="font-size:1em">Older pages</h3>
+        <ul>
+          <li><a href="<%= site[:root_old] %>audio/">Audio and music search</a></li>
+          <li><a href="<%= site[:root_old] %>filetype/">Search by file format</a></li>
+          <li><a href="<%= site[:root_old] %>geo/">Maps and geography search</a></li>
+          <li><a href="<%= site[:root_old] %>words/">Word reference</a></li>
+          <li><a href="<%= site[:root_old] %>bio/">Biography search</a></li>
+          <li><a href="<%= site[:root_old] %>urlinfo/">URLinfo</a></li>
+          <li><a href="<%= site[:root_old] %>translate/">Translation Wizard</a></li>
+          <li><a href="<%= site[:root_old] %>date/">Search by date</a></li>
+          <li><a href="<%= site[:root_old] %>quotes/">Quotation search</a></li>
+          <li><a href="<%= site[:root_old] %>search/rss.php">All about RSS</a></li>
+        </ul>
       </section>
 
     </footer>

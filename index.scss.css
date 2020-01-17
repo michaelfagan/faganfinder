@@ -77,28 +77,31 @@ body, .highlight {
 }
 .highlight {
   background-color: $highlight;
+  padding: 0.3em 0;
 }
-.oneline {
-  /*
-    ensures that the two highlight areas have the same height
-    and the 'about' link is aligned the same way
-  */
-  line-height: 2em;
+
+
+/* header */
+nav {
+  ul {
+    display: inline;
+  }
+  li {
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-right: 0.8em;
+  }
 }
 
 
 /* top ad */
 .has-js #adone ins {
   display: inline-block;
+  margin-top: 0.2em;
   width: 728px;
   height: 90px;
 }
 
-/* about link */
-nav a {
-  float: right;
-  margin-left: 1.5em;
-}
 
 /* search form */
 input {
@@ -110,13 +113,6 @@ input {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    @media screen and (max-width: 53em) {
-      .oneline {
-        line-height: 1.4em;
-        padding-top: 0.1em;
-        padding-bottom: 0.1em;
-      }
-    }
   }
   button {
     display: none;
@@ -147,10 +143,11 @@ form ul div div {
    */
   display: none;
 }
+$button_side_padding: 0.5em;
 button {
   width: 100%;
   text-align: left;
-  padding: 0 0.5em;
+  padding: 0 $button_side_padding;
   margin: 0.1em 0;
   font-size: 0.9em;
   background-color: transparent;
@@ -188,17 +185,18 @@ button {
       display: none;
     }
     .active {
+      $ul_left_margin: 1em;
       ul {
         display: block;
         margin: 0.5em 0;
-        margin-left: 1em;
+        margin-left: $ul_left_margin;
       }
       h3 a:before {
         content: '\25BC\00A0'; /* down arrow and non-breaking space */
       }
       div {
         display: block; /* i.e. show */
-        margin-left: 1em; /* matches ul left margin above */
+        margin-left: $ul_left_margin + $button_side_padding;
       }
     }
     button {
@@ -228,23 +226,22 @@ section + section {
     font-size: 0.8em;
   }
 }
+$ad_width: 336px;
 .has-js #adtwo {
-  float: left;
-  margin: 0 1em 1em 0;
+  margin: 1em 1em 1em 0;
+  @media (min-width: ($ad_width * 2)) {
+    float: left;
+    margin-top: 0;
+  }
   > ins {
-    width: 336px;
+    width: $ad_width;
     height: 280px;
     display: inline-block;
   }
 }
-#legacy {
-  -moz-column-width: 15em;
-  column-width: 15em;
-  list-style-type: none;
-  margin: 0;
-  a {
-    font-weight: inherit;
-  }
+
+footer section {
+  margin-top: 0;
 }
 
 
@@ -256,6 +253,12 @@ section + section {
   h3 a, h3 a:visited {
     /* section titles in the form don't need to show as links */
     text-decoration: none;
+    color: inherit;
+  }
+  form .highlight {
+    position: static;
+  }
+  button.activeb {
     color: inherit;
   }
   #details a[href^="h"] {
@@ -270,6 +273,9 @@ section + section {
     background-color: transparent;
     border: solid black;
     border-width: 2px 0;
+  }
+  header.highlight {
+    border-width: 0;
   }
   footer.highlight {
     border-bottom-width: 0;
