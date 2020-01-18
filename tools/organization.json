@@ -1,0 +1,403 @@
+{
+  "description": {
+    "internal": "this is temporary this is temporary",
+    "external": "this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary"
+  },
+  "path": "organization/",
+  "sections": [
+    {
+      "name": "Temp name",
+      "tools": [
+        {
+          "name": "OpenCorporates",
+          "searchUrl": "https://opencorporates.com/companies?q={q}"
+        },
+        {
+          "name": "Dato Capital",
+          "searchUrl": "https://en.datocapital.com/_search?q={q}"
+        },
+        {
+          "name": "Hoovers",
+          "searchUrl": "http://www.hoovers.com/company-information/company-search.html?term={q}"
+        },
+        {
+          "name": "Bloomberg",
+          "searchUrl": "https://www.google.com/search?q={q}+site%3Abloomberg.com%2Fresearch%2Fstocks"
+        },
+        {
+          "name": "Zirra",
+          "searchUrl": "https://www.zirra.com/search?q={q}"
+        },
+        {
+          "name": "FindTheCompany",
+          "searchUrl": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22{q}%22%7D%5D"
+        },
+        {
+          "name": "Alacra",
+          "searchUrl": "http://www.alacrastore.com/cgi-bin/alacraswitchISAPI.dll?app=pubsite&msg=GetSearchOptions&topic=company&includesubs=Y&sk=guest&syntax=Boolean&companytype=all&sicnaics=SIC&primarysic=ON&stepForward.x=1&stepForward.x.x=0&stepForward.x.y=0&stepForward.x=Search&name={q}"
+        },
+        {
+          "name": "Matchdeck",
+          "searchUrl": "https://www.matchdeck.com/homepage-mk2/search?search_keywords={q}"
+        },
+        {
+          "name": "EDGAR",
+          "searchUrl": "https://www.sec.gov/cgi-bin/browse-edgar?company={q}"
+        },
+        {
+          "name": "Corporation Wiki",
+          "searchUrl": "https://www.corporationwiki.com/search/results?term={q}"
+        },
+        {
+          "name": "Crunchbase",
+          "searchUrl": "https://www.crunchbase.com/app/search?q={q}"
+        },
+        {
+          "name": "AngelList",
+          "searchUrl": "https://angel.co/search?type=companies&q={q}"
+        },
+        {
+          "name": "ThomasNet",
+          "searchUrl": "https://www.thomasnet.com/search.html?which=comp&what={q}"
+        },
+        {
+          "name": "IndustryNet",
+          "searchUrl": "https://www.industrynet.com/suppliers/?company={q}"
+        },
+        {
+          "name": "Europages",
+          "searchUrl": "http://www.europages.co.uk/companies/{q}.html"  
+        },
+        {
+          "name": "Company Check",
+          "searchUrl": "https://companycheck.co.uk/search?term={q}"
+        },
+        {
+          "name": "European <abbr title=\"Business\">Bus.</abbr> Register",
+          "searchUrl": "https://www.ebr.lv/en/advanced-search?AdvancedSearch%5Bname%5D={q}"
+        },
+        {
+          "name": "Yellow Pages",
+          "searchUrl": "https://www.yellowpages.com/search?search_terms={q}"
+        },
+        {
+          "name": "Companies House (<abbr title=\"United Kingdom\">UK</abbr>)",
+          "searchUrl": "https://beta.companieshouse.gov.uk/search?q={q}"
+        },
+        {
+          "name": "InvestEgate",
+          "searchUrl": "https://www.investegate.co.uk/Index.aspx?searchtype=2&words={q}"
+        },
+        {
+          "name": "Canadian companies",
+          "searchUrl": "http://www.ic.gc.ca/app/ccc/srch/srch.do?lang=eng&prtl=1&searchCriteriaBean.portal=1&V_SEARCH.documentJSP=%2FretrieveEstablishmentIdFromVerity.do&searchPage=%252Fapp%252Fccc%252Fsrch%252FcccBscSrch.do%253Flang%253Deng%2526amp%253Bprtl%253D1%2526amp%253Btagid%253D&searchCriteriaBean.resultJsp=%2Fresults.do&V_SEARCH.scopeCategory=CCC.Root&V_SEARCH.depth=1&V_SEARCH.showStricts=false&searchCriteriaBean.conceptOperator=and&searchCriteriaBean.isExportingOrInterested=exportingActively&searchCriteriaBean.hitsPerPage=10&searchCriteriaBean.sortSpec=title+asc&searchCriteriaBean.isSummaryOn=Y&searchCriteriaBean.textField={q}"
+        },
+        {
+          "name": "Federal corporations (Canada)",
+          "searchUrl": "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html",
+          "post": "corpName"
+        },
+        {
+          "name": "Yellow Pages",
+          "searchUrl": "https://www.yellowpages.ca/search/si/1/{q}"
+        }
+      ]
+    },
+    {
+      "name": "Financials",
+      "tools": [
+        {
+          "name": "Google Finance",
+          "searchUrl": "https://finance.google.ca/finance?q={q}"
+        },
+        {
+          "name": "Yahoo! Finance",
+          "searchUrl": "https://finance.yahoo.com/lookup?s={q}"  
+        },
+        {
+          "name": "Morningstar",
+          "searchUrl": "http://beta.morningstar.com/search.html?q={q}"
+        },
+        {
+          "name": "StockChase",
+          "searchUrl": "http://www.stockchase.com/company/find?companysearch={q}"
+        },
+        {
+          "name": "Company Spotlight",
+          "searchUrl": "http://www.companyspotlight.com/library/companies/keyword/{q}"
+        },
+        {
+          "name": "AnnualReports.com",
+          "searchUrl": "http://www.annualreports.com/Companies?search={q}"
+        },
+        {
+          "name": "Calcbench",
+          "searchUrl": "https://www.calcbench.com/dashboard/{q}"
+        },
+        {
+          "name": "StockTwits",
+          "searchUrl": "https://stocktwits.com/search?filter=tickers&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Credit ratings",
+      "tools": [
+        {
+          "name": "Moody’s",
+          "searchUrl": "https://www.moodys.com/page/search.aspx?cy=global&spk=qs&tb=1&kw={q}"          
+        },
+        {
+          "name": "Standard & Poor’s",
+          "searchUrl": "http://www.standardandpoors.com/en_US/web/guest/ratings/search/-/search/searchType/E/searchTerm/{q}"
+        },
+        {
+          "name": "Fitch Ratings",
+          "searchUrl": "https://www.fitchratings.com/site/search?content=entity&request={q}"
+        },
+        {
+          "name": "Zacks",
+          "searchUrl": "https://www.zacks.com/search.php?q={q}"
+        },
+        {
+          "name": "Dun & Bradstreet",
+          "searchUrl": "https://businesscredit.dnb.com/intl-search/?companyName={q}"
+        }
+      ]
+    },
+    {
+      "name": "Employee reviews",
+      "tools": [
+        {
+          "name": "Glassdoor",
+          "searchUrl": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword={q}"
+        },
+        {
+          "name": "Comparably",
+          "searchUrl": "https://www.comparably.com/search?mode=companies&q={q}"
+        },
+        {
+          "name": "Indeed",
+          "searchUrl": "https://www.indeed.com/cmp?q={q}"
+        },
+        {
+          "name": "kununu",
+          "searchUrl": "https://www.kununu.com/search#/?q={q}"
+        },
+        {
+          "name": "Vault",
+          "searchUrl": "http://www.vault.com/search-results.aspx?pref=comp&q={q}"
+        },
+        {
+          "name": "CareerBliss",
+          "searchUrl": "https://www.careerbliss.com/search/?typeFilter=company&q={q}"          
+        },
+        {
+          "name": "Fairygodboss",
+          "searchUrl": "https://fairygodboss.com/search?term={q}"
+        },
+        {
+          "name": "JobAdvisor",
+          "searchUrl": "https://www.jobadvisor.org/companies?keyword={q}"
+        },
+        {
+          "name": "SEEK",
+          "searchUrl": "https://www.seek.com.au/companies/search?keywords={q}"
+        },
+        {
+          "name": "TheJobCrowd",
+          "searchUrl": "http://www.thejobcrowd.com/search/node/{q}/employers"
+        }
+      ]
+    },
+    {
+      "name": "Ethics, health, and safety",
+      "tools": [
+        {
+          "name": "GoodGuide",
+          "searchUrl": "https://www.google.com/search?q={q}+site%3Agoodguide.com%2Fcompanies+OR+site%3Agoodguide.com%2Fbrands"
+        },
+        {
+          "name": "Corporate Critic",
+          "searchUrl": "http://www.corporatecritic.org/companies.aspx",
+          "post": "txtSearch"
+        },
+        {
+          "name": "EWG",
+          "searchUrl": "http://www.ewg.org/skindeep/search.php?search_group=companies&query={q}"
+        },
+        {
+          "name": "Household Products <abbr title=\"Database\">DB</abbr>",
+          "searchUrl": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
+          "post": "queryx"
+        },
+        {
+          "name": "<abbr title=\"Occupational Safety and Health Administration\">OSHA</abbr> inspections",
+          "searchUrl": "https://www.osha.gov/pls/imis/establishment.search?establishment={q}"
+        },
+        {
+          "name": "Violation Tracker",
+          "searchUrl": "https://violationtracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
+        },
+        {
+          "name": "<abbr title=\"People for the Ethical Treatment of Animals\">PETA</abbr>",
+          "searchUrl": "http://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx?Keyword={q}"
+        },
+        {
+          "name": "ConsumerWatch.com",
+          "searchUrl": "http://consumerwatch.com/?s={q}"
+        },
+        {
+          "name": "Corporate Register",
+          "searchUrl": "http://www.corporateregister.com/search/?s={q}"
+        },
+        {
+          "name": "<abbr title=\"Portal for Sustainability Reporting\">Sustainability Reporting</abbr>",
+          "searchUrl": "http://www.sustainability-reports.com/bedrijf/?_sf_s={q}"
+        },
+        {
+          "name": "<abbr title=\"United Nations\">UN</abbr> <abbr title=\"Global Compact Communication on Progress reports\">COPs</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Aunglobalcompact.org%2Fwhat-is-gc%2Fparticipants"
+        },
+        {
+          "name": "<abbr title=\"Business &amp; Human Rights Resource Centre\">Business &amp; Human Rights</abbr>",
+          "searchUrl": "https://business-humanrights.org/en/search-results?langcode=en&keywords={q}"
+        },
+        {
+          "name": "<abbr title=\"Occupational Safety and Health Administration\">OSHA</abbr> inspections",
+          "searchUrl": "https://www.osha.gov/pls/imis/establishment.search?establishment={q}"
+        },
+        {
+          "name": "Offshore Leaks Database",
+          "searchUrl": "https://offshoreleaks.icij.org/search?q={q}"
+        }
+     ]
+    },
+    {
+      "name": "Consumer reviews",
+      "tools": [
+        {
+          "name": "Complaints Board",
+          "searchUrl": "https://www.complaintsboard.com/?search={q}"
+        },
+        {
+          "name": "ConsumerAffairs",
+          "searchUrl": "https://www.consumeraffairs.com/search.html?q={q}"
+        }        
+      ]
+    },
+    {
+      "name": "Social networks",
+      "tools": [
+        {
+          "name": "LinkedIn",
+          "searchUrl": "https://www.linkedin.com/search/results/companies/?keywords={q}"
+        },
+        {
+          "name": "XING",
+          "searchUrl": "https://www.xing.com/search/companies?keywords={q}"
+        }
+      ]
+    },
+    {
+      "name": "Patents",
+      "tools": [
+        {
+          "name": "Google Patents",
+          "searchUrl": "https://patents.google.com/?assignee={q}"
+        },
+        {
+          "name": "The Lens",
+          "searchUrl": "https://www.lens.org/lens/search?q=applicant%3A{q}"
+        },
+        {
+          "name": "Espacenet",
+          "searchUrl": "https://worldwide.espacenet.com/searchResults?PA={q}"
+        },
+        {
+          "name": "FreePatentsOnline",
+          "searchUrl": "http://www.freepatentsonline.com/result.html?uspat=on&usapp=on&eupat=on&jp=on&pct=on&depat=on&date_range=all&stemming=on&sort=relevance&an={q}"
+        },
+        {
+          "name": "<abbr title=\"United States Patent and Trademark Office\">USPTO</abbr>",
+          "searchUrl": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=ASNM&d=PTXT&TERM1={q}"
+        },
+        {
+          "name": "<abbr title=\"United States Patent and Trademark Office\">USPTO</abbr> applications",
+          "searchUrl": "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=AS&d=PG01&TERM1={q}"
+        }
+      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "tools": [
+        {
+          "name": "ProxyDemocracy",
+          "searchUrl": "http://proxydemocracy.org/data/companies/search?query={q}"
+        },
+        {
+          "name": "Subsidy Tracker",
+          "searchUrl": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company={q}"
+        },
+        {
+          "name": "The Official Board",
+          "searchUrl": "https://www.theofficialboard.com/company/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"Social Networks and Archival Context\">Networks and Archival Context</abbr>",
+          "searchUrl": "http://snaccooperative.org/?entity_type=corporateBody&command=search&term={q}"
+        },
+        {
+          "name": "<abbr title=\"North American Industry Classification System\">NAICS</abbr> codes",
+          "searchUrl": "https://www.naics.com/naics-search-results/",
+          "post": "words"
+        }
+      ]
+    },
+    {
+      "name": "Not-for-profits",
+      "tools": [
+        {
+          "name": "Charity Vault",
+          "searchUrl": "http://www.charity-charities.org/google.htm?cx=partner-pub-0757242901800135%3A10a05svcoyz&cof=FORID%3A9&q={q}"
+        },
+        {
+          "name": "Give.org",
+          "searchUrl": "http://www.give.org/search/?term={q}"
+        },
+        {
+          "name": "Charity Navigator",
+          "searchUrl": "https://www.charitynavigator.org/?bay=search.results&keyword_list={q}"
+        },
+        {
+          "name": "GuideStar",
+          "searchUrl": "https://www.guidestar.org/search?q={q}"
+        },
+        {
+          "name": "CitizenAudit",
+          "searchUrl": "https://www.citizenaudit.org/search?q={q}"
+        },
+        {
+          "name": "Nonprofit Explorer",
+          "searchUrl": "https://projects.propublica.org/nonprofits/search?q={q}"
+        },
+        {
+          "name": "OpenSecrets.org",
+          "searchUrl": "http://www.opensecrets.org/dark-money/explore-our-reports/results?org_query={q}"
+        },
+        {
+          "name": "Government of Canada",
+          "searchUrl": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k={q}"
+        },
+        {
+          "name": "CanadaHelps",
+          "searchUrl": "https://www.canadahelps.org/en/explore/charities/?q={q}"
+        },
+        {
+          "name": "Charity Intelligence Canada",
+          "searchUrl": "https://www.charityintelligence.ca/charity-search-results?k={q}"
+        }
+      ]
+    }
+  ]
+}

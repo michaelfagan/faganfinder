@@ -19,7 +19,7 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^$ https://www.faganfinder.com/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
-RewriteRule ^listen/$ https://www.faganfinder.com/listen/ [R=301,L]
+RewriteRule ^audio/$ https://www.faganfinder.com/audio/ [R=301,L]
 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^group/$ https://www.faganfinder.com/group/ [R=301,L]
@@ -29,7 +29,7 @@ RewriteRule ^group/$ https://www.faganfinder.com/group/ [R=301,L]
 RewriteRule ^$ information.html [L]
 RewriteRule video/$ video.html [L]
 RewriteRule img/$ image.html [L]
-RewriteRule listen/$ listen.html [L]
+RewriteRule audio/$ audio.html [L]
 RewriteRule group/$ group.html [L]
 
 # new pages do not have changelogs
@@ -45,7 +45,7 @@ RewriteRule google(2)?.htm(l)? https://www.faganfinder.com/ [R=301,L]
 
 
 # access without trailing slash - why not needed for other pages?
-RewriteRule listen$ https://www.faganfinder.com/listen/ [R=301,L]
+RewriteRule audio$ https://www.faganfinder.com/audio/ [R=301,L]
 
 
 # my personal blog no longer on faganfinder.com
@@ -60,6 +60,11 @@ RewriteRule me/?$ http://faganm.com/blog/ [R=301,L]
 RewriteRule (gov|comp)/ https://www.faganfinder.com/  [R=301,L]
 Redirect 301 /searchtools.shtml https://www.faganfinder.com/
 RewriteRule (img|audio|video|science|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
+
+# moved
+RewriteRule (img|audio|video|geo|bio|science|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule listen$ https://www.faganfinder.com/audio/ [R=301,L]
+
 
 # more deprecated pages
 RewriteRule ([a-z]+)/(lycos|infoplease|medlineplus|xrefer|britannica|bartleby|alltheweb|altavista|singingfish|friskit|gograph|ixquick|phibot|scirus)\.shtml http://www.faganfinder.com/$1/ [R=301,L]
@@ -128,7 +133,6 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-RewriteRule (img|audio|video|geo|bio|science|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule img/index_changes.shtml https://www.faganfinder.com/img/ [R=301,L]
 
 

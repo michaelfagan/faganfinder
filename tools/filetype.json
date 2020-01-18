@@ -1,0 +1,18 @@
+{
+  "description": {
+    "internal": "this is temporary this is temporary",
+    "external": "this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary this is temporary"
+  },
+  "path": "filetype/",
+  "sections": [
+    {
+      "name": "Temp name",
+      "tools": [
+        {
+          "name": "OpenCorporates",
+          "searchUrl": "https://opencorporates.com/companies?q={q}"
+        }
+      ]
+    }
+  ]
+}

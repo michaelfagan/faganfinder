@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://www.seek.com.au/companies/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.seek.com.au/companies/search?keywords=test",
+    "status": "301",
+    "redirect": "https://www.seek.com.au/companies/search"
+  },
+  {
     "url": "https://www.nfsa.gov.au/",
     "status": "301",
     "title": "National Film & Sound Archive of Australia [Australia's Living Archive]"
@@ -37,7 +46,21 @@
     "title": "MOV: A produtora de vídeos do UOL"
   },
   {
+    "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities-listings.html",
+    "status": "timeout"
+  },
+  {
     "url": "https://gem.cbc.ca/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.charityintelligence.ca/charity-search-results?k=test",
+    "status": "301",
+    "redirect": "https://www.charityintelligence.ca/charity-search-results",
+    "title": "Error: 404 Page not found"
+  },
+  {
+    "url": "https://www.charityintelligence.ca/",
     "status": "timeout"
   },
   {
@@ -47,6 +70,38 @@
   {
     "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k=test",
     "status": "200"
+  },
+  {
+    "url": "http://www.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action?p=1&k=test",
+    "status": "301",
+    "redirect": "https://apps.cra-arc.gc.ca/ebci/haip/srch/basicsearchresult-eng.action",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "http://www.ic.gc.ca/app/ccc/srch/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.ic.gc.ca/app/ccc/srch/srch.do?lang=eng&prtl=1&searchCriteriaBean.portal=1&V_SEARCH.documentJSP=%2FretrieveEstablishmentIdFromVerity.do&searchPage=%252Fapp%252Fccc%252Fsrch%252FcccBscSrch.do%253Flang%253Deng%2526amp%253Bprtl%253D1%2526amp%253Btagid%253D&searchCriteriaBean.resultJsp=%2Fresults.do&V_SEARCH.scopeCategory=CCC.Root&V_SEARCH.depth=1&V_SEARCH.showStricts=false&searchCriteriaBean.conceptOperator=and&searchCriteriaBean.isExportingOrInterested=exportingActively&searchCriteriaBean.hitsPerPage=10&searchCriteriaBean.sortSpec=title+asc&searchCriteriaBean.isSummaryOn=Y&searchCriteriaBean.textField=test",
+    "status": "200"
+  },
+  {
+    "url": "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html",
+    "status": "302",
+    "title": "Search for a Federal Corporation - Online Filing Centre - Corporations Canada - Corporations - Innovation, Science and Economic Development Canada"
+  },
+  {
+    "url": "https://www.ic.gc.ca/app/scr/ccbr/search-chercher?lang=eng",
+    "status": "timeout"
+  },
+  {
+    "url": "https://finance.google.ca/finance",
+    "status": "timeout"
+  },
+  {
+    "url": "https://finance.google.ca/finance?q=test",
+    "status": "302",
+    "redirect": "http://www.google.ca/search?q=finance"
   },
   {
     "url": "https://paperofrecord.hypernet.ca/",
@@ -69,6 +124,14 @@
     "title": "Search - NFB"
   },
   {
+    "url": "https://www.yellowpages.ca/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.yellowpages.ca/search/si/1/test",
+    "status": "301"
+  },
+  {
     "url": "https://www.etools.ch/",
     "status": "301",
     "title": "eTools.ch - The Transparent Metasearch Engine from Switzerland"
@@ -88,6 +151,15 @@
     "url": "https://m.sm.cn/",
     "status": "301",
     "title": "神马搜索"
+  },
+  {
+    "url": "https://angel.co/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://angel.co/search?type=companies&q=test",
+    "status": "403",
+    "title": "Attention Required! | Cloudflare"
   },
   {
     "url": "https://duck.co/ia",
@@ -152,6 +224,19 @@
     "title": "AFP search | AFP Fact Check"
   },
   {
+    "url": "http://www.alacrastore.com/cgi-bin/alacraswitchISAPI.dll?app=pubsite&msg=GetSearchOptions&topic=company&includesubs=Y&sk=guest&syntax=Boolean&companytype=all&sicnaics=SIC&primarysic=ON&stepForward.x=1&stepForward.x.x=0&stepForward.x.y=0&stepForward.x=Search&name=test",
+    "status": "400",
+    "title": "Company Search Results: test "
+  },
+  {
+    "url": "http://www.alacrastore.com/search-by/company",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.alacra.com/reference-data-solutions/",
+    "status": "timeout"
+  },
+  {
     "url": "https://search.alexanderstreet.com/",
     "status": "301",
     "title": "Alexander Street, a ProQuest Company"
@@ -182,6 +267,15 @@
     "status": "301",
     "redirect": "http://search.ancestry.com/search/categories/np_newspapers/",
     "title": "test - Ancestry.com"
+  },
+  {
+    "url": "http://www.annualreports.com/Companies?search=test",
+    "status": "200",
+    "title": "AnnualReports.com"
+  },
+  {
+    "url": "http://www.annualreports.com/",
+    "status": "timeout"
   },
   {
     "url": "http://wiki.answers.com/search?q=test",
@@ -386,6 +480,10 @@
     "status": "301"
   },
   {
+    "url": "https://www.bloomberg.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.blurtit.com/",
     "status": "301",
     "title": "Ask Questions, Get Free Answers - Blurtit"
@@ -429,6 +527,15 @@
     "title": "Search | Britannica"
   },
   {
+    "url": "https://www.calcbench.com/dashboard/test",
+    "status": "302",
+    "title": "CALCBENCH: Dashboard"
+  },
+  {
+    "url": "https://www.calcbench.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.canva.com/photos/free/",
     "status": "403",
     "title": "Attention Required! | Cloudflare"
@@ -437,6 +544,16 @@
     "url": "https://www.canva.com/photos/search/test/",
     "status": "403",
     "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "url": "https://www.careerbliss.com/index/?pageType=Companies",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.careerbliss.com/search/?typeFilter=company&q=test",
+    "status": "301",
+    "redirect": "https://www.careerbliss.com/search/",
+    "title": "Search Results for test | CareerBliss"
   },
   {
     "url": "https://classroomclipart.com/clipart-search/all-phrase/test/",
@@ -471,6 +588,90 @@
     "title": "Cốc Cốc"
   },
   {
+    "url": "http://www.companyspotlight.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.companyspotlight.com/library/companies/keyword/test",
+    "status": "301",
+    "redirect": "https://www.investornetwork.com?utm_campaign=in-migration&utm_source=cs",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.comparably.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.comparably.com/search?mode=companies&q=test",
+    "status": "301",
+    "redirect": "https://www.comparably.com/search",
+    "title": "An error has occured | Comparably"
+  },
+  {
+    "url": "https://www.complaintsboard.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.complaintsboard.com/?search=test",
+    "status": "301",
+    "redirect": "https://www.complaintsboard.com/",
+    "title": "test Complaints, Reviews, Information"
+  },
+  {
+    "url": "https://www.consumeraffairs.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.consumeraffairs.com/search.html?q=test",
+    "status": "301",
+    "redirect": "https://www.consumeraffairs.com/search.html",
+    "title": "ConsumerAffairs.com Search Page"
+  },
+  {
+    "url": "http://consumerwatch.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://consumerwatch.com/?s=test",
+    "status": "301",
+    "redirect": "http://www.consumerwatch.com/",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "http://www.corporateregister.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.corporateregister.com/search/?s=test",
+    "status": "301",
+    "redirect": "https://www.corporateregister.com/search/",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.corporationwiki.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.corporationwiki.com/search/results?term=test",
+    "status": "301",
+    "redirect": "https://www.corporationwiki.com/search/results",
+    "title": "Search results for Test"
+  },
+  {
+    "url": "https://www.crunchbase.com/app/search?q=test",
+    "status": "301",
+    "redirect": "https://www.crunchbase.com/app/search",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.crunchbase.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.csrhub.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.dailymotion.com/",
     "status": "301",
     "title": "Dailymotion - the home for videos that matter"
@@ -479,6 +680,16 @@
     "url": "https://www.dailymotion.com/search/test",
     "status": "301",
     "title": "test videos - Dailymotion"
+  },
+  {
+    "url": "https://en.datocapital.com/_search?q=test",
+    "status": "403",
+    "title": "Dato Capital Search test"
+  },
+  {
+    "url": "https://en.datocapital.com/",
+    "status": "403",
+    "title": "International company and director search"
   },
   {
     "url": "https://www.delphiforums.com/",
@@ -501,6 +712,16 @@
     "status": "301",
     "redirect": "https://groups.deviantart.com/",
     "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://businesscredit.dnb.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://businesscredit.dnb.com/intl-search/?companyName=test",
+    "status": "301",
+    "redirect": "https://businesscredit.dnb.com:443/intl-search/",
+    "title": " International Business Report | Check Business Credit Scores &amp; Ratings | Dun &amp; Bradstreet "
   },
   {
     "url": "https://documentaryheaven.com/find/?q=test",
@@ -605,6 +826,15 @@
     "title": "About Elephind.com"
   },
   {
+    "url": "https://worldwide.espacenet.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://worldwide.espacenet.com/searchResults?PA=test",
+    "status": "302",
+    "redirect": "https://worldwide.espacenet.com/searchResults"
+  },
+  {
     "url": "https://www.everypixel.com/",
     "status": "301",
     "title": "Stock Image Search Engine - More Than 50 Best Sources | Everypixel"
@@ -679,6 +909,16 @@
     "redirect": "https://www.facebook.com/watch/"
   },
   {
+    "url": "https://fairygodboss.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://fairygodboss.com/search?term=test",
+    "status": "301",
+    "redirect": "https://fairygodboss.com/search",
+    "title": "Jobs and company reviews for women | Fairygodboss"
+  },
+  {
     "url": "https://www.fandango.com/",
     "status": "302",
     "title": "Movie Tickets &amp; Movie Times | Fandango"
@@ -737,6 +977,32 @@
     "url": "https://search.findmypast.com/search/us-and-world-newspapers",
     "status": "301",
     "title": "US &amp; World newspapers | findmypast.com"
+  },
+  {
+    "url": "https://findnaics.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://executives.findthecompany.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://listings.findthecompany.com/?launch_filters=%5B%7B%22field%22%3A%22company_name%22%2C%22operator%22%3A%22LIKE%22%2C%22value%22%3A%22test%22%7D%5D",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.findthecompany.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.fitchratings.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.fitchratings.com/site/search?content=entity&request=test",
+    "status": "301",
+    "redirect": "https://www.fitchratings.com:443/site/search",
+    "title": "Search - Fitch Ratings"
   },
   {
     "url": "https://www.flaticon.com/",
@@ -821,6 +1087,15 @@
     "title": "Free test Images, Pictures, and Royalty-Free Stock Photos - FreeImages.com"
   },
   {
+    "url": "http://www.freepatentsonline.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.freepatentsonline.com/result.html?uspat=on&usapp=on&eupat=on&jp=on&pct=on&depat=on&date_range=all&stemming=on&sort=relevance&an=test",
+    "status": "200",
+    "title": "FPO IP Research &amp; Communities"
+  },
+  {
     "url": "https://freevideolectures.com/",
     "status": "301",
     "title": "Free Video Lectures, Online Courses and Tutorials from best Universities"
@@ -890,6 +1165,15 @@
     "title": "Access to this page has been denied."
   },
   {
+    "url": "https://www.glassdoor.com/Reviews/company-reviews.htm?sc.keyword=test",
+    "status": "403",
+    "title": "Security | Glassdoor"
+  },
+  {
+    "url": "https://www.glassdoor.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://globoplay.globo.com/busca/?q=test",
     "status": "301",
     "redirect": "https://globoplay.globo.com/busca/"
@@ -908,6 +1192,10 @@
     "status": "301",
     "redirect": "https://abcnews.go.com/search",
     "title": "Search Results - ABC News"
+  },
+  {
+    "url": "https://www.goodguide.com/companies",
+    "status": "timeout"
   },
   {
     "url": "https://www.goodreads.com/group/search?q=test",
@@ -991,6 +1279,16 @@
     "redirect": "https://news.google.com/search"
   },
   {
+    "url": "https://patents.google.com/?assignee=test",
+    "status": "301",
+    "redirect": "https://patents.google.com/",
+    "title": "Google Patents"
+  },
+  {
+    "url": "https://patents.google.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://play.google.com/store/books/category/audiobooks",
     "status": "301"
   },
@@ -1045,6 +1343,12 @@
     "title": "test site:groupspaces.com - Google Search"
   },
   {
+    "url": "https://www.google.com/search?q=test%20site%3Aunglobalcompact.org%2Fwhat-is-gc%2Fparticipants",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:unglobalcompact.org/what-is-gc/participants - Google Search"
+  },
+  {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:scripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
@@ -1055,6 +1359,18 @@
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test database OR directory OR \"search engine\" OR catalogue OR archive OR library OR warehouse OR repository - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test+site%3Abloomberg.com%2Fresearch%2Fstocks",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:bloomberg.com/research/stocks - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test+site%3Agoodguide.com%2Fcompanies+OR+site%3Agoodguide.com%2Fbrands",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:goodguide.com/companies OR site:goodguide.com/brands - Google Search"
   },
   {
     "url": "https://www.google.com/search?q=test+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com",
@@ -1200,6 +1516,14 @@
     "redirect": "https://www.hoopladigital.com/search"
   },
   {
+    "url": "http://www.hoovers.com/company-information/company-search.html?term=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.hoovers.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.howcast.com/",
     "status": "301",
     "title": "Howcast | The best how-to videos"
@@ -1261,6 +1585,16 @@
     "title": ""
   },
   {
+    "url": "https://www.indeed.com/Best-Places-to-Work",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.indeed.com/cmp?q=test",
+    "status": "301",
+    "redirect": "https://www.indeed.com/cmp",
+    "title": "Best Companies for test | Indeed.com"
+  },
+  {
     "url": "https://timesofindia.indiatimes.com/",
     "status": "301",
     "title": "News: India News, Latest Bollywood News, Sports News, Business &amp; Political News, National &amp; International News | Times of India"
@@ -1286,6 +1620,16 @@
     "title": "search results for \"test\""
   },
   {
+    "url": "https://www.industrynet.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.industrynet.com/suppliers/?company=test",
+    "status": "303",
+    "redirect": "https://www.industrynet.com/suppliers/",
+    "title": "Search for Companies \"test\" on IndustryNet&reg;"
+  },
+  {
     "url": "https://www.instagram.com/explore/tags/test/",
     "status": "301"
   },
@@ -1303,6 +1647,10 @@
     "status": "301",
     "redirect": "https://instantwatcher.com/podcasts/feeds",
     "title": "instantwatcher podcasts - Search Podcasts"
+  },
+  {
+    "url": "http://www.investorcalendar.com/",
+    "status": "timeout"
   },
   {
     "url": "https://so.iqiyi.com/so/q_test",
@@ -1439,6 +1787,19 @@
     "title": "&quot;test&quot; | audiobook search results | Rakuten Kobo"
   },
   {
+    "url": "https://www.kompany.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.kununu.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.kununu.com/search#/?q=test",
+    "status": "301",
+    "redirect": "https://www.kununu.com/search"
+  },
+  {
     "url": "https://www.learnoutloud.com/Podcast-Directory",
     "status": "301",
     "title": "Podcast Directory"
@@ -1454,9 +1815,18 @@
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fgroups%2F"
   },
   {
+    "url": "http://www.linkedin.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.linkedin.com/",
     "status": "200",
     "title": "LinkedIn: Log In or Sign Up"
+  },
+  {
+    "url": "https://www.linkedin.com/search/results/companies/?keywords=test",
+    "status": "200",
+    "title": "LinkedIn"
   },
   {
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
@@ -1501,6 +1871,16 @@
     "title": "The 5 Best Tools to Download Streaming Video From Any Website"
   },
   {
+    "url": "https://www.matchdeck.com/homepage-mk2/search?search_keywords=test",
+    "status": "301",
+    "redirect": "https://www.matchdeck.com/homepage-mk2/search",
+    "title": "Matchdeck - find new suppliers, buyers, and partners."
+  },
+  {
+    "url": "https://www.matchdeck.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://mediabiasfactcheck.com/",
     "status": "301",
     "title": "Media Bias/Fact Check - Search and Learn the Bias of News Media"
@@ -1525,6 +1905,10 @@
     "url": "http://www.mefeedia.com/search/test",
     "status": "200",
     "title": "Test videos - MeFeedia"
+  },
+  {
+    "url": "http://www.mergentonline.com/",
+    "status": "timeout"
   },
   {
     "url": "http://www.metacafe.com/",
@@ -1607,6 +1991,15 @@
     "title": "test - Mojeek Search"
   },
   {
+    "url": "https://www.moodys.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.moodys.com/page/search.aspx?cy=global&spk=qs&tb=1&kw=test",
+    "status": "503",
+    "title": "302 Found"
+  },
+  {
     "url": "https://morguefile.com/",
     "status": "301",
     "title": "Morguefile.com free photographs for commercial use"
@@ -1615,6 +2008,14 @@
     "url": "https://morguefile.com/photos/morguefile/1/test/pop",
     "status": "301",
     "title": "Morguefile.com free photographs for commercial use"
+  },
+  {
+    "url": "http://beta.morningstar.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://beta.morningstar.com/search.html?q=test",
+    "status": "timeout"
   },
   {
     "url": "https://www.moviefone.com/",
@@ -1660,6 +2061,15 @@
     "status": "301",
     "redirect": "https://mytuner-radio.com/search/",
     "title": "Radio Online, listen to thousands of statio​ns - myTuner"
+  },
+  {
+    "url": "https://www.naics.com/naics-search-results/",
+    "status": "301",
+    "title": "NAICS Search Results | NAICS Association"
+  },
+  {
+    "url": "https://www.naics.com/search/",
+    "status": "timeout"
   },
   {
     "url": "https://video.nationalgeographic.com/",
@@ -1778,6 +2188,14 @@
     "url": "https://onlineradiobox.com/search?q=test",
     "status": "500",
     "title": "Online Radio Box - listen to the radio online for free"
+  },
+  {
+    "url": "https://opencorporates.com/companies?q=test",
+    "status": "200"
+  },
+  {
+    "url": "https://opencorporates.com/",
+    "status": "200"
   },
   {
     "url": "http://www.openculture.com/freeaudiobooks",
@@ -2069,6 +2487,10 @@
     "title": "ProQuest | Databases, EBooks and Technology for Research"
   },
   {
+    "url": "http://www.proquest.com/products-services/pq_hist_annual_repts.html",
+    "status": "timeout"
+  },
+  {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
     "status": "301",
     "redirect": "https://groups.psychologytoday.com/rms/prof_results.php"
@@ -2289,6 +2711,10 @@
     "title": "Scribl"
   },
   {
+    "url": "http://www.sedar.com/search/search_form_pc_en.htm",
+    "status": "timeout"
+  },
+  {
     "url": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q=test",
     "status": "200"
   },
@@ -2457,6 +2883,16 @@
     "redirect": "https://stackexchange.com/search"
   },
   {
+    "url": "http://www.standardandpoors.com/en_US/web/guest/ratings/search/-/search/searchType/E/searchTerm/test",
+    "status": "302",
+    "redirect": "https://www.standardandpoors.com//en_US/web/guest/ratings/search/-/search/searchType/E/searchTerm/test",
+    "title": "302 Found"
+  },
+  {
+    "url": "http://www.standardandpoors.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://startpage.com/do/search",
     "status": "301",
     "title": "301 Moved Permanently"
@@ -2483,6 +2919,15 @@
     "title": "Stitcher for Podcasts | Search"
   },
   {
+    "url": "http://www.stockchase.com/company/find?companysearch=test",
+    "status": "301",
+    "redirect": "https://stockchase.com/company/find"
+  },
+  {
+    "url": "http://www.stockchase.com/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.stockio.com/free-icons/?q=test",
     "status": "301",
     "redirect": "https://www.www.stockio.com/free-icons/"
@@ -2496,6 +2941,15 @@
     "url": "https://www.stockio.com/free-vectors/?q=test",
     "status": "301",
     "redirect": "https://www.www.stockio.com/free-vectors/"
+  },
+  {
+    "url": "https://stocktwits.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://stocktwits.com/search?filter=tickers&q=test",
+    "status": "302",
+    "redirect": "https://stocktwits.com:443/search"
   },
   {
     "url": "https://www.storynory.com/",
@@ -2521,6 +2975,16 @@
     "url": "https://online.supportgroups.com/",
     "status": "301",
     "title": "Online Support Groups | Support Groups"
+  },
+  {
+    "url": "http://www.sustainability-reports.com/bedrijf/?_sf_s=test",
+    "status": "301",
+    "redirect": "https://www.sustainability-reports.com/bedrijf/",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "http://www.sustainability-reports.com/",
+    "status": "timeout"
   },
   {
     "url": "https://www.sweetsearch.com/",
@@ -2611,6 +3075,15 @@
     "status": "301"
   },
   {
+    "url": "http://www.thejobcrowd.com/graduates/companies",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.thejobcrowd.com/search/node/test/employers",
+    "status": "200",
+    "title": "You searched for node/test/employers | TheJobCrowd"
+  },
+  {
     "url": "https://thenounproject.com/",
     "status": "302",
     "redirect": "https://thenounproject.com:443/",
@@ -2621,6 +3094,16 @@
     "status": "302",
     "redirect": "https://thenounproject.com:443/search/",
     "title": "Noun Project Search"
+  },
+  {
+    "url": "https://www.theofficialboard.com/company/search?q=test",
+    "status": "301",
+    "redirect": "https://www.theofficialboard.com/company/search",
+    "title": " Results of your search - The Official Board "
+  },
+  {
+    "url": "https://www.theofficialboard.com/",
+    "status": "timeout"
   },
   {
     "url": "https://www.thepaperboy.com/",
@@ -2637,6 +3120,16 @@
     "status": "301",
     "redirect": "https://www.thetvdb.com/search",
     "title": "Search - TheTVDB.com"
+  },
+  {
+    "url": "https://www.thomasnet.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.thomasnet.com/search.html?which=comp&what=test",
+    "status": "301",
+    "redirect": "https://www.thomasnet.com:443/search.html",
+    "title": "ThomasNet&reg; - Results for &quot;test&quot;"
   },
   {
     "url": "http://thoughtaudio.com/",
@@ -2801,6 +3294,16 @@
     "status": "301"
   },
   {
+    "url": "http://www.vault.com/rankings-reviews/explore-companies",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.vault.com/search-results.aspx?pref=comp&q=test",
+    "status": "301",
+    "redirect": "https://www.vault.com/search-results",
+    "title": "Object moved"
+  },
+  {
     "url": "https://www.veoh.com/find/test",
     "status": "301",
     "redirect": "https://www.veoh.com:443/find/test",
@@ -2919,6 +3422,25 @@
     "title": "wwiTV - Watch live TV channels broadcasting on the Internet for free"
   },
   {
+    "url": "https://www.xing.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.xing.com/search/companies?keywords=test",
+    "status": "301",
+    "redirect": "https://www.xing.com/search/companies"
+  },
+  {
+    "url": "https://finance.yahoo.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://finance.yahoo.com/lookup?s=test",
+    "status": "301",
+    "redirect": "https://finance.yahoo.com/lookup",
+    "title": "Symbol Lookup from Yahoo Finance"
+  },
+  {
     "url": "https://groups.yahoo.com/neo/search?query=test",
     "status": "301",
     "redirect": "https://groups.yahoo.com/neo/search",
@@ -3006,6 +3528,16 @@
     "title": "Yandex.Video"
   },
   {
+    "url": "https://www.yellowpages.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.yellowpages.com/search?search_terms=test",
+    "status": "301",
+    "redirect": "https://www.yellowpages.com/search",
+    "title": "Best 30 Test in Los Angeles, CA with Reviews - YP.com"
+  },
+  {
     "url": "https://www.yippy.com/",
     "status": "301",
     "title": "Yippy, powered by IBM Watson"
@@ -3070,6 +3602,16 @@
     "title": "test - YouTube"
   },
   {
+    "url": "https://www.zacks.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.zacks.com/search.php?q=test",
+    "status": "301",
+    "redirect": "https://www.zacks.com/search.php",
+    "title": "Zacks Search Results"
+  },
+  {
     "url": "http://www.zanran.com/q/",
     "status": "200",
     "title": "Zanran Numerical Data Search"
@@ -3078,6 +3620,15 @@
     "url": "http://www.zanran.com/q/test",
     "status": "200",
     "title": "test | Zanran"
+  },
+  {
+    "url": "https://www.zirra.com/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.zirra.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.zirra.com/search"
   },
   {
     "url": "https://search.seznam.cz/?q=test",
@@ -3166,6 +3717,10 @@
   {
     "url": "http://www.filmarchives-online.eu/",
     "status": "200"
+  },
+  {
+    "url": "https://portal.kyckr.eu/",
+    "status": "timeout"
   },
   {
     "url": "https://radio.garden/",
@@ -3257,6 +3812,36 @@
     "redirect": "https://images.nasa.gov/search-results"
   },
   {
+    "url": "https://hpd.nlm.nih.gov/cgi-bin/household/searchall",
+    "status": "301",
+    "redirect": "https://www.nlm.nih.gov/toxnet/index.htmlcgi-bin/household/searchall",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://hpd.nlm.nih.gov/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.osha.gov/pls/imis/establishment.html",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.osha.gov/pls/imis/establishment.search?establishment=test",
+    "status": "301",
+    "redirect": "https://www.osha.gov/pls/imis/establishment.search",
+    "title": "Establishment Search Results Page | Occupational Safety and Health Administration"
+  },
+  {
+    "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=test",
+    "status": "301",
+    "redirect": "https://www.sec.gov/cgi-bin/browse-edgar",
+    "title": "EDGAR Search Results"
+  },
+  {
+    "url": "https://www.sec.gov/edgar/searchedgar/companysearch.html",
+    "status": "timeout"
+  },
+  {
     "url": "https://search.usa.gov/search/images?affiliate=usagov&query=test",
     "status": "308",
     "redirect": "https://search.usa.gov/search/images",
@@ -3266,6 +3851,26 @@
     "url": "https://www.usa.gov/",
     "status": "301",
     "title": "USA.gov: The U.S. Government&#039;s Official Web Portal  &#124; USAGov"
+  },
+  {
+    "url": "http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=AS&d=PG01&TERM1=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://appft.uspto.gov/netahtml/PTO/search-bool.html",
+    "status": "timeout"
+  },
+  {
+    "url": "http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&FIELD1=ASNM&d=PTXT&TERM1=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://patft.uspto.gov/netahtml/PTO/search-bool.html",
+    "status": "timeout"
+  },
+  {
+    "url": "http://tmsearch.uspto.gov/",
+    "status": "timeout"
   },
   {
     "url": "https://www.abhilekh-patal.in/jspui/",
@@ -3299,6 +3904,18 @@
     "url": "http://www.radio-browser.info/",
     "status": "200",
     "title": "Community Radio Station Board"
+  },
+  {
+    "url": "https://patentscope.wipo.int/search/en/search.jsf",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.wipo.int/branddb/en/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.wipo.int/designdb/en/index.jsp",
+    "status": "timeout"
   },
   {
     "url": "https://datahub.io/",
@@ -3394,6 +4011,16 @@
   {
     "url": "https://dp.la/search?q=test",
     "status": "403"
+  },
+  {
+    "url": "https://www.ebr.lv/en/advanced-search?AdvancedSearch%5Bname%5D=test",
+    "status": "301",
+    "redirect": "https://www.ebr.lv/en/advanced-search",
+    "title": "Advanced search"
+  },
+  {
+    "url": "https://www.ebr.lv/en",
+    "status": "timeout"
   },
   {
     "url": "https://search.daum.net/search?q=test",
@@ -3597,6 +4224,16 @@
     "redirect": "https://archiveofourown.org/works/search"
   },
   {
+    "url": "https://business-humanrights.org/en/find-companies",
+    "status": "timeout"
+  },
+  {
+    "url": "https://business-humanrights.org/en/search-results?langcode=en&keywords=test",
+    "status": "301",
+    "redirect": "https://www.business-humanrights.org/en/search-results",
+    "title": "301 Moved Permanently"
+  },
+  {
     "url": "https://www.c-span.org/about/videoLibrary/",
     "status": "301",
     "title": "Video Library | C-SPAN.org"
@@ -3608,6 +4245,15 @@
     "title": "test | Search | C-SPAN.org"
   },
   {
+    "url": "https://www.canadahelps.org/en/explore/charities/?q=test",
+    "status": "301",
+    "redirect": "https://www.canadahelps.org/en/explore/charities/"
+  },
+  {
+    "url": "https://www.canadahelps.org/en/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
     "status": "301"
   },
@@ -3615,6 +4261,34 @@
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword=test",
     "status": "301",
     "redirect": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx"
+  },
+  {
+    "url": "http://www.charity-charities.org/google.htm?cx=partner-pub-0757242901800135%3A10a05svcoyz&cof=FORID%3A9&q=test",
+    "status": "200"
+  },
+  {
+    "url": "http://www.charity-charities.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.charitynavigator.org/?bay=search.results&keyword_list=test",
+    "status": "301",
+    "redirect": "https://www.charitynavigator.org/",
+    "title": "Charity Navigator - Your Search Results"
+  },
+  {
+    "url": "https://www.charitynavigator.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.citizenaudit.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.citizenaudit.org/search?q=test",
+    "status": "301",
+    "redirect": "https://www.citizenaudit.org/search",
+    "title": "301 Moved Permanently"
   },
   {
     "url": "https://www.cjr.org/the_profile/tom-tryniski-fultonhistory.php",
@@ -3630,6 +4304,15 @@
     "url": "https://www.commonsensemedia.org/search/test",
     "status": "301",
     "title": "Showing results for \"test\" | Common Sense Media"
+  },
+  {
+    "url": "http://www.corporatecritic.org/companies.aspx",
+    "status": "200",
+    "title": "Corporate Critic Companies"
+  },
+  {
+    "url": "http://www.corporatecritic.org/",
+    "status": "timeout"
   },
   {
     "url": "https://cosmolearning.org/",
@@ -3702,6 +4385,15 @@
     "title": "test - Ecosia"
   },
   {
+    "url": "http://www.ewg.org/skindeep/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.ewg.org/skindeep/search.php?search_group=companies&query=test",
+    "status": "301",
+    "redirect": "https://www.ewg.org/skindeep/search.php"
+  },
+  {
     "url": "https://www.factcheck.org/search/",
     "status": "301",
     "title": "Search - FactCheck.org"
@@ -3721,6 +4413,48 @@
     "url": "https://gdeltproject.org/data.html",
     "status": "301",
     "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://www.givewell.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.give.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.give.org/search/?term=test",
+    "status": "200",
+    "title": "Search - give.org"
+  },
+  {
+    "url": "https://subsidytracker.goodjobsfirst.org/prog.php?company_op=word&company=test",
+    "status": "302",
+    "redirect": "https://subsidytracker.goodjobsfirst.org/prog.php",
+    "title": "Subsidy Tracker Search Results | Good Jobs First"
+  },
+  {
+    "url": "https://violationtracker.goodjobsfirst.org/prog.php?company_op=word&company=test",
+    "status": "302",
+    "redirect": "https://violationtracker.goodjobsfirst.org/prog.php",
+    "title": "Violation Tracker Search Results | Corporate Research Project of Good Jobs First"
+  },
+  {
+    "url": "http://www.goodjobsfirst.org/subsidy-tracker",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.goodjobsfirst.org/violation-tracker",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.guidestar.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.guidestar.org/search?q=test",
+    "status": "416",
+    "title": "DistilBlock"
   },
   {
     "url": "https://www.gutenberg.org/browse/categories/1",
@@ -3752,9 +4486,37 @@
     "status": "200"
   },
   {
+    "url": "https://offshoreleaks.icij.org/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://offshoreleaks.icij.org/search?q=test",
+    "status": "301",
+    "redirect": "https://offshoreleaks.icij.org/search",
+    "title": " Search results for “test” | ICIJ Offshore Leaks Database"
+  },
+  {
+    "url": "https://www.jobadvisor.org/companies?keyword=test",
+    "status": "timeout",
+    "redirect": "/companies"
+  },
+  {
+    "url": "https://www.jobadvisor.org/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.khanacademy.org/",
     "status": "301",
     "title": "Khan Academy | Free Online Courses, Lessons &amp; Practice"
+  },
+  {
+    "url": "https://www.lens.org/lens/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.lens.org/lens/search?q=applicant%3Atest",
+    "status": "301",
+    "redirect": "https://www.lens.org/lens/search"
   },
   {
     "url": "https://librivox.org/",
@@ -3802,6 +4564,15 @@
     "title": "Search Open Library for test | Open Library"
   },
   {
+    "url": "http://www.opensecrets.org/dark-money/explore-our-reports/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.opensecrets.org/dark-money/explore-our-reports/results?org_query=test",
+    "status": "403",
+    "title": "Access denied | www.opensecrets.org used Cloudflare to restrict access"
+  },
+  {
     "url": "https://www.pbs.org/search/?q=test",
     "status": "301",
     "redirect": "https://www.pbs.org/search/",
@@ -3811,6 +4582,33 @@
     "url": "https://www.pbs.org/video/",
     "status": "301",
     "title": "Browse Videos | PBS"
+  },
+  {
+    "url": "http://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx?Keyword=test",
+    "status": "301",
+    "redirect": "https://features.peta.org/cruelty-free-company-search/cruelty_free_companies_search.aspx"
+  },
+  {
+    "url": "http://features.peta.org/cruelty-free-company-search/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://projects.propublica.org/nonprofits/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://projects.propublica.org/nonprofits/search?q=test",
+    "status": "301",
+    "redirect": "https://projects.propublica.org/nonprofits/search",
+    "title": "Organization Search - Nonprofit Explorer - ProPublica"
+  },
+  {
+    "url": "http://proxydemocracy.org/data/companies/search?query=test",
+    "status": "500"
+  },
+  {
+    "url": "http://proxydemocracy.org/",
+    "status": "timeout"
   },
   {
     "url": "https://www.re3data.org/",
@@ -3827,6 +4625,16 @@
     "url": "https://reporterslab.org/fact-checking/",
     "status": "301",
     "title": "Fact- Checking - Duke Reporters&#039; Lab"
+  },
+  {
+    "url": "http://snaccooperative.org/?entity_type=corporateBody&command=search&term=test",
+    "status": "301",
+    "redirect": "https://snaccooperative.org/",
+    "title": "301 Moved Permanently"
+  },
+  {
+    "url": "http://snaccooperative.org/",
+    "status": "timeout"
   },
   {
     "url": "https://www.taforum.org/trade-associations/",
@@ -3858,6 +4666,14 @@
     "title": "ODI Open Data Certificate"
   },
   {
+    "url": "https://www.tmdn.org/tmdsview-web/welcome",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.tmdn.org/tmview/welcome",
+    "status": "timeout"
+  },
+  {
     "url": "https://tvtropes.org/",
     "status": "301",
     "title": "TV Tropes"
@@ -3878,6 +4694,10 @@
     "status": "301",
     "redirect": "https://uia.org/ybio",
     "title": "International Organizations Search | Union of International Associations"
+  },
+  {
+    "url": "https://www.unglobalcompact.org/participation/report",
+    "status": "timeout"
   },
   {
     "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
@@ -4098,6 +4918,35 @@
     "title": "Results for &#39;test&#39; | British Newspaper Archive"
   },
   {
+    "url": "https://companycheck.co.uk/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://companycheck.co.uk/search?term=test",
+    "status": "301",
+    "redirect": "https://companycheck.co.uk/search",
+    "title": "Test, Company and Director Search."
+  },
+  {
+    "url": "http://www.europages.co.uk/companies/test.html",
+    "status": "301",
+    "redirect": "https://www.europages.co.uk/companies/test.html"
+  },
+  {
+    "url": "http://www.europages.co.uk/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.investegate.co.uk/Index.aspx?searchtype=2&words=test",
+    "status": "301",
+    "redirect": "https://www.investegate.co.uk/Index.aspx",
+    "title": "InvestEgate | Company Announcements | XYZ Test Agency"
+  },
+  {
+    "url": "https://www.investegate.co.uk/",
+    "status": "timeout"
+  },
+  {
     "url": "https://www.newsnow.co.uk/h/?search=test",
     "status": "301",
     "redirect": "https://www.newsnow.co.uk/h/",
@@ -4106,6 +4955,15 @@
   {
     "url": "https://www.newsnow.co.uk/",
     "status": "301"
+  },
+  {
+    "url": "https://beta.companieshouse.gov.uk/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://beta.companieshouse.gov.uk/search?q=test",
+    "status": "301",
+    "redirect": "https://beta.companieshouse.gov.uk/search"
   },
   {
     "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=test",
@@ -4128,6 +4986,10 @@
     "url": "https://www.nationalarchives.gov.uk/",
     "status": "301",
     "title": "The National Archives"
+  },
+  {
+    "url": "https://www.gov.uk/get-information-about-a-company",
+    "status": "timeout"
   },
   {
     "url": "https://data.world/",
