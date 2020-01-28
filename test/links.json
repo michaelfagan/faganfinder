@@ -37,6 +37,21 @@
     "title": "MOV: A produtora de vídeos do UOL"
   },
   {
+    "url": "https://bdlb.bn.gov.br/acervo/handle/20.500.12156.3/17/discover?query=test",
+    "status": "200",
+    "title": "Pesquisar"
+  },
+  {
+    "url": "https://bdlb.bn.gov.br/?lang=en",
+    "status": "200",
+    "title": "Biblioteca Digital Luso-Brasileira"
+  },
+  {
+    "url": "http://bndigital.bn.gov.br/",
+    "status": "200",
+    "title": "BNDigital"
+  },
+  {
     "url": "https://gem.cbc.ca/",
     "status": "timeout"
   },
@@ -83,6 +98,16 @@
     "url": "https://swisscows.ch/",
     "status": "301",
     "title": "Swisscows die alternative, datensichere Suchmaschine."
+  },
+  {
+    "url": "http://cadal.zju.edu.cn/cadalinfo/search",
+    "status": "403",
+    "title": "检索结果"
+  },
+  {
+    "url": "http://cadal.zju.edu.cn/index/home",
+    "status": "403",
+    "title": "大学数字图书馆国际合作计划"
   },
   {
     "url": "https://m.sm.cn/",
@@ -2852,6 +2877,14 @@
     "title": "Search \"test\" Free Photos & Stock Images - Visual Hunt"
   },
   {
+    "url": "https://vk.com/",
+    "status": "418"
+  },
+  {
+    "url": "https://vk.com/search?c%5Bsection%5D=auto&c%5Bq%5D=test",
+    "status": "418"
+  },
+  {
     "url": "https://www.washingtonpost.com/",
     "status": "301",
     "title": "Washington Post: Breaking News, World, US, DC News &amp; Analysis - The Washington Post"
@@ -3098,6 +3131,11 @@
   {
     "url": "https://irc.netsplit.de/channels/",
     "status": "timeout"
+  },
+  {
+    "url": "https://www.zo.uni-heidelberg.de/boa/digital_resources/list_az_en.html",
+    "status": "301",
+    "title": "Centre for East Asian Studies - All Resources "
   },
   {
     "url": "https://etc.usf.edu/lit2go/",
@@ -3475,6 +3513,16 @@
     "title": "Search - able2know"
   },
   {
+    "url": "http://www.aodl.org/",
+    "status": "200",
+    "title": "Home | AODL"
+  },
+  {
+    "url": "http://www.aodl.org/search.php?currSearches=test",
+    "status": "200",
+    "title": "Search | AODL"
+  },
+  {
     "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",
     "status": "301",
     "redirect": "https://archive.org/details/audio_bookspoetry",
@@ -3597,6 +3645,16 @@
     "redirect": "https://archiveofourown.org/works/search"
   },
   {
+    "url": "http://www.aseanlibrary.org/",
+    "status": "200",
+    "title": "Asean Digital Library"
+  },
+  {
+    "url": "http://www.aseanlibrary.org/search/index/query?keyword=test",
+    "status": "200",
+    "title": "Asean Digital Library"
+  },
+  {
     "url": "https://www.c-span.org/about/videoLibrary/",
     "status": "301",
     "title": "Video Library | C-SPAN.org"
@@ -3658,6 +3716,33 @@
     "status": "301",
     "redirect": "https://ccsearch.creativecommons.org:443/search",
     "title": "CC Search"
+  },
+  {
+    "url": "https://crossasia.org/en/",
+    "status": "301",
+    "title": "CrossAsia &#124; Home"
+  },
+  {
+    "url": "https://crossasia.org/en/resources/online-guide-east-asia/",
+    "status": "301",
+    "title": "CrossAsia &#124;&nbsp;Online Guide East Asia"
+  },
+  {
+    "url": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/?query=test",
+    "status": "301",
+    "redirect": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/",
+    "title": "CrossAsia &#124;&nbsp;Fulltext Search B"
+  },
+  {
+    "url": "https://ctext.org/",
+    "status": "301",
+    "title": "Chinese Text Project"
+  },
+  {
+    "url": "https://ctext.org/pre-qin-and-han?searchu=test",
+    "status": "301",
+    "redirect": "https://ctext.org/pre-qin-and-han",
+    "title": "Pre-Qin and Han - test - Chinese Text Project"
   },
   {
     "url": "https://www.dailystrength.org/",
@@ -4017,6 +4102,11 @@
     "status": "timeout"
   },
   {
+    "url": "http://purl.pt/index/geral/PT/",
+    "status": "200",
+    "title": "Últimas obras disponibilizadas na BND"
+  },
+  {
     "url": "https://mail.ru/",
     "status": "301",
     "title": "Mail.ru: почта, поиск в интернете, новости, игры"
@@ -4027,6 +4117,37 @@
     "redirect": "https://go.mail.ru/search"
   },
   {
+    "url": "http://nlr.ru/eng",
+    "status": "200",
+    "title": "The National Library of Russia, Saint-Petersburg"
+  },
+  {
+    "url": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,test",
+    "status": "302",
+    "redirect": "https://primo.nlr.ru/primo-explore/search"
+  },
+  {
+    "url": "https://search.rsl.ru/en/search#q=test",
+    "status": "301",
+    "redirect": "https://search.rsl.ru/en/search",
+    "title": "Search - Search RSL"
+  },
+  {
+    "url": "https://www.rsl.ru/en",
+    "status": "301",
+    "title": "Russian state library"
+  },
+  {
+    "url": "http://www.rusarchives.ru/elektronnye-opisi-federalnyh-arhivov",
+    "status": "200",
+    "title": "Электронные описи федеральных архивов | Портал «Архивы России»"
+  },
+  {
+    "url": "http://www.rusarchives.ru/",
+    "status": "200",
+    "title": "Портал «Архивы России»"
+  },
+  {
     "url": "https://rutube.ru/",
     "status": "301"
   },
@@ -4034,6 +4155,16 @@
     "url": "https://rutube.ru/search/?query=test",
     "status": "301",
     "redirect": "https://rutube.ru/search/"
+  },
+  {
+    "url": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query=test",
+    "status": "200",
+    "title": "ГПИБ |  Поиск"
+  },
+  {
+    "url": "http://www.shpl.ru/",
+    "status": "200",
+    "title": "Государственная публичная историческая библиотека России"
   },
   {
     "url": "https://www.periscope.tv/",

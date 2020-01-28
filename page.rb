@@ -26,7 +26,7 @@ class Page
       raise('group name is absent or too short') if !group.name || group.name.length < 4
       raise("no tools in group #{group.name}") if !group.tools || group.tools.length < 1
       group.tools.each do |tool|
-        raise("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 3
+        raise("tool name is absent or too short #{tool}") if !tool.name || tool.name.length < 2
         unless tool.searchUrl.include?('{q}') || tool.post
           raise "missing or bad searchUrl for #{tool.name}"
         end
