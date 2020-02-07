@@ -1,5 +1,10 @@
 [
   {
+    "url": "https://www.naa.gov.au/",
+    "status": "301",
+    "title": "Home page | naa.gov.au"
+  },
+  {
     "url": "https://www.nfsa.gov.au/",
     "status": "301",
     "title": "National Film & Sound Archive of Australia [Australia's Living Archive]"
@@ -11,6 +16,11 @@
     "title": "Search | NFSA"
   },
   {
+    "url": "https://trove.nla.gov.au/",
+    "status": "301",
+    "title": "Home - Trove"
+  },
+  {
     "url": "https://trove.nla.gov.au/newspaper/",
     "status": "301",
     "title": "Newspapers Home - Trove"
@@ -20,6 +30,12 @@
     "status": "301",
     "redirect": "https://trove.nla.gov.au/newspaper/result",
     "title": "Search results for 'test' - Digitised newspapers and more - Trove"
+  },
+  {
+    "url": "https://trove.nla.gov.au/result?q=test",
+    "status": "301",
+    "redirect": "https://trove.nla.gov.au/result",
+    "title": "Search results for 'test' - Trove"
   },
   {
     "url": "https://iview.abc.net.au/",
@@ -47,13 +63,55 @@
     "title": "Biblioteca Digital Luso-Brasileira"
   },
   {
+    "url": "http://bndigital.bn.gov.br/hemeroteca-digital/",
+    "status": "200",
+    "title": "BNDigital"
+  },
+  {
     "url": "http://bndigital.bn.gov.br/",
     "status": "200",
     "title": "BNDigital"
   },
   {
+    "url": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query=test",
+    "status": "301",
+    "redirect": "https://archivescanada.accesstomemory.ca/informationobject/browse",
+    "title": "ArchivesCanada"
+  },
+  {
+    "url": "http://www.archivescanada.ca/",
+    "status": "200",
+    "title": "Home"
+  },
+  {
+    "url": "http://heritage.canadiana.ca/",
+    "status": "timeout"
+  },
+  {
+    "url": "http://heritage.canadiana.ca/search/?q0.0=test",
+    "status": "timeout"
+  },
+  {
+    "url": "http://www.canadiana.ca/",
+    "status": "200",
+    "title": "Welcome - Canadiana Online"
+  },
+  {
+    "url": "http://www.canadiana.ca/search/?q0.0=test",
+    "status": "200",
+    "title": "Search results for test - Canadiana Online"
+  },
+  {
     "url": "https://gem.cbc.ca/",
     "status": "timeout"
+  },
+  {
+    "url": "http://www.bac-lac.gc.ca/eng/Pages/home.aspx",
+    "status": "200"
+  },
+  {
+    "url": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q=test",
+    "status": "200"
   },
   {
     "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/Pages/films-videos-sound-recordings.aspx",
@@ -464,6 +522,17 @@
     "title": "Attention Required! | Cloudflare"
   },
   {
+    "url": "http://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText=test",
+    "status": "302",
+    "redirect": "/controladores/busqueda_avanzada_form.php?textoContenidoVacio=1",
+    "title": "Resultados de búsqueda - Pag. 1"
+  },
+  {
+    "url": "http://www.cervantesvirtual.com/",
+    "status": "200",
+    "title": "Biblioteca Virtual Miguel de Cervantes | Inicio"
+  },
+  {
     "url": "https://classroomclipart.com/clipart-search/all-phrase/test/",
     "status": "301",
     "title": ">Search Results for test - Clip Art - Pictures - Graphics - Illustrations"
@@ -526,6 +595,17 @@
     "status": "301",
     "redirect": "https://groups.deviantart.com/",
     "title": "301 Moved Permanently"
+  },
+  {
+    "url": "https://dloc.com/",
+    "status": "302",
+    "title": "dLOC Home - Digital Library of the Caribbean"
+  },
+  {
+    "url": "https://dloc.com/results/?text=test",
+    "status": "302",
+    "redirect": "https://dloc.com/results/",
+    "title": "dLOC Search Results - Digital Library of the Caribbean"
   },
   {
     "url": "https://documentaryheaven.com/find/?q=test",
@@ -913,6 +993,26 @@
     "url": "https://giphy.com/search/test",
     "status": "403",
     "title": "Access to this page has been denied."
+  },
+  {
+    "url": "https://www.global-regulation.com/coverage.php",
+    "status": "200",
+    "title": "Database Coverage: 1,823,663 laws and counting"
+  },
+  {
+    "url": "https://www.global-regulation.com/",
+    "status": "200",
+    "title": "Global-Regulation Home Page"
+  },
+  {
+    "url": "https://www.global-regulation.com/search.php?&q=test",
+    "status": "200",
+    "title": "Search Results for \"test\""
+  },
+  {
+    "url": "https://www.global-regulation.com/tools.php",
+    "status": "200",
+    "title": "Regulatory Tools"
   },
   {
     "url": "https://globoplay.globo.com/busca/?q=test",
@@ -1441,6 +1541,16 @@
   {
     "url": "https://kiwiirc.com/search?q=test",
     "status": "200"
+  },
+  {
+    "url": "https://knewz.com/",
+    "status": "301",
+    "title": "Knewz - Balanced News from a Wide Range of Sources"
+  },
+  {
+    "url": "https://knewz.com/search/test",
+    "status": "301",
+    "title": "You searched for test - Knewz"
   },
   {
     "url": "https://knoema.com/",
@@ -3123,6 +3233,18 @@
     "status": "302"
   },
   {
+    "url": "https://www.deutsche-digitale-bibliothek.de/?lang=en",
+    "status": "302",
+    "redirect": "https://www.deutsche-digitale-bibliothek.de/",
+    "title": "Deutsche Digitale Bibliothek - Kultur und Wissen online"
+  },
+  {
+    "url": "https://www.deutsche-digitale-bibliothek.de/searchresults?query=test",
+    "status": "302",
+    "redirect": "https://www.deutsche-digitale-bibliothek.de/searchresults",
+    "title": "test - Deutsche Digitale Bibliothek"
+  },
+  {
     "url": "https://netsplit.de/channels/?chat=test",
     "status": "301",
     "redirect": "https://netsplit.de/channels/",
@@ -3329,6 +3451,10 @@
     "title": "NDL India: Guest"
   },
   {
+    "url": "http://hazine.info/",
+    "status": "200"
+  },
+  {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
     "status": "200",
     "title": "Community Radio Station Board"
@@ -3434,6 +3560,17 @@
     "status": "403"
   },
   {
+    "url": "http://www.hndm.unam.mx/consulta/busqueda/buscarPalabras",
+    "status": "200",
+    "title": "HNDM-Mensaje"
+  },
+  {
+    "url": "http://www.hnm.unam.mx/",
+    "status": "302",
+    "redirect": "http://www.hnm.unam.mx/index.php/hemeroteca-nacional-de-mexico",
+    "title": "302 Found"
+  },
+  {
     "url": "https://search.daum.net/search?q=test",
     "status": "301",
     "redirect": "http://search.daum.net/search?w=tot&",
@@ -3454,6 +3591,19 @@
     "status": "301",
     "redirect": "https://www.hoax-slayer.net/",
     "title": "You searched for test - Hoax-Slayer"
+  },
+  {
+    "url": "http://www.iberoamericadigital.net/BDPI/Search.do",
+    "status": "200"
+  },
+  {
+    "url": "http://www.iberoamericadigital.net/en/Inicio/",
+    "status": "200",
+    "title": "Biblioteca Digital del Patrimonio Iberoamericano"
+  },
+  {
+    "url": "https://www.metabase.net/",
+    "status": "timeout"
   },
   {
     "url": "http://news-explorer.mybluemix.net/",
@@ -3680,6 +3830,11 @@
     "title": "How Tom Tryniski digitized nearly 50 million pages of newspapers in his living room - Columbia Journalism Review"
   },
   {
+    "url": "https://dlme.clir.org/",
+    "status": "200",
+    "title": "Homepage - Digital Library of the Middle East"
+  },
+  {
     "url": "https://www.commonsensemedia.org/",
     "status": "301",
     "title": "Common Sense Media: Age-Based Media Reviews for Families"
@@ -3774,6 +3929,12 @@
     "url": "http://dataportals.org/",
     "status": "200",
     "title": " - Data Portals"
+  },
+  {
+    "url": "https://spotlight.dlmenetwork.org/library/catalog?q=test",
+    "status": "301",
+    "redirect": "https://spotlight.dlmenetwork.org:443/library/catalog",
+    "title": "test - Digital Library of the Middle East - DLME Search Results"
   },
   {
     "url": "https://www.ecosia.org/",
@@ -4092,6 +4253,17 @@
     "title": "Results for 'test' [WorldCat.org]"
   },
   {
+    "url": "http://www.elib.gov.ph/",
+    "status": "200",
+    "title": "Philippine eLib"
+  },
+  {
+    "url": "http://www.elib.gov.ph/results.php",
+    "status": "302",
+    "redirect": "bsearch.php",
+    "title": "Philippine eLib"
+  },
+  {
     "url": "https://tune.pk/search_result.php?query=test",
     "status": "301",
     "redirect": "https://tune.pk/search_result.php",
@@ -4178,6 +4350,17 @@
     "url": "https://www.twitch.tv/",
     "status": "301",
     "title": "Twitch"
+  },
+  {
+    "url": "https://discover.libraryhub.jisc.ac.uk/",
+    "status": "302",
+    "title": "Jisc Library Hub Discover"
+  },
+  {
+    "url": "https://discover.libraryhub.jisc.ac.uk/search?q=test",
+    "status": "302",
+    "redirect": "https://discover.libraryhub.jisc.ac.uk/search",
+    "title": "Library Hub"
   },
   {
     "url": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,test",

@@ -86,7 +86,7 @@ class Link
       end
 
       Net::HTTP.get(parsed) =~ /<title>(.*?)<\/title>/
-      result['title'] = $1.force_encoding('UTF-8') if $1
+      result['title'] = $1.encode('UTF-8', invalid: :replace) if $1
     rescue Exception => e
       puts "  #{e.message}"
       result['status'] = 'timeout'

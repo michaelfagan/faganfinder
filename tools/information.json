@@ -83,7 +83,7 @@
           "searchUrl": "https://millionshort.com/search?remove=10000&keywords={q}"
         },
         {
-          "name": "<abbr title=\"Million\">Mil.</abbr> Short no buy",
+          "name": "<abbr title=\"Million Short\">M.S.</abbr> non-commercial",
           "searchUrl": "https://millionshort.com/search?shopping=y&keywords={q}"
         }
       ]
@@ -141,16 +141,24 @@
           "searchUrl": "https://www.wolframalpha.com/input/?i={q}"
         },
         {
-          "name": "Google Books — all",
-          "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
-        },
-        {
-          "name": "WorldCat",
-          "searchUrl": "https://www.worldcat.org/search?q={q}"
+          "name": "Google Arts &amp; Culture",
+          "searchUrl": "https://artsandculture.google.com/search?q={q}"
         },
         {
           "name": "WikiLeaks",
           "searchUrl": "https://search.wikileaks.org/?q={q}"
+        },
+        {
+          "name": "J! Archive (Jeopardy)",
+          "searchUrl": "http://j-archive.com/search.php?search={q}"
+        },
+        {
+          "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
+          "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
+        },
+        {
+          "name": "Global-Regulation — law",
+          "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
         }
       ]
     },
@@ -325,19 +333,6 @@
       ]
     },
     {
-      "name": "Facts and trivia",
-      "tools": [
-        {
-          "name": "J! Archive (Jeopardy)",
-          "searchUrl": "http://j-archive.com/search.php?search={q}"
-        },
-        {
-          "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
-          "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
-        }
-      ]
-    },
-    {
       "name": "Academic journals",
       "tools": [
         {
@@ -354,6 +349,10 @@
           "searchUrl": "https://www.wdl.org/en/search/?q={q}"
         },
         {
+          "name": "WorldCat",
+          "searchUrl": "https://www.worldcat.org/search?q={q}"
+        },
+        {
           "name": "ArchiveGrid",
           "searchUrl": "https://researchworks.oclc.org/archivegrid/?q={q}"
         },
@@ -362,16 +361,83 @@
           "searchUrl": "https://archive.org/search.php?sin=TXT&query={q}"
         },
         {
-          "name": "Europeana",
-          "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
+          "name": "Google Books — all",
+          "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
         },
         {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",
           "searchUrl": "http://www.aodl.org/search.php?currSearches={q}"
         },
         {
+          "name": "<abbr title=\"Digital Library of the Middle East\">DLME</abbr> — Middle East",
+          "searchUrl": "https://spotlight.dlmenetwork.org/library/catalog?q={q}"
+        },
+        {
+          "name": "<abbr title=\">Biblioteca Digital del Patrimonio Iberoamericano\">BDPI</abbr> — Ibero-America",
+          "searchUrl": "http://www.iberoamericadigital.net/BDPI/Search.do",
+          "post": "text",
+          "postMore": {
+            "field": "todos",
+            "languageView": "en"
+          }
+        },
+        {
+          "name": "<abbr title=\"Biblioteca Virtual Miguel de Cervantes\">BVMC</abbr> — Ibero-America",
+          "searchUrl": "http://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText={q}"
+        },
+        {
           "name": "<abbr title=\"Biblioteca digital Luso-Brasileira\" lang=\"pt\">Luso-Brasileira</abbr>",
           "searchUrl": "https://bdlb.bn.gov.br/acervo/handle/20.500.12156.3/17/discover?query={q}"
+        },
+        {
+          "name": "Trove — Australia",
+          "searchUrl": "https://trove.nla.gov.au/result?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Libraries and archives — Europe",
+      "tools": [
+        {
+          "name": "Europeana",
+          "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United Kingdom\">UK</abbr>",
+          "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
+        },
+        {
+          "name": "British Library",
+          "searchUrl": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,{q}"
+        },
+        {
+          "name": "<abbr title=\"Jisc Library Hub Discover\">Jisc Lib. Hub</abbr> — <abbr title=\"United Kingdom\">UK</abbr>",
+          "searchUrl": "https://discover.libraryhub.jisc.ac.uk/search?q={q}"
+        },
+        {
+          "name": "Russian State Library",
+          "searchUrl": "https://search.rsl.ru/en/search#q={q}"
+        },
+        {
+          "name": "<abbr title=\"National\">Nat.</abbr> <abbr title=\"Library\">Lib.</abbr> of Russia",
+          "searchUrl": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,{q}"
+        },
+        {
+          "name": "<abbr title=\"State Public Historical Library of Russia\">GPIB</abbr> — Russia",
+          "searchUrl": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query={q}"
+        },
+        {
+          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
+          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Libraries and archives — Americas",
+      "tools": [
+        {
+          "name": "<abbr title=\">Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
+          "searchUrl": "https://dloc.com/results/?text={q}"
         },
         {
           "name": "Library of Congress",
@@ -386,24 +452,20 @@
           "searchUrl": "https://dp.la/search?q={q}"
         },
         {
-          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United Kingdom\">UK</abbr>",
-          "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
+          "name": "Canadiana Online",
+          "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
         },
         {
-          "name": "British Library",
-          "searchUrl": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,{q}"
+          "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
+          "searchUrl": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
         },
         {
-          "name": "Russian State Library",
-          "searchUrl": "https://search.rsl.ru/en/search#q={q}"
+          "name": "ARCHIVESCANADA.ca",
+          "searchUrl": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query={q}"
         },
         {
-          "name": "<abbr title=\"National\">Nat.</abbr> <abbr title=\"Library\">Lib.</abbr> of Russia",
-          "searchUrl": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,{q}"
-        },
-        {
-          "name": "<abbr title=\"State Public Historical Library of Russia\">GPIB</abbr> — Russia",
-          "searchUrl": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query={q}"
+          "name": "Héritage — Canada",
+          "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
         }
       ]
     },
@@ -438,15 +500,16 @@
           "name": "<abbr title=\"China Academic Digital Associative Library\">CADAL</abbr> — China",
           "searchUrl": "http://cadal.zju.edu.cn/cadalinfo/search",
           "post": "searchContent"
-        }
-      ]
-    },
-    {
-      "name": "Museums and galleries",
-      "tools": [
+        },
         {
-          "name": "Google Arts &amp; Culture",
-          "searchUrl": "https://artsandculture.google.com/search?q={q}"
+          "name": "Philippine eLib",
+          "searchUrl": "http://www.elib.gov.ph/results.php",
+          "post": "query1",
+          "postMore": {
+            "field1": "any",
+            "action": "Search",
+            "digital": "1"
+          }
         }
       ]
     },
@@ -544,6 +607,10 @@
           "searchUrl": "https://www.pressreader.com/search?languages=en&groupBy=Language&hideSimilar=0&type=1&state=1&query={q}"
         },
         {
+          "name": "Knewz",
+          "searchUrl": "https://knewz.com/search/{q}"
+        },
+        {
           "name": "One News Page",
           "searchUrl": "https://www.onenewspage.com/topic/{q}.htm"
         },
@@ -633,6 +700,11 @@
         {
           "name": "Chronicling America",
           "searchUrl": "https://chroniclingamerica.loc.gov/search/pages/results/?proxtext={q}"
+        },
+        {
+          "name": "<abbr title=\"Hemeroteca Nacional\" lang=\"es\">Hemeroteca</abbr> — México",
+          "searchUrl": "http://www.hndm.unam.mx/consulta/busqueda/buscarPalabras",
+          "post": "palabras"
         },
         {
           "name": "Trove — Australia",
