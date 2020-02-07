@@ -67,7 +67,7 @@ class Page
       @external_links.concat group.tools.map{|tool| tool.searchUrl.sub('{q}', 'test')}
     end
     # separate external links from links to other page sections
-    urls_from_html = @content.scan(/ href="([^"]+)\"/).map{|m| m[0]}.partition{|u| u[0] == '#' || u[0] == '/' }
+    urls_from_html = @content.scan(/ href="([^"]*)\"/).map{|m| m[0]}.partition{|u| u.length == 0 || u[0] == '#' || u[0] == '/' }
     @external_links.concat urls_from_html[1].map{|u| u.gsub(/&amp;/, '&')}
     # validate internal links
     bad_internal_links = urls_from_html[0].reject{|u| section_ids.include?(u.sub('#', '')) || u[0] == '/' }

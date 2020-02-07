@@ -223,6 +223,10 @@
           "searchUrl": "https://www.social-searcher.com/social-buzz/?q5={q}"
         },
         {
+          "name": "Sina Weibo",
+          "searchUrl": "https://s.weibo.com/weibo/{q}"
+        },
+        {
           "name": "VK",
           "searchUrl": "https://vk.com/search?c%5Bsection%5D=auto&c%5Bq%5D={q}"
         }

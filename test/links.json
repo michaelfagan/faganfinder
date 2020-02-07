@@ -3011,6 +3011,15 @@
     "title": "Movie Scripts and Screenplays | WeeklyScript.com"
   },
   {
+    "url": "https://s.weibo.com/weibo/test",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.weibo.com/",
+    "status": "301",
+    "redirect": "https://weibo.com/"
+  },
+  {
     "url": "http://www.whatismymovie.com/",
     "status": "200",
     "title": "What is my movie? Describe and find movies"
