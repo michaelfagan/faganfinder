@@ -19,7 +19,7 @@ function setTool(button) {
   }
   form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
   form.setAttribute('data-tool', button.textContent);
-  form.elements[1].children[0].innerHTML = ' using ' + button.innerHTML;
+  form.elements[1].children[0].innerHTML = ' ' + button.innerHTML;
   var active = form.getElementsByClassName('activeb');
   if (active.length > 0) {
     active[0].classList.remove('activeb');
@@ -63,6 +63,9 @@ if (typeof document.body.classList === 'object') {
   setTool(form.elements[3]); // first search tool button
   form.setAttribute('data-submitvia', 'button');
 
+  // this replaces non-javascript text, i.e. 'Search using:'
+  form.getElementsByTagName('h2')[1].innerHTML = 'Change search tool';
+
   // run the search
   form.addEventListener('submit', function(e) {
     var q = form.elements[0].value.trim();
@@ -90,19 +93,18 @@ if (typeof document.body.classList === 'object') {
   // event handling for all actions in the form buttons area
   form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
     var tag = e.target.tagName.toLowerCase();
-    var ptag = e.target.parentNode.tagName.toLowerCase();
     // click on a button to search
     if (tag === 'button' && e.target.getAttribute('value')) {
       setTool(e.target);
     }
-    else if (ptag === 'button') {
+    else if (e.target.parentNode.tagName.toLowerCase() === 'button') {
       setTool(e.target.parentNode);
     }
     // click on a section name
-    else if (tag === 'a' && ptag === 'h3') {
-      if (getComputedStyle(form.getElementsByTagName('a')[0]).textDecoration.indexOf('none') !== -1) {
+    else if (tag === 'h3') {
+      if (getComputedStyle(e.target).cursor === 'pointer') {
         // ^ check for mobile by looking for a moble style
-        var div = e.target.parentNode.parentNode;
+        var div = e.target.parentNode;
         if (div.classList.contains('active')) {
           div.classList.remove('active');
           ga('send', 'event', e.target.textContent, 'collapse');
@@ -112,17 +114,11 @@ if (typeof document.body.classList === 'object') {
           div.getElementsByTagName('button')[0].focus();
           ga('send', 'event', e.target.textContent, 'expand');
         }
-        e.preventDefault();
-      }
-      else {
-        // i.e. not showing mobile view
-        // clicking the section name to see details about the section
-        ga('send', 'event', e.target.textContent, 'details-name');
       }
     }
-    // clicking on a 'details' link (mobile only)
+    // clicking on a 'About these' link
     else if (tag === 'a') {
-      ga('send', 'event', e.target.parentNode.previousElementSibling.previousElementSibling.textContent, 'details-details');
+      ga('send', 'event', e.target.parentNode.previousElementSibling.previousElementSibling.textContent, 'details');
     }
 
   });
@@ -134,13 +130,18 @@ if (typeof document.body.classList === 'object') {
     ga('send', 'event', 'clear');
   });
 
-  // enable tracking of form submissions via the enter key or button
+  // enable tracking of form submissions via the enter key, main button, or tool button (default)
   form.elements[0].addEventListener('keydown', function(e){
     if (e.keyCode === 13) {
       form.setAttribute('data-submitvia', 'enter');
     }
   });
-
+  form.elements[1].addEventListener('click', function(){
+    if (form.getAttribute('data-submitvia') === 'button') {
+      // the 'click' is also triggered by the enter key, hence the if statement
+      form.setAttribute('data-submitvia', 'mainbutton');
+    }
+  });
 
   // analytics for external links, the mailto: link, and in-page links that aren't to search tool sections
 

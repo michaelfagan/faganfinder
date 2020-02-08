@@ -43,15 +43,17 @@
           <h2><label for="q">Search</label></h2>
           <input type="text" name="q" id="q" dir="auto">
           <div style="white-space:nowrap">
-            <button type="submit">search<span> using Google</span></button>
+            <button type="submit">search<span> <%= page.sections[0].tools[0].name %></span></button>
             <button type="reset">clear</button>
           </div>
         </div>
       </div>
 
-      <p class="sr-only">Results will open in new windows.</p>
 
-      <div class="inner"><h2 style="margin-top:1em">Change search tool</h2></div>
+      <div class="inner">
+        <p id="newwin">Results open in a new window.</p>
+        <h2 style="margin-top:1em">Search using:</h2>
+      </div>
       <ul class="inner">
       <% page.sections.each_with_index do |group, i| %>
         <li><div<%= i==0 ? ' class="active"' : '' %>>
@@ -69,7 +71,7 @@
             </li>
           <% end %>
           </ul>
-          <div><a href="#<%= group.id %>">About these</a></div>
+          <a href="#<%= group.id %>">About these</a>
         </div></li>
       <% end %>
       </ul>
@@ -87,7 +89,7 @@
       <% end %>
 
       <%=
-        btt = '<p class="btt"><a href="#search">back to top ↑</a></p>'
+        btt = '<a href="#search"><span>↑</span> back to top</a>'
         page.content.gsub('<section>').with_index do |m, i|
           i == 0 ? "<section><h3>Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
         end
@@ -100,8 +102,13 @@
       <section>
         <h2>About <%= site[:name] %></h2>
         <p>
-          <a href="<%= site[:root] %>"><%= site[:name] %></a>
-          is a collection of tools to help you find anything online.<br>
+          <% if page.path.empty? %>
+            <%= site[:name] %>
+          <% else %>
+            <a href="<%= site[:root] %>"><%= site[:name] %></a>
+          <% end %>
+          is a collection of tools to help you find anything online.
+          Follow updates on our <a href="<%= site[:root_old] %>/blog/">blog</a>.<br>
           Launched in 2001 and still run by Michael Fagan.
           Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>

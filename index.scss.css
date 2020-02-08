@@ -47,7 +47,7 @@ section li {
   margin: ($p_space * 0.8) 0;
 }
 h1, h2, h3 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 abbr {
   text-decoration: inherit;
@@ -58,13 +58,6 @@ a:hover {
 *[tabindex="-1"]:focus {
   /* adding this tabindex improves screenreader experience in chrome but is not necessary to show focused */
   outline: none;
-}
-.sr-only {
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  position: absolute;
 }
 sup {
   line-height: 1em;
@@ -129,8 +122,17 @@ form .highlight {
     margin-top: $highlight_padding;
   }
 }
+#newwin {
+  font-size: 0.9em;
+}
+
+/* search options */
+form h3 {
+  font-size: 1em;
+}
 form ul {
   list-style-type: none;
+  margin-botton: 0.1em; /* space before 'About these' */
 }
 
 @media (min-width: $non_mobile) {
@@ -149,12 +151,13 @@ li > div {
 }
 
 $button_side_padding: 0.5em;
+$button_font_size: 0.9em;
 ul.inner button {
   padding: 0 $button_side_padding;
   width: 100%;
   text-align: left;
   margin: 0.1em 0;
-  font-size: 0.9em;
+  font-size: $button_font_size;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -182,7 +185,7 @@ button.activeb {
     form > ul {
       margin: 1em 0;
     }
-    form > ul ul { /* hide each section until active */
+    form > ul ul, form a { /* hide each section until active */
       display: none;
     }
     .active {
@@ -191,6 +194,11 @@ button.activeb {
         display: block;
         margin: 0.5em 0;
         margin-left: $ul_left_margin;
+      }
+      a {
+        display: inline;
+        font-size: 1em;
+        margin-left: $ul_left_margin + $button_side_padding;
       }
       h3:before {
         content: '\25BC\00A0'; /* down arrow and non-breaking space */
@@ -203,27 +211,32 @@ button.activeb {
     }
   }
 }
-form .inner div div {
-  margin-top: 0.4em;
+/* 'About these' link */
+form a {
+  margin-left: $button_side_padding;
+  font-size: $button_font_size;
 }
 
 
 /* details section */
 section {
   margin: 1.5em 0;
-  h2, h3 {
-    font-size: 1.2em;
-  }
 }
 section + section {
   margin-top: 3em;
   clear: both; /* around adsense */
 }
-.btt {
-  /* back to top links */
+h4 {
+  font-size: 1.1em;
+  margin-top: $p_space * 2;
+}
+/* back to top links */
+a[href="#search"] {
+  display: block;
   margin-top: 1.5em;
-  a {
-    font-size: 0.8em;
+  font-size: 0.9em;
+  span {
+    font-weight: bold;
   }
 }
 $ad_width: 336px;
@@ -284,7 +297,7 @@ footer section {
     page-break-inside: avoid;
   }
   /* hide about, back-to-top links and ads */
-  nav, .btt, #adone, #adtwo {
+  nav, #newwin, a[href='#search'], #adone, #adtwo {
     display: none;
   }
 }
