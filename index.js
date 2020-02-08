@@ -118,7 +118,7 @@ if (typeof document.body.classList === 'object') {
     }
     // clicking on a 'About these' link
     else if (tag === 'a') {
-      ga('send', 'event', e.target.parentNode.previousElementSibling.previousElementSibling.textContent, 'details');
+      ga('send', 'event', e.target.previousElementSibling.previousElementSibling.textContent, 'details');
     }
 
   });
@@ -143,8 +143,14 @@ if (typeof document.body.classList === 'object') {
     }
   });
 
-  // analytics for external links, the mailto: link, and in-page links that aren't to search tool sections
+  // analytics for links other than the 'About these'
 
+  // header links
+  var header_links = document.getElementsByTagName('header')[0].getElementsByTagName('a');
+  for (var i=0; i<header_links.length; i++) {
+    trackLink(header_links[i], 'header');
+  }
+  // links in the detail section
   var sections  = document.getElementById('details').getElementsByTagName('section');
   for (var i=0; i<sections.length; i++) {
     var links = sections[i].getElementsByTagName('a');
@@ -152,8 +158,10 @@ if (typeof document.body.classList === 'object') {
       trackLink(links[j], sections[i].getElementsByTagName('h3')[0].textContent);
     }
   }
+  // footer links
   var footer_links = document.getElementsByTagName('footer')[0].getElementsByTagName('a');
-  trackLink(footer_links[footer_links.length-1], 'footer');
-  trackLink(document.getElementById('about'), 'header');
+  for (var i=0; i<footer_links.length; i++) {
+    trackLink(footer_links[i], 'footer');
+  }
 
 }
