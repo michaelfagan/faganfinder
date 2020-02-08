@@ -29,9 +29,9 @@ function setTool(button) {
 
 function trackLink(link, section) {
   link.addEventListener('click', function(e){
-    var l = e.target.textContent + '||' + e.target.getAttribute('href');
+    var l = link.textContent + '||' + link.getAttribute('href');
     function go(){
-      location.href = e.target.getAttribute('href');
+      location.href = link.getAttribute('href');
     }
     if (link.getAttribute('href')[0] === 'h' && !e.metaKey) {
       // delay visiting until logged, unless it is taking too long
