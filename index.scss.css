@@ -17,10 +17,17 @@ body {
 }
 button {
   cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  &:hover {
+    color: white;
+    background-color: #555 !important;
+  }
 }
 body {
   font-size: 14pt;
-  font-family: "Lucida Sans Unicode", Sans-serif;
+  font-family: Sans-serif;
 }
 input, button {
   font-family: inherit;
@@ -40,7 +47,7 @@ section li {
   margin: ($p_space * 0.8) 0;
 }
 h1, h2, h3 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 abbr {
   text-decoration: inherit;
@@ -51,13 +58,6 @@ a:hover {
 *[tabindex="-1"]:focus {
   /* adding this tabindex improves screenreader experience in chrome but is not necessary to show focused */
   outline: none;
-}
-.sr-only {
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  position: absolute;
 }
 sup {
   line-height: 1em;
@@ -75,9 +75,10 @@ body, .highlight {
   margin-right: auto;
   margin-left: auto;
 }
+$highlight_padding: 0.3em;
 .highlight {
   background-color: $highlight;
-  padding: 0.3em 0;
+  padding: $highlight_padding 0;
 }
 
 
@@ -104,22 +105,38 @@ nav {
 
 
 /* search form */
+.no-js form {
+  /* since there is no ad, the two green blocks would otherwise merge */
+  border-top: 1px solid black;
+}
 input {
   width: 20em;
-  padding: 0 0.2em;
+  padding: 0.2em;
 }
-.highlight {
-  @at-root form & {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
+form .highlight {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   button {
-    display: none;
+    padding: 0.2em 0.5em;
   }
+  padding-top: 0;
+  .inner > * {
+    display: inline-block;
+    margin-top: $highlight_padding;
+  }
+}
+#newwin {
+  font-size: 0.9em;
+}
+
+/* search options */
+form h3 {
+  font-size: 1em;
 }
 form ul {
   list-style-type: none;
+  margin-botton: 0.1em; /* space before 'About these' */
 }
 
 @media (min-width: $non_mobile) {
@@ -134,32 +151,25 @@ form ul {
 li > div {
   display: inline-block; /* don't allow the div to be split across columns */
   width: 100%;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
 }
-form ul div div {
-  /*
-    the second link to the details for each section,
-    only needed for mobile
-   */
-  display: none;
-}
+
 $button_side_padding: 0.5em;
-button {
+$button_font_size: 0.9em;
+ul.inner button {
+  padding: 0 $button_side_padding;
   width: 100%;
   text-align: left;
-  padding: 0 $button_side_padding;
   margin: 0.1em 0;
-  font-size: 0.9em;
-  background-color: transparent;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  font-size: $button_font_size;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  &:hover, &.activeb {
-    color: white;
-    background-color: #555;
-  }
+}
+button.activeb {
+  background-color: #ffdd00;
+  border-color: black;
+  border-right-width: 3px;
 }
 @media screen and (max-width: $mobile) {
   .has-js {
@@ -167,10 +177,8 @@ button {
       /* since they are collapsed, need more space between each */
       margin: ($p_space / 2) 0;
     }
-    h3 a {
-      display: block;
-      text-decoration: none; /* undo link underline */
-      color: inherit; /* undo link colour */
+    form h3 {
+      cursor: pointer;
       &:before {
         content: '\25B6\00A0'; /* right arrow and non-breaking space */
       }
@@ -181,7 +189,7 @@ button {
     form > ul {
       margin: 1em 0;
     }
-    form > ul ul { /* hide each section until active */
+    form > ul ul, form a { /* hide each section until active */
       display: none;
     }
     .active {
@@ -191,39 +199,48 @@ button {
         margin: 0.5em 0;
         margin-left: $ul_left_margin;
       }
-      h3 a:before {
-        content: '\25BC\00A0'; /* down arrow and non-breaking space */
-      }
-      div {
-        display: block; /* i.e. show */
+      a {
+        display: inline;
+        font-size: 1em;
         margin-left: $ul_left_margin + $button_side_padding;
       }
+      h3:before {
+        content: '\25BC\00A0'; /* down arrow and non-breaking space */
+      }
     }
-    button {
+    ul.inner button {
       /* unset button styles set above */
       font-size: 1em;
       margin: 0.2em 0;
     }
   }
 }
+/* 'About these' link */
+form a {
+  margin-left: $button_side_padding;
+  font-size: $button_font_size;
+}
 
 
 /* details section */
 section {
   margin: 1.5em 0;
-  h2, h3 {
-    font-size: 1.2em;
-  }
 }
 section + section {
   margin-top: 3em;
   clear: both; /* around adsense */
 }
-.btt {
-  /* back to top links */
+h4 {
+  font-size: 1.1em;
+  margin-top: $p_space * 2;
+}
+/* back to top links */
+a[href="#search"] {
+  display: block;
   margin-top: 1.5em;
-  a {
-    font-size: 0.8em;
+  font-size: 0.9em;
+  span {
+    font-weight: bold;
   }
 }
 $ad_width: 336px;
@@ -284,7 +301,7 @@ footer section {
     page-break-inside: avoid;
   }
   /* hide about, back-to-top links and ads */
-  nav, .btt, #adone, #adtwo {
+  nav, #newwin, a[href='#search'], #adone, #adtwo {
     display: none;
   }
 }
