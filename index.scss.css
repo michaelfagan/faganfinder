@@ -105,6 +105,10 @@ nav {
 
 
 /* search form */
+.no-js form {
+  /* since there is no ad, the two green blocks would otherwise merge */
+  border-top: 1px solid black;
+}
 input {
   width: 20em;
   padding: 0.2em;

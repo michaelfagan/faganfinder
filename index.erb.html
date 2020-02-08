@@ -38,12 +38,24 @@
 
     <form tabindex="-1" id="search" role="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
 
+    <%
+      def toolUrl(tool)
+        url = tool.searchUrl.gsub '&', '&amp;'
+        if tool.post
+          params = ({tool.post => ''}).merge(tool.postMore.to_h || {})
+          url.prepend params.map{|n,v| "#{n}=#{v}"}.join('&') + '|x|'
+        end
+        url
+      end
+    %>
+
       <div class="highlight">
         <div class="inner">
           <h2><label for="q">Search</label></h2>
           <input type="text" name="q" id="q" dir="auto">
           <div style="white-space:nowrap">
-            <button type="submit">search<span> <%= page.sections[0].tools[0].name %></span></button>
+            <% first_tool = page.sections[0].tools[0] %>
+            <button type="submit" name="u" value="<%= toolUrl first_tool %>">search<span> <%= first_tool.name %></span></button>
             <button type="reset">clear</button>
           </div>
         </div>
@@ -60,14 +72,8 @@
           <h3><%= group.shortName %></h3>
           <ul>
           <% group.tools.each do |tool| %>
-            <li><%
-              url = tool.searchUrl.gsub '&', '&amp;'
-              if tool.post
-                params = ({tool.post => ''}).merge(tool.postMore.to_h || {})
-                url.prepend params.map{|n,v| "#{n}=#{v}"}.join('&') + '|x|'
-              end
-              %>
-              <button name="u" value="<%= url %>"><%= tool.name %></button>
+            <li>
+              <button name="u" value="<%= toolUrl tool %>"><%= tool.name %></button>
             </li>
           <% end %>
           </ul>
