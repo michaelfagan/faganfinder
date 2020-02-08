@@ -17,6 +17,13 @@ body {
 }
 button {
   cursor: pointer;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  &:hover {
+    color: white;
+    background-color: #555 !important;
+  }
 }
 body {
   font-size: 14pt;
@@ -75,9 +82,10 @@ body, .highlight {
   margin-right: auto;
   margin-left: auto;
 }
+$highlight_padding: 0.3em;
 .highlight {
   background-color: $highlight;
-  padding: 0.3em 0;
+  padding: $highlight_padding 0;
 }
 
 
@@ -106,16 +114,19 @@ nav {
 /* search form */
 input {
   width: 20em;
-  padding: 0 0.2em;
+  padding: 0.2em;
 }
-.highlight {
-  @at-root form & {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
+form .highlight {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   button {
-    display: none;
+    padding: 0.2em 0.5em;
+  }
+  padding-top: 0;
+  .inner > * {
+    display: inline-block;
+    margin-top: $highlight_padding;
   }
 }
 form ul {
@@ -134,32 +145,24 @@ form ul {
 li > div {
   display: inline-block; /* don't allow the div to be split across columns */
   width: 100%;
-  margin: 0.3em 0;
+  margin: 0.5em 0;
 }
-form ul div div {
-  /*
-    the second link to the details for each section,
-    only needed for mobile
-   */
-  display: none;
-}
+
 $button_side_padding: 0.5em;
-button {
+ul.inner button {
+  padding: 0 $button_side_padding;
   width: 100%;
   text-align: left;
-  padding: 0 $button_side_padding;
   margin: 0.1em 0;
   font-size: 0.9em;
-  background-color: transparent;
-  border-radius: 5px;
-  border: 1px solid #ccc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  &:hover, &.activeb {
-    color: white;
-    background-color: #555;
-  }
+}
+button.activeb {
+  background-color: #ffdd00;
+  border-color: black;
+  border-right-width: 3px;
 }
 @media screen and (max-width: $mobile) {
   .has-js {
@@ -167,10 +170,8 @@ button {
       /* since they are collapsed, need more space between each */
       margin: ($p_space / 2) 0;
     }
-    h3 a {
-      display: block;
-      text-decoration: none; /* undo link underline */
-      color: inherit; /* undo link colour */
+    form h3 {
+      cursor: pointer;
       &:before {
         content: '\25B6\00A0'; /* right arrow and non-breaking space */
       }
@@ -191,20 +192,19 @@ button {
         margin: 0.5em 0;
         margin-left: $ul_left_margin;
       }
-      h3 a:before {
+      h3:before {
         content: '\25BC\00A0'; /* down arrow and non-breaking space */
       }
-      div {
-        display: block; /* i.e. show */
-        margin-left: $ul_left_margin + $button_side_padding;
-      }
     }
-    button {
+    ul.inner button {
       /* unset button styles set above */
       font-size: 1em;
       margin: 0.2em 0;
     }
   }
+}
+form .inner div div {
+  margin-top: 0.4em;
 }
 
 

@@ -19,6 +19,7 @@ function setTool(button) {
   }
   form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
   form.setAttribute('data-tool', button.textContent);
+  form.elements[1].children[0].innerHTML = ' using ' + button.innerHTML;
   var active = form.getElementsByClassName('activeb');
   if (active.length > 0) {
     active[0].classList.remove('activeb');
@@ -59,7 +60,7 @@ if (typeof document.body.classList === 'object') {
   form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"></form>');
 
   // initialize
-  setTool(form.elements[2]);
+  setTool(form.elements[3]); // first search tool button
   form.setAttribute('data-submitvia', 'button');
 
   // run the search
@@ -124,6 +125,13 @@ if (typeof document.body.classList === 'object') {
       ga('send', 'event', e.target.parentNode.previousElementSibling.previousElementSibling.textContent, 'details-details');
     }
 
+  });
+
+  // clear button
+  form.elements[2].addEventListener('click', function(){
+    form.elements[0].value = '';
+    form.elements[0].focus();
+    ga('send', 'event', 'clear');
   });
 
   // enable tracking of form submissions via the enter key or button

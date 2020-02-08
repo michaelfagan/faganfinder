@@ -39,26 +39,23 @@
     <form tabindex="-1" id="search" role="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
 
       <div class="highlight">
-
-        <h2>
-          <label>
-            Search for
-            <input type="text" name="q">
-          </label>
-          <button>Search</button><%# just used to prevent 'enter' submission from triggering a click on an actual button, is hidden %>
-          using:
-        </h2>
+        <div class="inner">
+          <h2><label for="q">Search</label></h2>
+          <input type="text" name="q" id="q" dir="auto">
+          <div style="white-space:nowrap">
+            <button type="submit">search<span> using Google</span></button>
+            <button type="reset">clear</button>
+          </div>
+        </div>
       </div>
 
       <p class="sr-only">Results will open in new windows.</p>
 
-      <h2 class="sr-only">Search tools</h2>
+      <div class="inner"><h2 style="margin-top:1em">Change search tool</h2></div>
       <ul class="inner">
       <% page.sections.each_with_index do |group, i| %>
         <li><div<%= i==0 ? ' class="active"' : '' %>>
-          <h3>
-            <a href="#<%= group.id %>"><%= group.shortName %></a>
-          </h3>
+          <h3><%= group.shortName %></h3>
           <ul>
           <% group.tools.each do |tool| %>
             <li><%
@@ -72,7 +69,7 @@
             </li>
           <% end %>
           </ul>
-          <div><a href="#<%= group.id %>">Details</a></div>
+          <div><a href="#<%= group.id %>">About these</a></div>
         </div></li>
       <% end %>
       </ul>
