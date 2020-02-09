@@ -1125,6 +1125,17 @@
     "redirect": "https://play.google.com/store/search"
   },
   {
+    "url": "https://datasetsearch.research.google.com/",
+    "status": "301",
+    "title": "Dataset Search"
+  },
+  {
+    "url": "https://datasetsearch.research.google.com/search?query=test",
+    "status": "301",
+    "redirect": "https://datasetsearch.research.google.com/search",
+    "title": "Dataset Search"
+  },
+  {
     "url": "https://scholar.google.com/",
     "status": "302",
     "title": "Google Scholar"

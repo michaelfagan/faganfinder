@@ -803,7 +803,10 @@
           "name": "Knoema",
           "searchUrl": "https://knoema.com/search?query={q}"
         },
-
+        {
+          "name": "Google Dataset Search",
+          "searchUrl": "https://datasetsearch.research.google.com/search?query={q}"
+        },
         {
           "name": "Datahub",
           "searchUrl": "https://datahub.io/search?q={q}"
