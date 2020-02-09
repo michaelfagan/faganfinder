@@ -3603,6 +3603,35 @@
     "title": "پارسی جو: جستجوگر ایرانی - test"
   },
   {
+    "url": "https://www.digital.archives.go.jp/index_e.html",
+    "status": "302",
+    "title": "NATIONAL ARCHIVES OF JAPAN Digital Archive"
+  },
+  {
+    "url": "https://www.jacar.archives.go.jp/gf/cgi/start?LANG=eng",
+    "status": "302",
+    "redirect": "https://www.jacar.archives.go.jp/gf/cgi/start",
+    "title": "Japan Center for Asian Historical Records(JACAR) / Cross Search"
+  },
+  {
+    "url": "https://www.jacar.archives.go.jp/gf/cgi/zway",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.jacar.go.jp/english/",
+    "status": "301",
+    "title": "Japan Center for Asian Historical Records"
+  },
+  {
+    "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
+    "status": "timeout",
+    "redirect": "https://iss.ndl.go.jp/books"
+  },
+  {
+    "url": "https://iss.ndl.go.jp/",
+    "status": "timeout"
+  },
+  {
     "url": "http://www.nicovideo.jp/",
     "status": "200"
   },

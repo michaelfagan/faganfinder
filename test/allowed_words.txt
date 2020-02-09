@@ -44,6 +44,7 @@ Canva
 CareerOneStop
 CCFr
 Cengage
+Center
 Clipart
 collectif
 CosmoLearning
@@ -139,6 +140,7 @@ IRC
 iseek.ai
 issuu
 iStock
+JACAR
 Jisc
 JustWatch
 Knewz
