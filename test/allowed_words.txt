@@ -26,10 +26,12 @@ BDPI
 Bechdel
 Biblioteca
 Bibliothek
+Bibliothèque
 Bing
 Biznar
 Blurtit
 BNDigital
+BnF
 BoardReader
 BookBeat
 Brainly
@@ -40,8 +42,10 @@ CADAL
 Canadiana
 Canva
 CareerOneStop
+CCFr
 Cengage
 Clipart
+collectif
 CosmoLearning
 CrossAsia
 cyclopedia
@@ -98,6 +102,7 @@ FreeDocumentaries.org
 Freeimages
 Fultonhistory.com
 FultonSearch
+Gallica
 GDELT
 GIFs
 Gigablast
@@ -166,6 +171,8 @@ MyHeritage
 myTuner
 México
 Nacional
+nationale
+Nationales
 Naver
 NDL
 netsplit.de

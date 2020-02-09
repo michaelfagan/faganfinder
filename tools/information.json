@@ -408,7 +408,7 @@
       ]
     },
     {
-      "name": "Libraries and archives — Europe",
+      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Europe",
       "tools": [
         {
           "name": "Europeana",
@@ -441,11 +441,19 @@
         {
           "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
           "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
+        },
+        {
+          "name": "Gallica — France",
+          "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
+        },
+        {
+          "name": "<abbr title=\"Archives Nationales\">Arch. Nat.</abbr> — France",
+          "searchUrl": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText={q}"
         }
       ]
     },
     {
-      "name": "Libraries and archives — Americas",
+      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
       "tools": [
         {
           "name": "<abbr title=\">Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
@@ -482,7 +490,7 @@
       ]
     },
     {
-      "name": "Libraries and archives — Asia",
+      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Asia",
       "tools": [
         {
           "name": "CrossAsia",

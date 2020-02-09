@@ -3363,6 +3363,31 @@
     "status": "200"
   },
   {
+    "url": "https://ccfr.bnf.fr/portailccfr/jsp/public/index.jsp",
+    "status": "301"
+  },
+  {
+    "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en",
+    "status": "301",
+    "title": "Gallica"
+  },
+  {
+    "url": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22test%22%29&lang=en&suggest=0",
+    "status": "timeout",
+    "redirect": "https://gallica.bnf.fr/services/engine/search/sru"
+  },
+  {
+    "url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=test",
+    "status": "302",
+    "redirect": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action",
+    "title": "Recherche - Salle des inventaires virtuelle"
+  },
+  {
+    "url": "http://www.archives-nationales.culture.gouv.fr/en/web/guest/home",
+    "status": "200",
+    "title": "Archives nationales (France)"
+  },
+  {
     "url": "https://radio.garden/",
     "status": "200",
     "title": "Radio Garden"
