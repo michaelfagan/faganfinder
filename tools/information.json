@@ -389,7 +389,7 @@
           "searchUrl": "https://spotlight.dlmenetwork.org/library/catalog?q={q}"
         },
         {
-          "name": "<abbr title=\">Biblioteca Digital del Patrimonio Iberoamericano\">BDPI</abbr> — Ibero-America",
+          "name": "<abbr title=\"Biblioteca Digital del Patrimonio Iberoamericano\">BDPI</abbr> — Ibero-America",
           "searchUrl": "http://www.iberoamericadigital.net/BDPI/Search.do",
           "post": "text",
           "postMore": {
