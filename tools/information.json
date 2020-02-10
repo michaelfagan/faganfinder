@@ -381,6 +381,10 @@
           "searchUrl": "http://www.aodl.org/search.php?currSearches={q}"
         },
         {
+          "name": "Arabic Union Catalog",
+          "searchUrl": "https://www.aruc.org/en/search?searchBy=search_text&source=both&tabId=GeneralTab&referer=MainSearch&keyword={q}"
+        },
+        {
           "name": "<abbr title=\"Digital Library of the Middle East\">DLME</abbr> — Middle East",
           "searchUrl": "https://spotlight.dlmenetwork.org/library/catalog?q={q}"
         },

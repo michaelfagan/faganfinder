@@ -42,6 +42,7 @@ CADAL
 Canadiana
 Canva
 CareerOneStop
+Catalog
 CCFr
 Cengage
 Center
