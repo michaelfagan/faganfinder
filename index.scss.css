@@ -4,6 +4,8 @@ $readingwidth: 50em;
 $p_space: 0.8em;
 $highlight: #bce0ba;
 $link_colour: #0000ee; /* not actually set, but this is or close to the default for various browsers */
+$normaltext: 1rem;
+$smalltext: 0.9rem;
 
 
 /* generic styles */
@@ -12,7 +14,11 @@ $link_colour: #0000ee; /* not actually set, but this is or close to the default 
   padding: 0;
   max-width: 100%;
 }
+html {
+  font-size: 14pt;
+}
 body {
+  font-family: Sans-serif;
   touch-action: manipulation; /* disables delay on mobile, checking to see if a tab is a double-tap */
 }
 button {
@@ -24,10 +30,6 @@ button {
     color: white;
     background-color: #555 !important;
   }
-}
-body {
-  font-size: 14pt;
-  font-family: Sans-serif;
 }
 input, button {
   font-family: inherit;
@@ -47,7 +49,7 @@ section li {
   margin: ($p_space * 0.8) 0;
 }
 h1, h2, h3 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 abbr {
   text-decoration: inherit;
@@ -69,16 +71,16 @@ body, .highlight {
   text-align: center;
 }
 .highlight > *, .inner {
-  padding: 0 0.8em;
+  padding: 0 0.7rem;
   text-align: left;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
 }
-$highlight_padding: 0.3em;
+$highlight_vpadding: 0.4rem;
 .highlight {
   background-color: $highlight;
-  padding: $highlight_padding 0;
+  padding: $highlight_vpadding 0;
 }
 
 
@@ -96,19 +98,23 @@ nav {
 
 
 /* top ad */
-.has-js #adone ins {
+#adone ins {
   display: inline-block;
-  margin-top: 0.2em;
+  margin-top: 0.2rem;
+}
+.has-js #adone ins {
   width: 728px;
   height: 90px;
+}
+.has-js {
+  /* before the ad is loaded, this gives a ui hint that it will be there */
+  #adone ins, #adtwo ins {
+    background-color: #ddd;
+  }
 }
 
 
 /* search form */
-.no-js form {
-  /* since there is no ad, the two green blocks would otherwise merge */
-  border-top: 1px solid black;
-}
 input {
   width: 20em;
   padding: 0.2em;
@@ -118,33 +124,32 @@ form .highlight {
   position: sticky;
   top: 0;
   button {
-    padding: 0.2em 0.5em;
+    padding: 0.3em 0.5em;
   }
   padding-top: 0;
-  .inner > * {
+  > div > * {
     display: inline-block;
-    margin-top: $highlight_padding;
+    margin-top: $highlight_vpadding;
   }
 }
 #newwin {
-  font-size: 0.9em;
+  font-size: $smalltext;
+  margin-top: 0;
 }
 
 /* search options */
 form h3 {
-  font-size: 1em;
+  font-size: $smalltext;
 }
 form ul {
   list-style-type: none;
-  margin-botton: 0.1em; /* space before 'About these' */
+  margin-bottom: 0.1em; /* space before 'About these' */
 }
-
 @media (min-width: $non_mobile) {
   form > ul {
-    -moz-column-width: 10em;
-    column-width: 10em;
+    -moz-column-width: 9rem;
+    column-width: 9rem;
     line-height: 1em;
-    font-size: 0.9em;
     margin: 0.2em 0 0.5em 0;
   }
 }
@@ -155,13 +160,11 @@ li > div {
 }
 
 $button_side_padding: 0.5em;
-$button_font_size: 0.9em;
 ul.inner button {
-  padding: 0 $button_side_padding;
+  padding: 0.05em $button_side_padding 0 $button_side_padding;
   width: 100%;
   text-align: left;
   margin: 0.1em 0;
-  font-size: $button_font_size;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -171,7 +174,17 @@ button.activeb {
   border-color: black;
   border-right-width: 3px;
 }
+@media screen and (min-width: $non_mobile) {
+  form {
+    li button, a {
+      font-size: 0.8rem;
+    }
+  }
+}
 @media screen and (max-width: $mobile) {
+  form h3 {
+    font-size: $normaltext;
+  }
   .has-js {
     li > div {
       /* since they are collapsed, need more space between each */
@@ -201,7 +214,6 @@ button.activeb {
       }
       a {
         display: inline;
-        font-size: 1em;
         margin-left: $ul_left_margin + $button_side_padding;
       }
       h3:before {
@@ -209,8 +221,6 @@ button.activeb {
       }
     }
     ul.inner button {
-      /* unset button styles set above */
-      font-size: 1em;
       margin: 0.2em 0;
     }
   }
@@ -218,7 +228,6 @@ button.activeb {
 /* 'About these' link */
 form a {
   margin-left: $button_side_padding;
-  font-size: $button_font_size;
 }
 
 
@@ -230,22 +239,22 @@ section + section {
   margin-top: 3em;
   clear: both; /* around adsense */
 }
-h4 {
-  font-size: 1.1em;
+h4, footer h3 {
+  font-size: $normaltext;
   margin-top: $p_space * 2;
 }
 /* back to top links */
 a[href="#search"] {
   display: block;
   margin-top: 1.5em;
-  font-size: 0.9em;
+  font-size: $smalltext;
   span {
     font-weight: bold;
   }
 }
 $ad_width: 336px;
 .has-js #adtwo {
-  margin: 1em 1em 1em 0;
+  margin: 1rem 1rem 1rem 0;
   @media (min-width: ($ad_width * 2)) {
     float: left;
     margin-top: 0;
@@ -300,8 +309,8 @@ footer section {
   section {
     page-break-inside: avoid;
   }
-  /* hide about, back-to-top links and ads */
-  nav, #newwin, a[href='#search'], #adone, #adtwo {
+  /* hide about, 'about these' and back-to-top links and ads */
+  nav, #newwin, form a, a[href='#search'], #adone, #adtwo {
     display: none;
   }
 }
