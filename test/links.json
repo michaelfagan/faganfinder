@@ -1125,6 +1125,17 @@
     "redirect": "https://play.google.com/store/search"
   },
   {
+    "url": "https://datasetsearch.research.google.com/",
+    "status": "301",
+    "title": "Dataset Search"
+  },
+  {
+    "url": "https://datasetsearch.research.google.com/search?query=test",
+    "status": "301",
+    "redirect": "https://datasetsearch.research.google.com/search",
+    "title": "Dataset Search"
+  },
+  {
     "url": "https://scholar.google.com/",
     "status": "302",
     "title": "Google Scholar"
@@ -1156,6 +1167,12 @@
     "status": "302",
     "redirect": "http://www.google.com/webhp",
     "title": "test data OR spreadsheet OR csv OR tsv OR json OR rdf OR xml - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%20%7C%20filetype%3Apptx%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test filetype:ppt  | filetype:pptx | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -2460,6 +2477,15 @@
     "status": "302"
   },
   {
+    "url": "https://slides.com/explore",
+    "status": "timeout"
+  },
+  {
+    "url": "https://slides.com/explore?search=test",
+    "status": "timeout",
+    "redirect": "https://slides.com/explore"
+  },
+  {
     "url": "https://slofile.com/",
     "status": "301",
     "title": "Slofile - Discover Slack communities"
@@ -3011,6 +3037,15 @@
     "title": "Movie Scripts and Screenplays | WeeklyScript.com"
   },
   {
+    "url": "https://s.weibo.com/weibo/test",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.weibo.com/",
+    "status": "301",
+    "redirect": "https://weibo.com/"
+  },
+  {
     "url": "http://www.whatismymovie.com/",
     "status": "200",
     "title": "What is my movie? Describe and find movies"
@@ -3328,6 +3363,31 @@
     "status": "200"
   },
   {
+    "url": "https://ccfr.bnf.fr/portailccfr/jsp/public/index.jsp",
+    "status": "301"
+  },
+  {
+    "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en",
+    "status": "301",
+    "title": "Gallica"
+  },
+  {
+    "url": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22test%22%29&lang=en&suggest=0",
+    "status": "timeout",
+    "redirect": "https://gallica.bnf.fr/services/engine/search/sru"
+  },
+  {
+    "url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=test",
+    "status": "302",
+    "redirect": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action",
+    "title": "Recherche - Salle des inventaires virtuelle"
+  },
+  {
+    "url": "http://www.archives-nationales.culture.gouv.fr/en/web/guest/home",
+    "status": "200",
+    "title": "Archives nationales (France)"
+  },
+  {
     "url": "https://radio.garden/",
     "status": "200",
     "title": "Radio Garden"
@@ -3541,6 +3601,35 @@
     "url": "http://parsijoo.ir/web?q=test",
     "status": "400",
     "title": "پارسی جو: جستجوگر ایرانی - test"
+  },
+  {
+    "url": "https://www.digital.archives.go.jp/index_e.html",
+    "status": "302",
+    "title": "NATIONAL ARCHIVES OF JAPAN Digital Archive"
+  },
+  {
+    "url": "https://www.jacar.archives.go.jp/gf/cgi/start?LANG=eng",
+    "status": "302",
+    "redirect": "https://www.jacar.archives.go.jp/gf/cgi/start",
+    "title": "Japan Center for Asian Historical Records(JACAR) / Cross Search"
+  },
+  {
+    "url": "https://www.jacar.archives.go.jp/gf/cgi/zway",
+    "status": "timeout"
+  },
+  {
+    "url": "https://www.jacar.go.jp/english/",
+    "status": "301",
+    "title": "Japan Center for Asian Historical Records"
+  },
+  {
+    "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
+    "status": "timeout",
+    "redirect": "https://iss.ndl.go.jp/books"
+  },
+  {
+    "url": "https://iss.ndl.go.jp/",
+    "status": "timeout"
   },
   {
     "url": "http://www.nicovideo.jp/",
@@ -3793,6 +3882,17 @@
     "url": "https://archiveofourown.org/works/search?work_search%5Bquery%5D=test",
     "status": "302",
     "redirect": "https://archiveofourown.org/works/search"
+  },
+  {
+    "url": "https://www.aruc.org/en/home",
+    "status": "301",
+    "title": "Home - ARUC"
+  },
+  {
+    "url": "https://www.aruc.org/en/search?searchBy=search_text&source=both&tabId=GeneralTab&referer=MainSearch&keyword=test",
+    "status": "301",
+    "redirect": "https://www.aruc.org/en/search",
+    "title": "Bibliographic search - ARUC"
   },
   {
     "url": "http://www.aseanlibrary.org/",
@@ -4184,6 +4284,16 @@
     "url": "https://en.wikipedia.org/wiki/Internet_Relay_Chat",
     "status": "301",
     "title": "Internet Relay Chat - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/List_of_national_and_state_libraries",
+    "status": "301",
+    "title": "List of national and state libraries - Wikipedia"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/List_of_national_archives",
+    "status": "301",
+    "title": "List of national archives - Wikipedia"
   },
   {
     "url": "https://en.wikipedia.org/wiki/Main_Page",

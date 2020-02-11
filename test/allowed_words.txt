@@ -26,10 +26,12 @@ BDPI
 Bechdel
 Biblioteca
 Bibliothek
+Bibliothèque
 Bing
 Biznar
 Blurtit
 BNDigital
+BnF
 BoardReader
 BookBeat
 Brainly
@@ -40,8 +42,12 @@ CADAL
 Canadiana
 Canva
 CareerOneStop
+Catalog
+CCFr
 Cengage
+Center
 Clipart
+collectif
 CosmoLearning
 CrossAsia
 cyclopedia
@@ -51,6 +57,7 @@ data.world
 DataCite
 Datahub
 DataONE
+Dataset
 datasets
 Daum
 DDB
@@ -97,6 +104,7 @@ FreeDocumentaries.org
 Freeimages
 Fultonhistory.com
 FultonSearch
+Gallica
 GDELT
 GIFs
 Gigablast
@@ -133,6 +141,7 @@ IRC
 iseek.ai
 issuu
 iStock
+JACAR
 Jisc
 JustWatch
 Knewz
@@ -165,6 +174,8 @@ MyHeritage
 myTuner
 México
 Nacional
+nationale
+Nationales
 Naver
 NDL
 netsplit.de
@@ -181,6 +192,7 @@ Niconico
 OCLC
 OnlineNewspapers.com
 OpenDataSoft
+OpenDocument
 OpenEd
 OverDrive
 PaperOfRecord.com
@@ -236,6 +248,7 @@ Showtimes
 showtimes
 Shutterstock
 SimplyScripts
+Sina
 Siri
 SlideShare
 Slofile
@@ -286,6 +299,7 @@ Vimeo
 VK
 WatchKnowLearn
 WeeklyScript
+Weibo
 WikiLeaks
 Wikimedia
 Wikisource

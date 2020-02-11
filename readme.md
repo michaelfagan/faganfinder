@@ -60,3 +60,9 @@ See http://www.faganfinder.com/
 ### Update dependencies
 1. `bundle outdated`
 2. `bundle update <gem>`
+
+## Schema for sending requests to a search tool
+* when possible use the key `searchUrl` in the style of `http://example.com/search?q={q}` where `{q}` is to be substituted by the input
+* for `POST` requests, omit the `{q}` and instead add an additional key `post`, with the name of the variable
+* if additional `POST` parameters are needed, add them as keys and values in an object with the key `postMore`
+* if any `POST` parameters must be repeated (i.e. with the same key), give them each a unique key by appending `_repeat#`

@@ -44,7 +44,7 @@
         url = tool.searchUrl.gsub '&', '&amp;'
         if tool.post
           params = ({tool.post => ''}).merge(tool.postMore.to_h || {})
-          url.prepend params.map{|n,v| "#{n}=#{v}"}.join('&') + '|x|'
+          url.prepend params.map{|n,v| n.to_s.gsub(/_repeat.*$/, '') + "=#{v}"}.join('&') + '|x|'
         end
         url
       end
