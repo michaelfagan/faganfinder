@@ -3978,6 +3978,12 @@
     "title": "CrossAsia &#124; Home"
   },
   {
+    "url": "https://crossasia.org/en/resources/crossasia-search/?tx_sbbcrossasiaadditions_pazpar2search%5Bcontroller%5D=Pazpar2Search",
+    "status": "301",
+    "redirect": "https://crossasia.org/en/resources/crossasia-search/",
+    "title": "CrossAsia &#124;&nbsp;CrossAsia Search"
+  },
+  {
     "url": "https://crossasia.org/en/resources/online-guide-east-asia/",
     "status": "301",
     "title": "CrossAsia &#124;&nbsp;Online Guide East Asia"

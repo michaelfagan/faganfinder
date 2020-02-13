@@ -40,6 +40,8 @@ site[:root_old] = site[:root].sub 'https', 'http'
 
 pages = Page.ids.map{|pid| Page.new pid }
 
+html_validator_error = false
+
 pages.each do |page|
 
   # other data for the template
@@ -54,15 +56,18 @@ pages.each do |page|
   html = Erubis::Eruby.new(File.read 'index.erb.html').result(binding())
 
   # validate the html
-  begin
-    html_errors = Html5Validator::Validator.new.validate_text html
-    if html_errors.any?
-      html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
-      html_errors.unshift "HTML validation errors"
-      has_error html_errors.join "\n\n"
+  unless html_validator_error
+    begin
+      html_errors = Html5Validator::Validator.new.validate_text html
+      if html_errors.any?
+        html_errors.map!{|e| "line #{e['lastLine']} #{e['message']}\n\t" + e['extract'].sub(/\n/, "\n\t") }
+        html_errors.unshift "HTML validation errors"
+        has_error html_errors.join "\n\n"
+      end
+    rescue
+      html_validator_error = true
+      puts '  Unable to validate HTML, must check manually'
     end
-  rescue
-    puts '  Unable to validate HTML, must check manually'
   end
 
   # compress the html

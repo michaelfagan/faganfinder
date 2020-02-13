@@ -412,7 +412,8 @@
       ]
     },
     {
-      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Europe",
+      "name": "Libraries and archives — Europe",
+      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Europe",
       "tools": [
         {
           "name": "Europeana",
@@ -457,7 +458,8 @@
       ]
     },
     {
-      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
+      "name": "Libraries and archives — Americas",
+      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
       "tools": [
         {
           "name": "Library of Congress",
@@ -494,36 +496,26 @@
       ]
     },
     {
-      "name": "<abbr title=\"Libraries and archives\">L&A</abbr> — Asia",
+      "name": "Libraries and archives — Asia",
+      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Asia",
       "tools": [
         {
           "name": "CrossAsia",
+          "searchUrl": "https://crossasia.org/en/resources/crossasia-search/?tx_sbbcrossasiaadditions_pazpar2search%5Bcontroller%5D=Pazpar2Search",
+          "post": "tx_sbbcrossasiaadditions_pazpar2search[query]"
+        },
+        {
+          "name": "CrossAsia full text",
           "searchUrl": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/?query={q}"
-        },
-        {
-          "name": "<abbr title=\"Association of Southeast Asian Nations\">Asean</abbr> Digital Library",
-          "searchUrl": "http://www.aseanlibrary.org/search/index/query?keyword={q}"
-        },
-        {
-          "name": "<abbr title=\"National Digital Library\">NDL</abbr> — India",
-          "searchUrl": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22{q}%22,%22s%22:[],%22b%22:{%22filters%22:[]}}"
-        },
-        {
-          "name": "Abhilekh Patal — India",
-          "searchUrl": "https://www.abhilekh-patal.in/jspui/simple-search?query={q}"
-        },
-        {
-          "name": "Granth Sanjeevani — India",
-          "searchUrl": "https://granthsanjeevani.com/jspui/simple-search?query={q}"
-        },
-        {
-          "name": "Chinese Text Project",
-          "searchUrl": "https://ctext.org/pre-qin-and-han?searchu={q}"
         },
         {
           "name": "<abbr title=\"China Academic Digital Associative Library\">CADAL</abbr> — China",
           "searchUrl": "http://cadal.zju.edu.cn/cadalinfo/search",
           "post": "searchContent"
+        },
+        {
+          "name": "Chinese Text Project",
+          "searchUrl": "https://ctext.org/pre-qin-and-han?searchu={q}"
         },
         {
           "name": "Japan Cross Search",
@@ -558,6 +550,22 @@
         {
           "name": "<abbr title=\"National\">Nat.</abbr> Diet <abbr title=\"Library\">Lib.</abbr> — Japan",
           "searchUrl": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any={q}"
+        },
+        {
+          "name": "<abbr title=\"National Digital Library\">NDL</abbr> — India",
+          "searchUrl": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22{q}%22,%22s%22:[],%22b%22:{%22filters%22:[]}}"
+        },
+        {
+          "name": "Abhilekh Patal — India",
+          "searchUrl": "https://www.abhilekh-patal.in/jspui/simple-search?query={q}"
+        },
+        {
+          "name": "Granth Sanjeevani — India",
+          "searchUrl": "https://granthsanjeevani.com/jspui/simple-search?query={q}"
+        },
+        {
+          "name": "<abbr title=\"Association of Southeast Asian Nations\">Asean</abbr> Digital Library",
+          "searchUrl": "http://www.aseanlibrary.org/search/index/query?keyword={q}"
         },
         {
           "name": "Philippine eLib",
