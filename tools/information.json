@@ -474,10 +474,6 @@
           "searchUrl": "https://dp.la/search?q={q}"
         },
         {
-          "name": "<abbr title=\">Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
-          "searchUrl": "https://dloc.com/results/?text={q}"
-        },
-        {
           "name": "Canadiana Online",
           "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
         },
@@ -492,6 +488,10 @@
         {
           "name": "Héritage — Canada",
           "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
+        },
+        {
+          "name": "<abbr title=\"Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
+          "searchUrl": "https://dloc.com/results/?text={q}"
         }
       ]
     },
