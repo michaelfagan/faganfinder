@@ -420,6 +420,10 @@
           "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
         },
         {
+          "name": "Osmikon",
+          "searchUrl": "https://www.osmikon.de/metaopac/search?View=osmikon&q={q}"
+        },
+        {
           "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United Kingdom\">UK</abbr>",
           "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
         },
@@ -436,6 +440,10 @@
           "searchUrl": "https://search.rsl.ru/en/search#q={q}"
         },
         {
+          "name": "<abbr title=\"National Electronic Library\">NEB</abbr> — Russia",
+          "searchUrl": "https://rusneb.ru/search/?access=all&q={q}"
+        },
+        {
           "name": "<abbr title=\"National\">Nat.</abbr> <abbr title=\"Library\">Lib.</abbr> of Russia",
           "searchUrl": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,{q}"
         },
@@ -444,16 +452,16 @@
           "searchUrl": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query={q}"
         },
         {
-          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
-          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
-        },
-        {
           "name": "Gallica — France",
           "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
         },
         {
           "name": "<abbr title=\"Archives Nationales\">Arch. Nat.</abbr> — France",
           "searchUrl": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText={q}"
+        },
+        {
+          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
+          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
         }
       ]
     },
@@ -471,7 +479,7 @@
         },
         {
           "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://search.archives.gov/search?affiliate=national-archives&query={q}"
+          "searchUrl": "https://catalog.archives.gov/search?q={q}"
         },
         {
           "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",

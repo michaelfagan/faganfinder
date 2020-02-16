@@ -78,6 +78,7 @@ EBSCOhost
 Echosim.io
 Ecosia
 edocr
+EHPS
 Elephind.com
 Elephind
 eLib
@@ -194,6 +195,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+Osmikon
 OverDrive
 PaperOfRecord.com
 Parsijoo
@@ -312,4 +314,7 @@ Yippy
 Youku
 Zanran
 Архивы
+библиотека
+Национальная
 России
+электронная

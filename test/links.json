@@ -3295,6 +3295,16 @@
     "status": "timeout"
   },
   {
+    "url": "https://www.osmikon.de/",
+    "status": "301",
+    "title": "osmikon:&nbsp;"
+  },
+  {
+    "url": "https://www.osmikon.de/metaopac/search?View=osmikon&q=test",
+    "status": "301",
+    "redirect": "https://www.osmikon.de/metaopac/search"
+  },
+  {
     "url": "https://www.zo.uni-heidelberg.de/boa/digital_resources/list_az_en.html",
     "status": "301",
     "title": "Centre for East Asian Studies - All Resources "
@@ -3321,6 +3331,11 @@
     "title": "Imagebase"
   },
   {
+    "url": "http://primary-sources.eui.eu/",
+    "status": "200",
+    "title": "European History Primary Sources |"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/collections/newspapers/country.html",
     "status": "302",
     "title": "Browse newspapers by country - Europeana Collections"
@@ -3335,6 +3350,11 @@
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/collections/newspapers",
     "title": "test - Search Results - Europeana Collections"
+  },
+  {
+    "url": "https://www.europeana.eu/portal/en/explore/sources.html",
+    "status": "302",
+    "title": "Sources - Europeana Collections"
   },
   {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
@@ -3403,10 +3423,9 @@
     "redirect": "https://catalog.archives.gov/search"
   },
   {
-    "url": "https://search.archives.gov/search?affiliate=national-archives&query=test",
-    "status": "308",
-    "redirect": "https://search.archives.gov/search",
-    "title": "test - National Archives Search Results"
+    "url": "https://catalog.archives.gov/search?q=test",
+    "status": "302",
+    "redirect": "https://catalog.archives.gov/search"
   },
   {
     "url": "https://www.archives.gov/",
@@ -4444,6 +4463,15 @@
     "url": "http://www.rusarchives.ru/",
     "status": "200",
     "title": "Портал «Архивы России»"
+  },
+  {
+    "url": "https://rusneb.ru/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://rusneb.ru/search/?access=all&q=test",
+    "status": "timeout",
+    "redirect": "https://rusneb.ru/search/"
   },
   {
     "url": "https://rutube.ru/",
