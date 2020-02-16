@@ -320,6 +320,10 @@
         {
           "name": "PDF Drive",
           "searchUrl": "https://www.pdfdrive.com/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd"
         }
       ]
     },
@@ -340,7 +344,7 @@
         },
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%20%7C%20filetype%3Apptx%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st"
         }
       ]
     },
@@ -893,7 +897,7 @@
 
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"          
+          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
         }
 
       ]

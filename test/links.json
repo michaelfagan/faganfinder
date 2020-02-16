@@ -1174,10 +1174,16 @@
     "title": "test data OR spreadsheet OR csv OR tsv OR json OR rdf OR xml - Google Search"
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%20%7C%20filetype%3Apptx%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt  | filetype:pptx | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search"
+    "title": "test filetype:pdf | filetype:docx | filetype:doc | filetype:odt | filetype:rtf | filetype:ps | filetype:tex | filetype:wpd - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test filetype:ppt | filetype:pptx | filetype:pps | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -2621,6 +2627,10 @@
     "url": "https://stackexchange.com/search?q=test",
     "status": "301",
     "redirect": "https://stackexchange.com/search"
+  },
+  {
+    "url": "https://stackexchange.com/sites",
+    "status": "301"
   },
   {
     "url": "https://startpage.com/do/search",
