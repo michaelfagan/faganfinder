@@ -462,6 +462,10 @@
       "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
       "tools": [
         {
+          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://dp.la/search?q={q}"
+        },
+        {
           "name": "Library of Congress",
           "searchUrl": "https://www.loc.gov/search/?all=true&q={q}"
         },
@@ -470,24 +474,20 @@
           "searchUrl": "https://search.archives.gov/search?affiliate=national-archives&query={q}"
         },
         {
-          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://dp.la/search?q={q}"
+          "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
+          "searchUrl": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
         },
         {
           "name": "Canadiana Online",
           "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
         },
         {
-          "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
-          "searchUrl": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
+          "name": "Héritage — Canada",
+          "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
         },
         {
           "name": "ARCHIVESCANADA.ca",
           "searchUrl": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query={q}"
-        },
-        {
-          "name": "Héritage — Canada",
-          "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
         },
         {
           "name": "<abbr title=\"Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
