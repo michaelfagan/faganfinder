@@ -361,10 +361,6 @@
       "name": "Libraries and archives",
       "tools": [
         {
-          "name": "World Digital Library",
-          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
-        },
-        {
           "name": "WorldCat",
           "searchUrl": "https://www.worldcat.org/search?q={q}"
         },
@@ -379,6 +375,10 @@
         {
           "name": "Google Books — all",
           "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
+        },
+        {
+          "name": "World Digital Library",
+          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
         },
         {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",
