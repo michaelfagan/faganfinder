@@ -24,7 +24,7 @@ class Spelling
   def self.check
 
     # text to words
-    words = @@text_found.gsub(/[^a-zA-Z0-9À-žА-Яа-я\.]+/, ' ').gsub(/\. /, ' ').split(' ').uniq.reject{|w| w =~ /^\d+(th)?$/ }.sort_by(&:downcase)
+    words = @@text_found.gsub(/[^a-zA-Z0-9À-žА-Яа-я\.]+/, ' ').gsub(/\. /, ' ').split(' ').uniq.reject{|w| w =~ /^\d+(th|s)?$/ }.sort_by(&:downcase)
     # don't check allowed words
     allowed_words_path = 'test/allowed_words.txt'
     allowed_words = File.readlines(allowed_words_path).map{|w| w.strip}

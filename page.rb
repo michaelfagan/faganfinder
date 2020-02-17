@@ -50,11 +50,11 @@ class Page
 
     # generate additional data from json
     @number_of_tools ||= @json.sections.map{|g| g.tools.length }.inject(:+)
-    section_ids = []
+    internal_ids = []
     @json.sections.map! do |group|
       group.shortName ||= group.name
       group.id = group.shortName.gsub(/<[^>]+>/, '').gsub(/[^\w]+/, '_').gsub(/(^_)|(_$)/, '').downcase
-      section_ids << group.id
+      internal_ids << group.id
       group
     end
 
@@ -66,11 +66,12 @@ class Page
     @json.sections.each do |group|
       @external_links.concat group.tools.map{|tool| tool.searchUrl.sub('{q}', 'test')}
     end
+    internal_ids += @content.scan(/ id="([^"]*)\"/).map{|m| m[0]}
     # separate external links from links to other page sections
     urls_from_html = @content.scan(/ href="([^"]*)\"/).map{|m| m[0]}.partition{|u| u.length == 0 || u[0] == '#' || u[0] == '/' }
-    @external_links.concat urls_from_html[1].map{|u| u.gsub(/&amp;/, '&')}
+    @external_links += urls_from_html[1].map{|u| u.gsub(/&amp;/, '&')}
     # validate internal links
-    bad_internal_links = urls_from_html[0].reject{|u| section_ids.include?(u.sub('#', '')) || u[0] == '/' }
+    bad_internal_links = urls_from_html[0].reject{|u| internal_ids.include?(u.sub('#', '')) || u[0] == '/' }
     raise ('Bad link(s) within page: ' + bad_internal_links.join(', ')) if bad_internal_links.length > 0
 
   end

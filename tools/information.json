@@ -320,6 +320,10 @@
         {
           "name": "PDF Drive",
           "searchUrl": "https://www.pdfdrive.com/search?q={q}"
+        },
+        {
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd"
         }
       ]
     },
@@ -340,7 +344,7 @@
         },
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%20%7C%20filetype%3Apptx%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st"
         }
       ]
     },
@@ -357,10 +361,6 @@
       "name": "Libraries and archives",
       "tools": [
         {
-          "name": "World Digital Library",
-          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
-        },
-        {
           "name": "WorldCat",
           "searchUrl": "https://www.worldcat.org/search?q={q}"
         },
@@ -375,6 +375,10 @@
         {
           "name": "Google Books — all",
           "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
+        },
+        {
+          "name": "World Digital Library",
+          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
         },
         {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",
@@ -420,6 +424,10 @@
           "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
         },
         {
+          "name": "Osmikon",
+          "searchUrl": "https://www.osmikon.de/metaopac/search?View=osmikon&q={q}"
+        },
+        {
           "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United Kingdom\">UK</abbr>",
           "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
         },
@@ -436,6 +444,10 @@
           "searchUrl": "https://search.rsl.ru/en/search#q={q}"
         },
         {
+          "name": "<abbr title=\"National Electronic Library\">NEB</abbr> — Russia",
+          "searchUrl": "https://rusneb.ru/search/?access=all&q={q}"
+        },
+        {
           "name": "<abbr title=\"National\">Nat.</abbr> <abbr title=\"Library\">Lib.</abbr> of Russia",
           "searchUrl": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,{q}"
         },
@@ -444,16 +456,16 @@
           "searchUrl": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query={q}"
         },
         {
-          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
-          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
-        },
-        {
           "name": "Gallica — France",
           "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
         },
         {
           "name": "<abbr title=\"Archives Nationales\">Arch. Nat.</abbr> — France",
           "searchUrl": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText={q}"
+        },
+        {
+          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
+          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
         }
       ]
     },
@@ -462,36 +474,36 @@
       "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
       "tools": [
         {
+          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
+          "searchUrl": "https://dp.la/search?q={q}"
+        },
+        {
           "name": "Library of Congress",
           "searchUrl": "https://www.loc.gov/search/?all=true&q={q}"
         },
         {
           "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://search.archives.gov/search?affiliate=national-archives&query={q}"
-        },
-        {
-          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
-          "searchUrl": "https://dp.la/search?q={q}"
-        },
-        {
-          "name": "<abbr title=\">Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
-          "searchUrl": "https://dloc.com/results/?text={q}"
-        },
-        {
-          "name": "Canadiana Online",
-          "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
+          "searchUrl": "https://catalog.archives.gov/search?q={q}"
         },
         {
           "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
           "searchUrl": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
         },
         {
-          "name": "ARCHIVESCANADA.ca",
-          "searchUrl": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query={q}"
+          "name": "Canadiana Online",
+          "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
         },
         {
           "name": "Héritage — Canada",
           "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
+        },
+        {
+          "name": "ARCHIVESCANADA.ca",
+          "searchUrl": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query={q}"
+        },
+        {
+          "name": "<abbr title=\"Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
+          "searchUrl": "https://dloc.com/results/?text={q}"
         }
       ]
     },
@@ -885,7 +897,7 @@
 
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"          
+          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
         }
 
       ]

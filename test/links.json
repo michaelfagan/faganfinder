@@ -106,6 +106,11 @@
     "status": "timeout"
   },
   {
+    "url": "https://www.crkn-rcdr.ca/en",
+    "status": "200",
+    "title": "Home | Canadian Research Knowledge Network"
+  },
+  {
     "url": "http://www.bac-lac.gc.ca/eng/Pages/home.aspx",
     "status": "200"
   },
@@ -1169,10 +1174,16 @@
     "title": "test data OR spreadsheet OR csv OR tsv OR json OR rdf OR xml - Google Search"
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%20%7C%20filetype%3Apptx%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt  | filetype:pptx | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search"
+    "title": "test filetype:pdf | filetype:docx | filetype:doc | filetype:odt | filetype:rtf | filetype:ps | filetype:tex | filetype:wpd - Google Search"
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test filetype:ppt | filetype:pptx | filetype:pps | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search"
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -2618,6 +2629,10 @@
     "redirect": "https://stackexchange.com/search"
   },
   {
+    "url": "https://stackexchange.com/sites",
+    "status": "301"
+  },
+  {
     "url": "https://startpage.com/do/search",
     "status": "301",
     "title": "301 Moved Permanently"
@@ -3290,6 +3305,16 @@
     "status": "timeout"
   },
   {
+    "url": "https://www.osmikon.de/",
+    "status": "301",
+    "title": "osmikon:&nbsp;"
+  },
+  {
+    "url": "https://www.osmikon.de/metaopac/search?View=osmikon&q=test",
+    "status": "301",
+    "redirect": "https://www.osmikon.de/metaopac/search"
+  },
+  {
     "url": "https://www.zo.uni-heidelberg.de/boa/digital_resources/list_az_en.html",
     "status": "301",
     "title": "Centre for East Asian Studies - All Resources "
@@ -3316,6 +3341,11 @@
     "title": "Imagebase"
   },
   {
+    "url": "http://primary-sources.eui.eu/",
+    "status": "200",
+    "title": "European History Primary Sources |"
+  },
+  {
     "url": "https://www.europeana.eu/portal/en/collections/newspapers/country.html",
     "status": "302",
     "title": "Browse newspapers by country - Europeana Collections"
@@ -3330,6 +3360,11 @@
     "status": "302",
     "redirect": "https://www.europeana.eu/portal/en/collections/newspapers",
     "title": "test - Search Results - Europeana Collections"
+  },
+  {
+    "url": "https://www.europeana.eu/portal/en/explore/sources.html",
+    "status": "302",
+    "title": "Sources - Europeana Collections"
   },
   {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
@@ -3398,10 +3433,9 @@
     "redirect": "https://catalog.archives.gov/search"
   },
   {
-    "url": "https://search.archives.gov/search?affiliate=national-archives&query=test",
-    "status": "308",
-    "redirect": "https://search.archives.gov/search",
-    "title": "test - National Archives Search Results"
+    "url": "https://catalog.archives.gov/search?q=test",
+    "status": "302",
+    "redirect": "https://catalog.archives.gov/search"
   },
   {
     "url": "https://www.archives.gov/",
@@ -3649,6 +3683,11 @@
     "status": "403"
   },
   {
+    "url": "https://pro.dp.la/hubs/our-hubs",
+    "status": "301",
+    "title": "Our Hubs | DPLA"
+  },
+  {
     "url": "http://www.hndm.unam.mx/consulta/busqueda/buscarPalabras",
     "status": "200",
     "title": "HNDM-Mensaje"
@@ -3687,6 +3726,11 @@
   },
   {
     "url": "http://www.iberoamericadigital.net/en/Inicio/",
+    "status": "200",
+    "title": "Biblioteca Digital del Patrimonio Iberoamericano"
+  },
+  {
+    "url": "http://www.iberoamericadigital.net/en/Participantes/",
     "status": "200",
     "title": "Biblioteca Digital del Patrimonio Iberoamericano"
   },
@@ -3750,6 +3794,11 @@
     "status": "302",
     "redirect": "https://able2know.org/search/",
     "title": "Search - able2know"
+  },
+  {
+    "url": "http://www.aodl.org/contributors.php",
+    "status": "200",
+    "title": "Contributors | AODL"
   },
   {
     "url": "http://www.aodl.org/",
@@ -3882,6 +3931,11 @@
     "url": "https://archiveofourown.org/works/search?work_search%5Bquery%5D=test",
     "status": "302",
     "redirect": "https://archiveofourown.org/works/search"
+  },
+  {
+    "url": "https://www.aruc.org/en/country-links",
+    "status": "301",
+    "title": "Countries Portals - ARUC"
   },
   {
     "url": "https://www.aruc.org/en/home",
@@ -4357,6 +4411,11 @@
     "title": "WorldCat.org: The World's Largest Library Catalog"
   },
   {
+    "url": "https://www.worldcat.org/libraries",
+    "status": "301",
+    "title": "Find a library near you [WorldCat.org]"
+  },
+  {
     "url": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q=test",
     "status": "301",
     "redirect": "https://www.worldcat.org/search",
@@ -4434,6 +4493,15 @@
     "url": "http://www.rusarchives.ru/",
     "status": "200",
     "title": "Портал «Архивы России»"
+  },
+  {
+    "url": "https://rusneb.ru/",
+    "status": "timeout"
+  },
+  {
+    "url": "https://rusneb.ru/search/?access=all&q=test",
+    "status": "timeout",
+    "redirect": "https://rusneb.ru/search/"
   },
   {
     "url": "https://rutube.ru/",

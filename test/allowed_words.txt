@@ -1,3 +1,11 @@
+.doc
+.docx
+.odt
+.pdf
+.ps
+.rft
+.tex
+.wpd
 500px
 Abhilekh
 able2know
@@ -48,6 +56,7 @@ Cengage
 Center
 Clipart
 collectif
+Corel
 CosmoLearning
 CrossAsia
 cyclopedia
@@ -78,6 +87,7 @@ EBSCOhost
 Echosim.io
 Ecosia
 edocr
+EHPS
 Elephind.com
 Elephind
 eLib
@@ -194,6 +204,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+Osmikon
 OverDrive
 PaperOfRecord.com
 Parsijoo
@@ -216,6 +227,7 @@ Podcasts.com
 Podchaser
 PodSearch
 Popcornflix
+PostScript
 Prelinger
 pre
 Presse
@@ -305,6 +317,7 @@ WikiLeaks
 Wikimedia
 Wikisource
 Wikiwand
+WordPerfect
 WorldCat
 wwiTV
 Yandex
@@ -312,4 +325,7 @@ Yippy
 Youku
 Zanran
 Архивы
+библиотека
+Национальная
 России
+электронная
