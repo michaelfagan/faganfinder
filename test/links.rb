@@ -34,9 +34,9 @@ class Link
     File.write 'test/bad_links.html', "<html><head><title>possible broken links</title></head><body><ol>#{html}</ol></body></html>"
   end
 
-  def self.found_urls(urls)
+  def self.found_urls(urls, page)
     @@urls_found ||= []
-    @@urls_found.concat urls
+    @@urls_found.concat urls.map{|u| [u, page]}
   end
 
 
@@ -44,17 +44,22 @@ class Link
   # 1) if they are new, check them and save the info
   # 2) if there are saved links that were not found, remove them
   def self.update
-    @@urls_found.uniq!
+    unique_urls = @@urls_found.map{|u| u[0]}.uniq
     urls = read_links_file
     urls.delete_if do |link|
-      if @@urls_found.include? link['url']
-        @@urls_found.delete link['url']
+      if unique_urls.include? link['url']
+        unique_urls.delete link['url']
         false
       else
         true
       end
     end
-    urls.concat @@urls_found.map{|u| check u}
+    urls.concat unique_urls.map{|u| check u}
+
+    # update the pages listed on each
+    urls.each do |u|
+      u['pages'] = @@urls_found.select{|f| f[0]==u['url']}.map{|f|f[1]}.uniq
+    end
 
     # check for invalid urls
     urls = urls.partition{|u| valid_format? u['url'] }

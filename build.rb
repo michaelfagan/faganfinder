@@ -75,7 +75,7 @@ pages.each do |page|
 
   # get text and links for checking
   Spelling.find_text_from_html html
-  Link.found_urls page.external_links
+  Link.found_urls page.external_links, page.id
 
   # all done, output html file
   output_path  = "dist/#{page.id}.html"
