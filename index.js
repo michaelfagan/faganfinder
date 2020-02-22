@@ -72,7 +72,8 @@ if (typeof document.body.classList === 'object') {
     ga('send', 'event',
       form.getAttribute('data-section'),
       (q.length ? 'search' : 'noquery') + '-' + form.getAttribute('data-submitvia'),
-      form.getAttribute('data-tool')
+      form.getAttribute('data-tool'),
+      q.length
     );
     form.setAttribute('data-submitvia', 'button'); // reset
     if (q.length) {
@@ -93,6 +94,7 @@ if (typeof document.body.classList === 'object') {
   // event handling for all actions in the form buttons area
   form.getElementsByTagName('ul')[0].addEventListener('click', function(e){
     var tag = e.target.tagName.toLowerCase();
+    var parent = e.target.parentNode;
     // click on a button to search
     if (tag === 'button' && e.target.getAttribute('value')) {
       setTool(e.target);
@@ -101,24 +103,30 @@ if (typeof document.body.classList === 'object') {
       setTool(e.target.parentNode);
     }
     // click on a section name
-    else if (tag === 'h3') {
-      if (getComputedStyle(e.target).cursor === 'pointer') {
-        // ^ check for mobile by looking for a moble style
-        var div = e.target.parentNode;
+    else if (tag === 'a' && parent.tagName.toLowerCase() === 'h3') {
+      // check for mobile by looking for a moble style
+      if (getComputedStyle(e.target, ':before').content === 'none') {
+        // not mobile
+        ga('send', 'event', e.target.textContent, 'details', 'name');
+      }
+      else {
+        // mobile
+        e.preventDefault();
+        var div = parent.parentNode;
         if (div.classList.contains('active')) {
           div.classList.remove('active');
-          ga('send', 'event', e.target.textContent, 'collapse');
+          ga('send', 'event', parent.textContent, 'collapse');
         }
         else {
           div.classList.add('active');
           div.getElementsByTagName('button')[0].focus();
-          ga('send', 'event', e.target.textContent, 'expand');
+          ga('send', 'event', parent.textContent, 'expand');
         }
       }
     }
     // clicking on a 'About these' link
     else if (tag === 'a') {
-      ga('send', 'event', e.target.previousElementSibling.previousElementSibling.textContent, 'details');
+      ga('send', 'event', e.target.previousElementSibling.previousElementSibling.textContent, 'details', 'details');
     }
 
   });
@@ -127,7 +135,7 @@ if (typeof document.body.classList === 'object') {
   form.elements[2].addEventListener('click', function(){
     form.elements[0].value = '';
     form.elements[0].focus();
-    ga('send', 'event', 'clear');
+    ga('send', 'event', 'page', 'clear');
   });
 
   // enable tracking of form submissions via the enter key, main button, or tool button (default)
@@ -158,6 +166,8 @@ if (typeof document.body.classList === 'object') {
       trackLink(links[j], sections[i].getElementsByTagName('h3')[0].textContent);
     }
   }
+  var details = document.getElementById('details');
+  trackLink(details.children[details.children.length-1], 'page');
   // footer links
   var footer_links = document.getElementsByTagName('footer')[0].getElementsByTagName('a');
   for (var i=0; i<footer_links.length; i++) {
@@ -166,9 +176,8 @@ if (typeof document.body.classList === 'object') {
 
   // hide the 'back to top' until scrolled enough
   var btt = document.querySelector('a[href="#search"]');
-  var details = document.getElementsByTagName('h2');
   window.addEventListener('scroll', function() {
-    btt.style.display = window.scrollY > details[2].offsetTop ? 'block' : 'none';
+    btt.style.display = window.scrollY > (details.offsetTop+200) ? 'block' : 'none';
   });
 
 }

@@ -70,7 +70,7 @@
       <ul class="inner">
       <% page.sections.each_with_index do |group, i| %>
         <li><div<%= i==0 ? ' class="active"' : '' %>>
-          <h3><%= group.shortName %></h3>
+          <h3><a href="#<%= group.id %>"><%= group.shortName %></a></h3>
           <ul>
           <% group.tools.each do |tool| %>
             <li>

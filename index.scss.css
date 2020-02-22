@@ -177,6 +177,10 @@ button.activeb {
   border-color: black;
   border-right-width: 3px;
 }
+form div > a {
+  /* 'About these' links only needed for mobile js version */
+  display: none;
+}
 @media screen and (min-width: $non_mobile) {
   form {
     li button, a {
@@ -193,8 +197,9 @@ button.activeb {
       /* since they are collapsed, need more space between each */
       margin: ($p_space / 2) 0;
     }
-    form h3 {
-      cursor: pointer;
+    form h3 a {
+      color: black;
+      text-decoration: none;
       &:before {
         content: '\25B6\00A0'; /* right arrow and non-breaking space */
       }
@@ -205,7 +210,7 @@ button.activeb {
     form > ul {
       margin: 1em 0;
     }
-    form > ul ul, form a { /* hide each section until active */
+    form > ul ul, form div > a { /* hide each section until active */
       display: none;
     }
     .active {
@@ -215,11 +220,12 @@ button.activeb {
         margin: 0.5em 0;
         margin-left: $ul_left_margin;
       }
-      a {
+      > a {
+        /* 'About these' link */
         display: inline;
         margin-left: $ul_left_margin + $button_side_padding;
       }
-      h3:before {
+      h3 a:before {
         content: '\25BC\00A0'; /* down arrow and non-breaking space */
       }
     }
@@ -229,7 +235,7 @@ button.activeb {
   }
 }
 /* 'About these' link */
-form a {
+form div > a {
   margin-left: $button_side_padding;
 }
 
