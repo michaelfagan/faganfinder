@@ -246,7 +246,13 @@ h4, footer h3 {
 /* back to top links */
 a[href="#search"] {
   display: block;
-  margin-top: 1.5em;
+  float: right;
+  position: sticky;
+  padding: 0.7em;
+  background-color: #F5F5F5;
+  bottom: 0;
+  margin-bottom: 1rem;
+  text-align: center;
   font-size: $smalltext;
   span {
     font-weight: bold;
@@ -266,6 +272,9 @@ $ad_width: 336px;
   }
 }
 
+footer {
+  clear: both;
+}
 footer section {
   margin-top: 0;
 }

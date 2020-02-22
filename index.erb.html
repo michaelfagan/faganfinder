@@ -96,12 +96,12 @@
       <% end %>
 
       <%=
-        btt = '<a href="#search"><span>↑</span> back to top</a>'
         page.content.gsub('<section>').with_index do |m, i|
           i == 0 ? "<section><h3>Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
         end
-        .gsub('</section>', "#{btt}</section>").sub(btt, '')
       %>
+
+      <a href="#search"><span>↑</span> back to top</a>
     </div>
 
     <footer tabindex="-1" id="footer" class="highlight" style="padding:1em 0">

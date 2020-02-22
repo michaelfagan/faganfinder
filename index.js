@@ -164,4 +164,11 @@ if (typeof document.body.classList === 'object') {
     trackLink(footer_links[i], 'footer');
   }
 
+  // hide the 'back to top' until scrolled enough
+  var btt = document.querySelector('a[href="#search"]');
+  var details = document.getElementsByTagName('h2');
+  window.addEventListener('scroll', function() {
+    btt.style.display = window.scrollY > details[2].offsetTop ? 'block' : 'none';
+  });
+
 }
