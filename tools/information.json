@@ -349,7 +349,7 @@
       ]
     },
     {
-      "name": "Academic journals",
+      "name": "Academic papers",
       "tools": [
         {
           "name": "Google Scholar",
@@ -609,7 +609,7 @@
       ]
     },
     {
-      "name": "Education-oriented",
+      "name": "Educational search engines",
       "tools": [
         {
           "name": "SweetSearch",

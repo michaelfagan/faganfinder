@@ -64,6 +64,9 @@ a:hover {
 sup {
   line-height: 1em;
 }
+kbd {
+  font-size: 0.9em;
+}
 
 
 /* set up set up overall layout/width */
@@ -243,6 +246,20 @@ h4, footer h3 {
   font-size: $normaltext;
   margin-top: $p_space * 2;
 }
+$ad_width: 336px;
+.has-js #adtwo {
+  margin: 1rem 1rem 1rem 0;
+  @media (min-width: ($ad_width * 2)) {
+    float: left;
+    margin-top: 0;
+  }
+  > ins {
+    width: $ad_width;
+    height: 280px;
+    display: inline-block;
+  }
+}
+
 /* back to top links */
 a[href="#search"] {
   display: block;
@@ -256,19 +273,6 @@ a[href="#search"] {
   font-size: $smalltext;
   span {
     font-weight: bold;
-  }
-}
-$ad_width: 336px;
-.has-js #adtwo {
-  margin: 1rem 1rem 1rem 0;
-  @media (min-width: ($ad_width * 2)) {
-    float: left;
-    margin-top: 0;
-  }
-  > ins {
-    width: $ad_width;
-    height: 280px;
-    display: inline-block;
   }
 }
 
