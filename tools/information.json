@@ -849,10 +849,6 @@
       "name": "Graphs and charts",
       "tools": [
         {
-          "name": "Zanran",
-          "searchUrl": "http://www.zanran.com/q/{q}"
-        },
-        {
           "name": "Grafiti",
           "searchUrl": "https://beta.grafiti.io/search/facts/?search_text={q}"
         }

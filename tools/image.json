@@ -159,7 +159,7 @@
         },
         {
           "name": "Photobucket",
-          "searchUrl": "https://beta.photobucket.com/search?source=COMMUNITY&query={q}"
+          "searchUrl": "https://app.photobucket.com/search?source=COMMUNITY&query={q}"
         },
         {
           "name": "SmugMug",

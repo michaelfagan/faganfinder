@@ -54,11 +54,11 @@ class Link
         true
       end
     end
-    urls.concat unique_urls.map{|u| check u}
+    urls.concat unique_urls.map{|u| check({'url' => u})}
 
     # update the pages listed on each
     urls.each do |u|
-      u['pages'] = @@urls_found.select{|f| f[0]==u['url']}.map{|f|f[1]}.uniq
+      u['pages'] = @@urls_found.select{|f| f[0]==u['url']}.map{|f|f[1]}.uniq.sort
     end
 
     # check for invalid urls
@@ -76,39 +76,71 @@ class Link
     write_links_file urls
   end
 
-  def self.check(url, debug = false)
-    puts "checking #{url}" if debug
-    result = { 'url' => url }
+  def self.check(link, debug = false)
+    puts "checking " + link['url'] if debug
+    url = link['url']
+    url += '/' if url =~ /\/\/[^\/]+$/ # can't parse URL without trailing slash
     parsed = URI.parse url
+    aborted = false
     begin
       # todo: rewrite these two requests into one
 
       request = Net::HTTP.new parsed.host
       response = request.request_head parsed.path
-      result['status'] = response.code
-      if response['location'] && response['location'] != url
-        result['redirect'] = response['location']
+      link['status'] = response.code
+      if response['location'] && response['location'] != link['url']
+        link['redirect'] = response['location']
       end
 
       Net::HTTP.get(parsed) =~ /<title>(.*?)<\/title>/
-      result['title'] = $1.encode('UTF-8', invalid: :replace) if $1
+      if $1
+        if $1.encoding.to_s == 'UTF-8'
+          link['title'] = $1
+        else
+          link['title'] = $1.encode('UTF-8', invalid: :replace)
+        end
+      elsif link['title']
+        link.delete 'title'
+      end
     rescue Exception => e
-      puts "  #{e.message}"
-      result['status'] = 'timeout'
+      if e.message == 'abort then interrupt!'
+        aborted = true
+      else
+        link['status'] = e.message
+      end
     end
-    result
+    link['checked'] = Time.now.to_i unless aborted
+    link
+  end
+
+  # check the links specified
+  def self.check_matching(limit = false)
+    links = read_links_file
+    # do the longest-ago-checked first
+    links_to_check = links.select{|l| yield l}.sort_by{|l| l['checked'] }
+    limit = (limit || links_to_check.length) - 1
+    links_to_check[0..limit].each do |s|
+      links[links.index{|l|l['url']==s['url']}] = check(s, true)
+      # resave after each in case the code is halted midway
+      write_links_file links
+    end
+    nil
   end
 
   def self.check_all
-    links = read_links_file.map{|l| check l['url'], true}
-    write_links_file links
+    check_matching {|l| true}
   end
 
-  def self.recheck_timeouts
-    links = read_links_file.map do |l|
-      l['status'] == 'timeout' ? check(l['url'], true) : l
-    end
-    write_links_file links
+  def self.check_some
+    check_matching(10) {|l| true}
+  end
+
+  def self.check_timeouts
+    check_matching {|l| l['status'] == 'Net::ReadTimeout' || l['status'].include?('timed') }
+  end
+
+  def self.check_page(page)
+    check_matching {|l| l['pages'].include? page }
   end
 
 end

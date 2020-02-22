@@ -59,7 +59,7 @@
         },
         {
           "name": "Metacafe",
-          "searchUrl": "http://www.metacafe.com/videos_about/{q}"
+          "searchUrl": "https://www.metacafe.com/videos_about/{q}"
         }
       ]
     },
