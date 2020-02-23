@@ -3301,13 +3301,13 @@
     "checked": 1582118261
   },
   {
-    "url": "http://newslookup.com/",
+    "url": "https://newslookup.com/",
     "status": "200",
     "title": "Newslookup.com",
+    "checked": 1582430884,
     "pages": [
       "information"
-    ],
-    "checked": 1582118260
+    ]
   },
   {
     "url": "https://newslookup.com/results?q=test",
@@ -7402,6 +7402,15 @@
     "checked": 1582117453
   },
   {
+    "url": "https://mediacloud.org/",
+    "status": "301",
+    "title": " Media Cloud",
+    "checked": 1582431055,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://digitalcollections.nypl.org/",
     "status": "301",
     "title": "NYPL Digital Collections",
@@ -7745,6 +7754,14 @@
       "information"
     ],
     "checked": 1582117537
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/News_Corp_(2013%E2%80%93present)",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1582430885,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://en.wikipedia.org/wiki/News_agency",
