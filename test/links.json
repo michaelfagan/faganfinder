@@ -677,6 +677,23 @@
     "checked": 1582117681
   },
   {
+    "url": "http://tieba.baidu.com/f/search/res?ie=utf-8&qw=test",
+    "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
+    "checked": 1582462719,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://tieba.baidu.com/",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "redirect": "",
+    "checked": 1582462723,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.baidu.com/",
     "status": "200",
     "title": "百度一下，你就知道",
@@ -694,6 +711,24 @@
       "information"
     ],
     "checked": 1582118417
+  },
+  {
+    "url": "https://zhidao.baidu.com/",
+    "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://zhidao.baidu.com/error.html?status=503&&uri=/",
+    "checked": 1582763226,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://zhidao.baidu.com/search?word=test",
+    "status": "301",
+    "redirect": "https://zhidao.baidu.com/search",
+    "checked": 1582763212,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.bbc.com/news",
@@ -1136,6 +1171,23 @@
       "video"
     ],
     "checked": 1582117701
+  },
+  {
+    "url": "https://www.douban.com/",
+    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
+    "checked": 1582760183,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.douban.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.douban.com/search",
+    "checked": 1582760181,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.dreamstime.com/free-photos",
@@ -4530,22 +4582,6 @@
     "checked": 1582118346
   },
   {
-    "url": "http://socialmention.com/",
-    "status": "Operation timed out",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118732
-  },
-  {
-    "url": "http://socialmention.com/search?q=test",
-    "status": "Operation timed out",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118767
-  },
-  {
     "url": "https://opendata.socrata.com/",
     "status": "301",
     "title": "Socrata",
@@ -5799,6 +5835,24 @@
     "checked": 1582117902
   },
   {
+    "url": "https://www.zhihu.com/",
+    "status": "400",
+    "title": "400 Bad Request",
+    "checked": 1582763223,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.zhihu.com/search?type=content&q=test",
+    "status": "400",
+    "title": "400 Bad Request",
+    "checked": 1582763209,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://search.seznam.cz/?q=test",
     "status": "302",
     "redirect": "https://search.seznam.cz/",
@@ -6697,6 +6751,23 @@
       "image"
     ],
     "checked": 1582118036
+  },
+  {
+    "url": "https://www.taringa.net/",
+    "status": "301",
+    "checked": 1582764555,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.taringa.net/search/story?q=test",
+    "status": "301",
+    "redirect": "https://www.taringa.net/search/story",
+    "checked": 1582764547,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://videolectures.net/",
@@ -7791,6 +7862,15 @@
     "checked": 1582117538
   },
   {
+    "url": "https://en.wikipedia.org/wiki/Usenet_newsgroup",
+    "status": "301",
+    "title": "Usenet newsgroup - Wikipedia",
+    "checked": 1582766648,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Usenet",
     "status": "301",
     "title": "Usenet - Wikipedia",
@@ -7957,6 +8037,15 @@
       "information"
     ],
     "checked": 1582118154
+  },
+  {
+    "url": "https://ok.ru/",
+    "status": "200",
+    "title": "OK.RU",
+    "checked": 1582763959,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://search.rsl.ru/en/search#q=test",

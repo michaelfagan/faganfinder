@@ -211,24 +211,37 @@
           "searchUrl": "https://groups.google.com/forum/#!search/{q}"
         },
         {
-          "name": "Social Mention",
-          "searchUrl": "http://socialmention.com/search?q={q}"
-        },
-        {
           "name": "BoardReader",
           "searchUrl": "http://boardreader.com/s/{q}.html"
         },
         {
           "name": "Social Searcher",
           "searchUrl": "https://www.social-searcher.com/social-buzz/?q5={q}"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Non-English social media",
+      "tools": [
         {
-          "name": "Sina Weibo",
+          "name": "Sina Weibo — Chinese",
           "searchUrl": "https://s.weibo.com/weibo/{q}"
         },
         {
-          "name": "VK",
+          "name": "Baidu Tieba — Chinese",
+          "searchUrl": "http://tieba.baidu.com/f/search/res?ie=utf-8&qw={q}"
+        },
+        {
+          "name": "Douban — Chinese",
+          "searchUrl": "https://www.douban.com/search?q={q}"
+        },
+        {
+          "name": "VK — Russian+",
           "searchUrl": "https://vk.com/search?c%5Bsection%5D=auto&c%5Bq%5D={q}"
+        },
+        {
+          "name": "Taringa! — Spanish",
+          "searchUrl": "https://www.taringa.net/search/story?q={q}"
         }
       ]
     },
@@ -266,6 +279,14 @@
         {
           "name": "Question.com",
           "searchUrl": "https://www.question.com/search/?query={q}"
+        },
+        {
+          "name": "Zhihu — Chinese",
+          "searchUrl": "https://www.zhihu.com/search?type=content&q={q}"
+        },
+        {
+          "name": "Baidu Knows — Chinese",
+          "searchUrl": "https://zhidao.baidu.com/search?word={q}"
         }
       ]
     },

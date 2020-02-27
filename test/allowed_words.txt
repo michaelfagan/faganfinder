@@ -78,6 +78,7 @@ Digitale
 DLME
 dLOC
 DocumentaryHeaven
+Douban
 DPLA
 Dreamstime
 DuckDuckGo
@@ -174,6 +175,7 @@ Metacritic
 MetaFilter
 mibbit
 michael
+microblogging
 microform
 Mixcloud
 Mojeek
@@ -200,6 +202,8 @@ NFB
 NFSA
 Niconico
 OCLC
+Odnoklassniki
+OK.RU
 OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
@@ -285,11 +289,13 @@ subreddit
 SupportGroups
 SweetSearch
 Swisscows
+Taringa
 TeacherTube
 TEDx
 TellMe
 TheTVDB.com
 ThoughtAudio
+Tieba
 TikTok
 Tookapic
 TruthOrFiction.com
@@ -311,6 +317,7 @@ VideoLectures.NET
 Viki
 Vimeo
 VK
+VKontakte
 WatchKnowLearn
 WeeklyScript
 Weibo
@@ -324,6 +331,7 @@ wwiTV
 Yandex
 Yippy
 Youku
+Zhihu
 Архивы
 библиотека
 Национальная
