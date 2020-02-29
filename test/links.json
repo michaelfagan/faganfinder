@@ -488,24 +488,23 @@
     "checked": 1582117655
   },
   {
-    "url": "http://wiki.answers.com/search?q=test",
+    "url": "https://www.answers.com/",
     "status": "301",
-    "redirect": "https://www.answers.com/search",
-    "title": "301 Moved Permanently",
+    "title": "Answers - The Most Trusted Place for Answering Life's Questions",
+    "checked": 1583014705,
     "pages": [
       "information"
-    ],
-    "checked": 1582117655
+    ]
   },
   {
-    "url": "http://www.answers.com/",
+    "url": "https://www.answers.com/search?q=test",
     "status": "301",
-    "redirect": "https://www.answers.com/",
-    "title": "301 Moved Permanently",
+    "redirect": "https://www.answers.com/search",
+    "title": "Redirecting to https://www.answers.com/Q/Test",
+    "checked": 1583012655,
     "pages": [
       "information"
-    ],
-    "checked": 1582117654
+    ]
   },
   {
     "url": "https://www.aol.com/video/",
@@ -880,25 +879,6 @@
       "information"
     ],
     "checked": 1582339357
-  },
-  {
-    "url": "https://www.blurtit.com/",
-    "status": "301",
-    "title": "Ask Questions, Get Free Answers - Blurtit",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117690
-  },
-  {
-    "url": "https://www.blurtit.com/search/?search-query=test",
-    "status": "301",
-    "redirect": "https://www.blurtit.com/search/",
-    "title": "Blurtit - Search Page",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117690
   },
   {
     "url": "http://boardreader.com/",
@@ -3072,25 +3052,6 @@
     "checked": 1582118240
   },
   {
-    "url": "https://ask.metafilter.com/",
-    "status": "301",
-    "title": "Ask MetaFilter",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118241
-  },
-  {
-    "url": "https://ask.metafilter.com/search.mefi?site=ask&q=test",
-    "status": "301",
-    "redirect": "https://ask.metafilter.com/search.mefi",
-    "title": "Search | Ask MetaFilter",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118241
-  },
-  {
     "url": "http://mibbit.com/",
     "status": "200",
     "title": "Mibbit.com - Easy and fast Webchat in your browser",
@@ -4040,25 +4001,6 @@
   {
     "url": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords=test",
     "status": "200",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118311
-  },
-  {
-    "url": "https://www.question.com/",
-    "status": "301",
-    "title": "Ask Questions, Get Answers - Question.com",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118311
-  },
-  {
-    "url": "https://www.question.com/search/?query=test",
-    "status": "301",
-    "redirect": "https://www.question.com/search/",
-    "title": "Results for 'test' - Question.com",
     "pages": [
       "information"
     ],
@@ -5572,6 +5514,15 @@
     "checked": 1582117871
   },
   {
+    "url": "https://answers.yahoo.com/",
+    "status": "301",
+    "title": "Home | Yahoo Answers",
+    "checked": 1583005300,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://groups.yahoo.com/neo/search?query=test",
     "status": "301",
     "redirect": "https://groups.yahoo.com/neo/search",
@@ -5598,6 +5549,16 @@
       "information"
     ],
     "checked": 1582117872
+  },
+  {
+    "url": "https://answers.search.yahoo.com/search?p=test",
+    "status": "301",
+    "redirect": "https://answers.search.yahoo.com/search",
+    "title": "test - Yahoo Search Results",
+    "checked": 1583005293,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://images.search.yahoo.com/",
@@ -6503,6 +6464,24 @@
     "checked": 1582118466
   },
   {
+    "url": "https://chiebukuro.yahoo.co.jp/",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://chiebukuro.yahoo.co.jp:443/",
+    "checked": 1583005302,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://chiebukuro.yahoo.co.jp/search/?flg=3&p=test",
+    "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://chiebukuro.yahoo.co.jp:443/search/",
+    "checked": 1583005295,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.digital.archives.go.jp/index_e.html",
     "status": "302",
     "title": "NATIONAL ARCHIVES OF JAPAN Digital Archive",
@@ -6556,6 +6535,23 @@
     "checked": 1582339445
   },
   {
+    "url": "https://oshiete.goo.ne.jp/",
+    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
+    "checked": 1583005303,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT=test",
+    "status": "\"\\xEF\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://oshiete.goo.ne.jp/search_goo/result/",
+    "checked": 1583005296,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.nicovideo.jp/",
     "status": "200",
     "pages": [
@@ -6570,6 +6566,23 @@
       "video"
     ],
     "checked": 1582117996
+  },
+  {
+    "url": "https://okwave.jp/",
+    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
+    "checked": 1583005305,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://okwave.jp/searchkeyword?word=test",
+    "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://okwave.jp/searchkeyword",
+    "checked": 1583005298,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://dp.la/",
@@ -6634,6 +6647,23 @@
       "information"
     ],
     "checked": 1582118002
+  },
+  {
+    "url": "https://www.gutefrage.net/",
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
+    "checked": 1583005305,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.gutefrage.net/search?query=test",
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.gutefrage.net/search",
+    "checked": 1583005300,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.hoax-slayer.net/",
@@ -6784,25 +6814,6 @@
     "title": "Search VideoLectures for test - VideoLectures.NET",
     "pages": [
       "video"
-    ],
-    "checked": 1582118058
-  },
-  {
-    "url": "https://able2know.org/",
-    "status": "302",
-    "title": "Ask an Expert at able2know - Ask Questions, Share Answers",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118059
-  },
-  {
-    "url": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q=test",
-    "status": "302",
-    "redirect": "https://able2know.org/search/",
-    "title": "Search - able2know",
-    "pages": [
-      "information"
     ],
     "checked": 1582118058
   },
@@ -8021,6 +8032,22 @@
     "checked": 1582118151
   },
   {
+    "url": "https://otvet.mail.ru/",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "checked": 1582776558,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://otvet.mail.ru/search/test",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "checked": 1582776555,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://nlr.ru/eng",
     "status": "200",
     "title": "The National Library of Russia, Saint-Petersburg",
@@ -8135,6 +8162,23 @@
       "information"
     ],
     "checked": 1582118401
+  },
+  {
+    "url": "https://yandex.ru/q/",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "checked": 1582776559,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://yandex.ru/q/search/?text=test",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://yandex.ru/q/search/",
+    "checked": 1582776556,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.periscope.tv/",

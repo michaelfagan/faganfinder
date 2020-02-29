@@ -8,7 +8,6 @@
 .wpd
 500px
 Abhilekh
-able2know
 ABYZ
 AFP
 Agence
@@ -37,7 +36,6 @@ Bibliothek
 Bibliothèque
 Bing
 Biznar
-Blurtit
 BNDigital
 BnF
 BoardReader
@@ -127,6 +125,7 @@ Grafiti
 Granth
 Groups.io
 GroupSpaces
+Gutefrage
 Haosou
 Hathi
 Hazine
@@ -172,7 +171,6 @@ MeFeedia
 Metabase
 Metacafe
 Metacritic
-MetaFilter
 mibbit
 michael
 microblogging
@@ -204,6 +202,7 @@ Niconico
 OCLC
 Odnoklassniki
 OK.RU
+OKWAVE
 OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
@@ -240,7 +239,6 @@ Prezi
 ProBoards
 ProQuest
 Questia
-Question.com
 Quora
 Qwant
 Rakuten
@@ -328,6 +326,7 @@ Wikiwand
 WordPerfect
 WorldCat
 wwiTV
+Yandex.Q
 Yandex
 Yippy
 Youku
@@ -335,5 +334,7 @@ Zhihu
 Архивы
 библиотека
 Национальная
+Ответы
 России
 электронная
+Яндекс.Кью

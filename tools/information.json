@@ -157,7 +157,7 @@
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
         },
         {
-          "name": "Global-Regulation — law",
+          "name": "Global-Regulation",
           "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
         }
       ]
@@ -261,25 +261,19 @@
           "searchUrl": "https://brainly.com/app/ask?q={q}"
         },
         {
+          "name": "Yahoo Answers",
+          "searchUrl": "https://answers.search.yahoo.com/search?p={q}"
+        },
+        {
           "name": "Answers.com",
-          "searchUrl": "http://wiki.answers.com/search?q={q}"
-        },
-        {
-          "name": "Blurtit",
-          "searchUrl": "https://www.blurtit.com/search/?search-query={q}"
-        },
-        {
-          "name": "Ask MetaFilter",
-          "searchUrl": "https://ask.metafilter.com/search.mefi?site=ask&q={q}"
-        },
-        {
-          "name": "able2know",
-          "searchUrl": "https://able2know.org/search/?cx=partner-pub-3092869023721312%3Adw2qoa-tocz&q={q}"
-        },
-        {
-          "name": "Question.com",
-          "searchUrl": "https://www.question.com/search/?query={q}"
-        },
+          "searchUrl": "https://www.answers.com/search?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Non-English questions and answers",
+      "shortName": "Non-English <abbr title=\"questions and answers\">Q&A</abbr>",
+      "tools": [
         {
           "name": "Zhihu — Chinese",
           "searchUrl": "https://www.zhihu.com/search?type=content&q={q}"
@@ -287,6 +281,30 @@
         {
           "name": "Baidu Knows — Chinese",
           "searchUrl": "https://zhidao.baidu.com/search?word={q}"
+        },
+        {
+          "name": "Ответы Mail.ru",
+          "searchUrl": "https://otvet.mail.ru/search/{q}"
+        },
+        {
+          "name": "Yandex.Q — Russian",
+          "searchUrl": "https://yandex.ru/q/search/?text={q}"
+        },
+        {
+          "name": "Yahoo!<span lang=\"ja\">知恵袋</span>",
+          "searchUrl": "https://chiebukuro.yahoo.co.jp/search/?flg=3&p={q}"
+        },
+        {
+          "name": "<span lang=\"ja\">教えて</span>!goo",
+          "searchUrl": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT={q}"
+        },
+        {
+          "name": "OKWAVE — Japanese",
+          "searchUrl": "https://okwave.jp/searchkeyword?word={q}"
+        },
+        {
+          "name": "Gutefrage — German",
+          "searchUrl": "https://www.gutefrage.net/search?query={q}"
         }
       ]
     },
