@@ -1617,6 +1617,24 @@
     "checked": 1582117741
   },
   {
+    "url": "https://www.flipsnack.com/",
+    "status": "301",
+    "title": "Flipsnack: Free Online Flipbook Maker - Easy PDF to HTML5",
+    "checked": 1583098180,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.foleon.com",
+    "status": "301",
+    "title": "Foleon",
+    "checked": 1583111337,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://foter.com/search/instant/?q=test",
     "status": "301",
     "redirect": "https://foter.com/search/instant/",
@@ -2085,6 +2103,33 @@
     "checked": 1582117777
   },
   {
+    "url": "https://translate.google.com/",
+    "status": "302",
+    "title": "  Google Translate ",
+    "checked": 1583093520,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=test",
+    "status": "302",
+    "redirect": "https://translate.google.com/",
+    "title": "  Google Translate ",
+    "checked": 1583093518,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.google.com/docs/about/",
+    "status": "200",
+    "checked": 1583110512,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.google.com/",
     "status": "200",
     "title": "Google",
@@ -2124,14 +2169,14 @@
     "checked": 1582117779
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt | filetype:pptx | filetype:pps | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search",
+    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search",
+    "checked": 1583110512,
     "pages": [
       "information"
-    ],
-    "checked": 1582117780
+    ]
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
@@ -2142,6 +2187,16 @@
       "group"
     ],
     "checked": 1582118166
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20%7C%20site%3Aissuu.com%20%7C%20site%3Apublitas.com%20%7C%20site%3Ayumpu.com%20%7C%20site%3Ajoomag.com%20%7C%20site%3Aflipsnack.com%20%7C%20site%3Apdfdrive.com%20%7C%20site%3Aedocr.com%20%7C%20site%3Afoleon.com",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:docs.google.com/document | site:issuu.com | site:publitas.com | site:yumpu.com | site:joomag.com | site:flipsnack.com | site:pdfdrive.com | site:edocr.com | site:foleon.com - Google Search",
+    "checked": 1583110511,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Agroupspaces.com",
@@ -2342,6 +2397,14 @@
       "information"
     ],
     "checked": 1582117792
+  },
+  {
+    "url": "https://www.google.com/slides/about/",
+    "status": "200",
+    "checked": 1583110513,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.google.com/videohp",
@@ -2720,6 +2783,15 @@
       "information"
     ],
     "checked": 1582118221
+  },
+  {
+    "url": "https://www.joomag.com/",
+    "status": "302",
+    "title": "Digital Publishing Platform for Everyone | Joomag",
+    "checked": 1583098180,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.justwatch.com/au/search?q=test",
@@ -3991,6 +4063,15 @@
     "checked": 1582118179
   },
   {
+    "url": "https://www.publitas.com/",
+    "status": "301",
+    "title": "Publitas: Publish Catalogs Online. Inspire Visitors. Sell More.",
+    "checked": 1583098180,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.questia.com/",
     "status": "200",
     "pages": [
@@ -4318,14 +4399,14 @@
     "checked": 1582118326
   },
   {
-    "url": "https://www.scribd.com/search?payment=free&content_type=documents&query=test",
+    "url": "https://www.scribd.com/search?query=test",
     "status": "301",
     "redirect": "https://www.scribd.com/search",
     "title": "Search | Scribd",
+    "checked": 1583093519,
     "pages": [
       "information"
-    ],
-    "checked": 1582118327
+    ]
   },
   {
     "url": "https://scribl.com/browse?bf=audio_ebooks:podcasts&search=test",
@@ -4578,6 +4659,15 @@
       "information"
     ],
     "checked": 1582118348
+  },
+  {
+    "url": "https://speakerdeck.com/",
+    "status": "301",
+    "title": "Speaker Deck - Share Presentations without the Mess",
+    "checked": 1583110514,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://open.spotify.com/browse/podcasts",
@@ -5794,6 +5884,23 @@
       "video"
     ],
     "checked": 1582117902
+  },
+  {
+    "url": "https://www.yumpu.com/en/test",
+    "status": "301",
+    "title": "Test Magazines",
+    "checked": 1583094304,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.yumpu.com/",
+    "status": "301",
+    "checked": 1583098180,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.zhihu.com/",
@@ -8176,6 +8283,14 @@
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://yandex.ru/q/search/",
     "checked": 1582776556,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://noti.st/",
+    "status": "301",
+    "checked": 1583110513,
     "pages": [
       "information"
     ]
