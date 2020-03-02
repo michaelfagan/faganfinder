@@ -217,7 +217,7 @@ button.activeb {
     #tools ul, #tools div > a { /* hide each section until active */
       display: none;
     }
-    .active {
+    #tools .active {
       $ul_left_margin: 1em;
       ul {
         display: block;
@@ -269,6 +269,7 @@ $ad_width: 336px;
     display: inline-block;
   }
 }
+
 
 /* back to top links */
 a[href="#search"] {
