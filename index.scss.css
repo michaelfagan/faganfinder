@@ -122,7 +122,7 @@ input {
   width: 20em;
   padding: 0.2em;
 }
-form .highlight {
+#inp {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -141,19 +141,22 @@ form .highlight {
 }
 
 /* search options */
-form h3 {
+#tools h3 {
   font-size: $smalltext;
 }
-form ul {
+#tools, #tools ul {
   list-style-type: none;
+}
+#tools ul {
   margin-bottom: 0.1em; /* space before 'About these' */
 }
 @media (min-width: $non_mobile) {
-  form > ul {
+  #tools {
     -moz-column-width: 9rem;
     column-width: 9rem;
     line-height: 1em;
-    margin: 0.2em 0 0.5em 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
   }
 }
 li > div {
@@ -177,19 +180,19 @@ button.activeb {
   border-color: black;
   border-right-width: 3px;
 }
-form div > a {
+#tools div > a {
   /* 'About these' links only needed for mobile js version */
   display: none;
 }
 @media screen and (min-width: $non_mobile) {
-  form {
+  #tools {
     li button, a {
       font-size: 0.8rem;
     }
   }
 }
 @media screen and (max-width: $mobile) {
-  form h3 {
+  #tools h3 {
     font-size: $normaltext;
   }
   .has-js {
@@ -197,7 +200,7 @@ form div > a {
       /* since they are collapsed, need more space between each */
       margin: ($p_space / 2) 0;
     }
-    form h3 a {
+    #tools h3 a {
       color: black;
       text-decoration: none;
       &:before {
@@ -207,10 +210,10 @@ form div > a {
         color: darken($highlight, 50%);
       }
     }
-    form > ul {
+    #tools {
       margin: 1em 0;
     }
-    form > ul ul, form div > a { /* hide each section until active */
+    #tools ul, #tools div > a { /* hide each section until active */
       display: none;
     }
     .active {
@@ -235,7 +238,7 @@ form div > a {
   }
 }
 /* 'About these' link */
-form div > a {
+#tools div > a {
   margin-left: $button_side_padding;
 }
 
@@ -300,7 +303,7 @@ footer section {
     text-decoration: none;
     color: inherit;
   }
-  form .highlight {
+  #inp {
     position: static;
   }
   button.activeb {
@@ -329,7 +332,7 @@ footer section {
     page-break-inside: avoid;
   }
   /* hide about, 'about these' and back-to-top links and ads */
-  nav, #newwin, form a, a[href='#search'], #adone, #adtwo {
+  nav, #newwin, #tools a, a[href='#search'], #adone, #adtwo {
     display: none;
   }
 }

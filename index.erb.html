@@ -50,7 +50,7 @@
       end
     %>
 
-      <div class="highlight">
+      <div class="highlight" id="inp">
         <div>
           <h2><label for="q">Search</label></h2>
           <input type="text" name="q" id="q" dir="auto">
@@ -62,12 +62,11 @@
         </div>
       </div>
 
-
       <div class="inner">
         <p id="newwin">Results open in a new window.</p>
         <h2 style="margin-top:1em">Search using:</h2>
       </div>
-      <ul class="inner">
+      <ul class="inner" id="tools">
       <% page.sections.each_with_index do |group, i| %>
         <li><div<%= i==0 ? ' class="active"' : '' %>>
           <h3><a href="#<%= group.id %>"><%= group.shortName %></a></h3>
@@ -83,26 +82,26 @@
       <% end %>
       </ul>
 
-    </form>
+      <div class="highlight"><h2>Details and further resources</h2></div>
+      <div id="details" class="inner">
 
-    <div class="highlight"><h2>Details and further resources</h2></div>
-    <div id="details" class="inner">
+        <% if page.number_of_tools > 40 %>
+        <div id="adtwo">
+          <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2428777527"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+        <% end %>
 
-      <% if page.number_of_tools > 40 %>
-      <div id="adtwo">
-        <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2428777527"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        <%=
+          page.content.gsub('<section>').with_index do |m, i|
+            i == 0 ? "<section><h3>Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
+          end
+        %>
+
+        <a href="#search"><span>↑</span> back to top</a>
       </div>
-      <% end %>
 
-      <%=
-        page.content.gsub('<section>').with_index do |m, i|
-          i == 0 ? "<section><h3>Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
-        end
-      %>
-
-      <a href="#search"><span>↑</span> back to top</a>
-    </div>
+    </form>
 
     <footer tabindex="-1" id="footer" class="highlight" style="padding:1em 0">
 
