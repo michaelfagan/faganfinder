@@ -155,14 +155,15 @@ if (typeof document.body.classList === 'object') {
   var inpage = form.querySelectorAll('a[href^="#"]');
   var inp = document.getElementById('inp');
   for (var i=0; i<inpage.length; i++) {
-    inpage[i].addEventListener('click', function(e){
-      var href = e.target.getAttribute('href');
-      if (href !== '#search' && getComputedStyle(e.target, ':before').content === 'none') {
-        setTimeout(function(){
-          window.scrollTo(0, inp.offsetTop - inp.offsetHeight - 10);
-        }, 10);
-      }
-    });
+    if (inpage[i].getAttribute('href') !== '#search') {
+      inpage[i].addEventListener('click', function(e){
+        if (getComputedStyle(e.target, ':before').content === 'none') {
+          setTimeout(function(){
+            window.scrollTo(0, inp.offsetTop - inp.offsetHeight - 10);
+          }, 10);
+        }
+      });
+    }
   }
 
   // analytics for links other than the 'About these'
