@@ -332,6 +332,7 @@ Wikiwand
 WordPerfect
 WorldCat
 wwiTV
+YaCy
 Yandex.Q
 Yandex
 Yippy

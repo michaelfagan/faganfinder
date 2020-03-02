@@ -6925,6 +6925,15 @@
     "checked": 1582118058
   },
   {
+    "url": "https://yacy.net/",
+    "status": "302",
+    "title": "Home - YaCy",
+    "checked": 1583114757,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.aodl.org/contributors.php",
     "status": "200",
     "title": "Contributors | AODL",
