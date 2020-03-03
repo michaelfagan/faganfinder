@@ -189,7 +189,10 @@ if (typeof document.body.classList === 'object') {
     trackLink(footer_links[i], 'footer');
   }
 
-  // hide the 'back to top' until scrolled enough
+
+  // add the 'back to top' link
+  inp.insertAdjacentHTML('beforeend', '<a href="#search"><span>↑</span> back to top</a>');
+  // hide it until scrolled enough
   var btt = document.querySelector('a[href="#search"]');
   window.addEventListener('scroll', function() {
     btt.style.display = window.scrollY > (details.offsetTop+200) ? 'block' : 'none';

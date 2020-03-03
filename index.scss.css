@@ -136,6 +136,20 @@ input {
     margin-top: $highlight_vpadding;
   }
 }
+button[type="reset"] {
+  margin-right: 8em; /* make sure it doesn't run into 'back to top' */
+}
+/* back to top link */
+a[href="#search"] {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: $highlight_vpadding;
+  font-size: $smalltext;
+  span {
+    font-weight: bold;
+  }
+}
 #newwin {
   font-size: $smalltext;
   margin-top: 0;
@@ -270,22 +284,6 @@ $ad_width: 336px;
   }
 }
 
-
-/* back to top links */
-a[href="#search"] {
-  display: block;
-  float: right;
-  position: sticky;
-  padding: 0.7em;
-  background-color: #F5F5F5;
-  bottom: 0;
-  margin-bottom: 1rem;
-  text-align: center;
-  font-size: $smalltext;
-  span {
-    font-weight: bold;
-  }
-}
 
 footer {
   clear: both;
