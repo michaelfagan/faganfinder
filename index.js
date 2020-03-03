@@ -182,18 +182,17 @@ if (typeof document.body.classList === 'object') {
     }
   }
   var details = document.getElementById('details');
-  trackLink(details.children[details.children.length-1], 'page');
   // footer links
   var footer_links = document.getElementsByTagName('footer')[0].getElementsByTagName('a');
   for (var i=0; i<footer_links.length; i++) {
     trackLink(footer_links[i], 'footer');
   }
 
-
   // add the 'back to top' link
   inp.insertAdjacentHTML('beforeend', '<a href="#search"><span>↑</span> back to top</a>');
-  // hide it until scrolled enough
   var btt = document.querySelector('a[href="#search"]');
+  trackLink(btt, 'page');
+  // hide it until scrolled enough
   window.addEventListener('scroll', function() {
     btt.style.display = window.scrollY > (details.offsetTop+200) ? 'block' : 'none';
   });
