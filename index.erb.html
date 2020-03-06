@@ -52,13 +52,10 @@
 
       <div class="highlight" id="inp">
         <div>
-          <h2><label for="q">Search</label></h2>
-          <input type="text" name="q" id="q" dir="auto">
-          <div style="white-space:nowrap">
-            <% first_tool = page.sections[0].tools[0] %>
-            <button type="submit" name="u" value="<%= toolUrl first_tool %>">search<span> <%= first_tool.name %></span></button>
-            <button type="reset">clear</button>
-          </div>
+          <h2 class="sr-only">Search</h2>
+          <input type="search" name="q" dir="auto">
+          <% first_tool = page.sections[0].tools[0] %>
+          <button type="submit" name="u" value="<%= toolUrl first_tool %>">search<span> <%= first_tool.name %></span></button>
         </div>
       </div>
 

@@ -4,6 +4,7 @@ $readingwidth: 50em;
 $p_space: 0.8em;
 $highlight: #bce0ba;
 $link_colour: #0000ee; /* not actually set, but this is or close to the default for various browsers */
+$link_hover_colour: lighten($link_colour, 20%);
 $normaltext: 1rem;
 $smalltext: 0.9rem;
 
@@ -22,14 +23,9 @@ body {
   touch-action: manipulation; /* disables delay on mobile, checking to see if a tab is a double-tap */
 }
 button {
-  cursor: pointer;
   background-color: white;
   border-radius: 5px;
   border: 1px solid #ccc;
-  &:hover {
-    color: white;
-    background-color: #555 !important;
-  }
 }
 input, button {
   font-family: inherit;
@@ -55,7 +51,7 @@ abbr {
   text-decoration: inherit;
 }
 a:hover {
-  color: lighten($link_colour, 20%);
+  color: $link_hover_colour;
 }
 *[tabindex="-1"]:focus {
   /* adding this tabindex improves screenreader experience in chrome but is not necessary to show focused */
@@ -66,6 +62,14 @@ sup {
 }
 kbd {
   font-size: 0.9em;
+}
+.sr-only {
+  /* for screenreaders */
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
 }
 
 
@@ -118,38 +122,62 @@ nav {
 
 
 /* search form */
-input {
-  width: 20em;
-  padding: 0.2em;
-}
 #inp {
   position: -webkit-sticky;
   position: sticky;
   z-index: 1; /* make sure they overlap google ads */
   top: 0;
+  padding-top: 0;
+  button, input {
+    margin-top: $highlight_vpadding;
+  }
   button {
     padding: 0.3em 0.5em;
   }
-  padding-top: 0;
-  > div > * {
-    display: inline-block;
-    margin-top: $highlight_vpadding;
+}
+input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0.2em;
+  width: 100%;
+  @media (min-width: $non_mobile) {
+    width: 25em;
   }
 }
-button[type="reset"] {
-  margin-right: 8em; /* make sure it doesn't run into 'back to top' */
+#tools button:hover, button[type="submit"]:hover {
+  color: white;
+  background-color: #555;
 }
-/* back to top link */
-a[href="#search"] {
+
+#switch {
   display: none;
-  position: absolute;
-  right: 0;
-  bottom: $highlight_vpadding;
-  font-size: $smalltext;
-  span {
-    font-weight: bold;
+  button {
+    /* style these buttons as links */
+    background-color: inherit;
+    padding: 0;
+    border-width: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    color: $link_colour;
+    &:hover {
+      color: $link_hover_colour;
+    }
+    margin-right: 1em;
+    @media (min-width: $non_mobile) {
+      margin-right: 2em;
+    }
+  }
+  a {
+    white-space: nowrap;
+  }
+  @media screen and (max-width: $mobile) {
+    span {
+      display: none;
+    }
   }
 }
+
 #newwin {
   font-size: $smalltext;
   margin-top: 0;

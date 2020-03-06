@@ -1,5 +1,7 @@
 "use strict";
 
+var toolname;
+var form;
 function setTool(button) {
   var u = button.getAttribute('value');
   var tmp = u.split('|x|');
@@ -19,12 +21,26 @@ function setTool(button) {
   }
   form.setAttribute('data-section', button.parentNode.parentNode.previousElementSibling.textContent);
   form.setAttribute('data-tool', button.textContent);
-  form.elements[1].children[0].innerHTML = ' ' + button.innerHTML;
+  toolname.innerHTML = ' ' + button.innerHTML;
   var active = form.getElementsByClassName('activeb');
   if (active.length > 0) {
     active[0].classList.remove('activeb');
   }
   button.classList.add('activeb');
+}
+
+var buttons;
+function prevNext(e) {
+  var ind = buttons.indexOf(document.getElementsByClassName('activeb')[0]);
+  if (e.target.value) {
+    setTool(buttons[ind === buttons.length-1 ? 0 : ind+1]);
+  }
+  else {
+    setTool(buttons[ind === 0 ? buttons.length - 1 : ind-1]);
+  }
+  e.preventDefault();
+  form.elements[0].focus();
+  ga('send', 'event', 'searchbar', e.target.value ? 'next' : 'previous');
 }
 
 function trackLink(link, section) {
@@ -54,13 +70,14 @@ if (typeof document.body.classList === 'object') {
   document.body.classList.remove('no-js');
   document.body.classList.add('has-js');
 
-  var form = document.forms[0];
+  form = document.forms[0];
 
   // add the form needed for tools that use POST
   form.insertAdjacentHTML('afterend', '<form target="_blank" style="display:none" action="" method="post"></form>');
 
   // initialize
-  setTool(form.elements[3]); // first search tool button
+  toolname = document.querySelector('button[type="submit"] span');
+  setTool(document.querySelector('#tools button')); // first search tool button
   form.setAttribute('data-submitvia', 'button');
 
   // this replaces non-javascript text, i.e. 'Search using:'
@@ -131,26 +148,6 @@ if (typeof document.body.classList === 'object') {
 
   });
 
-  // clear button
-  form.elements[2].addEventListener('click', function(){
-    form.elements[0].value = '';
-    form.elements[0].focus();
-    ga('send', 'event', 'page', 'clear');
-  });
-
-  // enable tracking of form submissions via the enter key, main button, or tool button (default)
-  form.elements[0].addEventListener('keydown', function(e){
-    if (e.keyCode === 13) {
-      form.setAttribute('data-submitvia', 'enter');
-    }
-  });
-  form.elements[1].addEventListener('click', function(){
-    if (form.getAttribute('data-submitvia') === 'button') {
-      // the 'click' is also triggered by the enter key, hence the if statement
-      form.setAttribute('data-submitvia', 'mainbutton');
-    }
-  });
-
   // after jumping to an anchor, fix the scroll position to account for the sticky search bar
   var inpage = form.querySelectorAll('a[href^="#"]');
   var inp = document.getElementById('inp');
@@ -166,8 +163,20 @@ if (typeof document.body.classList === 'object') {
     }
   }
 
-  // analytics for links other than the 'About these'
+  // enable tracking of form submissions via the enter key, main button, or tool button (default)
+  form.elements[0].addEventListener('keydown', function(e){
+    if (e.keyCode === 13) {
+      form.setAttribute('data-submitvia', 'enter');
+    }
+  });
+  form.elements[1].addEventListener('click', function(){
+    if (form.getAttribute('data-submitvia') === 'button') {
+      // the 'click' is also triggered by the enter key, hence the if statement
+      form.setAttribute('data-submitvia', 'mainbutton');
+    }
+  });
 
+  // analytics for links other than the 'About these'
   // header links
   var header_links = document.getElementsByTagName('header')[0].getElementsByTagName('a');
   for (var i=0; i<header_links.length; i++) {
@@ -188,13 +197,21 @@ if (typeof document.body.classList === 'object') {
     trackLink(footer_links[i], 'footer');
   }
 
-  // add the 'back to top' link
-  inp.insertAdjacentHTML('beforeend', '<a href="#search"><span>↑</span> back to top</a>');
-  var btt = document.querySelector('a[href="#search"]');
-  trackLink(btt, 'page');
-  // hide it until scrolled enough
+  // previous, next, back to top
+  form.elements[1].insertAdjacentHTML('afterend', '<div id="switch"><button><b>«</b> <span>set </span>previous tool</button><button value="true"><span>set </span>next tool <b>»</b></button><a href="#search"><b>↑</b> show all<span> tools</</a></div>');
+
+  // previous and next tool buttons
+  buttons = Array.prototype.slice.call(document.getElementById('tools').getElementsByTagName('button'));
+  form.elements[2].addEventListener('click', prevNext);
+  form.elements[3].addEventListener('click', prevNext);
+
+  // 'back to top' link
+  trackLink(document.querySelector('a[href="#search"]'), 'searchbar');
+
+  // hide until scrolled enough
+  var pn = document.getElementById('switch');
   window.addEventListener('scroll', function() {
-    btt.style.display = window.scrollY > (details.offsetTop+200) ? 'block' : 'none';
+    pn.style.display = window.scrollY > details.offsetTop ? 'block' : 'none';
   });
 
 }
