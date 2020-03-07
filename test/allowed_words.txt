@@ -1,6 +1,7 @@
 .doc
 .docx
 .odt
+.onion
 .pdf
 .ps
 .rft
@@ -12,6 +13,7 @@ ABYZ
 AFP
 Agence
 aggregators
+Ahmia
 Alexa
 AllMovie
 Amazon.com
@@ -53,6 +55,7 @@ CCFr
 Cengage
 Center
 Chiebukuro
+clearnet
 Clipart
 collectif
 Corel
@@ -131,6 +134,7 @@ GroupSpaces
 Gutefrage
 Haosou
 Hathi
+Haystak
 Hazine
 Hemeroteca
 Howcast
@@ -209,6 +213,8 @@ OCLC
 Odnoklassniki
 OK.RU
 OKWAVE
+Onion.ws
+OnionLand
 OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
@@ -305,6 +311,7 @@ ThoughtAudio
 Tieba
 TikTok
 Tookapic
+Tor
 TruthOrFiction.com
 Tubi
 Tumblr

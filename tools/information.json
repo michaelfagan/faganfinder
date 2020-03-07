@@ -946,7 +946,31 @@
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
           "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
         }
-
+      ]
+    },
+    {
+      "name": "Dark web",
+      "tools": [
+        {
+          "name": "OnionLand",
+          "searchUrl": "https://onionlandsearchengine.com/search?q={q}"
+        },
+        {
+          "name": "Ahmia",
+          "searchUrl": "https://ahmia.fi/search/?q={q}"
+        },
+        {
+          "name": "Torch",
+          "searchUrl": "https://torsearch.net/search?query={q}"
+        },
+        {
+          "name": "not Evil",
+          "searchUrl": "https://hss3uro2hsxfogfq.onion.ws/index.php?q={q}"
+        },
+        {
+          "name": "Haystak",
+          "searchUrl": "http://haystakvxad7wbk5.onion.ws/?q={q}"
+        }
       ]
     }
   ]

@@ -69,7 +69,7 @@ class Page
     internal_ids += @content.scan(/ id="([^"]*)\"/).map{|m| m[0]}
     # separate external links from links to other page sections
     urls_from_html = @content.scan(/ href="([^"]*)\"/).map{|m| m[0]}.partition{|u| u.length == 0 || u[0] == '#' || u[0] == '/' }
-    @external_links += urls_from_html[1].map{|u| u.gsub(/&amp;/, '&')}
+    @external_links += urls_from_html[1].reject{|u| u =~ /\/\/[^\/]+\.onion\// }.map{|u| u.gsub(/&amp;/, '&')}
     # validate internal links
     bad_internal_links = urls_from_html[0].reject{|u| internal_ids.include?(u.sub('#', '')) || u[0] == '/' }
     raise ('Bad link(s) within page: ' + bad_internal_links.join(', ')) if bad_internal_links.length > 0
