@@ -31,7 +31,7 @@ function setTool(button) {
 
 var buttons;
 function prevNext(e) {
-  var ind = buttons.indexOf(document.getElementsByClassName('activeb')[0]);
+  var ind = buttons.indexOf(document.querySelector('.activeb'));
   if (e.target.value) {
     setTool(buttons[ind === buttons.length-1 ? 0 : ind+1]);
   }
@@ -136,7 +136,7 @@ if (typeof document.body.classList === 'object') {
         }
         else {
           div.classList.add('active');
-          div.getElementsByTagName('button')[0].focus();
+          div.querySelector('button').focus();
           ga('send', 'event', parent.textContent, 'expand');
         }
       }
@@ -178,21 +178,21 @@ if (typeof document.body.classList === 'object') {
 
   // analytics for links other than the 'About these'
   // header links
-  var header_links = document.getElementsByTagName('header')[0].getElementsByTagName('a');
+  var header_links = document.querySelectorAll('header a');
   for (var i=0; i<header_links.length; i++) {
     trackLink(header_links[i], 'header');
   }
   // links in the detail section
-  var sections  = document.getElementById('details').getElementsByTagName('section');
+  var details = document.getElementById('details');
+  var sections  = details.getElementsByTagName('section');
   for (var i=0; i<sections.length; i++) {
     var links = sections[i].getElementsByTagName('a');
     for (var j=0; j<links.length; j++) {
-      trackLink(links[j], sections[i].getElementsByTagName('h3')[0].textContent);
+      trackLink(links[j], sections[i].querySelector('h3').textContent);
     }
   }
-  var details = document.getElementById('details');
   // footer links
-  var footer_links = document.getElementsByTagName('footer')[0].getElementsByTagName('a');
+  var footer_links = document.querySelectorAll('footer a');
   for (var i=0; i<footer_links.length; i++) {
     trackLink(footer_links[i], 'footer');
   }
@@ -201,7 +201,7 @@ if (typeof document.body.classList === 'object') {
   form.elements[1].insertAdjacentHTML('afterend', '<div id="switch"><button><b>«</b> <span>set </span>previous tool</button><button value="true"><span>set </span>next tool <b>»</b></button><a href="#search"><b>↑</b> show all<span> tools</</a></div>');
 
   // previous and next tool buttons
-  buttons = Array.prototype.slice.call(document.getElementById('tools').getElementsByTagName('button'));
+  buttons = Array.prototype.slice.call(document.querySelectorAll('#tools button'));
   form.elements[2].addEventListener('click', prevNext);
   form.elements[3].addEventListener('click', prevNext);
 

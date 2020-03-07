@@ -52,6 +52,7 @@ Catalog
 CCFr
 Cengage
 Center
+Chiebukuro
 Clipart
 collectif
 Corel
@@ -153,6 +154,7 @@ IRC
 iseek.ai
 issuu
 iStock
+Ja
 JACAR
 Jisc
 Joomag
@@ -211,6 +213,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+Oshiete
 Osmikon
 OverDrive
 PaperOfRecord.com

@@ -30,18 +30,18 @@ See http://www.faganfinder.com/
 
 
 ## Understanding Google Analytics events
-* Category: section name or `overview`, `header`, or `footer`
-    * overview is for the first (untitled) details section
-    * header and footer are for the 'About' link and the email link
-* Action and label
-    * `search`/`noquery-button`/`enter`
-        * tool name
-    * `detail-name`/`details`
-       * i.e. clicking the section name (non-mobile) or 'Details' link (mobile)
+* Category: `header`, `searchbar`, section name or `overview`, or `footer`
+* Action
+    * `next`/`previous`
+    * `search`/`noquery` + `-` + `mainbutton`/`button`/`enter`
+        * Label: tool name
+        * Value: query length in characters
+    * `details`
+       * Label `name` (non-mobile) or `details` (mobile)
     * `expand`/`collapse`
     * `link` or `in-page link`
-        * link text, then link URL, separated by `||`
-    * links to other pages on the site are not tracked via events
+        * Label: link text, then link URL, separated by `||`
+    * links to other pages on the site are only tracked via events in the header and footer
 * for users without JavaScript, the tracking is different:
     * Category: `No JavaScript`
     * Action: `valid`/`invalid`

@@ -295,11 +295,11 @@
           "searchUrl": "https://yandex.ru/q/search/?text={q}"
         },
         {
-          "name": "Yahoo!<span lang=\"ja\">知恵袋</span>",
+          "name": "Yahoo! Chiebukuro — <abbr title=\"Japanese\">Ja.</abbr>",
           "searchUrl": "https://chiebukuro.yahoo.co.jp/search/?flg=3&p={q}"
         },
         {
-          "name": "<span lang=\"ja\">教えて</span>!goo",
+          "name": "Oshiete! goo — Japanese",
           "searchUrl": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT={q}"
         },
         {
@@ -468,7 +468,7 @@
     },
     {
       "name": "Libraries and archives — Europe",
-      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Europe",
+      "shortName": "<abbr title=\"Libraries and archives\">Libraries+</abbr> Europe",
       "tools": [
         {
           "name": "Europeana",
@@ -522,7 +522,7 @@
     },
     {
       "name": "Libraries and archives — Americas",
-      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Americas",
+      "shortName": "<abbr title=\"Libraries and archives\">Libraries+</abbr> Americas",
       "tools": [
         {
           "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
@@ -560,7 +560,7 @@
     },
     {
       "name": "Libraries and archives — Asia",
-      "shortName": "<abbr title=\"Libraries and archives\">L&A</abbr> — Asia",
+      "shortName": "<abbr title=\"Libraries and archives\">Libraries+</abbr> Asia",
       "tools": [
         {
           "name": "CrossAsia",
