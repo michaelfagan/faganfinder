@@ -878,8 +878,20 @@
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q={q}"
         },
         {
+          "name": "Internet Archive",
+          "searchUrl": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query={q}"
+        },
+        {
           "name": "Gale — not free",
           "searchUrl": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~{q}"
+        },
+        {
+          "name": "Longform",
+          "searchUrl": "https://longform.org/search?q={q}"
+        },
+        {
+          "name": "Longreads",
+          "searchUrl": "https://longreads.com/?s={q}"
         }
       ]
     },

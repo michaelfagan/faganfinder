@@ -3017,6 +3017,25 @@
     "checked": 1582118238
   },
   {
+    "url": "https://longreads.com/",
+    "status": "301",
+    "title": "Longreads : The best longform stories on the web",
+    "checked": 1583601074,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://longreads.com/?s=test",
+    "status": "301",
+    "redirect": "https://longreads.com/",
+    "title": " test  :  Search Results   :  Longreads",
+    "checked": 1583601074,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.loyalbooks.com/",
     "status": "200",
     "title": "7,000+ Free Audio Books & eBook Downloads - Loyal Books",
@@ -7073,6 +7092,15 @@
     "checked": 1582118076
   },
   {
+    "url": "https://archive.org/details/magazine_rack",
+    "status": "301",
+    "title": "The Magazine Rack : Free Texts : Free Download, Borrow and Streaming : Internet Archive",
+    "checked": 1583621674,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://archive.org/details/movies?and[]=test",
     "status": "301",
     "redirect": "https://archive.org/details/movies",
@@ -7184,6 +7212,15 @@
       "information"
     ],
     "checked": 1582118108
+  },
+  {
+    "url": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query=test",
+    "status": "200",
+    "title": "Internet Archive Search: test",
+    "checked": 1583621673,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://archive.org/search.php?and[]=collection:%22newspapers%22&sin=TXT&query=test",
@@ -7653,6 +7690,24 @@
       "listen"
     ],
     "checked": 1582117453
+  },
+  {
+    "url": "https://longform.org/",
+    "status": "301",
+    "title": "Longform",
+    "checked": 1583601074,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://longform.org/search?q=test",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://longform.org/search",
+    "checked": 1583601073,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://mediacloud.org/",
