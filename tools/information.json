@@ -1,7 +1,7 @@
 {
   "description": {
     "internal": "search engines, research, social media, archives, news, data and more",
-    "external": "The most comprehensive set of tools for finding information online. All the best search engines and much more."
+    "external": "The most comprehensive set of tools for finding information online. All the best search engines, databases, and more."
   },
   "path": "",
   "sections": [
@@ -147,6 +147,10 @@
         {
           "name": "WikiLeaks",
           "searchUrl": "https://search.wikileaks.org/?q={q}"
+        },
+        {
+          "name": "iseek.ai Education",
+          "searchUrl": "http://iseek.com/#/search/education?q={q}"
         },
         {
           "name": "J! Archive (Jeopardy)",
@@ -395,7 +399,7 @@
         },
         {
           "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st"
         }
       ]
     },
@@ -660,18 +664,6 @@
       ]
     },
     {
-      "name": "Educational search engines",
-      "tools": [
-        {
-          "name": "SweetSearch",
-          "searchUrl": "https://www.sweetsearch.com/search?q={q}"
-        },
-        {
-          "name": "iseek.ai Education",
-          "searchUrl": "http://iseek.com/#/search/education?q={q}"
-        }
-      ]
-    },    {
       "name": "<abbr title=\"Search engines\">Engines</abbr> by recency",
       "tools": [
         {

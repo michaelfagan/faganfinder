@@ -281,7 +281,6 @@ Shutterstock
 SimplyScripts
 Sina
 Siri
-SlideOnline.com
 SlideShare
 Slofile
 SmallTownPapers
@@ -302,7 +301,6 @@ subcollections
 subreddits
 subreddit
 SupportGroups
-SweetSearch
 Swisscows
 Taringa
 TeacherTube

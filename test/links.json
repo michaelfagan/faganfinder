@@ -2169,11 +2169,11 @@
     "checked": 1582117779
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Aslideonline.com%20%7C%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:slideonline.com | site:noti.st - Google Search",
-    "checked": 1583110512,
+    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:noti.st - Google Search",
+    "checked": 1583624080,
     "pages": [
       "information"
     ]
@@ -4286,6 +4286,15 @@
     "checked": 1582118180
   },
   {
+    "url": "https://www.reddit.com/wiki/search",
+    "status": "301",
+    "title": "search - reddit.com",
+    "checked": 1583624081,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://reelgood.com/",
     "status": "301",
     "pages": [
@@ -4905,25 +4914,6 @@
     "pages": [
       "group"
     ]
-  },
-  {
-    "url": "https://www.sweetsearch.com/",
-    "status": "302",
-    "title": "SweetSearch - A Search Engine for Students",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118385
-  },
-  {
-    "url": "https://www.sweetsearch.com/search?q=test",
-    "status": "302",
-    "redirect": "https://www.sweetsearch.com/search",
-    "title": "SweetSearch - A Search Engine for Students",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118386
   },
   {
     "url": "https://swisscows.com/web?&query=test",
