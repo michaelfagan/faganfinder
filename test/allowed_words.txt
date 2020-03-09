@@ -54,6 +54,8 @@ Catalog
 CCFr
 Cengage
 Center
+Checkli
+Checklists.com
 Chiebukuro
 clearnet
 Clipart
@@ -90,6 +92,7 @@ EBSCOhost
 Echosim.io
 Ecosia
 edocr
+eHow
 EHPS
 Elephind.com
 Elephind
@@ -138,6 +141,7 @@ Haystak
 Hazine
 Hemeroteca
 Howcast
+HowTo
 Hulu
 Héritage
 i.e
@@ -153,6 +157,7 @@ IndieFlix
 IndiePix
 Instagram
 InstantWatcher
+Instructables
 iQIYI
 IRC
 iseek.ai
@@ -312,6 +317,7 @@ Tieba
 TikTok
 Tookapic
 Tor
+tos
 TruthOrFiction.com
 Tubi
 Tumblr
@@ -330,16 +336,21 @@ Vid
 VideoLectures.NET
 Viki
 Vimeo
+VisiHow
 VK
 VKontakte
 WatchKnowLearn
 WeeklyScript
 Weibo
+Wikidot
+wikiHow
 WikiLeaks
 Wikimedia
 Wikisource
 Wikiwand
 WordPerfect
+Wordpress.com
+wordpress.com
 WorldCat
 wwiTV
 YaCy

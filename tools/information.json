@@ -134,16 +134,37 @@
       ]
     },
     {
-      "name": "Miscellaneous",
+      "name": "Utilities",
       "tools": [
         {
           "name": "Wolfram|Alpha",
           "searchUrl": "https://www.wolframalpha.com/input/?i={q}"
         },
         {
-          "name": "Google Arts &amp; Culture",
-          "searchUrl": "https://artsandculture.google.com/search?q={q}"
+          "name": "Google Translate",
+          "searchUrl": "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={q}"
+        }
+      ]
+    },
+    {
+      "name": "Web hosts",
+      "tools": [
+        {
+          "name": "Wordpress.com",
+          "searchUrl": "https://en.search.wordpress.com/?q={q}"
         },
+        {
+          "name": "Medium",
+          "searchUrl": "https://medium.com/search?q={q}"
+        },
+        {
+          "name": "Wikidot",
+          "searchUrl": "http://www.wikidot.com/search:all/a/pf/q/{q}"
+        }      ]
+    },
+    {
+      "name": "Miscellaneous",
+      "tools": [
         {
           "name": "WikiLeaks",
           "searchUrl": "https://search.wikileaks.org/?q={q}"
@@ -153,20 +174,12 @@
           "searchUrl": "http://iseek.com/#/search/education?q={q}"
         },
         {
-          "name": "J! Archive (Jeopardy)",
-          "searchUrl": "http://j-archive.com/search.php?search={q}"
-        },
-        {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
         },
         {
           "name": "Global-Regulation",
           "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
-        },
-        {
-          "name": "Google Translate",
-          "searchUrl": "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={q}"
         }
       ]
     },
@@ -317,6 +330,23 @@
       ]
     },
     {
+      "name": "How tos and checklists",
+      "tools": [
+        {
+          "name": "wikiHow",
+          "searchUrl": "https://www.wikihow.com/wikiHowTo?search={q}"
+        },
+        {
+          "name": "Checkli",
+          "searchUrl": "https://www.checkli.com/checklists/search?q={q}"
+        },
+        {
+          "name": "Google how-to sites",
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20%7C%20site%3Areddit.com%2Fr%2Fhowto%20%7C%20site%3Ainstructables.com%20%7C%20site%3Aehow.com%20%7C%20site%3Ahowcast.com%20%7C%20site%3Avisihow.com%20%7C%20site%3Ahowtodothings.com%20%7C%20site%3Acheckli.com%20%7C%20site%3Achecklist.com%20%7C%20site%3Aprintabletodolist.com%20%7C%20site%3Achecklists.com"
+        }
+      ]
+    },
+    {
       "name": "Books",
       "tools": [
         {
@@ -434,6 +464,10 @@
         {
           "name": "World Digital Library",
           "searchUrl": "https://www.wdl.org/en/search/?q={q}"
+        },
+        {
+          "name": "Google Arts &amp; Culture",
+          "searchUrl": "https://artsandculture.google.com/search?q={q}"
         },
         {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",

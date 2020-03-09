@@ -975,6 +975,42 @@
     "checked": 1582117694
   },
   {
+    "url": "https://checklist.com/",
+    "status": "301",
+    "title": "Checklist Templates & App - Checklist.com",
+    "checked": 1583720443,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.checklists.com/",
+    "status": "200",
+    "checked": 1583720446,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.checkli.com/checklists/search?q=test",
+    "status": "301",
+    "redirect": "https://www.checkli.com/checklists/search",
+    "title": "Free Checklist Maker - Checkli",
+    "checked": 1583715913,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.checkli.com/",
+    "status": "301",
+    "title": "Free Checklist Maker - Checkli",
+    "checked": 1583715915,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://classroomclipart.com/clipart-search/all-phrase/test/",
     "status": "301",
     "title": ">Search Results for test - Clip Art - Pictures - Graphics - Illustrations",
@@ -1270,6 +1306,14 @@
       "information"
     ],
     "checked": 1582117705
+  },
+  {
+    "url": "https://www.ehow.com/",
+    "status": "Net::ReadTimeout",
+    "checked": 1583720441,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://elephind.com/?a=q&results=1&txq=test",
@@ -2209,6 +2253,16 @@
     "checked": 1582118165
   },
   {
+    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20%7C%20site%3Areddit.com%2Fr%2Fhowto%20%7C%20site%3Ainstructables.com%20%7C%20site%3Aehow.com%20%7C%20site%3Ahowcast.com%20%7C%20site%3Avisihow.com%20%7C%20site%3Ahowtodothings.com%20%7C%20site%3Acheckli.com%20%7C%20site%3Achecklist.com%20%7C%20site%3Aprintabletodolist.com%20%7C%20site%3Achecklists.com",
+    "status": "302",
+    "redirect": "http://www.google.com/webhp",
+    "title": "test site:wikihow.com | site:reddit.com/r/howto | site:instructables.com | site:ehow.com | site:howcast.com | site:visihow.com | site:howtodothings.com | site:checkli.com | site:checklist.com | site:printabletodolist.com | site:checklists.com - Google Search",
+    "checked": 1583715914,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:scripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
@@ -2484,6 +2538,7 @@
     "status": "301",
     "title": "Howcast | The best how-to videos",
     "pages": [
+      "information",
       "video"
     ],
     "checked": 1582117805
@@ -2497,6 +2552,15 @@
       "video"
     ],
     "checked": 1582117806
+  },
+  {
+    "url": "http://www.howtodothings.com/",
+    "status": "200",
+    "title": "How To Do Things &raquo; How To Articles &amp; How To Videos",
+    "checked": 1583720442,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.iconfinder.com/",
@@ -2668,6 +2732,15 @@
     "checked": 1582118218
   },
   {
+    "url": "https://www.instructables.com/",
+    "status": "301",
+    "title": "Yours for the making - Instructables",
+    "checked": 1583720321,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://so.iqiyi.com/so/q_test",
     "status": "200",
     "title": "test_视频在线观看-爱奇艺搜索",
@@ -2757,32 +2830,6 @@
       "image"
     ],
     "checked": 1582118220
-  },
-  {
-    "url": "http://j-archive.com/",
-    "status": "200",
-    "title": "J! Archive",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118220
-  },
-  {
-    "url": "http://j-archive.com/search.php?search=test",
-    "status": "Net::ReadTimeout",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118710
-  },
-  {
-    "url": "https://www.jeopardy.com/",
-    "status": "301",
-    "title": "Jeopardy! Official Site | Jeopardy.com",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118221
   },
   {
     "url": "https://www.joomag.com/",
@@ -3070,6 +3117,23 @@
       "information"
     ],
     "checked": 1582118239
+  },
+  {
+    "url": "https://medium.com/",
+    "status": "301",
+    "checked": 1583641303,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://medium.com/search?q=test",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://medium.com/search",
+    "checked": 1583641303,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.meetup.com/find/?keywords=test",
@@ -4055,6 +4119,15 @@
     "checked": 1582118304
   },
   {
+    "url": "https://www.printabletodolist.com/",
+    "status": "302",
+    "title": "To Do Lists",
+    "checked": 1583720443,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
     "status": "301",
     "redirect": "https://www.proboards.com/forum-directory/search/results/1",
@@ -4245,6 +4318,15 @@
       "information"
     ],
     "checked": 1582118316
+  },
+  {
+    "url": "https://www.reddit.com/r/howto/",
+    "status": "301",
+    "title": "r/HowTo",
+    "checked": 1583720321,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.reddit.com/r/lectures/",
@@ -5461,6 +5543,14 @@
     "checked": 1582117819
   },
   {
+    "url": "https://visihow.com/Main_Page",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "checked": 1583720743,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://visualhunt.com/",
     "status": "301",
     "title": "Visual Hunt",
@@ -5559,6 +5649,43 @@
     "checked": 1582117860
   },
   {
+    "url": "http://www.wikidot.com/",
+    "status": "200",
+    "title": "Wikidot - Free and Pro Wiki Hosting",
+    "checked": 1583670970,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.wikidot.com/search:all/a/pf/q/test",
+    "status": "200",
+    "title": "All - Wikidot - Free and Pro Wiki Hosting",
+    "checked": 1583670970,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.wikihow.com/Main-Page",
+    "status": "301",
+    "title": "wikiHow: How-to instructions you can trust.",
+    "checked": 1583672862,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.wikihow.com/wikiHowTo?search=test",
+    "status": "301",
+    "redirect": "https://www.wikihow.com/wikiHowTo",
+    "title": "Search for 'how to test' - wikihow",
+    "checked": 1583672862,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.wikiwand.com/en/test?fullSearch=true",
     "status": "301",
     "redirect": "/en/Test",
@@ -5621,6 +5748,25 @@
       "video"
     ],
     "checked": 1582117871
+  },
+  {
+    "url": "https://wordpress.com/",
+    "status": "301",
+    "title": "WordPress.com: Create a Free Website or Blog",
+    "checked": 1583640420,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://en.search.wordpress.com/?q=test",
+    "status": "301",
+    "redirect": "https://en.search.wordpress.com/",
+    "title": "WordPress.com",
+    "checked": 1583640420,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://wwitv.com/portal.htm",
