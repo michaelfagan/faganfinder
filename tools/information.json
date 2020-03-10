@@ -128,7 +128,7 @@
           "searchUrl": "https://www.pipilika.com/search?q={q}"
         },
         {
-          "name": "Seznam —  Czechia",
+          "name": "Seznam — Czechia",
           "searchUrl": "https://search.seznam.cz/?q={q}"
         }
       ]
@@ -143,6 +143,27 @@
         {
           "name": "Google Translate",
           "searchUrl": "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={q}"
+        }
+      ]
+    },
+    {
+      "name": "Encyclopedias",
+      "tools": [
+        {
+          "name": "Wikipedia",
+          "searchUrl": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikiwand (Wikipedia)",
+          "searchUrl": "http://www.wikiwand.com/en/{q}?fullSearch=true"
+        },
+        {
+          "name": "<span title=\"Encyclopædia Britannica\">Britannica</span>",
+          "searchUrl": "https://www.britannica.com/search?query={q}"
+        },
+        {
+          "name": "Baidu Baike — Chinese",
+          "searchUrl": "https://baike.baidu.com/search/word?word={q}"
         }
       ]
     },
@@ -180,23 +201,6 @@
         {
           "name": "Global-Regulation",
           "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
-        }
-      ]
-    },
-    {
-      "name": "Encyclopedias",
-      "tools": [
-        {
-          "name": "Wikipedia",
-          "searchUrl": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikiwand (Wikipedia)",
-          "searchUrl": "http://www.wikiwand.com/en/{q}?fullSearch=true"
-        },
-        {
-          "name": "<span title=\"Encyclopædia Britannica\">Britannica</span>",
-          "searchUrl": "https://www.britannica.com/search?query={q}"
         }
       ]
     },
@@ -428,7 +432,7 @@
           "searchUrl": "https://slides.com/explore?search={q}"
         },
         {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "name": "Google by format &amp; site",
           "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st"
         }
       ]
@@ -879,7 +883,7 @@
           "searchUrl": "https://go.newspapers.com/results.php?query={q}"
         },
         {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "name": "Google by site",
           "searchUrl": "https://www.google.com/search?q={q}+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com"
         },
         {

@@ -676,6 +676,23 @@
     "checked": 1582117681
   },
   {
+    "url": "https://baike.baidu.com/",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "checked": 1583841377,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://baike.baidu.com/search/word?word=test",
+    "status": "301",
+    "redirect": "https://baike.baidu.com/search/word",
+    "checked": 1583842323,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://tieba.baidu.com/f/search/res?ie=utf-8&qw=test",
     "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
     "checked": 1582462719,
