@@ -354,11 +354,11 @@
       "name": "Books",
       "tools": [
         {
-          "name": "Google Books — free",
+          "name": "Google Books free books",
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkv:f&q={q}"
         },
         {
-          "name": "Google Books",
+          "name": "Google Books books",
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:b&q={q}"
         },
         {
@@ -366,7 +366,7 @@
           "searchUrl": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1={q};a=srchls"
         },
         {
-          "name": "Internet Archive",
+          "name": "Internet Archive books",
           "searchUrl": "https://archive.org/search.php?and[]=collection:%22texts%22&sin=TXT&query={q}"
         },
         {
@@ -462,7 +462,7 @@
           "searchUrl": "https://archive.org/search.php?sin=TXT&query={q}"
         },
         {
-          "name": "Google Books — all",
+          "name": "Google Books",
           "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
         },
         {
@@ -837,19 +837,19 @@
           "searchUrl": "https://elephind.com/?a=q&results=1&txq={q}"
         },
         {
-          "name": "Europeana",
+          "name": "Europeana newspapers",
           "searchUrl": "https://www.europeana.eu/portal/en/collections/newspapers?q={q}"
         },
         {
-          "name": "Google Books",
+          "name": "Google Books newspapers",
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:s&q={q}"
         },
         {
-          "name": "Internet Archive",
+          "name": "Internet Archive newspapers",
           "searchUrl": "https://archive.org/search.php?and[]=collection:%22newspapers%22&sin=TXT&query={q}"
         },
         {
-          "name": "Library of Congress",
+          "name": "<abbr title=\"Library\">Lib.</abbr> of Congress newspapers",
           "searchUrl": "https://www.loc.gov/newspapers/?all=true&dl=page&q={q}"
         },
         {
@@ -866,7 +866,7 @@
           "post": "palabras"
         },
         {
-          "name": "Trove — Australia",
+          "name": "Trove <abbr title=\"newspapers\">news.</abbr> — <abbr title=\"Australia\">AU</abbr>",
           "searchUrl": "https://trove.nla.gov.au/newspaper/result?q={q}"
         }
       ]
@@ -891,7 +891,7 @@
           "searchUrl": "https://www.ancestry.com/search/categories/np_newspapers/?keyword={q}"
         },
         {
-          "name": "Gale",
+          "name": "Gale newspapers",
           "searchUrl": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&tabID=T004&qt=OQE~{q}"
         },
         {
@@ -904,15 +904,15 @@
       "name": "Magazine articles",
       "tools": [
         {
-          "name": "Google Books",
+          "name": "Google Books magazines",
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q={q}"
         },
         {
-          "name": "Internet Archive",
+          "name": "Internet Archive magazines",
           "searchUrl": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query={q}"
         },
         {
-          "name": "Gale — not free",
+          "name": "Gale (not free) magazines",
           "searchUrl": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~{q}"
         },
         {

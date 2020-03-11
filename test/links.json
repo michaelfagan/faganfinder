@@ -1914,15 +1914,6 @@
     "checked": 1582117761
   },
   {
-    "url": "https://www.global-regulation.com/tools.php",
-    "status": "200",
-    "title": "Regulatory Tools",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117761
-  },
-  {
     "url": "https://globoplay.globo.com/busca/?q=test",
     "status": "301",
     "redirect": "https://globoplay.globo.com/busca/",
