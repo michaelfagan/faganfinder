@@ -10,7 +10,6 @@
 500px
 Abhilekh
 ABYZ
-AFP
 Agence
 aggregators
 Ahmia
@@ -104,7 +103,6 @@ Europeana
 Everypixel
 everystockphoto
 Exalead
-FactCheck.org
 Fagan
 faganfinder.com
 Fandom
@@ -115,6 +113,7 @@ Findmypast
 Flaticon
 Flickr
 Flipsnack
+FNS
 Foleon
 Foter
 Fotki
@@ -250,6 +249,7 @@ Podbean
 Podcasts.com
 Podchaser
 PodSearch
+PolitiFact
 Popcornflix
 PostScript
 Prelinger

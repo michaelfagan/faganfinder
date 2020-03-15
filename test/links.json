@@ -413,25 +413,6 @@
     "checked": 1582117644
   },
   {
-    "url": "https://factcheck.afp.com/",
-    "status": "302",
-    "title": "AFP Fact Check |",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117646
-  },
-  {
-    "url": "https://factcheck.afp.com/search?keyword=test",
-    "status": "302",
-    "redirect": "https://factcheck.afp.com/search",
-    "title": "AFP search | AFP Fact Check",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117648
-  },
-  {
     "url": "https://search.alexanderstreet.com/",
     "status": "301",
     "title": "Alexander Street, a ProQuest Company",
@@ -4072,6 +4053,25 @@
     "checked": 1582118711
   },
   {
+    "url": "https://www.politifact.com/",
+    "status": "301",
+    "title": "PolitiFact",
+    "checked": 1584295513,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.politifact.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://www.politifact.com/search/",
+    "title": "PolitiFact",
+    "checked": 1584295513,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.popcornflix.com/",
     "status": "301",
     "title": "Watch Free Movies &amp; TV Shows Online  | Popcornflix",
@@ -7152,6 +7152,50 @@
     ]
   },
   {
+    "url": "https://factualsearch.news/#?fns.type=center-only&gsc.q=test",
+    "status": "301",
+    "redirect": "https://factualsearch.news/",
+    "checked": 1584189771,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://factualsearch.news/#?fns.type=fact-checking&gsc.q=test",
+    "status": "301",
+    "redirect": "https://factualsearch.news/",
+    "checked": 1584199416,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://factualsearch.news/",
+    "status": "301",
+    "checked": 1584189771,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://untrue.news/",
+    "status": "200",
+    "title": "Untrue News: a fake search engine",
+    "checked": 1584284214,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://untrue.news/search?q=test",
+    "status": "500",
+    "title": "Untrue News: a fake search engine",
+    "checked": 1584284213,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.aodl.org/contributors.php",
     "status": "200",
     "title": "Contributors | AODL",
@@ -7718,15 +7762,6 @@
     "checked": 1582118204
   },
   {
-    "url": "https://www.factcheck.org/search/",
-    "status": "301",
-    "title": "Search - FactCheck.org",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582118205
-  },
-  {
     "url": "https://fultonsearch.org/",
     "status": "301",
     "title": "Fulton Search",
@@ -7942,6 +7977,15 @@
       "video"
     ],
     "checked": 1582117474
+  },
+  {
+    "url": "https://ifcncodeofprinciples.poynter.org/signatories",
+    "status": "301",
+    "title": "IFCN Code of Principles",
+    "checked": 1584199418,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.re3data.org/",
@@ -8188,6 +8232,15 @@
       "group"
     ],
     "checked": 1582118195
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
+    "status": "301",
+    "title": "List of fact-checking websites - Wikipedia",
+    "checked": 1584199417,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://en.wikipedia.org/wiki/List_of_national_and_state_libraries",

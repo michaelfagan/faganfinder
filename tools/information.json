@@ -407,7 +407,7 @@
           "searchUrl": "https://www.edocr.com/search?q={q}"
         },
         {
-          "name": "Google by file type",
+          "name": "Google by format",
           "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd"
         },
         {
@@ -776,6 +776,10 @@
         {
           "name": "Watson News Explorer",
           "searchUrl": "http://news-explorer.mybluemix.net/?type=unconstrained&query={q}"
+        },
+        {
+          "name": "Factual News Search",
+          "searchUrl": "https://factualsearch.news/#?fns.type=center-only&gsc.q={q}"
         }
       ]
     },
@@ -812,8 +816,20 @@
       "name": "Fact-checking",
       "tools": [
         {
+          "name": "Untrue News",
+          "searchUrl": "http://untrue.news/search?q={q}"
+        },
+        {
+          "name": "FNS fact checking sites",
+          "searchUrl": "https://factualsearch.news/#?fns.type=fact-checking&gsc.q={q}"
+        },
+        {
           "name": "Snopes",
           "searchUrl": "https://www.snopes.com/?s={q}"
+        },
+        {
+          "name": "PolitiFact",
+          "searchUrl": "https://www.politifact.com/search/?q={q}"
         },
         {
           "name": "TruthOrFiction.com",
@@ -822,10 +838,6 @@
         {
           "name": "Hoax-Slayer",
           "searchUrl": "https://www.hoax-slayer.net/?s={q}"
-        },
-        {
-          "name": "<abbr lang=\"fr\" title=\"Agence France-Presse\">AFP</abbr> Fact Check",
-          "searchUrl": "https://factcheck.afp.com/search?keyword={q}"
         }
       ]
     },
