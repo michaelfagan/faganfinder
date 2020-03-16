@@ -438,11 +438,35 @@
       ]
     },
     {
-      "name": "Academic papers",
+      "name": "Academic search engines",
       "tools": [
         {
           "name": "Google Scholar",
           "searchUrl": "https://scholar.google.com/scholar?q={q}"
+        },
+        {
+          "name": "Microsoft Academic",
+          "searchUrl": "https://academic.microsoft.com/search?q={q}"
+        },
+        {
+          "name": "BASE",
+          "searchUrl": "https://www.base-search.net/Search/Results?lookfor={q}"
+        },
+        {
+          "name": "CORE",
+          "searchUrl": "https://core.ac.uk/search?q={q}"
+        },
+        {
+          "name": "Semantic Scholar",
+          "searchUrl": "https://www.semanticscholar.org/search?q={q}"
+        },
+        {
+          "name": "arXiv",
+          "searchUrl": "https://arxiv.org/search/?searchtype=all&query={q}"
+        },
+        {
+          "name": "<abbr title=\"Directory of Open Access Journals\">DOAJ</abbr>",
+          "searchUrl": "https://doaj.org/search?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22{q}%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D"
         }
       ]
     },

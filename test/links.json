@@ -3214,6 +3214,25 @@
     "checked": 1582118176
   },
   {
+    "url": "https://academic.microsoft.com/home",
+    "status": "303",
+    "title": "Microsoft Academic",
+    "checked": 1584323226,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://academic.microsoft.com/search?q=test",
+    "status": "303",
+    "redirect": "https://academic.microsoft.com/search",
+    "title": "Microsoft Academic",
+    "checked": 1584311443,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://help.bing.microsoft.com/#apex/18/en/10001/-1",
     "status": "200",
     "pages": [
@@ -6187,6 +6206,15 @@
     "checked": 1582117919
   },
   {
+    "url": "https://ufdc.ufl.edu/hnccoll",
+    "status": "302",
+    "title": "UFDC Home - NewspaperCat: Catalog of Historical Newspapers",
+    "checked": 1584308271,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://etc.usf.edu/lit2go/",
     "status": "301",
     "title": "Welcome to Lit2Go ETC",
@@ -6936,6 +6964,23 @@
     "checked": 1582117997
   },
   {
+    "url": "https://www.base-search.net/Search/Results?lookfor=test",
+    "status": "301",
+    "redirect": "https://www.base-search.net/Search/Results",
+    "checked": 1584325817,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.base-search.net/",
+    "status": "301",
+    "checked": 1584325819,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://search.daum.net/search?q=test",
     "status": "301",
     "redirect": "http://search.daum.net/search?w=tot&",
@@ -7483,6 +7528,25 @@
     "checked": 1582118137
   },
   {
+    "url": "https://arxiv.org/",
+    "status": "301",
+    "title": "arXiv.org e-Print archive",
+    "checked": 1584323227,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://arxiv.org/search/?searchtype=all&query=test",
+    "status": "301",
+    "redirect": "https://arxiv.org/search/",
+    "title": "Search | arXiv e-print repository",
+    "checked": 1584323226,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.aseanlibrary.org/",
     "status": "200",
     "title": "Asean Digital Library",
@@ -7741,6 +7805,25 @@
       "information"
     ],
     "checked": 1582118203
+  },
+  {
+    "url": "https://doaj.org/",
+    "status": "301",
+    "title": "Directory of Open Access Journals",
+    "checked": 1584327292,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://doaj.org/search?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22test%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D",
+    "status": "301",
+    "redirect": "https://doaj.org/search",
+    "title": "Directory of Open Access Journals",
+    "checked": 1584327291,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.ecosia.org/",
@@ -8014,6 +8097,25 @@
       "information"
     ],
     "checked": 1582117478
+  },
+  {
+    "url": "https://www.semanticscholar.org/",
+    "status": "301",
+    "title": "Semantic Scholar | AI-Powered Research Tool",
+    "checked": 1584359087,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.semanticscholar.org/search?q=test",
+    "status": "301",
+    "redirect": "https://www.semanticscholar.org/search",
+    "title": "test | Semantic Scholar",
+    "checked": 1584359087,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.taforum.org/trade-associations/",
@@ -8653,6 +8755,24 @@
       "video"
     ],
     "checked": 1582117559
+  },
+  {
+    "url": "https://core.ac.uk/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1584327837,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://core.ac.uk/search?q=test",
+    "status": "308",
+    "redirect": "https://core.ac.uk/search",
+    "title": "Search CORE",
+    "checked": 1584327835,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://discover.libraryhub.jisc.ac.uk/",

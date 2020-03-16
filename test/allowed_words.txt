@@ -24,6 +24,7 @@ AODL
 Aparat
 ArchiveGrid
 ARCHIVESCANADA.ca
+arXiv
 Asean
 Audiobooks.com
 Audiobooks
@@ -36,6 +37,7 @@ Bechdel
 Biblioteca
 Bibliothek
 Bibliothèque
+Bielefeld
 Bing
 Biznar
 BNDigital
@@ -81,6 +83,7 @@ DeviantArt
 Digitale
 DLME
 dLOC
+DOAJ
 DocumentaryHeaven
 Douban
 DPLA
@@ -210,6 +213,7 @@ NewsLibrary.com
 Newslookup.com
 NewsNow
 NewspaperArchive.com
+NewspaperCat
 Newspapers.com
 Nextdoor
 NFB
