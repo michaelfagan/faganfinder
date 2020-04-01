@@ -449,27 +449,103 @@
           "searchUrl": "https://academic.microsoft.com/search?q={q}"
         },
         {
-          "name": "BASE",
-          "searchUrl": "https://www.base-search.net/Search/Results?lookfor={q}"
-        },
-        {
-          "name": "CORE",
-          "searchUrl": "https://core.ac.uk/search?q={q}"
+          "name": "The Lens",
+          "searchUrl": "https://www.lens.org/lens/scholar/search/results?q={q}"
         },
         {
           "name": "Semantic Scholar",
           "searchUrl": "https://www.semanticscholar.org/search?q={q}"
         },
         {
-          "name": "arXiv",
-          "searchUrl": "https://arxiv.org/search/?searchtype=all&query={q}"
+          "name": "BASE",
+          "searchUrl": "https://www.base-search.net/Search/Results?lookfor={q}"
+        },
+        {
+          "name": "Scilit",
+          "searchUrl": "https://www.scilit.net/articles/search?globalSearch={q}"
+        },
+        {
+          "name": "Dimensions",
+          "searchUrl": "https://app.dimensions.ai/discover/publication?search_text={q}"
+        },
+        {
+          "name": "SHARE",
+          "searchUrl": "https://share.osf.io/discover?q={q}"
+        },
+        {
+          "name": "Baidu Scholar — Chinese",
+          "searchUrl": "https://xueshu.baidu.com/s?wd={q}"
+        }
+      ]
+    },
+    {
+      "name": "Open access academic",
+      "tools": [
+        {
+          "name": "CORE",
+          "searchUrl": "https://core.ac.uk/search?q={q}"
+        },
+        {
+          "name": "JURN",
+          "searchUrl": "http://www.jurn.org/#gsc.q={q}"
         },
         {
           "name": "<abbr title=\"Directory of Open Access Journals\">DOAJ</abbr>",
           "searchUrl": "https://doaj.org/search?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22{q}%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D"
+        },
+        {
+          "name": "OpenGrey",
+          "searchUrl": "http://opengrey.eu/search/request?q={q}"
         }
       ]
     },
+    {
+      "name": "Alternative academic tools",
+      "tools": [
+        {
+          "name": "Get The Research",
+          "searchUrl": "https://gettheresearch.org/search?q={q}"
+        },
+        {
+          "name": "JournalMap",
+          "searchUrl": "https://www.journalmap.org/search#list?query={q}"
+        }
+      ]
+    },
+    {
+      "name": "Paid and library databases",
+      "tools": [
+        {
+          "name": "ProQuest + Gale etc.",
+          "searchUrl": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,{q}"
+        },
+        {
+          "name": "ProQuest",
+          "searchUrl": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q={q}"
+        },
+        {
+          "name": "Questia",
+          "searchUrl": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords={q}"
+        },
+        {
+          "name": "Web of Science",
+          "searchUrl": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=WEB&SrcAuth=HSB&DestApp=UA&DestLinkType=GeneralSearchSummary&btnWS=Search&topic={q}"
+        },
+        {
+          "name": "Scopus",
+          "searchUrl": "https://www.scopus.com/results/results.uri?src=s&sot=b&s=TITLE-ABS-KEY%28{q}%29"
+        },
+        {
+          "name": "JSTOR",
+          "searchUrl": "https://www.jstor.org/action/doBasicSearch?Query={q}"
+        },
+        {
+          "name": "Ingenta Connect",
+          "searchUrl": "https://www.ingentaconnect.com/search?option1=tka&value1={q}"
+        }
+      ]
+    },
+
     {
       "name": "Libraries and archives",
       "tools": [
@@ -538,7 +614,7 @@
       "tools": [
         {
           "name": "Europeana",
-          "searchUrl": "https://www.europeana.eu/portal/en/search?q={q}"
+          "searchUrl": "https://www.europeana.eu/en/search?query={q}"
         },
         {
           "name": "Osmikon",
@@ -709,23 +785,6 @@
       ]
     },
     {
-      "name": "Paid and library databases",
-      "tools": [
-        {
-          "name": "ProQuest + Gale etc.",
-          "searchUrl": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,{q}"
-        },
-        {
-          "name": "ProQuest",
-          "searchUrl": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q={q}"
-        },
-        {
-          "name": "Questia",
-          "searchUrl": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords={q}"
-        }
-      ]
-    },
-    {
       "name": "<abbr title=\"Search engines\">Engines</abbr> by recency",
       "tools": [
         {
@@ -873,8 +932,12 @@
           "searchUrl": "https://elephind.com/?a=q&results=1&txq={q}"
         },
         {
-          "name": "Europeana newspapers",
-          "searchUrl": "https://www.europeana.eu/portal/en/collections/newspapers?q={q}"
+          "name": "Europeana full text <abbr title=\"newspapers\">news.</abbr>",
+          "searchUrl": "https://www.europeana.eu/en/collections/topic/18-newspapers?query={q}"
+        },
+        {
+          "name": "Europeana <abbr title=\"newspapers\">news.</abbr> titles",
+          "searchUrl": "https://www.europeana.eu/en/collections/topic/18-newspapers?api=metadata&query={q}"
         },
         {
           "name": "Google Books newspapers",
@@ -965,7 +1028,7 @@
       "name": "Find databases",
       "tools": [
         {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "name": "Google with keywords",
           "searchUrl": "https://www.google.com/search?q={q}+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository"
         },
         {

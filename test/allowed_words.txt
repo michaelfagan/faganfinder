@@ -24,7 +24,6 @@ AODL
 Aparat
 ArchiveGrid
 ARCHIVESCANADA.ca
-arXiv
 Asean
 Audiobooks.com
 Audiobooks
@@ -135,6 +134,7 @@ Goodreads
 GPIB
 Grafiti
 Granth
+GreyNet
 Groups.io
 GroupSpaces
 Gutefrage
@@ -151,6 +151,7 @@ i.e
 Ibero
 Iberoamericano
 Iconfinder
+IFCN
 iHeartRadio
 ImageBase
 IMDb
@@ -158,6 +159,7 @@ Imgur
 IMSDb
 IndieFlix
 IndiePix
+Ingenta
 Instagram
 InstantWatcher
 Instructables
@@ -170,10 +172,15 @@ Ja
 JACAR
 Jisc
 Joomag
+JournalMap
+JournalSeek
+JSTOR
+JURN
 JustWatch
 Knewz
 Knoema
 Kobo
+Kopernio
 LibGuides
 LibriVox
 LinkedIn
@@ -230,6 +237,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+OpenGrey
 Oshiete
 Osmikon
 OverDrive
@@ -264,6 +272,7 @@ Prezi
 ProBoards
 ProQuest
 Publitas
+PubPeer
 Questia
 Quora
 Qwant
@@ -278,11 +287,15 @@ RSS
 Rutube
 Sanjeevani
 SchoolTube
+ScienceResearch.com
+Scilit
+Scopus
 Scribd
 Scribl
 searchable
 Searx
 Seznam
+SHARE
 Shenma
 SHOUTcast
 Showtimes
@@ -333,6 +346,7 @@ TV.com
 TVmaze
 TVopedia
 UIA
+Unpaywall
 Unsplash
 UOL
 URLinfo
@@ -358,6 +372,7 @@ WordPerfect
 Wordpress.com
 wordpress.com
 WorldCat
+WorldWideScience
 wwiTV
 YaCy
 Yandex.Q

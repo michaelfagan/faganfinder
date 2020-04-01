@@ -1,5 +1,25 @@
 [
   {
+    "url": "https://app.dimensions.ai/discover/publication",
+    "status": "301",
+    "redirect": "https://app.dimensions.ai:443/discover/publication",
+    "title": " Dimensions ",
+    "checked": 1584806548,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://app.dimensions.ai/discover/publication?search_text=test",
+    "status": "301",
+    "redirect": "https://app.dimensions.ai:443/discover/publication",
+    "title": " test in Publications - Dimensions ",
+    "checked": 1584806547,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.naa.gov.au/",
     "status": "301",
     "title": "Home page | naa.gov.au",
@@ -708,6 +728,23 @@
       "information"
     ],
     "checked": 1582118417
+  },
+  {
+    "url": "https://xueshu.baidu.com/",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "checked": 1584495448,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://xueshu.baidu.com/s?wd=test",
+    "status": "302",
+    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=9681352686543119802&signature=2cd349c05653e7337cee753bb19053de&timestamp=1584495445",
+    "checked": 1584495447,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://zhidao.baidu.com/",
@@ -2008,6 +2045,15 @@
     "checked": 1582117770
   },
   {
+    "url": "https://chrome.google.com/webstore/detail/google-scholar-button/ldipcbpaocekfooobnbcddclnhejkcpn",
+    "status": "301",
+    "title": "Google Scholar Button - Chrome Web Store",
+    "checked": 1585446963,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
     "status": "200",
     "title": "Google Groups",
@@ -2478,6 +2524,15 @@
     "checked": 1582117803
   },
   {
+    "url": "http://www.greylitguides.com/sources-of-grey-lit/",
+    "status": "200",
+    "title": "Sources of Grey Literature &#8211; Grey Literature Guides",
+    "checked": 1584893669,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://groupspaces.com/",
     "status": "200",
     "title": "Free Group Website, Membership Database, Listserv Mailing List, Online Group Management Software : GroupSpaces",
@@ -2684,6 +2739,25 @@
       "video"
     ],
     "checked": 1582118212
+  },
+  {
+    "url": "https://www.ingentaconnect.com/",
+    "status": "301",
+    "title": "Home: Ingenta Connect",
+    "checked": 1585433349,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.ingentaconnect.com/search?option1=tka&value1=test",
+    "status": "301",
+    "redirect": "https://www.ingentaconnect.com/search",
+    "title": "Search Results: Ingenta Connect",
+    "checked": 1585433347,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.instagram.com/explore/tags/test/",
@@ -2968,6 +3042,15 @@
       "listen"
     ],
     "checked": 1582118228
+  },
+  {
+    "url": "https://kopernio.com/",
+    "status": "301",
+    "title": "Access millions of research papers in one click.",
+    "checked": 1585446966,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.learnoutloud.com/Podcast-Directory",
@@ -4210,6 +4293,15 @@
     ]
   },
   {
+    "url": "https://pubpeer.com/",
+    "status": "301",
+    "title": "PubPeer - Search publications and join the conversation.",
+    "checked": 1585437528,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.questia.com/",
     "status": "200",
     "pages": [
@@ -4520,6 +4612,31 @@
       "video"
     ],
     "checked": 1582118325
+  },
+  {
+    "url": "https://www.scienceresearch.com/scienceresearch/desktop/en/search.html",
+    "status": "301",
+    "checked": 1585307861,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.scopus.com/",
+    "status": "301",
+    "checked": 1585513126,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.scopus.com/results/results.uri?src=s&sot=b&s=TITLE-ABS-KEY%28test%29",
+    "status": "301",
+    "redirect": "https://www.scopus.com/results/results.uri",
+    "checked": 1585513126,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.scoutzen.com/twitter-lists/search",
@@ -5632,6 +5749,23 @@
     "checked": 1582117857
   },
   {
+    "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=WEB&SrcAuth=HSB&DestApp=UA&DestLinkType=GeneralSearchSummary&btnWS=Search&topic=test",
+    "status": "400",
+    "checked": 1584828548,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.webofknowledge.com/",
+    "status": "Operation timed out",
+    "redirect": "http://login.webofknowledge.com/error/Error?Error=IPError&PathInfo=%2F&RouterURL=http%3A%2F%2Fwww.webofknowledge.com%2F&Domain=.webofknowledge.com&Src=IP&Alias=WOK5",
+    "checked": 1584828575,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.weeklyscript.com/",
     "status": "301",
     "title": "Movie Scripts and Screenplays | WeeklyScript.com",
@@ -6261,41 +6395,52 @@
     "checked": 1582117924
   },
   {
-    "url": "https://www.europeana.eu/portal/en/collections/newspapers/country.html",
+    "url": "https://www.europeana.eu/en/collections/topic/18-newspapers?api=metadata&query=test",
     "status": "302",
-    "title": "Browse newspapers by country - Europeana Collections",
+    "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
+    "title": "Newspapers",
+    "checked": 1585270055,
     "pages": [
       "information"
-    ],
-    "checked": 1582117926
+    ]
   },
   {
-    "url": "https://www.europeana.eu/portal/en/collections/newspapers",
+    "url": "https://www.europeana.eu/en/collections/topic/18-newspapers",
     "status": "302",
-    "title": "Newspapers - Europeana Collections",
+    "title": "Newspapers",
+    "checked": 1585268459,
     "pages": [
       "information"
-    ],
-    "checked": 1582117927
+    ]
   },
   {
-    "url": "https://www.europeana.eu/portal/en/collections/newspapers?q=test",
+    "url": "https://www.europeana.eu/en/collections/topic/18-newspapers?query=test",
     "status": "302",
-    "redirect": "https://www.europeana.eu/portal/en/collections/newspapers",
-    "title": "test - Search Results - Europeana Collections",
+    "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
+    "title": "Newspapers",
+    "checked": 1585268456,
     "pages": [
       "information"
-    ],
-    "checked": 1582117930
+    ]
   },
   {
-    "url": "https://www.europeana.eu/portal/en/explore/sources.html",
+    "url": "https://www.europeana.eu/en/search?query=test",
     "status": "302",
-    "title": "Sources - Europeana Collections",
+    "redirect": "https://www.europeana.eu/en/search",
+    "title": "Search",
+    "checked": 1585268452,
     "pages": [
       "information"
-    ],
-    "checked": 1582117933
+    ]
+  },
+  {
+    "url": "https://www.europeana.eu/",
+    "status": "302",
+    "redirect": "https://www.europeana.eu",
+    "checked": 1585268457,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
@@ -6318,25 +6463,6 @@
     "checked": 1582117945
   },
   {
-    "url": "https://www.europeana.eu/portal/en/search?q=test",
-    "status": "302",
-    "redirect": "https://www.europeana.eu/portal/en/search",
-    "title": "test - Search Results - Europeana Collections",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117948
-  },
-  {
-    "url": "https://www.europeana.eu/portal/en",
-    "status": "302",
-    "title": "Europeana Collections",
-    "pages": [
-      "information"
-    ],
-    "checked": 1582117949
-  },
-  {
     "url": "http://www.filmarchives-online.eu/hitlist?Fulltext=test",
     "status": "200",
     "pages": [
@@ -6351,6 +6477,22 @@
       "video"
     ],
     "checked": 1582117953
+  },
+  {
+    "url": "http://opengrey.eu/",
+    "status": "200",
+    "checked": 1584876471,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://opengrey.eu/search/request?q=test",
+    "status": "200",
+    "checked": 1584876470,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://ahmia.fi/",
@@ -6780,6 +6922,23 @@
     "checked": 1582118189
   },
   {
+    "url": "https://share.osf.io/discover?q=test",
+    "status": "301",
+    "redirect": "https://share.osf.io/discover",
+    "checked": 1584962427,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://share.osf.io/",
+    "status": "301",
+    "checked": 1584962427,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://parsijoo.ir/",
     "status": "200",
     "title": "پارسی جو: جستجوگر ایرانی",
@@ -7062,6 +7221,15 @@
     "checked": 1582118029
   },
   {
+    "url": "http://journalseek.net/",
+    "status": "200",
+    "title": "JournalSeek - A Searchable Database of Online Scholarly Journals",
+    "checked": 1585417606,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.metabase.net/",
     "status": "\"\\xED\" from ASCII-8BIT to UTF-8",
     "pages": [
@@ -7086,6 +7254,25 @@
       "information"
     ],
     "checked": 1582118029
+  },
+  {
+    "url": "https://www.scilit.net/articles/search?globalSearch=test",
+    "status": "301",
+    "redirect": "https://www.scilit.net/articles/search",
+    "title": "Scilit | Articles",
+    "checked": 1584909406,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.scilit.net/",
+    "status": "301",
+    "title": "Scilit - Scientific Literature",
+    "checked": 1584909407,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.slideshare.net/",
@@ -7528,25 +7715,6 @@
     "checked": 1582118137
   },
   {
-    "url": "https://arxiv.org/",
-    "status": "301",
-    "title": "arXiv.org e-Print archive",
-    "checked": 1584323227,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://arxiv.org/search/?searchtype=all&query=test",
-    "status": "301",
-    "redirect": "https://arxiv.org/search/",
-    "title": "Search | arXiv e-print repository",
-    "checked": 1584323226,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "http://www.aseanlibrary.org/",
     "status": "200",
     "title": "Asean Digital Library",
@@ -7873,6 +8041,24 @@
     "checked": 1582118208
   },
   {
+    "url": "https://gettheresearch.org/",
+    "status": "200",
+    "title": "Get The Research",
+    "checked": 1584665104,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://gettheresearch.org/search?q=test",
+    "status": "200",
+    "title": "Get The Research",
+    "checked": 1584665104,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.gutenberg.org/browse/categories/1",
     "status": "200",
     "title": "Browse By Category: Audio Book, human-read - Project Gutenberg",
@@ -7926,6 +8112,61 @@
     "checked": 1582117451
   },
   {
+    "url": "https://journalmap.org/",
+    "status": "301",
+    "title": "JournalMap",
+    "checked": 1584822543,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.journalmap.org/search#list?query=test",
+    "status": "301",
+    "redirect": "https://www.journalmap.org/search",
+    "title": "JournalMap",
+    "checked": 1584822542,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.jstor.org/action/doBasicSearch?Query=test",
+    "status": "403",
+    "title": "JSTOR: Access Check",
+    "checked": 1584662636,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.jstor.org/",
+    "status": "200",
+    "title": "JSTOR",
+    "checked": 1584662637,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.jurn.org/#gsc.q=test",
+    "status": "403",
+    "title": "403 Forbidden",
+    "checked": 1584667508,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.jurn.org/",
+    "status": "403",
+    "title": "403 Forbidden",
+    "checked": 1584667509,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.khanacademy.org/",
     "status": "301",
     "title": "Khan Academy | Free Online Courses, Lessons &amp; Practice",
@@ -7933,6 +8174,32 @@
       "video"
     ],
     "checked": 1582117452
+  },
+  {
+    "url": "http://www.lazyscholar.org/",
+    "status": "200",
+    "title": "Lazy Scholar | Extension",
+    "checked": 1585446964,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.lens.org/",
+    "status": "301",
+    "checked": 1584804344,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.lens.org/lens/scholar/search/results?q=test",
+    "status": "301",
+    "redirect": "https://www.lens.org/lens/scholar/search/results",
+    "checked": 1584804343,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://librivox.org/",
@@ -8022,6 +8289,15 @@
       "information"
     ],
     "checked": 1582117458
+  },
+  {
+    "url": "https://openaccessbutton.org/",
+    "status": "301",
+    "title": "Open Access Button",
+    "checked": 1585446965,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://openlibrary.org/",
@@ -8216,6 +8492,15 @@
       "group"
     ],
     "checked": 1582118200
+  },
+  {
+    "url": "http://unpaywall.org/",
+    "status": "200",
+    "title": "Unpaywall",
+    "checked": 1585438308,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://www.watchknowlearn.org/SearchResults.aspx?SearchText=test",
@@ -8507,6 +8792,15 @@
       "information"
     ],
     "checked": 1582117541
+  },
+  {
+    "url": "https://worldwidescience.org/",
+    "status": "302",
+    "title": "WorldWideScience",
+    "checked": 1585430795,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://www.elib.gov.ph/",
