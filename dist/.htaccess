@@ -37,7 +37,7 @@ RewriteRule group/$ group.html [L]
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
 # old pages which were merged into /engines/
-RewriteRule ^(engines|blogs|invis|meta|dir|keyword|kids|google|aref|weather).* https://www.faganfinder.com/ [R=301,L]
+RewriteRule ^(engines|blogs|invis|meta|dir|keyword|kids|google|aref|weather|science).* https://www.faganfinder.com/ [R=301,L]
 RewriteRule ^news(|/.*)$ https://www.faganfinder.com/ [R=301,L]
 # ^ prevents newstyle.css and newscript.js from redirecting
 Redirect 301 /misc/popular.shtml https://www.faganfinder.com/
@@ -60,7 +60,7 @@ RewriteRule me/?$ http://faganm.com/blog/ [R=301,L]
 # deprecated pages
 RewriteRule (gov|comp)/ https://www.faganfinder.com/  [R=301,L]
 Redirect 301 /searchtools.shtml https://www.faganfinder.com/
-RewriteRule (audio|science|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (audio|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule (img|video)/.+.shtml https://www.faganfinder.com/$1/ [R=301,L]
 
 # more deprecated pages
@@ -130,7 +130,7 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-RewriteRule (audio|geo|bio|science|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (audio|geo|bio|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule img/index_changes.shtml https://www.faganfinder.com/img/ [R=301,L]
 
 
