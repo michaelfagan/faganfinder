@@ -351,6 +351,25 @@
     "checked": 1582117638
   },
   {
+    "url": "https://1findr.1science.com/search?query=test",
+    "status": "301",
+    "redirect": "https://1findr.1science.com/search",
+    "title": "1findr",
+    "checked": 1585792920,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.1science.com/1findr/",
+    "status": "301",
+    "title": "1findr | ",
+    "checked": 1585792921,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://500px.com/search?type=photos&q=test",
     "status": "301",
     "redirect": "https://500px.com:443/search",
@@ -765,6 +784,23 @@
     ]
   },
   {
+    "url": "http://so1.baike.com/so/search?q=test",
+    "status": "\"\\xE6\" from ASCII-8BIT to UTF-8",
+    "redirect": "http://www.baike.com/",
+    "checked": 1586218013,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.baike.com/",
+    "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
+    "checked": 1586218015,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.bbc.com/news",
     "status": "301",
     "title": "Home - BBC News",
@@ -1118,6 +1154,24 @@
       "video"
     ],
     "checked": 1582117696
+  },
+  {
+    "url": "https://www.deepdyve.com/",
+    "status": "301",
+    "checked": 1585797119,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.deepdyve.com/search?query=test",
+    "status": "301",
+    "redirect": "https://www.deepdyve.com/search",
+    "title": "test | DeepDyve",
+    "checked": 1585797118,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.delphiforums.com/",
@@ -5930,6 +5984,14 @@
     ]
   },
   {
+    "url": "https://www.worldbookonline.com/",
+    "status": "301",
+    "checked": 1586210150,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://wwitv.com/portal.htm",
     "status": "301",
     "title": "wwiTV - Watch live TV channels broadcasting on the Internet for free",
@@ -7254,6 +7316,25 @@
       "information"
     ],
     "checked": 1582118029
+  },
+  {
+    "url": "https://www.researchgate.net/",
+    "status": "301",
+    "title": "ResearchGate | Find and share research",
+    "checked": 1586101736,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.researchgate.net/search/publication?q=test",
+    "status": "301",
+    "redirect": "https://www.researchgate.net/search/publication",
+    "title": "Search Publications | ResearchGate",
+    "checked": 1586101736,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.scilit.net/articles/search?globalSearch=test",
@@ -8585,6 +8666,33 @@
     "checked": 1582117535
   },
   {
+    "url": "https://meta.wikimedia.org/wiki/List_of_Wikipedias",
+    "status": "301",
+    "title": "List of Wikipedias - Meta",
+    "checked": 1586220831,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://ar.wikipedia.org/w/index.php",
+    "checked": 1586183986,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://de.wikipedia.org/w/index.php",
+    "checked": 1586183982,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://en.wikipedia.org/w/index.php",
@@ -8735,6 +8843,105 @@
       "information"
     ],
     "checked": 1582117539
+  },
+  {
+    "url": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://es.wikipedia.org/w/index.php",
+    "checked": 1586183984,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://fr.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://fr.wikipedia.org/w/index.php",
+    "checked": 1586183982,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://it.wikipedia.org/w/index.php",
+    "checked": 1586183984,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://ja.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://ja.wikipedia.org/w/index.php",
+    "checked": 1586183986,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://nl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://nl.wikipedia.org/w/index.php",
+    "checked": 1586183983,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://pl.wikipedia.org/w/index.php",
+    "checked": 1586183985,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://pt.wikipedia.org/w/index.php",
+    "checked": 1586183987,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://ru.wikipedia.org/w/index.php",
+    "checked": 1586183983,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://sv.wikipedia.org/w/index.php",
+    "checked": 1586183981,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://vi.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://vi.wikipedia.org/w/index.php",
+    "checked": 1586183985,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://zh.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
+    "status": "301",
+    "redirect": "https://zh.wikipedia.org/w/index.php",
+    "checked": 1586183981,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://en.wikisource.org/w/index.php?title=Special%3ASearch&search=test",

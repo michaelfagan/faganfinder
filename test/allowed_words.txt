@@ -7,6 +7,7 @@
 .rft
 .tex
 .wpd
+1findr
 500px
 Abhilekh
 ABYZ
@@ -29,6 +30,7 @@ Audiobooks.com
 Audiobooks
 audiobooks
 Audioburst
+Baike.com
 Baike
 BDLB
 BDPI
@@ -47,6 +49,7 @@ Brainly
 Brasil
 Brasileira
 BVMC
+ByteDance
 CADAL
 Canadiana
 Canva
@@ -76,6 +79,7 @@ datasets
 Daum
 DDB
 de
+DeepDyve
 del
 Deutsche
 DeviantArt
@@ -283,6 +287,7 @@ recency
 Reddit
 Rede
 Reelgood
+ResearchGate
 RSS
 Rutube
 Sanjeevani

@@ -162,26 +162,71 @@
           "searchUrl": "https://www.britannica.com/search?query={q}"
         },
         {
-          "name": "Baidu Baike — Chinese",
-          "searchUrl": "https://baike.baidu.com/search/word?word={q}"
+          "name": "Wikipedia — Swedish",
+          "searchUrl": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — German",
+          "searchUrl": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — French",
+          "searchUrl": "https://fr.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Dutch",
+          "searchUrl": "https://nl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Russian",
+          "searchUrl": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Italian",
+          "searchUrl": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Spanish",
+          "searchUrl": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Polish",
+          "searchUrl": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Arabic",
+          "searchUrl": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Portuguese",
+          "searchUrl": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         }
       ]
     },
     {
-      "name": "Web hosts",
+      "name": "Encyclopedias — Asia",
       "tools": [
         {
-          "name": "Wordpress.com",
-          "searchUrl": "https://en.search.wordpress.com/?q={q}"
+          "name": "Baidu Baike — Chinese",
+          "searchUrl": "https://baike.baidu.com/search/word?word={q}"
         },
         {
-          "name": "Medium",
-          "searchUrl": "https://medium.com/search?q={q}"
+          "name": "Baike.com — Chinese",
+          "searchUrl": "http://so1.baike.com/so/search?q={q}"
         },
         {
-          "name": "Wikidot",
-          "searchUrl": "http://www.wikidot.com/search:all/a/pf/q/{q}"
-        }      ]
+          "name": "Wikipedia — Chinese",
+          "searchUrl": "https://zh.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Vietnamese",
+          "searchUrl": "https://vi.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Japanese",
+          "searchUrl": "https://ja.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        }
+      ]
     },
     {
       "name": "Miscellaneous",
@@ -334,6 +379,23 @@
       ]
     },
     {
+      "name": "Web hosts",
+      "tools": [
+        {
+          "name": "Wordpress.com",
+          "searchUrl": "https://en.search.wordpress.com/?q={q}"
+        },
+        {
+          "name": "Medium",
+          "searchUrl": "https://medium.com/search?q={q}"
+        },
+        {
+          "name": "Wikidot",
+          "searchUrl": "http://www.wikidot.com/search:all/a/pf/q/{q}"
+        }
+      ]
+    },
+    {
       "name": "How tos and checklists",
       "tools": [
         {
@@ -465,8 +527,16 @@
           "searchUrl": "https://www.scilit.net/articles/search?globalSearch={q}"
         },
         {
+          "name": "ResearchGate",
+          "searchUrl": "https://www.researchgate.net/search/publication?q={q}"
+        },
+        {
           "name": "Dimensions",
           "searchUrl": "https://app.dimensions.ai/discover/publication?search_text={q}"
+        },
+        {
+          "name": "1findr",
+          "searchUrl": "https://1findr.1science.com/search?query={q}"
         },
         {
           "name": "SHARE",
@@ -534,6 +604,10 @@
         {
           "name": "Scopus",
           "searchUrl": "https://www.scopus.com/results/results.uri?src=s&sot=b&s=TITLE-ABS-KEY%28{q}%29"
+        },
+        {
+          "name": "DeepDyve",
+          "searchUrl": "https://www.deepdyve.com/search?query={q}"
         },
         {
           "name": "JSTOR",
