@@ -447,6 +447,7 @@
     },
     {
       "name": "Publications and documents",
+      "shortName": "Publications and <abbr title=\"documents\">docs</abbr>",
       "tools": [
         {
           "name": "PDF Drive",
@@ -537,6 +538,10 @@
         {
           "name": "1findr",
           "searchUrl": "https://1findr.1science.com/search?query={q}"
+        },
+        {
+          "name": "MyScienceWork",
+          "searchUrl": "https://www.mysciencework.com/search/publications?query={q}"
         },
         {
           "name": "SHARE",
@@ -999,7 +1004,7 @@
       ]
     },
     {
-      "name": "Free news archives",
+      "name": "News archives — free",
       "tools": [
         {
           "name": "Elephind.com",
@@ -1045,7 +1050,7 @@
       ]
     },
     {
-      "name": "Paid and library news archives",
+      "name": "News archives — paid/library",
       "tools": [
         {
           "name": "NewspaperArchive.com",

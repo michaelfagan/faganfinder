@@ -3515,6 +3515,25 @@
     "checked": 1582118250
   },
   {
+    "url": "https://www.mysciencework.com/",
+    "status": "301",
+    "title": "MyScienceWork: The Global Scientific Platform",
+    "checked": 1586277747,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.mysciencework.com/search/publications?query=test",
+    "status": "301",
+    "redirect": "https://www.mysciencework.com/search/publications",
+    "title": "Search test on MyScienceWork's publications - page 1",
+    "checked": 1586277746,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://mytuner-radio.com/",
     "status": "301",
     "title": "myTuner Radio: Free Internet Radio | Listen to Podcasts Online",
