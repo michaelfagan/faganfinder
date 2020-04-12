@@ -11,6 +11,7 @@
 500px
 Abhilekh
 ABYZ
+Academia.edu
 Agence
 aggregators
 Ahmia
@@ -32,6 +33,7 @@ audiobooks
 Audioburst
 Baike.com
 Baike
+Barsa
 BDLB
 BDPI
 Bechdel
@@ -48,6 +50,7 @@ BookBeat
 Brainly
 Brasil
 Brasileira
+Brockhaus
 BVMC
 ByteDance
 CADAL
@@ -103,7 +106,10 @@ EHPS
 Elephind.com
 Elephind
 eLib
+Elsevier
 Encyclopædia
+Encyclopédie
+Enzyklopädie
 eTools.ch
 Europeana
 Everypixel
@@ -139,6 +145,7 @@ GPIB
 Grafiti
 Granth
 GreyNet
+Grolier
 Groups.io
 GroupSpaces
 Gutefrage
@@ -163,6 +170,7 @@ Imgur
 IMSDb
 IndieFlix
 IndiePix
+Infopédia
 Ingenta
 Instagram
 InstantWatcher
@@ -185,6 +193,7 @@ Knewz
 Knoema
 Kobo
 Kopernio
+Kotobank
 LibGuides
 LibriVox
 LinkedIn
@@ -195,6 +204,7 @@ Longreads
 Luso
 M.S
 Mail.ru
+Mawdoo3
 Meetup
 meetups
 MeFeedia
@@ -262,6 +272,7 @@ Picspree
 Pinterest
 Pipilika
 Pixabay
+Planeta
 Podbean
 Podcasts.com
 Podchaser
@@ -291,6 +302,7 @@ Reelgood
 ResearchGate
 RSS
 Rutube
+Saber
 Sanjeevani
 SchoolTube
 ScienceResearch.com
@@ -352,6 +364,7 @@ TV.com
 TVmaze
 TVopedia
 UIA
+Universalis
 Unpaywall
 Unsplash
 UOL
@@ -389,8 +402,11 @@ Yumpu
 Zhihu
 Архивы
 библиотека
+Большая
 Национальная
 Ответы
 России
+российская
 электронная
+энциклопедия
 Яндекс.Кью

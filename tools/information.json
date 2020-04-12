@@ -162,44 +162,8 @@
           "searchUrl": "https://www.britannica.com/search?query={q}"
         },
         {
-          "name": "Wikipedia — Swedish",
-          "searchUrl": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — German",
-          "searchUrl": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — French",
-          "searchUrl": "https://fr.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Dutch",
-          "searchUrl": "https://nl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Russian",
-          "searchUrl": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Italian",
-          "searchUrl": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Spanish",
-          "searchUrl": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Polish",
-          "searchUrl": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Arabic",
-          "searchUrl": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Portuguese",
-          "searchUrl": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+          "name": "Scholastic GO! — paid",
+          "searchUrl": "https://go.scholastic.com/search.html?q={q}"
         }
       ]
     },
@@ -225,6 +189,63 @@
         {
           "name": "Wikipedia — Japanese",
           "searchUrl": "https://ja.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        }
+      ]
+    },
+    {
+      "name": "Encyclopedias — Other",
+      "tools": [
+        {
+          "name": "Wikipedia — Spanish",
+          "searchUrl": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Russian",
+          "searchUrl": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Great Russian Encyclopedia",
+          "searchUrl": "https://bigenc.ru/search?q={q}"
+        },
+        {
+          "name": "Wikipedia — Portuguese",
+          "searchUrl": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — French",
+          "searchUrl": "https://fr.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "<span lang=\"fr\"><abbr title=\"Encyclopédie\">E.</abbr> Universalis</span> — <abbr title=\"French\">FR</abbr>",
+          "searchUrl": "https://www.universalis.fr/recherche/q/{q}/"
+        },
+        {
+          "name": "Wikipedia — Arabic",
+          "searchUrl": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Mawdoo3 — Arabic",
+          "searchUrl": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q={q}"
+        },
+        {
+          "name": "Wikipedia — German",
+          "searchUrl": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Italian",
+          "searchUrl": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Polish",
+          "searchUrl": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Dutch",
+          "searchUrl": "https://nl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Swedish",
+          "searchUrl": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         }
       ]
     },
