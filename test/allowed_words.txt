@@ -131,6 +131,7 @@ Foter
 Fotki
 fotocommunity
 FreeDocumentaries.org
+FreeFullPDF
 Freeimages
 Fultonhistory.com
 FultonSearch
@@ -171,7 +172,6 @@ IMSDb
 IndieFlix
 IndiePix
 Infopédia
-Ingenta
 Instagram
 InstantWatcher
 Instructables
@@ -184,7 +184,6 @@ Ja
 JACAR
 Jisc
 Joomag
-JournalMap
 JournalSeek
 JSTOR
 JURN
@@ -256,6 +255,7 @@ OpenGrey
 Oshiete
 Osmikon
 OverDrive
+Paperity
 PaperOfRecord.com
 Parsijoo
 Patal

@@ -1824,6 +1824,22 @@
     "checked": 1582117748
   },
   {
+    "url": "http://www.freefullpdf.com/#gsc.q=test",
+    "status": "200",
+    "checked": 1586739569,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.freefullpdf.com/",
+    "status": "200",
+    "checked": 1586739569,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.freeimages.com/",
     "status": "301",
     "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com",
@@ -2047,6 +2063,15 @@
       "group"
     ],
     "checked": 1582118165
+  },
+  {
+    "url": "http://google.com/maps?q=test",
+    "status": "301",
+    "redirect": "http://www.google.com/maps",
+    "checked": 1587300612,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://artsandculture.google.com/",
@@ -2279,6 +2304,16 @@
       "information"
     ],
     "checked": 1582118139
+  },
+  {
+    "url": "https://www.google.com/maps",
+    "status": "302",
+    "redirect": "https://www.google.com:443/maps",
+    "title": "  Google Maps  ",
+    "checked": 1587300612,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.google.com/search?q=site%3Apodcasts.apple.com%20test",
@@ -2802,25 +2837,6 @@
       "video"
     ],
     "checked": 1582118212
-  },
-  {
-    "url": "https://www.ingentaconnect.com/",
-    "status": "301",
-    "title": "Home: Ingenta Connect",
-    "checked": 1585433349,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.ingentaconnect.com/search?option1=tka&value1=test",
-    "status": "301",
-    "redirect": "https://www.ingentaconnect.com/search",
-    "title": "Search Results: Ingenta Connect",
-    "checked": 1585433347,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://www.instagram.com/explore/tags/test/",
@@ -8267,24 +8283,6 @@
     "checked": 1582118208
   },
   {
-    "url": "https://gettheresearch.org/",
-    "status": "200",
-    "title": "Get The Research",
-    "checked": 1584665104,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://gettheresearch.org/search?q=test",
-    "status": "200",
-    "title": "Get The Research",
-    "checked": 1584665104,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.gutenberg.org/browse/categories/1",
     "status": "200",
     "title": "Browse By Category: Audio Book, human-read - Project Gutenberg",
@@ -8336,25 +8334,6 @@
       "video"
     ],
     "checked": 1582117451
-  },
-  {
-    "url": "https://journalmap.org/",
-    "status": "301",
-    "title": "JournalMap",
-    "checked": 1584822543,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.journalmap.org/search#list?query=test",
-    "status": "301",
-    "redirect": "https://www.journalmap.org/search",
-    "title": "JournalMap",
-    "checked": 1584822542,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://www.jstor.org/action/doBasicSearch?Query=test",
@@ -8543,6 +8522,25 @@
       "information"
     ],
     "checked": 1582117474
+  },
+  {
+    "url": "https://paperity.org/",
+    "status": "301",
+    "title": "Paperity - Multidisciplinary aggregator of Open Access journals &amp; papers | Paperity",
+    "checked": 1586916950,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://paperity.org/search/?q=test",
+    "status": "301",
+    "redirect": "https://paperity.org/search/",
+    "title": "test - Search | Paperity",
+    "checked": 1586916948,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.pbs.org/search/?q=test",

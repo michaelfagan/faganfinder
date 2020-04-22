@@ -143,6 +143,10 @@
         {
           "name": "Google Translate",
           "searchUrl": "https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={q}"
+        },
+        {
+          "name": "Google Maps",
+          "searchUrl": "http://google.com/maps?q={q}"
         }
       ]
     },
@@ -183,12 +187,12 @@
           "searchUrl": "https://zh.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         },
         {
-          "name": "Wikipedia — Vietnamese",
-          "searchUrl": "https://vi.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
           "name": "Wikipedia — Japanese",
           "searchUrl": "https://ja.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Vietnamese",
+          "searchUrl": "https://vi.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         }
       ]
     },
@@ -200,16 +204,12 @@
           "searchUrl": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         },
         {
-          "name": "Wikipedia — Russian",
-          "searchUrl": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Great Russian Encyclopedia",
-          "searchUrl": "https://bigenc.ru/search?q={q}"
-        },
-        {
           "name": "Wikipedia — Portuguese",
           "searchUrl": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Italian",
+          "searchUrl": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         },
         {
           "name": "Wikipedia — French",
@@ -220,24 +220,8 @@
           "searchUrl": "https://www.universalis.fr/recherche/q/{q}/"
         },
         {
-          "name": "Wikipedia — Arabic",
-          "searchUrl": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Mawdoo3 — Arabic",
-          "searchUrl": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q={q}"
-        },
-        {
           "name": "Wikipedia — German",
           "searchUrl": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Italian",
-          "searchUrl": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
-        },
-        {
-          "name": "Wikipedia — Polish",
-          "searchUrl": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         },
         {
           "name": "Wikipedia — Dutch",
@@ -246,6 +230,26 @@
         {
           "name": "Wikipedia — Swedish",
           "searchUrl": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Russian",
+          "searchUrl": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Great Russian Encyclopedia",
+          "searchUrl": "https://bigenc.ru/search?q={q}"
+        },
+        {
+          "name": "Wikipedia — Polish",
+          "searchUrl": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Wikipedia — Arabic",
+          "searchUrl": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
+        },
+        {
+          "name": "Mawdoo3 — Arabic",
+          "searchUrl": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q={q}"
         }
       ]
     },
@@ -582,8 +586,16 @@
           "searchUrl": "https://core.ac.uk/search?q={q}"
         },
         {
+          "name": "Paperity",
+          "searchUrl": "https://paperity.org/search/?q={q}"
+        },
+        {
           "name": "JURN",
           "searchUrl": "http://www.jurn.org/#gsc.q={q}"
+        },
+        {
+          "name": "FreeFullPDF",
+          "searchUrl": "http://www.freefullpdf.com/#gsc.q={q}"
         },
         {
           "name": "<abbr title=\"Directory of Open Access Journals\">DOAJ</abbr>",
@@ -592,19 +604,6 @@
         {
           "name": "OpenGrey",
           "searchUrl": "http://opengrey.eu/search/request?q={q}"
-        }
-      ]
-    },
-    {
-      "name": "Alternative academic tools",
-      "tools": [
-        {
-          "name": "Get The Research",
-          "searchUrl": "https://gettheresearch.org/search?q={q}"
-        },
-        {
-          "name": "JournalMap",
-          "searchUrl": "https://www.journalmap.org/search#list?query={q}"
         }
       ]
     },
@@ -638,10 +637,6 @@
         {
           "name": "JSTOR",
           "searchUrl": "https://www.jstor.org/action/doBasicSearch?Query={q}"
-        },
-        {
-          "name": "Ingenta Connect",
-          "searchUrl": "https://www.ingentaconnect.com/search?option1=tka&value1={q}"
         }
       ]
     },
@@ -733,6 +728,18 @@
           "searchUrl": "https://discover.libraryhub.jisc.ac.uk/search?q={q}"
         },
         {
+          "name": "Gallica — France",
+          "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
+        },
+        {
+          "name": "<abbr title=\"Archives Nationales\">Arch. Nat.</abbr> — France",
+          "searchUrl": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText={q}"
+        },
+        {
+          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
+          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
+        },
+        {
           "name": "Russian State Library",
           "searchUrl": "https://search.rsl.ru/en/search#q={q}"
         },
@@ -747,18 +754,6 @@
         {
           "name": "<abbr title=\"State Public Historical Library of Russia\">GPIB</abbr> — Russia",
           "searchUrl": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query={q}"
-        },
-        {
-          "name": "Gallica — France",
-          "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
-        },
-        {
-          "name": "<abbr title=\"Archives Nationales\">Arch. Nat.</abbr> — France",
-          "searchUrl": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText={q}"
-        },
-        {
-          "name": "<abbr title=\"Deutsche Digitale Bibliothek\">DDB</abbr> — Germany",
-          "searchUrl": "https://www.deutsche-digitale-bibliothek.de/searchresults?query={q}"
         }
       ]
     },
