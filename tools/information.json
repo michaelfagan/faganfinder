@@ -166,6 +166,14 @@
           "searchUrl": "https://www.britannica.com/search?query={q}"
         },
         {
+          "name": "Credo <abbr title=\"Reference\">Ref.</abbr> — paid",
+          "searchUrl": "https://search.credoreference.com/search/all?searchPhrase={q}"
+        },
+        {
+          "name": "Oxford <abbr title=\"Reference\">Ref.</abbr> — paid",
+          "searchUrl": "https://www.oxfordreference.com/search?q={q}"
+        },
+        {
           "name": "Scholastic GO! — paid",
           "searchUrl": "https://go.scholastic.com/search.html?q={q}"
         }

@@ -1138,6 +1138,25 @@
     "checked": 1582118423
   },
   {
+    "url": "https://search.credoreference.com/",
+    "status": "301",
+    "title": "Home - Credo Reference",
+    "checked": 1587786315,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://search.credoreference.com/search/all?searchPhrase=test",
+    "status": "301",
+    "redirect": "https://search.credoreference.com/search/all",
+    "title": "Search - Credo Reference",
+    "checked": 1587786309,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.dailymotion.com/",
     "status": "301",
     "title": "Dailymotion - the home for videos that matter",
@@ -3929,6 +3948,25 @@
       "video"
     ],
     "checked": 1582118275
+  },
+  {
+    "url": "https://www.oxfordreference.com/",
+    "status": "301",
+    "title": "Oxford Reference - Answers with Authority",
+    "checked": 1587786316,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.oxfordreference.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.oxfordreference.com/search",
+    "title": "Search Results for test - Oxford Reference",
+    "checked": 1587786315,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.pandora.com/",
