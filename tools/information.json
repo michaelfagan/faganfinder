@@ -42,7 +42,7 @@
         },
         {
           "name": "iseek.ai",
-          "searchUrl": "http://iseek.com/#/search/web?q={q}"
+          "searchUrl": "https://iseek.com/#/search/web?q={q}"
         }
       ]
     },
@@ -63,7 +63,7 @@
         },
         {
           "name": "Startpage",
-          "searchUrl": "https://startpage.com/do/search",
+          "searchUrl": "https://www.startpage.com/sp/search",
           "post": "query"
         },
         {
@@ -270,7 +270,7 @@
         },
         {
           "name": "iseek.ai Education",
-          "searchUrl": "http://iseek.com/#/search/education?q={q}"
+          "searchUrl": "https://iseek.com/#/search/education?q={q}"
         },
         {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
@@ -779,7 +779,7 @@
         },
         {
           "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
-          "searchUrl": "http://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
+          "searchUrl": "https://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
         },
         {
           "name": "Canadiana Online",
