@@ -612,7 +612,7 @@
       ]
     },
     {
-      "name": "Paid and library databases",
+      "name": "Paid databases",
       "tools": [
         {
           "name": "ProQuest + Gale etc.",
@@ -1024,7 +1024,7 @@
       ]
     },
     {
-      "name": "News archives — free",
+      "name": "Newspaper archives",
       "tools": [
         {
           "name": "Elephind.com",
@@ -1070,7 +1070,8 @@
       ]
     },
     {
-      "name": "News archives — paid/library",
+      "name": "Paid newspaper archives",
+      "shortName": "Paid <abbr title=\"newspaper\">news.</abbr> archives",
       "tools": [
         {
           "name": "NewspaperArchive.com",
