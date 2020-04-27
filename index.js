@@ -43,6 +43,13 @@ function prevNext(e) {
   ga('send', 'event', 'searchbar', e.target.value ? 'next' : 'previous');
 }
 
+function firstTool(e) {
+  e.preventDefault();
+  var section = form.querySelectorAll('#tools div')[e.target.value];
+  setTool(section.querySelector('button'));
+  ga('send', 'event', section.querySelector('h3').textContent, 'set first tool');
+}
+
 function trackLink(link, section) {
   link.addEventListener('click', function(e){
     var l = link.textContent + '||' + link.getAttribute('href');
@@ -187,10 +194,17 @@ if (typeof document.body.classList === 'object') {
   var sections  = details.getElementsByTagName('section');
   for (var i=0; i<sections.length; i++) {
     var links = sections[i].getElementsByTagName('a');
+    var h3 = sections[i].querySelector('h3');
     for (var j=0; j<links.length; j++) {
-      trackLink(links[j], sections[i].querySelector('h3').textContent);
+      trackLink(links[j], h3.textContent);
+    }
+    // also add buttons
+    if (i>0) {
+      h3.insertAdjacentHTML('afterend', '<button value="' + (i-1) + '">set to first tool</button>');
+      form.elements[form.elements.length-1].addEventListener('click', firstTool);
     }
   }
+
   // footer links
   var footer_links = document.querySelectorAll('footer a');
   for (var i=0; i<footer_links.length; i++) {

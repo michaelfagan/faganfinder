@@ -131,9 +131,9 @@ nav {
   button, input {
     margin-top: $highlight_vpadding;
   }
-  button {
-    padding: 0.3em 0.5em;
-  }
+}
+#inp button, #details button {
+  padding: 0.3em 0.5em;
 }
 input {
   -moz-appearance: none;
@@ -145,7 +145,7 @@ input {
     width: 25em;
   }
 }
-#tools button:hover, button[type="submit"]:hover {
+#tools button:hover, button[type="submit"]:hover, #details button:hover {
   color: white;
   background-color: #555;
 }
@@ -311,6 +311,9 @@ $ad_width: 336px;
     display: inline-block;
   }
 }
+#details button {
+  margin-top: 0.4em;
+}
 
 
 footer {
@@ -360,7 +363,7 @@ footer section {
     page-break-inside: avoid;
   }
   /* hide about, 'about these' and back-to-top links and ads */
-  nav, #newwin, #tools a, a[href='#search'], #adone, #adtwo {
+  nav, #newwin, #tools a, a[href='#search'], #adone, #adtwo, #details button {
     display: none;
   }
 }

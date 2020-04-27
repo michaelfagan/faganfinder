@@ -47,7 +47,8 @@
       ]
     },
     {
-      "name": "Alternative search engines",
+      "name": "Alternative search engines",
+      "shortName": "Alternative <abbr title=\"search engines\">engines</abbr>",
       "tools": [
         {
           "name": "DuckDuckGo",
@@ -90,6 +91,7 @@
     },
     {
       "name": "Non-English search engines",
+      "shortName": "Non-English <abbr title=\"search engines\">engines</abbr>",
       "tools": [
         {
           "name": "Baidu — China",
@@ -325,6 +327,7 @@
     },
     {
       "name": "Non-English social media",
+      "shortName": "<abbr title=\"Non-English\">Non-Eng.</abbr> social media",
       "tools": [
         {
           "name": "Sina Weibo — Chinese",
@@ -535,6 +538,7 @@
     },
     {
       "name": "Academic search engines",
+      "shortName": "Academic <abbr title=\"search engines\">engines</abbr>",
       "tools": [
         {
           "name": "Google Scholar",
