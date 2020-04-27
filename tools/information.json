@@ -608,10 +608,6 @@
         {
           "name": "<abbr title=\"Directory of Open Access Journals\">DOAJ</abbr>",
           "searchUrl": "https://doaj.org/search?source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22{q}%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D"
-        },
-        {
-          "name": "OpenGrey",
-          "searchUrl": "http://opengrey.eu/search/request?q={q}"
         }
       ]
     },

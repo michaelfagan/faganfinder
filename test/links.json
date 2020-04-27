@@ -2641,15 +2641,6 @@
     "checked": 1582117803
   },
   {
-    "url": "http://www.greylitguides.com/sources-of-grey-lit/",
-    "status": "200",
-    "title": "Sources of Grey Literature &#8211; Grey Literature Guides",
-    "checked": 1584893669,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "http://groupspaces.com/",
     "status": "200",
     "title": "Free Group Website, Membership Database, Listserv Mailing List, Online Group Management Software : GroupSpaces",
@@ -5118,6 +5109,16 @@
     "redirect": "https://www.crackle.com/"
   },
   {
+    "url": "http://www.southasiaarchive.com/",
+    "status": "302",
+    "redirect": "/unauthenticated",
+    "title": "Object moved",
+    "checked": 1587820674,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.so.com/",
     "status": "302",
     "title": "360搜索，SO靠谱",
@@ -6706,22 +6707,6 @@
       "video"
     ],
     "checked": 1582117953
-  },
-  {
-    "url": "http://opengrey.eu/",
-    "status": "200",
-    "checked": 1584876471,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "http://opengrey.eu/search/request?q=test",
-    "status": "200",
-    "checked": 1584876470,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://ahmia.fi/",
@@ -8997,6 +8982,15 @@
     "checked": 1582117537
   },
   {
+    "url": "https://en.wikipedia.org/wiki/Open_access",
+    "status": "301",
+    "title": "Open access - Wikipedia",
+    "checked": 1587951803,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://en.wikipedia.org/wiki/Optical_character_recognition",
     "status": "301",
     "title": "Optical character recognition - Wikipedia",
@@ -9013,6 +9007,15 @@
       "video"
     ],
     "checked": 1582117538
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Regular_expression",
+    "status": "301",
+    "title": "Regular expression - Wikipedia",
+    "checked": 1587945309,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://en.wikipedia.org/wiki/Usenet_newsgroup",
