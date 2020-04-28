@@ -6577,6 +6577,15 @@
     ]
   },
   {
+    "url": "https://kvk.bibliothek.kit.edu/",
+    "status": "200",
+    "title": "KIT-Bibliothek | Karlsruher Virtueller Katalog KVK - Deutsch",
+    "checked": 1588039403,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://ufdc.ufl.edu/hnccoll",
     "status": "302",
     "title": "UFDC Home - NewspaperCat: Catalog of Historical Newspapers",
@@ -9615,6 +9624,25 @@
     "redirect": "https://core.ac.uk/search",
     "title": "Search CORE",
     "checked": 1587990916,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://archiveshub.jisc.ac.uk/",
+    "status": "301",
+    "title": "Home - Archives Hub",
+    "checked": 1588041382,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://archiveshub.jisc.ac.uk/search/?field=all&terms=test",
+    "status": "301",
+    "redirect": "https://archiveshub.jisc.ac.uk/search/",
+    "title": "test - Search - Archives Hub",
+    "checked": 1588041381,
     "pages": [
       "information"
     ]

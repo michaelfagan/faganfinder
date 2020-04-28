@@ -188,6 +188,7 @@ JournalSeek
 JSTOR
 JURN
 JustWatch
+Karlsruhe
 Knewz
 Knoema
 Kobo

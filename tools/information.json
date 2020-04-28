@@ -736,6 +736,10 @@
           "searchUrl": "https://discover.libraryhub.jisc.ac.uk/search?q={q}"
         },
         {
+          "name": "Archives Hub — <abbr title=\"United Kingdom\">UK</abbr>",
+          "searchUrl": "https://archiveshub.jisc.ac.uk/search/?field=all&terms={q}"
+        },
+        {
           "name": "Gallica — France",
           "searchUrl": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22{q}%22%29&lang=en&suggest=0"
         },
