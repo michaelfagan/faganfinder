@@ -698,6 +698,23 @@
     "checked": 1582117681
   },
   {
+    "url": "http://www.authorstream.com/",
+    "status": "200",
+    "title": "Upload, Share and Search Presentations, Templates On authorSTREAM",
+    "checked": 1588083226,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.authorstream.com/tag/test",
+    "status": "200",
+    "checked": 1588083224,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://baike.baidu.com/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "checked": 1587990751,
@@ -2367,11 +2384,11 @@
     "checked": 1587955164
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aauthorstream.com%2Fpresentation%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st",
     "status": "302",
     "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:noti.st - Google Search",
-    "checked": 1587990748,
+    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:authorstream.com/presentation | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:noti.st - Google Search",
+    "checked": 1588083226,
     "pages": [
       "information"
     ]

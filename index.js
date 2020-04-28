@@ -164,7 +164,7 @@ if (typeof document.body.classList === 'object') {
         if (getComputedStyle(e.target, ':before').content === 'none') {
           setTimeout(function(){
             window.scrollTo(0, inp.offsetTop - inp.offsetHeight - 10);
-          }, 10);
+          }, 20);
         }
       });
     }
