@@ -724,6 +724,11 @@
           "searchUrl": "https://www.europeana.eu/en/search?query={q}"
         },
         {
+          "name": "Archives Portal Europe",
+          "searchUrl": "https://www.archivesportaleurope.net/search/-/s/n",
+          "post": "term"
+        },
+        {
           "name": "Osmikon",
           "searchUrl": "https://www.osmikon.de/metaopac/search?View=osmikon&q={q}"
         },
