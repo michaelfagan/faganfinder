@@ -275,6 +275,10 @@
           "searchUrl": "https://iseek.com/#/search/education?q={q}"
         },
         {
+          "name": "Grafiti",
+          "searchUrl": "https://beta.grafiti.io/search/facts/?search_text={q}"
+        },
+        {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
         },
@@ -490,7 +494,7 @@
           "searchUrl": "https://www.pdfdrive.com/search?q={q}"
         },
         {
-          "name": "Scribd — not free",
+          "name": "Scribd — paid",
           "searchUrl": "https://www.scribd.com/search?query={q}"
         },
         {
@@ -1120,15 +1124,15 @@
       "name": "Magazine articles",
       "tools": [
         {
-          "name": "Google Books magazines",
+          "name": "Google Books <abbr title=\"magazines\">mags</abbr>",
           "searchUrl": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q={q}"
         },
         {
-          "name": "Internet Archive magazines",
+          "name": "Internet Archive <abbr title=\"magazines\">mags</abbr>",
           "searchUrl": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query={q}"
         },
         {
-          "name": "Gale (not free) magazines",
+          "name": "Gale <abbr title=\"magazines\">mags</abbr> — paid",
           "searchUrl": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~{q}"
         },
         {
@@ -1151,15 +1155,6 @@
         {
           "name": "re3data.org",
           "searchUrl": "https://www.re3data.org/search?query={q}"
-        }
-      ]
-    },
-    {
-      "name": "Graphs and charts",
-      "tools": [
-        {
-          "name": "Grafiti",
-          "searchUrl": "https://beta.grafiti.io/search/facts/?search_text={q}"
         }
       ]
     },

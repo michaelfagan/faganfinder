@@ -6594,6 +6594,15 @@
     ]
   },
   {
+    "url": "https://eudocs.lib.byu.edu/index.php/Main_Page",
+    "status": "301",
+    "title": "EuroDocs",
+    "checked": 1588208866,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://kvk.bibliothek.kit.edu/",
     "status": "200",
     "title": "KIT-Bibliothek | Karlsruher Virtueller Katalog KVK - Deutsch",
