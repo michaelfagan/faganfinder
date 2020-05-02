@@ -666,6 +666,10 @@
         {
           "name": "JSTOR",
           "searchUrl": "https://www.jstor.org/action/doBasicSearch?Query={q}"
+        },
+        {
+          "name": "<abbr title=\"University\">Univ.</abbr> Press Scholarship",
+          "searchUrl": "https://www.universitypressscholarship.com/search?q={q}"
         }
       ]
     },
@@ -990,8 +994,8 @@
           "searchUrl": "https://knewz.com/search/{q}"
         },
         {
-          "name": "One News Page",
-          "searchUrl": "https://www.onenewspage.com/topic/{q}.htm"
+          "name": "WN.com",
+          "searchUrl": "https://search.wn.com/?results_type=news&action=search&search_type=boolean&sort_type=relevance&search_string={q}"
         },
         {
           "name": "Watson News Explorer",

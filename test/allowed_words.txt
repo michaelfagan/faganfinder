@@ -187,6 +187,7 @@ Ja
 JACAR
 Jisc
 Joomag
+JournalGuide
 JournalSeek
 JSTOR
 JURN
@@ -392,6 +393,7 @@ WikiLeaks
 Wikimedia
 Wikisource
 Wikiwand
+WN.com
 WordPerfect
 Wordpress.com
 wordpress.com

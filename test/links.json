@@ -2823,6 +2823,15 @@
     "checked": 1582117811
   },
   {
+    "url": "https://journals.indexcopernicus.com/",
+    "status": "301",
+    "redirect": "https://journals.indexcopernicus.com//",
+    "checked": 1588458216,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://timesofindia.indiatimes.com/",
     "status": "301",
     "title": "News: India News, Latest Bollywood News, Sports News, Business &amp; Political News, National &amp; International News | Times of India",
@@ -3025,6 +3034,16 @@
     "status": "302",
     "title": "Digital Publishing Platform for Everyone | Joomag",
     "checked": 1587955699,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.journalguide.com/",
+    "status": "301",
+    "redirect": "https://www.journalguide.com:443/",
+    "title": "JournalGuide - Home",
+    "checked": 1588458216,
     "pages": [
       "information"
     ]
@@ -3809,24 +3828,6 @@
       "information"
     ],
     "checked": 1587955504
-  },
-  {
-    "url": "https://www.onenewspage.com/",
-    "status": "301",
-    "title": "One News Page | Home",
-    "pages": [
-      "information"
-    ],
-    "checked": 1587955503
-  },
-  {
-    "url": "https://www.onenewspage.com/topic/test.htm",
-    "status": "301",
-    "title": "LIVE Test News | One News Page",
-    "pages": [
-      "information"
-    ],
-    "checked": 1587955505
   },
   {
     "url": "https://onionlandsearchengine.com/",
@@ -5813,6 +5814,25 @@
     "checked": 1587955531
   },
   {
+    "url": "https://www.universitypressscholarship.com/",
+    "status": "301",
+    "title": "University Press Scholarship",
+    "checked": 1588434438,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.universitypressscholarship.com/search?q=test",
+    "status": "301",
+    "redirect": "https://www.universitypressscholarship.com/search",
+    "title": "Search Results for test - University Press Scholarship Online - University Press Scholarship",
+    "checked": 1588434437,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://unlistedvideos.com/",
     "status": "200",
     "title": "Unlisted Videos",
@@ -6091,6 +6111,25 @@
       "information"
     ],
     "checked": 1587955239
+  },
+  {
+    "url": "https://wn.com/",
+    "status": "301",
+    "title": "World News",
+    "checked": 1588428013,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://search.wn.com/?results_type=news&action=search&search_type=boolean&sort_type=relevance&search_string=test",
+    "status": "302",
+    "redirect": "https://search.wn.com/",
+    "title": "test - WN.COM photos and news search",
+    "checked": 1588428012,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.wolframalpha.com/",
