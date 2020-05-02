@@ -453,6 +453,19 @@
       ]
     },
     {
+      "name": "Find databases",
+      "tools": [
+        {
+          "name": "Google with keywords",
+          "searchUrl": "https://www.google.com/search?q={q}+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository"
+        },
+        {
+          "name": "re3data.org",
+          "searchUrl": "https://www.re3data.org/search?query={q}"
+        }
+      ]
+    },
+    {
       "name": "Books",
       "tools": [
         {
@@ -961,6 +974,10 @@
           "searchUrl": "https://www.newsnow.co.uk/h/?search={q}"
         },
         {
+          "name": "<abbr title=\"Europe Media Monitor\">EMM</abbr> NewsBrief",
+          "searchUrl": "https://emm.newsbrief.eu/NewsBrief/dynamic?edition=searchresults&atLeast={q}"
+        },
+        {
           "name": "Bing News",
           "searchUrl": "https://www.bing.com/news/search?q={q}"
         },
@@ -1023,7 +1040,7 @@
           "searchUrl": "http://untrue.news/search?q={q}"
         },
         {
-          "name": "FNS fact checking sites",
+          "name": "FNS fact check sites",
           "searchUrl": "https://factualsearch.news/#?fns.type=fact-checking&gsc.q={q}"
         },
         {
@@ -1142,19 +1159,6 @@
         {
           "name": "Longreads",
           "searchUrl": "https://longreads.com/?s={q}"
-        }
-      ]
-    },
-    {
-      "name": "Find databases",
-      "tools": [
-        {
-          "name": "Google with keywords",
-          "searchUrl": "https://www.google.com/search?q={q}+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository"
-        },
-        {
-          "name": "re3data.org",
-          "searchUrl": "https://www.re3data.org/search?query={q}"
         }
       ]
     },

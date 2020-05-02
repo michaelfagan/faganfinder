@@ -6751,6 +6751,25 @@
     "checked": 1582117953
   },
   {
+    "url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest_en.html",
+    "status": "301",
+    "title": "NewsBrief",
+    "checked": 1588419631,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://emm.newsbrief.eu/NewsBrief/dynamic?edition=searchresults&atLeast=test",
+    "status": "301",
+    "redirect": "https://emm.newsbrief.eu/NewsBrief/dynamic",
+    "title": "NewsBrief",
+    "checked": 1588419589,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://ahmia.fi/",
     "status": "301",
     "checked": 1587990747,

@@ -109,6 +109,7 @@ Elephind.com
 Elephind
 eLib
 Elsevier
+EMM
 Encyclopædia
 Encyclopédie
 Enzyklopädie
@@ -233,6 +234,7 @@ Naver
 NDL
 netsplit.de
 NewsBank
+NewsBrief
 NewsLibrary.com
 Newslookup.com
 NewsNow
