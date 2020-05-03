@@ -146,6 +146,7 @@ Gigablast
 Giphy
 Globo
 Goodreads
+GOV.UK
 GPIB
 Grafiti
 Granth

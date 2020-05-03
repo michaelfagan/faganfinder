@@ -1210,6 +1210,27 @@
       ]
     },
     {
+      "name": "Government",
+      "tools": [
+        {
+          "name": "USA.gov",
+          "searchUrl": "https://search.usa.gov/search?affiliate=usagov&query={q}"
+        },
+        {
+          "name": "GOV.UK",
+          "searchUrl": "https://www.gov.uk/search/all?keywords={q}"
+        },
+        {
+          "name": "<abbr title=\"Government\">Gov.</abbr> of India",
+          "searchUrl": "http://search.nic.in/Search?type=basicSearch&searchKeyword={q}"
+        },
+        {
+          "name": "China",
+          "searchUrl": "http://sousuo.gov.cn/s.htm?t=govall&q={q}"
+        }
+      ]
+    },
+    {
       "name": "Dark web",
       "tools": [
         {
