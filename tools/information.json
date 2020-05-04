@@ -281,10 +281,6 @@
         {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
-        },
-        {
-          "name": "Global-Regulation",
-          "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
         }
       ]
     },
@@ -1221,12 +1217,28 @@
           "searchUrl": "https://www.gov.uk/search/all?keywords={q}"
         },
         {
-          "name": "<abbr title=\"Government\">Gov.</abbr> of India",
-          "searchUrl": "http://search.nic.in/Search?type=basicSearch&searchKeyword={q}"
+          "name": "<span lang=\"pt\">Governo do Brasil</span>",
+          "searchUrl": "https://www.gov.br/pt-br/@@search?SearchableText={q}"
+        },
+        {
+          "name": "Russian Government",
+          "searchUrl": "http://government.ru/search/?q={q}"
         },
         {
           "name": "China",
           "searchUrl": "http://sousuo.gov.cn/s.htm?t=govall&q={q}"
+        },
+        {
+          "name": "<abbr title=\"Government\">Gov.</abbr> of India",
+          "searchUrl": "http://search.nic.in/Search?type=basicSearch&searchKeyword={q}"
+        },
+        {
+          "name": "Bangladesh",
+          "searchUrl": "https://www.bangladesh.gov.bd/site/search?lang=en&key={q}"
+        },
+        {
+          "name": "Global-Regulation",
+          "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
         }
       ]
     },

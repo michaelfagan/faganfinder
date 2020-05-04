@@ -94,6 +94,22 @@
     "checked": 1582117605
   },
   {
+    "url": "https://www.bangladesh.gov.bd/index.php?lang=en",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "checked": 1588558692,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.bangladesh.gov.bd/site/search?lang=en&key=test",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "checked": 1588558686,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.uol.com.br/mov/busca/?q=test",
     "status": "301",
     "redirect": "https://www.uol.com.br/mov/busca/",
@@ -147,6 +163,23 @@
       "information"
     ],
     "checked": 1587955116
+  },
+  {
+    "url": "https://www.gov.br/pt-br/@@search?SearchableText=test",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "redirect": "https://www.gov.br/pt-br/@@search",
+    "checked": 1588558679,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.gov.br/pt-br",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "checked": 1588558687,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://archivescanada.accesstomemory.ca/informationobject/browse?topLod=0&query=test",
@@ -9545,6 +9578,23 @@
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://bigenc.ru/search",
     "checked": 1587991150,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://government.ru/en/",
+    "status": "200",
+    "title": "The Russian Government",
+    "checked": 1588558689,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://government.ru/search/?q=test",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "checked": 1588558681,
     "pages": [
       "information"
     ]
