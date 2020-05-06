@@ -1217,6 +1217,10 @@
           "searchUrl": "https://www.gov.uk/search/all?keywords={q}"
         },
         {
+          "name": "<abbr title=\"Government\">Gov.</abbr> of Canada",
+          "searchUrl": "https://www.canada.ca/en/sr/srb.html?q={q}"
+        },
+        {
           "name": "<span lang=\"pt\">Governo do Brasil</span>",
           "searchUrl": "https://www.gov.br/pt-br/@@search?SearchableText={q}"
         },
@@ -1229,12 +1233,20 @@
           "searchUrl": "http://sousuo.gov.cn/s.htm?t=govall&q={q}"
         },
         {
+          "name": "e-Gov Japan",
+          "searchUrl": "https://www.e-gov.go.jp/searchresult.html?q={q}"
+        },
+        {
           "name": "<abbr title=\"Government\">Gov.</abbr> of India",
           "searchUrl": "http://search.nic.in/Search?type=basicSearch&searchKeyword={q}"
         },
         {
           "name": "Bangladesh",
           "searchUrl": "https://www.bangladesh.gov.bd/site/search?lang=en&key={q}"
+        },
+        {
+          "name": "European Union",
+          "searchUrl": "https://europa.eu/search/?more_options_f_formats=*&queryText={q}"
         },
         {
           "name": "Global-Regulation",

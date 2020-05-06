@@ -94,9 +94,9 @@
     "checked": 1582117605
   },
   {
-    "url": "https://www.bangladesh.gov.bd/index.php?lang=en",
+    "url": "https://www.bangladesh.gov.bd/?lang=en",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1588558692,
+    "checked": 1588681585,
     "pages": [
       "information"
     ]
@@ -199,6 +199,25 @@
       "information"
     ],
     "checked": 1587955117
+  },
+  {
+    "url": "https://www.canada.ca/en.html",
+    "status": "301",
+    "title": "Home - Canada.ca",
+    "checked": 1588684464,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.canada.ca/en/sr/srb.html?q=test",
+    "status": "301",
+    "redirect": "https://www.canada.ca/en/sr/srb.html",
+    "title": "Basic search - Canada.ca",
+    "checked": 1588684464,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://heritage.canadiana.ca/",
@@ -6755,6 +6774,25 @@
     "checked": 1587955266
   },
   {
+    "url": "https://europa.eu/search/",
+    "status": "307",
+    "title": "European Union | Search",
+    "checked": 1588730511,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://europa.eu/search/?more_options_f_formats=*&queryText=test",
+    "status": "307",
+    "redirect": "https://europa.eu/search/",
+    "title": "European Union | Search",
+    "checked": 1588730510,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.europeana.eu/en/collections/topic/18-newspapers?api=metadata&query=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
@@ -7411,6 +7449,24 @@
     "checked": 1587955622
   },
   {
+    "url": "https://www.e-gov.go.jp/",
+    "status": "\"\\xE9\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.e-gov.go.jp/sorry.html",
+    "checked": 1588727689,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.e-gov.go.jp/searchresult.html?q=test",
+    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.e-gov.go.jp/sorry.html",
+    "checked": 1588727687,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.jacar.go.jp/english/",
     "status": "301",
     "title": "Japan Center for Asian Historical Records",
@@ -7527,6 +7583,14 @@
       "information"
     ],
     "checked": 1587955418
+  },
+  {
+    "url": "https://www.gob.mx/busqueda",
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
+    "checked": 1588681583,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://www.hndm.unam.mx/consulta/busqueda/buscarPalabras",
