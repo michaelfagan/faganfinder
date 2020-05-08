@@ -62,6 +62,7 @@ Catalog
 CCFr
 Cengage
 Center
+CGP
 Checkli
 Checklists.com
 Chiebukuro
@@ -149,6 +150,7 @@ Gobierno
 Goodreads
 GOV.UK
 Governo
+govinfo
 GPIB
 Grafiti
 Granth
@@ -218,6 +220,7 @@ MeFeedia
 Metabase
 Metacafe
 Metacritic
+MetaLib
 mibbit
 michael
 microblogging
@@ -260,6 +263,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+orgs
 Oshiete
 Osmikon
 OverDrive
@@ -372,6 +376,7 @@ TuneIn
 TV.com
 TVmaze
 TVopedia
+U.S
 UIA
 Universalis
 Unpaywall

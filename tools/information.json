@@ -750,7 +750,7 @@
           "searchUrl": "https://www.osmikon.de/metaopac/search?View=osmikon&q={q}"
         },
         {
-          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United Kingdom\">UK</abbr>",
+          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr>UK</abbr>",
           "searchUrl": "https://discovery.nationalarchives.gov.uk/results/r?_q={q}"
         },
         {
@@ -758,11 +758,11 @@
           "searchUrl": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,{q}"
         },
         {
-          "name": "<abbr title=\"Jisc Library Hub Discover\">Jisc Lib. Hub</abbr> — <abbr title=\"United Kingdom\">UK</abbr>",
+          "name": "<abbr title=\"Jisc Library Hub Discover\">Jisc Lib. Hub</abbr> — <abbr>UK</abbr>",
           "searchUrl": "https://discover.libraryhub.jisc.ac.uk/search?q={q}"
         },
         {
-          "name": "Archives Hub — <abbr title=\"United Kingdom\">UK</abbr>",
+          "name": "Archives Hub — <abbr>UK</abbr>",
           "searchUrl": "https://archiveshub.jisc.ac.uk/search/?field=all&terms={q}"
         },
         {
@@ -800,7 +800,7 @@
       "shortName": "<abbr title=\"Libraries and archives\">Libraries+</abbr> Americas",
       "tools": [
         {
-          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr title=\"United States\">USA</abbr>",
+          "name": "<abbr title=\"Digital Public Library of America\">DPLA</abbr> — <abbr>USA</abbr>",
           "searchUrl": "https://dp.la/search?q={q}"
         },
         {
@@ -808,7 +808,7 @@
           "searchUrl": "https://www.loc.gov/search/?all=true&q={q}"
         },
         {
-          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr title=\"United States\">USA</abbr>",
+          "name": "<abbr title=\"National\">Nat.</abbr> Archives — <abbr>USA</abbr>",
           "searchUrl": "https://catalog.archives.gov/search?q={q}"
         },
         {
@@ -1089,7 +1089,7 @@
           "searchUrl": "https://www.loc.gov/newspapers/?all=true&dl=page&q={q}"
         },
         {
-          "name": "FultonSearch — <abbr title=\"United States\">USA</abbr>",
+          "name": "FultonSearch — <abbr>USA</abbr>",
           "searchUrl": "https://fultonsearch.org/?q={q}"
         },
         {
@@ -1213,12 +1213,28 @@
           "searchUrl": "https://search.usa.gov/search?affiliate=usagov&query={q}"
         },
         {
+          "name": "MetaLib — <abbr>USA</abbr>",
+          "searchUrl": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682?func=quick-1-check1&mode=simple&group_number=000000438&find_request_1={q}"
+        },
+        {
+          "name": "<abbr title=\"Catalog of U.S. Government Publications\">CGP</abbr> — <abbr>USA</abbr>",
+          "searchUrl": "https://catalog.gpo.gov/F?func=find-b&request={q}"
+        },
+        {
+          "name": "govinfo — <abbr>USA</abbr>",
+          "searchUrl": "https://www.govinfo.gov/app/search/%7B%22query%22%3A%22{q}%22%2C%22offset%22%3A0%7D"
+        },
+        {
           "name": "GOV.UK",
           "searchUrl": "https://www.gov.uk/search/all?keywords={q}"
         },
         {
           "name": "<abbr title=\"Government\">Gov.</abbr> of Canada",
           "searchUrl": "https://www.canada.ca/en/sr/srb.html?q={q}"
+        },
+        {
+          "name": "Canadian sites",
+          "searchUrl": "https://cse.google.com/cse?cx=006116564388257139991:f_s61vr6o88&q={q}"
         },
         {
           "name": "<span lang=\"pt\">Governo do Brasil</span>",
@@ -1247,6 +1263,14 @@
         {
           "name": "European Union",
           "searchUrl": "https://europa.eu/search/?more_options_f_formats=*&queryText={q}"
+        },
+        {
+          "name": "United Nations",
+          "searchUrl": "https://search.un.org/results.php?tpl=un&query={q}"
+        },
+        {
+          "name": "Intergovernmental <abbr title=\"organizations\">orgs</abbr>",
+          "searchUrl": "https://cse.google.com/cse?cx=006748068166572874491:55ez0c3j3ey&q={q}"
         },
         {
           "name": "Global-Regulation",

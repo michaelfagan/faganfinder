@@ -37,7 +37,7 @@ RewriteRule group/$ group.html [L]
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
 
 # old pages which were merged into /engines/
-RewriteRule ^(engines|blogs|invis|meta|dir|keyword|kids|google|aref|weather|science).* https://www.faganfinder.com/ [R=301,L]
+RewriteRule ^(engines|blogs|invis|meta|dir|keyword|kids|google|aref|weather|science|gov|comp).* https://www.faganfinder.com/ [R=301,L]
 RewriteRule ^news(|/.*)$ https://www.faganfinder.com/ [R=301,L]
 # ^ prevents newstyle.css and newscript.js from redirecting
 Redirect 301 /misc/popular.shtml https://www.faganfinder.com/
@@ -58,7 +58,6 @@ RewriteRule ^me/(.+) http://faganm.com/blog/first/$1 [R=301,L]
 RewriteRule me/?$ http://faganm.com/blog/ [R=301,L]
 
 # deprecated pages
-RewriteRule (gov|comp)/ https://www.faganfinder.com/  [R=301,L]
 Redirect 301 /searchtools.shtml https://www.faganfinder.com/
 RewriteRule (audio|words)/.+.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule (img|video)/.+.shtml https://www.faganfinder.com/$1/ [R=301,L]

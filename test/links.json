@@ -304,6 +304,15 @@
     "checked": 1582117631
   },
   {
+    "url": "http://publications.gc.ca/site/eng/home.html",
+    "status": "200",
+    "title": "Government of Canada Publications - Canada.ca",
+    "checked": 1588901396,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://paperofrecord.hypernet.ca/default.asp",
     "status": "302",
     "title": "Paper of Record",
@@ -339,6 +348,14 @@
       "video"
     ],
     "checked": 1582117632
+  },
+  {
+    "url": "https://libguides.smu.ca/govdoc/canada",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
+    "checked": 1588811515,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.etools.ch/",
@@ -2243,6 +2260,36 @@
     "status": "301",
     "title": "Google Scholar Button - Chrome Web Store",
     "checked": 1587991092,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://cse.google.com/cse?cx=006116564388257139991:f_s61vr6o88&q=test",
+    "status": "301",
+    "redirect": "http://cse.google.com/cse/",
+    "title": "Programmable Search Engine",
+    "checked": 1588811515,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://cse.google.com/cse?cx=006748068166572874491:55ez0c3j3ey&q=test",
+    "status": "301",
+    "redirect": "http://cse.google.com/cse/",
+    "title": "Programmable Search Engine",
+    "checked": 1588850414,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://cse.google.com/cse?cx=006748068166572874491:55ez0c3j3ey",
+    "status": "301",
+    "redirect": "http://cse.google.com/cse/",
+    "title": "Programmable Search Engine",
+    "checked": 1588850414,
     "pages": [
       "information"
     ]
@@ -7029,6 +7076,63 @@
     "checked": 1582117964
   },
   {
+    "url": "https://www.govinfo.gov/app/search/%7B%22query%22%3A%22test%22%2C%22offset%22%3A0%7D",
+    "status": "302",
+    "title": "govinfo",
+    "checked": 1588816357,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.govinfo.gov/",
+    "status": "302",
+    "title": "govinfo | U.S. Government Publishing Office",
+    "checked": 1588816359,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://catalog.gpo.gov/F?func=find-b&request=test",
+    "status": "302",
+    "redirect": "https://catalog.gpo.gov/F",
+    "title": "Entire CGP Catalog - Results List",
+    "checked": 1588816357,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://catalog.gpo.gov/F",
+    "status": "302",
+    "title": "Entire CGP Catalog - Basic Search: Full Catalog",
+    "checked": 1588816358,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682?func=quick-1-check1&mode=simple&group_number=000000438&find_request_1=test",
+    "status": "302",
+    "redirect": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682",
+    "title": "MetaLib&#174; - Basic",
+    "checked": 1588814997,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://metalib.gpo.gov/",
+    "status": "302",
+    "redirect": "https://metalib.gpo.gov/",
+    "title": "302 Found",
+    "checked": 1588814997,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://chroniclingamerica.loc.gov/",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "pages": [
@@ -7949,6 +8053,15 @@
     "status": "200",
     "title": "Untrue News: a fake search engine",
     "checked": 1587990906,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.ala.org/rt/godort/taskforces/internationaldocuments/idtf/igo-search",
+    "status": "200",
+    "title": "IGO Search | Round Tables",
+    "checked": 1588850416,
     "pages": [
       "information"
     ]
@@ -9002,10 +9115,55 @@
     "checked": 1582118200
   },
   {
+    "url": "https://search.archives.un.org/",
+    "status": "301",
+    "title": "Welcome to the United Nations Archives Search Engine - UNARMS",
+    "checked": 1588901402,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://digitallibrary.un.org/",
+    "status": "301",
+    "title": "United Nations Digital Library System",
+    "checked": 1588901402,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://documents.un.org/prod/ods.nsf/home.xsp",
+    "status": "302",
+    "checked": 1588901396,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://unpaywall.org/",
     "status": "200",
     "title": "Unpaywall",
     "checked": 1587990931,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://search.un.org/results.php?tpl=un&query=test",
+    "status": "302",
+    "redirect": "https://search.un.org/results.php",
+    "title": "Enterprise Search",
+    "checked": 1588810346,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.un.org/en/",
+    "status": "302",
+    "title": "United Nations | Peace, dignity and equality <BR> on a healthy planet",
+    "checked": 1588810347,
     "pages": [
       "information"
     ]
