@@ -444,7 +444,7 @@
         },
         {
           "name": "Google how-to sites",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20%7C%20site%3Areddit.com%2Fr%2Fhowto%20%7C%20site%3Ainstructables.com%20%7C%20site%3Aehow.com%20%7C%20site%3Ahowcast.com%20%7C%20site%3Avisihow.com%20%7C%20site%3Ahowtodothings.com%20%7C%20site%3Acheckli.com%20%7C%20site%3Achecklist.com%20%7C%20site%3Aprintabletodolist.com%20%7C%20site%3Achecklists.com"
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com"
         }
       ]
     },
@@ -520,11 +520,11 @@
         },
         {
           "name": "Google by format",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20OR%20filetype%3Adocx%20OR%20filetype%3Adoc%20OR%20filetype%3Aodt%20OR%20filetype%3Artf%20OR%20filetype%3Aps%20OR%20filetype%3Atex%20OR%20filetype%3Awpd"
         },
         {
           "name": "Google by site",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Adocs.google.com%2Fdocument%20%7C%20site%3Aissuu.com%20%7C%20site%3Apublitas.com%20%7C%20site%3Ayumpu.com%20%7C%20site%3Ajoomag.com%20%7C%20site%3Aflipsnack.com%20%7C%20site%3Apdfdrive.com%20%7C%20site%3Aedocr.com%20%7C%20site%3Afoleon.com"
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Aedocr.com%20OR%20site%3Afoleon.com"
         }
       ]
     },
@@ -549,7 +549,7 @@
         },
         {
           "name": "Google by format &amp; site",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aauthorstream.com%2Fpresentation%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aauthorstream.com%2Fpresentation%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st"
         }
       ]
     },
@@ -1058,6 +1058,40 @@
         {
           "name": "Hoax-Slayer",
           "searchUrl": "https://www.hoax-slayer.net/?s={q}"
+        }
+      ]
+    },
+    {
+      "name": "Press releases",
+      "tools": [
+        {
+          "name": "PRWeb",
+          "searchUrl": "https://www.prweb.com/search.aspx?search-releases={q}"
+        },
+        {
+          "name": "Business Wire",
+          "searchUrl": "https://www.businesswire.com/portal/site/home/search/?searchType=news&searchPage=1&searchTerm={q}"
+        },
+        {
+          "name": "EIN Presswire",
+          "searchUrl": "https://www.einpresswire.com/search",
+          "post": "query"
+        },
+        {
+          "name": "ReleaseWire",
+          "searchUrl": "http://www.releasewire.com/search/?q={q}"
+        },
+        {
+          "name": "24-7 Press Release",
+          "searchUrl": "https://www.24-7pressrelease.com/search_press_releases?match_type=L&keywords={q}"
+        },
+        {
+          "name": "PR Newswire",
+          "searchUrl": "https://www.prnewswire.com/search/news/?keyword={q}"
+        },
+        {
+          "name": "Google by site",
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Abusinesswire.com%20OR%20site%3Aprnewswire.com%20OR%20site%3Aglobenewswire.com%20OR%20site%3Aprweb.com%20OR%20site%3Anewswire.ca%20OR%20site%3Aeinpresswire.com%20OR%20site%3Aprnewswire.co.uk%20OR%20site%3A24-7pressrelease.com%20OR%20site%3Areleasewire.com%20OR%20site%3Arealwire.com%20OR%20site%3Aprunderground.com%20OR%20site%3Apressat.co.uk"
         }
       ]
     },

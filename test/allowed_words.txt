@@ -8,6 +8,7 @@
 .tex
 .wpd
 1findr
+2lingual
 500px
 Abhilekh
 ABYZ
@@ -66,6 +67,7 @@ CGP
 Checkli
 Checklists.com
 Chiebukuro
+Cision
 clearnet
 Clipart
 collectif
@@ -106,6 +108,7 @@ Ecosia
 edocr
 eHow
 EHPS
+EIN
 Elephind.com
 Elephind
 eLib
@@ -145,6 +148,7 @@ GDELT
 GIFs
 Gigablast
 Giphy
+GlobeNewswire
 Globo
 Gobierno
 Goodreads
@@ -248,6 +252,7 @@ NewsNow
 NewspaperArchive.com
 NewspaperCat
 Newspapers.com
+Newswire
 Nextdoor
 NFB
 NFSA
@@ -294,11 +299,15 @@ Popcornflix
 PostScript
 Prelinger
 pre
+Pressat
 Presse
 PressReader
+Presswire
 Prezi
 ProBoards
 ProQuest
+PRUnderground
+PRWeb
 Publitas
 PubMed
 PubPeer
@@ -308,10 +317,12 @@ Qwant
 Rakuten
 RBdigital
 re3data.org
+RealWire
 recency
 Reddit
 Rede
 Reelgood
+ReleaseWire
 ResearchGate
 RSS
 Rutube

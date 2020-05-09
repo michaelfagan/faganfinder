@@ -331,6 +331,15 @@
     "title": "Paper of Record"
   },
   {
+    "url": "https://www.newswire.ca/news-releases/",
+    "status": "301",
+    "title": "Cision | News Releases",
+    "checked": 1589033604,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.nfb.ca/",
     "status": "301",
     "title": "National Film Board of Canada",
@@ -452,6 +461,34 @@
     "status": "301",
     "title": "1findr | ",
     "checked": 1587990924,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.24-7pressrelease.com/press_releases_today",
+    "status": "301",
+    "title": "Top News: Today's Breaking News - Page 1 - 24-7 Press Release",
+    "checked": 1589033601,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.24-7pressrelease.com/search_press_releases?match_type=L&keywords=test",
+    "status": "301",
+    "redirect": "https://www.24-7pressrelease.com/search_press_releases",
+    "title": "News Search: Find Top News Quickly and Easily - Page 1 - 24-7 Press Release",
+    "checked": 1589033595,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.2lingual.com/",
+    "status": "302",
+    "title": "2lingual Google Search",
+    "checked": 1588904850,
     "pages": [
       "information"
     ]
@@ -1113,6 +1150,25 @@
     "checked": 1587955133
   },
   {
+    "url": "https://www.businesswire.com/portal/site/home/",
+    "status": "302",
+    "title": "Press release distribution, EDGAR filing, XBRL, regulatory filings | Business Wire",
+    "checked": 1589033598,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.businesswire.com/portal/site/home/search/?searchType=news&searchPage=1&searchTerm=test",
+    "status": "302",
+    "redirect": "https://www.businesswire.com/portal/site/home/search/",
+    "title": "Search | Business Wire",
+    "checked": 1589033593,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.canva.com/photos/free/",
     "status": "403",
     "title": "Attention Required! | Cloudflare",
@@ -1523,6 +1579,26 @@
     "url": "https://www.ehow.com/",
     "status": "Net::ReadTimeout",
     "checked": 1587990881,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.einpresswire.com/",
+    "status": "302",
+    "redirect": "https://www.einpresswire.com:443/",
+    "title": "Press Release Distribution &amp; World Media Directory by EIN Presswire",
+    "checked": 1589033600,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.einpresswire.com/search",
+    "status": "302",
+    "redirect": "https://www.einpresswire.com:443/search",
+    "title": "Search Press Releases - EIN Presswire - Press Release Distribution Service",
+    "checked": 1589033593,
     "pages": [
       "information"
     ]
@@ -2134,6 +2210,15 @@
     "checked": 1587955155
   },
   {
+    "url": "https://www.globenewswire.com/NewsRoom",
+    "status": "200",
+    "title": "Press Release Distribution and Management",
+    "checked": 1589033600,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://globoplay.globo.com/busca/?q=test",
     "status": "301",
     "redirect": "https://globoplay.globo.com/busca/",
@@ -2489,21 +2574,19 @@
     "checked": 1587955162
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20%7C%20filetype%3Adocx%20%7C%20filetype%3Adoc%20%7C%20filetype%3Aodt%20%7C%20filetype%3Artf%20%7C%20filetype%3Aps%20%7C%20filetype%3Atex%20%7C%20filetype%3Awpd",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:pdf | filetype:docx | filetype:doc | filetype:odt | filetype:rtf | filetype:ps | filetype:tex | filetype:wpd - Google Search",
+    "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20OR%20filetype%3Adocx%20OR%20filetype%3Adoc%20OR%20filetype%3Aodt%20OR%20filetype%3Artf%20OR%20filetype%3Aps%20OR%20filetype%3Atex%20OR%20filetype%3Awpd",
+    "status": "200",
+    "title": "test filetype:pdf OR filetype:docx OR filetype:doc OR filetype:odt OR filetype:rtf OR filetype:ps OR filetype:tex OR filetype:wpd - Google Search",
+    "checked": 1589037554,
     "pages": [
       "information"
-    ],
-    "checked": 1587955164
+    ]
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20%7C%20filetype%3Apptx%20%7C%20filetype:pps%20%7C%20filetype:ppsx%20%7C%20site%3Adocs.google.com%2Fpresentation%20%7C%20site%3Aslideshare.net%20%7C%20site%3Aauthorstream.com%2Fpresentation%20%7C%20site%3Aspeakerdeck.com%20%7C%20site%3Aslides.com%20%7C%20filetype%3Aodp%20%7C%20filetype%3Akey%20%7C%20site%3Aprezi.com%20%7C%20site%3Anoti.st",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test filetype:ppt | filetype:pptx | filetype:pps | filetype:ppsx | site:docs.google.com/presentation | site:slideshare.net | site:authorstream.com/presentation | site:speakerdeck.com | site:slides.com | filetype:odp | filetype:key | site:prezi.com | site:noti.st - Google Search",
-    "checked": 1588083226,
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aauthorstream.com%2Fpresentation%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st",
+    "status": "200",
+    "title": "test filetype:ppt OR filetype:pptx OR filetype:pps OR filetype:ppsx OR site:docs.google.com/presentation OR site:slideshare.net OR site:authorstream.com/presentation OR site:speakerdeck.com OR site:slides.com OR filetype:odp OR filetype:key OR site:prezi.com OR site:noti.st - Google Search",
+    "checked": 1589037556,
     "pages": [
       "information"
     ]
@@ -2519,11 +2602,19 @@
     "checked": 1582118166
   },
   {
-    "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20%7C%20site%3Aissuu.com%20%7C%20site%3Apublitas.com%20%7C%20site%3Ayumpu.com%20%7C%20site%3Ajoomag.com%20%7C%20site%3Aflipsnack.com%20%7C%20site%3Apdfdrive.com%20%7C%20site%3Aedocr.com%20%7C%20site%3Afoleon.com",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test site:docs.google.com/document | site:issuu.com | site:publitas.com | site:yumpu.com | site:joomag.com | site:flipsnack.com | site:pdfdrive.com | site:edocr.com | site:foleon.com - Google Search",
-    "checked": 1587955700,
+    "url": "https://www.google.com/search?q=test%20site%3Abusinesswire.com%20OR%20site%3Aprnewswire.com%20OR%20site%3Aglobenewswire.com%20OR%20site%3Aprweb.com%20OR%20site%3Anewswire.ca%20OR%20site%3Aeinpresswire.com%20OR%20site%3Aprnewswire.co.uk%20OR%20site%3A24-7pressrelease.com%20OR%20site%3Areleasewire.com%20OR%20site%3Arealwire.com%20OR%20site%3Aprunderground.com%20OR%20site%3Apressat.co.uk",
+    "status": "200",
+    "title": "test site:businesswire.com OR site:prnewswire.com OR site:globenewswire.com OR site:prweb.com OR site:newswire.ca OR site:einpresswire.com OR site:prnewswire.co.uk OR site:24-7pressrelease.com OR site:releasewire.com OR site:realwire.com OR site:prunderground.com OR site:pressat.co.uk - Google Search",
+    "checked": 1589037557,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Aedocr.com%20OR%20site%3Afoleon.com",
+    "status": "200",
+    "title": "test site:docs.google.com/document OR site:issuu.com OR site:publitas.com OR site:yumpu.com OR site:joomag.com OR site:flipsnack.com OR site:pdfdrive.com OR site:edocr.com OR site:foleon.com - Google Search",
+    "checked": 1589037555,
     "pages": [
       "information"
     ]
@@ -2539,11 +2630,10 @@
     "checked": 1582118165
   },
   {
-    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20%7C%20site%3Areddit.com%2Fr%2Fhowto%20%7C%20site%3Ainstructables.com%20%7C%20site%3Aehow.com%20%7C%20site%3Ahowcast.com%20%7C%20site%3Avisihow.com%20%7C%20site%3Ahowtodothings.com%20%7C%20site%3Acheckli.com%20%7C%20site%3Achecklist.com%20%7C%20site%3Aprintabletodolist.com%20%7C%20site%3Achecklists.com",
-    "status": "302",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test site:wikihow.com | site:reddit.com/r/howto | site:instructables.com | site:ehow.com | site:howcast.com | site:visihow.com | site:howtodothings.com | site:checkli.com | site:checklist.com | site:printabletodolist.com | site:checklists.com - Google Search",
-    "checked": 1587990882,
+    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
+    "status": "200",
+    "title": "test site:wikihow.com OR site:reddit.com/r/howto OR site:instructables.com OR site:ehow.com OR site:howcast.com OR site:visihow.com OR site:howtodothings.com OR site:checkli.com OR site:checklist.com OR site:printabletodolist.com OR site:checklists.com - Google Search",
+    "checked": 1589037553,
     "pages": [
       "information"
     ]
@@ -4551,6 +4641,24 @@
     ]
   },
   {
+    "url": "https://www.prnewswire.com/",
+    "status": "301",
+    "title": "PR Newswire: press release distribution, targeting, monitoring and marketing",
+    "checked": 1589033601,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.prnewswire.com/search/news/?keyword=test",
+    "status": "301",
+    "redirect": "https://www.prnewswire.com/search/news/",
+    "checked": 1589033596,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.proboards.com/forum-directory/search/results/1?q=test",
     "status": "301",
     "redirect": "https://www.proboards.com/forum-directory/search/results/1",
@@ -4577,6 +4685,33 @@
       "information"
     ],
     "checked": 1587955512
+  },
+  {
+    "url": "https://www.prunderground.com/archived-releases/",
+    "status": "301",
+    "title": "Published Press Releases | PRUnderground",
+    "checked": 1589033603,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.prweb.com/",
+    "status": "200",
+    "title": "Online Press Release Distribution Service | PRWeb",
+    "checked": 1589033597,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.prweb.com/search.aspx?search-releases=test",
+    "status": "200",
+    "title": "Online Marketing through Press Release Distribution - PRWeb",
+    "checked": 1589033592,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
@@ -4704,6 +4839,15 @@
     "checked": 1582118314
   },
   {
+    "url": "https://www.realwire.com/archive.asp",
+    "status": "301",
+    "title": "Press Release Archive | Archive of Press Releases | RealWire",
+    "checked": 1589033605,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.reddit.com/",
     "status": "301",
     "title": "reddit: the front page of the internet",
@@ -4824,6 +4968,24 @@
       "video"
     ],
     "checked": 1582118318
+  },
+  {
+    "url": "http://www.releasewire.com/newsroom/",
+    "status": "200",
+    "title": "ReleaseWire - From Release To Results  | Press Releases",
+    "checked": 1589033601,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "http://www.releasewire.com/search/?q=test",
+    "status": "200",
+    "title": "ReleaseWire - From Release To Results  | Site Search",
+    "checked": 1589033594,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://restoreprivacy.com/private-search-engine/",
@@ -10187,6 +10349,24 @@
       "information"
     ],
     "checked": 1587955092
+  },
+  {
+    "url": "https://pressat.co.uk/releases/",
+    "status": "301",
+    "title": "Latest Press Releases Press Releases 1 out of 12622 | Pressat",
+    "checked": 1589033606,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.prnewswire.co.uk/news-releases/news-releases-list/",
+    "status": "301",
+    "title": "All News Releases and Press Releases from PR Newswire UK",
+    "checked": 1589033606,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=test",
