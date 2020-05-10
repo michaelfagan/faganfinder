@@ -271,16 +271,20 @@
           "searchUrl": "https://search.wikileaks.org/?q={q}"
         },
         {
-          "name": "iseek.ai Education",
-          "searchUrl": "https://iseek.com/#/search/education?q={q}"
+          "name": "GitHub files",
+          "searchUrl": "https://github.com/search?type=Code&q={q}"
+        },
+        {
+          "name": "<abbr title=\"Organized Crime and Corruption Reporting Project\">OCCRP</abbr> Aleph",
+          "searchUrl": "https://aleph.occrp.org/search?q={q}"
         },
         {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
         },
         {
-          "name": "GitHub files",
-          "searchUrl": "https://github.com/search?type=Code&q={q}"
+          "name": "iseek.ai Education",
+          "searchUrl": "https://iseek.com/#/search/education?q={q}"
         }
       ]
     },

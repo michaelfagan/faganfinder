@@ -2544,6 +2544,15 @@
     ]
   },
   {
+    "url": "https://www.google.com/alerts",
+    "status": "302",
+    "title": "Google Alerts - Monitor the Web for interesting new content",
+    "checked": 1589135937,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.google.com/docs/about/",
     "status": "200",
     "checked": 1587955701,
@@ -8263,6 +8272,14 @@
     ]
   },
   {
+    "url": "https://docs.alephdata.org/guide/search",
+    "status": "302",
+    "checked": 1589119950,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://www.aodl.org/contributors.php",
     "status": "200",
     "title": "Contributors | AODL",
@@ -9063,6 +9080,23 @@
       "image"
     ],
     "checked": 1582117457
+  },
+  {
+    "url": "https://aleph.occrp.org/",
+    "status": "308",
+    "checked": 1589119948,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://aleph.occrp.org/search?q=test",
+    "status": "308",
+    "redirect": "https://aleph.occrp.org/search",
+    "checked": 1589119948,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://researchworks.oclc.org/archivegrid/",
