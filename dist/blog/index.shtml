@@ -42,6 +42,46 @@ var textbox = "false";
 
 <div id="changes">
 <div class="change">
+	<h3>May 10, 2020</h3>
+	<p style="margin-bottom:1em">
+		Usually I work on some changes, publish them, and announce it here on this blog.
+		I have been working on updating a few pages on the site, however the work has been taking so long, and the pages being updated were so out-of-date, that I have been publishing the half-finished updates for months without any blog announcement until now.
+	</p>
+	<p style="margin-bottom:1em">
+		First, I worked on the <strong><a href="https://www.faganfinder.com/img/">Image search</a></strong> page,
+		bringing it into the modern template and updating all the tools and links.
+		I have not “finished” the update, in that there are a lot more tools I want to add,
+		but everything that is included is a good tool and is working.
+	</p>
+	<p style="margin-bottom:1em">
+		Second, along with bringing more of the older pages into the newer format, I made some improvements to the design, i.e. the one used on updated pages that I launched in 2017.
+		Most of the changes are to enable using the search box and changing search tools when you are scrolled down on the page to read more details about each section.
+		The other changes are minor or subtle; for example you can now enter search terms in right-to-left languages (i.e. Arabic, Urdu, Farsi, and Hebrew).
+	</p>
+	<p style="margin-bottom:1em">
+		Lastly and most significantly, I have been working to combine what used to be several pages into one new page, even more comprehensive than ever before.
+		What used to be the Search engines, Blogs and RSS, Advanced reference, Science, News, and Government pages are now the <strong><a href="https://www.faganfinder.com/">Information search</a></strong> page, which is also now the home page.
+	</p>
+	<p style="margin-bottom:1em">
+		Beyond the topics of those former pages, I have added quite a lot more, including social media, libraries and archives, data, and the dark web.
+		I have also greatly expanded the international coverage, with resources in more languages and more countries.
+		I also expanded to include resources which are not free, require library subscriptions, or are otherwise limiting access, if they are sufficiently useful and many people do have access to them.
+		Even more so than other pages, if you scroll down past all the tools at the top, you will find a ton of information about each category and most of the tools, as well as quite a few additional resources.
+	</p>
+	<p style="margin-bottom:1em">
+		While the new Information search page is not yet complete, I am mentally exhausted from the months I have been working on it and need a break :-).
+		I still have a huge list of potential resources to go through, and will likely make other changes as well… eventually.
+	</p>
+	<p style="margin-bottom:1em">
+		Of course, making this page so comprehensive has created a new problem.
+		With 276 tools at the top (more than twice the next largest page, <a href="https://www.faganfinder.com/video/">Video search</a>), you can no longer view all the tools at once even on a desktop, and it has become hard to navigate.
+		I have not decided on a solution to that yet.
+	</p>
+	<p>
+		As always, <strong>feedback</strong> is very welcome.
+		Email (<a href="mailto:michael@faganfinder.com">michael@faganfinder.com</a>), <a href="https://twitter.com/faganfinder">Twitter</a>, or <a href="https://www.facebook.com/Fagan-Finder-162747713757379/">Facebook</a>.
+	</p>
+</div><div class="change">
 	<h3>December 2, 2019</h3>
 	<p>
 		New page today: <a href="https://www.faganfinder.com/listen/">Listen</a>, for podcasts, audiobooks, and radio.
@@ -316,25 +356,9 @@ The <a href="http://www.faganfinder.com/engines.html">Search Engine Ultimate Int
 </ul>
 </td>
 <td valign="top">
-<strong>Elsewhere</strong><br />
-<ul class="out">
-<li><a href="http://www.blogstreet.com/blogsqlbin/home.cgi?url=faganfinder.com/blog">BlogStreet page for this blog</a></li>
-</ul>
 </td>
 </tr></table>
 </div>
-
-<!-- Information -->
-
-<div id="info">
-<a name="info"></a><h2>information</h2>
-<p>
-This page is a blog which logs the new pages on Fagan Finder and major revisions to existing pages.
-This is <em>not</em> a blog about search engines. I did that for several months (see links above), but it was more work than I could handle. For blogs about search engines, see these <a href="../search/links.shtml" title="news about search engines and online information">links</a>.
-This is also <em>not</em> a search engine for blogs. For those, see <a href="../blogs/index.shtml">Weblogs, Journals, and <acronym title="Really Simple Syndication, Rich Site Summary, RDF Site Summary, etc.">RSS</acronym></a>.
-</p>
-</div>
-
 
 <script type="text/javascript">
    var _gaq = _gaq || [];
