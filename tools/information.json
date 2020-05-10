@@ -275,12 +275,12 @@
           "searchUrl": "https://iseek.com/#/search/education?q={q}"
         },
         {
-          "name": "Grafiti",
-          "searchUrl": "https://beta.grafiti.io/search/facts/?search_text={q}"
-        },
-        {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
+        },
+        {
+          "name": "GitHub files",
+          "searchUrl": "https://github.com/search?type=Code&q={q}"
         }
       ]
     },
@@ -994,6 +994,10 @@
           "searchUrl": "https://search.wn.com/?results_type=news&action=search&search_type=boolean&sort_type=relevance&search_string={q}"
         },
         {
+          "name": "RSSMicro",
+          "searchUrl": "http://www.rssmicro.com/?q={q}"
+        },
+        {
           "name": "Watson News Explorer",
           "searchUrl": "http://news-explorer.mybluemix.net/?type=unconstrained&query={q}"
         },
@@ -1197,49 +1201,6 @@
       ]
     },
     {
-      "name": "Data",
-      "tools": [
-        {
-          "name": "DataCite",
-          "searchUrl": "https://search.datacite.org/works?query={q}"
-        },
-        {
-          "name": "Knoema",
-          "searchUrl": "https://knoema.com/search?query={q}"
-        },
-        {
-          "name": "Google Dataset Search",
-          "searchUrl": "https://datasetsearch.research.google.com/search?query={q}"
-        },
-        {
-          "name": "Datahub",
-          "searchUrl": "https://datahub.io/search?q={q}"
-        },
-        {
-          "name": "data.world",
-          "searchUrl": "https://data.world/search?q={q}"
-        },
-        {
-          "name": "Open Data Institute",
-          "searchUrl": "https://certificates.theodi.org/en/datasets?search={q}"
-        },
-        {
-          "name": "OpenDataSoft",
-          "searchUrl": "https://data.opendatasoft.com/explore/?q={q}"
-        },
-
-        {
-          "name": "Reddit r/datasets",
-          "searchUrl": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q={q}"
-        },
-
-        {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
-          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
-        }
-      ]
-    },
-    {
       "name": "Government",
       "tools": [
         {
@@ -1309,6 +1270,51 @@
         {
           "name": "Global-Regulation",
           "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Data",
+      "tools": [
+        {
+          "name": "DataCite",
+          "searchUrl": "https://search.datacite.org/works?query={q}"
+        },
+        {
+          "name": "Grafiti",
+          "searchUrl": "https://beta.grafiti.io/search/facts/?search_text={q}"
+        },
+        {
+          "name": "Knoema",
+          "searchUrl": "https://knoema.com/search?query={q}"
+        },
+        {
+          "name": "Google Dataset Search",
+          "searchUrl": "https://datasetsearch.research.google.com/search?query={q}"
+        },
+        {
+          "name": "Datahub",
+          "searchUrl": "https://datahub.io/search?q={q}"
+        },
+        {
+          "name": "data.world",
+          "searchUrl": "https://data.world/search?q={q}"
+        },
+        {
+          "name": "Open Data Institute",
+          "searchUrl": "https://certificates.theodi.org/en/datasets?search={q}"
+        },
+        {
+          "name": "OpenDataSoft",
+          "searchUrl": "https://data.opendatasoft.com/explore/?q={q}"
+        },
+        {
+          "name": "Reddit r/datasets",
+          "searchUrl": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q={q}"
+        },
+        {
+          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
         }
       ]
     },
