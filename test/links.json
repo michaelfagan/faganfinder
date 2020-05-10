@@ -4,7 +4,7 @@
     "status": "301",
     "redirect": "https://app.dimensions.ai:443/discover/publication",
     "title": " Dimensions ",
-    "checked": 1587990883,
+    "checked": 1589138606,
     "pages": [
       "information"
     ]
@@ -14,7 +14,7 @@
     "status": "301",
     "redirect": "https://app.dimensions.ai:443/discover/publication",
     "title": " test in Publications - Dimensions ",
-    "checked": 1587990884,
+    "checked": 1589138608,
     "pages": [
       "information"
     ]
@@ -26,7 +26,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955704
+    "checked": 1589137808
   },
   {
     "url": "https://www.nfsa.gov.au/",
@@ -54,7 +54,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955468
+    "checked": 1589137544
   },
   {
     "url": "https://trove.nla.gov.au/newspaper/",
@@ -63,7 +63,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955099
+    "checked": 1589137219
   },
   {
     "url": "https://trove.nla.gov.au/newspaper/result?q=test",
@@ -73,7 +73,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955103
+    "checked": 1589137224
   },
   {
     "url": "https://trove.nla.gov.au/result?q=test",
@@ -83,7 +83,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955106
+    "checked": 1589137227
   },
   {
     "url": "https://iview.abc.net.au/",
@@ -96,7 +96,7 @@
   {
     "url": "https://www.bangladesh.gov.bd/?lang=en",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1588681585,
+    "checked": 1589138950,
     "pages": [
       "information"
     ]
@@ -104,7 +104,7 @@
   {
     "url": "https://www.bangladesh.gov.bd/site/search?lang=en&key=test",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1588558686,
+    "checked": 1589138942,
     "pages": [
       "information"
     ]
@@ -135,7 +135,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955110
+    "checked": 1589137233
   },
   {
     "url": "https://bdlb.bn.gov.br/?lang=en",
@@ -144,7 +144,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955112
+    "checked": 1589137235
   },
   {
     "url": "http://bndigital.bn.gov.br/hemeroteca-digital/",
@@ -153,7 +153,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955114
+    "checked": 1589137237
   },
   {
     "url": "http://bndigital.bn.gov.br/",
@@ -162,13 +162,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955116
+    "checked": 1589137239
   },
   {
     "url": "https://www.gov.br/pt-br/@@search?SearchableText=test",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
     "redirect": "https://www.gov.br/pt-br/@@search",
-    "checked": 1588558679,
+    "checked": 1589138935,
     "pages": [
       "information"
     ]
@@ -176,7 +176,7 @@
   {
     "url": "https://www.gov.br/pt-br",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1588558687,
+    "checked": 1589138943,
     "pages": [
       "information"
     ]
@@ -189,7 +189,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955115
+    "checked": 1589137237
   },
   {
     "url": "http://www.archivescanada.ca/",
@@ -198,13 +198,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955117
+    "checked": 1589137241
   },
   {
     "url": "https://www.canada.ca/en.html",
     "status": "301",
     "title": "Home - Canada.ca",
-    "checked": 1588684464,
+    "checked": 1589138951,
     "pages": [
       "information"
     ]
@@ -214,7 +214,7 @@
     "status": "301",
     "redirect": "https://www.canada.ca/en/sr/srb.html",
     "title": "Basic search - Canada.ca",
-    "checked": 1588684464,
+    "checked": 1589138951,
     "pages": [
       "information"
     ]
@@ -225,7 +225,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955622
+    "checked": 1589137718
   },
   {
     "url": "http://heritage.canadiana.ca/search/?q0.0=test",
@@ -233,7 +233,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955596
+    "checked": 1589137686
   },
   {
     "url": "http://www.canadiana.ca/",
@@ -242,7 +242,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955118
+    "checked": 1589137241
   },
   {
     "url": "http://www.canadiana.ca/search/?q0.0=test",
@@ -251,7 +251,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955119
+    "checked": 1589137242
   },
   {
     "url": "https://gem.cbc.ca/",
@@ -263,17 +263,17 @@
   },
   {
     "url": "https://www.crkn-rcdr.ca/en",
-    "status": "200",
+    "status": "301",
     "title": "Home | Canadian Research Knowledge Network",
     "pages": [
       "information"
     ],
-    "checked": 1587955119
+    "checked": 1589137242
   },
   {
     "url": "https://www.bac-lac.gc.ca/eng/Pages/home.aspx",
     "status": "301",
-    "checked": 1587989727,
+    "checked": 1589137837,
     "pages": [
       "information"
     ]
@@ -282,7 +282,7 @@
     "url": "https://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q=test",
     "status": "301",
     "redirect": "https://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx",
-    "checked": 1587989724,
+    "checked": 1589137833,
     "pages": [
       "information"
     ]
@@ -307,7 +307,7 @@
     "url": "http://publications.gc.ca/site/eng/home.html",
     "status": "200",
     "title": "Government of Canada Publications - Canada.ca",
-    "checked": 1588901396,
+    "checked": 1589139027,
     "pages": [
       "information"
     ]
@@ -316,7 +316,7 @@
     "url": "https://paperofrecord.hypernet.ca/default.asp",
     "status": "302",
     "title": "Paper of Record",
-    "checked": 1587989727,
+    "checked": 1589137838,
     "pages": [
       "information"
     ]
@@ -327,14 +327,14 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955588,
+    "checked": 1589137679,
     "title": "Paper of Record"
   },
   {
     "url": "https://www.newswire.ca/news-releases/",
     "status": "301",
     "title": "Cision | News Releases",
-    "checked": 1589033604,
+    "checked": 1589139046,
     "pages": [
       "information"
     ]
@@ -361,7 +361,7 @@
   {
     "url": "https://libguides.smu.ca/govdoc/canada",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1588811515,
+    "checked": 1589138959,
     "pages": [
       "information"
     ]
@@ -373,7 +373,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955120
+    "checked": 1589137243
   },
   {
     "url": "https://www.etools.ch/searchSubmit.do?query=test",
@@ -383,7 +383,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955123
+    "checked": 1589137245
   },
   {
     "url": "https://swisscows.ch/",
@@ -392,7 +392,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955125
+    "checked": 1589137248
   },
   {
     "url": "http://cadal.zju.edu.cn/cadalinfo/search",
@@ -401,7 +401,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955550
+    "checked": 1589137637
   },
   {
     "url": "http://cadal.zju.edu.cn/index/home",
@@ -410,12 +410,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955552
+    "checked": 1589137640
   },
   {
     "url": "http://sousuo.gov.cn/s.htm?t=govall&q=test",
     "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
-    "checked": 1588519612,
+    "checked": 1589138933,
     "pages": [
       "information"
     ]
@@ -423,7 +423,7 @@
   {
     "url": "http://www.gov.cn/",
     "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
-    "checked": 1588519616,
+    "checked": 1589138934,
     "pages": [
       "information"
     ]
@@ -435,7 +435,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955555
+    "checked": 1589137642
   },
   {
     "url": "https://duck.co/ia",
@@ -444,14 +444,14 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955123
+    "checked": 1589137245
   },
   {
     "url": "https://1findr.1science.com/search?query=test",
     "status": "301",
     "redirect": "https://1findr.1science.com/search",
     "title": "1findr",
-    "checked": 1587990928,
+    "checked": 1589138648,
     "pages": [
       "information"
     ]
@@ -460,7 +460,7 @@
     "url": "https://www.1science.com/1findr/",
     "status": "301",
     "title": "1findr | ",
-    "checked": 1587990924,
+    "checked": 1589138644,
     "pages": [
       "information"
     ]
@@ -469,7 +469,7 @@
     "url": "https://www.24-7pressrelease.com/press_releases_today",
     "status": "301",
     "title": "Top News: Today's Breaking News - Page 1 - 24-7 Press Release",
-    "checked": 1589033601,
+    "checked": 1589139042,
     "pages": [
       "information"
     ]
@@ -479,7 +479,7 @@
     "status": "301",
     "redirect": "https://www.24-7pressrelease.com/search_press_releases",
     "title": "News Search: Find Top News Quickly and Easily - Page 1 - 24-7 Press Release",
-    "checked": 1589033595,
+    "checked": 1589139036,
     "pages": [
       "information"
     ]
@@ -488,7 +488,7 @@
     "url": "https://www.2lingual.com/",
     "status": "302",
     "title": "2lingual Google Search",
-    "checked": 1588904850,
+    "checked": 1589139031,
     "pages": [
       "information"
     ]
@@ -519,7 +519,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955125
+    "checked": 1589137246
   },
   {
     "url": "https://www.accessible-archives.com/",
@@ -528,7 +528,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955126
+    "checked": 1589137249
   },
   {
     "url": "https://adage.com/creativity/search?search_phrase=test",
@@ -573,7 +573,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955127
+    "checked": 1589137250
   },
   {
     "url": "https://search.alexanderstreet.com/",
@@ -619,7 +619,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955127
+    "checked": 1589137250
   },
   {
     "url": "https://www.ancestry.com/search/categories/np_newspapers/?keyword=test",
@@ -629,13 +629,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955128
+    "checked": 1589137251
   },
   {
     "url": "https://www.answers.com/",
     "status": "301",
     "title": "Answers - The Most Trusted Place for Answering Life's Questions",
-    "checked": 1587955696,
+    "checked": 1589137797,
     "pages": [
       "information"
     ]
@@ -645,7 +645,7 @@
     "status": "301",
     "redirect": "https://www.answers.com/search",
     "title": "Redirecting to https://www.answers.com/Q/Test",
-    "checked": 1587955695,
+    "checked": 1589137797,
     "pages": [
       "information"
     ]
@@ -709,7 +709,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955129
+    "checked": 1589137253
   },
   {
     "url": "https://www.apple.com/ca/siri/",
@@ -718,7 +718,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955129
+    "checked": 1589137252
   },
   {
     "url": "https://www.apple.com/itunes/podcasts/discover/",
@@ -823,7 +823,7 @@
     "url": "http://www.authorstream.com/",
     "status": "200",
     "title": "Upload, Share and Search Presentations, Templates On authorSTREAM",
-    "checked": 1588083226,
+    "checked": 1589138890,
     "pages": [
       "information"
     ]
@@ -831,7 +831,7 @@
   {
     "url": "http://www.authorstream.com/tag/test",
     "status": "200",
-    "checked": 1588083224,
+    "checked": 1589138889,
     "pages": [
       "information"
     ]
@@ -839,7 +839,7 @@
   {
     "url": "https://baike.baidu.com/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
-    "checked": 1587990751,
+    "checked": 1589138477,
     "pages": [
       "information"
     ]
@@ -848,7 +848,7 @@
     "url": "https://baike.baidu.com/search/word?word=test",
     "status": "301",
     "redirect": "https://baike.baidu.com/search/word",
-    "checked": 1587990755,
+    "checked": 1589138481,
     "pages": [
       "information"
     ]
@@ -856,7 +856,7 @@
   {
     "url": "http://tieba.baidu.com/f/search/res?ie=utf-8&qw=test",
     "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955625,
+    "checked": 1589137721,
     "pages": [
       "information"
     ]
@@ -865,7 +865,7 @@
     "url": "https://tieba.baidu.com/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "redirect": "",
-    "checked": 1587955628,
+    "checked": 1589137724,
     "pages": [
       "information"
     ]
@@ -877,22 +877,22 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955557
+    "checked": 1589137644
   },
   {
     "url": "http://www.baidu.com/s?wd=test",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
-    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=8568786570395758278&signature=9c80100f91cc355b4156d0d01af26fad&timestamp=1582118416",
+    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=8541990050336560943&signature=fd2db4ffd97253994b6dadbaa5e9437a&timestamp=1589137644",
     "title": "test_百度搜索",
     "pages": [
       "information"
     ],
-    "checked": 1587955558
+    "checked": 1589137645
   },
   {
     "url": "https://xueshu.baidu.com/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
-    "checked": 1587990886,
+    "checked": 1589138609,
     "pages": [
       "information"
     ]
@@ -900,8 +900,8 @@
   {
     "url": "https://xueshu.baidu.com/s?wd=test",
     "status": "302",
-    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=10913094065308774388&signature=6561d5a0933465397da3f8afb44cd7bd&timestamp=1587990886",
-    "checked": 1587990887,
+    "redirect": "https://wappass.baidu.com/static/captcha/tuxing.html?&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs&logid=10037960247824325240&signature=63e11b65fe2211a3c0d276499bcad65b&timestamp=1589138610",
+    "checked": 1589138611,
     "pages": [
       "information"
     ]
@@ -910,33 +910,33 @@
     "url": "https://zhidao.baidu.com/",
     "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://zhidao.baidu.com/error.html?status=503&&uri=/",
-    "checked": 1587955662,
+    "checked": 1589137756,
     "pages": [
       "information"
     ]
   },
   {
     "url": "https://zhidao.baidu.com/search?word=test",
-    "status": "end of file reached",
+    "status": "301",
     "redirect": "https://zhidao.baidu.com/search",
-    "checked": 1587955647,
+    "checked": 1589137743,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "http://so1.baike.com/so/search?q=test",
-    "status": "\"\\xE6\" from ASCII-8BIT to UTF-8",
-    "redirect": "http://www.baike.com/",
-    "checked": 1587990935,
+    "url": "https://www.baike.com/",
+    "status": "\"\\xE5\" from ASCII-8BIT to UTF-8",
+    "checked": 1589142597,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "http://www.baike.com/",
-    "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
-    "checked": 1587990931,
+    "url": "https://www.baike.com/search?keyword=test",
+    "status": "301",
+    "redirect": "https://www.baike.com/search",
+    "checked": 1589142595,
     "pages": [
       "information"
     ]
@@ -948,7 +948,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955129
+    "checked": 1589137253
   },
   {
     "url": "http://bechdeltest.com/",
@@ -975,7 +975,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955129
+    "checked": 1589137253
   },
   {
     "url": "https://www.bing.com/images/search?q=test",
@@ -1004,7 +1004,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955130
+    "checked": 1589137253
   },
   {
     "url": "https://www.bing.com/news",
@@ -1013,7 +1013,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955130
+    "checked": 1589137254
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
@@ -1023,7 +1023,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955131
+    "checked": 1589137254
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez2%22&q=test",
@@ -1033,7 +1033,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955131
+    "checked": 1589137254
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez3%22&q=test",
@@ -1043,7 +1043,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955131
+    "checked": 1589137255
   },
   {
     "url": "http://www.bing.com/search?q=test",
@@ -1053,7 +1053,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955131
+    "checked": 1589137255
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -1090,7 +1090,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955595
+    "checked": 1589137686
   },
   {
     "url": "http://boardreader.com/",
@@ -1099,7 +1099,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955132
+    "checked": 1589137256
   },
   {
     "url": "http://boardreader.com/s/test.html",
@@ -1108,7 +1108,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955132
+    "checked": 1589137256
   },
   {
     "url": "https://brainly.com/app/ask?q=test",
@@ -1118,7 +1118,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955132
+    "checked": 1589137256
   },
   {
     "url": "https://brainly.com/",
@@ -1127,7 +1127,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955132
+    "checked": 1589137256
   },
   {
     "url": "https://www.britannica.com/",
@@ -1136,7 +1136,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955131,
+    "checked": 1589137254,
     "redirect": "https://www.britannica.com:443/"
   },
   {
@@ -1147,13 +1147,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955133
+    "checked": 1589137257
   },
   {
     "url": "https://www.businesswire.com/portal/site/home/",
     "status": "302",
     "title": "Press release distribution, EDGAR filing, XBRL, regulatory filings | Business Wire",
-    "checked": 1589033598,
+    "checked": 1589139038,
     "pages": [
       "information"
     ]
@@ -1163,7 +1163,7 @@
     "status": "302",
     "redirect": "https://www.businesswire.com/portal/site/home/search/",
     "title": "Search | Business Wire",
-    "checked": 1589033593,
+    "checked": 1589139033,
     "pages": [
       "information"
     ]
@@ -1194,7 +1194,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955561
+    "checked": 1589137648
   },
   {
     "url": "http://www.cervantesvirtual.com/",
@@ -1203,21 +1203,21 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955134
+    "checked": 1589137258
   },
   {
     "url": "https://checklist.com/",
     "status": "301",
     "title": "Checklist Templates & App - Checklist.com",
-    "checked": 1587990756,
+    "checked": 1589138481,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "http://www.checklists.com/",
+    "url": "http://checklists.com/",
     "status": "200",
-    "checked": 1587990759,
+    "checked": 1589142601,
     "pages": [
       "information"
     ]
@@ -1227,7 +1227,7 @@
     "status": "301",
     "redirect": "https://www.checkli.com/checklists/search",
     "title": "Free Checklist Maker - Checkli",
-    "checked": 1587990759,
+    "checked": 1589138482,
     "pages": [
       "information"
     ]
@@ -1236,7 +1236,7 @@
     "url": "https://www.checkli.com/",
     "status": "301",
     "title": "Free Checklist Maker - Checkli",
-    "checked": 1587990760,
+    "checked": 1589138484,
     "pages": [
       "information"
     ]
@@ -1266,7 +1266,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955134
+    "checked": 1589137259
   },
   {
     "url": "https://www.cnn.com/search?q=test",
@@ -1276,7 +1276,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955134
+    "checked": 1589137259
   },
   {
     "url": "https://coccoc.com/search",
@@ -1285,7 +1285,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955564
+    "checked": 1589137651
   },
   {
     "url": "https://coccoc.com/search?query=test",
@@ -1295,13 +1295,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955566
+    "checked": 1589137653
   },
   {
     "url": "https://search.credoreference.com/",
     "status": "301",
     "title": "Home - Credo Reference",
-    "checked": 1587991119,
+    "checked": 1589138840,
     "pages": [
       "information"
     ]
@@ -1311,7 +1311,7 @@
     "status": "301",
     "redirect": "https://search.credoreference.com/search/all",
     "title": "Search - Credo Reference",
-    "checked": 1587991122,
+    "checked": 1589138842,
     "pages": [
       "information"
     ]
@@ -1337,7 +1337,7 @@
   {
     "url": "https://www.deepdyve.com/",
     "status": "301",
-    "checked": 1587990927,
+    "checked": 1589138647,
     "pages": [
       "information"
     ]
@@ -1347,7 +1347,7 @@
     "status": "301",
     "redirect": "https://www.deepdyve.com/search",
     "title": "test | DeepDyve",
-    "checked": 1587990926,
+    "checked": 1589138647,
     "pages": [
       "information"
     ]
@@ -1397,7 +1397,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955135
+    "checked": 1589137260
   },
   {
     "url": "https://dloc.com/results/?text=test",
@@ -1407,7 +1407,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955135
+    "checked": 1589137261
   },
   {
     "url": "https://documentaryheaven.com/find/?q=test",
@@ -1459,7 +1459,7 @@
   {
     "url": "https://www.douban.com/",
     "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955634,
+    "checked": 1589137729,
     "pages": [
       "information"
     ]
@@ -1468,7 +1468,7 @@
     "url": "https://www.douban.com/search?q=test",
     "status": "301",
     "redirect": "https://www.douban.com/search",
-    "checked": 1587955632,
+    "checked": 1589137727,
     "pages": [
       "information"
     ]
@@ -1499,7 +1499,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955135
+    "checked": 1589137262
   },
   {
     "url": "https://duckduckgo.com/",
@@ -1508,7 +1508,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955564
+    "checked": 1589137649
   },
   {
     "url": "https://duckduckgo.com/?q=test",
@@ -1518,7 +1518,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955136
+    "checked": 1589137262
   },
   {
     "url": "https://help.duckduckgo.com/results/syntax/",
@@ -1527,7 +1527,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955136
+    "checked": 1589137263
   },
   {
     "url": "https://www.eastview.com/",
@@ -1536,7 +1536,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955136
+    "checked": 1589137263
   },
   {
     "url": "https://www.eastview.com/resources/resources-links/",
@@ -1545,7 +1545,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955137
+    "checked": 1589137265
   },
   {
     "url": "http://search.ebscohost.com/login.aspx?authtype=guest&custid=s6406031&profile=eds&groupid=main",
@@ -1554,7 +1554,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955137
+    "checked": 1589137264
   },
   {
     "url": "https://www.edocr.com/",
@@ -1563,7 +1563,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955136
+    "checked": 1589137262
   },
   {
     "url": "https://www.edocr.com/search?q=test",
@@ -1573,12 +1573,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955137
+    "checked": 1589137264
   },
   {
     "url": "https://www.ehow.com/",
     "status": "Net::ReadTimeout",
-    "checked": 1587990881,
+    "checked": 1589138604,
     "pages": [
       "information"
     ]
@@ -1588,7 +1588,7 @@
     "status": "302",
     "redirect": "https://www.einpresswire.com:443/",
     "title": "Press Release Distribution &amp; World Media Directory by EIN Presswire",
-    "checked": 1589033600,
+    "checked": 1589139041,
     "pages": [
       "information"
     ]
@@ -1598,7 +1598,7 @@
     "status": "302",
     "redirect": "https://www.einpresswire.com:443/search",
     "title": "Search Press Releases - EIN Presswire - Press Release Distribution Service",
-    "checked": 1589033593,
+    "checked": 1589139035,
     "pages": [
       "information"
     ]
@@ -1611,7 +1611,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955142
+    "checked": 1589137270
   },
   {
     "url": "https://elephind.com/",
@@ -1620,7 +1620,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955138
+    "checked": 1589137265
   },
   {
     "url": "https://elephind.com/?p=about",
@@ -1630,13 +1630,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955143
+    "checked": 1589137270
   },
   {
     "url": "https://www.elsevier.com/",
     "status": "301",
     "title": "Elsevier | An Information Analytics Business | Empowering Knowledge",
-    "checked": 1587990921,
+    "checked": 1589138641,
     "pages": [
       "information"
     ]
@@ -1685,7 +1685,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955143
+    "checked": 1589137271
   },
   {
     "url": "http://www.exalead.com/search/web/results/?q=test",
@@ -1694,7 +1694,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955145
+    "checked": 1589137273
   },
   {
     "url": "https://www.exalead.com/search/web/search-syntax/",
@@ -1703,7 +1703,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955146
+    "checked": 1589137275
   },
   {
     "url": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,test",
@@ -1712,7 +1712,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955148
+    "checked": 1589137277
   },
   {
     "url": "https://www.facebook.com/groups/?category=discover",
@@ -1730,7 +1730,7 @@
       "image",
       "information"
     ],
-    "checked": 1587955147
+    "checked": 1589137275
   },
   {
     "url": "https://www.facebook.com/search/groups/?q=test",
@@ -1757,7 +1757,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955146
+    "checked": 1589137275
   },
   {
     "url": "https://www.facebook.com/watch/",
@@ -1879,7 +1879,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955150
+    "checked": 1589137279
   },
   {
     "url": "https://www.flaticon.com/",
@@ -1961,7 +1961,7 @@
     "url": "https://www.flipsnack.com/",
     "status": "301",
     "title": "Flipsnack: Free Online Flipbook Maker - Easy PDF to HTML5",
-    "checked": 1587955699,
+    "checked": 1589137802,
     "pages": [
       "information"
     ]
@@ -1970,7 +1970,7 @@
     "url": "https://www.foleon.com",
     "status": "301",
     "title": "Foleon",
-    "checked": 1587955702,
+    "checked": 1589137805,
     "pages": [
       "information"
     ]
@@ -2025,7 +2025,7 @@
   {
     "url": "http://www.freefullpdf.com/#gsc.q=test",
     "status": "200",
-    "checked": 1587991143,
+    "checked": 1589138860,
     "pages": [
       "information"
     ]
@@ -2033,7 +2033,7 @@
   {
     "url": "http://www.freefullpdf.com/",
     "status": "200",
-    "checked": 1587991140,
+    "checked": 1589138856,
     "pages": [
       "information"
     ]
@@ -2082,7 +2082,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955151
+    "checked": 1589137280
   },
   {
     "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~test",
@@ -2091,7 +2091,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955151
+    "checked": 1589137280
   },
   {
     "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&tabID=T004&qt=OQE~test",
@@ -2100,7 +2100,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955150
+    "checked": 1589137280
   },
   {
     "url": "https://www.gale.com/",
@@ -2109,7 +2109,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955152
+    "checked": 1589137282
   },
   {
     "url": "https://www.gale.com/intl/primary-sources/historical-newspapers",
@@ -2118,7 +2118,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955153
+    "checked": 1589137283
   },
   {
     "url": "https://www.gettyimages.com/",
@@ -2144,7 +2144,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955154
+    "checked": 1589137284
   },
   {
     "url": "http://www.gigablast.com/search?q=test",
@@ -2153,7 +2153,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955154
+    "checked": 1589137283
   },
   {
     "url": "http://www.gigablast.com/syntax.html",
@@ -2162,7 +2162,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955154
+    "checked": 1589137284
   },
   {
     "url": "https://giphy.com/",
@@ -2185,7 +2185,7 @@
   {
     "url": "https://github.com/",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "checked": 1589058781,
+    "checked": 1589139054,
     "pages": [
       "information"
     ]
@@ -2194,7 +2194,7 @@
     "url": "https://github.com/search?type=Code&q=test",
     "status": "301",
     "redirect": "https://github.com/search",
-    "checked": 1589058780,
+    "checked": 1589139054,
     "pages": [
       "information"
     ]
@@ -2206,7 +2206,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955155
+    "checked": 1589137285
   },
   {
     "url": "https://www.global-regulation.com/",
@@ -2215,7 +2215,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955155
+    "checked": 1589137285
   },
   {
     "url": "https://www.global-regulation.com/search.php?&q=test",
@@ -2224,13 +2224,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955155
+    "checked": 1589137285
   },
   {
     "url": "https://www.globenewswire.com/NewsRoom",
     "status": "200",
     "title": "Press Release Distribution and Management",
-    "checked": 1589033600,
+    "checked": 1589139040,
     "pages": [
       "information"
     ]
@@ -2293,7 +2293,7 @@
     "url": "http://google.com/maps?q=test",
     "status": "301",
     "redirect": "http://www.google.com/maps",
-    "checked": 1587991139,
+    "checked": 1589138855,
     "pages": [
       "information"
     ]
@@ -2305,7 +2305,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955156
+    "checked": 1589137286
   },
   {
     "url": "https://artsandculture.google.com/search?q=test",
@@ -2315,7 +2315,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955567
+    "checked": 1589137653
   },
   {
     "url": "https://books.google.com/advanced_book_search",
@@ -2325,7 +2325,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955156
+    "checked": 1589137286
   },
   {
     "url": "https://books.google.com/books/magazines",
@@ -2335,7 +2335,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955156
+    "checked": 1589137287
   },
   {
     "url": "https://books.google.com/books/newspapers",
@@ -2345,7 +2345,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955157
+    "checked": 1589137288
   },
   {
     "url": "https://books.google.com/",
@@ -2355,13 +2355,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955157
+    "checked": 1589137287
   },
   {
     "url": "https://chrome.google.com/webstore/detail/google-scholar-button/ldipcbpaocekfooobnbcddclnhejkcpn",
     "status": "301",
     "title": "Google Scholar Button - Chrome Web Store",
-    "checked": 1587991092,
+    "checked": 1589138817,
     "pages": [
       "information"
     ]
@@ -2371,7 +2371,7 @@
     "status": "301",
     "redirect": "http://cse.google.com/cse/",
     "title": "Programmable Search Engine",
-    "checked": 1588811515,
+    "checked": 1589138959,
     "pages": [
       "information"
     ]
@@ -2381,7 +2381,7 @@
     "status": "301",
     "redirect": "http://cse.google.com/cse/",
     "title": "Programmable Search Engine",
-    "checked": 1588850414,
+    "checked": 1589139025,
     "pages": [
       "information"
     ]
@@ -2391,7 +2391,7 @@
     "status": "301",
     "redirect": "http://cse.google.com/cse/",
     "title": "Programmable Search Engine",
-    "checked": 1588850414,
+    "checked": 1589139025,
     "pages": [
       "information"
     ]
@@ -2412,7 +2412,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955156
+    "checked": 1589137286
   },
   {
     "url": "https://groups.google.com/",
@@ -2422,7 +2422,7 @@
       "group",
       "information"
     ],
-    "checked": 1587955473
+    "checked": 1589137551
   },
   {
     "url": "https://images.google.com/",
@@ -2439,7 +2439,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955157
+    "checked": 1589137288
   },
   {
     "url": "https://news.google.com/newspapers",
@@ -2449,7 +2449,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955158
+    "checked": 1589137288
   },
   {
     "url": "https://news.google.com/search?q=test",
@@ -2458,7 +2458,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955157
+    "checked": 1589137287
   },
   {
     "url": "https://play.google.com/store/books/category/audiobooks",
@@ -2484,7 +2484,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955159
+    "checked": 1589137289
   },
   {
     "url": "https://datasetsearch.research.google.com/search?query=test",
@@ -2494,7 +2494,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955160
+    "checked": 1589137290
   },
   {
     "url": "https://scholar.google.com/",
@@ -2503,7 +2503,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955160
+    "checked": 1589137291
   },
   {
     "url": "https://scholar.google.com/scholar?q=test",
@@ -2513,7 +2513,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955160
+    "checked": 1589137291
   },
   {
     "url": "https://support.google.com/websearch/answer/2466433",
@@ -2522,13 +2522,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955161
+    "checked": 1589137291
   },
   {
     "url": "https://translate.google.com/",
     "status": "302",
     "title": "  Google Translate ",
-    "checked": 1587955697,
+    "checked": 1589137798,
     "pages": [
       "information"
     ]
@@ -2538,7 +2538,7 @@
     "status": "302",
     "redirect": "https://translate.google.com/",
     "title": "  Google Translate ",
-    "checked": 1587955696,
+    "checked": 1589137798,
     "pages": [
       "information"
     ]
@@ -2547,7 +2547,7 @@
     "url": "https://www.google.com/alerts",
     "status": "302",
     "title": "Google Alerts - Monitor the Web for interesting new content",
-    "checked": 1589135937,
+    "checked": 1589139058,
     "pages": [
       "information"
     ]
@@ -2555,7 +2555,7 @@
   {
     "url": "https://www.google.com/docs/about/",
     "status": "200",
-    "checked": 1587955701,
+    "checked": 1589137802,
     "pages": [
       "information"
     ]
@@ -2567,14 +2567,14 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955463
+    "checked": 1589137538
   },
   {
     "url": "https://www.google.com/maps",
-    "status": "302",
+    "status": "200",
     "redirect": "https://www.google.com:443/maps",
     "title": "  Google Maps  ",
-    "checked": 1587991115,
+    "checked": 1589138840,
     "pages": [
       "information"
     ]
@@ -2591,19 +2591,19 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test data OR spreadsheet OR csv OR tsv OR json OR rdf OR xml - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955162
+    "checked": 1589137293
   },
   {
     "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20OR%20filetype%3Adocx%20OR%20filetype%3Adoc%20OR%20filetype%3Aodt%20OR%20filetype%3Artf%20OR%20filetype%3Aps%20OR%20filetype%3Atex%20OR%20filetype%3Awpd",
     "status": "200",
     "title": "test filetype:pdf OR filetype:docx OR filetype:doc OR filetype:odt OR filetype:rtf OR filetype:ps OR filetype:tex OR filetype:wpd - Google Search",
-    "checked": 1589037554,
+    "checked": 1589139051,
     "pages": [
       "information"
     ]
@@ -2612,7 +2612,7 @@
     "url": "https://www.google.com/search?q=test%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aauthorstream.com%2Fpresentation%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st",
     "status": "200",
     "title": "test filetype:ppt OR filetype:pptx OR filetype:pps OR filetype:ppsx OR site:docs.google.com/presentation OR site:slideshare.net OR site:authorstream.com/presentation OR site:speakerdeck.com OR site:slides.com OR filetype:odp OR filetype:key OR site:prezi.com OR site:noti.st - Google Search",
-    "checked": 1589037556,
+    "checked": 1589139053,
     "pages": [
       "information"
     ]
@@ -2631,7 +2631,7 @@
     "url": "https://www.google.com/search?q=test%20site%3Abusinesswire.com%20OR%20site%3Aprnewswire.com%20OR%20site%3Aglobenewswire.com%20OR%20site%3Aprweb.com%20OR%20site%3Anewswire.ca%20OR%20site%3Aeinpresswire.com%20OR%20site%3Aprnewswire.co.uk%20OR%20site%3A24-7pressrelease.com%20OR%20site%3Areleasewire.com%20OR%20site%3Arealwire.com%20OR%20site%3Aprunderground.com%20OR%20site%3Apressat.co.uk",
     "status": "200",
     "title": "test site:businesswire.com OR site:prnewswire.com OR site:globenewswire.com OR site:prweb.com OR site:newswire.ca OR site:einpresswire.com OR site:prnewswire.co.uk OR site:24-7pressrelease.com OR site:releasewire.com OR site:realwire.com OR site:prunderground.com OR site:pressat.co.uk - Google Search",
-    "checked": 1589037557,
+    "checked": 1589139053,
     "pages": [
       "information"
     ]
@@ -2640,7 +2640,7 @@
     "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Aedocr.com%20OR%20site%3Afoleon.com",
     "status": "200",
     "title": "test site:docs.google.com/document OR site:issuu.com OR site:publitas.com OR site:yumpu.com OR site:joomag.com OR site:flipsnack.com OR site:pdfdrive.com OR site:edocr.com OR site:foleon.com - Google Search",
-    "checked": 1589037555,
+    "checked": 1589139052,
     "pages": [
       "information"
     ]
@@ -2659,7 +2659,7 @@
     "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
     "status": "200",
     "title": "test site:wikihow.com OR site:reddit.com/r/howto OR site:instructables.com OR site:ehow.com OR site:howcast.com OR site:visihow.com OR site:howtodothings.com OR site:checkli.com OR site:checklist.com OR site:printabletodolist.com OR site:checklists.com - Google Search",
-    "checked": 1589037553,
+    "checked": 1589139050,
     "pages": [
       "information"
     ]
@@ -2676,83 +2676,83 @@
   },
   {
     "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test database OR directory OR \"search engine\" OR catalogue OR archive OR library OR warehouse OR repository - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955167
+    "checked": 1589137294
   },
   {
     "url": "https://www.google.com/search?q=test+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:newspapers.com OR site:newspaperarchive.com - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955165
+    "checked": 1589137294
   },
   {
     "url": "https://www.google.com/search?q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955168
+    "checked": 1589137295
   },
   {
     "url": "https://www.google.com/search?tbm=bks&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955173
+    "checked": 1589137297
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:b&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955171
+    "checked": 1589137296
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955173
+    "checked": 1589137296
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:s&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955174
+    "checked": 1589137297
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkv:f&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955175
+    "checked": 1589137298
   },
   {
     "url": "https://www.google.com/search?tbm=isch&q=test",
@@ -2796,68 +2796,68 @@
   },
   {
     "url": "https://www.google.com/search?tbs=li:1&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955178
+    "checked": 1589137300
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:d&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955176
+    "checked": 1589137299
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:h&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955178
+    "checked": 1589137300
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:m&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955180
+    "checked": 1589137301
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:w&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955181
+    "checked": 1589137302
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:y&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "information"
     ],
-    "checked": 1587955182
+    "checked": 1589137303
   },
   {
     "url": "https://www.google.com/slides/about/",
     "status": "200",
-    "checked": 1587955701,
+    "checked": 1589137804,
     "pages": [
       "information"
     ]
@@ -2878,7 +2878,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955185
+    "checked": 1589137306
   },
   {
     "url": "https://granthsanjeevani.com/jspui/simple-search?query=test",
@@ -2888,7 +2888,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955191
+    "checked": 1589137317
   },
   {
     "url": "http://groupspaces.com/",
@@ -2906,7 +2906,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955192
+    "checked": 1589137318
   },
   {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term=test",
@@ -2916,7 +2916,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955192
+    "checked": 1589137318
   },
   {
     "url": "https://www.hoopladigital.com/",
@@ -2943,7 +2943,7 @@
       "information",
       "video"
     ],
-    "checked": 1587955192
+    "checked": 1589137319
   },
   {
     "url": "https://www.howcast.com/search?query=test",
@@ -2959,7 +2959,7 @@
     "url": "http://www.howtodothings.com/",
     "status": "200",
     "title": "How To Do Things &raquo; How To Articles &amp; How To Videos",
-    "checked": 1587990882,
+    "checked": 1589138606,
     "pages": [
       "information"
     ]
@@ -3057,7 +3057,7 @@
     "url": "https://journals.indexcopernicus.com/",
     "status": "301",
     "redirect": "https://journals.indexcopernicus.com//",
-    "checked": 1588458216,
+    "checked": 1589138920,
     "pages": [
       "information"
     ]
@@ -3069,7 +3069,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955193
+    "checked": 1589137319
   },
   {
     "url": "https://timesofindia.indiatimes.com/topic/test",
@@ -3078,7 +3078,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955198
+    "checked": 1589137324
   },
   {
     "url": "https://www.indieflix.com/",
@@ -3146,7 +3146,7 @@
     "url": "https://www.instructables.com/",
     "status": "301",
     "title": "Yours for the making - Instructables",
-    "checked": 1587990882,
+    "checked": 1589138605,
     "pages": [
       "information"
     ]
@@ -3173,7 +3173,7 @@
     "url": "https://iseek.com/#/education",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
     "redirect": "http://www.iseek.com",
-    "checked": 1587989726,
+    "checked": 1589137836,
     "pages": [
       "information"
     ]
@@ -3182,7 +3182,7 @@
     "url": "https://iseek.com/#/search/education?q=test",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
     "redirect": "http://www.iseek.com",
-    "checked": 1587989698,
+    "checked": 1589137829,
     "pages": [
       "information"
     ]
@@ -3191,7 +3191,7 @@
     "url": "https://iseek.com/#/search/web?q=test",
     "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
     "redirect": "http://www.iseek.com",
-    "checked": 1587989697,
+    "checked": 1589137828,
     "pages": [
       "information"
     ]
@@ -3201,7 +3201,7 @@
     "status": "301",
     "redirect": "https://www.iseek.com:443/",
     "title": "iseek.ai",
-    "checked": 1587989725,
+    "checked": 1589137835,
     "pages": [
       "information"
     ]
@@ -3214,7 +3214,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955481
+    "checked": 1589137563
   },
   {
     "url": "https://issuu.com/search?q=test",
@@ -3224,7 +3224,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955568
+    "checked": 1589137654
   },
   {
     "url": "https://www.istockphoto.com/search/2/image?mediatype=photography&phrase=test",
@@ -3247,7 +3247,7 @@
     "url": "https://japanknowledge.com/en/contents/",
     "status": "302",
     "title": "Contents | JapanKnowledge",
-    "checked": 1587991142,
+    "checked": 1589138858,
     "pages": [
       "information"
     ]
@@ -3255,7 +3255,7 @@
   {
     "url": "https://japanknowledge.com/",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991075,
+    "checked": 1589138788,
     "pages": [
       "information"
     ]
@@ -3264,7 +3264,7 @@
     "url": "https://www.joomag.com/",
     "status": "302",
     "title": "Digital Publishing Platform for Everyone | Joomag",
-    "checked": 1587955699,
+    "checked": 1589137801,
     "pages": [
       "information"
     ]
@@ -3274,7 +3274,7 @@
     "status": "301",
     "redirect": "https://www.journalguide.com:443/",
     "title": "JournalGuide - Home",
-    "checked": 1588458216,
+    "checked": 1589138921,
     "pages": [
       "information"
     ]
@@ -3370,7 +3370,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955481
+    "checked": 1589137565
   },
   {
     "url": "https://knewz.com/search/test",
@@ -3379,7 +3379,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955482
+    "checked": 1589137565
   },
   {
     "url": "https://knoema.com/",
@@ -3388,7 +3388,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955483
+    "checked": 1589137566
   },
   {
     "url": "https://knoema.com/search?query=test",
@@ -3397,7 +3397,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955484
+    "checked": 1589137567
   },
   {
     "url": "https://www.kobo.com/ca/en/audiobooks",
@@ -3423,7 +3423,7 @@
     "url": "https://kopernio.com/",
     "status": "301",
     "title": "Access millions of research papers in one click.",
-    "checked": 1587991073,
+    "checked": 1589138787,
     "pages": [
       "information"
     ]
@@ -3444,7 +3444,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955490
+    "checked": 1589137572
   },
   {
     "url": "https://www.linkedin.com/groups/",
@@ -3462,7 +3462,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955491
+    "checked": 1589137572
   },
   {
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
@@ -3479,7 +3479,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955491,
+    "checked": 1589137573,
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Findex%2F"
   },
   {
@@ -3515,7 +3515,7 @@
     "url": "https://longreads.com/",
     "status": "301",
     "title": "Longreads : The best longform stories on the web",
-    "checked": 1587990582,
+    "checked": 1589138202,
     "pages": [
       "information"
     ]
@@ -3525,7 +3525,7 @@
     "status": "301",
     "redirect": "https://longreads.com/",
     "title": " test  :  Search Results   :  Longreads",
-    "checked": 1587990583,
+    "checked": 1589138203,
     "pages": [
       "information"
     ]
@@ -3561,7 +3561,7 @@
     "url": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q=test",
     "status": "\"\\xD8\" from ASCII-8BIT to UTF-8",
     "redirect": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9",
-    "checked": 1587991119,
+    "checked": 1589138840,
     "pages": [
       "information"
     ]
@@ -3569,7 +3569,7 @@
   {
     "url": "https://mawdoo3.com/",
     "status": "\"\\xD9\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991150,
+    "checked": 1589138867,
     "pages": [
       "information"
     ]
@@ -3581,12 +3581,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955491
+    "checked": 1589137573
   },
   {
     "url": "https://medium.com/",
     "status": "301",
-    "checked": 1587990883,
+    "checked": 1589138607,
     "pages": [
       "information"
     ]
@@ -3595,7 +3595,7 @@
     "url": "https://medium.com/search?q=test",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "redirect": "https://medium.com/search",
-    "checked": 1587990586,
+    "checked": 1589138206,
     "pages": [
       "information"
     ]
@@ -3693,7 +3693,7 @@
     "url": "https://academic.microsoft.com/home",
     "status": "303",
     "title": "Microsoft Academic",
-    "checked": 1587990888,
+    "checked": 1589138611,
     "pages": [
       "information"
     ]
@@ -3703,7 +3703,7 @@
     "status": "303",
     "redirect": "https://academic.microsoft.com/search",
     "title": "Microsoft Academic",
-    "checked": 1587990888,
+    "checked": 1589138612,
     "pages": [
       "information"
     ]
@@ -3714,7 +3714,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955492
+    "checked": 1589137573
   },
   {
     "url": "http://help.bing.microsoft.com/#apex/18/en/10002/-1",
@@ -3722,7 +3722,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955492
+    "checked": 1589137573
   },
   {
     "url": "https://millionshort.com/",
@@ -3731,7 +3731,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955492
+    "checked": 1589137574
   },
   {
     "url": "https://millionshort.com/search?remove=10000&keywords=test",
@@ -3741,7 +3741,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955492
+    "checked": 1589137574
   },
   {
     "url": "https://millionshort.com/search?shopping=y&keywords=test",
@@ -3751,7 +3751,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955493
+    "checked": 1589137575
   },
   {
     "url": "https://www.mixcloud.com/",
@@ -3769,7 +3769,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955493
+    "checked": 1589137576
   },
   {
     "url": "https://www.mojeek.com/search?q=test",
@@ -3779,7 +3779,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955495
+    "checked": 1589137577
   },
   {
     "url": "https://morguefile.com/",
@@ -3842,7 +3842,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955496
+    "checked": 1589137577
   },
   {
     "url": "https://www.myheritage.com/research/category-8000/newspapers",
@@ -3851,13 +3851,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955496
+    "checked": 1589137578
   },
   {
     "url": "https://www.mysciencework.com/",
     "status": "301",
     "title": "MyScienceWork: The Global Scientific Platform",
-    "checked": 1587991073,
+    "checked": 1589138786,
     "pages": [
       "information"
     ]
@@ -3867,7 +3867,7 @@
     "status": "301",
     "redirect": "https://www.mysciencework.com/search/publications",
     "title": "Search test on MyScienceWork's publications - page 1",
-    "checked": 1587990951,
+    "checked": 1589138664,
     "pages": [
       "information"
     ]
@@ -3925,7 +3925,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955570
+    "checked": 1589137657
   },
   {
     "url": "https://tv.naver.com/",
@@ -3951,7 +3951,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955498
+    "checked": 1589137579
   },
   {
     "url": "http://nl.newsbank.com/",
@@ -3960,7 +3960,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955499
+    "checked": 1589137580
   },
   {
     "url": "https://www.newsbank.com/",
@@ -3969,13 +3969,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955499
+    "checked": 1589137581
   },
   {
     "url": "https://newslookup.com/",
     "status": "200",
     "title": "Newslookup.com",
-    "checked": 1587955622,
+    "checked": 1589137716,
     "pages": [
       "information"
     ]
@@ -3987,16 +3987,16 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955499
+    "checked": 1589137580
   },
   {
     "url": "https://newspaperarchive.com/",
     "status": "301",
-    "title": "NewspaperArchive&#174; | 15,359 Historic Newspaper Archives",
+    "title": "NewspaperArchive&#174; | 15,521 Historic Newspaper Archives",
     "pages": [
       "information"
     ],
-    "checked": 1587955500
+    "checked": 1589137581
   },
   {
     "url": "https://newspaperarchive.com/tags/test",
@@ -4005,7 +4005,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955499
+    "checked": 1589137580
   },
   {
     "url": "https://go.newspapers.com/results.php?query=test",
@@ -4015,7 +4015,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955501
+    "checked": 1589137583
   },
   {
     "url": "https://www.newspapers.com/browse/US",
@@ -4024,7 +4024,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955502
+    "checked": 1589137583
   },
   {
     "url": "https://www.newspapers.com/",
@@ -4033,7 +4033,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955503
+    "checked": 1589137584
   },
   {
     "url": "https://nextdoor.com/",
@@ -4049,7 +4049,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955500
+    "checked": 1589137581
   },
   {
     "url": "https://www.nytimes.com/search?query=test",
@@ -4058,13 +4058,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955504
+    "checked": 1589137585
   },
   {
     "url": "https://onionlandsearchengine.com/",
     "status": "301",
     "title": "OnionLand Search",
-    "checked": 1587990581,
+    "checked": 1589138201,
     "pages": [
       "information"
     ]
@@ -4074,7 +4074,7 @@
     "status": "301",
     "redirect": "https://onionlandsearchengine.com/search",
     "title": "test - OnionLand Search",
-    "checked": 1587955716,
+    "checked": 1589137822,
     "pages": [
       "information"
     ]
@@ -4085,7 +4085,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955505
+    "checked": 1589137586
   },
   {
     "url": "https://onlineradiobox.com/genres/",
@@ -4131,7 +4131,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955506
+    "checked": 1589137587
   },
   {
     "url": "https://data.opendatasoft.com/page/home/",
@@ -4141,7 +4141,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955507
+    "checked": 1589137588
   },
   {
     "url": "https://www.opened.com/search",
@@ -4196,7 +4196,7 @@
     "url": "https://www.oxfordreference.com/",
     "status": "301",
     "title": "Oxford Reference - Answers with Authority",
-    "checked": 1587991105,
+    "checked": 1589138833,
     "pages": [
       "information"
     ]
@@ -4206,7 +4206,7 @@
     "status": "301",
     "redirect": "https://www.oxfordreference.com/search",
     "title": "Search Results for test - Oxford Reference",
-    "checked": 1587991104,
+    "checked": 1589138832,
     "pages": [
       "information"
     ]
@@ -4227,7 +4227,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955508
+    "checked": 1589137589
   },
   {
     "url": "https://www.pdfdrive.com/search?q=test",
@@ -4237,7 +4237,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955510
+    "checked": 1589137592
   },
   {
     "url": "https://peekier.com/#!test",
@@ -4247,7 +4247,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955508
+    "checked": 1589137588
   },
   {
     "url": "https://peekier.com/",
@@ -4256,7 +4256,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955508
+    "checked": 1589137588
   },
   {
     "url": "https://www.peteyvid.com/",
@@ -4385,7 +4385,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955510
+    "checked": 1589137590
   },
   {
     "url": "https://www.pinterest.com/search/pins/?q=test",
@@ -4394,7 +4394,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955510
+    "checked": 1589137590
   },
   {
     "url": "https://www.pipilika.com/",
@@ -4403,7 +4403,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955572
+    "checked": 1589137659
   },
   {
     "url": "https://www.pipilika.com/search?q=test",
@@ -4413,7 +4413,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955574
+    "checked": 1589137661
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
@@ -4474,7 +4474,7 @@
   {
     "url": "http://brasil.planetasaber.com/default.asp",
     "status": "200",
-    "checked": 1587991146,
+    "checked": 1589138862,
     "pages": [
       "information"
     ]
@@ -4482,7 +4482,7 @@
   {
     "url": "http://www.planetasaber.com/default.asp",
     "status": "200",
-    "checked": 1587991136,
+    "checked": 1589138853,
     "pages": [
       "information"
     ]
@@ -4587,7 +4587,7 @@
     "url": "https://www.politifact.com/",
     "status": "301",
     "title": "PolitiFact",
-    "checked": 1587990888,
+    "checked": 1589138611,
     "pages": [
       "information"
     ]
@@ -4597,7 +4597,7 @@
     "status": "301",
     "redirect": "https://www.politifact.com/search/",
     "title": "PolitiFact",
-    "checked": 1587990889,
+    "checked": 1589138612,
     "pages": [
       "information"
     ]
@@ -4628,7 +4628,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955511
+    "checked": 1589137593
   },
   {
     "url": "https://www.pressreader.com/search?languages=en&groupBy=Language&hideSimilar=0&type=1&state=1&query=test",
@@ -4638,7 +4638,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955511
+    "checked": 1589137593
   },
   {
     "url": "https://prezi.com/explore/popular/",
@@ -4646,7 +4646,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955511
+    "checked": 1589137592
   },
   {
     "url": "https://prezi.com/explore/search/?search=test",
@@ -4655,13 +4655,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955511
+    "checked": 1589137592
   },
   {
     "url": "https://www.printabletodolist.com/",
     "status": "302",
     "title": "To Do Lists",
-    "checked": 1587990753,
+    "checked": 1589138479,
     "pages": [
       "information"
     ]
@@ -4670,7 +4670,7 @@
     "url": "https://www.prnewswire.com/",
     "status": "301",
     "title": "PR Newswire: press release distribution, targeting, monitoring and marketing",
-    "checked": 1589033601,
+    "checked": 1589139041,
     "pages": [
       "information"
     ]
@@ -4679,7 +4679,7 @@
     "url": "https://www.prnewswire.com/search/news/?keyword=test",
     "status": "301",
     "redirect": "https://www.prnewswire.com/search/news/",
-    "checked": 1589033596,
+    "checked": 1589139037,
     "pages": [
       "information"
     ]
@@ -4710,13 +4710,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955512
+    "checked": 1589137595
   },
   {
     "url": "https://www.prunderground.com/archived-releases/",
     "status": "301",
     "title": "Published Press Releases | PRUnderground",
-    "checked": 1589033603,
+    "checked": 1589139045,
     "pages": [
       "information"
     ]
@@ -4725,7 +4725,7 @@
     "url": "http://www.prweb.com/",
     "status": "200",
     "title": "Online Press Release Distribution Service | PRWeb",
-    "checked": 1589033597,
+    "checked": 1589139038,
     "pages": [
       "information"
     ]
@@ -4734,7 +4734,7 @@
     "url": "https://www.prweb.com/search.aspx?search-releases=test",
     "status": "200",
     "title": "Online Marketing through Press Release Distribution - PRWeb",
-    "checked": 1589033592,
+    "checked": 1589139032,
     "pages": [
       "information"
     ]
@@ -4761,7 +4761,7 @@
     "url": "https://www.publitas.com/",
     "status": "301",
     "title": "Publitas: Publish Catalogs Online. Inspire Visitors. Sell More.",
-    "checked": 1587955699,
+    "checked": 1589137801,
     "pages": [
       "information"
     ]
@@ -4770,7 +4770,7 @@
     "url": "https://pubpeer.com/",
     "status": "301",
     "title": "PubPeer - Search publications and join the conversation.",
-    "checked": 1587990940,
+    "checked": 1589138658,
     "pages": [
       "information"
     ]
@@ -4781,7 +4781,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955512
+    "checked": 1589137594
   },
   {
     "url": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords=test",
@@ -4789,7 +4789,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955513
+    "checked": 1589137595
   },
   {
     "url": "https://www.quora.com/",
@@ -4799,7 +4799,7 @@
       "group",
       "information"
     ],
-    "checked": 1587955473
+    "checked": 1589137550
   },
   {
     "url": "https://www.quora.com/search?q=test",
@@ -4808,7 +4808,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955514
+    "checked": 1589137596
   },
   {
     "url": "https://www.quora.com/search?type=topic&q=test",
@@ -4826,7 +4826,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955513
+    "checked": 1589137596
   },
   {
     "url": "https://www.qwant.com/",
@@ -4835,7 +4835,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955515
+    "checked": 1589137598
   },
   {
     "url": "https://www.qwant.com/?q=test",
@@ -4845,7 +4845,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955515
+    "checked": 1589137597
   },
   {
     "url": "https://radio-locator.com/",
@@ -4868,7 +4868,7 @@
     "url": "https://www.realwire.com/archive.asp",
     "status": "301",
     "title": "Press Release Archive | Archive of Press Releases | RealWire",
-    "checked": 1589033605,
+    "checked": 1589139047,
     "pages": [
       "information"
     ]
@@ -4881,7 +4881,7 @@
       "group",
       "information"
     ],
-    "checked": 1587955474
+    "checked": 1589137553
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/",
@@ -4909,7 +4909,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955516
+    "checked": 1589137599
   },
   {
     "url": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q=test",
@@ -4919,13 +4919,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955516
+    "checked": 1589137599
   },
   {
     "url": "https://www.reddit.com/r/howto/",
     "status": "301",
     "title": "reddit: the front page of the internet",
-    "checked": 1587990752,
+    "checked": 1589138478,
     "pages": [
       "information"
     ]
@@ -4953,11 +4953,11 @@
     "url": "https://www.reddit.com/search?q=test",
     "status": "301",
     "redirect": "https://www.reddit.com/search",
-    "title": "reddit: the front page of the internet",
+    "title": "reddit.com: search results - test",
     "pages": [
       "information"
     ],
-    "checked": 1587955516
+    "checked": 1589137601
   },
   {
     "url": "https://www.reddit.com/subreddits/search?q=test",
@@ -4973,7 +4973,7 @@
     "url": "https://www.reddit.com/wiki/search",
     "status": "301",
     "title": "search - reddit.com",
-    "checked": 1587990581,
+    "checked": 1589138201,
     "pages": [
       "information"
     ]
@@ -4999,7 +4999,7 @@
     "url": "http://www.releasewire.com/newsroom/",
     "status": "200",
     "title": "ReleaseWire - From Release To Results  | Press Releases",
-    "checked": 1589033601,
+    "checked": 1589139043,
     "pages": [
       "information"
     ]
@@ -5008,7 +5008,7 @@
     "url": "http://www.releasewire.com/search/?q=test",
     "status": "200",
     "title": "ReleaseWire - From Release To Results  | Site Search",
-    "checked": 1589033594,
+    "checked": 1589139035,
     "pages": [
       "information"
     ]
@@ -5020,7 +5020,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955517
+    "checked": 1589137602
   },
   {
     "url": "https://www.reuters.com/",
@@ -5029,7 +5029,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955516
+    "checked": 1589137601
   },
   {
     "url": "https://www.reuters.com/search/news?blob=test",
@@ -5039,7 +5039,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955518
+    "checked": 1589137603
   },
   {
     "url": "https://www.reuters.com/search/video?blob=test",
@@ -5081,7 +5081,7 @@
   {
     "url": "http://www.rssmicro.com/",
     "status": "\"\\xC2\" from ASCII-8BIT to UTF-8",
-    "checked": 1589115149,
+    "checked": 1589139056,
     "pages": [
       "information"
     ]
@@ -5090,7 +5090,7 @@
     "url": "http://www.rssmicro.com/?q=test",
     "status": "200",
     "title": "test - RSSMicro Search",
-    "checked": 1589115148,
+    "checked": 1589139055,
     "pages": [
       "information"
     ]
@@ -5115,7 +5115,7 @@
   {
     "url": "https://go.scholastic.com/index.html",
     "status": "301",
-    "checked": 1587990940,
+    "checked": 1589138658,
     "pages": [
       "information"
     ]
@@ -5124,7 +5124,7 @@
     "url": "https://go.scholastic.com/search.html?q=test",
     "status": "301",
     "redirect": "https://go.scholastic.com/search.html",
-    "checked": 1587990940,
+    "checked": 1589138657,
     "pages": [
       "information"
     ]
@@ -5151,7 +5151,7 @@
   {
     "url": "https://www.scienceresearch.com/scienceresearch/desktop/en/search.html",
     "status": "301",
-    "checked": 1587990941,
+    "checked": 1589138659,
     "pages": [
       "information"
     ]
@@ -5159,7 +5159,7 @@
   {
     "url": "https://www.scopus.com/",
     "status": "301",
-    "checked": 1587990942,
+    "checked": 1589138660,
     "pages": [
       "information"
     ]
@@ -5168,7 +5168,7 @@
     "url": "https://www.scopus.com/results/results.uri?src=s&sot=b&s=TITLE-ABS-KEY%28test%29",
     "status": "301",
     "redirect": "https://www.scopus.com/results/results.uri",
-    "checked": 1587990942,
+    "checked": 1589138659,
     "pages": [
       "information"
     ]
@@ -5204,7 +5204,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955518,
+    "checked": 1589137602,
     "title": "Discover the Best eBooks, Audiobooks, Magazines, Sheet Music, and More | Scribd"
   },
   {
@@ -5212,7 +5212,7 @@
     "status": "301",
     "redirect": "https://www.scribd.com/search",
     "title": "Search | Scribd",
-    "checked": 1587955697,
+    "checked": 1589137799,
     "pages": [
       "information"
     ]
@@ -5242,7 +5242,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955519
+    "checked": 1589137603
   },
   {
     "url": "https://directory.shoutcast.com/Search?query=test",
@@ -5310,7 +5310,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955596
+    "checked": 1589137686
   },
   {
     "url": "https://slides.com/explore?search=test",
@@ -5319,7 +5319,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955600
+    "checked": 1589137693
   },
   {
     "url": "https://slofile.com/",
@@ -5347,7 +5347,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955520
+    "checked": 1589137605
   },
   {
     "url": "https://www.smugmug.com/",
@@ -5382,7 +5382,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955521
+    "checked": 1589137606
   },
   {
     "url": "https://www.snopes.com/?s=test",
@@ -5392,7 +5392,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955521
+    "checked": 1589137606
   },
   {
     "url": "https://www.social-searcher.com/",
@@ -5401,7 +5401,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955522
+    "checked": 1589137607
   },
   {
     "url": "https://www.social-searcher.com/social-buzz/?q5=test",
@@ -5411,7 +5411,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955523
+    "checked": 1589137607
   },
   {
     "url": "https://opendata.socrata.com/",
@@ -5420,7 +5420,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955523
+    "checked": 1589137608
   },
   {
     "url": "https://www.sogou.com/",
@@ -5429,7 +5429,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955576
+    "checked": 1589137663
   },
   {
     "url": "https://www.sogou.com/web?query=test",
@@ -5439,7 +5439,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955579
+    "checked": 1589137666
   },
   {
     "url": "https://www.sonycrackle.com/",
@@ -5455,7 +5455,7 @@
     "status": "302",
     "redirect": "/unauthenticated",
     "title": "Object moved",
-    "checked": 1587991133,
+    "checked": 1589138850,
     "pages": [
       "information"
     ]
@@ -5467,7 +5467,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955581
+    "checked": 1589137669
   },
   {
     "url": "https://www.so.com/s?q=test",
@@ -5477,13 +5477,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955524
+    "checked": 1589137609
   },
   {
     "url": "https://speakerdeck.com/",
     "status": "301",
     "title": "Speaker Deck - Share Presentations without the Mess",
-    "checked": 1587955702,
+    "checked": 1589137805,
     "pages": [
       "information"
     ]
@@ -5550,7 +5550,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955532
+    "checked": 1589137619
   },
   {
     "url": "https://stackexchange.com/search?q=test",
@@ -5559,7 +5559,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955534
+    "checked": 1589137621
   },
   {
     "url": "https://stackexchange.com/sites",
@@ -5567,14 +5567,14 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955532
+    "checked": 1589137617
   },
   {
     "url": "https://www.startpage.com/",
     "status": "301",
     "redirect": "https://startpage.com/",
     "title": "Startpage.com - The world&#39;s most private search engine",
-    "checked": 1587989725,
+    "checked": 1589137835,
     "pages": [
       "information"
     ]
@@ -5584,7 +5584,7 @@
     "status": "301",
     "redirect": "https://startpage.com/sp/search",
     "title": "Redirecting...",
-    "checked": 1587989698,
+    "checked": 1589137829,
     "pages": [
       "information"
     ]
@@ -5596,7 +5596,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955534
+    "checked": 1589137619
   },
   {
     "url": "https://www.stitcher.com/",
@@ -5697,7 +5697,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955536
+    "checked": 1589137622
   },
   {
     "url": "https://swwitv.com/search.php?zoom_query=test",
@@ -5816,7 +5816,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955525
+    "checked": 1589137610
   },
   {
     "url": "https://www.theguardian.com/",
@@ -5824,7 +5824,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955524
+    "checked": 1589137609
   },
   {
     "url": "https://thenounproject.com/",
@@ -5853,7 +5853,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955525
+    "checked": 1589137611
   },
   {
     "url": "https://www.thetvdb.com/",
@@ -5946,7 +5946,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955526
+    "checked": 1589137612
   },
   {
     "url": "https://www.truthorfiction.com/?s=test",
@@ -5956,7 +5956,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955529
+    "checked": 1589137614
   },
   {
     "url": "https://tubitv.com/",
@@ -5981,7 +5981,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955529
+    "checked": 1589137614
   },
   {
     "url": "https://www.tumblr.com/search/test",
@@ -5990,7 +5990,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955530
+    "checked": 1589137616
   },
   {
     "url": "https://tunein.com/",
@@ -6093,7 +6093,7 @@
       "information",
       "video"
     ],
-    "checked": 1587955530
+    "checked": 1589137616
   },
   {
     "url": "https://twitter.com/search?f=image&q=test",
@@ -6123,7 +6123,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955532
+    "checked": 1589137618
   },
   {
     "url": "https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/standard-operators",
@@ -6131,13 +6131,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955531
+    "checked": 1589137617
   },
   {
     "url": "https://www.universitypressscholarship.com/",
     "status": "301",
     "title": "University Press Scholarship",
-    "checked": 1588434438,
+    "checked": 1589138919,
     "pages": [
       "information"
     ]
@@ -6147,7 +6147,7 @@
     "status": "301",
     "redirect": "https://www.universitypressscholarship.com/search",
     "title": "Search Results for test - University Press Scholarship Online - University Press Scholarship",
-    "checked": 1588434437,
+    "checked": 1589138917,
     "pages": [
       "information"
     ]
@@ -6256,7 +6256,7 @@
   {
     "url": "https://visihow.com/Main_Page",
     "status": "301",
-    "checked": 1587990751,
+    "checked": 1589138477,
     "pages": [
       "information"
     ],
@@ -6287,7 +6287,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955200
+    "checked": 1589137325
   },
   {
     "url": "https://vk.com/search?c%5Bsection%5D=auto&c%5Bq%5D=test",
@@ -6295,7 +6295,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955201
+    "checked": 1589137326
   },
   {
     "url": "https://www.washingtonpost.com/",
@@ -6304,7 +6304,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955218
+    "checked": 1589137346
   },
   {
     "url": "https://www.washingtonpost.com/newssearch/?query=test",
@@ -6314,12 +6314,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955237
+    "checked": 1589137366
   },
   {
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=WEB&SrcAuth=HSB&DestApp=UA&DestLinkType=GeneralSearchSummary&btnWS=Search&topic=test",
     "status": "400",
-    "checked": 1587990952,
+    "checked": 1589138665,
     "pages": [
       "information"
     ]
@@ -6328,7 +6328,7 @@
     "url": "https://www.webofknowledge.com/",
     "status": "Net::ReadTimeout",
     "redirect": "http://login.webofknowledge.com/error/Error?Error=IPError&PathInfo=%2F&RouterURL=http%3A%2F%2Fwww.webofknowledge.com%2F&Domain=.webofknowledge.com&Src=IP&Alias=WOK5",
-    "checked": 1587991072,
+    "checked": 1589138785,
     "pages": [
       "information"
     ]
@@ -6348,7 +6348,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955604
+    "checked": 1589137697
   },
   {
     "url": "https://www.weibo.com/",
@@ -6357,7 +6357,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955238
+    "checked": 1589137367
   },
   {
     "url": "http://www.whatismymovie.com/",
@@ -6381,7 +6381,7 @@
     "url": "http://www.wikidot.com/",
     "status": "200",
     "title": "Wikidot - Free and Pro Wiki Hosting",
-    "checked": 1587990883,
+    "checked": 1589138606,
     "pages": [
       "information"
     ]
@@ -6390,7 +6390,7 @@
     "url": "http://www.wikidot.com/search:all/a/pf/q/test",
     "status": "200",
     "title": "All - Wikidot - Free and Pro Wiki Hosting",
-    "checked": 1587990883,
+    "checked": 1589138607,
     "pages": [
       "information"
     ]
@@ -6399,7 +6399,7 @@
     "url": "https://www.wikihow.com/Main-Page",
     "status": "301",
     "title": "wikiHow: How-to instructions you can trust.",
-    "checked": 1587990882,
+    "checked": 1589138605,
     "pages": [
       "information"
     ]
@@ -6409,7 +6409,7 @@
     "status": "301",
     "redirect": "https://www.wikihow.com/wikiHowTo",
     "title": "Search for 'how to test' - wikihow",
-    "checked": 1587990882,
+    "checked": 1589138605,
     "pages": [
       "information"
     ]
@@ -6421,7 +6421,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955239
+    "checked": 1589137367
   },
   {
     "url": "http://www.wikiwand.com/",
@@ -6430,13 +6430,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955239
+    "checked": 1589137369
   },
   {
     "url": "https://wn.com/",
     "status": "301",
     "title": "World News",
-    "checked": 1588428013,
+    "checked": 1589138912,
     "pages": [
       "information"
     ]
@@ -6446,7 +6446,7 @@
     "status": "302",
     "redirect": "https://search.wn.com/",
     "title": "test - WN.COM photos and news search",
-    "checked": 1588428012,
+    "checked": 1589138911,
     "pages": [
       "information"
     ]
@@ -6458,7 +6458,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955239
+    "checked": 1589137369
   },
   {
     "url": "https://www.wolframalpha.com/input/?i=test",
@@ -6468,7 +6468,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955239
+    "checked": 1589137368
   },
   {
     "url": "https://www.wolframalpha.com/tour/",
@@ -6477,7 +6477,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955240
+    "checked": 1589137369
   },
   {
     "url": "https://www.wonderhowto.com/",
@@ -6501,7 +6501,7 @@
     "url": "https://wordpress.com/",
     "status": "301",
     "title": "WordPress.com: Create a Free Website or Blog",
-    "checked": 1587990582,
+    "checked": 1589138202,
     "pages": [
       "information"
     ]
@@ -6511,7 +6511,7 @@
     "status": "301",
     "redirect": "https://en.search.wordpress.com/",
     "title": "WordPress.com",
-    "checked": 1587990582,
+    "checked": 1589138202,
     "pages": [
       "information"
     ]
@@ -6519,7 +6519,7 @@
   {
     "url": "https://www.worldbookonline.com/",
     "status": "301",
-    "checked": 1587991076,
+    "checked": 1589138789,
     "pages": [
       "information"
     ]
@@ -6537,7 +6537,7 @@
     "url": "https://answers.yahoo.com/",
     "status": "301",
     "title": "Home | Yahoo Answers",
-    "checked": 1587955689,
+    "checked": 1589137789,
     "pages": [
       "information"
     ]
@@ -6568,14 +6568,14 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955240
+    "checked": 1589137370
   },
   {
     "url": "https://answers.search.yahoo.com/search?p=test",
     "status": "301",
     "redirect": "https://answers.search.yahoo.com/search",
     "title": "test - Yahoo Search Results",
-    "checked": 1587955681,
+    "checked": 1589137778,
     "pages": [
       "information"
     ]
@@ -6607,7 +6607,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955241
+    "checked": 1589137371
   },
   {
     "url": "https://view.yahoo.com/",
@@ -6635,7 +6635,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955243
+    "checked": 1589137372
   },
   {
     "url": "https://yandex.com/images/",
@@ -6663,7 +6663,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955244
+    "checked": 1589137374
   },
   {
     "url": "https://yandex.com/support/search/query-language/search-operators.html",
@@ -6672,7 +6672,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955245
+    "checked": 1589137376
   },
   {
     "url": "https://yandex.com/video/",
@@ -6686,12 +6686,12 @@
   {
     "url": "https://www.yandex.com/search/?text=test",
     "status": "302",
-    "redirect": "https://www.yandex.com/search/?lr=10115&redircnt=1587955246.1",
+    "redirect": "https://www.yandex.com/search/?lr=103566&redircnt=1589137376.1",
     "title": "Yandex",
     "pages": [
       "information"
     ],
-    "checked": 1587955247
+    "checked": 1589137378
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
@@ -6710,7 +6710,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955248
+    "checked": 1589137378
   },
   {
     "url": "https://www.yippy.com/search?query=test",
@@ -6720,7 +6720,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955250
+    "checked": 1589137381
   },
   {
     "url": "https://so.youku.com/search_video/q_test",
@@ -6819,7 +6819,7 @@
     "url": "https://www.yumpu.com/en/test",
     "status": "301",
     "title": "Test Magazines",
-    "checked": 1587955698,
+    "checked": 1589137800,
     "pages": [
       "information"
     ]
@@ -6827,7 +6827,7 @@
   {
     "url": "https://www.yumpu.com/",
     "status": "301",
-    "checked": 1587955698,
+    "checked": 1589137801,
     "pages": [
       "information"
     ]
@@ -6836,7 +6836,7 @@
     "url": "https://www.zhihu.com/",
     "status": "400",
     "title": "400 Bad Request",
-    "checked": 1587955659,
+    "checked": 1589137754,
     "pages": [
       "information"
     ]
@@ -6845,7 +6845,7 @@
     "url": "https://www.zhihu.com/search?type=content&q=test",
     "status": "400",
     "title": "400 Bad Request",
-    "checked": 1587955645,
+    "checked": 1589137741,
     "pages": [
       "information"
     ]
@@ -6858,7 +6858,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955583
+    "checked": 1589137672
   },
   {
     "url": "https://www.seznam.cz/",
@@ -6866,13 +6866,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955252
+    "checked": 1589137384
   },
   {
     "url": "https://brockhaus.de/info/",
     "status": "302",
     "title": "Brockhaus Startseite &ndash; NE GmbH",
-    "checked": 1587990919,
+    "checked": 1589138639,
     "pages": [
       "information"
     ]
@@ -6885,7 +6885,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955253
+    "checked": 1589137386
   },
   {
     "url": "https://www.deutsche-digitale-bibliothek.de/searchresults?query=test",
@@ -6895,7 +6895,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955255
+    "checked": 1589137387
   },
   {
     "url": "https://netsplit.de/channels/?chat=test",
@@ -6923,7 +6923,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955256
+    "checked": 1589137389
   },
   {
     "url": "https://www.osmikon.de/metaopac/search?View=osmikon&q=test",
@@ -6932,7 +6932,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955261
+    "checked": 1589137394
   },
   {
     "url": "https://www.zo.uni-heidelberg.de/boa/digital_resources/list_az_en.html",
@@ -6941,13 +6941,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955264
+    "checked": 1589137397
   },
   {
     "url": "https://www.academia.edu/",
     "status": "301",
     "title": "Academia.edu - Share research",
-    "checked": 1587990917,
+    "checked": 1589138638,
     "pages": [
       "information"
     ]
@@ -6956,7 +6956,7 @@
     "url": "https://eudocs.lib.byu.edu/index.php/Main_Page",
     "status": "301",
     "title": "EuroDocs",
-    "checked": 1588208866,
+    "checked": 1589138893,
     "pages": [
       "information"
     ]
@@ -6965,7 +6965,7 @@
     "url": "https://kvk.bibliothek.kit.edu/",
     "status": "200",
     "title": "KIT-Bibliothek | Karlsruher Virtueller Katalog KVK - Deutsch",
-    "checked": 1588039403,
+    "checked": 1589138884,
     "pages": [
       "information"
     ]
@@ -6974,7 +6974,7 @@
     "url": "https://ufdc.ufl.edu/hnccoll",
     "status": "302",
     "title": "UFDC Home - NewspaperCat: Catalog of Historical Newspapers",
-    "checked": 1587990890,
+    "checked": 1589138614,
     "pages": [
       "information"
     ]
@@ -7023,13 +7023,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955266
+    "checked": 1589137399
   },
   {
     "url": "https://europa.eu/search/",
     "status": "307",
     "title": "European Union | Search",
-    "checked": 1588730511,
+    "checked": 1589138958,
     "pages": [
       "information"
     ]
@@ -7039,7 +7039,7 @@
     "status": "307",
     "redirect": "https://europa.eu/search/",
     "title": "European Union | Search",
-    "checked": 1588730510,
+    "checked": 1589138957,
     "pages": [
       "information"
     ]
@@ -7049,7 +7049,7 @@
     "status": "302",
     "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
     "title": "Newspapers",
-    "checked": 1587991078,
+    "checked": 1589138805,
     "pages": [
       "information"
     ]
@@ -7058,7 +7058,7 @@
     "url": "https://www.europeana.eu/en/collections/topic/18-newspapers",
     "status": "302",
     "title": "Newspapers",
-    "checked": 1587991082,
+    "checked": 1589138809,
     "pages": [
       "information"
     ]
@@ -7068,7 +7068,7 @@
     "status": "302",
     "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
     "title": "Newspapers",
-    "checked": 1587991085,
+    "checked": 1589138812,
     "pages": [
       "information"
     ]
@@ -7078,7 +7078,7 @@
     "status": "302",
     "redirect": "https://www.europeana.eu/en/search",
     "title": "Search",
-    "checked": 1587991088,
+    "checked": 1589138814,
     "pages": [
       "information"
     ]
@@ -7087,7 +7087,7 @@
     "url": "https://www.europeana.eu/",
     "status": "302",
     "redirect": "https://www.europeana.eu",
-    "checked": 1587991089,
+    "checked": 1589138815,
     "pages": [
       "information"
     ]
@@ -7132,7 +7132,7 @@
     "url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest_en.html",
     "status": "301",
     "title": "NewsBrief",
-    "checked": 1588419631,
+    "checked": 1589138910,
     "pages": [
       "information"
     ]
@@ -7142,7 +7142,7 @@
     "status": "301",
     "redirect": "https://emm.newsbrief.eu/NewsBrief/dynamic",
     "title": "NewsBrief",
-    "checked": 1588419589,
+    "checked": 1589138897,
     "pages": [
       "information"
     ]
@@ -7150,7 +7150,7 @@
   {
     "url": "https://ahmia.fi/",
     "status": "301",
-    "checked": 1587990747,
+    "checked": 1589138474,
     "pages": [
       "information"
     ]
@@ -7159,7 +7159,7 @@
     "url": "https://ahmia.fi/search/?q=test",
     "status": "301",
     "redirect": "https://ahmia.fi/search/",
-    "checked": 1587955722,
+    "checked": 1589137825,
     "pages": [
       "information"
     ]
@@ -7170,7 +7170,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955267
+    "checked": 1589137401
   },
   {
     "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en",
@@ -7179,7 +7179,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955269
+    "checked": 1589137403
   },
   {
     "url": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22test%22%29&lang=en&suggest=0",
@@ -7188,7 +7188,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955609
+    "checked": 1589137702
   },
   {
     "url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=test",
@@ -7198,7 +7198,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955274
+    "checked": 1589137410
   },
   {
     "url": "http://www.archives-nationales.culture.gouv.fr/en/web/guest/home",
@@ -7207,12 +7207,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955270
+    "checked": 1589137404
   },
   {
     "url": "https://www.universalis.fr/",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991090,
+    "checked": 1589138816,
     "pages": [
       "information"
     ]
@@ -7220,7 +7220,7 @@
   {
     "url": "https://www.universalis.fr/recherche/q/test/",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991092,
+    "checked": 1589138819,
     "pages": [
       "information"
     ]
@@ -7250,7 +7250,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955275
+    "checked": 1589137411
   },
   {
     "url": "https://www.archives.gov/",
@@ -7260,7 +7260,7 @@
       "information",
       "video"
     ],
-    "checked": 1587955270
+    "checked": 1589137404
   },
   {
     "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/test",
@@ -7284,7 +7284,7 @@
     "url": "https://www.govinfo.gov/app/search/%7B%22query%22%3A%22test%22%2C%22offset%22%3A0%7D",
     "status": "302",
     "title": "govinfo",
-    "checked": 1588816357,
+    "checked": 1589139023,
     "pages": [
       "information"
     ]
@@ -7293,7 +7293,7 @@
     "url": "https://www.govinfo.gov/",
     "status": "302",
     "title": "govinfo | U.S. Government Publishing Office",
-    "checked": 1588816359,
+    "checked": 1589139024,
     "pages": [
       "information"
     ]
@@ -7302,8 +7302,8 @@
     "url": "https://catalog.gpo.gov/F?func=find-b&request=test",
     "status": "302",
     "redirect": "https://catalog.gpo.gov/F",
-    "title": "Entire CGP Catalog - Results List",
-    "checked": 1588816357,
+    "title": "Entire CGP Catalog - Basic Search: Full Catalog",
+    "checked": 1589139022,
     "pages": [
       "information"
     ]
@@ -7312,7 +7312,7 @@
     "url": "https://catalog.gpo.gov/F",
     "status": "302",
     "title": "Entire CGP Catalog - Basic Search: Full Catalog",
-    "checked": 1588816358,
+    "checked": 1589139024,
     "pages": [
       "information"
     ]
@@ -7322,7 +7322,7 @@
     "status": "302",
     "redirect": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682",
     "title": "MetaLib&#174; - Basic",
-    "checked": 1588814997,
+    "checked": 1589138960,
     "pages": [
       "information"
     ]
@@ -7332,7 +7332,7 @@
     "status": "302",
     "redirect": "https://metalib.gpo.gov/",
     "title": "302 Found",
-    "checked": 1588814997,
+    "checked": 1589138961,
     "pages": [
       "information"
     ]
@@ -7343,7 +7343,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955588
+    "checked": 1589137677
   },
   {
     "url": "https://chroniclingamerica.loc.gov/search/pages/results/?proxtext=test",
@@ -7352,7 +7352,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955588
+    "checked": 1589137678
   },
   {
     "url": "https://www.loc.gov/film-and-videos/",
@@ -7379,7 +7379,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955589
+    "checked": 1589137679
   },
   {
     "url": "https://www.loc.gov/newspapers/?all=true&dl=page&q=test",
@@ -7388,7 +7388,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955589
+    "checked": 1589137679
   },
   {
     "url": "https://www.loc.gov/newspapers/",
@@ -7396,7 +7396,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955589
+    "checked": 1589137679
   },
   {
     "url": "https://www.loc.gov/photos/",
@@ -7424,7 +7424,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955588
+    "checked": 1589137678
   },
   {
     "url": "https://images.nasa.gov/",
@@ -7458,7 +7458,7 @@
     "status": "308",
     "redirect": "https://search.usa.gov/search",
     "title": "test - USA.gov Search Results",
-    "checked": 1588519153,
+    "checked": 1589138922,
     "pages": [
       "information"
     ]
@@ -7466,12 +7466,12 @@
   {
     "url": "https://www.usa.gov/",
     "status": "301",
-    "title": "USA.gov: The U.S. Government&#039;s Official Web Portal  &#124; USAGov",
+    "title": "Official Guide to Government Information and Services   &#124; USAGov",
     "pages": [
       "image",
       "information"
     ],
-    "checked": 1582117965
+    "checked": 1589137128
   },
   {
     "url": "https://www.abhilekh-patal.in/jspui/",
@@ -7480,7 +7480,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955278
+    "checked": 1589137415
   },
   {
     "url": "https://www.abhilekh-patal.in/jspui/simple-search?query=test",
@@ -7490,7 +7490,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955282
+    "checked": 1589137420
   },
   {
     "url": "https://ndl.iitkgp.ac.in/",
@@ -7500,7 +7500,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955286
+    "checked": 1589137423
   },
   {
     "url": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22test%22,%22s%22:[],%22b%22:{%22filters%22:[]}}",
@@ -7510,7 +7510,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955292
+    "checked": 1589137428
   },
   {
     "url": "http://hazine.info/",
@@ -7518,7 +7518,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955292
+    "checked": 1589137429
   },
   {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
@@ -7542,7 +7542,7 @@
     "url": "http://search.nic.in/Search?type=basicSearch&searchKeyword=test",
     "status": "200",
     "title": "test -Government of India - Search",
-    "checked": 1588519159,
+    "checked": 1589138928,
     "pages": [
       "information"
     ]
@@ -7551,28 +7551,10 @@
     "url": "http://search.nic.in/",
     "status": "200",
     "title": "Government of India - Search",
-    "checked": 1588519160,
+    "checked": 1589138930,
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://datahub.io/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1587955293
-  },
-  {
-    "url": "https://datahub.io/search?q=test",
-    "status": "301",
-    "redirect": "https://datahub.io/search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1587990381,
-    "title": "datahub.io | 524: A timeout occurred"
   },
   {
     "url": "https://echosim.io/",
@@ -7581,7 +7563,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955292
+    "checked": 1589137424
   },
   {
     "url": "https://getyarn.io/",
@@ -7628,7 +7610,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955413
+    "checked": 1589137430
   },
   {
     "url": "http://youtube.github.io/geo-search-tool/search.html",
@@ -7646,7 +7628,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955413
+    "checked": 1589137430
   },
   {
     "url": "https://beta.grafiti.io/search/facts/?search_text=test",
@@ -7656,7 +7638,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955584
+    "checked": 1589137673
   },
   {
     "url": "https://groups.io/",
@@ -7681,7 +7663,7 @@
     "url": "https://share.osf.io/discover?q=test",
     "status": "301",
     "redirect": "https://share.osf.io/discover",
-    "checked": 1587991092,
+    "checked": 1589138817,
     "pages": [
       "information"
     ]
@@ -7689,7 +7671,7 @@
   {
     "url": "https://share.osf.io/",
     "status": "301",
-    "checked": 1587991093,
+    "checked": 1589138819,
     "pages": [
       "information"
     ]
@@ -7701,7 +7683,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955586
+    "checked": 1589137675
   },
   {
     "url": "http://parsijoo.ir/web?q=test",
@@ -7710,13 +7692,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955587
+    "checked": 1589137677
   },
   {
     "url": "https://chiebukuro.yahoo.co.jp/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "redirect": "https://chiebukuro.yahoo.co.jp:443/",
-    "checked": 1587955691,
+    "checked": 1589137792,
     "pages": [
       "information"
     ]
@@ -7725,7 +7707,7 @@
     "url": "https://chiebukuro.yahoo.co.jp/search/?flg=3&p=test",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
     "redirect": "https://chiebukuro.yahoo.co.jp:443/search/",
-    "checked": 1587955683,
+    "checked": 1589137781,
     "pages": [
       "information"
     ]
@@ -7737,7 +7719,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955415
+    "checked": 1589137432
   },
   {
     "url": "https://www.jacar.archives.go.jp/gf/cgi/start?LANG=eng",
@@ -7747,7 +7729,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955416
+    "checked": 1589137434
   },
   {
     "url": "https://www.jacar.archives.go.jp/gf/cgi/zway",
@@ -7755,13 +7737,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955622
+    "checked": 1589137718
   },
   {
     "url": "https://www.e-gov.go.jp/",
     "status": "\"\\xE9\" from ASCII-8BIT to UTF-8",
     "redirect": "https://www.e-gov.go.jp/sorry.html",
-    "checked": 1588727689,
+    "checked": 1589138956,
     "pages": [
       "information"
     ]
@@ -7770,7 +7752,7 @@
     "url": "https://www.e-gov.go.jp/searchresult.html?q=test",
     "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
     "redirect": "https://www.e-gov.go.jp/sorry.html",
-    "checked": 1588727687,
+    "checked": 1589138954,
     "pages": [
       "information"
     ]
@@ -7782,7 +7764,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955417
+    "checked": 1589137434
   },
   {
     "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
@@ -7791,7 +7773,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955621
+    "checked": 1589137715
   },
   {
     "url": "https://iss.ndl.go.jp/",
@@ -7799,12 +7781,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955611
+    "checked": 1589137706
   },
   {
     "url": "https://kotobank.jp/dictionary/",
     "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991128,
+    "checked": 1589138845,
     "pages": [
       "information"
     ]
@@ -7812,7 +7794,7 @@
   {
     "url": "https://kotobank.jp/",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991132,
+    "checked": 1589138849,
     "pages": [
       "information"
     ]
@@ -7820,7 +7802,7 @@
   {
     "url": "https://oshiete.goo.ne.jp/",
     "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955692,
+    "checked": 1589137794,
     "pages": [
       "information"
     ]
@@ -7829,7 +7811,7 @@
     "url": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT=test",
     "status": "\"\\xEF\" from ASCII-8BIT to UTF-8",
     "redirect": "https://oshiete.goo.ne.jp/search_goo/result/",
-    "checked": 1587955686,
+    "checked": 1589137786,
     "pages": [
       "information"
     ]
@@ -7853,7 +7835,7 @@
   {
     "url": "https://okwave.jp/",
     "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955694,
+    "checked": 1589137796,
     "pages": [
       "information"
     ]
@@ -7862,7 +7844,7 @@
     "url": "https://okwave.jp/searchkeyword?word=test",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
     "redirect": "https://okwave.jp/searchkeyword",
-    "checked": 1587955687,
+    "checked": 1589137788,
     "pages": [
       "information"
     ]
@@ -7874,7 +7856,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955418
+    "checked": 1589137437
   },
   {
     "url": "https://dp.la/search?q=test",
@@ -7882,7 +7864,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955417
+    "checked": 1589137435
   },
   {
     "url": "https://pro.dp.la/hubs/our-hubs",
@@ -7891,12 +7873,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955418
+    "checked": 1589137436
   },
   {
     "url": "https://www.gob.mx/busqueda",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1588681583,
+    "checked": 1589138947,
     "pages": [
       "information"
     ]
@@ -7908,7 +7890,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955418
+    "checked": 1589137436
   },
   {
     "url": "http://www.hnm.unam.mx/",
@@ -7918,13 +7900,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955419
+    "checked": 1589137437
   },
   {
     "url": "https://www.archivesportaleurope.net/",
     "status": "200",
     "title": "HOME - Archives Portal Europe",
-    "checked": 1588161487,
+    "checked": 1589138892,
     "pages": [
       "information"
     ]
@@ -7933,7 +7915,7 @@
     "url": "https://www.archivesportaleurope.net/search/-/s/n",
     "status": "200",
     "title": "ARCHIVES SEARCH - Archives Portal Europe",
-    "checked": 1588161486,
+    "checked": 1589138890,
     "pages": [
       "information"
     ]
@@ -7942,7 +7924,7 @@
     "url": "https://www.base-search.net/Search/Results?lookfor=test",
     "status": "301",
     "redirect": "https://www.base-search.net/Search/Results",
-    "checked": 1587990901,
+    "checked": 1589138623,
     "pages": [
       "information"
     ]
@@ -7950,7 +7932,7 @@
   {
     "url": "https://www.base-search.net/",
     "status": "301",
-    "checked": 1587990903,
+    "checked": 1589138625,
     "pages": [
       "information"
     ]
@@ -7963,7 +7945,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955421
+    "checked": 1589137439
   },
   {
     "url": "https://www.daum.net/",
@@ -7972,12 +7954,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955423
+    "checked": 1589137442
   },
   {
     "url": "https://www.gutefrage.net/",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955695,
+    "checked": 1589137797,
     "pages": [
       "information"
     ]
@@ -7986,7 +7968,7 @@
     "url": "https://www.gutefrage.net/search?query=test",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
     "redirect": "https://www.gutefrage.net/search",
-    "checked": 1587955688,
+    "checked": 1589137789,
     "pages": [
       "information"
     ]
@@ -7998,7 +7980,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955426
+    "checked": 1589137444
   },
   {
     "url": "https://www.hoax-slayer.net/?s=test",
@@ -8008,7 +7990,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955429
+    "checked": 1589137447
   },
   {
     "url": "http://www.iberoamericadigital.net/BDPI/Search.do",
@@ -8016,7 +7998,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955441
+    "checked": 1589137458
   },
   {
     "url": "http://www.iberoamericadigital.net/en/Inicio/",
@@ -8025,7 +8007,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955441
+    "checked": 1589137459
   },
   {
     "url": "http://www.iberoamericadigital.net/en/Participantes/",
@@ -8034,13 +8016,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955442
+    "checked": 1589137461
   },
   {
     "url": "http://journalseek.net/",
     "status": "200",
     "title": "JournalSeek - A Searchable Database of Online Scholarly Journals",
-    "checked": 1587991094,
+    "checked": 1589138821,
     "pages": [
       "information"
     ]
@@ -8051,7 +8033,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955610
+    "checked": 1589137704
   },
   {
     "url": "http://news-explorer.mybluemix.net/",
@@ -8060,7 +8042,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955442
+    "checked": 1589137459
   },
   {
     "url": "http://news-explorer.mybluemix.net/?type=unconstrained&query=test",
@@ -8069,13 +8051,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955442
+    "checked": 1589137462
   },
   {
     "url": "https://www.researchgate.net/",
     "status": "301",
     "title": "ResearchGate | Find and share research",
-    "checked": 1587991094,
+    "checked": 1589138821,
     "pages": [
       "information"
     ]
@@ -8085,7 +8067,7 @@
     "status": "301",
     "redirect": "https://www.researchgate.net/search/publication",
     "title": "Search Publications | ResearchGate",
-    "checked": 1587991095,
+    "checked": 1589138823,
     "pages": [
       "information"
     ]
@@ -8095,7 +8077,7 @@
     "status": "301",
     "redirect": "https://www.scilit.net/articles/search",
     "title": "Scilit | Articles",
-    "checked": 1587991096,
+    "checked": 1589138825,
     "pages": [
       "information"
     ]
@@ -8104,7 +8086,7 @@
     "url": "https://www.scilit.net/",
     "status": "301",
     "title": "Scilit - Scientific Literature",
-    "checked": 1587990917,
+    "checked": 1589138637,
     "pages": [
       "information"
     ]
@@ -8116,7 +8098,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955444
+    "checked": 1589137463
   },
   {
     "url": "https://www.slideshare.net/search/slideshow?q=test",
@@ -8126,7 +8108,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955443
+    "checked": 1589137462
   },
   {
     "url": "https://www.squidtv.net/",
@@ -8158,7 +8140,7 @@
   {
     "url": "https://www.taringa.net/",
     "status": "301",
-    "checked": 1587955673,
+    "checked": 1589137768,
     "pages": [
       "information"
     ]
@@ -8167,7 +8149,7 @@
     "url": "https://www.taringa.net/search/story?q=test",
     "status": "301",
     "redirect": "https://www.taringa.net/search/story",
-    "checked": 1587955666,
+    "checked": 1589137760,
     "pages": [
       "information"
     ]
@@ -8176,7 +8158,7 @@
     "url": "https://torchsearch.net/",
     "status": "301",
     "title": "Torch Search! Onion Address | Search The Dark Net",
-    "checked": 1587990746,
+    "checked": 1589138473,
     "pages": [
       "information"
     ]
@@ -8186,7 +8168,7 @@
     "status": "301",
     "redirect": "https://torsearch.net/search",
     "title": "Torch: test",
-    "checked": 1587955724,
+    "checked": 1589137828,
     "pages": [
       "information"
     ]
@@ -8213,7 +8195,7 @@
     "url": "https://yacy.net/",
     "status": "302",
     "title": "Home - YaCy",
-    "checked": 1587955703,
+    "checked": 1589137806,
     "pages": [
       "information"
     ]
@@ -8222,7 +8204,7 @@
     "url": "https://factualsearch.news/#?fns.type=center-only&gsc.q=test",
     "status": "301",
     "redirect": "https://factualsearch.news/",
-    "checked": 1587990881,
+    "checked": 1589138605,
     "pages": [
       "information"
     ]
@@ -8231,7 +8213,7 @@
     "url": "https://factualsearch.news/#?fns.type=fact-checking&gsc.q=test",
     "status": "301",
     "redirect": "https://factualsearch.news/",
-    "checked": 1587990903,
+    "checked": 1589138623,
     "pages": [
       "information"
     ]
@@ -8239,7 +8221,7 @@
   {
     "url": "https://factualsearch.news/",
     "status": "301",
-    "checked": 1587990903,
+    "checked": 1589138623,
     "pages": [
       "information"
     ]
@@ -8248,7 +8230,7 @@
     "url": "http://untrue.news/",
     "status": "200",
     "title": "Untrue News: a fake search engine",
-    "checked": 1587990905,
+    "checked": 1589138625,
     "pages": [
       "information"
     ]
@@ -8257,7 +8239,7 @@
     "url": "http://untrue.news/search?q=test",
     "status": "200",
     "title": "Untrue News: a fake search engine",
-    "checked": 1587990906,
+    "checked": 1589138626,
     "pages": [
       "information"
     ]
@@ -8266,7 +8248,7 @@
     "url": "http://www.ala.org/rt/godort/taskforces/internationaldocuments/idtf/igo-search",
     "status": "200",
     "title": "IGO Search | Round Tables",
-    "checked": 1588850416,
+    "checked": 1589139027,
     "pages": [
       "information"
     ]
@@ -8274,7 +8256,7 @@
   {
     "url": "https://docs.alephdata.org/guide/search",
     "status": "302",
-    "checked": 1589119950,
+    "checked": 1589139058,
     "pages": [
       "information"
     ]
@@ -8286,7 +8268,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955445
+    "checked": 1589137465
   },
   {
     "url": "http://www.aodl.org/",
@@ -8295,7 +8277,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955445
+    "checked": 1589137464
   },
   {
     "url": "http://www.aodl.org/search.php?currSearches=test",
@@ -8304,7 +8286,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955445
+    "checked": 1589137464
   },
   {
     "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",
@@ -8367,7 +8349,7 @@
     "url": "https://archive.org/details/magazine_rack",
     "status": "301",
     "title": "The Magazine Rack : Free Texts : Free Download, Borrow and Streaming : Internet Archive",
-    "checked": 1587990745,
+    "checked": 1589138472,
     "pages": [
       "information"
     ]
@@ -8398,7 +8380,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955446
+    "checked": 1589137466
   },
   {
     "url": "https://archive.org/details/podcasts?and%5B%5D=test",
@@ -8454,7 +8436,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955447
+    "checked": 1589137466
   },
   {
     "url": "https://archive.org/details/tv",
@@ -8483,13 +8465,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955448
+    "checked": 1589137467
   },
   {
     "url": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query=test",
     "status": "200",
     "title": "Internet Archive Search: test",
-    "checked": 1587990724,
+    "checked": 1589138350,
     "pages": [
       "information"
     ]
@@ -8501,7 +8483,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955452
+    "checked": 1589137483
   },
   {
     "url": "https://archive.org/search.php?and[]=collection:%22texts%22&sin=TXT&query=test",
@@ -8510,7 +8492,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955454
+    "checked": 1589137505
   },
   {
     "url": "https://archive.org/search.php?sin=TXT&query=test",
@@ -8519,24 +8501,24 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955457
+    "checked": 1589137533
   },
   {
     "url": "https://archiveofourown.org/",
-    "status": "302",
+    "status": "301",
     "pages": [
       "information"
     ],
-    "checked": 1587955454
+    "checked": 1589137505
   },
   {
     "url": "https://archiveofourown.org/works/search?work_search%5Bquery%5D=test",
-    "status": "302",
+    "status": "301",
     "redirect": "https://archiveofourown.org/works/search",
     "pages": [
       "information"
     ],
-    "checked": 1587955458
+    "checked": 1589137534
   },
   {
     "url": "https://www.aruc.org/en/country-links",
@@ -8545,7 +8527,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955459
+    "checked": 1589137535
   },
   {
     "url": "https://www.aruc.org/en/home",
@@ -8554,7 +8536,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955460
+    "checked": 1589137536
   },
   {
     "url": "https://www.aruc.org/en/search?searchBy=search_text&source=both&tabId=GeneralTab&referer=MainSearch&keyword=test",
@@ -8564,7 +8546,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955460
+    "checked": 1589137537
   },
   {
     "url": "http://www.aseanlibrary.org/",
@@ -8573,7 +8555,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955463
+    "checked": 1589137540
   },
   {
     "url": "http://www.aseanlibrary.org/search/index/query?keyword=test",
@@ -8582,7 +8564,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955465
+    "checked": 1589137542
   },
   {
     "url": "https://www.c-span.org/about/videoLibrary/",
@@ -8627,7 +8609,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955705
+    "checked": 1589137809
   },
   {
     "url": "https://dlme.clir.org/",
@@ -8636,7 +8618,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955707
+    "checked": 1589137811
   },
   {
     "url": "https://www.commonsensemedia.org/",
@@ -8711,7 +8693,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955709
+    "checked": 1589137815
   },
   {
     "url": "https://crossasia.org/en/resources/crossasia-search/?tx_sbbcrossasiaadditions_pazpar2search%5Bcontroller%5D=Pazpar2Search",
@@ -8721,7 +8703,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955710
+    "checked": 1589137816
   },
   {
     "url": "https://crossasia.org/en/resources/online-guide-east-asia/",
@@ -8730,7 +8712,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955711
+    "checked": 1589137818
   },
   {
     "url": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/?query=test",
@@ -8740,7 +8722,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955713
+    "checked": 1589137819
   },
   {
     "url": "https://ctext.org/",
@@ -8749,7 +8731,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955712
+    "checked": 1589137818
   },
   {
     "url": "https://ctext.org/pre-qin-and-han?searchu=test",
@@ -8759,7 +8741,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955713
+    "checked": 1589137820
   },
   {
     "url": "https://www.dailystrength.org/",
@@ -8787,7 +8769,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955714
+    "checked": 1589137821
   },
   {
     "url": "https://search.datacite.org/works?query=test",
@@ -8796,7 +8778,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955020
+    "checked": 1589137131
   },
   {
     "url": "https://search.dataone.org/",
@@ -8805,7 +8787,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955475
+    "checked": 1589137553
   },
   {
     "url": "http://dataportals.org/",
@@ -8814,7 +8796,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955475
+    "checked": 1589137554
   },
   {
     "url": "https://spotlight.dlmenetwork.org/library/catalog?q=test",
@@ -8824,13 +8806,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955476
+    "checked": 1589137555
   },
   {
     "url": "https://doaj.org/",
     "status": "301",
     "title": "Directory of Open Access Journals",
-    "checked": 1587990906,
+    "checked": 1589138627,
     "pages": [
       "information"
     ]
@@ -8840,7 +8822,7 @@
     "status": "301",
     "redirect": "https://doaj.org/search",
     "title": "Directory of Open Access Journals",
-    "checked": 1587990907,
+    "checked": 1589138627,
     "pages": [
       "information"
     ]
@@ -8852,7 +8834,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955474
+    "checked": 1589137551
   },
   {
     "url": "https://www.ecosia.org/search?q=test",
@@ -8862,7 +8844,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955477
+    "checked": 1589137556
   },
   {
     "url": "https://fultonsearch.org/",
@@ -8871,7 +8853,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955477
+    "checked": 1589137555
   },
   {
     "url": "https://fultonsearch.org/?q=test",
@@ -8881,7 +8863,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955478
+    "checked": 1589137557
   },
   {
     "url": "https://gdeltproject.org/data.html",
@@ -8890,7 +8872,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955478
+    "checked": 1589137558
   },
   {
     "url": "https://www.gutenberg.org/browse/categories/1",
@@ -8908,7 +8890,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955020
+    "checked": 1589137128
   },
   {
     "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=test;a=srchls",
@@ -8918,7 +8900,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955025
+    "checked": 1589137133
   },
   {
     "url": "https://www.hathitrust.org/",
@@ -8927,7 +8909,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955020
+    "checked": 1589137129
   },
   {
     "url": "http://www.homemovieregistry.org/wp/",
@@ -8949,7 +8931,7 @@
     "url": "https://www.jstor.org/action/doBasicSearch?Query=test",
     "status": "403",
     "title": "JSTOR: Access Check",
-    "checked": 1587990907,
+    "checked": 1589138627,
     "pages": [
       "information"
     ]
@@ -8958,7 +8940,7 @@
     "url": "https://www.jstor.org/",
     "status": "200",
     "title": "JSTOR",
-    "checked": 1587990908,
+    "checked": 1589138629,
     "pages": [
       "information"
     ]
@@ -8967,7 +8949,7 @@
     "url": "http://www.jurn.org/#gsc.q=test",
     "status": "403",
     "title": "403 Forbidden",
-    "checked": 1587990908,
+    "checked": 1589138628,
     "pages": [
       "information"
     ]
@@ -8976,7 +8958,7 @@
     "url": "http://www.jurn.org/",
     "status": "403",
     "title": "403 Forbidden",
-    "checked": 1587990908,
+    "checked": 1589138628,
     "pages": [
       "information"
     ]
@@ -8994,7 +8976,7 @@
     "url": "http://www.lazyscholar.org/",
     "status": "200",
     "title": "Lazy Scholar | Extension",
-    "checked": 1587990923,
+    "checked": 1589138643,
     "pages": [
       "information"
     ]
@@ -9002,7 +8984,7 @@
   {
     "url": "https://www.lens.org/",
     "status": "301",
-    "checked": 1587990909,
+    "checked": 1589138629,
     "pages": [
       "information"
     ]
@@ -9011,7 +8993,7 @@
     "url": "https://www.lens.org/lens/scholar/search/results?q=test",
     "status": "301",
     "redirect": "https://www.lens.org/lens/scholar/search/results",
-    "checked": 1587990910,
+    "checked": 1589138630,
     "pages": [
       "information"
     ]
@@ -9039,7 +9021,7 @@
     "url": "https://longform.org/",
     "status": "301",
     "title": "Longform",
-    "checked": 1587990708,
+    "checked": 1589138327,
     "pages": [
       "information"
     ]
@@ -9048,7 +9030,7 @@
     "url": "https://longform.org/search?q=test",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "redirect": "https://longform.org/search",
-    "checked": 1587990586,
+    "checked": 1589138207,
     "pages": [
       "information"
     ]
@@ -9057,7 +9039,7 @@
     "url": "https://mediacloud.org/",
     "status": "301",
     "title": " Media Cloud",
-    "checked": 1587955623,
+    "checked": 1589137719,
     "pages": [
       "information"
     ]
@@ -9084,7 +9066,7 @@
   {
     "url": "https://aleph.occrp.org/",
     "status": "308",
-    "checked": 1589119948,
+    "checked": 1589139057,
     "pages": [
       "information"
     ]
@@ -9093,7 +9075,7 @@
     "url": "https://aleph.occrp.org/search?q=test",
     "status": "308",
     "redirect": "https://aleph.occrp.org/search",
-    "checked": 1589119948,
+    "checked": 1589139057,
     "pages": [
       "information"
     ]
@@ -9104,7 +9086,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955025
+    "checked": 1589137134
   },
   {
     "url": "https://researchworks.oclc.org/archivegrid/?q=test",
@@ -9112,7 +9094,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955025
+    "checked": 1589137134
   },
   {
     "url": "https://www.oclc.org/en/home.html",
@@ -9120,13 +9102,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955025
+    "checked": 1589137133
   },
   {
     "url": "https://openaccessbutton.org/",
     "status": "301",
     "title": "Open Access Button",
-    "checked": 1587990927,
+    "checked": 1589138648,
     "pages": [
       "information"
     ]
@@ -9138,7 +9120,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955027
+    "checked": 1589137135
   },
   {
     "url": "https://openlibrary.org/search/inside?q=test",
@@ -9148,13 +9130,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955033
+    "checked": 1589137148
   },
   {
     "url": "https://paperity.org/",
     "status": "301",
     "title": "Paperity - Multidisciplinary aggregator of Open Access journals &amp; papers | Paperity",
-    "checked": 1587991107,
+    "checked": 1589138835,
     "pages": [
       "information"
     ]
@@ -9164,7 +9146,7 @@
     "status": "301",
     "redirect": "https://paperity.org/search/",
     "title": "test - Search | Paperity",
-    "checked": 1587991111,
+    "checked": 1589138839,
     "pages": [
       "information"
     ]
@@ -9192,7 +9174,7 @@
     "url": "https://ifcncodeofprinciples.poynter.org/signatories",
     "status": "301",
     "title": "IFCN Code of Principles",
-    "checked": 1587990912,
+    "checked": 1589138633,
     "pages": [
       "information"
     ]
@@ -9204,7 +9186,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955034
+    "checked": 1589137149
   },
   {
     "url": "https://www.re3data.org/search?query=test",
@@ -9214,7 +9196,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955035
+    "checked": 1589137150
   },
   {
     "url": "https://reporterslab.org/fact-checking/",
@@ -9223,23 +9205,24 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955036
+    "checked": 1589137151
   },
   {
     "url": "https://www.semanticscholar.org/",
     "status": "301",
     "title": "Semantic Scholar | AI-Powered Research Tool",
-    "checked": 1587990913,
+    "checked": 1589138634,
     "pages": [
       "information"
-    ]
+    ],
+    "redirect": "https://www.semanticscholar.org:443/"
   },
   {
     "url": "https://www.semanticscholar.org/search?q=test",
     "status": "301",
-    "redirect": "https://www.semanticscholar.org/search",
+    "redirect": "https://www.semanticscholar.org:443/search",
     "title": "test | Semantic Scholar",
-    "checked": 1587990913,
+    "checked": 1589138634,
     "pages": [
       "information"
     ]
@@ -9286,7 +9269,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955044
+    "checked": 1589137166
   },
   {
     "url": "https://certificates.theodi.org/en/datasets?search=test",
@@ -9295,13 +9278,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955058
+    "checked": 1589137181
   },
   {
     "url": "https://www.torproject.org/",
     "status": "302",
     "title": "Tor Project | Anonymity Online",
-    "checked": 1587990585,
+    "checked": 1589138205,
     "pages": [
       "information"
     ]
@@ -9348,7 +9331,7 @@
     "url": "https://search.archives.un.org/",
     "status": "301",
     "title": "Welcome to the United Nations Archives Search Engine - UNARMS",
-    "checked": 1588901402,
+    "checked": 1589139031,
     "pages": [
       "information"
     ]
@@ -9357,7 +9340,7 @@
     "url": "https://digitallibrary.un.org/",
     "status": "301",
     "title": "United Nations Digital Library System",
-    "checked": 1588901402,
+    "checked": 1589139030,
     "pages": [
       "information"
     ]
@@ -9365,7 +9348,7 @@
   {
     "url": "https://documents.un.org/prod/ods.nsf/home.xsp",
     "status": "302",
-    "checked": 1588901396,
+    "checked": 1589139027,
     "pages": [
       "information"
     ]
@@ -9374,7 +9357,7 @@
     "url": "http://unpaywall.org/",
     "status": "200",
     "title": "Unpaywall",
-    "checked": 1587990931,
+    "checked": 1589138648,
     "pages": [
       "information"
     ]
@@ -9384,7 +9367,7 @@
     "status": "302",
     "redirect": "https://search.un.org/results.php",
     "title": "Enterprise Search",
-    "checked": 1588810346,
+    "checked": 1589138958,
     "pages": [
       "information"
     ]
@@ -9393,7 +9376,7 @@
     "url": "https://www.un.org/en/",
     "status": "302",
     "title": "United Nations | Peace, dignity and equality <BR> on a healthy planet",
-    "checked": 1588810347,
+    "checked": 1589138959,
     "pages": [
       "information"
     ]
@@ -9422,7 +9405,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955058
+    "checked": 1589137181
   },
   {
     "url": "https://www.wdl.org/en/search/?q=test",
@@ -9432,7 +9415,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955060
+    "checked": 1589137182
   },
   {
     "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
@@ -9441,7 +9424,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955061
+    "checked": 1589137183
   },
   {
     "url": "https://wikileaks.org/",
@@ -9450,7 +9433,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955061
+    "checked": 1589137183
   },
   {
     "url": "https://search.wikileaks.org/?q=test",
@@ -9460,7 +9443,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955063
+    "checked": 1589137184
   },
   {
     "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
@@ -9484,7 +9467,7 @@
     "url": "https://meta.wikimedia.org/wiki/List_of_Wikipedias",
     "status": "301",
     "title": "List of Wikipedias - Meta",
-    "checked": 1587990932,
+    "checked": 1589138651,
     "pages": [
       "information"
     ]
@@ -9493,7 +9476,7 @@
     "url": "https://ar.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://ar.wikipedia.org/w/index.php",
-    "checked": 1587990932,
+    "checked": 1589138651,
     "pages": [
       "information"
     ]
@@ -9501,7 +9484,7 @@
   {
     "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9_%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9",
     "status": "\"\\xD9\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991136,
+    "checked": 1589138850,
     "pages": [
       "information"
     ]
@@ -9510,7 +9493,7 @@
     "url": "https://de.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://de.wikipedia.org/w/index.php",
-    "checked": 1587990933,
+    "checked": 1589138652,
     "pages": [
       "information"
     ]
@@ -9518,7 +9501,7 @@
   {
     "url": "https://de.wikipedia.org/wiki/Wikipedia:Hauptseite",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991137,
+    "checked": 1589138853,
     "pages": [
       "information"
     ]
@@ -9530,7 +9513,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955064
+    "checked": 1589137185
   },
   {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
@@ -9545,7 +9528,7 @@
     "url": "https://en.wikipedia.org/wiki/Dark_web",
     "status": "301",
     "title": "Dark web - Wikipedia",
-    "checked": 1587955844,
+    "checked": 1589137828,
     "pages": [
       "information"
     ]
@@ -9563,7 +9546,7 @@
     "url": "https://en.wikipedia.org/wiki/List_of_encyclopedias_by_language",
     "status": "301",
     "title": "List of encyclopedias by language - Wikipedia",
-    "checked": 1587991137,
+    "checked": 1589138854,
     "pages": [
       "information"
     ]
@@ -9572,7 +9555,7 @@
     "url": "https://en.wikipedia.org/wiki/List_of_fact-checking_websites",
     "status": "301",
     "title": "List of fact-checking websites - Wikipedia",
-    "checked": 1587990914,
+    "checked": 1589138635,
     "pages": [
       "information"
     ]
@@ -9584,7 +9567,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955064
+    "checked": 1589137186
   },
   {
     "url": "https://en.wikipedia.org/wiki/List_of_national_archives",
@@ -9593,7 +9576,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955064
+    "checked": 1589137185
   },
   {
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -9602,7 +9585,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955065
+    "checked": 1589137187
   },
   {
     "url": "https://en.wikipedia.org/wiki/Microform",
@@ -9611,12 +9594,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955065
+    "checked": 1589137187
   },
   {
     "url": "https://en.wikipedia.org/wiki/News_Corp_(2013%E2%80%93present)",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955622,
+    "checked": 1589137716,
     "pages": [
       "information"
     ]
@@ -9628,13 +9611,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955065
+    "checked": 1589137187
   },
   {
     "url": "https://en.wikipedia.org/wiki/Open_access",
     "status": "301",
     "title": "Open access - Wikipedia",
-    "checked": 1587991143,
+    "checked": 1589138859,
     "pages": [
       "information"
     ]
@@ -9646,7 +9629,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955066
+    "checked": 1589137188
   },
   {
     "url": "https://en.wikipedia.org/wiki/Public_domain",
@@ -9661,7 +9644,7 @@
     "url": "https://en.wikipedia.org/wiki/Regular_expression",
     "status": "301",
     "title": "Regular expression - Wikipedia",
-    "checked": 1587991144,
+    "checked": 1589138860,
     "pages": [
       "information"
     ]
@@ -9670,7 +9653,7 @@
     "url": "https://en.wikipedia.org/wiki/Usenet_newsgroup",
     "status": "301",
     "title": "Usenet newsgroup - Wikipedia",
-    "checked": 1587955673,
+    "checked": 1589137761,
     "pages": [
       "information"
     ]
@@ -9691,7 +9674,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955066
+    "checked": 1589137188
   },
   {
     "url": "https://en.wikipedia.org/wiki/Wikipedia",
@@ -9700,13 +9683,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955066
+    "checked": 1589137189
   },
   {
     "url": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://es.wikipedia.org/w/index.php",
-    "checked": 1587990936,
+    "checked": 1589138654,
     "pages": [
       "information"
     ]
@@ -9715,7 +9698,7 @@
     "url": "https://es.wikipedia.org/wiki/Wikipedia:Portada",
     "status": "301",
     "title": "Wikipedia, la enciclopedia libre",
-    "checked": 1587991146,
+    "checked": 1589138860,
     "pages": [
       "information"
     ]
@@ -9724,7 +9707,7 @@
     "url": "https://fr.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://fr.wikipedia.org/w/index.php",
-    "checked": 1587990936,
+    "checked": 1589138654,
     "pages": [
       "information"
     ]
@@ -9732,7 +9715,7 @@
   {
     "url": "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991096,
+    "checked": 1589138823,
     "pages": [
       "information"
     ]
@@ -9741,7 +9724,7 @@
     "url": "https://it.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://it.wikipedia.org/w/index.php",
-    "checked": 1587990937,
+    "checked": 1589138655,
     "pages": [
       "information"
     ]
@@ -9750,7 +9733,7 @@
     "url": "https://it.wikipedia.org/wiki/Pagina_principale",
     "status": "301",
     "title": "Wikipedia, l'enciclopedia libera",
-    "checked": 1587991104,
+    "checked": 1589138825,
     "pages": [
       "information"
     ]
@@ -9759,7 +9742,7 @@
     "url": "https://ja.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://ja.wikipedia.org/w/index.php",
-    "checked": 1587990937,
+    "checked": 1589138655,
     "pages": [
       "information"
     ]
@@ -9768,7 +9751,7 @@
     "url": "https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8",
     "status": "301",
     "title": "Wikipedia",
-    "checked": 1587991115,
+    "checked": 1589138839,
     "pages": [
       "information"
     ]
@@ -9777,7 +9760,7 @@
     "url": "https://nl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://nl.wikipedia.org/w/index.php",
-    "checked": 1587990938,
+    "checked": 1589138656,
     "pages": [
       "information"
     ]
@@ -9786,7 +9769,7 @@
     "url": "https://nl.wikipedia.org/wiki/Hoofdpagina",
     "status": "301",
     "title": "Wikipedia, de vrije encyclopedie",
-    "checked": 1587991123,
+    "checked": 1589138842,
     "pages": [
       "information"
     ]
@@ -9795,7 +9778,7 @@
     "url": "https://pl.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://pl.wikipedia.org/w/index.php",
-    "checked": 1587990939,
+    "checked": 1589138656,
     "pages": [
       "information"
     ]
@@ -9804,7 +9787,7 @@
     "url": "https://pl.wikipedia.org/wiki/Wikipedia:Strona_g%C5%82%C3%B3wna",
     "status": "301",
     "title": "Wikipedia, wolna encyklopedia",
-    "checked": 1587991136,
+    "checked": 1589138851,
     "pages": [
       "information"
     ]
@@ -9813,7 +9796,7 @@
     "url": "https://pt.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://pt.wikipedia.org/w/index.php",
-    "checked": 1587990939,
+    "checked": 1589138657,
     "pages": [
       "information"
     ]
@@ -9821,7 +9804,7 @@
   {
     "url": "https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991167,
+    "checked": 1589138883,
     "pages": [
       "information"
     ]
@@ -9830,7 +9813,7 @@
     "url": "https://ru.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://ru.wikipedia.org/w/index.php",
-    "checked": 1587991093,
+    "checked": 1589138819,
     "pages": [
       "information"
     ]
@@ -9838,7 +9821,7 @@
   {
     "url": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991133,
+    "checked": 1589138850,
     "pages": [
       "information"
     ]
@@ -9847,7 +9830,7 @@
     "url": "https://sv.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://sv.wikipedia.org/w/index.php",
-    "checked": 1587990920,
+    "checked": 1589138640,
     "pages": [
       "information"
     ]
@@ -9856,7 +9839,7 @@
     "url": "https://sv.wikipedia.org/wiki/Portal:Huvudsida",
     "status": "301",
     "title": "Wikipedia, den fria encyklopedin",
-    "checked": 1587991142,
+    "checked": 1589138858,
     "pages": [
       "information"
     ]
@@ -9865,7 +9848,7 @@
     "url": "https://vi.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://vi.wikipedia.org/w/index.php",
-    "checked": 1587990920,
+    "checked": 1589138639,
     "pages": [
       "information"
     ]
@@ -9873,7 +9856,7 @@
   {
     "url": "https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh",
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991143,
+    "checked": 1589138859,
     "pages": [
       "information"
     ]
@@ -9882,7 +9865,7 @@
     "url": "https://zh.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
     "status": "301",
     "redirect": "https://zh.wikipedia.org/w/index.php",
-    "checked": 1587990921,
+    "checked": 1589138640,
     "pages": [
       "information"
     ]
@@ -9890,7 +9873,7 @@
   {
     "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991146,
+    "checked": 1589138862,
     "pages": [
       "information"
     ]
@@ -9902,7 +9885,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955067
+    "checked": 1589137190
   },
   {
     "url": "https://en.wikisource.org/wiki/Main_Page",
@@ -9911,7 +9894,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955066
+    "checked": 1589137187
   },
   {
     "url": "https://www.worldcat.org/",
@@ -9921,7 +9904,7 @@
       "image",
       "information"
     ],
-    "checked": 1587955067
+    "checked": 1589137189
   },
   {
     "url": "https://www.worldcat.org/libraries",
@@ -9930,7 +9913,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955067
+    "checked": 1589137189
   },
   {
     "url": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q=test",
@@ -9950,13 +9933,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955069
+    "checked": 1589137192
   },
   {
     "url": "https://worldwidescience.org/",
     "status": "302",
     "title": "WorldWideScience",
-    "checked": 1587990922,
+    "checked": 1589138642,
     "pages": [
       "information"
     ]
@@ -9968,7 +9951,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955071
+    "checked": 1589137195
   },
   {
     "url": "http://www.elib.gov.ph/results.php",
@@ -9978,7 +9961,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955072
+    "checked": 1589137196
   },
   {
     "url": "https://tune.pk/search_result.php?query=test",
@@ -10002,8 +9985,8 @@
   },
   {
     "url": "https://www.infopedia.pt/",
-    "status": "Connection reset by peer",
-    "checked": 1587991147,
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
+    "checked": 1589138864,
     "pages": [
       "information"
     ]
@@ -10015,12 +9998,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955591
+    "checked": 1589137680
   },
   {
     "url": "https://bigenc.ru/",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991149,
+    "checked": 1589138865,
     "pages": [
       "information"
     ]
@@ -10029,7 +10012,7 @@
     "url": "https://bigenc.ru/search?q=test",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://bigenc.ru/search",
-    "checked": 1587991150,
+    "checked": 1589138867,
     "pages": [
       "information"
     ]
@@ -10038,7 +10021,7 @@
     "url": "http://government.ru/en/",
     "status": "200",
     "title": "The Russian Government",
-    "checked": 1588558689,
+    "checked": 1589138946,
     "pages": [
       "information"
     ]
@@ -10046,7 +10029,7 @@
   {
     "url": "http://government.ru/search/?q=test",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1588558681,
+    "checked": 1589138939,
     "pages": [
       "information"
     ]
@@ -10058,7 +10041,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955591
+    "checked": 1589137682
   },
   {
     "url": "https://go.mail.ru/search?q=test",
@@ -10067,12 +10050,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955470
+    "checked": 1589137546
   },
   {
     "url": "https://otvet.mail.ru/",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955678,
+    "checked": 1589137776,
     "pages": [
       "information"
     ]
@@ -10080,7 +10063,7 @@
   {
     "url": "https://otvet.mail.ru/search/test",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955675,
+    "checked": 1589137771,
     "pages": [
       "information"
     ]
@@ -10092,7 +10075,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955471
+    "checked": 1589137548
   },
   {
     "url": "https://primo.nlr.ru/primo-explore/search?tab=default_tab&vid=07NLR_VU1&lang=en_US&query=any,contains,test",
@@ -10101,13 +10084,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955473
+    "checked": 1589137550
   },
   {
     "url": "https://ok.ru/",
     "status": "200",
     "title": "OK.RU",
-    "checked": 1587955663,
+    "checked": 1589137758,
     "pages": [
       "information"
     ]
@@ -10120,7 +10103,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955074
+    "checked": 1589137199
   },
   {
     "url": "https://www.rsl.ru/en",
@@ -10129,7 +10112,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955076
+    "checked": 1589137201
   },
   {
     "url": "http://www.rusarchives.ru/elektronnye-opisi-federalnyh-arhivov",
@@ -10138,7 +10121,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955594
+    "checked": 1589137684
   },
   {
     "url": "http://www.rusarchives.ru/",
@@ -10147,7 +10130,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955595
+    "checked": 1589137685
   },
   {
     "url": "https://rusneb.ru/",
@@ -10155,7 +10138,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955613
+    "checked": 1589137707
   },
   {
     "url": "https://rusneb.ru/search/?access=all&q=test",
@@ -10164,7 +10147,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955600
+    "checked": 1589137693
   },
   {
     "url": "https://rutube.ru/",
@@ -10190,7 +10173,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955539
+    "checked": 1589137626
   },
   {
     "url": "http://www.shpl.ru/",
@@ -10199,12 +10182,12 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955543
+    "checked": 1589137631
   },
   {
     "url": "https://yandex.ru/q/",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1587955680,
+    "checked": 1589137777,
     "pages": [
       "information"
     ]
@@ -10213,7 +10196,7 @@
     "url": "https://yandex.ru/q/search/?text=test",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://yandex.ru/q/search/",
-    "checked": 1587955677,
+    "checked": 1589137774,
     "pages": [
       "information"
     ]
@@ -10221,7 +10204,7 @@
   {
     "url": "https://noti.st/",
     "status": "301",
-    "checked": 1587955701,
+    "checked": 1589137803,
     "pages": [
       "information"
     ]
@@ -10229,7 +10212,7 @@
   {
     "url": "http://arab-ency.com.sy/",
     "status": "\"\\xD8\" from ASCII-8BIT to UTF-8",
-    "checked": 1587991167,
+    "checked": 1589138883,
     "pages": [
       "information"
     ]
@@ -10262,7 +10245,7 @@
   {
     "url": "https://core.ac.uk/",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "checked": 1587990916,
+    "checked": 1589138636,
     "pages": [
       "information"
     ]
@@ -10272,7 +10255,7 @@
     "status": "308",
     "redirect": "https://core.ac.uk/search",
     "title": "Search CORE",
-    "checked": 1587990916,
+    "checked": 1589138636,
     "pages": [
       "information"
     ]
@@ -10281,7 +10264,7 @@
     "url": "https://archiveshub.jisc.ac.uk/",
     "status": "301",
     "title": "Home - Archives Hub",
-    "checked": 1588041382,
+    "checked": 1589138886,
     "pages": [
       "information"
     ]
@@ -10291,7 +10274,7 @@
     "status": "301",
     "redirect": "https://archiveshub.jisc.ac.uk/search/",
     "title": "test - Search - Archives Hub",
-    "checked": 1588041381,
+    "checked": 1589138885,
     "pages": [
       "information"
     ]
@@ -10303,7 +10286,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955077
+    "checked": 1589137202
   },
   {
     "url": "https://discover.libraryhub.jisc.ac.uk/search?q=test",
@@ -10313,16 +10296,16 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955078
+    "checked": 1589137203
   },
   {
     "url": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,test",
     "status": "302",
-    "redirect": "http://explore.bl.uk/primo_library/libweb/action/error.do;jsessionid=8101BB8A553500937027F2C5970B6C0C",
+    "redirect": "http://explore.bl.uk/primo_library/libweb/action/error.do;jsessionid=B148F97020D6C4F3211E9B8F49F0B2E7",
     "pages": [
       "information"
     ],
-    "checked": 1587955080
+    "checked": 1589137205
   },
   {
     "url": "https://www.bl.uk/",
@@ -10331,7 +10314,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955081
+    "checked": 1589137206
   },
   {
     "url": "https://www.bbc.co.uk/iplayer/search?q=test",
@@ -10360,7 +10343,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955083
+    "checked": 1589137207
   },
   {
     "url": "https://www.bookbeat.co.uk/search",
@@ -10388,7 +10371,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955085
+    "checked": 1589137209
   },
   {
     "url": "https://www.britishnewspaperarchive.co.uk/search/results?basicsearch=test",
@@ -10398,7 +10381,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955091
+    "checked": 1589137214
   },
   {
     "url": "https://www.newsnow.co.uk/h/?search=test",
@@ -10408,7 +10391,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955093
+    "checked": 1589137215
   },
   {
     "url": "https://www.newsnow.co.uk/",
@@ -10416,13 +10399,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955092
+    "checked": 1589137214
   },
   {
     "url": "https://pressat.co.uk/releases/",
     "status": "301",
-    "title": "Latest Press Releases Press Releases 1 out of 12622 | Pressat",
-    "checked": 1589033606,
+    "title": "Latest Press Releases Press Releases 1 out of 12624 | Pressat",
+    "checked": 1589139049,
     "pages": [
       "information"
     ]
@@ -10431,20 +10414,20 @@
     "url": "https://www.prnewswire.co.uk/news-releases/news-releases-list/",
     "status": "301",
     "title": "All News Releases and Press Releases from PR Newswire UK",
-    "checked": 1589033606,
+    "checked": 1589139048,
     "pages": [
       "information"
     ]
   },
   {
     "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=test",
-    "status": "302",
+    "status": "Failed to open TCP connection to discovery.nationalarchives.gov.uk:80 (Connection refused - connect(2) for \"discovery.nationalarchives.gov.uk\" port 80)",
     "redirect": "/",
     "title": "Search results: test | The National Archives",
     "pages": [
       "information"
     ],
-    "checked": 1587955094
+    "checked": 1589137216
   },
   {
     "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",
@@ -10472,13 +10455,13 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955097
+    "checked": 1589137217
   },
   {
     "url": "https://www.gov.uk/",
     "status": "301",
     "title": "Welcome to GOV.UK",
-    "checked": 1588519159,
+    "checked": 1589138923,
     "pages": [
       "information"
     ]
@@ -10488,7 +10471,7 @@
     "status": "301",
     "redirect": "https://www.gov.uk/search/all",
     "title": "test - Search - GOV.UK",
-    "checked": 1588519154,
+    "checked": 1589138923,
     "pages": [
       "information"
     ]
@@ -10500,7 +10483,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955096
+    "checked": 1589137216
   },
   {
     "url": "https://data.world/search?q=test",
@@ -10509,21 +10492,21 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955097
+    "checked": 1589137217
   },
   {
     "url": "https://onion.ws/",
     "status": "200",
     "title": "Onion.Ws Tor2Web Gateway",
-    "checked": 1587990584,
+    "checked": 1589138204,
     "pages": [
       "information"
     ]
   },
   {
     "url": "http://haystakvxad7wbk5.onion.ws/",
-    "status": "200",
-    "checked": 1587990744,
+    "status": "Net::ReadTimeout",
+    "checked": 1589138471,
     "pages": [
       "information"
     ],
@@ -10531,8 +10514,8 @@
   },
   {
     "url": "http://haystakvxad7wbk5.onion.ws/?q=test",
-    "status": "200",
-    "checked": 1587990580,
+    "status": "Net::ReadTimeout",
+    "checked": 1589138199,
     "pages": [
       "information"
     ],
@@ -10542,7 +10525,7 @@
     "url": "https://hss3uro2hsxfogfq.onion.ws/",
     "status": "Net::ReadTimeout",
     "title": "Onion.Ws Tor2Web Gateway",
-    "checked": 1587990707,
+    "checked": 1589138327,
     "pages": [
       "information"
     ]
@@ -10550,7 +10533,7 @@
   {
     "url": "https://hss3uro2hsxfogfq.onion.ws/index.php?q=test",
     "status": "Net::ReadTimeout",
-    "checked": 1587990501,
+    "checked": 1589138079,
     "pages": [
       "information"
     ]
@@ -10562,6 +10545,6 @@
     "pages": [
       "information"
     ],
-    "checked": 1587955466
+    "checked": 1589137543
   }
 ]

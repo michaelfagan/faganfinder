@@ -190,7 +190,7 @@
         },
         {
           "name": "Baike.com — Chinese",
-          "searchUrl": "http://so1.baike.com/so/search?q={q}"
+          "searchUrl": "https://www.baike.com/search?keyword={q}"
         },
         {
           "name": "Wikipedia — Chinese",
@@ -1297,10 +1297,6 @@
           "searchUrl": "https://datasetsearch.research.google.com/search?query={q}"
         },
         {
-          "name": "Datahub",
-          "searchUrl": "https://datahub.io/search?q={q}"
-        },
-        {
           "name": "data.world",
           "searchUrl": "https://data.world/search?q={q}"
         },
@@ -1317,7 +1313,7 @@
           "searchUrl": "https://www.reddit.com/r/datasets/search?restrict_sr=on&q={q}"
         },
         {
-          "name": "<abbr title=\"Google enhanced by Fagan Finder\">Google+FF</abbr>",
+          "name": "Google with keywords",
           "searchUrl": "https://www.google.com/search?q={q}%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml"
         }
       ]
