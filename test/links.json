@@ -35,7 +35,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118143
+    "checked": 1589406965
   },
   {
     "url": "https://www.nfsa.gov.au/search?query=test",
@@ -45,7 +45,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118145
+    "checked": 1589406966
   },
   {
     "url": "https://trove.nla.gov.au/",
@@ -91,7 +91,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117605
+    "checked": 1589406835
   },
   {
     "url": "https://www.bangladesh.gov.bd/?lang=en",
@@ -111,22 +111,22 @@
   },
   {
     "url": "https://www.uol.com.br/mov/busca/?q=test",
-    "status": "301",
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
     "redirect": "https://www.uol.com.br/mov/busca/",
     "title": "MOV: A produtora de vídeos do UOL",
     "pages": [
       "video"
     ],
-    "checked": 1582118404
+    "checked": 1589407392
   },
   {
     "url": "https://www.uol.com.br/mov/",
-    "status": "301",
+    "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
     "title": "MOV: A produtora de vídeos do UOL",
     "pages": [
       "video"
     ],
-    "checked": 1582118404
+    "checked": 1589407391
   },
   {
     "url": "https://bdlb.bn.gov.br/acervo/handle/20.500.12156.3/17/discover?query=test",
@@ -259,7 +259,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1587990225
+    "checked": 1589407546
   },
   {
     "url": "https://www.crkn-rcdr.ca/en",
@@ -288,20 +288,21 @@
     ]
   },
   {
-    "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/Pages/films-videos-sound-recordings.aspx",
-    "status": "200",
+    "url": "https://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/Pages/films-videos-sound-recordings.aspx",
+    "status": "301",
+    "checked": 1589419212,
     "pages": [
       "video"
-    ],
-    "checked": 1582117627
+    ]
   },
   {
-    "url": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k=test",
-    "status": "200",
+    "url": "https://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k=test",
+    "status": "301",
+    "redirect": "https://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx",
+    "checked": 1589419200,
     "pages": [
       "video"
-    ],
-    "checked": 1582117631
+    ]
   },
   {
     "url": "http://publications.gc.ca/site/eng/home.html",
@@ -346,7 +347,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117632
+    "checked": 1589406837
   },
   {
     "url": "https://www.nfb.ca/search/#?queryString=test",
@@ -356,7 +357,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117632
+    "checked": 1589406838
   },
   {
     "url": "https://libguides.smu.ca/govdoc/canada",
@@ -538,7 +539,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117641
+    "checked": 1589406839
   },
   {
     "url": "https://adage.com/creativity",
@@ -547,7 +548,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117642
+    "checked": 1589406839
   },
   {
     "url": "https://stock.adobe.com/",
@@ -582,7 +583,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117650
+    "checked": 1589406842
   },
   {
     "url": "https://search.alexanderstreet.com/search?f[1]=format_facet%3AVideo&searchstring=test",
@@ -592,7 +593,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117653
+    "checked": 1589406846
   },
   {
     "url": "https://www.allmovie.com/",
@@ -601,7 +602,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117653
+    "checked": 1589406846
   },
   {
     "url": "https://www.allmovie.com/search/all/test",
@@ -610,7 +611,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117653
+    "checked": 1589406842
   },
   {
     "url": "https://search.ancestry.com/search/categories/np_newspapers/",
@@ -657,7 +658,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117656
+    "checked": 1589406847
   },
   {
     "url": "https://www.aol.com/video/search/?q=test",
@@ -667,7 +668,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117656
+    "checked": 1589406848
   },
   {
     "url": "https://www.aparat.com/",
@@ -675,7 +676,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117663
+    "checked": 1589406850
   },
   {
     "url": "https://www.aparat.com/result/test",
@@ -683,7 +684,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117667
+    "checked": 1589406853
   },
   {
     "url": "http://www.aparchive.com/",
@@ -692,7 +693,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117668
+    "checked": 1589406854
   },
   {
     "url": "http://www.aparchive.com/search?query=test",
@@ -701,7 +702,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117669
+    "checked": 1589406856
   },
   {
     "url": "https://apnews.com/",
@@ -752,7 +753,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117673
+    "checked": 1589406857
   },
   {
     "url": "https://www.asiancrush.com",
@@ -760,7 +761,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582339360,
+    "checked": 1589407417,
     "title": "AsianCrush | Watch Your Favorite Asian Movies &amp; Shows"
   },
   {
@@ -957,7 +958,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117685
+    "checked": 1589406861
   },
   {
     "url": "http://bechdeltest.com/search",
@@ -966,7 +967,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117686
+    "checked": 1589406862
   },
   {
     "url": "http://www.bing.com/",
@@ -1063,7 +1064,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117690
+    "checked": 1589406864
   },
   {
     "url": "http://www.bing.com/videos/search?q=test",
@@ -1073,7 +1074,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117689
+    "checked": 1589406863
   },
   {
     "url": "http://www.bing.com/videos/trending",
@@ -1082,7 +1083,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117689
+    "checked": 1589406863
   },
   {
     "url": "https://biznar.com/biznar/desktop/en/search.html",
@@ -1323,7 +1324,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117696
+    "checked": 1589406864
   },
   {
     "url": "https://www.dailymotion.com/search/test",
@@ -1332,7 +1333,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117696
+    "checked": 1589406865
   },
   {
     "url": "https://www.deepdyve.com/",
@@ -1417,7 +1418,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117700
+    "checked": 1589406866
   },
   {
     "url": "https://documentaryheaven.com/",
@@ -1426,7 +1427,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117699
+    "checked": 1589406865
   },
   {
     "url": "https://www.documentarystorm.com/",
@@ -1435,17 +1436,17 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117700
+    "checked": 1589406866
   },
   {
     "url": "https://www.documentarystorm.com/?s=test",
     "status": "301",
     "redirect": "https://www.documentarystorm.com/",
-    "title": "Search for &quot;test&quot; - Documentary Storm - DocumentaryStorm.com",
+    "title": "You searched for test - Documentary Storm - DocumentaryStorm.com",
     "pages": [
       "video"
     ],
-    "checked": 1582117701
+    "checked": 1589406868
   },
   {
     "url": "https://www.doesthedogdie.com/",
@@ -1454,7 +1455,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117701
+    "checked": 1589406867
   },
   {
     "url": "https://www.douban.com/",
@@ -1765,7 +1766,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117729
+    "checked": 1589406869
   },
   {
     "url": "https://www.facebook.com/watch/?query=test",
@@ -1774,7 +1775,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117730
+    "checked": 1589406871
   },
   {
     "url": "https://www.fandango.com/",
@@ -1783,7 +1784,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117730
+    "checked": 1589406870
   },
   {
     "url": "https://www.fandango.com/search?q=test",
@@ -1793,7 +1794,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117731
+    "checked": 1589406872
   },
   {
     "url": "https://community-search.fandom.com/wiki/Special:Search?search=test",
@@ -1813,7 +1814,7 @@
       "group",
       "video"
     ],
-    "checked": 1582118159
+    "checked": 1589406966
   },
   {
     "url": "https://www.fandom.com/?s=test",
@@ -1823,25 +1824,25 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117732
+    "checked": 1589406872
   },
   {
     "url": "http://video.fc2.com/",
-    "status": "200",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "title": "無料動画共有 スマホで再生・投稿対応 - FC2動画",
     "pages": [
       "video"
     ],
-    "checked": 1582118424
+    "checked": 1589407398
   },
   {
     "url": "http://video.fc2.com/search/video/?keyword=test",
-    "status": "200",
+    "status": "\"\\xE5\" from ASCII-8BIT to UTF-8",
     "title": "test - FC2動画",
     "pages": [
       "video"
     ],
-    "checked": 1582118426
+    "checked": 1589407402
   },
   {
     "url": "https://www.filmfestivaldatabase.com/",
@@ -1851,7 +1852,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117733
+    "checked": 1589406874
   },
   {
     "url": "https://filmfreeway.com/festivals?q=test",
@@ -1861,7 +1862,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117733
+    "checked": 1589406873
   },
   {
     "url": "https://filmfreeway.com/",
@@ -1870,7 +1871,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117734
+    "checked": 1589406874
   },
   {
     "url": "https://search.findmypast.com/search/us-and-world-newspapers",
@@ -1935,7 +1936,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117740
+    "checked": 1589406875
   },
   {
     "url": "https://www.flickr.com/search/?text=test",
@@ -1955,7 +1956,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117741
+    "checked": 1589406876
   },
   {
     "url": "https://www.flipsnack.com/",
@@ -2064,7 +2065,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117753
+    "checked": 1589406877
   },
   {
     "url": "https://freevideolectures.com/search/test/",
@@ -2073,7 +2074,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117754
+    "checked": 1589406878
   },
   {
     "url": "https://fultonhistory.com/Fulton.html",
@@ -2171,7 +2172,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117760
+    "checked": 1589406879
   },
   {
     "url": "https://giphy.com/search/test",
@@ -2180,7 +2181,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117760
+    "checked": 1589406879
   },
   {
     "url": "https://github.com/",
@@ -2242,7 +2243,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117764
+    "checked": 1589406881
   },
   {
     "url": "https://globoplay.globo.com/",
@@ -2250,7 +2251,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117766
+    "checked": 1589406883
   },
   {
     "url": "https://abcnews.go.com/Video",
@@ -2259,7 +2260,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117766
+    "checked": 1589406882
   },
   {
     "url": "https://abcnews.go.com/search?r=video&searchtext=test",
@@ -2268,7 +2269,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117768
+    "checked": 1589406883
   },
   {
     "url": "https://www.goodreads.com/group/search?q=test",
@@ -2666,13 +2667,13 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20site:imsdb.com%20OR%20site:simplyscripts.com%20OR%20site:scripts.com%20OR%20site:springfieldspringfield.co.uk%20OR%20site:sfy.ru%20OR%20site:awesomefilm.com%20OR%20site:script-o-rama.com%20OR%20site:dailyscript.com%20OR%20site:thescriptlab.com/screenwriting-101/screenplay",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:imsdb.com OR site:simplyscripts.com OR site:scripts.com OR site:springfieldspringfield.co.uk OR site:sfy.ru OR site:awesomefilm.com OR site:script-o-rama.com OR site:dailyscript.com OR site:thescriptlab.com/screenwriting-101/screenplay - Google Search",
     "pages": [
       "video"
     ],
-    "checked": 1582117780
+    "checked": 1589406884
   },
   {
     "url": "https://www.google.com/search?q=test+database+OR+directory+OR+%22search+engine%22+OR+catalogue+OR+archive+OR+library+OR+warehouse+OR+repository",
@@ -2766,33 +2767,33 @@
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "video"
     ],
-    "checked": 1582117786
+    "checked": 1589406885
   },
   {
     "url": "https://www.google.com/search?tbm=vid&tbs=cc:1&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "video"
     ],
-    "checked": 1582117787
+    "checked": 1589406886
   },
   {
     "url": "https://www.google.com/search?tbm=vid&tbs=dur:l&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "video"
     ],
-    "checked": 1582117788
+    "checked": 1589406887
   },
   {
     "url": "https://www.google.com/search?tbs=li:1&q=test",
@@ -2869,7 +2870,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117792
+    "checked": 1589406887
   },
   {
     "url": "https://granthsanjeevani.com/jspui/",
@@ -2924,7 +2925,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117804
+    "checked": 1589406887
   },
   {
     "url": "https://www.hoopladigital.com/search?facets=%7B&quot;kind&quot;%3A%5B&quot;MOVIE&quot;%2C&quot;TELEVISION&quot;%5D%7D&scope=everything&type=direct&q=test",
@@ -2933,7 +2934,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117804
+    "checked": 1589406887
   },
   {
     "url": "https://www.howcast.com/",
@@ -2943,7 +2944,7 @@
       "information",
       "video"
     ],
-    "checked": 1589137319
+    "checked": 1589407546
   },
   {
     "url": "https://www.howcast.com/search?query=test",
@@ -2953,7 +2954,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117806
+    "checked": 1589406889
   },
   {
     "url": "http://www.howtodothings.com/",
@@ -3001,21 +3002,21 @@
   },
   {
     "url": "https://www.imdb.com/find?q=test",
-    "status": "307",
+    "status": "301",
     "redirect": "https://www.imdb.com/find",
     "title": "Find - IMDb",
     "pages": [
       "video"
     ],
-    "checked": 1582117807
+    "checked": 1589406889
   },
   {
     "url": "https://www.imdb.com/",
-    "status": "307",
+    "status": "301",
     "pages": [
       "video"
     ],
-    "checked": 1582117808
+    "checked": 1589406890
   },
   {
     "url": "https://imgur.com/",
@@ -3042,7 +3043,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117810
+    "checked": 1589406891
   },
   {
     "url": "https://www.imsdb.com/search.php",
@@ -3051,7 +3052,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117811
+    "checked": 1589406891
   },
   {
     "url": "https://journals.indexcopernicus.com/",
@@ -3087,25 +3088,25 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118211
+    "checked": 1589406966
   },
   {
     "url": "http://www.indiepixfilms.com/",
-    "status": "200",
+    "status": "execution expired",
     "title": "IndiePix Films | Independent Films",
     "pages": [
       "video"
     ],
-    "checked": 1582118214
+    "checked": 1589407086
   },
   {
     "url": "http://www.indiepixfilms.com/search-results?type=all&id=test",
-    "status": "200",
+    "status": "execution expired",
     "title": "search results for \"test\"",
     "pages": [
       "video"
     ],
-    "checked": 1582118212
+    "checked": 1589407026
   },
   {
     "url": "https://www.instagram.com/explore/tags/test/",
@@ -3153,21 +3154,21 @@
   },
   {
     "url": "https://so.iqiyi.com/so/q_test",
-    "status": "200",
+    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
     "title": "test_视频在线观看-爱奇艺搜索",
     "pages": [
       "video"
     ],
-    "checked": 1582118433
+    "checked": 1589407406
   },
   {
     "url": "https://www.iqiyi.com/",
-    "status": "302",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "title": "爱奇艺-在线视频网站-海量正版高清视频在线观看",
     "pages": [
       "video"
     ],
-    "checked": 1582118434
+    "checked": 1589407407
   },
   {
     "url": "https://iseek.com/#/education",
@@ -3287,7 +3288,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118222
+    "checked": 1589407088
   },
   {
     "url": "https://www.justwatch.com/ca/search?q=test",
@@ -3297,7 +3298,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118221
+    "checked": 1589407087
   },
   {
     "url": "https://www.justwatch.com/",
@@ -3306,7 +3307,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118221
+    "checked": 1589407087
   },
   {
     "url": "https://www.justwatch.com/uk/search?q=test",
@@ -3316,7 +3317,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118222
+    "checked": 1589407088
   },
   {
     "url": "https://www.justwatch.com/us/search?q=test",
@@ -3326,7 +3327,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118222
+    "checked": 1589407088
   },
   {
     "url": "https://kids-in-mind.com/",
@@ -3335,7 +3336,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118224
+    "checked": 1589407090
   },
   {
     "url": "https://kids-in-mind.com/?s=test",
@@ -3345,7 +3346,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118225
+    "checked": 1589407091
   },
   {
     "url": "https://kiwiirc.com/",
@@ -3555,7 +3556,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118239
+    "checked": 1589407091
   },
   {
     "url": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q=test",
@@ -3626,7 +3627,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118240
+    "checked": 1589407092
   },
   {
     "url": "http://www.mefeedia.com/search/test",
@@ -3635,12 +3636,12 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118240
+    "checked": 1589407092
   },
   {
     "url": "https://www.metacafe.com/",
     "status": "301",
-    "checked": 1582118395,
+    "checked": 1589407390,
     "pages": [
       "video"
     ]
@@ -3648,7 +3649,7 @@
   {
     "url": "https://www.metacafe.com/videos_about/test",
     "status": "301",
-    "checked": 1582118394,
+    "checked": 1589407390,
     "pages": [
       "video"
     ]
@@ -3660,7 +3661,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118240
+    "checked": 1589407092
   },
   {
     "url": "https://www.metacritic.com/search/movie/test/results",
@@ -3669,7 +3670,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118240
+    "checked": 1589407092
   },
   {
     "url": "http://mibbit.com/",
@@ -3801,21 +3802,23 @@
   },
   {
     "url": "https://www.moviefone.com/",
-    "status": "302",
+    "status": "301",
     "title": "Movies | Showtimes | Movie Tickets | Theaters | Moviefone",
     "pages": [
       "video"
     ],
-    "checked": 1582118247
+    "checked": 1589407094,
+    "redirect": "https://www.moviefone.com:443/"
   },
   {
     "url": "https://www.moviefone.com/search/test/",
-    "status": "302",
+    "status": "301",
     "title": "Search results for test | Moviefone",
     "pages": [
       "video"
     ],
-    "checked": 1582118248
+    "checked": 1589407094,
+    "redirect": "https://www.moviefone.com:443/search/test/"
   },
   {
     "url": "http://www.movies.com/",
@@ -3824,7 +3827,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118249
+    "checked": 1589407094
   },
   {
     "url": "http://www.movies.com/search-result?search=test",
@@ -3833,7 +3836,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118249
+    "checked": 1589407096
   },
   {
     "url": "https://moz.com/learn/seo/search-operators",
@@ -3906,7 +3909,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118253
+    "checked": 1589407096
   },
   {
     "url": "https://video.nationalgeographic.com/search?q=test",
@@ -3916,7 +3919,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118254
+    "checked": 1589407097
   },
   {
     "url": "https://search.naver.com/search.naver?query=test",
@@ -3933,7 +3936,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118256
+    "checked": 1589407099
   },
   {
     "url": "https://tv.naver.com/search?query=test",
@@ -3942,7 +3945,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118258
+    "checked": 1589407101
   },
   {
     "url": "https://www.naver.com/",
@@ -4150,7 +4153,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118272
+    "checked": 1589407101
   },
   {
     "url": "https://www.opened.com/search?resource_type=video&descriptive=test",
@@ -4160,7 +4163,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118272
+    "checked": 1589407102
   },
   {
     "url": "https://www.overdrive.com/",
@@ -4170,7 +4173,7 @@
       "listen",
       "video"
     ],
-    "checked": 1582118272
+    "checked": 1589407102
   },
   {
     "url": "https://www.overdrive.com/search?f-formatClassification=eBook&q=test",
@@ -4186,11 +4189,11 @@
     "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
     "status": "301",
     "redirect": "https://www.overdrive.com/search",
-    "title": "46 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries",
+    "title": "52 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries",
     "pages": [
       "video"
     ],
-    "checked": 1582118275
+    "checked": 1589407103
   },
   {
     "url": "https://www.oxfordreference.com/",
@@ -4265,7 +4268,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118280,
+    "checked": 1589407103,
     "redirect": "https://peteyvid.com/"
   },
   {
@@ -4275,7 +4278,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118280
+    "checked": 1589407104
   },
   {
     "url": "https://www.peteyvid.com/index.php?q=test",
@@ -4284,7 +4287,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118280
+    "checked": 1589407104
   },
   {
     "url": "https://www.pexels.com/",
@@ -4311,7 +4314,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118280
+    "checked": 1589407104
   },
   {
     "url": "https://www.pexels.com/videos/",
@@ -4320,7 +4323,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118242
+    "checked": 1589407093
   },
   {
     "url": "https://app.photobucket.com/search",
@@ -4422,7 +4425,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118285,
+    "checked": 1589407105,
     "title": "Attention Required! | Cloudflare"
   },
   {
@@ -4433,7 +4436,7 @@
       "image",
       "video"
     ],
-    "checked": 1582118285
+    "checked": 1589407104
   },
   {
     "url": "https://pixabay.com/illustrations/search/test/",
@@ -4609,7 +4612,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118300
+    "checked": 1589407107
   },
   {
     "url": "https://www.popcornflix.com/searchs?q=test",
@@ -4619,7 +4622,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118299
+    "checked": 1589407106
   },
   {
     "url": "https://www.pressreader.com/",
@@ -4890,7 +4893,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118315
+    "checked": 1589407108
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/search?restrict_sr=on&q=test",
@@ -4900,7 +4903,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118315
+    "checked": 1589407108
   },
   {
     "url": "https://www.reddit.com/r/datasets/",
@@ -4937,7 +4940,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118316
+    "checked": 1589407109
   },
   {
     "url": "https://www.reddit.com/r/lectures/search?restrict_sr=on&q=test",
@@ -4947,7 +4950,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118317
+    "checked": 1589407110
   },
   {
     "url": "https://www.reddit.com/search?q=test",
@@ -4984,7 +4987,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118318
+    "checked": 1589407110
   },
   {
     "url": "https://reelgood.com/search?q=test",
@@ -4993,7 +4996,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118318
+    "checked": 1589407111
   },
   {
     "url": "http://www.releasewire.com/newsroom/",
@@ -5049,7 +5052,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118319
+    "checked": 1589407111
   },
   {
     "url": "https://www.reuters.com/video/",
@@ -5057,7 +5060,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118320
+    "checked": 1589407112
   },
   {
     "url": "https://www.rottentomatoes.com/",
@@ -5066,17 +5069,16 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118320
+    "checked": 1589407112
   },
   {
     "url": "https://www.rottentomatoes.com/search/?search=test",
     "status": "301",
     "redirect": "https://www.rottentomatoes.com/search/",
-    "title": "Search Results - Rotten Tomatoes",
     "pages": [
       "video"
     ],
-    "checked": 1582118320
+    "checked": 1589407112
   },
   {
     "url": "http://www.rssmicro.com/",
@@ -5101,7 +5103,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118320
+    "checked": 1589407113
   },
   {
     "url": "https://rumble.com/",
@@ -5110,7 +5112,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118321
+    "checked": 1589407113
   },
   {
     "url": "https://go.scholastic.com/index.html",
@@ -5137,7 +5139,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118324
+    "checked": 1589407119
   },
   {
     "url": "https://www.schooltube.com/",
@@ -5146,7 +5148,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118325
+    "checked": 1589407120
   },
   {
     "url": "https://www.scienceresearch.com/scienceresearch/desktop/en/search.html",
@@ -5196,7 +5198,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118326
+    "checked": 1589407121
   },
   {
     "url": "https://www.scribd.com/",
@@ -5285,7 +5287,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118342
+    "checked": 1589407123
   },
   {
     "url": "https://www.simplyscripts.com/",
@@ -5294,7 +5296,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118341
+    "checked": 1589407121
   },
   {
     "url": "https://slack.com/",
@@ -5369,11 +5371,11 @@
   },
   {
     "url": "http://www.snagfilms.com/",
-    "status": "200",
+    "status": "403",
     "pages": [
       "video"
     ],
-    "checked": 1582118345
+    "checked": 1589407123
   },
   {
     "url": "https://www.snopes.com/",
@@ -5447,7 +5449,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118347,
+    "checked": 1589407124,
     "redirect": "https://www.crackle.com/"
   },
   {
@@ -5707,16 +5709,16 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118388
+    "checked": 1589407384
   },
   {
     "url": "https://www.teachertube.com/",
     "status": "301",
-    "title": "TeacherTube Educational Videos for the Classroom",
+    "title": "TeacherTube Educational Videos for the Classroom and Home",
     "pages": [
       "video"
     ],
-    "checked": 1582118388
+    "checked": 1589407382
   },
   {
     "url": "https://www.teachertube.com/search?q=test",
@@ -5726,7 +5728,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118389
+    "checked": 1589407384
   },
   {
     "url": "http://pics.tech4learning.com/",
@@ -5753,7 +5755,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118390
+    "checked": 1589407384
   },
   {
     "url": "https://www.ted.com/search?cat=talks&q=test",
@@ -5763,7 +5765,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118391
+    "checked": 1589407385
   },
   {
     "url": "https://telescopefilm.com/",
@@ -5772,7 +5774,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118392
+    "checked": 1589407387
   },
   {
     "url": "https://telescopefilm.com/search.php?findfilm=test",
@@ -5782,7 +5784,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118391
+    "checked": 1589407387
   },
   {
     "url": "https://www.tellmetv.com/",
@@ -5791,7 +5793,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118393
+    "checked": 1589407389
   },
   {
     "url": "https://tenor.com/",
@@ -5799,7 +5801,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118393
+    "checked": 1589407388
   },
   {
     "url": "https://tenor.com/search/test-gifs",
@@ -5807,7 +5809,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118350
+    "checked": 1589407125
   },
   {
     "url": "https://www.theancestorhunt.com/newspaper-research-links.html",
@@ -5862,7 +5864,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118352
+    "checked": 1589407125
   },
   {
     "url": "https://www.thetvdb.com/search?l=en&q=test",
@@ -5872,7 +5874,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118352
+    "checked": 1589407126
   },
   {
     "url": "http://thoughtaudio.com/",
@@ -5890,7 +5892,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118354
+    "checked": 1589407126
   },
   {
     "url": "https://www.tiktok.com/tag/test",
@@ -5899,7 +5901,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118354
+    "checked": 1589407126
   },
   {
     "url": "https://tookapic.com/",
@@ -5927,7 +5929,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118355
+    "checked": 1589407127
   },
   {
     "url": "https://topdocumentaryfilms.com/search/?results=test",
@@ -5937,7 +5939,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118355
+    "checked": 1589407127
   },
   {
     "url": "https://www.truthorfiction.com/",
@@ -5964,7 +5966,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118363
+    "checked": 1589407128
   },
   {
     "url": "https://tubitv.com/search/test",
@@ -5972,7 +5974,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118362
+    "checked": 1589407128
   },
   {
     "url": "https://www.tumblr.com/",
@@ -6016,7 +6018,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118366
+    "checked": 1589407129
   },
   {
     "url": "https://www.tvguide.com/search/listings/?keyword=test",
@@ -6026,7 +6028,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118367
+    "checked": 1589407129
   },
   {
     "url": "http://www.tvmaze.com/",
@@ -6035,7 +6037,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118368
+    "checked": 1589407130
   },
   {
     "url": "http://www.tvmaze.com/search?q=test",
@@ -6044,7 +6046,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118368
+    "checked": 1589407131
   },
   {
     "url": "http://www.tvopedia.com/",
@@ -6053,7 +6055,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118369
+    "checked": 1589407132
   },
   {
     "url": "http://www.tvopedia.com/search.php?search=test",
@@ -6063,7 +6065,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118369
+    "checked": 1589407132
   },
   {
     "url": "http://www.tv.com/",
@@ -6072,7 +6074,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118370
+    "checked": 1589407135
   },
   {
     "url": "http://www.tv.com/search?q=test",
@@ -6082,7 +6084,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118371
+    "checked": 1589407137
   },
   {
     "url": "https://twitter.com/",
@@ -6093,7 +6095,7 @@
       "information",
       "video"
     ],
-    "checked": 1589137616
+    "checked": 1589407547
   },
   {
     "url": "https://twitter.com/search?f=image&q=test",
@@ -6113,7 +6115,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118373
+    "checked": 1589407138
   },
   {
     "url": "https://twitter.com/search?q=test",
@@ -6154,20 +6156,20 @@
   },
   {
     "url": "http://unlistedvideos.com/",
-    "status": "200",
+    "status": "Net::ReadTimeout",
     "title": "Unlisted Videos",
     "pages": [
       "video"
     ],
-    "checked": 1582118376
+    "checked": 1589407382
   },
   {
     "url": "http://unlistedvideos.com/search.php",
-    "status": "200",
+    "status": "Net::ReadTimeout",
     "pages": [
       "video"
     ],
-    "checked": 1582118375
+    "checked": 1589407258
   },
   {
     "url": "https://unsplash.com/",
@@ -6193,7 +6195,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117813
+    "checked": 1589406892
   },
   {
     "url": "https://www.veoh.com/",
@@ -6203,7 +6205,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117815
+    "checked": 1589406893
   },
   {
     "url": "https://www.viki.com/",
@@ -6212,7 +6214,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117815
+    "checked": 1589406893
   },
   {
     "url": "https://www.viki.com/search?q=test",
@@ -6222,16 +6224,16 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117818
+    "checked": 1589406895
   },
   {
     "url": "https://vimeo.com/",
     "status": "301",
-    "title": "Vimeo | The world&rsquo;s leading professional video platform and community",
+    "title": "Vimeo | The world&rsquo;s leading professional video platform",
     "pages": [
       "video"
     ],
-    "checked": 1582117815
+    "checked": 1589406893
   },
   {
     "url": "https://vimeo.com/search?license=by-nc-nd&q=test",
@@ -6241,7 +6243,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117819
+    "checked": 1589406895
   },
   {
     "url": "https://vimeo.com/search?q=test",
@@ -6251,7 +6253,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117819
+    "checked": 1589406895
   },
   {
     "url": "https://visihow.com/Main_Page",
@@ -6340,7 +6342,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117858
+    "checked": 1589406896
   },
   {
     "url": "https://s.weibo.com/weibo/test",
@@ -6366,7 +6368,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117859
+    "checked": 1589406897
   },
   {
     "url": "http://www.whatismymovie.com/results?text=test",
@@ -6375,7 +6377,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117860
+    "checked": 1589406898
   },
   {
     "url": "http://www.wikidot.com/",
@@ -6486,7 +6488,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117864
+    "checked": 1589406899
   },
   {
     "url": "https://www.wonderhowto.com/search/test/",
@@ -6495,7 +6497,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117871
+    "checked": 1589406906
   },
   {
     "url": "https://wordpress.com/",
@@ -6531,7 +6533,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117871
+    "checked": 1589406899
   },
   {
     "url": "https://answers.yahoo.com/",
@@ -6616,7 +6618,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117874
+    "checked": 1589406906
   },
   {
     "url": "https://view.yahoo.com/search?query=test",
@@ -6626,7 +6628,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117875
+    "checked": 1589406906
   },
   {
     "url": "https://yandex.com/",
@@ -6677,11 +6679,11 @@
   {
     "url": "https://yandex.com/video/",
     "status": "302",
-    "redirect": "https://yandex.com/video/?redircnt=1582117886.1",
+    "redirect": "https://yandex.com/video/?redircnt=1589406907.1",
     "pages": [
       "video"
     ],
-    "checked": 1582117888
+    "checked": 1589406908
   },
   {
     "url": "https://www.yandex.com/search/?text=test",
@@ -6696,12 +6698,12 @@
   {
     "url": "https://www.yandex.com/video/search?text=test",
     "status": "302",
-    "redirect": "https://www.yandex.com/video/search?redircnt=1582117890.1",
+    "redirect": "https://www.yandex.com/video/search?redircnt=1589406908.1",
     "title": "Yandex.Video",
     "pages": [
       "video"
     ],
-    "checked": 1582117892
+    "checked": 1589406910
   },
   {
     "url": "https://www.yippy.com/",
@@ -6724,21 +6726,21 @@
   },
   {
     "url": "https://so.youku.com/search_video/q_test",
-    "status": "301",
+    "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
     "title": "亲，访问受限了",
     "pages": [
       "video"
     ],
-    "checked": 1582118450
+    "checked": 1589407410
   },
   {
     "url": "https://www.youku.com/",
-    "status": "301",
+    "status": "\"\\xE4\" from ASCII-8BIT to UTF-8",
     "title": "优酷 - 这世界很酷",
     "pages": [
       "video"
     ],
-    "checked": 1582118454
+    "checked": 1589407413
   },
   {
     "url": "https://www.youtube.com/feed/guide_builder",
@@ -6746,7 +6748,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117897
+    "checked": 1589406912
   },
   {
     "url": "https://www.youtube.com/",
@@ -6755,7 +6757,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117897
+    "checked": 1589406911
   },
   {
     "url": "https://www.youtube.com/live",
@@ -6763,7 +6765,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117899
+    "checked": 1589406914
   },
   {
     "url": "https://www.youtube.com/results?search_query=test",
@@ -6773,7 +6775,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117900
+    "checked": 1589406914
   },
   {
     "url": "https://www.youtube.com/results?sp=EgIQAg%253D%253D&q=test",
@@ -6783,7 +6785,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117900
+    "checked": 1589406915
   },
   {
     "url": "https://www.youtube.com/results?sp=EgIYAg%253D%253D&q=test",
@@ -6793,7 +6795,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117901
+    "checked": 1589406916
   },
   {
     "url": "https://www.youtube.com/results?sp=EgIwAQ%253D%253D&q=test",
@@ -6803,7 +6805,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117902
+    "checked": 1589406916
   },
   {
     "url": "https://www.youtube.com/results?sp=EgJAAQ%253D%253D&q=test",
@@ -6813,7 +6815,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117902
+    "checked": 1589406917
   },
   {
     "url": "https://www.yumpu.com/en/test",
@@ -7074,6 +7076,26 @@
     ]
   },
   {
+    "url": "https://www.europeana.eu/en/search?qf=MEDIA%3Atrue&qf=TYPE%3A%22VIDEO%22&query=test",
+    "status": "302",
+    "redirect": "https://www.europeana.eu/en/search",
+    "title": "Search",
+    "checked": 1589419196,
+    "pages": [
+      "video"
+    ]
+  },
+  {
+    "url": "https://www.europeana.eu/en/search?qf=MEDIA%3Atrue&qf=TYPE%3A%22VIDEO%22",
+    "status": "302",
+    "redirect": "https://www.europeana.eu/en/search",
+    "title": "Search",
+    "checked": 1589419202,
+    "pages": [
+      "video"
+    ]
+  },
+  {
     "url": "https://www.europeana.eu/en/search?query=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/en/search",
@@ -7093,32 +7115,12 @@
     ]
   },
   {
-    "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q=test",
-    "status": "302",
-    "redirect": "https://www.europeana.eu/portal/en/search",
-    "title": "test - Search Results - Europeana Collections",
-    "pages": [
-      "video"
-    ],
-    "checked": 1582117941
-  },
-  {
-    "url": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO",
-    "status": "302",
-    "redirect": "https://www.europeana.eu/portal/en/search",
-    "title": "Search Results - Europeana Collections",
-    "pages": [
-      "video"
-    ],
-    "checked": 1582117945
-  },
-  {
     "url": "http://www.filmarchives-online.eu/hitlist?Fulltext=test",
     "status": "200",
     "pages": [
       "video"
     ],
-    "checked": 1582117951
+    "checked": 1589406922
   },
   {
     "url": "http://www.filmarchives-online.eu/",
@@ -7126,7 +7128,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117953
+    "checked": 1589406923
   },
   {
     "url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest_en.html",
@@ -7241,7 +7243,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117963
+    "checked": 1589406924
   },
   {
     "url": "https://catalog.archives.gov/search?q=test",
@@ -7260,7 +7262,7 @@
       "information",
       "video"
     ],
-    "checked": 1589137404
+    "checked": 1589407547
   },
   {
     "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/test",
@@ -7361,7 +7363,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118450
+    "checked": 1589407408
   },
   {
     "url": "https://www.loc.gov/film-and-videos/?q=test",
@@ -7371,7 +7373,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118454
+    "checked": 1589407414
   },
   {
     "url": "https://www.loc.gov/",
@@ -7572,7 +7574,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117988
+    "checked": 1589406925
   },
   {
     "url": "https://getyarn.io/yarn-find?text=test",
@@ -7582,7 +7584,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117987
+    "checked": 1589406924
   },
   {
     "url": "https://anvaka.github.io/sayit/",
@@ -7619,7 +7621,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117987
+    "checked": 1589406924
   },
   {
     "url": "https://beta.grafiti.io/",
@@ -7822,7 +7824,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117995
+    "checked": 1589406926
   },
   {
     "url": "http://www.nicovideo.jp/search/test",
@@ -7830,7 +7832,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117996
+    "checked": 1589406927
   },
   {
     "url": "https://okwave.jp/",
@@ -8117,7 +8119,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118034
+    "checked": 1589406929
   },
   {
     "url": "https://www.stockvault.net/free-photos/test/",
@@ -8180,7 +8182,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118038
+    "checked": 1589406931
   },
   {
     "url": "http://videolectures.net/site/search/?q=test",
@@ -8189,7 +8191,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118058
+    "checked": 1589406951
   },
   {
     "url": "https://yacy.net/",
@@ -8362,7 +8364,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118079
+    "checked": 1589406953
   },
   {
     "url": "https://archive.org/details/movies",
@@ -8371,7 +8373,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118080
+    "checked": 1589406954
   },
   {
     "url": "https://archive.org/details/newspapers",
@@ -8408,7 +8410,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118097
+    "checked": 1589406955
   },
   {
     "url": "https://archive.org/details/radioprograms?and%5B%5D=test",
@@ -8445,7 +8447,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118107
+    "checked": 1589406959
   },
   {
     "url": "https://archive.org/details/tv?q=test",
@@ -8455,7 +8457,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582118112
+    "checked": 1589406964
   },
   {
     "url": "https://archive.org/",
@@ -8573,7 +8575,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582593
+    "checked": 1589407419
   },
   {
     "url": "https://www.c-span.org/search/?searchtype=All&query=test",
@@ -8583,7 +8585,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582594
+    "checked": 1589407420
   },
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
@@ -8627,7 +8629,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582594
+    "checked": 1589407420
   },
   {
     "url": "https://www.commonsensemedia.org/search/test",
@@ -8636,7 +8638,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582599
+    "checked": 1589407423
   },
   {
     "url": "https://cosmolearning.org/",
@@ -8645,7 +8647,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582600
+    "checked": 1589407425
   },
   {
     "url": "https://cosmolearning.org/s?cx=partner-pub-8245668095519500%3acbzrifszn1b&q=test",
@@ -8655,7 +8657,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582600
+    "checked": 1589407424
   },
   {
     "url": "https://creativecommons.org/",
@@ -8664,7 +8666,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1583582601
+    "checked": 1589407425
   },
   {
     "url": "https://ccsearch.creativecommons.org/",
@@ -8917,7 +8919,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117451
+    "checked": 1589406801
   },
   {
     "url": "http://www.homemovieregistry.org/wp/?s=test",
@@ -8925,7 +8927,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117451
+    "checked": 1589406801
   },
   {
     "url": "https://www.jstor.org/action/doBasicSearch?Query=test",
@@ -8970,7 +8972,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117452
+    "checked": 1589406802
   },
   {
     "url": "http://www.lazyscholar.org/",
@@ -9159,7 +9161,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117474
+    "checked": 1589406802
   },
   {
     "url": "https://www.pbs.org/video/",
@@ -9168,7 +9170,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117474
+    "checked": 1589406802
   },
   {
     "url": "https://ifcncodeofprinciples.poynter.org/signatories",
@@ -9250,7 +9252,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117478
+    "checked": 1589406803
   },
   {
     "url": "https://www.themoviedb.org/search?query=test",
@@ -9260,7 +9262,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117478
+    "checked": 1589406803
   },
   {
     "url": "https://certificates.theodi.org/en/datasets",
@@ -9296,7 +9298,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117491
+    "checked": 1589406803
   },
   {
     "url": "https://tvtropes.org/pmwiki/search_result.php?q=test",
@@ -9306,7 +9308,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117490
+    "checked": 1589406803
   },
   {
     "url": "https://uia.org/ybio/",
@@ -9387,16 +9389,15 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117529
+    "checked": 1589406813
   },
   {
     "url": "http://www.watchknowlearn.org/",
-    "status": "500",
+    "status": "200",
     "pages": [
       "video"
     ],
-    "checked": 1582117529,
-    "title": "Object reference not set to an instance of an object."
+    "checked": 1589406807
   },
   {
     "url": "https://www.wdl.org/en/",
@@ -9522,7 +9523,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117535
+    "checked": 1589406813
   },
   {
     "url": "https://en.wikipedia.org/wiki/Dark_web",
@@ -9638,7 +9639,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117538
+    "checked": 1589406814
   },
   {
     "url": "https://en.wikipedia.org/wiki/Regular_expression",
@@ -9971,7 +9972,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117545
+    "checked": 1589406815
   },
   {
     "url": "https://tune.pk",
@@ -9979,9 +9980,9 @@
     "pages": [
       "video"
     ],
-    "checked": 1582339381,
+    "checked": 1589407419,
     "redirect": "https://tune.pk/",
-    "title": "Tune.pk - Explore, Watch with Friends &amp; Monetize Videos - Tune.pk"
+    "title": "Tune.pk - Explore, Watch with Friends &amp; Monetize Videos "
   },
   {
     "url": "https://www.infopedia.pt/",
@@ -10155,7 +10156,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117552
+    "checked": 1589406817
   },
   {
     "url": "https://rutube.ru/search/?query=test",
@@ -10164,7 +10165,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117554
+    "checked": 1589406818
   },
   {
     "url": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query=test",
@@ -10223,7 +10224,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117556
+    "checked": 1589406821
   },
   {
     "url": "https://www.periscope.tv/search?q=test",
@@ -10231,7 +10232,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117559
+    "checked": 1589406824
   },
   {
     "url": "https://www.twitch.tv/",
@@ -10240,7 +10241,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117559
+    "checked": 1589406822
   },
   {
     "url": "https://core.ac.uk/",
@@ -10324,7 +10325,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117568
+    "checked": 1589406826
   },
   {
     "url": "https://www.bbc.co.uk/iplayer",
@@ -10333,7 +10334,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117569
+    "checked": 1589406827
   },
   {
     "url": "https://www.bbc.co.uk/search?filter=news&q=test",
@@ -10436,7 +10437,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117588
+    "checked": 1589406830
   },
   {
     "url": "https://media.nationalarchives.gov.uk/?s=test",
@@ -10446,7 +10447,7 @@
     "pages": [
       "video"
     ],
-    "checked": 1582117593
+    "checked": 1589406833
   },
   {
     "url": "https://www.nationalarchives.gov.uk/",

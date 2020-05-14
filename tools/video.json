@@ -325,7 +325,7 @@
       "tools": [
         {
           "name": "Europeana",
-          "searchUrl": "https://www.europeana.eu/portal/en/search?f%5BMEDIA%5D%5B%5D=true&f%5BTYPE%5D%5B%5D=VIDEO&q={q}"
+          "searchUrl": "https://www.europeana.eu/en/search?qf=MEDIA%3Atrue&qf=TYPE%3A%22VIDEO%22&query={q}"
         },
         {
           "name": "filmarchives — Europe",
@@ -345,7 +345,7 @@
         },
         {
           "name": "<abbr title=\"Library and Archives Canada\">Canada</abbr>",
-          "searchUrl": "http://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
+          "searchUrl": "https://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/film-video-sound-database/Pages/list.aspx?k={q}"
         },
         {
           "name": "<abbr title=\"National Film and Sound Archive of Australia\">Australia</abbr>",
