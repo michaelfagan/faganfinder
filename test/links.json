@@ -728,7 +728,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117671
+    "checked": 1589419955
   },
   {
     "url": "http://www.artcyclopedia.com/",
@@ -771,7 +771,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117673
+    "checked": 1589419956
   },
   {
     "url": "https://www.audible.com/search?keywords=test",
@@ -781,7 +781,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117674
+    "checked": 1589419957
   },
   {
     "url": "https://www.audiobooks.com/",
@@ -790,7 +790,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117675
+    "checked": 1589419958
   },
   {
     "url": "https://www.audiobooks.com/search/book/test",
@@ -799,7 +799,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117677
+    "checked": 1589419960
   },
   {
     "url": "https://search.audioburst.com/",
@@ -808,7 +808,8 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117678
+    "checked": 1589419960,
+    "redirect": "https://search.audioburst.com/error"
   },
   {
     "url": "https://search.audioburst.com/search?q=test",
@@ -818,7 +819,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117681
+    "checked": 1589419965
   },
   {
     "url": "http://www.authorstream.com/",
@@ -1360,7 +1361,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118185
+    "checked": 1589420070
   },
   {
     "url": "https://www.delphiforums.com/index.ptt?query=test",
@@ -1370,7 +1371,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118155
+    "checked": 1589420042
   },
   {
     "url": "https://groups.deviantart.com/",
@@ -1379,7 +1380,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118156
+    "checked": 1589420043
   },
   {
     "url": "http://groups.deviantart.com/?q=test",
@@ -1389,7 +1390,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118155
+    "checked": 1589420042
   },
   {
     "url": "https://dloc.com/",
@@ -1722,7 +1723,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118158
+    "checked": 1589420044
   },
   {
     "url": "https://www.facebook.com/",
@@ -1740,7 +1741,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118155
+    "checked": 1589420041
   },
   {
     "url": "https://www.facebook.com/search/photos/?q=test",
@@ -1804,7 +1805,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118158
+    "checked": 1589420045
   },
   {
     "url": "https://www.fandom.com/",
@@ -1814,7 +1815,7 @@
       "group",
       "video"
     ],
-    "checked": 1589406966
+    "checked": 1589420087
   },
   {
     "url": "https://www.fandom.com/?s=test",
@@ -1907,7 +1908,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118158
+    "checked": 1589420045
   },
   {
     "url": "https://www.flickr.com/",
@@ -1926,7 +1927,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118159
+    "checked": 1589420046
   },
   {
     "url": "https://www.flickr.com/search/?media=videos&license=2%2C3%2C4%2C5%2C6%2C9&text=test",
@@ -2279,7 +2280,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118160
+    "checked": 1589420047
   },
   {
     "url": "https://www.goodreads.com/group",
@@ -2288,7 +2289,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118165
+    "checked": 1589420051
   },
   {
     "url": "http://google.com/maps?q=test",
@@ -2404,7 +2405,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118161
+    "checked": 1589420048
   },
   {
     "url": "https://groups.google.com/forum/#!search/test",
@@ -2423,7 +2424,7 @@
       "group",
       "information"
     ],
-    "checked": 1589137551
+    "checked": 1589420086
   },
   {
     "url": "https://images.google.com/",
@@ -2467,7 +2468,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117772
+    "checked": 1589419965
   },
   {
     "url": "https://play.google.com/store/search?c=books&q=test",
@@ -2476,7 +2477,8 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117773
+    "checked": 1589419965,
+    "title": ""
   },
   {
     "url": "https://datasetsearch.research.google.com/",
@@ -2582,13 +2584,13 @@
   },
   {
     "url": "https://www.google.com/search?q=site%3Apodcasts.apple.com%20test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "site:podcasts.apple.com test - Google Search",
     "pages": [
       "listen"
     ],
-    "checked": 1582118201
+    "checked": 1589419977
   },
   {
     "url": "https://www.google.com/search?q=test%20data%20OR%20spreadsheet%20OR%20csv%20OR%20tsv%20OR%20json%20OR%20rdf%20OR%20xml",
@@ -2620,13 +2622,13 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20group%20%7C%20club%20%7C%20association%20%7C%20union%20%7C%20society%20%7C%20community%20%7C%20league%20%7C%20alliance%20%7C%20network%20%7C%20co-op",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test group | club | association | union | society | community | league | alliance | network | co-op - Google Search",
     "pages": [
       "group"
     ],
-    "checked": 1582118166
+    "checked": 1589420053
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Abusinesswire.com%20OR%20site%3Aprnewswire.com%20OR%20site%3Aglobenewswire.com%20OR%20site%3Aprweb.com%20OR%20site%3Anewswire.ca%20OR%20site%3Aeinpresswire.com%20OR%20site%3Aprnewswire.co.uk%20OR%20site%3A24-7pressrelease.com%20OR%20site%3Areleasewire.com%20OR%20site%3Arealwire.com%20OR%20site%3Aprunderground.com%20OR%20site%3Apressat.co.uk",
@@ -2648,13 +2650,13 @@
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Agroupspaces.com",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test site:groupspaces.com - Google Search",
     "pages": [
       "group"
     ],
-    "checked": 1582118165
+    "checked": 1589420052
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
@@ -2898,7 +2900,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118167
+    "checked": 1589420054
   },
   {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
@@ -2990,7 +2992,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117806
+    "checked": 1589419966
   },
   {
     "url": "https://www.iheart.com/podcast/",
@@ -2998,7 +3000,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117807
+    "checked": 1589419966
   },
   {
     "url": "https://www.imdb.com/find?q=test",
@@ -3131,7 +3133,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118218
+    "checked": 1589419978
   },
   {
     "url": "https://instantwatcher.com/podcasts/feeds?sort=popularity+desc&infinite=on&q=test",
@@ -3141,7 +3143,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118218
+    "checked": 1589419978
   },
   {
     "url": "https://www.instructables.com/",
@@ -3354,7 +3356,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118168
+    "checked": 1589420055
   },
   {
     "url": "https://kiwiirc.com/search?q=test",
@@ -3362,7 +3364,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118171
+    "checked": 1589420058
   },
   {
     "url": "https://knewz.com/",
@@ -3407,7 +3409,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118228,
+    "checked": 1589419979,
     "title": "Audiobooks | Rakuten Kobo"
   },
   {
@@ -3418,7 +3420,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118228
+    "checked": 1589419979
   },
   {
     "url": "https://kopernio.com/",
@@ -3436,7 +3438,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118231
+    "checked": 1589419983
   },
   {
     "url": "https://community.libguides.com/",
@@ -3454,7 +3456,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118168
+    "checked": 1589420055
   },
   {
     "url": "https://www.linkedin.com/",
@@ -3472,7 +3474,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118168
+    "checked": 1589420054
   },
   {
     "url": "https://www.linkedin.com/search/results/index/?keywords=test",
@@ -3490,7 +3492,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118236
+    "checked": 1589419983
   },
   {
     "url": "https://www.listennotes.com/search/?q=test",
@@ -3500,7 +3502,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118238
+    "checked": 1589419984
   },
   {
     "url": "https://www.listennotes.com/search/?scope=podcast&q=test",
@@ -3510,7 +3512,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118238
+    "checked": 1589419984
   },
   {
     "url": "https://longreads.com/",
@@ -3538,7 +3540,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118239
+    "checked": 1589419985
   },
   {
     "url": "http://www.loyalbooks.com/search?q=test",
@@ -3547,7 +3549,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118239
+    "checked": 1589419985
   },
   {
     "url": "https://www.makeuseof.com/tag/capture-streaming-video-website-5-tools/",
@@ -3609,7 +3611,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118172
+    "checked": 1589420058
   },
   {
     "url": "https://www.meetup.com/",
@@ -3618,7 +3620,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118174
+    "checked": 1589420060
   },
   {
     "url": "http://www.mefeedia.com/",
@@ -3673,13 +3675,13 @@
     "checked": 1589407092
   },
   {
-    "url": "http://mibbit.com/",
-    "status": "200",
+    "url": "https://mibbit.com/",
+    "status": "301",
     "title": "Mibbit.com - Easy and fast Webchat in your browser",
+    "checked": 1589544404,
     "pages": [
       "group"
-    ],
-    "checked": 1582118171
+    ]
   },
   {
     "url": "https://search.mibbit.com/search/test",
@@ -3688,7 +3690,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118176
+    "checked": 1589420064
   },
   {
     "url": "https://academic.microsoft.com/home",
@@ -3761,7 +3763,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118243
+    "checked": 1589419986
   },
   {
     "url": "https://www.mojeek.com/",
@@ -3878,11 +3880,11 @@
   {
     "url": "https://mytuner-radio.com/",
     "status": "301",
-    "title": "myTuner Radio: Free Internet Radio | Listen to Podcasts Online",
+    "title": "Free Internet Radio &amp; Podcasts - Listen Online | myTuner Radio",
     "pages": [
       "listen"
     ],
-    "checked": 1582118251
+    "checked": 1589419987
   },
   {
     "url": "https://mytuner-radio.com/podcasts/",
@@ -3890,7 +3892,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118250
+    "checked": 1589419986
   },
   {
     "url": "https://mytuner-radio.com/search/?q=test",
@@ -3900,7 +3902,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118253
+    "checked": 1589419988
   },
   {
     "url": "https://video.nationalgeographic.com/",
@@ -4044,7 +4046,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118173
+    "checked": 1589420059
   },
   {
     "url": "https://www.nytimes.com/",
@@ -4097,16 +4099,16 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118268
+    "checked": 1589419989
   },
   {
     "url": "https://onlineradiobox.com/",
-    "status": "200",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "title": "Free online radio stations – listen for free at OnlineRadioBox.com",
     "pages": [
       "listen"
     ],
-    "checked": 1582118438
+    "checked": 1589420025
   },
   {
     "url": "https://onlineradiobox.com/search?q=test",
@@ -4115,7 +4117,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118269
+    "checked": 1589419990
   },
   {
     "url": "http://www.openculture.com/freeaudiobooks",
@@ -4124,7 +4126,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118269
+    "checked": 1589419989
   },
   {
     "url": "https://data.opendatasoft.com/explore/?q=test",
@@ -4173,17 +4175,17 @@
       "listen",
       "video"
     ],
-    "checked": 1589407102
+    "checked": 1589420027
   },
   {
     "url": "https://www.overdrive.com/search?f-formatClassification=eBook&q=test",
     "status": "301",
     "redirect": "https://www.overdrive.com/search",
-    "title": "10,859 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries",
+    "title": "11,116 results for test &middot; OverDrive (Rakuten OverDrive): eBooks, audiobooks and videos for libraries",
     "pages": [
       "listen"
     ],
-    "checked": 1582118274
+    "checked": 1589419992
   },
   {
     "url": "https://www.overdrive.com/search?f-formats.formatName=Streaming%20Video&q=test",
@@ -4221,7 +4223,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118275
+    "checked": 1589419992
   },
   {
     "url": "https://www.pdfdrive.com/",
@@ -4492,39 +4494,40 @@
   },
   {
     "url": "https://www.podbean.com/all",
-    "status": "200",
+    "status": "301",
     "title": "The Podcast Directory | Popular Podcasts | All Podcasts",
     "pages": [
       "listen"
     ],
-    "checked": 1582118286
+    "checked": 1589419993
   },
   {
     "url": "https://www.podbean.com/site/Search/index?v=test",
-    "status": "200",
+    "status": "301",
     "title": "Search | Podbean",
     "pages": [
       "listen"
     ],
-    "checked": 1582118287
+    "checked": 1589419993,
+    "redirect": "https://www.podbean.com/site/Search/index"
   },
   {
     "url": "https://www.podbean.com/site/search/episodes/v/test",
-    "status": "200",
+    "status": "301",
     "title": "Search | Podbean",
     "pages": [
       "listen"
     ],
-    "checked": 1582118288
+    "checked": 1589419994
   },
   {
     "url": "https://www.podbean.com/site/search/podcasts/v/test",
-    "status": "200",
+    "status": "301",
     "title": "Search | Podbean",
     "pages": [
       "listen"
     ],
-    "checked": 1582118289
+    "checked": 1589419994
   },
   {
     "url": "https://www.podcasts.com/",
@@ -4533,7 +4536,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118291
+    "checked": 1589419996
   },
   {
     "url": "https://www.podcasts.com/search?q=test",
@@ -4543,7 +4546,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118294
+    "checked": 1589419996
   },
   {
     "url": "https://www.podchaser.com/",
@@ -4551,7 +4554,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118294
+    "checked": 1589419998
   },
   {
     "url": "https://www.podchaser.com/search/episodes/q/test",
@@ -4559,7 +4562,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118297
+    "checked": 1589420000
   },
   {
     "url": "https://www.podchaser.com/search/podcasts/q/test",
@@ -4567,7 +4570,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118298
+    "checked": 1589420001
   },
   {
     "url": "https://podsearch.com/",
@@ -4575,7 +4578,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118732
+    "checked": 1589420025
   },
   {
     "url": "https://podsearch.com/search?keyword=test",
@@ -4584,7 +4587,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118711
+    "checked": 1589420025
   },
   {
     "url": "https://www.politifact.com/",
@@ -4695,7 +4698,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118177
+    "checked": 1589420064
   },
   {
     "url": "https://www.proboards.com/forum-directory",
@@ -4704,7 +4707,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118178
+    "checked": 1589420065
   },
   {
     "url": "https://www.proquest.com/",
@@ -4749,7 +4752,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118176
+    "checked": 1589420064
   },
   {
     "url": "https://www.psychologytoday.com/us/groups",
@@ -4758,7 +4761,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118179
+    "checked": 1589420066
   },
   {
     "url": "https://www.publitas.com/",
@@ -4802,7 +4805,7 @@
       "group",
       "information"
     ],
-    "checked": 1589137550
+    "checked": 1589420085
   },
   {
     "url": "https://www.quora.com/search?q=test",
@@ -4820,7 +4823,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118179
+    "checked": 1589420066
   },
   {
     "url": "https://help.qwant.com/help/qwant-search/searching/refine-search-with-operators/",
@@ -4857,7 +4860,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118314
+    "checked": 1589420002
   },
   {
     "url": "https://www.rbdigital.com/service/rbdigital",
@@ -4865,7 +4868,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118314
+    "checked": 1589420002
   },
   {
     "url": "https://www.realwire.com/archive.asp",
@@ -4884,7 +4887,7 @@
       "group",
       "information"
     ],
-    "checked": 1589137553
+    "checked": 1589420087
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/",
@@ -4970,7 +4973,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118180
+    "checked": 1589420066
   },
   {
     "url": "https://www.reddit.com/wiki/search",
@@ -5181,7 +5184,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118181
+    "checked": 1589420067
   },
   {
     "url": "https://www.scoutzen.com/twitter-lists/search?q=test",
@@ -5190,7 +5193,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118181
+    "checked": 1589420067
   },
   {
     "url": "http://screenit.com/",
@@ -5227,7 +5230,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118328
+    "checked": 1589420003
   },
   {
     "url": "https://scribl.com/",
@@ -5236,7 +5239,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118329
+    "checked": 1589420004
   },
   {
     "url": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q=test",
@@ -5252,7 +5255,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118339
+    "checked": 1589420014
   },
   {
     "url": "https://directory.shoutcast.com/",
@@ -5260,7 +5263,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118340
+    "checked": 1589420015
   },
   {
     "url": "https://www.shutterstock.com/",
@@ -5300,11 +5303,11 @@
   },
   {
     "url": "https://slack.com/",
-    "status": "302",
+    "status": "301",
     "pages": [
       "group"
     ],
-    "checked": 1582118181
+    "checked": 1589420066
   },
   {
     "url": "https://slides.com/explore",
@@ -5330,7 +5333,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118182
+    "checked": 1589420068
   },
   {
     "url": "https://slofile.com/slack?q=test",
@@ -5340,7 +5343,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118183
+    "checked": 1589420069
   },
   {
     "url": "http://smalltownpapers.com/",
@@ -5368,14 +5371,6 @@
       "image"
     ],
     "checked": 1582118343
-  },
-  {
-    "url": "http://www.snagfilms.com/",
-    "status": "403",
-    "pages": [
-      "video"
-    ],
-    "checked": 1589407123
   },
   {
     "url": "https://www.snopes.com/",
@@ -5497,25 +5492,25 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118347
+    "checked": 1589420015
   },
   {
     "url": "https://open.spotify.com/search/test/episodes",
     "status": "301",
-    "title": "Redirecting to /",
+    "title": "Whoops!",
     "pages": [
       "listen"
     ],
-    "checked": 1582118348
+    "checked": 1589420016
   },
   {
-    "url": "https://open.spotify.com/search/test/podcasts",
+    "url": "https://open.spotify.com/search/test/shows",
     "status": "301",
-    "title": "Redirecting to /",
+    "title": "Whoops!",
+    "checked": 1589544401,
     "pages": [
       "listen"
-    ],
-    "checked": 1582118347
+    ]
   },
   {
     "url": "https://www.spreaker.com/explore",
@@ -5524,7 +5519,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118376
+    "checked": 1589420020
   },
   {
     "url": "https://www.spreaker.com/search/show?query=test",
@@ -5534,7 +5529,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118377
+    "checked": 1589420020
   },
   {
     "url": "https://www.spreaker.com/search?query=test",
@@ -5544,7 +5539,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118377
+    "checked": 1589420021
   },
   {
     "url": "https://stackexchange.com/",
@@ -5607,7 +5602,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118380
+    "checked": 1589420021
   },
   {
     "url": "https://www.stitcher.com/search?q=test",
@@ -5617,7 +5612,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118380
+    "checked": 1589420021
   },
   {
     "url": "https://www.stockio.com/free-icons/?q=test",
@@ -5653,7 +5648,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118382
+    "checked": 1589420022
   },
   {
     "url": "https://www.storynory.com/?s=test",
@@ -5663,7 +5658,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118384
+    "checked": 1589420024
   },
   {
     "url": "https://streema.com/",
@@ -5671,7 +5666,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118383
+    "checked": 1589420023
   },
   {
     "url": "https://streema.com/radios/search/?q=test",
@@ -5680,13 +5675,13 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118349
+    "checked": 1589420017
   },
   {
     "url": "https://www.supportgroups.com/online",
     "status": "301",
     "title": "All Support Groups | Support Groups",
-    "checked": 1582118209,
+    "checked": 1589420084,
     "pages": [
       "group"
     ]
@@ -5883,7 +5878,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118353
+    "checked": 1589420018
   },
   {
     "url": "https://www.tiktok.com/",
@@ -6000,7 +5995,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118365
+    "checked": 1589420019
   },
   {
     "url": "https://tunein.com/search/?query=test",
@@ -6009,7 +6004,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118365
+    "checked": 1589420019
   },
   {
     "url": "https://www.tvguide.com/listings/",
@@ -6552,7 +6547,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118183
+    "checked": 1589420068
   },
   {
     "url": "https://groups.yahoo.com/neo",
@@ -6561,7 +6556,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118184
+    "checked": 1589420070
   },
   {
     "url": "https://news.yahoo.com/",
@@ -6907,13 +6902,13 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118187
+    "checked": 1589420072
   },
   {
     "url": "https://netsplit.de/channels/",
     "status": "301",
     "title": "IRC Chat Rooms - Search",
-    "checked": 1582118210,
+    "checked": 1589420085,
     "pages": [
       "group"
     ]
@@ -6988,7 +6983,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117920
+    "checked": 1589419967
   },
   {
     "url": "https://etc.usf.edu/lit2go/search/?q=test",
@@ -6998,7 +6993,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117922
+    "checked": 1589419968
   },
   {
     "url": "https://imagebase.lib.vt.edu/",
@@ -7229,12 +7224,12 @@
   },
   {
     "url": "https://radio.garden/",
-    "status": "200",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "title": "Radio Garden",
     "pages": [
       "listen"
     ],
-    "checked": 1582117963
+    "checked": 1589419968
   },
   {
     "url": "https://catalog.archives.gov/search?f.materialsType=movingimages&q=test",
@@ -7529,7 +7524,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117985
+    "checked": 1589419969
   },
   {
     "url": "http://www.radio-browser.info/",
@@ -7538,7 +7533,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117986
+    "checked": 1589419969
   },
   {
     "url": "http://search.nic.in/Search?type=basicSearch&searchKeyword=test",
@@ -7593,7 +7588,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118187
+    "checked": 1589420070
   },
   {
     "url": "https://anvaka.github.io/sayit/?query=test",
@@ -7603,7 +7598,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118187
+    "checked": 1589420072
   },
   {
     "url": "https://asciimoo.github.io/searx/",
@@ -7649,7 +7644,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118188
+    "checked": 1589420073
   },
   {
     "url": "https://groups.io/search?q=test",
@@ -7659,7 +7654,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118189
+    "checked": 1589420074
   },
   {
     "url": "https://share.osf.io/discover?q=test",
@@ -8298,7 +8293,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118069
+    "checked": 1589419970
   },
   {
     "url": "https://archive.org/details/audio_bookspoetry",
@@ -8307,7 +8302,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118070
+    "checked": 1589419971
   },
   {
     "url": "https://archive.org/details/audio?and%5B%5D=test",
@@ -8317,7 +8312,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118074
+    "checked": 1589419972
   },
   {
     "url": "https://archive.org/details/audio",
@@ -8326,7 +8321,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118075
+    "checked": 1589419973
   },
   {
     "url": "https://archive.org/details/image?and%5B%5D=test",
@@ -8392,7 +8387,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118095
+    "checked": 1589419974
   },
   {
     "url": "https://archive.org/details/podcasts",
@@ -8401,7 +8396,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118096
+    "checked": 1589419975
   },
   {
     "url": "https://archive.org/details/prelinger&tab=about",
@@ -8420,7 +8415,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118098
+    "checked": 1589419976
   },
   {
     "url": "https://archive.org/details/radioprograms",
@@ -8429,7 +8424,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582118099
+    "checked": 1589419976
   },
   {
     "url": "https://archive.org/details/texts",
@@ -8593,16 +8588,16 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118188
+    "checked": 1589420073
   },
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword=test",
-    "status": "Connection reset by peer - SSL_connect",
+    "status": "301",
     "redirect": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx",
     "pages": [
       "group"
     ],
-    "checked": 1582118189
+    "checked": 1589420075
   },
   {
     "url": "https://www.cjr.org/the_profile/tom-tryniski-fultonhistory.php",
@@ -8752,7 +8747,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118190
+    "checked": 1589420075
   },
   {
     "url": "https://www.dailystrength.org/search?type=group&query=test",
@@ -8762,7 +8757,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118190
+    "checked": 1589420076
   },
   {
     "url": "https://search.datacite.org/",
@@ -8883,7 +8878,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1583582857
+    "checked": 1589420026
   },
   {
     "url": "http://www.gutenberg.org/",
@@ -9007,7 +9002,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117454
+    "checked": 1589419953
   },
   {
     "url": "https://librivox.org/search?q=test",
@@ -9017,7 +9012,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117453
+    "checked": 1589419951
   },
   {
     "url": "https://longform.org/",
@@ -9235,7 +9230,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118193
+    "checked": 1589420078
   },
   {
     "url": "https://www.taforum.org/trade-associations/?trade=test",
@@ -9243,7 +9238,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118195
+    "checked": 1589420080
   },
   {
     "url": "https://www.themoviedb.org/",
@@ -9317,7 +9312,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118197
+    "checked": 1589420081
   },
   {
     "url": "https://uia.org/ybio?name=test",
@@ -9327,7 +9322,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118200
+    "checked": 1589420083
   },
   {
     "url": "https://search.archives.un.org/",
@@ -9541,7 +9536,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118195
+    "checked": 1589420078
   },
   {
     "url": "https://en.wikipedia.org/wiki/List_of_encyclopedias_by_language",
@@ -9666,7 +9661,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1582118152
+    "checked": 1589420041
   },
   {
     "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives",
@@ -9965,14 +9960,14 @@
     "checked": 1589137196
   },
   {
-    "url": "https://tune.pk/search_result.php?query=test",
+    "url": "https://tune.pk/search?query=test",
     "status": "301",
-    "redirect": "https://tune.pk/search_result.php",
-    "title": "301 Moved Permanently",
+    "redirect": "https://tune.pk/search",
+    "title": "Watch ( test ) | Tune.pk ",
+    "checked": 1589544404,
     "pages": [
       "video"
-    ],
-    "checked": 1589406815
+    ]
   },
   {
     "url": "https://tune.pk",
@@ -10353,7 +10348,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117574
+    "checked": 1589419954
   },
   {
     "url": "https://www.bookbeat.co.uk/search?q=test",
@@ -10363,7 +10358,7 @@
     "pages": [
       "listen"
     ],
-    "checked": 1582117576
+    "checked": 1589419955
   },
   {
     "url": "https://www.britishnewspaperarchive.co.uk/",

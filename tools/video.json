@@ -126,7 +126,7 @@
         },
         {
           "name": "Tune.pk — Pakistan",
-          "searchUrl": "https://tune.pk/search_result.php?query={q}"
+          "searchUrl": "https://tune.pk/search?query={q}"
         },
         {
           "name": "Niconico — Japan",

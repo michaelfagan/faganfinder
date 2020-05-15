@@ -352,7 +352,6 @@ SlideShare
 Slofile
 SmallTownPapers
 SmugMug
-SnagFilms
 Snopes
 Sogou
 Spotify

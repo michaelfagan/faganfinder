@@ -56,7 +56,7 @@
         },
         {
           "name": "Spotify",
-          "searchUrl": "https://open.spotify.com/search/{q}/podcasts"
+          "searchUrl": "https://open.spotify.com/search/{q}/shows"
         },
         {
           "name": "Podbean",
