@@ -6607,25 +6607,6 @@
     "checked": 1589137371
   },
   {
-    "url": "https://view.yahoo.com/",
-    "status": "301",
-    "title": "Yahoo View",
-    "pages": [
-      "video"
-    ],
-    "checked": 1589406906
-  },
-  {
-    "url": "https://view.yahoo.com/search?query=test",
-    "status": "301",
-    "redirect": "https://view.yahoo.com/search",
-    "title": "Yahoo View",
-    "pages": [
-      "video"
-    ],
-    "checked": 1589406906
-  },
-  {
     "url": "https://yandex.com/",
     "status": "302",
     "title": "Yandex",

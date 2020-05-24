@@ -160,10 +160,6 @@
         {
           "name": "Popcornflix",
           "searchUrl": "https://www.popcornflix.com/searchs?q={q}"
-        },
-        {
-          "name": "Yahoo! View (Hulu)",
-          "searchUrl": "https://view.yahoo.com/search?query={q}"
         }
       ]
     },
