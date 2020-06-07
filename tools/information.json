@@ -493,6 +493,10 @@
           "searchUrl": "https://en.wikisource.org/w/index.php?title=Special%3ASearch&search={q}"
         },
         {
+          "name": "Z-Library books",
+          "searchUrl": "https://b-ok.cc/fulltext/{q}/?type=words"
+        },
+        {
           "name": "<abbr title=\"Archive of Our Own\">AO3</abbr>",
           "searchUrl": "https://archiveofourown.org/works/search?work_search%5Bquery%5D={q}"
         }

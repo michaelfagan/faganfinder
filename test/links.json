@@ -368,6 +368,16 @@
     ]
   },
   {
+    "url": "https://b-ok.cc/fulltext/test/?type=words",
+    "status": "301",
+    "redirect": "https://b-ok.cc/fulltext/test/",
+    "title": "FullText search",
+    "checked": 1591320339,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.etools.ch/",
     "status": "301",
     "title": "eTools.ch - The Transparent Metasearch Engine from Switzerland",
@@ -6093,6 +6103,14 @@
     "checked": 1589407547
   },
   {
+    "url": "https://twitter.com/search-advanced",
+    "status": "301",
+    "checked": 1591320339,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://twitter.com/search?f=image&q=test",
     "status": "301",
     "redirect": "https://twitter.com/search",
@@ -6993,6 +7011,14 @@
       "image"
     ],
     "checked": 1582117923
+  },
+  {
+    "url": "http://www.darelkotob.gov.eg/ar-eg/Pages/Home.aspx",
+    "status": "200",
+    "checked": 1591498244,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://primary-sources.eui.eu/",
@@ -8545,6 +8571,14 @@
     "checked": 1589137542
   },
   {
+    "url": "http://dar.bibalex.org/webpages/dar.jsf",
+    "status": "200",
+    "checked": 1591498250,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.c-span.org/about/videoLibrary/",
     "status": "301",
     "title": "Video Library | C-SPAN.org",
@@ -9917,6 +9951,15 @@
     "status": "302",
     "title": "WorldWideScience",
     "checked": 1589138642,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://z-lib.org/",
+    "status": "301",
+    "title": "Z-Library. The world's largest ebook library.",
+    "checked": 1591320340,
     "pages": [
       "information"
     ]
