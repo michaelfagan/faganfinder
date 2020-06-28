@@ -741,6 +741,49 @@
     "checked": 1589419955
   },
   {
+    "url": "http://hub.arcgis.com/",
+    "status": "200",
+    "title": "ArcGIS Hub",
+    "checked": 1593359885,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://hub.arcgis.com/search?q=test",
+    "status": "200",
+    "title": "ArcGIS Hub",
+    "checked": 1593359881,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.arcgis.com/home/search.html",
+    "status": "200",
+    "checked": 1593359885,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.arcgis.com/home/search.html?q=test",
+    "status": "200",
+    "checked": 1593359881,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.arcgis.com/home/webmap/viewer.html",
+    "status": "200",
+    "title": "",
+    "checked": 1593354795,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "http://www.artcyclopedia.com/",
     "status": "200",
     "pages": [
@@ -2436,6 +2479,24 @@
     ]
   },
   {
+    "url": "https://earth.google.com/web/",
+    "status": "200",
+    "title": "Google Earth",
+    "checked": 1593373477,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://earth.google.com/web/search/test",
+    "status": "200",
+    "title": "Google Earth",
+    "checked": 1593373474,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://groups.google.com/forum/#!forumsearch/test",
     "status": "200",
     "title": "Google Groups",
@@ -2598,6 +2659,14 @@
     "checked": 1589137802,
     "pages": [
       "information"
+    ]
+  },
+  {
+    "url": "https://www.google.com/earth/",
+    "status": "200",
+    "checked": 1593373474,
+    "pages": [
+      "place"
     ]
   },
   {
@@ -3494,6 +3563,24 @@
       "listen"
     ],
     "checked": 1589419979
+  },
+  {
+    "url": "https://koordinates.com/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1593359888,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://koordinates.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://koordinates.com/search/",
+    "title": "Search results for &#39;test&#39; | GIS Map Data | Koordinates",
+    "checked": 1593359885,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://kopernio.com/",
@@ -7051,6 +7138,15 @@
     "checked": 1591990888
   },
   {
+    "url": "https://worldwind.earth/explorer/",
+    "status": "200",
+    "title": "WorldWind Explorer",
+    "checked": 1593380479,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.academia.edu/",
     "status": "301",
     "title": "Academia.edu - Share research",
@@ -7066,6 +7162,23 @@
     "checked": 1589138893,
     "pages": [
       "information"
+    ]
+  },
+  {
+    "url": "http://www.getty.edu/research/tools/vocabularies/tgn/",
+    "status": "200",
+    "checked": 1593381418,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "http://www.getty.edu/vow/TGNServlet?english=Y&place=&page=1&nation=&find=test",
+    "status": "302",
+    "redirect": "http://www.getty.edu/research/tools/vocabularies/tgn/",
+    "checked": 1593381418,
+    "pages": [
+      "place"
     ]
   },
   {
@@ -7540,6 +7653,15 @@
       "information"
     ],
     "checked": 1589137678
+  },
+  {
+    "url": "https://worldwind.arc.nasa.gov/",
+    "status": "301",
+    "title": "NASA WorldWind",
+    "checked": 1593380479,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://images.nasa.gov/",
@@ -8971,6 +9093,23 @@
     "checked": 1589137556
   },
   {
+    "url": "https://www.familysearch.org/research/places/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1593360179,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.familysearch.org/research/places/?text=test",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.familysearch.org/research/places/",
+    "checked": 1593360179,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://fultonsearch.org/",
     "status": "301",
     "title": "Fulton Search",
@@ -8997,6 +9136,24 @@
       "information"
     ],
     "checked": 1589137558
+  },
+  {
+    "url": "https://www.geonames.org/",
+    "status": "200",
+    "title": "GeoNames",
+    "checked": 1593380480,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.geonames.org/search.html?q=test",
+    "status": "200",
+    "title": "GeoNames Fulltextsearch : test",
+    "checked": 1593380479,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://www.gutenberg.org/browse/categories/1",
@@ -9370,6 +9527,15 @@
     "checked": 1589138634,
     "pages": [
       "information"
+    ]
+  },
+  {
+    "url": "https://pleiades.stoa.org/",
+    "status": "301",
+    "title": "pleiades.stoa.org",
+    "checked": 1593380480,
+    "pages": [
+      "place"
     ]
   },
   {

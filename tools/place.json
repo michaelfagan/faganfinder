@@ -13,6 +13,10 @@
           "searchUrl": "https://www.google.com/maps/search/{q}"
         },
         {
+          "name": "Google Earth",
+          "searchUrl": "https://earth.google.com/web/search/{q}"
+        },
+        {
           "name": "Bing Maps",
           "searchUrl": "https://www.bing.com/maps?q={q}"
         },
@@ -39,6 +43,45 @@
         {
           "name": "Baidu Maps — Chinese",
           "searchUrl": "https://map.baidu.com/search/?querytype=s&wd={q}"
+        }
+      ]
+    },
+    {
+      "name": "Layers and more",
+      "tools": [
+        {
+          "name": "ArcGIS",
+          "searchUrl": "https://www.arcgis.com/home/search.html?q={q}"
+        },
+        {
+          "name": "ArcGIS Hub",
+          "searchUrl": "https://hub.arcgis.com/search?q={q}"
+        },
+        {
+          "name": "Koordinates",
+          "searchUrl": "https://koordinates.com/search/?q={q}"
+        }
+      ]
+    },
+    {
+      "name": "Places",
+      "tools": [
+        {
+          "name": "GeoNames",
+          "searchUrl": "https://www.geonames.org/search.html?q={q}"
+        },
+        {
+          "name": "Getty Thesaurus",
+          "searchUrl": "http://www.getty.edu/vow/TGNServlet?english=Y&place=&page=1&nation=&find={q}"
+        }
+      ]
+    },
+    {
+      "name": "Historical places",
+      "tools": [
+        {
+          "name": "FamilySearch",
+          "searchUrl": "https://www.familysearch.org/research/places/?text={q}"
         }
       ]
     }

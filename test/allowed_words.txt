@@ -27,6 +27,7 @@ Answers.com
 AO3
 AODL
 Aparat
+ArcGIS
 ArchiveGrid
 ARCHIVESCANADA.ca
 Asean
@@ -126,6 +127,7 @@ Everypixel
 Exalead
 Fagan
 faganfinder.com
+FamilySearch
 Fandom
 FC2
 filmarchives
@@ -146,6 +148,7 @@ Fultonhistory.com
 FultonSearch
 Gallica
 GDELT
+GeoNames
 GIFs
 Gigablast
 Giphy
@@ -206,6 +209,7 @@ Karlsruhe
 Knewz
 Knoema
 Kobo
+Koordinates
 Kopernio
 Kotobank
 LibGuides
@@ -426,6 +430,7 @@ Wordpress.com
 wordpress.com
 WorldCat
 WorldWideScience
+WorldWind
 wwiTV
 YaCy
 Yandex.Maps
