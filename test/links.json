@@ -1010,6 +1010,25 @@
     "checked": 1591920891
   },
   {
+    "url": "https://www.bing.com/maps",
+    "status": "301",
+    "title": "Object moved",
+    "checked": 1593308044,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.bing.com/maps?q=test",
+    "status": "301",
+    "redirect": "https://www.bing.com/maps",
+    "title": "Object moved",
+    "checked": 1593308044,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.bing.com/news/search?q=test",
     "status": "200",
     "title": "test - Bing News",
@@ -1518,9 +1537,20 @@
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "title": "DuckDuckGo — Privacy, simplified.",
     "pages": [
-      "information"
+      "information",
+      "place"
     ],
     "checked": 1589137649
+  },
+  {
+    "url": "https://duckduckgo.com/?iaxm=maps&q=test",
+    "status": "301",
+    "redirect": "https://duckduckgo.com/",
+    "title": "test at DuckDuckGo",
+    "checked": 1593310053,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://duckduckgo.com/?q=test",
@@ -2562,6 +2592,24 @@
       "information"
     ],
     "checked": 1592229042
+  },
+  {
+    "url": "https://www.google.com/maps/",
+    "status": "200",
+    "title": "  Google Maps  ",
+    "checked": 1593307728,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.google.com/maps/search/test",
+    "status": "200",
+    "title": "  Google Maps  ",
+    "checked": 1593307727,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://www.google.com/maps",
@@ -9128,6 +9176,25 @@
       "information"
     ],
     "checked": 1591964844
+  },
+  {
+    "url": "https://www.openstreetmap.org/",
+    "status": "301",
+    "title": "OpenStreetMap",
+    "checked": 1593309470,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.openstreetmap.org/search?query=test",
+    "status": "301",
+    "redirect": "https://www.openstreetmap.org/search",
+    "title": "test | OpenStreetMap",
+    "checked": 1593309469,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://paperity.org/",

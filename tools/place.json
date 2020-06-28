@@ -1,0 +1,30 @@
+{
+  "description": {
+    "internal": "maps and information about places",
+    "external": "Find information about any place. Maps and more. Google, Bing, OpenStreetMap, and more."
+  },
+  "path": "places/",
+  "sections": [
+    {
+      "name": "General maps",
+      "tools": [
+        {
+          "name": "Google Maps",
+          "searchUrl": "https://www.google.com/maps/search/{q}"
+        },
+        {
+          "name": "Bing Maps",
+          "searchUrl": "https://www.bing.com/maps?q={q}"
+        },
+        {
+          "name": "OpenStreetMap",
+          "searchUrl": "https://www.openstreetmap.org/search?query={q}"
+        },
+        {
+          "name": "DuckDuckGo (Apple)",
+          "searchUrl": "https://duckduckgo.com/?iaxm=maps&q={q}"
+        }
+      ]
+    }
+  ]
+}

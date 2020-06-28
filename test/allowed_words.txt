@@ -270,6 +270,7 @@ OnlineNewspapers.com
 OpenDataSoft
 OpenDocument
 OpenEd
+OpenStreetMap
 orgs
 Oshiete
 Osmikon
