@@ -218,6 +218,7 @@ Longreads
 Luso
 M.S
 Mail.ru
+MapQuest
 Mawdoo3
 Meetup
 meetups
@@ -235,6 +236,7 @@ Mojeek
 Morguefile
 Moviefone
 Movies.com
+MyDrive
 MyHeritage
 MyScienceWork
 myTuner
@@ -379,6 +381,7 @@ TheTVDB.com
 ThoughtAudio
 Tieba
 TikTok
+TomTom
 Tookapic
 Tor
 tos
@@ -407,7 +410,9 @@ VisiHow
 VK
 VKontakte
 WatchKnowLearn
+Waze
 WeeklyScript
+WeGo
 Weibo
 Wikidot
 wikiHow
@@ -423,6 +428,7 @@ WorldCat
 WorldWideScience
 wwiTV
 YaCy
+Yandex.Maps
 Yandex.Q
 Yandex
 Yippy

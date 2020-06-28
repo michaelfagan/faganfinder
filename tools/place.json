@@ -23,6 +23,22 @@
         {
           "name": "DuckDuckGo (Apple)",
           "searchUrl": "https://duckduckgo.com/?iaxm=maps&q={q}"
+        },
+        {
+          "name": "HERE WeGo",
+          "searchUrl": "https://wego.here.com/search/{q}"
+        },
+        {
+          "name": "MapQuest",
+          "searchUrl": "https://mapquest.com/search/results?query={q}"
+        },
+        {
+          "name": "Yandex.Maps",
+          "searchUrl": "https://yandex.com/maps/?text={q}"
+        },
+        {
+          "name": "Baidu Maps — Chinese",
+          "searchUrl": "https://map.baidu.com/search/?querytype=s&wd={q}"
         }
       ]
     }

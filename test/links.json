@@ -866,6 +866,22 @@
     ]
   },
   {
+    "url": "https://map.baidu.com/",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "checked": 1593316394,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://map.baidu.com/search/?querytype=s&wd=test",
+    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
+    "checked": 1593316646,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "http://tieba.baidu.com/f/search/res?ie=utf-8&qw=test",
     "status": "\"\\xB0\" from ASCII-8BIT to UTF-8",
     "checked": 1589137721,
@@ -2961,6 +2977,24 @@
     "checked": 1591985593
   },
   {
+    "url": "https://wego.here.com/",
+    "status": "301",
+    "title": "HERE WeGo",
+    "checked": 1593310891,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://wego.here.com/search/test",
+    "status": "301",
+    "title": "HERE WeGo - Maps - Routes - Directions - All ways from A to B in one",
+    "checked": 1593310891,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.hoopladigital.com/",
     "status": "301",
     "pages": [
@@ -3598,6 +3632,16 @@
       "video"
     ],
     "checked": 1589407091
+  },
+  {
+    "url": "https://mapquest.com/search/results?query=test",
+    "status": "301",
+    "redirect": "https://mapquest.com/search/results",
+    "title": "test - MapQuest",
+    "checked": 1593312652,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q=test",
@@ -5939,6 +5983,15 @@
     "checked": 1589407126
   },
   {
+    "url": "https://mydrive.tomtom.com/",
+    "status": "301",
+    "title": "TomTom MyDrive",
+    "checked": 1593311685,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://tookapic.com/",
     "status": "307",
     "title": "Tookapic: Your 365 Project",
@@ -6361,6 +6414,15 @@
     "checked": 1591985636
   },
   {
+    "url": "https://www.waze.com/livemap",
+    "status": "301",
+    "title": "Free Driving Directions, Traffic Reports &amp; GPS Navigation App by Waze",
+    "checked": 1593314446,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=WEB&SrcAuth=HSB&DestApp=UA&DestLinkType=GeneralSearchSummary&btnWS=Search&topic=test",
     "status": "400",
     "checked": 1589138665,
@@ -6681,6 +6743,25 @@
       "image"
     ],
     "checked": 1591932590
+  },
+  {
+    "url": "https://yandex.com/maps/",
+    "status": "301",
+    "title": "Yandex.Maps: search for places, addresses, and public transport",
+    "checked": 1593315043,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://yandex.com/maps/?text=test",
+    "status": "301",
+    "redirect": "https://yandex.com/maps/",
+    "title": "Yandex.Maps: search for places, addresses, and public transport",
+    "checked": 1593315042,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://yandex.com/support/search/query-language/search-context.html",
