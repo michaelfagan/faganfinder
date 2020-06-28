@@ -25,6 +25,9 @@ RewriteRule ^listen/$ https://www.faganfinder.com/listen/ [R=301,L]
 RewriteCond %{HTTPS} !=on
 RewriteRule ^group/$ https://www.faganfinder.com/group/ [R=301,L]
 
+RewriteCond %{HTTPS} !=on
+RewriteRule ^places/$ https://www.faganfinder.com/places/ [R=301,L]
+
 
 # new pages
 RewriteRule ^$ information.html [L]
@@ -32,6 +35,7 @@ RewriteRule video/$ video.html [L]
 RewriteRule img/$ image.html [L]
 RewriteRule listen/$ listen.html [L]
 RewriteRule group/$ group.html [L]
+RewriteRule places/$ place.html [L]
 
 # new pages do not have changelogs
 RewriteRule (video|group|engines)/feed http://www.faganfinder.com/blog/rss.php [R=301,L]
@@ -42,6 +46,7 @@ RewriteRule ^news(|/.*)$ https://www.faganfinder.com/ [R=301,L]
 # ^ prevents newstyle.css and newscript.js from redirecting
 Redirect 301 /misc/popular.shtml https://www.faganfinder.com/
 RewriteRule google(2)?.htm(l)? https://www.faganfinder.com/ [R=301,L]
+RewriteRule ^geo.* https://www.faganfinder.com/places/ [R=301,L]
 
 
 
@@ -129,7 +134,7 @@ RewriteRule buy/(.*)?$ http://www.faganfinder.com/products/$1 [R=301,L]
 RewriteRule (buy|products)/google.shtml http://www.faganfinder.com/products/ [R=301,L]
 
 
-RewriteRule (audio|geo|bio|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
+RewriteRule (audio|bio|buy|group|med|law)/index.shtml http://www.faganfinder.com/$1/ [R=301,L]
 RewriteRule img/index_changes.shtml https://www.faganfinder.com/img/ [R=301,L]
 
 
