@@ -63,7 +63,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137219
+    "checked": 1591965111
   },
   {
     "url": "https://trove.nla.gov.au/newspaper/result?q=test",
@@ -73,7 +73,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137224
+    "checked": 1591965117
   },
   {
     "url": "https://trove.nla.gov.au/result?q=test",
@@ -83,7 +83,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137227
+    "checked": 1591965124
   },
   {
     "url": "https://iview.abc.net.au/",
@@ -135,7 +135,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137233
+    "checked": 1591965127
   },
   {
     "url": "https://bdlb.bn.gov.br/?lang=en",
@@ -144,7 +144,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137235
+    "checked": 1591965129
   },
   {
     "url": "http://bndigital.bn.gov.br/hemeroteca-digital/",
@@ -153,7 +153,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137237
+    "checked": 1591965131
   },
   {
     "url": "http://bndigital.bn.gov.br/",
@@ -162,7 +162,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137239
+    "checked": 1591965133
   },
   {
     "url": "https://www.gov.br/pt-br/@@search?SearchableText=test",
@@ -189,7 +189,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137237
+    "checked": 1591965131
   },
   {
     "url": "http://www.archivescanada.ca/",
@@ -198,7 +198,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137241
+    "checked": 1591965134
   },
   {
     "url": "https://www.canada.ca/en.html",
@@ -242,7 +242,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137241
+    "checked": 1591965135
   },
   {
     "url": "http://www.canadiana.ca/search/?q0.0=test",
@@ -251,7 +251,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137242
+    "checked": 1591983873
   },
   {
     "url": "https://gem.cbc.ca/",
@@ -268,7 +268,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137242
+    "checked": 1591965135
   },
   {
     "url": "https://www.bac-lac.gc.ca/eng/Pages/home.aspx",
@@ -384,7 +384,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137243
+    "checked": 1591983873
   },
   {
     "url": "https://www.etools.ch/searchSubmit.do?query=test",
@@ -394,16 +394,16 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137245
+    "checked": 1591983876
   },
   {
     "url": "https://swisscows.ch/",
-    "status": "301",
+    "status": "308",
     "title": "Swisscows die alternative, datensichere Suchmaschine.",
     "pages": [
       "information"
     ],
-    "checked": 1589137248
+    "checked": 1591983878
   },
   {
     "url": "http://cadal.zju.edu.cn/cadalinfo/search",
@@ -455,7 +455,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137245
+    "checked": 1591983876
   },
   {
     "url": "https://1findr.1science.com/search?query=test",
@@ -512,7 +512,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117639
+    "checked": 1591920886
   },
   {
     "url": "https://web.500px.com/",
@@ -521,7 +521,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117639
+    "checked": 1591920886
   },
   {
     "url": "http://www.abyznewslinks.com/",
@@ -530,16 +530,16 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137246
+    "checked": 1591983877
   },
   {
     "url": "https://www.accessible-archives.com/",
-    "status": "200",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Accessible Archives Inc. - Primary Source Material from 18th and 19th Century Publications",
     "pages": [
       "information"
     ],
-    "checked": 1589137249
+    "checked": 1591983878
   },
   {
     "url": "https://adage.com/creativity/search?search_phrase=test",
@@ -566,7 +566,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117642
+    "checked": 1591920887
   },
   {
     "url": "https://stock.adobe.com/search/images?filters%5Bcontent_type%3Aphoto%5D=1&k=test",
@@ -575,7 +575,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117643
+    "checked": 1591920887
   },
   {
     "url": "http://www.advantagearchives.com/preservation/preservation-resources/tip-change-the-letters-in-your-search/",
@@ -584,7 +584,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137250
+    "checked": 1591983880
   },
   {
     "url": "https://search.alexanderstreet.com/",
@@ -630,7 +630,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137250
+    "checked": 1591983879
   },
   {
     "url": "https://www.ancestry.com/search/categories/np_newspapers/?keyword=test",
@@ -640,7 +640,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137251
+    "checked": 1591983881
   },
   {
     "url": "https://www.answers.com/",
@@ -720,7 +720,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137253
+    "checked": 1591983894
   },
   {
     "url": "https://www.apple.com/ca/siri/",
@@ -729,7 +729,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137252
+    "checked": 1591983892
   },
   {
     "url": "https://www.apple.com/itunes/podcasts/discover/",
@@ -746,7 +746,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117671
+    "checked": 1591920887
   },
   {
     "url": "http://www.artcyclopedia.com/scripts/tsearch.pl?type=2&t=test",
@@ -754,7 +754,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117671
+    "checked": 1591920891
   },
   {
     "url": "https://www.asiancrush.com/?s=test",
@@ -960,7 +960,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137253
+    "checked": 1591983892
   },
   {
     "url": "http://bechdeltest.com/",
@@ -987,7 +987,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137253
+    "checked": 1591983893
   },
   {
     "url": "https://www.bing.com/images/search?q=test",
@@ -997,7 +997,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117687
+    "checked": 1591920891
   },
   {
     "url": "https://www.bing.com/images/trending",
@@ -1007,7 +1007,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117685
+    "checked": 1591920891
   },
   {
     "url": "https://www.bing.com/news/search?q=test",
@@ -1016,7 +1016,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137253
+    "checked": 1591983893
   },
   {
     "url": "https://www.bing.com/news",
@@ -1025,7 +1025,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137254
+    "checked": 1591983896
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez1%22&q=test",
@@ -1035,7 +1035,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137254
+    "checked": 1591983895
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez2%22&q=test",
@@ -1045,7 +1045,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137254
+    "checked": 1591983895
   },
   {
     "url": "http://www.bing.com/search?filters=ex1%3a%22ez3%22&q=test",
@@ -1055,7 +1055,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137255
+    "checked": 1591983896
   },
   {
     "url": "http://www.bing.com/search?q=test",
@@ -1065,7 +1065,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137255
+    "checked": 1591983898
   },
   {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
@@ -1111,7 +1111,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137256
+    "checked": 1591983899
   },
   {
     "url": "http://boardreader.com/s/test.html",
@@ -1120,7 +1120,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137256
+    "checked": 1591983899
   },
   {
     "url": "https://brainly.com/app/ask?q=test",
@@ -1130,7 +1130,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137256
+    "checked": 1591983899
   },
   {
     "url": "https://brainly.com/",
@@ -1139,7 +1139,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137256
+    "checked": 1591983899
   },
   {
     "url": "https://www.britannica.com/",
@@ -1148,7 +1148,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137254,
+    "checked": 1591983895,
     "redirect": "https://www.britannica.com:443/"
   },
   {
@@ -1159,7 +1159,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137257
+    "checked": 1591983900
   },
   {
     "url": "https://www.businesswire.com/portal/site/home/",
@@ -1182,21 +1182,21 @@
   },
   {
     "url": "https://www.canva.com/photos/free/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582117692
+    "checked": 1591920892
   },
   {
     "url": "https://www.canva.com/photos/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582117692
+    "checked": 1591920892
   },
   {
     "url": "http://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText=test",
@@ -1215,7 +1215,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137258
+    "checked": 1591983901
   },
   {
     "url": "https://checklist.com/",
@@ -1260,7 +1260,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117695
+    "checked": 1591920893
   },
   {
     "url": "https://classroomclipart.com/",
@@ -1269,7 +1269,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117694
+    "checked": 1591920892
   },
   {
     "url": "https://www.cnn.com/",
@@ -1278,7 +1278,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137259
+    "checked": 1591983902
   },
   {
     "url": "https://www.cnn.com/search?q=test",
@@ -1288,7 +1288,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137259
+    "checked": 1591983901
   },
   {
     "url": "https://coccoc.com/search",
@@ -1371,7 +1371,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420070
+    "checked": 1591920946
   },
   {
     "url": "https://www.delphiforums.com/index.ptt?query=test",
@@ -1381,7 +1381,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420042
+    "checked": 1591920916
   },
   {
     "url": "https://groups.deviantart.com/",
@@ -1390,7 +1390,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420043
+    "checked": 1591920917
   },
   {
     "url": "http://groups.deviantart.com/?q=test",
@@ -1400,7 +1400,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420042
+    "checked": 1591920917
   },
   {
     "url": "https://dloc.com/",
@@ -1409,7 +1409,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137260
+    "checked": 1591983902
   },
   {
     "url": "https://dloc.com/results/?text=test",
@@ -1419,7 +1419,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137261
+    "checked": 1591985492
   },
   {
     "url": "https://documentaryheaven.com/find/?q=test",
@@ -1492,7 +1492,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117702
+    "checked": 1591920894
   },
   {
     "url": "https://www.dreamstime.com/free-results.php?s_free=y&s_cc0=y&searchby=test",
@@ -1502,7 +1502,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117702
+    "checked": 1591920894
   },
   {
     "url": "https://duckduckgo.com/bang",
@@ -1511,7 +1511,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137262
+    "checked": 1591985493
   },
   {
     "url": "https://duckduckgo.com/",
@@ -1530,7 +1530,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137262
+    "checked": 1591985492
   },
   {
     "url": "https://help.duckduckgo.com/results/syntax/",
@@ -1539,7 +1539,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137263
+    "checked": 1591985494
   },
   {
     "url": "https://www.eastview.com/",
@@ -1548,7 +1548,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137263
+    "checked": 1591985493
   },
   {
     "url": "https://www.eastview.com/resources/resources-links/",
@@ -1557,7 +1557,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137265
+    "checked": 1591985495
   },
   {
     "url": "http://search.ebscohost.com/login.aspx?authtype=guest&custid=s6406031&profile=eds&groupid=main",
@@ -1566,7 +1566,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137264
+    "checked": 1591985494
   },
   {
     "url": "https://www.edocr.com/",
@@ -1575,7 +1575,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137262
+    "checked": 1591985493
   },
   {
     "url": "https://www.edocr.com/search?q=test",
@@ -1585,7 +1585,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137264
+    "checked": 1591985494
   },
   {
     "url": "https://www.ehow.com/",
@@ -1623,7 +1623,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137270
+    "checked": 1591985502
   },
   {
     "url": "https://elephind.com/",
@@ -1632,7 +1632,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137265
+    "checked": 1591985495
   },
   {
     "url": "https://elephind.com/?p=about",
@@ -1642,7 +1642,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137270
+    "checked": 1591985498
   },
   {
     "url": "https://www.elsevier.com/",
@@ -1660,7 +1660,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117712
+    "checked": 1591920895
   },
   {
     "url": "https://www.everypixel.com/search?stocks_type=free&media_type=0&page=1&q=test",
@@ -1670,26 +1670,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117713
-  },
-  {
-    "url": "http://www.everystockphoto.com/",
-    "status": "200",
-    "title": "everystockphoto - searching free photos",
-    "pages": [
-      "image"
-    ],
-    "checked": 1582117716
-  },
-  {
-    "url": "http://www.everystockphoto.com/search.php?initialSearch=true&perPage=20&oSort=desc&sSort=1&sLayout=1&x=0&y=0&sBool=and&sLicense%5B%5D=4&sLicense%5B%5D=6&sLicense%5B%5D=2&sLicense%5B%5D=3&sLicense%5B%5D=1&sLicense%5B%5D=5&sLicense%5B%5D=7&sLicense%5B%5D=99&multiselect_sLicense=4&multiselect_sLicense=6&multiselect_sLicense=2&multiselect_sLicense=3&multiselect_sLicense=1&multiselect_sLicense=5&multiselect_sLicense=7&multiselect_sLicense=99&restrict%5B%5D=none&restrict%5B%5D=account&restrict%5B%5D=restrict&sSource%5B%5D=1&sSource%5B%5D=5&sSource%5B%5D=4&sSource%5B%5D=2&sSource%5B%5D=8&sSource%5B%5D=11&sSource%5B%5D=3&sSource%5B%5D=7&sSource%5B%5D=6&sPortrait=on&sLandscape=on&sSquare=on&sMinW=&sMinH=&sDispRes=on&sDispLic=on&sDispSrc=on&sField=test",
-    "status": "302",
-    "redirect": "/index.php",
-    "title": "test | search results - everystockphoto - searching free photos",
-    "pages": [
-      "image"
-    ],
-    "checked": 1582117719
+    "checked": 1591920898
   },
   {
     "url": "http://www.exalead.com/search/web/",
@@ -1697,7 +1678,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137271
+    "checked": 1591985503
   },
   {
     "url": "http://www.exalead.com/search/web/results/?q=test",
@@ -1706,7 +1687,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137273
+    "checked": 1591985505
   },
   {
     "url": "https://www.exalead.com/search/web/search-syntax/",
@@ -1715,7 +1696,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137275
+    "checked": 1591985505
   },
   {
     "url": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,test",
@@ -1724,7 +1705,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137277
+    "checked": 1591985508
   },
   {
     "url": "https://www.facebook.com/groups/?category=discover",
@@ -1733,7 +1714,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420044
+    "checked": 1591920920
   },
   {
     "url": "https://www.facebook.com/",
@@ -1742,7 +1723,7 @@
       "image",
       "information"
     ],
-    "checked": 1589137275
+    "checked": 1591985506
   },
   {
     "url": "https://www.facebook.com/search/groups/?q=test",
@@ -1751,7 +1732,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420041
+    "checked": 1591920915
   },
   {
     "url": "https://www.facebook.com/search/photos/?q=test",
@@ -1760,7 +1741,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117727
+    "checked": 1591920898
   },
   {
     "url": "https://www.facebook.com/search/top/?q=test",
@@ -1769,7 +1750,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137275
+    "checked": 1591985506
   },
   {
     "url": "https://www.facebook.com/watch/",
@@ -1815,7 +1796,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420045
+    "checked": 1591920922
   },
   {
     "url": "https://www.fandom.com/",
@@ -1825,7 +1806,7 @@
       "group",
       "video"
     ],
-    "checked": 1589420087
+    "checked": 1591920962
   },
   {
     "url": "https://www.fandom.com/?s=test",
@@ -1891,7 +1872,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137279
+    "checked": 1591985509
   },
   {
     "url": "https://www.flaticon.com/",
@@ -1900,7 +1881,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117737
+    "checked": 1591920899
   },
   {
     "url": "https://www.flaticon.com/search?word=test",
@@ -1910,7 +1891,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117739
+    "checked": 1591920900
   },
   {
     "url": "https://www.flickr.com/groups",
@@ -1918,7 +1899,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420045
+    "checked": 1591920921
   },
   {
     "url": "https://www.flickr.com/",
@@ -1927,7 +1908,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117739
+    "checked": 1591920900
   },
   {
     "url": "https://www.flickr.com/search/groups/?text=test",
@@ -1937,7 +1918,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420046
+    "checked": 1591920923
   },
   {
     "url": "https://www.flickr.com/search/?media=videos&license=2%2C3%2C4%2C5%2C6%2C9&text=test",
@@ -1957,7 +1938,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117740
+    "checked": 1591920901
   },
   {
     "url": "https://www.flickr.com/search/?text=video&media=videos",
@@ -1995,25 +1976,25 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117741
+    "checked": 1591920902
   },
   {
     "url": "https://search.fotki.com/?q=test",
-    "status": "302",
+    "status": "301",
     "redirect": "https://search.fotki.com/",
     "title": "test - Global Fotki.com Search | Fotki.com, photo and video sharing made easy.",
     "pages": [
       "image"
     ],
-    "checked": 1582117742
+    "checked": 1591920903
   },
   {
     "url": "https://www.fotki.com/",
-    "status": "302",
+    "status": "301",
     "pages": [
       "image"
     ],
-    "checked": 1582117744
+    "checked": 1591932574
   },
   {
     "url": "https://www.fotocommunity.com/",
@@ -2022,7 +2003,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117745
+    "checked": 1591932575
   },
   {
     "url": "https://www.fotocommunity.com/photos?term=test",
@@ -2032,7 +2013,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117748
+    "checked": 1591932577
   },
   {
     "url": "http://www.freefullpdf.com/#gsc.q=test",
@@ -2052,22 +2033,22 @@
   },
   {
     "url": "https://www.freeimages.com/",
-    "status": "301",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Explore over 300,000 free stock photos and royalty free images - FreeImages.com",
     "pages": [
       "image"
     ],
-    "checked": 1582117751
+    "checked": 1591932578
   },
   {
     "url": "https://www.freeimages.com/search/test?free=1",
-    "status": "301",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "redirect": "https://www.freeimages.com/search/test",
     "title": "Free test Images, Pictures, and Royalty-Free Stock Photos - FreeImages.com",
     "pages": [
       "image"
     ],
-    "checked": 1582117751
+    "checked": 1591932578
   },
   {
     "url": "https://freevideolectures.com/",
@@ -2094,7 +2075,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137280
+    "checked": 1591985510
   },
   {
     "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&qt=OQE~test",
@@ -2103,7 +2084,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137280
+    "checked": 1591985545
   },
   {
     "url": "https://go.gale.com/ps/i.do?ty=bs&v=2.1&it=search&p=GPS&tabID=T004&qt=OQE~test",
@@ -2112,7 +2093,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137280
+    "checked": 1591985546
   },
   {
     "url": "https://www.gale.com/",
@@ -2121,7 +2102,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137282
+    "checked": 1591985547
   },
   {
     "url": "https://www.gale.com/intl/primary-sources/historical-newspapers",
@@ -2130,7 +2111,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137283
+    "checked": 1591985547
   },
   {
     "url": "https://www.gettyimages.com/",
@@ -2138,7 +2119,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117757
+    "checked": 1591932579
   },
   {
     "url": "https://www.gettyimages.com/photos/smile?sort=best&phrase=test",
@@ -2147,7 +2128,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117757
+    "checked": 1591932578
   },
   {
     "url": "https://www.gigablast.com/",
@@ -2156,7 +2137,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137284
+    "checked": 1591985548
   },
   {
     "url": "http://www.gigablast.com/search?q=test",
@@ -2165,7 +2146,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137283
+    "checked": 1591985548
   },
   {
     "url": "http://www.gigablast.com/syntax.html",
@@ -2174,7 +2155,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137284
+    "checked": 1591985549
   },
   {
     "url": "https://giphy.com/",
@@ -2218,7 +2199,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137285
+    "checked": 1591985551
   },
   {
     "url": "https://www.global-regulation.com/",
@@ -2227,7 +2208,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137285
+    "checked": 1591985551
   },
   {
     "url": "https://www.global-regulation.com/search.php?&q=test",
@@ -2236,7 +2217,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137285
+    "checked": 1591985551
   },
   {
     "url": "https://www.globenewswire.com/NewsRoom",
@@ -2290,7 +2271,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420047
+    "checked": 1591920923
   },
   {
     "url": "https://www.goodreads.com/group",
@@ -2299,7 +2280,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420051
+    "checked": 1591920927
   },
   {
     "url": "http://google.com/maps?q=test",
@@ -2317,7 +2298,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137286
+    "checked": 1591985554
   },
   {
     "url": "https://artsandculture.google.com/search?q=test",
@@ -2337,7 +2318,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137286
+    "checked": 1591985553
   },
   {
     "url": "https://books.google.com/books/magazines",
@@ -2347,7 +2328,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137287
+    "checked": 1591985554
   },
   {
     "url": "https://books.google.com/books/newspapers",
@@ -2357,7 +2338,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137288
+    "checked": 1591985555
   },
   {
     "url": "https://books.google.com/",
@@ -2367,7 +2348,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137287
+    "checked": 1591985554
   },
   {
     "url": "https://chrome.google.com/webstore/detail/google-scholar-button/ldipcbpaocekfooobnbcddclnhejkcpn",
@@ -2415,7 +2396,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420048
+    "checked": 1591920924
   },
   {
     "url": "https://groups.google.com/forum/#!search/test",
@@ -2424,7 +2405,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137286
+    "checked": 1591985553
   },
   {
     "url": "https://groups.google.com/",
@@ -2434,7 +2415,7 @@
       "group",
       "information"
     ],
-    "checked": 1589420086
+    "checked": 1591920962
   },
   {
     "url": "https://images.google.com/",
@@ -2443,7 +2424,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117771
+    "checked": 1591932579
   },
   {
     "url": "https://news.google.com/",
@@ -2451,7 +2432,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137288
+    "checked": 1591985555
   },
   {
     "url": "https://news.google.com/newspapers",
@@ -2461,7 +2442,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137288
+    "checked": 1591985555
   },
   {
     "url": "https://news.google.com/search?q=test",
@@ -2470,7 +2451,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137287
+    "checked": 1591985554
   },
   {
     "url": "https://play.google.com/store/books/category/audiobooks",
@@ -2497,7 +2478,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137289
+    "checked": 1591985556
   },
   {
     "url": "https://datasetsearch.research.google.com/search?query=test",
@@ -2507,7 +2488,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137290
+    "checked": 1591985558
   },
   {
     "url": "https://scholar.google.com/",
@@ -2516,7 +2497,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137291
+    "checked": 1591985558
   },
   {
     "url": "https://scholar.google.com/scholar?q=test",
@@ -2526,7 +2507,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137291
+    "checked": 1591985559
   },
   {
     "url": "https://support.google.com/websearch/answer/2466433",
@@ -2535,7 +2516,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137291
+    "checked": 1591985559
   },
   {
     "url": "https://translate.google.com/",
@@ -2580,7 +2561,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137538
+    "checked": 1592229042
   },
   {
     "url": "https://www.google.com/maps",
@@ -2610,7 +2591,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137293
+    "checked": 1591985560
   },
   {
     "url": "https://www.google.com/search?q=test%20filetype%3Apdf%20OR%20filetype%3Adocx%20OR%20filetype%3Adoc%20OR%20filetype%3Aodt%20OR%20filetype%3Artf%20OR%20filetype%3Aps%20OR%20filetype%3Atex%20OR%20filetype%3Awpd",
@@ -2638,7 +2619,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420053
+    "checked": 1591920930
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Abusinesswire.com%20OR%20site%3Aprnewswire.com%20OR%20site%3Aglobenewswire.com%20OR%20site%3Aprweb.com%20OR%20site%3Anewswire.ca%20OR%20site%3Aeinpresswire.com%20OR%20site%3Aprnewswire.co.uk%20OR%20site%3A24-7pressrelease.com%20OR%20site%3Areleasewire.com%20OR%20site%3Arealwire.com%20OR%20site%3Aprunderground.com%20OR%20site%3Apressat.co.uk",
@@ -2666,7 +2647,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420052
+    "checked": 1591920927
   },
   {
     "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
@@ -2695,7 +2676,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137294
+    "checked": 1591985561
   },
   {
     "url": "https://www.google.com/search?q=test+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com",
@@ -2705,7 +2686,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137294
+    "checked": 1591985562
   },
   {
     "url": "https://www.google.com/search?q=test",
@@ -2715,7 +2696,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137295
+    "checked": 1591985562
   },
   {
     "url": "https://www.google.com/search?tbm=bks&q=test",
@@ -2725,7 +2706,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137297
+    "checked": 1591985567
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:b&q=test",
@@ -2735,7 +2716,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137296
+    "checked": 1591985563
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:m&q=test",
@@ -2745,7 +2726,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137296
+    "checked": 1591985564
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkt:s&q=test",
@@ -2755,7 +2736,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137297
+    "checked": 1591985568
   },
   {
     "url": "https://www.google.com/search?tbm=bks&tbs=bkv:f&q=test",
@@ -2765,17 +2746,17 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137298
+    "checked": 1591985569
   },
   {
     "url": "https://www.google.com/search?tbm=isch&q=test",
-    "status": "302",
+    "status": "200",
     "redirect": "http://www.google.com/webhp",
     "title": "test - Google Search",
     "pages": [
       "image"
     ],
-    "checked": 1582117786
+    "checked": 1591932579
   },
   {
     "url": "https://www.google.com/search?tbm=vid&q=test",
@@ -2815,7 +2796,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137300
+    "checked": 1591985571
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:d&q=test",
@@ -2825,7 +2806,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137299
+    "checked": 1591985570
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:h&q=test",
@@ -2835,7 +2816,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137300
+    "checked": 1591985571
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:m&q=test",
@@ -2845,7 +2826,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137301
+    "checked": 1591985572
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:w&q=test",
@@ -2855,7 +2836,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137302
+    "checked": 1591985573
   },
   {
     "url": "https://www.google.com/search?tbs=qdr:y&q=test",
@@ -2865,7 +2846,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137303
+    "checked": 1591985573
   },
   {
     "url": "https://www.google.com/slides/about/",
@@ -2891,7 +2872,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137306
+    "checked": 1591985576
   },
   {
     "url": "https://granthsanjeevani.com/jspui/simple-search?query=test",
@@ -2901,7 +2882,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137317
+    "checked": 1591985593
   },
   {
     "url": "http://groupspaces.com/",
@@ -2910,7 +2891,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420054
+    "checked": 1591920930
   },
   {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
@@ -2919,7 +2900,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137318
+    "checked": 1591985593
   },
   {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term=test",
@@ -2929,7 +2910,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137318
+    "checked": 1591985593
   },
   {
     "url": "https://www.hoopladigital.com/",
@@ -2980,21 +2961,21 @@
   {
     "url": "https://www.iconfinder.com/",
     "status": "301",
-    "title": "4,175,000+ free and premium vector icons. SVG, PNG, AI, CSH and PNG format.",
+    "title": "4,475,000+ free and premium vector icons in SVG, PNG, CSH and AI format.",
     "pages": [
       "image"
     ],
-    "checked": 1582117805
+    "checked": 1591932580
   },
   {
     "url": "https://www.iconfinder.com/search/?price=free&q=test",
     "status": "301",
     "redirect": "https://www.iconfinder.com/search/",
-    "title": "Test icons - 89 free & premium icons on Iconfinder",
+    "title": "Test icons - 221 free & premium icons on Iconfinder",
     "pages": [
       "image"
     ],
-    "checked": 1582117806
+    "checked": 1591932582
   },
   {
     "url": "https://www.iheart.com/",
@@ -3037,7 +3018,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117809
+    "checked": 1591932582
   },
   {
     "url": "https://imgur.com/search?q=test",
@@ -3046,7 +3027,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117809
+    "checked": 1591932583
   },
   {
     "url": "https://www.imsdb.com/",
@@ -3082,7 +3063,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137319
+    "checked": 1591985594
   },
   {
     "url": "https://timesofindia.indiatimes.com/topic/test",
@@ -3091,7 +3072,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137324
+    "checked": 1591985598
   },
   {
     "url": "https://www.indieflix.com/",
@@ -3126,7 +3107,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118217
+    "checked": 1591932603
   },
   {
     "url": "https://www.instagram.com/",
@@ -3134,7 +3115,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118210
+    "checked": 1591932602
   },
   {
     "url": "https://instantwatcher.com/podcasts/feeds",
@@ -3246,7 +3227,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118220
+    "checked": 1591932604
   },
   {
     "url": "https://www.istockphoto.com/stock-photos",
@@ -3254,7 +3235,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118220
+    "checked": 1591932603
   },
   {
     "url": "https://japanknowledge.com/en/contents/",
@@ -3366,7 +3347,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420055
+    "checked": 1591920931
   },
   {
     "url": "https://kiwiirc.com/search?q=test",
@@ -3374,7 +3355,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420058
+    "checked": 1591920933
   },
   {
     "url": "https://knewz.com/",
@@ -3466,7 +3447,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420055
+    "checked": 1591920931
   },
   {
     "url": "https://www.linkedin.com/",
@@ -3484,7 +3465,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420054
+    "checked": 1591920930
   },
   {
     "url": "https://www.linkedin.com/search/results/index/?keywords=test",
@@ -3621,7 +3602,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420058
+    "checked": 1591920934
   },
   {
     "url": "https://www.meetup.com/",
@@ -3630,7 +3611,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420060
+    "checked": 1591920936
   },
   {
     "url": "http://www.mefeedia.com/",
@@ -3686,21 +3667,21 @@
   },
   {
     "url": "https://mibbit.com/",
-    "status": "301",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Mibbit.com - Easy and fast Webchat in your browser",
-    "checked": 1589544404,
+    "checked": 1591920964,
     "pages": [
       "group"
     ]
   },
   {
     "url": "https://search.mibbit.com/search/test",
-    "status": "200",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Channel search  &gt; test",
     "pages": [
       "group"
     ],
-    "checked": 1589420064
+    "checked": 1591920938
   },
   {
     "url": "https://academic.microsoft.com/home",
@@ -3801,7 +3782,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118246
+    "checked": 1591932605
   },
   {
     "url": "https://morguefile.com/photos/morguefile/1/test/pop",
@@ -3810,7 +3791,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118246
+    "checked": 1591932605
   },
   {
     "url": "https://www.moviefone.com/",
@@ -4056,7 +4037,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420059
+    "checked": 1591920934
   },
   {
     "url": "https://www.nytimes.com/",
@@ -4303,21 +4284,21 @@
   },
   {
     "url": "https://www.pexels.com/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118280
+    "checked": 1591932605
   },
   {
     "url": "https://www.pexels.com/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118242
+    "checked": 1591932604
   },
   {
     "url": "https://www.pexels.com/search/videos/test/",
@@ -4342,7 +4323,7 @@
     "status": "301",
     "redirect": "https://app.photobucket.com:443/search",
     "title": "Photobucket",
-    "checked": 1582118393,
+    "checked": 1591932626,
     "pages": [
       "image"
     ]
@@ -4352,7 +4333,26 @@
     "status": "301",
     "redirect": "https://app.photobucket.com:443/search",
     "title": "Photobucket",
-    "checked": 1582118393,
+    "checked": 1591932626,
+    "pages": [
+      "image"
+    ]
+  },
+  {
+    "url": "https://www.pics4learning.com/",
+    "status": "307",
+    "title": "Free Photos for Education | Pics4Learning",
+    "checked": 1593304357,
+    "pages": [
+      "image"
+    ]
+  },
+  {
+    "url": "https://www.pics4learning.com/results.php?query=test",
+    "status": "307",
+    "redirect": "https://www.pics4learning.com/results.php",
+    "title": "Free Photos for Education | Pics4Learning",
+    "checked": 1593304356,
     "pages": [
       "image"
     ]
@@ -4364,7 +4364,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118282
+    "checked": 1591932610
   },
   {
     "url": "https://www.picsearch.com/index.cgi?q=test",
@@ -4374,7 +4374,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118283
+    "checked": 1591932611
   },
   {
     "url": "https://picspree.com/en/search/test",
@@ -4383,7 +4383,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118284
+    "checked": 1591932611
   },
   {
     "url": "https://picspree.com/en",
@@ -4392,7 +4392,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118285
+    "checked": 1591932612
   },
   {
     "url": "https://www.pinterest.com/",
@@ -4452,39 +4452,39 @@
   },
   {
     "url": "https://pixabay.com/illustrations/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118286
+    "checked": 1591932613
   },
   {
     "url": "https://pixabay.com/images/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118285
+    "checked": 1591932612
   },
   {
     "url": "https://pixabay.com/photos/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118286
+    "checked": 1591932613
   },
   {
     "url": "https://pixabay.com/vectors/search/test/",
-    "status": "403",
+    "status": "301",
     "title": "Attention Required! | Cloudflare",
     "pages": [
       "image"
     ],
-    "checked": 1582118286
+    "checked": 1591932612
   },
   {
     "url": "http://brasil.planetasaber.com/default.asp",
@@ -4708,7 +4708,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420064
+    "checked": 1591920939
   },
   {
     "url": "https://www.proboards.com/forum-directory",
@@ -4717,7 +4717,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420065
+    "checked": 1591920939
   },
   {
     "url": "https://www.proquest.com/",
@@ -4762,7 +4762,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420064
+    "checked": 1591920936
   },
   {
     "url": "https://www.psychologytoday.com/us/groups",
@@ -4771,7 +4771,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420066
+    "checked": 1591920940
   },
   {
     "url": "https://www.publitas.com/",
@@ -4815,7 +4815,7 @@
       "group",
       "information"
     ],
-    "checked": 1589420085
+    "checked": 1591920961
   },
   {
     "url": "https://www.quora.com/search?q=test",
@@ -4833,7 +4833,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420066
+    "checked": 1591920941
   },
   {
     "url": "https://help.qwant.com/help/qwant-search/searching/refine-search-with-operators/",
@@ -4897,7 +4897,7 @@
       "group",
       "information"
     ],
-    "checked": 1589420087
+    "checked": 1591920964
   },
   {
     "url": "https://www.reddit.com/r/Documentaries/",
@@ -4983,7 +4983,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420066
+    "checked": 1591920940
   },
   {
     "url": "https://www.reddit.com/wiki/search",
@@ -5194,7 +5194,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420067
+    "checked": 1591920941
   },
   {
     "url": "https://www.scoutzen.com/twitter-lists/search?q=test",
@@ -5203,7 +5203,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420067
+    "checked": 1591920942
   },
   {
     "url": "http://screenit.com/",
@@ -5281,7 +5281,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118339
+    "checked": 1591932613
   },
   {
     "url": "https://www.shutterstock.com/search/test?image_type=photo",
@@ -5290,7 +5290,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118282
+    "checked": 1591932606
   },
   {
     "url": "https://www.simplyscripts.com/cgi-bin/search.pl?search=test",
@@ -5317,7 +5317,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420066
+    "checked": 1591920941
   },
   {
     "url": "https://slides.com/explore",
@@ -5343,7 +5343,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420068
+    "checked": 1591920943
   },
   {
     "url": "https://slofile.com/slack?q=test",
@@ -5353,7 +5353,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420069
+    "checked": 1591920944
   },
   {
     "url": "http://smalltownpapers.com/",
@@ -5370,7 +5370,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118344,
+    "checked": 1591932616,
     "title": "SmugMug: Protect, Share, Store, and Sell Your Photos"
   },
   {
@@ -5380,7 +5380,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118343
+    "checked": 1591932614
   },
   {
     "url": "https://www.snopes.com/",
@@ -5631,7 +5631,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118381
+    "checked": 1591932622
   },
   {
     "url": "https://www.stockio.com/free-vectors/",
@@ -5640,7 +5640,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118381
+    "checked": 1591932623
   },
   {
     "url": "https://www.stockio.com/free-vectors/?q=test",
@@ -5649,7 +5649,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118383
+    "checked": 1591932623
   },
   {
     "url": "https://www.storynory.com/",
@@ -5691,7 +5691,7 @@
     "url": "https://www.supportgroups.com/online",
     "status": "301",
     "title": "All Support Groups | Support Groups",
-    "checked": 1589420084,
+    "checked": 1591920960,
     "pages": [
       "group"
     ]
@@ -5734,24 +5734,6 @@
       "video"
     ],
     "checked": 1589407384
-  },
-  {
-    "url": "http://pics.tech4learning.com/",
-    "status": "200",
-    "title": "Free Photos for Education | Pics4Learning",
-    "pages": [
-      "image"
-    ],
-    "checked": 1582118389
-  },
-  {
-    "url": "http://pics.tech4learning.com/results.php?query=test",
-    "status": "200",
-    "title": "Free Photos for Education | Pics4Learning",
-    "pages": [
-      "image"
-    ],
-    "checked": 1582118390
   },
   {
     "url": "https://www.ted.com/",
@@ -5841,7 +5823,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118351
+    "checked": 1591932616
   },
   {
     "url": "https://thenounproject.com/search/?q=test",
@@ -5851,7 +5833,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118350
+    "checked": 1591932616
   },
   {
     "url": "https://www.thepaperboy.com/",
@@ -5911,11 +5893,11 @@
   {
     "url": "https://tookapic.com/",
     "status": "307",
-    "title": "Tookapic: 365 Project Made Easy",
+    "title": "Tookapic: Your 365 Project",
     "pages": [
       "image"
     ],
-    "checked": 1582118355
+    "checked": 1591932618
   },
   {
     "url": "https://tookapic.com/search/photos?q=test",
@@ -5925,7 +5907,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118358
+    "checked": 1591932621
   },
   {
     "url": "https://topdocumentaryfilms.com/",
@@ -6114,11 +6096,10 @@
     "url": "https://twitter.com/search?f=image&q=test",
     "status": "301",
     "redirect": "https://twitter.com/search",
-    "title": "News about test on Twitter",
     "pages": [
       "image"
     ],
-    "checked": 1582118372
+    "checked": 1591932621
   },
   {
     "url": "https://twitter.com/search?f=videos&q=test",
@@ -6190,7 +6171,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118376
+    "checked": 1591932621
   },
   {
     "url": "https://unsplash.com/s/photos/test",
@@ -6198,7 +6179,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117812
+    "checked": 1591932584
   },
   {
     "url": "https://www.veoh.com/find/test",
@@ -6284,7 +6265,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117818
+    "checked": 1591932584
   },
   {
     "url": "https://visualhunt.com/search/instant/?q=test",
@@ -6294,7 +6275,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117819
+    "checked": 1591932586
   },
   {
     "url": "https://vk.com/",
@@ -6302,7 +6283,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137325
+    "checked": 1591985599
   },
   {
     "url": "https://vk.com/search?c%5Bsection%5D=auto&c%5Bq%5D=test",
@@ -6310,7 +6291,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137326
+    "checked": 1591985600
   },
   {
     "url": "https://www.washingtonpost.com/",
@@ -6319,7 +6300,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137346
+    "checked": 1591985618
   },
   {
     "url": "https://www.washingtonpost.com/newssearch/?query=test",
@@ -6329,7 +6310,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137366
+    "checked": 1591985636
   },
   {
     "url": "http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcApp=WEB&SrcAuth=HSB&DestApp=UA&DestLinkType=GeneralSearchSummary&btnWS=Search&topic=test",
@@ -6372,7 +6353,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137367
+    "checked": 1591985637
   },
   {
     "url": "http://www.whatismymovie.com/",
@@ -6436,7 +6417,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137367
+    "checked": 1591990863
   },
   {
     "url": "http://www.wikiwand.com/",
@@ -6445,7 +6426,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137369
+    "checked": 1591990864
   },
   {
     "url": "https://wn.com/",
@@ -6473,7 +6454,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137369
+    "checked": 1591990865
   },
   {
     "url": "https://www.wolframalpha.com/input/?i=test",
@@ -6483,7 +6464,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137368
+    "checked": 1591990864
   },
   {
     "url": "https://www.wolframalpha.com/tour/",
@@ -6492,7 +6473,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137369
+    "checked": 1591990865
   },
   {
     "url": "https://www.wonderhowto.com/",
@@ -6565,7 +6546,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420068
+    "checked": 1591920942
   },
   {
     "url": "https://groups.yahoo.com/neo",
@@ -6574,7 +6555,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420070
+    "checked": 1591920946
   },
   {
     "url": "https://news.yahoo.com/",
@@ -6583,7 +6564,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137370
+    "checked": 1591990866
   },
   {
     "url": "https://answers.search.yahoo.com/search?p=test",
@@ -6602,7 +6583,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117873
+    "checked": 1591932586
   },
   {
     "url": "https://images.search.yahoo.com/search/images?p=test",
@@ -6612,7 +6593,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117874
+    "checked": 1591932587
   },
   {
     "url": "https://news.search.yahoo.com/search?p=test",
@@ -6622,7 +6603,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137371
+    "checked": 1591990866
   },
   {
     "url": "https://yandex.com/",
@@ -6631,26 +6612,27 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137372
+    "checked": 1591990867
   },
   {
     "url": "https://yandex.com/images/",
     "status": "302",
-    "redirect": "https://yandex.com/images/?redircnt=1582117877.1",
+    "redirect": "https://yandex.com/images/?redircnt=1591932587.1",
     "pages": [
       "image"
     ],
-    "checked": 1582117880
+    "checked": 1591932588,
+    "title": "Yandex.Images: search for images on the internet, search by image"
   },
   {
     "url": "https://yandex.com/images/search?text=test",
     "status": "302",
-    "redirect": "https://yandex.com/images/search?redircnt=1582117880.1",
+    "redirect": "https://yandex.com/images/search?redircnt=1591932589.1",
     "title": "Yandex.Images",
     "pages": [
       "image"
     ],
-    "checked": 1582117882
+    "checked": 1591932590
   },
   {
     "url": "https://yandex.com/support/search/query-language/search-context.html",
@@ -6659,7 +6641,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137374
+    "checked": 1591990869
   },
   {
     "url": "https://yandex.com/support/search/query-language/search-operators.html",
@@ -6668,7 +6650,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137376
+    "checked": 1591990870
   },
   {
     "url": "https://yandex.com/video/",
@@ -6682,12 +6664,12 @@
   {
     "url": "https://www.yandex.com/search/?text=test",
     "status": "302",
-    "redirect": "https://www.yandex.com/search/?lr=103566&redircnt=1589137376.1",
+    "redirect": "https://www.yandex.com/search/?lr=10115&redircnt=1591990871.1",
     "title": "Yandex",
     "pages": [
       "information"
     ],
-    "checked": 1589137378
+    "checked": 1591990873
   },
   {
     "url": "https://www.yandex.com/video/search?text=test",
@@ -6706,7 +6688,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137378
+    "checked": 1591990873
   },
   {
     "url": "https://www.yippy.com/search?query=test",
@@ -6716,7 +6698,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137381
+    "checked": 1591990875
   },
   {
     "url": "https://so.youku.com/search_video/q_test",
@@ -6862,7 +6844,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137384
+    "checked": 1591990877
   },
   {
     "url": "https://brockhaus.de/info/",
@@ -6881,7 +6863,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137386
+    "checked": 1591990878
   },
   {
     "url": "https://www.deutsche-digitale-bibliothek.de/searchresults?query=test",
@@ -6891,7 +6873,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137387
+    "checked": 1591990879
   },
   {
     "url": "https://netsplit.de/channels/?chat=test",
@@ -6901,13 +6883,13 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420072
+    "checked": 1591920948
   },
   {
     "url": "https://netsplit.de/channels/",
     "status": "301",
     "title": "IRC Chat Rooms - Search",
-    "checked": 1589420085,
+    "checked": 1591920962,
     "pages": [
       "group"
     ]
@@ -6919,7 +6901,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137389
+    "checked": 1591990881
   },
   {
     "url": "https://www.osmikon.de/metaopac/search?View=osmikon&q=test",
@@ -6928,7 +6910,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137394
+    "checked": 1591990886
   },
   {
     "url": "https://www.zo.uni-heidelberg.de/boa/digital_resources/list_az_en.html",
@@ -6937,7 +6919,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137397
+    "checked": 1591990888
   },
   {
     "url": "https://www.academia.edu/",
@@ -7001,7 +6983,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117921
+    "checked": 1591932593
   },
   {
     "url": "https://imagebase.lib.vt.edu/search.php",
@@ -7010,7 +6992,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117923
+    "checked": 1591932594
   },
   {
     "url": "http://www.darelkotob.gov.eg/ar-eg/Pages/Home.aspx",
@@ -7027,7 +7009,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137399
+    "checked": 1591990890
   },
   {
     "url": "https://europa.eu/search/",
@@ -7174,7 +7156,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137401
+    "checked": 1591990897
   },
   {
     "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en",
@@ -7183,7 +7165,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137403
+    "checked": 1591990898
   },
   {
     "url": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22test%22%29&lang=en&suggest=0",
@@ -7202,7 +7184,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137410
+    "checked": 1591990909
   },
   {
     "url": "http://www.archives-nationales.culture.gouv.fr/en/web/guest/home",
@@ -7211,7 +7193,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137404
+    "checked": 1591990899
   },
   {
     "url": "https://www.universalis.fr/",
@@ -7254,7 +7236,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137411
+    "checked": 1591990909
   },
   {
     "url": "https://www.archives.gov/",
@@ -7268,21 +7250,21 @@
   },
   {
     "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search/searchterm/test",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
     "title": "CONTENTdm",
     "pages": [
       "image"
     ],
-    "checked": 1582117964
+    "checked": 1591932594
   },
   {
     "url": "https://digitalmedia.fws.gov/digital/collection/natdiglib/search",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (unable to get local issuer certificate)",
     "title": "CONTENTdm",
     "pages": [
       "image"
     ],
-    "checked": 1582117964
+    "checked": 1591932594
   },
   {
     "url": "https://www.govinfo.gov/app/search/%7B%22query%22%3A%22test%22%2C%22offset%22%3A0%7D",
@@ -7409,7 +7391,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118783
+    "checked": 1591932626
   },
   {
     "url": "https://www.loc.gov/photos/?q=test",
@@ -7419,7 +7401,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118454
+    "checked": 1591932626
   },
   {
     "url": "https://www.loc.gov/search/?all=true&q=test",
@@ -7436,7 +7418,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117965
+    "checked": 1591932595
   },
   {
     "url": "https://images.nasa.gov/search-results?media=image&q=test",
@@ -7445,7 +7427,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117965
+    "checked": 1591932595
   },
   {
     "url": "https://search.usa.gov/search/images?affiliate=usagov&query=test",
@@ -7455,7 +7437,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117966
+    "checked": 1591932596
   },
   {
     "url": "https://search.usa.gov/search?affiliate=usagov&query=test",
@@ -7469,52 +7451,52 @@
   },
   {
     "url": "https://www.usa.gov/",
-    "status": "301",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Official Guide to Government Information and Services   &#124; USAGov",
     "pages": [
       "image",
       "information"
     ],
-    "checked": 1589137128
+    "checked": 1591932628
   },
   {
     "url": "https://www.abhilekh-patal.in/jspui/",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "title": "Abhilekh Patal",
     "pages": [
       "information"
     ],
-    "checked": 1589137415
+    "checked": 1591990910
   },
   {
     "url": "https://www.abhilekh-patal.in/jspui/simple-search?query=test",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "redirect": "https://www.abhilekh-patal.in/jspui/simple-search",
     "title": "Abhilekh Patal",
     "pages": [
       "information"
     ],
-    "checked": 1589137420
+    "checked": 1591990912
   },
   {
     "url": "https://ndl.iitkgp.ac.in/",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "redirect": "https://ndl.iitkgp.ac.in",
     "title": "National Digital Library of India",
     "pages": [
       "information"
     ],
-    "checked": 1589137423
+    "checked": 1591990913
   },
   {
     "url": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22test%22,%22s%22:[],%22b%22:{%22filters%22:[]}}",
-    "status": "302",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
     "redirect": "https://ndl.iitkgp.ac.in/result",
     "title": "NDL India: Guest",
     "pages": [
       "information"
     ],
-    "checked": 1589137428
+    "checked": 1591990915
   },
   {
     "url": "http://hazine.info/",
@@ -7522,7 +7504,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137429
+    "checked": 1591990919
   },
   {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
@@ -7567,7 +7549,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137424
+    "checked": 1591990914
   },
   {
     "url": "https://getyarn.io/",
@@ -7595,7 +7577,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420070
+    "checked": 1591920947
   },
   {
     "url": "https://anvaka.github.io/sayit/?query=test",
@@ -7605,7 +7587,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420072
+    "checked": 1591920947
   },
   {
     "url": "https://asciimoo.github.io/searx/",
@@ -7614,7 +7596,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137430
+    "checked": 1591990919
   },
   {
     "url": "http://youtube.github.io/geo-search-tool/search.html",
@@ -7632,7 +7614,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137430
+    "checked": 1591990919
   },
   {
     "url": "https://beta.grafiti.io/search/facts/?search_text=test",
@@ -7651,7 +7633,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420073
+    "checked": 1591920949
   },
   {
     "url": "https://groups.io/search?q=test",
@@ -7661,7 +7643,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420074
+    "checked": 1591920949
   },
   {
     "url": "https://share.osf.io/discover?q=test",
@@ -7723,7 +7705,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137432
+    "checked": 1591990920
   },
   {
     "url": "https://www.jacar.archives.go.jp/gf/cgi/start?LANG=eng",
@@ -7733,7 +7715,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137434
+    "checked": 1591990922
   },
   {
     "url": "https://www.jacar.archives.go.jp/gf/cgi/zway",
@@ -7768,7 +7750,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137434
+    "checked": 1591990923
   },
   {
     "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
@@ -7860,7 +7842,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137437
+    "checked": 1591991053
   },
   {
     "url": "https://dp.la/search?q=test",
@@ -7868,7 +7850,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137435
+    "checked": 1591990923
   },
   {
     "url": "https://pro.dp.la/hubs/our-hubs",
@@ -7877,7 +7859,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137436
+    "checked": 1591990924
   },
   {
     "url": "https://www.gob.mx/busqueda",
@@ -7894,7 +7876,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137436
+    "checked": 1591990923
   },
   {
     "url": "http://www.hnm.unam.mx/",
@@ -7904,7 +7886,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137437
+    "checked": 1591990924
   },
   {
     "url": "https://www.archivesportaleurope.net/",
@@ -7949,7 +7931,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137439
+    "checked": 1591991055
   },
   {
     "url": "https://www.daum.net/",
@@ -7958,7 +7940,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137442
+    "checked": 1591991057
   },
   {
     "url": "https://www.gutefrage.net/",
@@ -7984,7 +7966,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137444
+    "checked": 1591991059
   },
   {
     "url": "https://www.hoax-slayer.net/?s=test",
@@ -7994,7 +7976,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137447
+    "checked": 1591991062
   },
   {
     "url": "http://www.iberoamericadigital.net/BDPI/Search.do",
@@ -8002,7 +7984,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137458
+    "checked": 1591991073
   },
   {
     "url": "http://www.iberoamericadigital.net/en/Inicio/",
@@ -8011,7 +7993,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137459
+    "checked": 1591991074
   },
   {
     "url": "http://www.iberoamericadigital.net/en/Participantes/",
@@ -8020,7 +8002,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137461
+    "checked": 1591991076
   },
   {
     "url": "http://journalseek.net/",
@@ -8046,7 +8028,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137459
+    "checked": 1591991075
   },
   {
     "url": "http://news-explorer.mybluemix.net/?type=unconstrained&query=test",
@@ -8055,7 +8037,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137462
+    "checked": 1591992002
   },
   {
     "url": "https://www.researchgate.net/",
@@ -8102,7 +8084,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137463
+    "checked": 1591992004
   },
   {
     "url": "https://www.slideshare.net/search/slideshow?q=test",
@@ -8112,7 +8094,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137462
+    "checked": 1591991078
   },
   {
     "url": "https://www.squidtv.net/",
@@ -8130,7 +8112,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118035
+    "checked": 1591932597
   },
   {
     "url": "https://www.stockvault.net/",
@@ -8139,7 +8121,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118036
+    "checked": 1591932598
   },
   {
     "url": "https://www.taringa.net/",
@@ -8272,7 +8254,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137465
+    "checked": 1591992004
   },
   {
     "url": "http://www.aodl.org/",
@@ -8281,7 +8263,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137464
+    "checked": 1591992004
   },
   {
     "url": "http://www.aodl.org/search.php?currSearches=test",
@@ -8290,7 +8272,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137464
+    "checked": 1591992004
   },
   {
     "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",
@@ -8338,7 +8320,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118076
+    "checked": 1591932601
   },
   {
     "url": "https://archive.org/details/image",
@@ -8347,7 +8329,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582118076
+    "checked": 1591932599
   },
   {
     "url": "https://archive.org/details/magazine_rack",
@@ -8384,7 +8366,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137466
+    "checked": 1591992005
   },
   {
     "url": "https://archive.org/details/podcasts?and%5B%5D=test",
@@ -8440,7 +8422,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137466
+    "checked": 1591992006
   },
   {
     "url": "https://archive.org/details/tv",
@@ -8469,7 +8451,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137467
+    "checked": 1591992007
   },
   {
     "url": "https://archive.org/search.php?and[]=collection:%22magazine_rack%22&sin=TXT&query=test",
@@ -8487,7 +8469,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137483
+    "checked": 1591992024
   },
   {
     "url": "https://archive.org/search.php?and[]=collection:%22texts%22&sin=TXT&query=test",
@@ -8496,7 +8478,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137505
+    "checked": 1591992041
   },
   {
     "url": "https://archive.org/search.php?sin=TXT&query=test",
@@ -8505,7 +8487,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137533
+    "checked": 1592229020
   },
   {
     "url": "https://archiveofourown.org/",
@@ -8513,7 +8495,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137505
+    "checked": 1592228973
   },
   {
     "url": "https://archiveofourown.org/works/search?work_search%5Bquery%5D=test",
@@ -8522,7 +8504,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137534
+    "checked": 1592229021
   },
   {
     "url": "https://www.aruc.org/en/country-links",
@@ -8531,7 +8513,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137535
+    "checked": 1592229039
   },
   {
     "url": "https://www.aruc.org/en/home",
@@ -8540,7 +8522,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137536
+    "checked": 1592229041
   },
   {
     "url": "https://www.aruc.org/en/search?searchBy=search_text&source=both&tabId=GeneralTab&referer=MainSearch&keyword=test",
@@ -8550,25 +8532,26 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137537
+    "checked": 1592229042
   },
   {
-    "url": "http://www.aseanlibrary.org/",
-    "status": "200",
+    "url": "https://www.aseanlibrary.org/",
+    "status": "302",
     "title": "Asean Digital Library",
+    "checked": 1593304355,
     "pages": [
       "information"
-    ],
-    "checked": 1589137540
+    ]
   },
   {
-    "url": "http://www.aseanlibrary.org/search/index/query?keyword=test",
-    "status": "200",
+    "url": "https://www.aseanlibrary.org/search/index/query?keyword=test",
+    "status": "302",
+    "redirect": "https://www.aseanlibrary.org/search/index/query",
     "title": "Asean Digital Library",
+    "checked": 1593304354,
     "pages": [
       "information"
-    ],
-    "checked": 1589137542
+    ]
   },
   {
     "url": "http://dar.bibalex.org/webpages/dar.jsf",
@@ -8603,7 +8586,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420073
+    "checked": 1591920949
   },
   {
     "url": "https://www.careeronestop.org/toolkit/Training/find-professional-associations.aspx?keyword=test",
@@ -8612,7 +8595,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420075
+    "checked": 1591920952
   },
   {
     "url": "https://www.cjr.org/the_profile/tom-tryniski-fultonhistory.php",
@@ -8686,7 +8669,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1583582847
+    "checked": 1591932627
   },
   {
     "url": "https://ccsearch.creativecommons.org/search?q=test",
@@ -8696,7 +8679,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1583582849
+    "checked": 1591932628
   },
   {
     "url": "https://crossasia.org/en/",
@@ -8762,7 +8745,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420075
+    "checked": 1591920950
   },
   {
     "url": "https://www.dailystrength.org/search?type=group&query=test",
@@ -8772,7 +8755,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420076
+    "checked": 1591920952
   },
   {
     "url": "https://search.datacite.org/",
@@ -8790,7 +8773,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137131
+    "checked": 1591964829
   },
   {
     "url": "https://search.dataone.org/",
@@ -8902,7 +8885,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137128
+    "checked": 1591932628
   },
   {
     "url": "https://babel.hathitrust.org/cgi/ls?field1=ocr;q1=test;a=srchls",
@@ -8912,7 +8895,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137133
+    "checked": 1591964831
   },
   {
     "url": "https://www.hathitrust.org/",
@@ -8921,23 +8904,25 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137129
+    "checked": 1591964827
   },
   {
-    "url": "http://www.homemovieregistry.org/wp/",
+    "url": "https://www.homemovieregistry.org/",
     "status": "200",
+    "title": "Home Movie Registry",
+    "checked": 1593304361,
     "pages": [
       "video"
-    ],
-    "checked": 1589406801
+    ]
   },
   {
-    "url": "http://www.homemovieregistry.org/wp/?s=test",
+    "url": "https://www.homemovieregistry.org/?s=test",
     "status": "200",
+    "title": " test | Search Results  | Home Movie Registry",
+    "checked": 1593304360,
     "pages": [
       "video"
-    ],
-    "checked": 1589406801
+    ]
   },
   {
     "url": "https://www.jstor.org/action/doBasicSearch?Query=test",
@@ -9063,7 +9048,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117455
+    "checked": 1591920882
   },
   {
     "url": "https://digitalcollections.nypl.org/search/index?filters%5Btype%5D=still+image&keywords=test",
@@ -9073,7 +9058,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117457
+    "checked": 1591920883
   },
   {
     "url": "https://aleph.occrp.org/",
@@ -9098,7 +9083,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137134
+    "checked": 1591964832
   },
   {
     "url": "https://researchworks.oclc.org/archivegrid/?q=test",
@@ -9106,7 +9091,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137134
+    "checked": 1591964833
   },
   {
     "url": "https://www.oclc.org/en/home.html",
@@ -9114,7 +9099,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137133
+    "checked": 1591964831
   },
   {
     "url": "https://openaccessbutton.org/",
@@ -9132,7 +9117,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137135
+    "checked": 1591964834
   },
   {
     "url": "https://openlibrary.org/search/inside?q=test",
@@ -9142,7 +9127,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137148
+    "checked": 1591964844
   },
   {
     "url": "https://paperity.org/",
@@ -9198,7 +9183,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137149
+    "checked": 1591964845
   },
   {
     "url": "https://www.re3data.org/search?query=test",
@@ -9208,7 +9193,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137150
+    "checked": 1591964846
   },
   {
     "url": "https://reporterslab.org/fact-checking/",
@@ -9217,7 +9202,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137151
+    "checked": 1591964849
   },
   {
     "url": "https://www.semanticscholar.org/",
@@ -9245,7 +9230,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420078
+    "checked": 1591920954
   },
   {
     "url": "https://www.taforum.org/trade-associations/?trade=test",
@@ -9253,7 +9238,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420080
+    "checked": 1591920956
   },
   {
     "url": "https://www.themoviedb.org/",
@@ -9281,7 +9266,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137166
+    "checked": 1591964858
   },
   {
     "url": "https://certificates.theodi.org/en/datasets?search=test",
@@ -9290,7 +9275,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137181
+    "checked": 1591964873
   },
   {
     "url": "https://www.torproject.org/",
@@ -9327,7 +9312,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420081
+    "checked": 1591920957
   },
   {
     "url": "https://uia.org/ybio?name=test",
@@ -9337,7 +9322,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420083
+    "checked": 1591920960
   },
   {
     "url": "https://search.archives.un.org/",
@@ -9416,7 +9401,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137181
+    "checked": 1591964873
   },
   {
     "url": "https://www.wdl.org/en/search/?q=test",
@@ -9426,7 +9411,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137182
+    "checked": 1591964874
   },
   {
     "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
@@ -9435,7 +9420,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137183
+    "checked": 1591964876
   },
   {
     "url": "https://wikileaks.org/",
@@ -9444,7 +9429,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137183
+    "checked": 1591964876
   },
   {
     "url": "https://search.wikileaks.org/?q=test",
@@ -9454,7 +9439,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137184
+    "checked": 1591964877
   },
   {
     "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
@@ -9463,7 +9448,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117534
+    "checked": 1591920884
   },
   {
     "url": "https://commons.m.wikimedia.org/wiki/Main_Page",
@@ -9472,7 +9457,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117535
+    "checked": 1591920884
   },
   {
     "url": "https://meta.wikimedia.org/wiki/List_of_Wikipedias",
@@ -9524,7 +9509,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137185
+    "checked": 1591964878
   },
   {
     "url": "https://en.wikipedia.org/wiki/Bechdel_test",
@@ -9551,7 +9536,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420078
+    "checked": 1591920953
   },
   {
     "url": "https://en.wikipedia.org/wiki/List_of_encyclopedias_by_language",
@@ -9578,7 +9563,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137186
+    "checked": 1591964880
   },
   {
     "url": "https://en.wikipedia.org/wiki/List_of_national_archives",
@@ -9587,7 +9572,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137185
+    "checked": 1591964878
   },
   {
     "url": "https://en.wikipedia.org/wiki/Main_Page",
@@ -9596,7 +9581,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137187
+    "checked": 1591964881
   },
   {
     "url": "https://en.wikipedia.org/wiki/Microform",
@@ -9605,7 +9590,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137187
+    "checked": 1591964881
   },
   {
     "url": "https://en.wikipedia.org/wiki/News_Corp_(2013%E2%80%93present)",
@@ -9622,7 +9607,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137187
+    "checked": 1591964882
   },
   {
     "url": "https://en.wikipedia.org/wiki/Open_access",
@@ -9640,7 +9625,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137188
+    "checked": 1591964883
   },
   {
     "url": "https://en.wikipedia.org/wiki/Public_domain",
@@ -9676,7 +9661,7 @@
     "pages": [
       "group"
     ],
-    "checked": 1589420041
+    "checked": 1591920916
   },
   {
     "url": "https://en.wikipedia.org/wiki/Wikipedia:List_of_online_newspaper_archives",
@@ -9685,7 +9670,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137188
+    "checked": 1591964882
   },
   {
     "url": "https://en.wikipedia.org/wiki/Wikipedia",
@@ -9694,7 +9679,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137189
+    "checked": 1591964883
   },
   {
     "url": "https://es.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search=test",
@@ -9896,7 +9881,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137190
+    "checked": 1591964901
   },
   {
     "url": "https://en.wikisource.org/wiki/Main_Page",
@@ -9905,7 +9890,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137187
+    "checked": 1591964881
   },
   {
     "url": "https://www.worldcat.org/",
@@ -9915,7 +9900,7 @@
       "image",
       "information"
     ],
-    "checked": 1589137189
+    "checked": 1591964883
   },
   {
     "url": "https://www.worldcat.org/libraries",
@@ -9924,7 +9909,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137189
+    "checked": 1591964884
   },
   {
     "url": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q=test",
@@ -9934,7 +9919,7 @@
     "pages": [
       "image"
     ],
-    "checked": 1582117540
+    "checked": 1591920885
   },
   {
     "url": "https://www.worldcat.org/search?q=test",
@@ -9944,7 +9929,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137192
+    "checked": 1591964902
   },
   {
     "url": "https://worldwidescience.org/",
@@ -9971,7 +9956,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137195
+    "checked": 1591964904
   },
   {
     "url": "http://www.elib.gov.ph/results.php",
@@ -9981,7 +9966,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137196
+    "checked": 1591964905
   },
   {
     "url": "https://tune.pk/search?query=test",
@@ -10123,7 +10108,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137199
+    "checked": 1591964907
   },
   {
     "url": "https://www.rsl.ru/en",
@@ -10132,7 +10117,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137201
+    "checked": 1591964909
   },
   {
     "url": "http://www.rusarchives.ru/elektronnye-opisi-federalnyh-arhivov",
@@ -10306,7 +10291,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137202
+    "checked": 1591964910
   },
   {
     "url": "https://discover.libraryhub.jisc.ac.uk/search?q=test",
@@ -10316,16 +10301,16 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137203
+    "checked": 1591964911
   },
   {
     "url": "http://explore.bl.uk/primo_library/libweb/action/dlSearch.do?vid=BLVU1&institution=BL&search_scope=LSCOP-ALL&query=any,contains,test",
     "status": "302",
-    "redirect": "http://explore.bl.uk/primo_library/libweb/action/error.do;jsessionid=B148F97020D6C4F3211E9B8F49F0B2E7",
+    "redirect": "http://explore.bl.uk/primo_library/libweb/action/error.do;jsessionid=9F0707043F1347B03003457277E0A622",
     "pages": [
       "information"
     ],
-    "checked": 1589137205
+    "checked": 1591964912
   },
   {
     "url": "https://www.bl.uk/",
@@ -10334,7 +10319,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137206
+    "checked": 1591964913
   },
   {
     "url": "https://www.bbc.co.uk/iplayer/search?q=test",
@@ -10363,7 +10348,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137207
+    "checked": 1591965099
   },
   {
     "url": "https://www.bookbeat.co.uk/search",
@@ -10391,7 +10376,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137209
+    "checked": 1591965101
   },
   {
     "url": "https://www.britishnewspaperarchive.co.uk/search/results?basicsearch=test",
@@ -10401,7 +10386,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137214
+    "checked": 1591965104
   },
   {
     "url": "https://www.newsnow.co.uk/h/?search=test",
@@ -10411,7 +10396,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137215
+    "checked": 1591965105
   },
   {
     "url": "https://www.newsnow.co.uk/",
@@ -10419,7 +10404,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137214
+    "checked": 1591965101
   },
   {
     "url": "https://pressat.co.uk/releases/",
@@ -10441,13 +10426,13 @@
   },
   {
     "url": "https://discovery.nationalarchives.gov.uk/results/r?_q=test",
-    "status": "Failed to open TCP connection to discovery.nationalarchives.gov.uk:80 (Connection refused - connect(2) for \"discovery.nationalarchives.gov.uk\" port 80)",
+    "status": "302",
     "redirect": "/",
     "title": "Search results: test | The National Archives",
     "pages": [
       "information"
     ],
-    "checked": 1589137216
+    "checked": 1591965106
   },
   {
     "url": "https://media.nationalarchives.gov.uk/index.php/category/video/",
@@ -10475,7 +10460,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137217
+    "checked": 1591965109
   },
   {
     "url": "https://www.gov.uk/",
@@ -10503,7 +10488,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137216
+    "checked": 1591965107
   },
   {
     "url": "https://data.world/search?q=test",
@@ -10512,7 +10497,7 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137217
+    "checked": 1591965109
   },
   {
     "url": "https://onion.ws/",
@@ -10565,6 +10550,6 @@
     "pages": [
       "information"
     ],
-    "checked": 1589137543
+    "checked": 1592229045
   }
 ]

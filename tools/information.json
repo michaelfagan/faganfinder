@@ -911,7 +911,7 @@
         },
         {
           "name": "<abbr title=\"Association of Southeast Asian Nations\">Asean</abbr> Digital Library",
-          "searchUrl": "http://www.aseanlibrary.org/search/index/query?keyword={q}"
+          "searchUrl": "https://www.aseanlibrary.org/search/index/query?keyword={q}"
         },
         {
           "name": "Philippine eLib",

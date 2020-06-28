@@ -471,7 +471,7 @@
         },
         {
           "name": "Home Movie Registry",
-          "searchUrl": "http://www.homemovieregistry.org/wp/?s={q}"
+          "searchUrl": "https://www.homemovieregistry.org/?s={q}"
         },
         {
           "name": "YouTube channels",
