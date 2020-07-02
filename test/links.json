@@ -1832,6 +1832,14 @@
     "checked": 1591985506
   },
   {
+    "url": "https://www.facebook.com/places/",
+    "status": "302",
+    "checked": 1593654307,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.facebook.com/search/groups/?q=test",
     "status": "302",
     "redirect": "https://www.facebook.com/search/groups/",
@@ -1848,6 +1856,15 @@
       "image"
     ],
     "checked": 1591920898
+  },
+  {
+    "url": "https://www.facebook.com/search/places/?q=test",
+    "status": "302",
+    "redirect": "https://www.facebook.com/search/places/",
+    "checked": 1593654307,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://www.facebook.com/search/top/?q=test",
@@ -6931,6 +6948,25 @@
       "video"
     ],
     "checked": 1589406910
+  },
+  {
+    "url": "https://www.yelp.com/",
+    "status": "301",
+    "title": "Yelp",
+    "checked": 1593654308,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.yelp.com/search?find_desc=test",
+    "status": "301",
+    "redirect": "https://www.yelp.com/search",
+    "title": "Yelp",
+    "checked": 1593654307,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://www.yippy.com/",

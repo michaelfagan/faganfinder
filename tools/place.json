@@ -99,6 +99,19 @@
       ]
     },
     {
+      "name": "Businesses and more",
+      "tools": [
+          {
+            "name": "Facebook",
+            "searchUrl": "https://www.facebook.com/search/places/?q={q}"
+          },
+          {
+            "name": "Yelp",
+            "searchUrl": "https://www.yelp.com/search?find_desc={q}"
+          }
+      ]
+    },
+    {
       "name": "Other",
       "tools": [
         {
