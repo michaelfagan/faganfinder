@@ -335,6 +335,7 @@ ReleaseWire
 ResearchGate
 RSS
 RSSMicro
+Rumsey
 Rutube
 Saber
 Sanjeevani
@@ -421,6 +422,7 @@ Weibo
 Wikidot
 wikiHow
 WikiLeaks
+Wikimapia
 Wikimedia
 Wikisource
 Wikiwand

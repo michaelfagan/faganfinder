@@ -1425,6 +1425,23 @@
     "checked": 1589406865
   },
   {
+    "url": "https://www.davidrumsey.com/",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
+    "checked": 1593652367,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&q=test",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
+    "redirect": "https://www.davidrumsey.com/luna/servlet/view/search",
+    "checked": 1593652367,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.deepdyve.com/",
     "status": "301",
     "checked": 1589138647,
@@ -6482,6 +6499,24 @@
     "checked": 1591985600
   },
   {
+    "url": "https://www.walkscore.com/",
+    "status": "301",
+    "title": "Find Apartments for Rent and Rentals - Get Your Walk Score",
+    "checked": 1593397801,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.walkscore.com/score/test",
+    "status": "301",
+    "title": "138 Vintage Park Boulevard, Houston TX - Walk Score",
+    "checked": 1593397801,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.washingtonpost.com/",
     "status": "301",
     "title": "Washington Post: Breaking News, World, US, DC News &amp; Analysis - The Washington Post",
@@ -9388,6 +9423,14 @@
     "checked": 1591964831
   },
   {
+    "url": "https://www.oldmapsonline.org/",
+    "status": "301",
+    "checked": 1593652427,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://openaccessbutton.org/",
     "status": "301",
     "title": "Open Access Button",
@@ -9754,6 +9797,24 @@
       "information"
     ],
     "checked": 1591964877
+  },
+  {
+    "url": "http://wikimapia.org/",
+    "status": "200",
+    "title": "Wikimapia - Let's describe the whole world!",
+    "checked": 1593395281,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "http://wikimapia.org/#search=test",
+    "status": "200",
+    "title": "Wikimapia - Let's describe the whole world!",
+    "checked": 1593395281,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://commons.m.wikimedia.org/w/index.php?search=test",
