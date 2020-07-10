@@ -95,6 +95,14 @@
         {
           "name": "David Rumsey",
           "searchUrl": "https://www.davidrumsey.com/luna/servlet/view/search?sort=Pub_List_No_InitialSort%2CPub_Date%2CPub_List_No%2CSeries_No&q={q}"
+        },
+        {
+          "name": "Library of Congress",
+          "searchUrl": "https://www.loc.gov/maps/?q={q}"
+        },
+        {
+          "name": "Europeana",
+          "searchUrl": "https://www.europeana.eu/en/search?page=1&qf=collection%3Amap&query={q}"
         }
       ]
     },

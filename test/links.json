@@ -7290,6 +7290,15 @@
     "checked": 1589419968
   },
   {
+    "url": "https://legacy.lib.utexas.edu/maps/",
+    "status": "200",
+    "title": "Perry-Casta&ntilde;eda Library Map Collection - UT Library Online",
+    "checked": 1593656157,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://imagebase.lib.vt.edu/",
     "status": "301",
     "title": "ImageBase",
@@ -7344,6 +7353,15 @@
     ]
   },
   {
+    "url": "https://www.europeana.eu/en/collections/topic/151-maps-and-geography",
+    "status": "302",
+    "title": "Maps and Geography",
+    "checked": 1593657812,
+    "pages": [
+      "place"
+    ]
+  },
+  {
     "url": "https://www.europeana.eu/en/collections/topic/18-newspapers?api=metadata&query=test",
     "status": "302",
     "redirect": "https://www.europeana.eu/en/collections/topic/18-newspapers",
@@ -7370,6 +7388,16 @@
     "checked": 1589138812,
     "pages": [
       "information"
+    ]
+  },
+  {
+    "url": "https://www.europeana.eu/en/search?page=1&qf=collection%3Amap&query=test",
+    "status": "302",
+    "redirect": "https://www.europeana.eu/en/search",
+    "title": "Search",
+    "checked": 1593657810,
+    "pages": [
+      "place"
     ]
   },
   {
@@ -7679,6 +7707,23 @@
       "information"
     ],
     "checked": 1589137679
+  },
+  {
+    "url": "https://www.loc.gov/maps/",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
+    "checked": 1593657810,
+    "pages": [
+      "place"
+    ]
+  },
+  {
+    "url": "https://www.loc.gov/maps/?q=test",
+    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (certificate has expired)",
+    "redirect": "https://www.loc.gov/maps/",
+    "checked": 1593657805,
+    "pages": [
+      "place"
+    ]
   },
   {
     "url": "https://www.loc.gov/newspapers/?all=true&dl=page&q=test",
