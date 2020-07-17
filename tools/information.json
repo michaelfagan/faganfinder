@@ -715,7 +715,7 @@
         },
         {
           "name": "<abbr title=\"Digital Library of the Middle East\">DLME</abbr> — Middle East",
-          "searchUrl": "https://spotlight.dlmenetwork.org/library/catalog?q={q}"
+          "searchUrl": "https://dlmenetwork.org/library/catalog?exhibit_id=library&search_field=all_fields&q={q}"
         },
         {
           "name": "<abbr title=\"Biblioteca Digital del Patrimonio Iberoamericano\">BDPI</abbr> — Ibero-America",

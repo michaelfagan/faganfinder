@@ -8607,15 +8607,6 @@
     "checked": 1589137809
   },
   {
-    "url": "https://dlme.clir.org/",
-    "status": "301",
-    "title": "Homepage - Digital Library of the Middle East",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137811
-  },
-  {
     "url": "https://www.commonsensemedia.org/",
     "status": "301",
     "title": "Common Sense Media: Age-Based Media Reviews for Families",
@@ -8794,14 +8785,24 @@
     "checked": 1589137554
   },
   {
-    "url": "https://spotlight.dlmenetwork.org/library/catalog?q=test",
+    "url": "https://dlmenetwork.org/library/catalog?exhibit_id=library&search_field=all_fields&q=test",
     "status": "301",
-    "redirect": "https://spotlight.dlmenetwork.org:443/library/catalog",
+    "redirect": "https://dlmenetwork.org:443/library/catalog",
     "title": "test - Digital Library of the Middle East - DLME Search Results",
+    "checked": 1594953104,
     "pages": [
       "information"
-    ],
-    "checked": 1589137555
+    ]
+  },
+  {
+    "url": "https://dlmenetwork.org/library",
+    "status": "301",
+    "redirect": "https://dlmenetwork.org:443/library",
+    "title": "Digital Library of the Middle East - DLME",
+    "checked": 1594953107,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://doaj.org/",
