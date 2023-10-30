@@ -486,7 +486,7 @@
         },
         {
           "name": "Z-Library books",
-          "searchUrl": "https://b-ok.cc/fulltext/{q}/?type=words"
+          "searchUrl": "https://zlibrary-ca.se/fulltext/{q}/?type=words"
         },
         {
           "name": "<abbr title=\"Archive of Our Own\">AO3</abbr>",

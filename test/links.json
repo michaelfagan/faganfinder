@@ -368,16 +368,6 @@
     ]
   },
   {
-    "url": "https://b-ok.cc/fulltext/test/?type=words",
-    "status": "301",
-    "redirect": "https://b-ok.cc/fulltext/test/",
-    "title": "FullText search",
-    "checked": 1591320339,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.etools.ch/",
     "status": "301",
     "title": "eTools.ch - The Transparent Metasearch Engine from Switzerland",
@@ -9905,15 +9895,6 @@
     ]
   },
   {
-    "url": "https://z-lib.org/",
-    "status": "301",
-    "title": "Z-Library. The world's largest ebook library.",
-    "checked": 1591320340,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "http://www.elib.gov.ph/",
     "status": "200",
     "title": "Philippine eLib",
@@ -10166,6 +10147,25 @@
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "redirect": "https://yandex.ru/q/search/",
     "checked": 1589137774,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://singlelogin.se/",
+    "status": "301",
+    "title": "Z-Library Project",
+    "checked": 1698631341,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://zlibrary-ca.se/fulltext/test/?type=words",
+    "status": "301",
+    "redirect": "https://zlibrary-ca.se/fulltext/test/",
+    "title": "FullText search",
+    "checked": 1698631215,
     "pages": [
       "information"
     ]
