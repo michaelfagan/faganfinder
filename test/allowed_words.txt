@@ -145,7 +145,6 @@ FultonSearch
 Gallica
 GDELT
 GIFs
-Gigablast
 Giphy
 GlobeNewswire
 Globo

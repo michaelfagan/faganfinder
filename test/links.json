@@ -2092,33 +2092,6 @@
     "checked": 1591932578
   },
   {
-    "url": "https://www.gigablast.com/",
-    "status": "200",
-    "title": "Gigablast - An Alternative Web Search Engine",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985548
-  },
-  {
-    "url": "http://www.gigablast.com/search?q=test",
-    "status": "200",
-    "title": "Gigablast Search Results",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985548
-  },
-  {
-    "url": "http://www.gigablast.com/syntax.html",
-    "status": "200",
-    "title": "Gigablast - syntax",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985549
-  },
-  {
     "url": "https://giphy.com/",
     "status": "301",
     "title": "GIPHY | Search All the GIFs &amp; Make Your Own Animated GIF",

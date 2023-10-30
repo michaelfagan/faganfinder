@@ -33,10 +33,6 @@
           "searchUrl": "http://www.exalead.com/search/web/results/?q={q}"
         },
         {
-          "name": "Gigablast",
-          "searchUrl": "http://www.gigablast.com/search?q={q}"
-        },
-        {
           "name": "Mojeek",
           "searchUrl": "https://www.mojeek.com/search?q={q}"
         }
