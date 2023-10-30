@@ -3164,43 +3164,6 @@
     "checked": 1589407407
   },
   {
-    "url": "https://iseek.com/#/education",
-    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
-    "redirect": "http://www.iseek.com",
-    "checked": 1589137836,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://iseek.com/#/search/education?q=test",
-    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
-    "redirect": "http://www.iseek.com",
-    "checked": 1589137829,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://iseek.com/#/search/web?q=test",
-    "status": "SSL_connect returned=1 errno=0 state=error: certificate verify failed (error number 1)",
-    "redirect": "http://www.iseek.com",
-    "checked": 1589137828,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.iseek.com/#/web",
-    "status": "301",
-    "redirect": "https://www.iseek.com:443/",
-    "title": "iseek.ai",
-    "checked": 1589137835,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://issuu.com/",
     "status": "301",
     "redirect": "https://issuu.com:443/",

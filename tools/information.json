@@ -39,10 +39,6 @@
         {
           "name": "Mojeek",
           "searchUrl": "https://www.mojeek.com/search?q={q}"
-        },
-        {
-          "name": "iseek.ai",
-          "searchUrl": "https://iseek.com/#/search/web?q={q}"
         }
       ]
     },
@@ -281,10 +277,6 @@
         {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
           "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
-        },
-        {
-          "name": "iseek.ai Education",
-          "searchUrl": "https://iseek.com/#/search/education?q={q}"
         }
       ]
     },
