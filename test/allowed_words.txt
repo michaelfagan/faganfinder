@@ -111,8 +111,6 @@ edocr
 eHow
 EHPS
 EIN
-Elephind.com
-Elephind
 eLib
 Elsevier
 EMM

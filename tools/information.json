@@ -1091,10 +1091,6 @@
       "name": "Newspaper archives",
       "tools": [
         {
-          "name": "Elephind.com",
-          "searchUrl": "https://elephind.com/?a=q&results=1&txq={q}"
-        },
-        {
           "name": "Europeana full text <abbr title=\"newspapers\">news.</abbr>",
           "searchUrl": "https://www.europeana.eu/en/collections/topic/18-newspapers?query={q}"
         },

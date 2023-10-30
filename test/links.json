@@ -1606,35 +1606,6 @@
     ]
   },
   {
-    "url": "https://elephind.com/?a=q&results=1&txq=test",
-    "status": "301",
-    "redirect": "https://elephind.com/",
-    "title": "test &mdash; Elephind.com search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985502
-  },
-  {
-    "url": "https://elephind.com/",
-    "status": "301",
-    "title": "Elephind.com: Search the world's historic newspaper archives",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985495
-  },
-  {
-    "url": "https://elephind.com/?p=about",
-    "status": "301",
-    "redirect": "https://elephind.com/",
-    "title": "About Elephind.com",
-    "pages": [
-      "information"
-    ],
-    "checked": 1591985498
-  },
-  {
     "url": "https://www.elsevier.com/",
     "status": "301",
     "title": "Elsevier | An Information Analytics Business | Empowering Knowledge",
