@@ -3394,6 +3394,15 @@
     "checked": 1589137572
   },
   {
+    "url": "https://www.linkedin.com/search/results/all/?keywords=test",
+    "status": "302",
+    "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fall%2F",
+    "checked": 1698632573,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.linkedin.com/search/results/groups/?keywords=test",
     "status": "302",
     "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Fgroups%2F",
@@ -3401,15 +3410,6 @@
       "group"
     ],
     "checked": 1591920930
-  },
-  {
-    "url": "https://www.linkedin.com/search/results/index/?keywords=test",
-    "status": "302",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137573,
-    "redirect": "https://www.linkedin.com/uas/login?session_redirect=http%3A%2F%2Fwww.linkedin.com%2Fsearch%2Fresults%2Findex%2F"
   },
   {
     "url": "https://www.listennotes.com/",
@@ -7577,24 +7577,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "http://parsijoo.ir/",
-    "status": "\"\\xD9\" from ASCII-8BIT to UTF-8",
-    "title": "پارسی جو: جستجوگر ایرانی",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137675
-  },
-  {
-    "url": "http://parsijoo.ir/web?q=test",
-    "status": "\"\\xD9\" from ASCII-8BIT to UTF-8",
-    "title": "پارسی جو: جستجوگر ایرانی - test",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137677
   },
   {
     "url": "https://chiebukuro.yahoo.co.jp/",

@@ -106,10 +106,6 @@
           "searchUrl": "https://go.mail.ru/search?q={q}"
         },
         {
-          "name": "Parsijoo — Iran",
-          "searchUrl": "http://parsijoo.ir/web?q={q}"
-        },
-        {
           "name": "Naver — South Korea",
           "searchUrl": "https://search.naver.com/search.naver?query={q}"
         },
@@ -297,7 +293,7 @@
         },
         {
           "name": "LinkedIn",
-          "searchUrl": "https://www.linkedin.com/search/results/index/?keywords={q}"
+          "searchUrl": "https://www.linkedin.com/search/results/all/?keywords={q}"
         },
         {
           "name": "Pinterest",
