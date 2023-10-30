@@ -562,10 +562,6 @@
           "searchUrl": "https://scholar.google.com/scholar?q={q}"
         },
         {
-          "name": "Microsoft Academic",
-          "searchUrl": "https://academic.microsoft.com/search?q={q}"
-        },
-        {
           "name": "The Lens",
           "searchUrl": "https://www.lens.org/lens/scholar/search/results?q={q}"
         },
@@ -984,10 +980,6 @@
         {
           "name": "PressReader",
           "searchUrl": "https://www.pressreader.com/search?languages=en&groupBy=Language&hideSimilar=0&type=1&state=1&query={q}"
-        },
-        {
-          "name": "Knewz",
-          "searchUrl": "https://knewz.com/search/{q}"
         },
         {
           "name": "WN.com",

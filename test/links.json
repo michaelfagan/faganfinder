@@ -3311,24 +3311,6 @@
     "checked": 1591920933
   },
   {
-    "url": "https://knewz.com/",
-    "status": "301",
-    "title": "Knewz - Balanced News from a Wide Range of Sources",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137565
-  },
-  {
-    "url": "https://knewz.com/search/test",
-    "status": "301",
-    "title": "You searched for - Knewz",
-    "pages": [
-      "information"
-    ],
-    "checked": 1589137565
-  },
-  {
     "url": "https://knoema.com/",
     "status": "200",
     "title": "Free data, statistics, analysis, visualization &amp; sharing - knoema.com",
@@ -3635,25 +3617,6 @@
       "group"
     ],
     "checked": 1591920938
-  },
-  {
-    "url": "https://academic.microsoft.com/home",
-    "status": "303",
-    "title": "Microsoft Academic",
-    "checked": 1589138611,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://academic.microsoft.com/search?q=test",
-    "status": "303",
-    "redirect": "https://academic.microsoft.com/search",
-    "title": "Microsoft Academic",
-    "checked": 1589138612,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "http://help.bing.microsoft.com/#apex/18/en/10001/-1",
@@ -9545,14 +9508,6 @@
       "information"
     ],
     "checked": 1591964881
-  },
-  {
-    "url": "https://en.wikipedia.org/wiki/News_Corp_(2013%E2%80%93present)",
-    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "checked": 1589137716,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://en.wikipedia.org/wiki/News_agency",
