@@ -844,6 +844,10 @@
           "searchUrl": "https://ctext.org/pre-qin-and-han?searchu={q}"
         },
         {
+          "name": "Japan Search",
+          "searchUrl": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword={q}"
+        },
+        {
           "name": "Japan Cross Search",
           "searchUrl": "https://www.jacar.archives.go.jp/gf/cgi/zway",
           "post": "SE_KEY_1",

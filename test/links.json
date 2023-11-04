@@ -7595,6 +7595,23 @@
     "checked": 1591990923
   },
   {
+    "url": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=test",
+    "status": "\"\\xE6\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://jpsearch.go.jp/csearch/jps-cross",
+    "checked": 1699062900,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://jpsearch.go.jp/",
+    "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
+    "checked": 1699062901,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "redirect": "https://iss.ndl.go.jp/books",
