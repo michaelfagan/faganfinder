@@ -9,7 +9,6 @@
 .wpd
 1findr
 2lingual
-500px
 Abhilekh
 ABYZ
 Academia.edu

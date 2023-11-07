@@ -142,10 +142,6 @@
           "searchUrl": "https://www.instagram.com/explore/tags/{q}/"
         },
         {
-          "name": "500px",
-          "searchUrl": "https://500px.com/search?type=photos&q={q}"
-        },
-        {
           "name": "Flickr",
           "searchUrl": "https://www.flickr.com/search/?text={q}"
         },

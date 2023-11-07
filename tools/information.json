@@ -578,10 +578,6 @@
           "searchUrl": "https://app.dimensions.ai/discover/publication?search_text={q}"
         },
         {
-          "name": "1findr",
-          "searchUrl": "https://1findr.1science.com/search?query={q}"
-        },
-        {
           "name": "MyScienceWork",
           "searchUrl": "https://www.mysciencework.com/search/publications?query={q}"
         },
@@ -686,6 +682,10 @@
           "searchUrl": "https://artsandculture.google.com/search?q={q}"
         },
         {
+          "name": "Africa Commons",
+          "searchUrl": "https://africacommons.net/search/?q={q}"
+        },
+        {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",
           "searchUrl": "http://www.aodl.org/search.php?currSearches={q}"
         },
@@ -716,7 +716,7 @@
         },
         {
           "name": "Trove — Australia",
-          "searchUrl": "https://trove.nla.gov.au/result?q={q}"
+          "searchUrl": "https://trove.nla.gov.au/search?keyword={q}"
         }
       ]
     },
@@ -801,15 +801,15 @@
         },
         {
           "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
-          "searchUrl": "https://www.bac-lac.gc.ca/eng/collectionsearch/Pages/collectionsearch.aspx?q={q}"
+          "searchUrl": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Search?q={q}"
         },
         {
           "name": "Canadiana Online",
-          "searchUrl": "http://www.canadiana.ca/search/?q0.0={q}"
+          "searchUrl": "https://www.canadiana.ca/search/?q0.0={q}"
         },
         {
           "name": "Héritage — Canada",
-          "searchUrl": "http://heritage.canadiana.ca/search/?q0.0={q}"
+          "searchUrl": "https://heritage.canadiana.ca/search/?q0.0={q}"
         },
         {
           "name": "ARCHIVESCANADA.ca",
@@ -836,7 +836,7 @@
         },
         {
           "name": "<abbr title=\"China Academic Digital Associative Library\">CADAL</abbr> — China",
-          "searchUrl": "http://cadal.zju.edu.cn/cadalinfo/search",
+          "searchUrl": "https://cadal.edu.cn/cadalinfo/search",
           "post": "searchContent"
         },
         {
@@ -1028,8 +1028,8 @@
       "name": "Fact-checking",
       "tools": [
         {
-          "name": "Untrue News",
-          "searchUrl": "http://untrue.news/search?q={q}"
+          "name": "<abbr title=\"Google Fact Check Explorer\">Google</abbr>",
+          "searchUrl": "https://toolbox.google.com/factcheck/explorer/search/{q}"
         },
         {
           "name": "FNS fact check sites",
@@ -1212,10 +1212,6 @@
           "searchUrl": "https://www.canada.ca/en/sr/srb.html?q={q}"
         },
         {
-          "name": "Canadian sites",
-          "searchUrl": "https://cse.google.com/cse?cx=006116564388257139991:f_s61vr6o88&q={q}"
-        },
-        {
           "name": "<span lang=\"pt\">Governo do Brasil</span>",
           "searchUrl": "https://www.gov.br/pt-br/@@search?SearchableText={q}"
         },
@@ -1225,7 +1221,7 @@
         },
         {
           "name": "China",
-          "searchUrl": "http://sousuo.gov.cn/s.htm?t=govall&q={q}"
+          "searchUrl": "https://sousuo.www.gov.cn/sousuo/search.shtml?code=17da70961a7&dataTypeId=107&searchBy=all&pageNo=1&orderBy=related&searchWord={q}"
         },
         {
           "name": "e-Gov Japan",
@@ -1254,6 +1250,10 @@
         {
           "name": "Global-Regulation",
           "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
+        },
+        {
+          "name": "Policy Commons",
+          "searchUrl": "https://policycommons.net/search/?q={q}"
         }
       ]
     },
