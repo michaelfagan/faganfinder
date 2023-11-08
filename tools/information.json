@@ -620,7 +620,7 @@
       "name": "Paid databases",
       "tools": [
         {
-          "name": "ProQuest + Gale etc.",
+          "name": "Primo by ProQuest",
           "searchUrl": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,{q}"
         },
         {

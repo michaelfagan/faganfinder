@@ -514,15 +514,6 @@
     "checked": 1699109471
   },
   {
-    "url": "http://www.advantagearchives.com/preservation/preservation-resources/tip-change-the-letters-in-your-search/",
-    "status": "404",
-    "title": "Page not found - Advantage Archives",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109869
-  },
-  {
     "url": "https://search.alexanderstreet.com/",
     "status": "301",
     "title": "Home - Alexander Street, part of Clarivate",
@@ -632,26 +623,6 @@
     "checked": 1699101793
   },
   {
-    "url": "http://www.aparchive.com/",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "video"
-    ],
-    "checked": 1699101793,
-    "redirect": "https://newsroom.ap.org/editorial-photos-videos/home"
-  },
-  {
-    "url": "http://www.aparchive.com/search?query=test",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "video"
-    ],
-    "checked": 1699101793,
-    "redirect": "https://newsroom.ap.org/editorial-photos-videos/home"
-  },
-  {
     "url": "https://apnews.com/",
     "status": "301",
     "pages": [
@@ -662,6 +633,15 @@
     "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News"
   },
   {
+    "url": "https://www.apple.com/apple-podcasts/",
+    "status": "301",
+    "title": "Apple Podcasts - Apple",
+    "checked": 1699405790,
+    "pages": [
+      "listen"
+    ]
+  },
+  {
     "url": "https://www.apple.com/ca/siri/",
     "status": "301",
     "title": "Siri - Apple (CA)",
@@ -669,15 +649,6 @@
       "information"
     ],
     "checked": 1699109872
-  },
-  {
-    "url": "https://www.apple.com/itunes/podcasts/discover/",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "listen"
-    ],
-    "checked": 1699109411
   },
   {
     "url": "http://www.artcyclopedia.com/",
@@ -696,14 +667,14 @@
     "checked": 1699109473
   },
   {
-    "url": "https://www.asiancrush.com/?s=test",
+    "url": "https://www.asiancrush.com/search?q=test",
     "status": "301",
+    "redirect": "https://www.asiancrush.com:443/search",
     "title": "Stream Asian Cinema | Asiancrush",
+    "checked": 1699405585,
     "pages": [
       "video"
-    ],
-    "checked": 1699101794,
-    "redirect": "https://www.asiancrush.com:443/"
+    ]
   },
   {
     "url": "https://www.asiancrush.com",
@@ -1689,6 +1660,15 @@
     ],
     "checked": 1699101799,
     "title": "Discover Popular Videos | Facebook"
+  },
+  {
+    "url": "https://www.familyhistoryfanatics.com/ocr-errors-newspapers",
+    "status": "301",
+    "title": "How to work around OCR errors in newspaper research",
+    "checked": 1699326509,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.fandango.com/",
@@ -8149,6 +8129,25 @@
       "information"
     ],
     "checked": 1699110813
+  },
+  {
+    "url": "https://newsroom.ap.org/editorial-photos-videos/home",
+    "status": "301",
+    "title": "AP",
+    "checked": 1699405585,
+    "pages": [
+      "video"
+    ]
+  },
+  {
+    "url": "https://newsroom.ap.org/editorial-photos-videos/search?mediaType=video&st=keyword&query=test",
+    "status": "301",
+    "redirect": "https://newsroom.ap.org/editorial-photos-videos/search",
+    "title": "AP",
+    "checked": 1699405585,
+    "pages": [
+      "video"
+    ]
   },
   {
     "url": "https://archive.org/details/audio_bookspoetry?and%5B%5D=test",

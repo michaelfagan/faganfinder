@@ -308,7 +308,7 @@
         },
         {
           "name": "Asian Crush",
-          "searchUrl": "https://www.asiancrush.com/?s={q}"
+          "searchUrl": "https://www.asiancrush.com/search?q={q}"
         },
         {
           "name": "Telescope",
@@ -438,7 +438,7 @@
       "tools": [
         {
           "name": "Associated Press",
-          "searchUrl": "http://www.aparchive.com/search?query={q}"
+          "searchUrl": "https://newsroom.ap.org/editorial-photos-videos/search?mediaType=video&st=keyword&query={q}"
         },
         {
           "name": "TV News Archive",

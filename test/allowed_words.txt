@@ -70,6 +70,7 @@ Checkli
 Checklists.com
 Chiebukuro
 Cision
+Clarivate
 clearnet
 Clipart
 collectif
@@ -299,6 +300,7 @@ Presse
 PressReader
 Presswire
 Prezi
+Primo
 ProBoards
 ProQuest
 PRUnderground
