@@ -550,7 +550,7 @@
         },
         {
           "name": "Bechdel Test",
-          "searchUrl": "http://bechdeltest.com/search",
+          "searchUrl": "https://bechdeltest.com/search",
           "post": "term"
         }
       ]

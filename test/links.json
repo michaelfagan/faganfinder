@@ -744,26 +744,6 @@
     "checked": 1699109416
   },
   {
-    "url": "http://www.authorstream.com/",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "checked": 1699099401,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://www.authorstream.com/"
-  },
-  {
-    "url": "http://www.authorstream.com/tag/test",
-    "status": "301",
-    "checked": 1699099401,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://www.authorstream.com/tag/test",
-    "title": "301 Moved Permanently"
-  },
-  {
     "url": "https://baike.baidu.com/",
     "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
     "checked": 1699098949,
@@ -878,24 +858,23 @@
     "checked": 1699109871
   },
   {
-    "url": "http://bechdeltest.com/",
+    "url": "https://bechdeltest.com/",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "title": "Bechdel Test Movie List",
+    "checked": 1699406465,
     "pages": [
       "video"
-    ],
-    "checked": 1699101794,
-    "redirect": "https://bechdeltest.com/"
+    ]
   },
   {
-    "url": "http://bechdeltest.com/search",
+    "url": "https://bechdeltest.com/search",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "redirect": "https://bechdeltest.com/index.pl/search",
+    "title": "Search - Bechdel Test Movie List",
+    "checked": 1699406463,
     "pages": [
       "video"
-    ],
-    "checked": 1699101794,
-    "redirect": "https://bechdeltest.com/index.pl/search"
+    ]
   },
   {
     "url": "http://www.bing.com/",
@@ -907,20 +886,19 @@
     "checked": 1699109872
   },
   {
+    "url": "https://www.bing.com/images/feed",
+    "status": "200",
+    "title": "Bing Image Inspiration Feed",
+    "checked": 1699406585,
+    "pages": [
+      "image"
+    ]
+  },
+  {
     "url": "https://www.bing.com/images/search?q=test",
     "status": "302",
     "redirect": "/images?FORM=HDRSC2",
     "title": "test - Search Images",
-    "pages": [
-      "image"
-    ],
-    "checked": 1699109473
-  },
-  {
-    "url": "https://www.bing.com/images/trending",
-    "status": "200",
-    "redirect": "/?scope=images&nr=1&FORM=NOFORM",
-    "title": "Bing Image Trending",
     "pages": [
       "image"
     ],
@@ -2495,10 +2473,10 @@
     ]
   },
   {
-    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aauthorstream.com%2Fpresentation%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st",
+    "url": "https://www.google.com/search?q=test%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st",
     "status": "200",
-    "title": "test filetype:ppt OR filetype:pptx OR filetype:pps OR filetype:ppsx OR site:docs.google.com/presentation OR site:slideshare.net OR site:authorstream.com/presentation OR site:speakerdeck.com OR site:slides.com OR filetype:odp OR filetype:key OR site:prezi.com OR site:noti.st - Google Search",
-    "checked": 1699101736,
+    "title": "test filetype:ppt OR filetype:pptx OR filetype:pps OR filetype:ppsx OR site:docs.google.com/presentation OR site:slideshare.net OR site:speakerdeck.com OR site:slides.com OR filetype:odp OR filetype:key OR site:prezi.com OR site:noti.st - Google Search",
+    "checked": 1699406171,
     "pages": [
       "information"
     ]

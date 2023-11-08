@@ -536,12 +536,8 @@
           "searchUrl": "https://slides.com/explore?search={q}"
         },
         {
-          "name": "authorSTREAM",
-          "searchUrl": "http://www.authorstream.com/tag/{q}"
-        },
-        {
           "name": "Google by format &amp; site",
-          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aauthorstream.com%2Fpresentation%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st"
+          "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Appt%20OR%20filetype%3Apptx%20OR%20filetype:pps%20OR%20filetype:ppsx%20OR%20site%3Adocs.google.com%2Fpresentation%20OR%20site%3Aslideshare.net%20OR%20site%3Aspeakerdeck.com%20OR%20site%3Aslides.com%20OR%20filetype%3Aodp%20OR%20filetype%3Akey%20OR%20site%3Aprezi.com%20OR%20site%3Anoti.st"
         }
       ]
     },
