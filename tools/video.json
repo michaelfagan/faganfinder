@@ -47,7 +47,7 @@
         },
         {
           "name": "DailyMotion",
-          "searchUrl": "https://www.dailymotion.com/search/{q}"
+          "searchUrl": "https://dailymotion.com/search/{q}"
         },
         {
           "name": "Vimeo",

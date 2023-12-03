@@ -150,7 +150,7 @@
         },
         {
           "name": "DeviantArt",
-          "searchUrl": "http://groups.deviantart.com/?q={q}"
+          "searchUrl": "https://www.deviantart.com/groups/?q={q}"
         },
         {
           "name": "Goodreads",

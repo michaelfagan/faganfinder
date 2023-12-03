@@ -157,7 +157,7 @@
         },
         {
           "name": "Credo <abbr title=\"Reference\">Ref.</abbr> — paid",
-          "searchUrl": "https://search.credoreference.com/search/all?searchPhrase={q}"
+          "searchUrl": "https://public.credoreference.com/search/all?searchPhrase={q}"
         },
         {
           "name": "Oxford <abbr title=\"Reference\">Ref.</abbr> — paid",
@@ -305,7 +305,7 @@
         },
         {
           "name": "BoardReader",
-          "searchUrl": "http://boardreader.com/s/{q}.html"
+          "searchUrl": "https://boardreader.com/s/{q}.html"
         },
         {
           "name": "Social Searcher",
@@ -813,7 +813,7 @@
         },
         {
           "name": "<abbr title=\"Digital Library of the Caribbean\">dLOC</abbr> — Caribbean",
-          "searchUrl": "https://dloc.com/results/?text={q}"
+          "searchUrl": "https://dloc.com/results?q={q}"
         }
       ]
     },

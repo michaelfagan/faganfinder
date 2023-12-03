@@ -963,6 +963,15 @@
     "checked": 1699109877
   },
   {
+    "url": "https://www.bing.com/videos/onecolumn/landing",
+    "status": "200",
+    "title": "Bing video",
+    "checked": 1699407175,
+    "pages": [
+      "video"
+    ]
+  },
+  {
     "url": "http://www.bing.com/videos/search?&qft=+filterui:duration-long&q=test",
     "status": "302",
     "redirect": "/videos?FORM=HDRSC2",
@@ -983,16 +992,6 @@
     "checked": 1699101795
   },
   {
-    "url": "http://www.bing.com/videos/trending",
-    "status": "302",
-    "title": "Object moved",
-    "pages": [
-      "video"
-    ],
-    "checked": 1699101795,
-    "redirect": "/videos/onecolumn/landing"
-  },
-  {
     "url": "https://biznar.com/biznar/desktop/en/search.html",
     "status": "301",
     "pages": [
@@ -1001,24 +1000,22 @@
     "checked": 1699098534
   },
   {
-    "url": "http://boardreader.com/",
+    "url": "https://boardreader.com/",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "title": "Boardreader - Forum Search Engine",
+    "checked": 1699407174,
     "pages": [
       "information"
-    ],
-    "checked": 1699109877,
-    "redirect": "https://boardreader.com/"
+    ]
   },
   {
-    "url": "http://boardreader.com/s/test.html",
+    "url": "https://boardreader.com/s/test.html",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "title": "Boardreader - Forum Search Engine",
+    "checked": 1699407174,
     "pages": [
       "information"
-    ],
-    "checked": 1699109878,
-    "redirect": "https://boardreader.com/s/test.html"
+    ]
   },
   {
     "url": "https://brainly.com/app/ask?q=test",
@@ -1124,13 +1121,12 @@
     ]
   },
   {
-    "url": "http://checklists.com/",
+    "url": "https://checklists.com/",
     "status": "301",
-    "checked": 1699101743,
+    "checked": 1699407939,
     "pages": [
       "information"
-    ],
-    "redirect": "https://checklists.com/"
+    ]
   },
   {
     "url": "https://www.checkli.com/checklists/search?q=test",
@@ -1208,41 +1204,39 @@
     "checked": 1699098370
   },
   {
-    "url": "https://search.credoreference.com/",
+    "url": "https://public.credoreference.com/",
     "status": "301",
-    "checked": 1699099371,
+    "title": "Home - Credo Reference",
+    "checked": 1699407939,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://search.credoreference.com/search/all?searchPhrase=test",
+    "url": "https://public.credoreference.com/search/all?searchPhrase=test",
     "status": "301",
-    "redirect": "https://search.credoreference.com/search/all",
-    "checked": 1699099371,
+    "redirect": "https://public.credoreference.com/search/all",
+    "title": "Search - Credo Reference",
+    "checked": 1699407938,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.dailymotion.com/",
+    "url": "https://dailymotion.com/",
     "status": "301",
-    "title": "Dailymotion",
+    "checked": 1699407941,
     "pages": [
       "video"
-    ],
-    "checked": 1699101796,
-    "redirect": "https://dailymotion.com/"
+    ]
   },
   {
-    "url": "https://www.dailymotion.com/search/test",
+    "url": "https://dailymotion.com/search/test",
     "status": "301",
-    "title": "test videos - Dailymotion",
+    "checked": 1699407941,
     "pages": [
       "video"
-    ],
-    "checked": 1699101797,
-    "redirect": "https://dailymotion.com/search/test"
+    ]
   },
   {
     "url": "https://www.deepdyve.com/",
@@ -1283,22 +1277,23 @@
     "checked": 1699109483
   },
   {
-    "url": "https://groups.deviantart.com/",
+    "url": "https://www.deviantart.com/groups/",
     "status": "301",
+    "title": "Groups | DeviantArt",
+    "checked": 1699407940,
     "pages": [
       "group"
-    ],
-    "checked": 1699109484
+    ]
   },
   {
-    "url": "http://groups.deviantart.com/?q=test",
+    "url": "https://www.deviantart.com/groups/?q=test",
     "status": "301",
-    "redirect": "https://groups.deviantart.com/",
-    "title": "301 Moved Permanently",
+    "redirect": "https://www.deviantart.com/groups/",
+    "title": "Groups | DeviantArt",
+    "checked": 1699407940,
     "pages": [
       "group"
-    ],
-    "checked": 1699109484
+    ]
   },
   {
     "url": "https://dloc.com/",
@@ -1310,14 +1305,14 @@
     "checked": 1699109879
   },
   {
-    "url": "https://dloc.com/results/?text=test",
+    "url": "https://dloc.com/results?q=test",
     "status": "301",
-    "redirect": "https://dloc.com/results/",
+    "redirect": "https://dloc.com/results",
     "title": "Digital Library of the Caribbean",
+    "checked": 1699407938,
     "pages": [
       "information"
-    ],
-    "checked": 1699109880
+    ]
   },
   {
     "url": "https://documentaryheaven.com/find/?q=test",
