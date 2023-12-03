@@ -1398,13 +1398,22 @@
     "checked": 1699109475
   },
   {
-    "url": "https://duckduckgo.com/bang",
+    "url": "https://duckduckgo.com/bangs",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "title": "DuckDuckGo !Bangs",
+    "checked": 1701634847,
     "pages": [
       "information"
-    ],
-    "checked": 1699109881
+    ]
+  },
+  {
+    "url": "https://duckduckgo.com/duckduckgo-help-pages/results/syntax/",
+    "status": "301",
+    "title": "How to use advanced syntax on DuckDuckGo Search | DuckDuckGo Help Pages",
+    "checked": 1701634847,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://duckduckgo.com/",
@@ -1424,15 +1433,6 @@
       "information"
     ],
     "checked": 1699109880
-  },
-  {
-    "url": "https://help.duckduckgo.com/results/syntax/",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109882
   },
   {
     "url": "https://www.eastview.com/",
@@ -1489,20 +1489,20 @@
     ]
   },
   {
-    "url": "https://www.einpresswire.com/",
+    "url": "https://world.einnews.com/search/test/?search%5B%5D=press&order=relevance&headlines_only=no&age=90",
     "status": "302",
-    "redirect": "https://www.einpresswire.com:443/",
-    "checked": 1699101717,
+    "redirect": "https://world.einnews.com:443/search/test/",
+    "title": "Search News Archive - World News Report - EIN Presswire",
+    "checked": 1701634847,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.einpresswire.com/search",
-    "status": "execution expired",
-    "redirect": "https://www.einpresswire.com:443/search",
-    "title": "Search Press Releases - EIN Presswire - Press Release Distribution Service",
-    "checked": 1699101712,
+    "url": "https://www.einpresswire.com/",
+    "status": "302",
+    "redirect": "https://www.einpresswire.com:443/",
+    "checked": 1699101717,
     "pages": [
       "information"
     ]
@@ -1739,13 +1739,12 @@
     "checked": 1699101801
   },
   {
-    "url": "https://search.findmypast.com/search/us-and-world-newspapers",
+    "url": "https://www.findmypast.com/search-newspapers",
     "status": "301",
-    "title": "Document Moved",
+    "checked": 1701634850,
     "pages": [
       "information"
-    ],
-    "checked": 1699109889
+    ]
   },
   {
     "url": "https://www.flaticon.com/",
@@ -1834,14 +1833,13 @@
     ]
   },
   {
-    "url": "https://www.foleon.com",
+    "url": "https://www.foleon.com/",
     "status": "301",
     "title": "Foleon",
-    "checked": 1699098637,
+    "checked": 1701634847,
     "pages": [
       "information"
-    ],
-    "redirect": "https://www.foleon.com/"
+    ]
   },
   {
     "url": "https://foter.com/search/instant/?q=test",
@@ -1891,24 +1889,23 @@
     "checked": 1699109522
   },
   {
-    "url": "http://www.freefullpdf.com/#gsc.q=test",
+    "url": "https://www.freefullpdf.com/#gsc.tab=0&gsc.q=test",
     "status": "301",
-    "checked": 1699099388,
+    "redirect": "https://www.freefullpdf.com/",
+    "title": "Find free PDF of scientific publications",
+    "checked": 1701634843,
     "pages": [
       "information"
-    ],
-    "redirect": "https://www.freefullpdf.com/",
-    "title": "301 Moved Permanently"
+    ]
   },
   {
-    "url": "http://www.freefullpdf.com/",
+    "url": "https://www.freefullpdf.com/",
     "status": "301",
-    "checked": 1699099383,
+    "title": "Find free PDF of scientific publications",
+    "checked": 1701634849,
     "pages": [
       "information"
-    ],
-    "redirect": "https://www.freefullpdf.com/",
-    "title": "301 Moved Permanently"
+    ]
   },
   {
     "url": "https://www.freeimages.com/",
@@ -2236,16 +2233,6 @@
     ]
   },
   {
-    "url": "https://groups.google.com/forum/#!forumsearch/test",
-    "status": "301",
-    "title": "Redirecting to Google Groups",
-    "pages": [
-      "group"
-    ],
-    "checked": 1699109487,
-    "redirect": "https://groups.google.com/forum/"
-  },
-  {
     "url": "https://groups.google.com/forum/#!search/test",
     "status": "301",
     "title": "Redirecting to Google Groups",
@@ -2264,6 +2251,15 @@
       "information"
     ],
     "checked": 1699109518
+  },
+  {
+    "url": "https://groups.google.com/search/groups?q=test",
+    "status": "301",
+    "redirect": "https://groups.google.com/search/groups",
+    "checked": 1701634850,
+    "pages": [
+      "group"
+    ]
   },
   {
     "url": "https://images.google.com/",
@@ -2505,20 +2501,10 @@
     ]
   },
   {
-    "url": "https://www.google.com/search?q=test%20site%3Agroupspaces.com",
+    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
     "status": "200",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test site:groupspaces.com - Google Search",
-    "pages": [
-      "group"
-    ],
-    "checked": 1699109488
-  },
-  {
-    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
-    "status": "200",
-    "title": "test site:wikihow.com OR site:reddit.com/r/howto OR site:instructables.com OR site:ehow.com OR site:howcast.com OR site:visihow.com OR site:howtodothings.com OR site:checkli.com OR site:checklist.com OR site:printabletodolist.com OR site:checklists.com - Google Search",
-    "checked": 1699101734,
+    "title": "test site:wikihow.com OR site:reddit.com/r/howto OR site:instructables.com OR site:ehow.com OR site:howcast.com OR site:visihow.com OR site:checkli.com OR site:checklist.com OR site:printabletodolist.com OR site:checklists.com - Google Search",
+    "checked": 1701634841,
     "pages": [
       "information"
     ]
@@ -2750,15 +2736,6 @@
     "checked": 1699110710
   },
   {
-    "url": "http://groupspaces.com/",
-    "status": "301",
-    "pages": [
-      "group"
-    ],
-    "checked": 1699109489,
-    "redirect": "https://groupspaces.com/"
-  },
-  {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
     "status": "Failed to open TCP connection to www.guinnessworldrecords.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
     "title": "Object moved",
@@ -2815,15 +2792,6 @@
     "checked": 1699101814
   },
   {
-    "url": "http://www.howtodothings.com/",
-    "status": "301",
-    "checked": 1699099073,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://www.howtodothings.com/"
-  },
-  {
     "url": "https://www.iconfinder.com/",
     "status": "301",
     "title": "7,875,000+ free and premium vector icons, illustrations and 3D illustrations",
@@ -2833,13 +2801,14 @@
     "checked": 1699109524
   },
   {
-    "url": "https://www.iconfinder.com/search/?price=free&q=test",
+    "url": "https://www.iconfinder.com/search?price=free&q=test",
     "status": "301",
-    "redirect": "https://www.iconfinder.com/search/",
+    "redirect": "https://www.iconfinder.com/search",
+    "title": "Free 307 test icons - Iconfinder",
+    "checked": 1701634913,
     "pages": [
       "image"
-    ],
-    "checked": 1699109525
+    ]
   },
   {
     "url": "https://www.iheart.com/",
@@ -2895,24 +2864,24 @@
     "checked": 1699109525
   },
   {
-    "url": "https://www.imsdb.com/",
+    "url": "https://imsdb.com/",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "redirect": "https://imsdb.com:443/",
+    "title": "The Internet Movie Script Database (IMSDb)",
+    "checked": 1701634999,
     "pages": [
       "video"
-    ],
-    "checked": 1699101815,
-    "redirect": "https://www.imsdb.com:443/"
+    ]
   },
   {
-    "url": "https://www.imsdb.com/search.php",
+    "url": "https://imsdb.com/search.php",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "redirect": "https://imsdb.com:443/search.php",
+    "title": "",
+    "checked": 1701634999,
     "pages": [
       "video"
-    ],
-    "checked": 1699101815,
-    "redirect": "https://www.imsdb.com:443/search.php"
+    ]
   },
   {
     "url": "https://journals.indexcopernicus.com/",
@@ -2951,22 +2920,21 @@
     "checked": 1699104933
   },
   {
-    "url": "http://www.indiepixfilms.com/",
+    "url": "https://indiepixfilms.com/",
     "status": "301",
+    "checked": 1701635154,
     "pages": [
       "video"
-    ],
-    "checked": 1699104934,
-    "redirect": "https://indiepixfilms.com/"
+    ]
   },
   {
-    "url": "http://www.indiepixfilms.com/search-results?type=all&id=test",
+    "url": "https://indiepixfilms.com/?s=test",
     "status": "301",
+    "redirect": "https://indiepixfilms.com/",
+    "checked": 1701635153,
     "pages": [
       "video"
-    ],
-    "checked": 1699104934,
-    "redirect": "http://indiepixfilms.com/search-results"
+    ]
   },
   {
     "url": "https://www.instagram.com/explore/tags/test/",

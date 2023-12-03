@@ -188,7 +188,7 @@
         },
         {
           "name": "IndiePix Films",
-          "searchUrl": "http://www.indiepixfilms.com/search-results?type=all&id={q}"
+          "searchUrl": "https://indiepixfilms.com/?s={q}"
         }
       ]
     },
@@ -564,7 +564,7 @@
         },
         {
           "name": "<abbr title=\"Internet Movie Script Database\">IMSDb</abbr>",
-          "searchUrl": "https://www.imsdb.com/search.php",
+          "searchUrl": "https://imsdb.com/search.php",
           "post": "search_query"
         },
         {

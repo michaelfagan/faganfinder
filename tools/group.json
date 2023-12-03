@@ -14,7 +14,7 @@
         },
         {
           "name": "Google Groups",
-          "searchUrl": "https://groups.google.com/forum/#!forumsearch/{q}"
+          "searchUrl": "https://groups.google.com/search/groups?q={q}"
         },
         {
           "name": "Yahoo! Groups",
@@ -61,10 +61,6 @@
         {
           "name": "Meetup",
           "searchUrl": "https://www.meetup.com/find/?keywords={q}"
-        },
-        {
-          "name": "GroupSpaces",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Agroupspaces.com"
         }
       ]
     },

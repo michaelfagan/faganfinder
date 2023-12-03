@@ -432,7 +432,7 @@
         },
         {
           "name": "Google how-to sites",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Ahowtodothings.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com"
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com"
         }
       ]
     },
@@ -604,7 +604,7 @@
         },
         {
           "name": "FreeFullPDF",
-          "searchUrl": "http://www.freefullpdf.com/#gsc.q={q}"
+          "searchUrl": "https://www.freefullpdf.com/#gsc.tab=0&gsc.q={q}"
         },
         {
           "name": "<abbr title=\"Directory of Open Access Journals\">DOAJ</abbr>",
@@ -1062,8 +1062,7 @@
         },
         {
           "name": "EIN Presswire",
-          "searchUrl": "https://www.einpresswire.com/search",
-          "post": "query"
+          "searchUrl": "https://world.einnews.com/search/{q}/?search%5B%5D=press&order=relevance&headlines_only=no&age=90"
         },
         {
           "name": "ReleaseWire",

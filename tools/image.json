@@ -209,7 +209,7 @@
         },
         {
           "name": "Iconfinder",
-          "searchUrl": "https://www.iconfinder.com/search/?price=free&q={q}"
+          "searchUrl": "https://www.iconfinder.com/search?price=free&q={q}"
         },
         {
           "name": "Classroom Clipart",

@@ -157,7 +157,6 @@ Grafiti
 Granth
 Grolier
 Groups.io
-GroupSpaces
 Gutefrage
 Haosou
 Hathi
