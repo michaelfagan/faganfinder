@@ -414,6 +414,10 @@
           "searchUrl": "https://medium.com/search?q={q}"
         },
         {
+          "name": "Substack",
+          "searchUrl": "https://substack.com/search/{q}?searching=all_posts"
+        },
+        {
           "name": "Wikidot",
           "searchUrl": "http://www.wikidot.com/search:all/a/pf/q/{q}"
         }
@@ -1139,6 +1143,10 @@
         {
           "name": "Google by site",
           "searchUrl": "https://www.google.com/search?q={q}+site%3Anewspapers.com+OR+site%3Anewspaperarchive.com"
+        },
+        {
+          "name": "OldNews",
+          "searchUrl": "https://www.oldnews.com/en/search?qkeyword={q}"
         },
         {
           "name": "Ancestry",

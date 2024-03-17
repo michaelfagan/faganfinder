@@ -71,10 +71,6 @@
           "searchUrl": "https://www.spreaker.com/search/show?query={q}"
         },
         {
-          "name": "InstantWatcher",
-          "searchUrl": "https://instantwatcher.com/podcasts/feeds?sort=popularity+desc&infinite=on&q={q}"
-        },
-        {
           "name": "PodSearch",
           "searchUrl": "https://podsearch.com/search?keyword={q}"
         }

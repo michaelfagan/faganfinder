@@ -546,7 +546,7 @@
         },
         {
           "name": "Kids-in-Mind",
-          "searchUrl": "https://kids-in-mind.com/?s={q}"
+          "searchUrl": "https://kids-in-mind.com/search-desktop.htm?fwp_keyword={q}"
         },
         {
           "name": "Bechdel Test",

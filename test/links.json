@@ -2955,26 +2955,6 @@
     "title": "Instagram"
   },
   {
-    "url": "https://instantwatcher.com/podcasts/feeds",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "listen"
-    ],
-    "checked": 1699109423,
-    "redirect": "https://www.instantwatcher.com/podcasts/feeds"
-  },
-  {
-    "url": "https://instantwatcher.com/podcasts/feeds?sort=popularity+desc&infinite=on&q=test",
-    "status": "301",
-    "redirect": "https://www.instantwatcher.com/podcasts/feeds",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "listen"
-    ],
-    "checked": 1699109423
-  },
-  {
     "url": "https://www.instructables.com/",
     "status": "301",
     "title": "Yours for the making - Instructables",
@@ -3135,13 +3115,14 @@
     "checked": 1699104939
   },
   {
-    "url": "https://kids-in-mind.com/?s=test",
+    "url": "https://kids-in-mind.com/search-desktop.htm?fwp_keyword=test",
     "status": "301",
-    "redirect": "https://kids-in-mind.com/",
+    "redirect": "https://kids-in-mind.com/search-desktop.htm",
+    "title": "Search By Ratings and Keywords | Parents&#039; Guide &amp; Review | Kids-In-Mind.com",
+    "checked": 1701636757,
     "pages": [
       "video"
-    ],
-    "checked": 1699104940
+    ]
   },
   {
     "url": "https://kiwiirc.com/",
@@ -3606,15 +3587,6 @@
     "checked": 1699098134
   },
   {
-    "url": "https://www.myheritage.com/research/category-8000/newspapers",
-    "status": "301",
-    "title": "Newspapers - MyHeritage",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098136
-  },
-  {
     "url": "https://www.mysciencework.com/",
     "status": "403",
     "title": "Just a moment...",
@@ -3821,6 +3793,24 @@
       "information"
     ],
     "checked": 1699098142
+  },
+  {
+    "url": "https://www.oldnews.com/en/search?qkeyword=test",
+    "status": "301",
+    "redirect": "https://www.oldnews.com/en/search",
+    "title": "Search results for    | OldNews.com",
+    "checked": 1710700246,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.oldnews.com/",
+    "status": "301",
+    "checked": 1710700247,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://onionlandsearchengine.com/",
@@ -5450,6 +5440,25 @@
       "listen"
     ],
     "checked": 1699109450
+  },
+  {
+    "url": "https://substack.com/",
+    "status": "301",
+    "title": "",
+    "checked": 1701637382,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://substack.com/search/test?searching=all_posts",
+    "status": "301",
+    "redirect": "https://substack.com/search/test",
+    "title": "",
+    "checked": 1701637382,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.supportgroups.com/online",
