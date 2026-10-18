@@ -252,6 +252,16 @@
       ]
     },
     {
+      "name": "Artificial Intelligence (Large language model chatbots)",
+      "shortName": "<abbr title=\"Artificial Intelligence\">AI</abbr> <abbr title=\"Large Language Models\">LLMs</abbr> ",
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "searchUrl": "https://chat.openai.com/?q={q}"
+        }
+      ]
+    },
+    {
       "name": "Miscellaneous",
       "tools": [
         {
@@ -682,6 +692,14 @@
           "searchUrl": "https://artsandculture.google.com/search?q={q}"
         },
         {
+          "name": "FamilySearch",
+          "searchUrl": "https://www.familysearch.org/en/search/full-text/results?q.text={q}"
+        },
+        {
+          "name": "FamilySearch <abbr>AI</abbr>",
+          "searchUrl": "https://www.familysearch.org/en/search/simple-search/results?nlQuery={q}"
+        },
+        {
           "name": "Africa Commons",
           "searchUrl": "https://africacommons.net/search/?q={q}"
         },
@@ -1090,6 +1108,10 @@
       "name": "Newspaper archives",
       "tools": [
         {
+          "name": "Elephind",
+          "searchUrl": "https://www.elephind.com/?txq={q}"
+        },
+        {
           "name": "Europeana full text <abbr title=\"newspapers\">news.</abbr>",
           "searchUrl": "https://www.europeana.eu/en/collections/topic/18-newspapers?query={q}"
         },
@@ -1115,7 +1137,7 @@
         },
         {
           "name": "Chronicling America",
-          "searchUrl": "https://chroniclingamerica.loc.gov/search/pages/results/?proxtext={q}"
+          "searchUrl": "https://www.loc.gov/collections/chronicling-america/?q={q}"
         },
         {
           "name": "<abbr title=\"Hemeroteca Nacional\" lang=\"es\">Hemeroteca</abbr> — México",

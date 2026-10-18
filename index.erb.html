@@ -31,12 +31,6 @@
       </nav>
     </header>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <div class="inner"><div id="adone">
-      <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2114379926"></ins>
-    </div></div>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-
     <form tabindex="-1" id="search" role="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
 
     <%
@@ -81,20 +75,11 @@
 
       <div class="highlight"><h2>Details and further resources</h2></div>
       <div id="details" class="inner">
-
-        <% if page.number_of_tools > 40 %>
-        <div id="adtwo">
-          <ins class="adsbygoogle" data-ad-client="ca-pub-0190441446071737" data-ad-slot="2428777527"></ins>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-        </div>
-        <% end %>
-
         <%=
           page.content.gsub('<section>').with_index do |m, i|
             i == 0 ? "<section><h3>Overview</h3>" : "<section tabindex=\"-1\" id=\"#{page.sections[i-1].id}\"><h3>#{page.sections[i-1].name}</h3>"
           end
         %>
-
       </div>
 
     </form>
@@ -110,7 +95,7 @@
             <a href="<%= site[:root] %>"><%= site[:name] %></a>
           <% end %>
           is a collection of tools to help you find anything online.
-          Follow updates on our <a href="<%= site[:root_old] %>/blog/">blog</a> and <a href="https://twitter.com/faganfinder">Twitter</a>.<br>
+          Follow updates on our <a href="<%= site[:root_old] %>/blog/">blog</a>.<br>
           Launched in 2001 and still run by Michael Fagan.
           Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>
@@ -125,19 +110,6 @@
             <%= other_page.description.internal %>
           </li>
         <% end %>
-        </ul>
-        <h3>Older pages</h3>
-        <ul>
-          <li><a href="<%= site[:root_old] %>audio/">Audio and music search</a></li>
-          <li><a href="<%= site[:root_old] %>filetype/">Search by file format</a></li>
-          <li><a href="<%= site[:root_old] %>geo/">Maps and geography search</a></li>
-          <li><a href="<%= site[:root_old] %>words/">Word reference</a></li>
-          <li><a href="<%= site[:root_old] %>bio/">Biography search</a></li>
-          <li><a href="<%= site[:root_old] %>urlinfo/">URLinfo</a></li>
-          <li><a href="<%= site[:root_old] %>translate/">Translation Wizard</a></li>
-          <li><a href="<%= site[:root_old] %>date/">Search by date</a></li>
-          <li><a href="<%= site[:root_old] %>quotes/">Quotation search</a></li>
-          <li><a href="<%= site[:root_old] %>search/rss.php">All about RSS</a></li>
         </ul>
       </section>
 

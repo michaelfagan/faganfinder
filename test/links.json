@@ -1112,6 +1112,14 @@
     "redirect": "https://www.cervantesvirtual.com/"
   },
   {
+    "url": "https://chatgpt.com/",
+    "status": "301",
+    "checked": 1763826008,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://checklist.com/",
     "status": "308",
     "title": "Checklist App &amp; Templates | 100% Free | Checklist.com",
@@ -1503,6 +1511,24 @@
     "status": "302",
     "redirect": "https://www.einpresswire.com:443/",
     "checked": 1699101717,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.elephind.com/",
+    "status": "403",
+    "title": "Just a moment...",
+    "checked": 1763826008,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.elephind.com/?txq=test",
+    "status": "403",
+    "title": "Just a moment...",
+    "checked": 1763825997,
     "pages": [
       "information"
     ]
@@ -3867,6 +3893,16 @@
     ],
     "checked": 1699109433,
     "redirect": "https://onlineradiobox.com/search"
+  },
+  {
+    "url": "https://chat.openai.com/?q=test",
+    "status": "308",
+    "redirect": "https://chatgpt.com/",
+    "title": "308 Permanent Redirect",
+    "checked": 1763825997,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "http://www.openculture.com/freeaudiobooks",
@@ -7107,13 +7143,14 @@
     "checked": 1699098506
   },
   {
-    "url": "https://chroniclingamerica.loc.gov/search/pages/results/?proxtext=test",
-    "status": "\"\\xC2\" from ASCII-8BIT to UTF-8",
-    "redirect": "https://chroniclingamerica.loc.gov/search/pages/results/",
+    "url": "https://www.loc.gov/collections/chronicling-america/?q=test",
+    "status": "301",
+    "redirect": "https://www.loc.gov/collections/chronicling-america/",
+    "title": "Chronicling America | The Library of Congress",
+    "checked": 1763826008,
     "pages": [
       "information"
-    ],
-    "checked": 1699098511
+    ]
   },
   {
     "url": "https://www.loc.gov/film-and-videos/",
@@ -8668,6 +8705,30 @@
       "information"
     ],
     "checked": 1699098126
+  },
+  {
+    "url": "https://www.familysearch.org/en/search/full-text/results?q.text=test",
+    "status": "403",
+    "checked": 1763825997,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.familysearch.org/en/search/simple-search/results?nlQuery=test",
+    "status": "403",
+    "checked": 1792116604,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.familysearch.org/",
+    "status": "403",
+    "checked": 1763826008,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://fultonsearch.org/",

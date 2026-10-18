@@ -65,6 +65,8 @@ CCFr
 Cengage
 Center
 CGP
+chatbots
+ChatGPT
 Checkli
 Checklists.com
 Chiebukuro
@@ -110,6 +112,7 @@ edocr
 eHow
 EHPS
 EIN
+Elephind
 eLib
 Elsevier
 EMM
@@ -123,6 +126,7 @@ Everypixel
 Exalead
 Fagan
 faganfinder.com
+FamilySearch
 Fandom
 FC2
 filmarchives
@@ -204,6 +208,7 @@ LibGuides
 LibriVox
 LinkedIn
 Lit2Go
+LLMs
 Locator.com
 Longform
 Longreads
@@ -389,7 +394,6 @@ Universalis
 Unpaywall
 Unsplash
 UOL
-URLinfo
 USA.gov
 Veoh
 Vid
