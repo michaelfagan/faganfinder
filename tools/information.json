@@ -290,8 +290,8 @@
           "searchUrl": "https://www.facebook.com/search/top/?q={q}"
         },
         {
-          "name": "Twitter",
-          "searchUrl": "https://twitter.com/search?q={q}"
+          "name": "X (Twitter)",
+          "searchUrl": "https://x.com/search?q={q}"
         },
         {
           "name": "Reddit",
@@ -686,6 +686,10 @@
         {
           "name": "World Digital Library",
           "searchUrl": "https://www.wdl.org/en/search/?q={q}"
+        },
+        {
+          "name": "History Commons",
+          "searchUrl": "https://history-commons.net/search/?q={q}"
         },
         {
           "name": "Google Arts &amp; Culture",
@@ -1109,7 +1113,7 @@
       "tools": [
         {
           "name": "Elephind",
-          "searchUrl": "https://www.elephind.com/?txq={q}"
+          "searchUrl": "https://www.elephind.com/?a=q&hs=1&r=1&results=1&txq={q}&qt=2"
         },
         {
           "name": "Europeana full text <abbr title=\"newspapers\">news.</abbr>",
@@ -1217,8 +1221,8 @@
           "searchUrl": "https://search.usa.gov/search?affiliate=usagov&query={q}"
         },
         {
-          "name": "MetaLib — <abbr>USA</abbr>",
-          "searchUrl": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682?func=quick-1-check1&mode=simple&group_number=000000438&find_request_1={q}"
+          "name": "DiscoverGov",
+          "searchUrl": "https://discover.gpo.gov/primo-explore/search?query=any,contains,{q}&tab=cgp_tab&search_scope=CGP&vid=GPO&offset=0"
         },
         {
           "name": "<abbr title=\"Catalog of U.S. Government Publications\">CGP</abbr> — <abbr>USA</abbr>",
@@ -1273,8 +1277,8 @@
           "searchUrl": "https://cse.google.com/cse?cx=006748068166572874491:55ez0c3j3ey&q={q}"
         },
         {
-          "name": "Global-Regulation",
-          "searchUrl": "https://www.global-regulation.com/search.php?&q={q}"
+          "name": "Regnet.Ai",
+          "searchUrl": "https://app.regnet.pro/search?q={q}"
         },
         {
           "name": "Policy Commons",

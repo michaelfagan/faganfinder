@@ -18,6 +18,14 @@
     ]
   },
   {
+    "url": "http://regnet.ai/",
+    "status": "405",
+    "checked": 1792371103,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.naa.gov.au/",
     "status": "Net::ReadTimeout with #<TCPSocket:(closed)>",
     "title": "Home page | naa.gov.au",
@@ -467,15 +475,6 @@
       "information"
     ],
     "checked": 1699109861
-  },
-  {
-    "url": "https://www.accessible.com/accessible/preLog",
-    "status": "200",
-    "title": "Accessible Archives | Search Login",
-    "checked": 1699324191,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://adage.com/creativity/search?search_phrase=test",
@@ -1516,19 +1515,19 @@
     ]
   },
   {
-    "url": "https://www.elephind.com/",
+    "url": "https://www.elephind.com/?a=q&hs=1&r=1&results=1&txq=test&qt=2",
     "status": "403",
     "title": "Just a moment...",
-    "checked": 1763826008,
+    "checked": 1792369452,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.elephind.com/?txq=test",
+    "url": "https://www.elephind.com/",
     "status": "403",
     "title": "Just a moment...",
-    "checked": 1763825997,
+    "checked": 1763826008,
     "pages": [
       "information"
     ]
@@ -2068,34 +2067,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://www.global-regulation.com/coverage.php",
-    "status": "301",
-    "title": "Database Coverage",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109894
-  },
-  {
-    "url": "https://www.global-regulation.com/",
-    "status": "301",
-    "title": "Global-Regulation Home Page",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109893
-  },
-  {
-    "url": "https://www.global-regulation.com/search.php?&q=test",
-    "status": "301",
-    "title": "Search Results for \"test\"",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109892,
-    "redirect": "https://www.global-regulation.com/search.php"
   },
   {
     "url": "https://www.globenewswire.com/NewsRoom",
@@ -5896,18 +5867,9 @@
     "status": "301",
     "pages": [
       "image",
-      "information",
       "video"
     ],
     "checked": 1699109401
-  },
-  {
-    "url": "https://twitter.com/search-advanced",
-    "status": "301",
-    "checked": 1699109457,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://twitter.com/search?f=image&q=test",
@@ -5926,24 +5888,6 @@
       "video"
     ],
     "checked": 1699109370
-  },
-  {
-    "url": "https://twitter.com/search?q=test",
-    "status": "301",
-    "redirect": "https://twitter.com/search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098343
-  },
-  {
-    "url": "https://developer.twitter.com/en/docs/tweets/rules-and-filtering/overview/standard-operators",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098343,
-    "title": "301 Moved Permanently"
   },
   {
     "url": "https://www.universitypressscholarship.com/",
@@ -6347,6 +6291,40 @@
       "video"
     ],
     "checked": 1699101821
+  },
+  {
+    "url": "https://x.com/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1792365752,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://x.com/search-advanced",
+    "status": "301",
+    "checked": 1792365752,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://x.com/search?q=test",
+    "status": "301",
+    "redirect": "https://x.com/search",
+    "checked": 1792365750,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://docs.x.com/x-api/posts/search/integrate/operators",
+    "status": "308",
+    "title": "Search Operators - X",
+    "checked": 1792365752,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://answers.yahoo.com/",
@@ -7115,21 +7093,19 @@
     ]
   },
   {
-    "url": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682?func=quick-1-check1&mode=simple&group_number=000000438&find_request_1=test",
+    "url": "https://discover.gpo.gov/primo-explore/search?query=any,contains,test&tab=cgp_tab&search_scope=CGP&vid=GPO&offset=0",
     "status": "302",
-    "redirect": "https://metalib.gpo.gov/V/YN7D3U9CI1D7DLAB5EP851PP98QPLXHEC4P49JUAUG51218VHB-00682",
-    "title": "MetaLib&#174; - Basic",
-    "checked": 1699101644,
+    "redirect": "https://discover.gpo.gov/primo-explore/search",
+    "checked": 1792369308,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "http://metalib.gpo.gov/",
+    "url": "https://discover.gpo.gov/primo-explore/search?vid=GPO",
     "status": "302",
-    "redirect": "https://metalib.gpo.gov/",
-    "title": "302 Found",
-    "checked": 1699101644,
+    "redirect": "https://discover.gpo.gov/primo-explore/search",
+    "checked": 1792369309,
     "pages": [
       "information"
     ]
@@ -7792,6 +7768,24 @@
     "status": "\"\\xC3\" from ASCII-8BIT to UTF-8",
     "redirect": "https://www.gutefrage.net/search",
     "checked": 1699098626,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://history-commons.net/",
+    "status": "403",
+    "title": "Just a moment...",
+    "checked": 1792370366,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://history-commons.net/search/?q=test",
+    "status": "403",
+    "title": "Just a moment...",
+    "checked": 1792370366,
     "pages": [
       "information"
     ]
@@ -9866,6 +9860,16 @@
     ],
     "checked": 1699109393,
     "redirect": "https://tune.pk/thank-you/"
+  },
+  {
+    "url": "https://app.regnet.pro/search?q=test",
+    "status": "301",
+    "redirect": "https://app.regnet.pro/search",
+    "title": "Regnet",
+    "checked": 1792369309,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.infopedia.pt/",

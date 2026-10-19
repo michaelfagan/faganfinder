@@ -95,6 +95,7 @@ del
 Deutsche
 DeviantArt
 Digitale
+DiscoverGov
 DLME
 dLOC
 DOAJ
@@ -222,7 +223,6 @@ MeFeedia
 Metabase
 Metacafe
 Metacritic
-MetaLib
 mibbit
 michael
 microblogging
@@ -322,6 +322,7 @@ recency
 Reddit
 Rede
 Reelgood
+Regnet.Ai
 ReleaseWire
 ResearchGate
 RSS
