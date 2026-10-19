@@ -1,5 +1,24 @@
 [
   {
+    "url": "https://claude.ai/",
+    "status": "301",
+    "title": "Just a moment...",
+    "checked": 1792373732,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://claude.ai/new?q=test",
+    "status": "301",
+    "redirect": "https://claude.ai/new",
+    "title": "Just a moment...",
+    "checked": 1792373731,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://app.dimensions.ai/discover/publication",
     "status": "202",
     "redirect": "https://app.dimensions.ai:443/discover/publication",
@@ -13,6 +32,25 @@
     "status": "202",
     "redirect": "https://app.dimensions.ai:443/discover/publication",
     "checked": 1699099074,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.perplexity.ai/",
+    "status": "301",
+    "title": "Perplexity",
+    "checked": 1792373732,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.perplexity.ai/search?q=test",
+    "status": "302",
+    "redirect": "/",
+    "title": "301 Moved Permanently",
+    "checked": 1792373732,
     "pages": [
       "information"
     ]
@@ -1119,6 +1157,15 @@
     ]
   },
   {
+    "url": "https://chatgpt.com/?q=test",
+    "status": "301",
+    "redirect": "https://chatgpt.com/",
+    "checked": 1792373731,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://checklist.com/",
     "status": "308",
     "title": "Checklist App &amp; Templates | 100% Free | Checklist.com",
@@ -1260,6 +1307,23 @@
     "redirect": "https://www.deepdyve.com:443/search",
     "title": "test | DeepDyve",
     "checked": 1699099343,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://chat.deepseek.com/",
+    "status": "301",
+    "checked": 1792373871,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://chat.deepseek.com/?q=test",
+    "status": "301",
+    "redirect": "https://chat.deepseek.com/",
+    "checked": 1792373871,
     "pages": [
       "information"
     ]
@@ -2230,6 +2294,14 @@
     ]
   },
   {
+    "url": "https://gemini.google.com/app",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1792373732,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://groups.google.com/forum/#!search/test",
     "status": "301",
     "title": "Redirecting to Google Groups",
@@ -2697,6 +2769,22 @@
     "checked": 1699109909
   },
   {
+    "url": "https://www.google.com/search?udm=14&q=test",
+    "status": "200",
+    "checked": 1792373731,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.google.com/search?udm=50&aep=11&q=test",
+    "status": "200",
+    "checked": 1792373731,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.google.com/slides/about/",
     "status": "200",
     "checked": 1699098636,
@@ -2731,6 +2819,25 @@
       "information"
     ],
     "checked": 1699110710
+  },
+  {
+    "url": "https://grok.com/",
+    "status": "301",
+    "title": "Grok",
+    "checked": 1792373733,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://grok.com/?q=test",
+    "status": "301",
+    "redirect": "https://grok.com/",
+    "title": "Grok",
+    "checked": 1792373732,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
@@ -3864,16 +3971,6 @@
     ],
     "checked": 1699109433,
     "redirect": "https://onlineradiobox.com/search"
-  },
-  {
-    "url": "https://chat.openai.com/?q=test",
-    "status": "308",
-    "redirect": "https://chatgpt.com/",
-    "title": "308 Permanent Redirect",
-    "checked": 1763825997,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "http://www.openculture.com/freeaudiobooks",
@@ -7545,21 +7642,23 @@
     ]
   },
   {
-    "url": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any=test",
-    "status": "\"\\xE7\" from ASCII-8BIT to UTF-8",
-    "redirect": "https://iss.ndl.go.jp/books",
+    "url": "https://ndlsearch.ndl.go.jp/en/",
+    "status": "301",
+    "title": "NDL Search",
+    "checked": 1792372147,
     "pages": [
       "information"
-    ],
-    "checked": 1699098586
+    ]
   },
   {
-    "url": "https://iss.ndl.go.jp/",
-    "status": "\"\\xE5\" from ASCII-8BIT to UTF-8",
+    "url": "https://ndlsearch.ndl.go.jp/en/search?cs=bib&display=panel&from=0&size=20&keyword=test&f-ht=ndl&f-ht=library",
+    "status": "301",
+    "redirect": "https://ndlsearch.ndl.go.jp/en/search",
+    "title": "Search results for test | NDL Search | National Diet Library",
+    "checked": 1792372147,
     "pages": [
       "information"
-    ],
-    "checked": 1699098578
+    ]
   },
   {
     "url": "https://kotobank.jp/dictionary/",

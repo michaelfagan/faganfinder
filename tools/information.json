@@ -9,6 +9,10 @@
       "name": "Search engines",
       "tools": [
         {
+          "name": "Google — no AI",
+          "searchUrl": "https://www.google.com/search?udm=14&q={q}"
+        },
+        {
           "name": "Google",
           "searchUrl": "https://www.google.com/search?q={q}"
         },
@@ -257,7 +261,27 @@
       "tools": [
         {
           "name": "ChatGPT",
-          "searchUrl": "https://chat.openai.com/?q={q}"
+          "searchUrl": "https://chatgpt.com/?q={q}"
+        },
+        {
+          "name": "Claude",
+          "searchUrl": "https://claude.ai/new?q={q}"
+        },
+        {
+          "name": "Gemini",
+          "searchUrl": "https://www.google.com/search?udm=50&aep=11&q={q}"
+        },
+        {
+          "name": "Grok",
+          "searchUrl": "https://grok.com/?q={q}"
+        },
+        {
+          "name": "Perplexity",
+          "searchUrl": "https://www.perplexity.ai/search?q={q}"
+        },
+        {
+          "name": "DeepSeek",
+          "searchUrl": "https://chat.deepseek.com/?q={q}"
         }
       ]
     },
@@ -901,7 +925,7 @@
         },
         {
           "name": "<abbr title=\"National\">Nat.</abbr> Diet <abbr title=\"Library\">Lib.</abbr> — Japan",
-          "searchUrl": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any={q}"
+          "searchUrl": "https://ndlsearch.ndl.go.jp/en/search?cs=bib&display=panel&from=0&size=20&keyword={q}&f-ht=ndl&f-ht=library"
         },
         {
           "name": "South Asia Commons",
