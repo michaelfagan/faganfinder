@@ -904,6 +904,10 @@
           "searchUrl": "https://iss.ndl.go.jp/books?ar=4e1f&trans=en_ja_jserver&op_id=1&any={q}"
         },
         {
+          "name": "South Asia Commons",
+          "searchUrl": "https://southasiacommons.net/search/?q={q}"
+        },
+        {
           "name": "<abbr title=\"National Digital Library\">NDL</abbr> — India",
           "searchUrl": "https://ndl.iitkgp.ac.in/result?q={%22t%22:%22search%22,%22k%22:%22{q}%22,%22s%22:[],%22b%22:{%22filters%22:[]}}"
         },
