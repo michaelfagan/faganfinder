@@ -516,7 +516,7 @@
         },
         {
           "name": "Z-Library books",
-          "searchUrl": "https://zlibrary-ca.se/fulltext/{q}/?type=words"
+          "searchUrl": "https://z-lib.sk/fulltext/{q}/?type=words"
         },
         {
           "name": "<abbr title=\"Archive of Our Own\">AO3</abbr>",

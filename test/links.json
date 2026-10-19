@@ -9952,6 +9952,14 @@
     "checked": 1699109656
   },
   {
+    "url": "https://annas-archive.pk/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1792375699,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://tune.pk/search?query=test",
     "status": "404",
     "redirect": "https://tune.pk/search",
@@ -10204,20 +10212,19 @@
     ]
   },
   {
-    "url": "https://singlelogin.se/",
-    "status": "301",
-    "title": "Z-Library Project",
-    "checked": 1699110839,
+    "url": "https://z-lib.sk/fulltext/test/?type=words",
+    "status": "503",
+    "title": "307 Temporary Redirect",
+    "checked": 1792375696,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://zlibrary-ca.se/fulltext/test/?type=words",
-    "status": "301",
-    "redirect": "https://zlibrary-ca.se/fulltext/test/",
-    "title": "FullText search",
-    "checked": 1699110838,
+    "url": "https://z-lib.sk/",
+    "status": "503",
+    "title": "307 Temporary Redirect",
+    "checked": 1792375697,
     "pages": [
       "information"
     ]
