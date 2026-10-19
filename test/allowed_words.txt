@@ -107,7 +107,6 @@ Dreamstime
 DuckDuckGo
 ebooks
 EBSCO
-EBSCOhost
 Echosim.io
 Ecosia
 edocr

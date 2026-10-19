@@ -682,6 +682,10 @@
           "searchUrl": "https://www.jstor.org/action/doBasicSearch?Query={q}"
         },
         {
+          "name": "EBSCO",
+          "searchUrl": "https://research.ebsco.com/c/cvcycr/search/results?q={q}&autocorrect=y&expanders=fullText&expanders=concept&limiters=None&searchMode=all&searchSegment=all-results&p=1&skipResultsFetch=true"
+        },
+        {
           "name": "<abbr title=\"University\">Univ.</abbr> Press Scholarship",
           "searchUrl": "https://www.universitypressscholarship.com/search?q={q}"
         }

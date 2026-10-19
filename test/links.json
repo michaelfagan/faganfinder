@@ -1524,14 +1524,29 @@
     "checked": 1699109883
   },
   {
-    "url": "http://search.ebscohost.com/login.aspx?authtype=guest&custid=s6406031&profile=eds&groupid=main",
+    "url": "https://research.ebsco.com/c/cvcycr/search/results?q=test&autocorrect=y&expanders=fullText&expanders=concept&limiters=None&searchMode=all&searchSegment=all-results&p=1&skipResultsFetch=true",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "redirect": "https://research.ebsco.com/c/cvcycr/search/results",
+    "checked": 1792377361,
     "pages": [
       "information"
-    ],
-    "checked": 1699109882,
-    "redirect": "https://search.ebscohost.com:443/login.aspx"
+    ]
+  },
+  {
+    "url": "https://research.ebsco.com/c/cvcycr/search",
+    "status": "301",
+    "checked": 1792377362,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://research.ebsco.com/c/ylm4lv/search",
+    "status": "301",
+    "checked": 1792377362,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.edocr.com/",
