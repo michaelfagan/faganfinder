@@ -607,6 +607,25 @@
     "checked": 1699109871
   },
   {
+    "url": "https://andisearch.com/",
+    "status": "308",
+    "title": "Andi - AI Search for the Next Generation",
+    "checked": 1792855021,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://andisearch.com/?query=test",
+    "status": "308",
+    "redirect": "https://andisearch.com/",
+    "title": "Andi - AI Search for the Next Generation",
+    "checked": 1792855021,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.answers.com/",
     "status": "301",
     "title": "Answers - The Most Trusted Place for Answering Life&#039;s Questions",
@@ -1269,20 +1288,18 @@
     "checked": 1699098370
   },
   {
-    "url": "https://public.credoreference.com/",
+    "url": "https://search.credoreference.com/",
     "status": "301",
-    "title": "Home - Credo Reference",
-    "checked": 1699407939,
+    "checked": 1792851883,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://public.credoreference.com/search/all?searchPhrase=test",
+    "url": "https://search.credoreference.com/search?q=test",
     "status": "301",
-    "redirect": "https://public.credoreference.com/search/all",
-    "title": "Search - Credo Reference",
-    "checked": 1699407938,
+    "redirect": "https://search.credoreference.com/search",
+    "checked": 1792851883,
     "pages": [
       "information"
     ]
@@ -2848,14 +2865,14 @@
     "checked": 1699110710
   },
   {
-    "url": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term=test",
-    "status": "Failed to open TCP connection to www.guinnessworldrecords.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "redirect": "https://www.guinnessworldrecords.com/search/applicationrecordsearch",
-    "title": "Object moved",
+    "url": "https://www.guinnessworldrecords.com/search?term=test&page=1&type=record&max=20&partial=_Results&",
+    "status": "301",
+    "redirect": "https://www.guinnessworldrecords.com/search",
+    "title": "Search | Guinness World Records",
+    "checked": 1792853842,
     "pages": [
       "information"
-    ],
-    "checked": 1699110710
+    ]
   },
   {
     "url": "https://www.hoopladigital.com/",
@@ -3437,6 +3454,25 @@
       "video"
     ],
     "checked": 1699104939
+  },
+  {
+    "url": "https://marginalia-search.com/",
+    "status": "301",
+    "title": "Marginalia Search",
+    "checked": 1792860740,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://marginalia-search.com/search?query=test",
+    "status": "301",
+    "redirect": "https://marginalia-search.com/search",
+    "title": "test - Marginalia Search",
+    "checked": 1792862997,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://mawdoo3.com/%D8%AE%D8%A7%D8%B5:%D8%A8%D8%AD%D8%AB_%D9%85%D9%88%D8%B6%D9%88%D8%B9?q=test",
@@ -4942,23 +4978,6 @@
     "checked": 1699104951
   },
   {
-    "url": "https://go.scholastic.com/index.html",
-    "status": "301",
-    "checked": 1699099347,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://go.scholastic.com/search.html?q=test",
-    "status": "301",
-    "redirect": "https://go.scholastic.com/search.html",
-    "checked": 1699099346,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.schooltube.com/esearch/search?keyword=test",
     "status": "301",
     "redirect": "https://www.schooltube.com/esearch/search",
@@ -5225,25 +5244,6 @@
       "information"
     ],
     "checked": 1699098336
-  },
-  {
-    "url": "https://www.social-searcher.com/",
-    "status": "301",
-    "title": "Social Searcher - Free Social Media Search Engine",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098337
-  },
-  {
-    "url": "https://www.social-searcher.com/social-buzz/?q5=test",
-    "status": "301",
-    "redirect": "https://www.social-searcher.com/social-buzz/",
-    "title": "  Social Buzz &#8211; Free Social Mentions Search and Monitoring",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098338
   },
   {
     "url": "https://opendata.socrata.com/",
@@ -8120,16 +8120,6 @@
     "redirect": "https://www.ala.org/rt/godort/taskforces/internationaldocuments/idtf/igo-search"
   },
   {
-    "url": "https://docs.alephdata.org/guide/search",
-    "status": "301",
-    "checked": 1699101740,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://docs.aleph.occrp.org/guide/search",
-    "title": "301 Moved Permanently"
-  },
-  {
     "url": "http://www.aodl.org/contributors.php",
     "status": "200",
     "title": "Contributors | AODL",
@@ -8971,6 +8961,26 @@
     ]
   },
   {
+    "url": "https://mwmbl.org/",
+    "status": "301",
+    "redirect": "https://mwmbl.org:443/",
+    "title": "MWMBL",
+    "checked": 1792862998,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://mwmbl.org/search?q=test",
+    "status": "301",
+    "redirect": "https://mwmbl.org:443/search",
+    "title": "test - MWMBL",
+    "checked": 1792862998,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://digitalcollections.nypl.org/",
     "status": "301",
     "title": "NYPL Digital Collections",
@@ -9003,6 +9013,23 @@
     "status": "308",
     "redirect": "https://aleph.occrp.org/search",
     "checked": 1699101739,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://docs.aleph.occrp.org/users/search/basics/",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1792853842,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://requests.occrp.org/register",
+    "status": "301",
+    "title": "301 Moved Permanently",
+    "checked": 1792853842,
     "pages": [
       "information"
     ]

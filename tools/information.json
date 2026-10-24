@@ -37,8 +37,16 @@
           "searchUrl": "https://www.mojeek.com/search?q={q}"
         },
         {
+          "name": "Marginalia",
+          "searchUrl": "https://marginalia-search.com/search?query={q}"
+        },
+        {
           "name": "Kagi",
           "searchUrl": "https://kagi.com/search?q={q}"
+        },
+        {
+          "name": "MWMBL",
+          "searchUrl": "https://mwmbl.org/search?q={q}"
         }
       ]
     },
@@ -140,15 +148,11 @@
         },
         {
           "name": "Credo <abbr title=\"Reference\">Ref.</abbr> — paid",
-          "searchUrl": "https://public.credoreference.com/search/all?searchPhrase={q}"
+          "searchUrl": "https://search.credoreference.com/search?q={q}"
         },
         {
           "name": "Oxford <abbr title=\"Reference\">Ref.</abbr> — paid",
           "searchUrl": "https://www.oxfordreference.com/search?q={q}"
-        },
-        {
-          "name": "Scholastic GO! — paid",
-          "searchUrl": "https://go.scholastic.com/search.html?q={q}"
         }
       ]
     },
@@ -261,6 +265,10 @@
         {
           "name": "DeepSeek",
           "searchUrl": "https://chat.deepseek.com/?q={q}"
+        },
+        {
+          "name": "Andi",
+          "searchUrl": "https://andisearch.com/?query={q}"
         }
       ]
     },
@@ -281,7 +289,7 @@
         },
         {
           "name": "<abbr title=\"Guinness World Records\">Guinness Records</abbr>",
-          "searchUrl": "https://www.guinnessworldrecords.com/search/applicationrecordsearch?term={q}"
+          "searchUrl": "https://www.guinnessworldrecords.com/search?term={q}&page=1&type=record&max=20&partial=_Results&"
         }
       ]
     },
@@ -319,10 +327,6 @@
         {
           "name": "BoardReader",
           "searchUrl": "https://boardreader.com/s/{q}.html"
-        },
-        {
-          "name": "Social Searcher",
-          "searchUrl": "https://www.social-searcher.com/social-buzz/?q5={q}"
         }
       ]
     },
