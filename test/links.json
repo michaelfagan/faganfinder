@@ -1029,14 +1029,6 @@
     "checked": 1699101795
   },
   {
-    "url": "https://biznar.com/biznar/desktop/en/search.html",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098534
-  },
-  {
     "url": "https://boardreader.com/",
     "status": "301",
     "title": "Boardreader - Forum Search Engine",
@@ -1640,23 +1632,6 @@
     "checked": 1699109477
   },
   {
-    "url": "http://www.exalead.com/search/web/",
-    "status": "200",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109884
-  },
-  {
-    "url": "http://www.exalead.com/search/web/results/?q=test",
-    "status": "302",
-    "redirect": "http://www.exalead.com/search/web/",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109885
-  },
-  {
     "url": "https://www.exalead.com/search/web/search-syntax/",
     "status": "200",
     "title": "Web Search Syntax - Exalead",
@@ -2139,10 +2114,10 @@
     ]
   },
   {
-    "url": "https://github.com/search?type=Code&q=test",
-    "status": "301",
+    "url": "https://github.com/search?type=code&q=test",
+    "status": "\"\\xC2\" from ASCII-8BIT to UTF-8",
     "redirect": "https://github.com/search",
-    "checked": 1699101736,
+    "checked": 1792804020,
     "pages": [
       "information"
     ]
@@ -2724,16 +2699,6 @@
     "checked": 1699101814
   },
   {
-    "url": "https://www.google.com/search?tbs=li:1&q=test",
-    "status": "200",
-    "redirect": "http://www.google.com/webhp",
-    "title": "test - Google Search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109908
-  },
-  {
     "url": "https://www.google.com/search?tbs=qdr:d&q=test",
     "status": "200",
     "redirect": "http://www.google.com/webhp",
@@ -2784,9 +2749,9 @@
     "checked": 1699109909
   },
   {
-    "url": "https://www.google.com/search?udm=14&q=test",
+    "url": "https://www.google.com/search?udm=14&tbs=li:1&q=test",
     "status": "200",
-    "checked": 1792373731,
+    "checked": 1792804019,
     "pages": [
       "information"
     ]
@@ -3225,6 +3190,25 @@
     "checked": 1699104936
   },
   {
+    "url": "https://kagi.com/",
+    "status": "301",
+    "redirect": "https://kagi.com:443/",
+    "title": "Kagi - Reclaim the Web &amp; Restore Your Privacy",
+    "checked": 1792806887,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://kagi.com/search?q=test",
+    "status": "301",
+    "redirect": "https://kagi.com:443/search",
+    "checked": 1792806887,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://kids-in-mind.com/",
     "status": "301",
     "title": "Kids-In-Mind.com | Parents&#039; Movie Guide, Ratings and Reviews",
@@ -3584,33 +3568,6 @@
     ],
     "checked": 1699098133,
     "redirect": "https://help.bing.microsoft.com/"
-  },
-  {
-    "url": "https://millionshort.com/",
-    "status": "301",
-    "title": "Million Short - Ad Free, Premium Search Engine",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098133
-  },
-  {
-    "url": "https://millionshort.com/search?remove=10000&keywords=test",
-    "status": "301",
-    "redirect": "https://millionshort.com/search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098133
-  },
-  {
-    "url": "https://millionshort.com/search?shopping=y&keywords=test",
-    "status": "301",
-    "redirect": "https://millionshort.com/search",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098133
   },
   {
     "url": "https://www.mixcloud.com/",
@@ -4111,24 +4068,6 @@
       "information"
     ],
     "checked": 1699098209
-  },
-  {
-    "url": "https://peekier.com/#!test",
-    "status": "301",
-    "redirect": "https://kagi.com/",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098206
-  },
-  {
-    "url": "https://peekier.com/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098205,
-    "redirect": "https://kagi.com/"
   },
   {
     "url": "https://www.peteyvid.com/",
@@ -5461,11 +5400,11 @@
     ]
   },
   {
-    "url": "https://www.startpage.com/sp/search",
-    "status": "307",
-    "redirect": "https://startpage.com/sp/search",
+    "url": "https://www.startpage.com/sp/search?query=test",
+    "status": "301",
+    "redirect": "https://www.startpage.com:443/sp/search",
     "title": "Redirecting...",
-    "checked": 1699098936,
+    "checked": 1792806887,
     "pages": [
       "information"
     ]
@@ -6588,24 +6527,6 @@
       "video"
     ],
     "checked": 1699101825
-  },
-  {
-    "url": "https://www.yippy.com/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110716,
-    "redirect": "https://yippy.com/"
-  },
-  {
-    "url": "https://www.yippy.com/search?query=test",
-    "status": "301",
-    "redirect": "https://yippy.com/",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110716
   },
   {
     "url": "https://so.youku.com/search_video/q_test",
@@ -10245,6 +10166,15 @@
     ]
   },
   {
+    "url": "https://searx.space/",
+    "status": "302",
+    "title": "SearXNG instances",
+    "checked": 1792807674,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://noti.st/",
     "status": "301",
     "checked": 1699098636,
@@ -10580,15 +10510,5 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://stats.searx.xyz/",
-    "status": "302",
-    "title": "Loading...",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110821,
-    "redirect": "http://survey-smiles.com"
   }
 ]

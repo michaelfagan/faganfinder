@@ -45,7 +45,6 @@ Bibliothek
 Bibliothèque
 Bielefeld
 Bing
-Biznar
 BNDigital
 BnF
 BoardReader
@@ -200,6 +199,7 @@ JournalSeek
 JSTOR
 JURN
 JustWatch
+Kagi
 Karlsruhe
 Knoema
 Kobo
@@ -214,7 +214,6 @@ Locator.com
 Longform
 Longreads
 Luso
-M.S
 Mail.ru
 Mawdoo3
 Meetup

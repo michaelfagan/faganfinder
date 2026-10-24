@@ -9,16 +9,12 @@
       "name": "Search engines",
       "tools": [
         {
-          "name": "Google — no AI",
-          "searchUrl": "https://www.google.com/search?udm=14&q={q}"
+          "name": "Google no AI, verbatim",
+          "searchUrl": "https://www.google.com/search?udm=14&tbs=li:1&q={q}"
         },
         {
           "name": "Google",
           "searchUrl": "https://www.google.com/search?q={q}"
-        },
-        {
-          "name": "Google — verbatim",
-          "searchUrl": "https://www.google.com/search?tbs=li:1&q={q}"
         },
         {
           "name": "Bing",
@@ -33,12 +29,12 @@
           "searchUrl": "https://www.qwant.com/?q={q}"
         },
         {
-          "name": "Exalead",
-          "searchUrl": "http://www.exalead.com/search/web/results/?q={q}"
-        },
-        {
           "name": "Mojeek",
           "searchUrl": "https://www.mojeek.com/search?q={q}"
+        },
+        {
+          "name": "Kagi",
+          "searchUrl": "https://kagi.com/search?q={q}"
         }
       ]
     },
@@ -60,28 +56,11 @@
         },
         {
           "name": "Startpage",
-          "searchUrl": "https://www.startpage.com/sp/search",
-          "post": "query"
-        },
-        {
-          "name": "Peekier",
-          "searchUrl": "https://peekier.com/#!{q}"
+          "searchUrl": "https://www.startpage.com/sp/search?query={q}"
         },
         {
           "name": "Swisscows",
           "searchUrl": "https://swisscows.com/web?&query={q}"
-        },
-        {
-          "name": "Yippy",
-          "searchUrl": "https://www.yippy.com/search?query={q}"
-        },
-        {
-          "name": "Million Short",
-          "searchUrl": "https://millionshort.com/search?remove=10000&keywords={q}"
-        },
-        {
-          "name": "<abbr title=\"Million Short\">M.S.</abbr> non-commercial",
-          "searchUrl": "https://millionshort.com/search?shopping=y&keywords={q}"
         }
       ]
     },
@@ -293,8 +272,8 @@
           "searchUrl": "https://search.wikileaks.org/?q={q}"
         },
         {
-          "name": "GitHub files",
-          "searchUrl": "https://github.com/search?type=Code&q={q}"
+          "name": "GitHub code",
+          "searchUrl": "https://github.com/search?type=code&q={q}"
         },
         {
           "name": "<abbr title=\"Organized Crime and Corruption Reporting Project\">OCCRP</abbr> Aleph",
