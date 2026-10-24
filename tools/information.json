@@ -29,6 +29,10 @@
           "searchUrl": "https://www.qwant.com/?q={q}"
         },
         {
+          "name": "Brave",
+          "searchUrl": "https://search.brave.com/search?q={q}"
+        },
+        {
           "name": "Mojeek",
           "searchUrl": "https://www.mojeek.com/search?q={q}"
         },
@@ -95,10 +99,6 @@
         {
           "name": "<span lang=\"vi\">Cốc Cốc</span> — Vietnam",
           "searchUrl": "https://coccoc.com/search?query={q}"
-        },
-        {
-          "name": "Pipilika — Bangladesh",
-          "searchUrl": "https://www.pipilika.com/search?q={q}"
         },
         {
           "name": "Seznam — Czechia",

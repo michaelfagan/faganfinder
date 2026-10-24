@@ -1066,6 +1066,25 @@
     "checked": 1699109877
   },
   {
+    "url": "https://search.brave.com/",
+    "status": "301",
+    "title": "Brave Search",
+    "checked": 1792810491,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://search.brave.com/search?q=test",
+    "status": "301",
+    "redirect": "https://search.brave.com/search",
+    "title": "Brave Search",
+    "checked": 1792810491,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.britannica.com/",
     "status": "301",
     "title": "Encyclopedia Britannica | Britannica",
@@ -4223,25 +4242,6 @@
       "information"
     ],
     "checked": 1699098207
-  },
-  {
-    "url": "https://www.pipilika.com/",
-    "status": "execution expired",
-    "title": "পিপীলিকা (বাংলা সার্চ ইঞ্জিন)",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098433
-  },
-  {
-    "url": "https://www.pipilika.com/search?q=test",
-    "status": "execution expired",
-    "redirect": "https://www.pipilika.com/search",
-    "title": "পিপীলিকা (বাংলা সার্চ ইঞ্জিন)",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098493
   },
   {
     "url": "https://pixabay.com/en/videos/list/?image_type=video&q=test",
