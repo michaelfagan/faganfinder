@@ -19,16 +19,7 @@
 
     <header class="highlight">
       <h1><%= site[:name] %><%= page.path.empty? ? '' : (': ' + page.id.capitalize + ' search') %></h1>
-      <nav>
-        <ul>
-        <% pages.reject{|p| p.id == page.id }.sort{|a,b| b.tools <=> a.tools }.each do |other_page| %>
-          <li>
-            <a href="<%= site[:root] %><%= other_page.path %>" title="<%= other_page.description.internal %>"><%= other_page.id.capitalize %> search</a>
-          </li>
-        <% end %>
-          <li><a id="about" href="#footer">About</a></li>
-        </ul>
-      </nav>
+      <a id="about" href="#footer" style="position:fixed;top:0.7rem;right:0.7rem">About</a>
     </header>
 
     <form tabindex="-1" id="search" role="search" action="<%= site[:root] %>search.php" target="_blank" method="post">
@@ -94,23 +85,11 @@
           <% else %>
             <a href="<%= site[:root] %>"><%= site[:name] %></a>
           <% end %>
-          is a collection of tools to help you find anything online.
+          helps you find anything.
           Follow updates on our <a href="<%= site[:root_old] %>/blog/">blog</a>.<br>
           Launched in 2001 and still run by Michael Fagan.
           Send suggestions to <a href="mailto:<%= site[:email] %>"><%= site[:email] %></a>.
         </p>
-      </section>
-
-      <section role="navigation">
-        <h2>More search pages</h2>
-        <ul>
-        <% pages.reject{|p| p.id == page.id }.sort{|a,b| b.tools <=> a.tools }.each do |other_page| %>
-          <li>
-            <a href="<%= site[:root] %><%= other_page.path %>"><%= other_page.id.capitalize %> search</a>:
-            <%= other_page.description.internal %>
-          </li>
-        <% end %>
-        </ul>
       </section>
 
     </footer>

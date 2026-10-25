@@ -6819,13 +6819,13 @@
     "checked": 1699110729
   },
   {
-    "url": "https://gallica.bnf.fr/accueil/en/content/accueil-en",
+    "url": "https://gallica.bnf.fr/accueil/en/html/accueil-en",
     "status": "301",
-    "title": "Gallica",
+    "title": "Attention Required! | Cloudflare",
+    "checked": 1792960277,
     "pages": [
       "information"
-    ],
-    "checked": 1699110731
+    ]
   },
   {
     "url": "https://gallica.bnf.fr/services/engine/search/sru?operation=searchRetrieve&version=1.2&query=%28gallica%20all%20%22test%22%29&lang=en&suggest=0",
@@ -6837,24 +6837,12 @@
     "checked": 1699098545
   },
   {
-    "url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action?formCaller=GENERALISTE&searchText=test",
-    "status": "302",
-    "redirect": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/recherche/ir/rechercheGeneralisteResultat.action",
-    "title": "Recherche - Salle de lecture virtuelle",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110736
-  },
-  {
-    "url": "http://www.archives-nationales.culture.gouv.fr/en/web/guest/home",
+    "url": "https://www.archives-nationales.culture.gouv.fr/",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "checked": 1792960277,
     "pages": [
       "information"
-    ],
-    "checked": 1699110731,
-    "redirect": "https://www.archives-nationales.culture.gouv.fr/en/web/guest/home"
+    ]
   },
   {
     "url": "https://www.universalis.fr/",
@@ -9836,13 +9824,12 @@
     "checked": 1699109658
   },
   {
-    "url": "https://www.rsl.ru/en",
-    "status": "301",
-    "title": "Russian state library",
+    "url": "https://www.rsl.ru/",
+    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
+    "checked": 1792960280,
     "pages": [
       "information"
-    ],
-    "checked": 1699109659
+    ]
   },
   {
     "url": "http://www.rusarchives.ru/elektronnye-opisi-federalnyh-arhivov",
