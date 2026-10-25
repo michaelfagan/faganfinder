@@ -64,6 +64,25 @@
     ]
   },
   {
+    "url": "https://grep.app/",
+    "status": "308",
+    "title": "Vercel Security Checkpoint",
+    "checked": 1792866928,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://grep.app/search?q=test",
+    "status": "308",
+    "redirect": "https://grep.app/search",
+    "title": "Vercel Security Checkpoint",
+    "checked": 1792866928,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.naa.gov.au/",
     "status": "Net::ReadTimeout with #<TCPSocket:(closed)>",
     "title": "Home page | naa.gov.au",
@@ -689,6 +708,15 @@
     "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News"
   },
   {
+    "url": "https://www.apple.com/apple-intelligence/",
+    "status": "301",
+    "title": "Apple Intelligence and Siri - Apple",
+    "checked": 1792890021,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.apple.com/apple-podcasts/",
     "status": "301",
     "title": "Apple Podcasts - Apple",
@@ -696,15 +724,6 @@
     "pages": [
       "listen"
     ]
-  },
-  {
-    "url": "https://www.apple.com/ca/siri/",
-    "status": "301",
-    "title": "Siri - Apple (CA)",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109872
   },
   {
     "url": "http://www.artcyclopedia.com/",
@@ -1205,14 +1224,6 @@
     ]
   },
   {
-    "url": "https://checklists.com/",
-    "status": "301",
-    "checked": 1699407939,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.checkli.com/checklists/search?q=test",
     "status": "301",
     "redirect": "https://www.checkli.com/checklists/search",
@@ -1300,6 +1311,15 @@
     "status": "301",
     "redirect": "https://search.credoreference.com/search",
     "checked": 1792851883,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://cyberinsider.com/private-search-engine/",
+    "status": "301",
+    "title": "10 Best Private Search Engines 2026 (Search Anonymously)",
+    "checked": 1792890020,
     "pages": [
       "information"
     ]
@@ -1506,10 +1526,10 @@
     ]
   },
   {
-    "url": "https://duckduckgo.com/duckduckgo-help-pages/results/syntax/",
+    "url": "https://duckduckgo.com/duckduckgo-help-pages/results/syntax",
     "status": "301",
-    "title": "How to use advanced syntax on DuckDuckGo Search | DuckDuckGo Help Pages",
-    "checked": 1701634847,
+    "title": "How to use advanced syntax on DuckDuckGo Search - DuckDuckGo Help Pages",
+    "checked": 1792890020,
     "pages": [
       "information"
     ]
@@ -1575,24 +1595,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://www.edocr.com/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109881
-  },
-  {
-    "url": "https://www.edocr.com/search?q=test",
-    "status": "301",
-    "redirect": "https://www.edocr.com/search",
-    "title": "Search Results - test | edocr",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109882
   },
   {
     "url": "https://www.ehow.com/",
@@ -1666,15 +1668,6 @@
       "image"
     ],
     "checked": 1699109477
-  },
-  {
-    "url": "https://www.exalead.com/search/web/search-syntax/",
-    "status": "200",
-    "title": "Web Search Syntax - Exalead",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109884
   },
   {
     "url": "https://victoria.primo.exlibrisgroup.com/discovery/search?vid=64VUW_INST:VUWNUI&pcAvailability=true&query=any,contains,test",
@@ -2320,6 +2313,14 @@
     ]
   },
   {
+    "url": "https://docs.google.com/",
+    "status": "301",
+    "checked": 1792926499,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://gemini.google.com/app",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "checked": 1792373732,
@@ -2503,14 +2504,6 @@
     ]
   },
   {
-    "url": "https://www.google.com/docs/about/",
-    "status": "200",
-    "checked": 1699098635,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.google.com/",
     "status": "200",
     "title": "Google",
@@ -2587,19 +2580,19 @@
     ]
   },
   {
-    "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Aedocr.com%20OR%20site%3Afoleon.com",
+    "url": "https://www.google.com/search?q=test%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Afoleon.com",
     "status": "200",
-    "title": "test site:docs.google.com/document OR site:issuu.com OR site:publitas.com OR site:yumpu.com OR site:joomag.com OR site:flipsnack.com OR site:pdfdrive.com OR site:edocr.com OR site:foleon.com - Google Search",
-    "checked": 1699101735,
+    "title": "Google Search",
+    "checked": 1792926499,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com",
+    "url": "https://www.google.com/search?q=test%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com",
     "status": "200",
-    "title": "test site:wikihow.com OR site:reddit.com/r/howto OR site:instructables.com OR site:ehow.com OR site:howcast.com OR site:visihow.com OR site:checkli.com OR site:checklist.com OR site:printabletodolist.com OR site:checklists.com - Google Search",
-    "checked": 1701634841,
+    "title": "Google Search",
+    "checked": 1792926499,
     "pages": [
       "information"
     ]
@@ -3141,15 +3134,6 @@
     "title": "Royalty-Free Stock Photos | Stock Images &amp; Pictures - iStock"
   },
   {
-    "url": "https://japanknowledge.com/en/contents/",
-    "status": "302",
-    "title": "List of JapanKnowledge General Contents | JapanKnowledge",
-    "checked": 1699099386,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://japanknowledge.com/",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
     "checked": 1699099350,
@@ -3334,15 +3318,6 @@
       "listen"
     ],
     "checked": 1699109427
-  },
-  {
-    "url": "https://community.libguides.com/",
-    "status": "301",
-    "redirect": "https://community.libguides.com",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098130
   },
   {
     "url": "https://www.linkedin.com/groups/",
@@ -3607,22 +3582,22 @@
     "checked": 1699109498
   },
   {
-    "url": "http://help.bing.microsoft.com/#apex/18/en/10001/-1",
-    "status": "301",
+    "url": "https://support.microsoft.com/en-us/bing/advanced-search-keywords",
+    "status": "307",
+    "title": "Advanced search keywords | Microsoft Support",
+    "checked": 1792890020,
     "pages": [
       "information"
-    ],
-    "checked": 1699098131,
-    "redirect": "https://help.bing.microsoft.com/"
+    ]
   },
   {
-    "url": "http://help.bing.microsoft.com/#apex/18/en/10002/-1",
-    "status": "301",
+    "url": "https://support.microsoft.com/en-us/bing/advanced-search-options",
+    "status": "307",
+    "title": "Advanced search options | Microsoft Support",
+    "checked": 1792890019,
     "pages": [
       "information"
-    ],
-    "checked": 1699098133,
-    "redirect": "https://help.bing.microsoft.com/"
+    ]
   },
   {
     "url": "https://www.mixcloud.com/",
@@ -3716,25 +3691,6 @@
       "information"
     ],
     "checked": 1699098134
-  },
-  {
-    "url": "https://www.mysciencework.com/",
-    "status": "403",
-    "title": "Just a moment...",
-    "checked": 1699099348,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.mysciencework.com/search/publications?query=test",
-    "status": "403",
-    "redirect": "https://www.mysciencework.com/search/publications",
-    "title": "Just a moment...",
-    "checked": 1699099348,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://mytuner-radio.com/",
@@ -4336,22 +4292,6 @@
     "checked": 1699109541
   },
   {
-    "url": "http://brasil.planetasaber.com/default.asp",
-    "status": "Failed to open TCP connection to brasil.planetasaber.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "checked": 1699099389,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "http://www.planetasaber.com/default.asp",
-    "status": "Failed to open TCP connection to www.planetasaber.com:80 (Network is unreachable - connect(2) for \"www.planetasaber.com\" port 80)",
-    "checked": 1699099381,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://www.podbean.com/all",
     "status": "301",
     "title": "The Podcast Directory | Popular Podcasts | All Podcasts",
@@ -4508,12 +4448,13 @@
     "checked": 1699098210
   },
   {
-    "url": "https://prezi.com/explore/popular/",
+    "url": "https://prezi.com/explore/",
     "status": "301",
+    "title": "Staff Picks | Our Favorite Prezis | Prezi",
+    "checked": 1792926500,
     "pages": [
       "information"
-    ],
-    "checked": 1699098208
+    ]
   },
   {
     "url": "https://prezi.com/explore/search/?search=test",
@@ -4643,22 +4584,6 @@
     ]
   },
   {
-    "url": "https://www.questia.com/",
-    "status": "execution expired",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098270
-  },
-  {
-    "url": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords=test",
-    "status": "execution expired",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098330
-  },
-  {
     "url": "https://www.quora.com/",
     "status": "308",
     "title": "Quora - A place to share knowledge and better understand the world",
@@ -4685,15 +4610,6 @@
       "group"
     ],
     "checked": 1699109499
-  },
-  {
-    "url": "https://help.qwant.com/help/qwant-search/searching/refine-search-with-operators/",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098331
   },
   {
     "url": "https://www.qwant.com/",
@@ -4880,15 +4796,6 @@
     ]
   },
   {
-    "url": "https://restoreprivacy.com/private-search-engine/",
-    "status": "301",
-    "title": "10 Best Private Search Engines in 2023 (Secure + No Logs)",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098334
-  },
-  {
     "url": "https://www.reuters.com/",
     "status": "301",
     "title": "Reuters | Breaking International News &amp; Views",
@@ -4994,14 +4901,6 @@
       "video"
     ],
     "checked": 1699104953
-  },
-  {
-    "url": "https://www.scienceresearch.com/scienceresearch/desktop/en/search.html",
-    "status": "301",
-    "checked": 1699099347,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://www.scopus.com/",
@@ -6063,15 +5962,6 @@
     "checked": 1699101817
   },
   {
-    "url": "https://visihow.com/Main_Page",
-    "status": "SSL_connect returned=1 errno=0 peeraddr=188.165.5.234:443 state=error: certificate verify failed (unable to get local issuer certificate)",
-    "checked": 1699098945,
-    "pages": [
-      "information"
-    ],
-    "title": "VisiHow - See it.  Do it."
-  },
-  {
     "url": "https://visualhunt.com/",
     "status": "301",
     "title": "VisualHunt",
@@ -6226,24 +6116,6 @@
     ]
   },
   {
-    "url": "http://www.wikiwand.com/en/test?fullSearch=true",
-    "status": "Failed to open TCP connection to www.wikiwand.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "redirect": "/en/Test",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110710
-  },
-  {
-    "url": "http://www.wikiwand.com/",
-    "status": "Failed to open TCP connection to www.wikiwand.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "title": "Wikiwand",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110710
-  },
-  {
     "url": "https://wn.com/",
     "status": "301",
     "title": "World News",
@@ -6378,16 +6250,6 @@
     ]
   },
   {
-    "url": "https://answers.yahoo.com/",
-    "status": "301",
-    "title": "Yahoo",
-    "checked": 1699098626,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://www.yahoo.com/"
-  },
-  {
     "url": "https://groups.yahoo.com/neo/search?query=test",
     "status": "301",
     "redirect": "https://www.yahoo.com/",
@@ -6413,16 +6275,6 @@
       "information"
     ],
     "checked": 1699110711
-  },
-  {
-    "url": "https://answers.search.yahoo.com/search?p=test",
-    "status": "301",
-    "redirect": "https://search.yahoo.com/search",
-    "title": "Yahoo",
-    "checked": 1699098621,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://images.search.yahoo.com/",
@@ -7369,15 +7221,6 @@
     ]
   },
   {
-    "url": "https://echosim.io/",
-    "status": "200",
-    "title": "Alexa Skill Testing Tool - Echosim.io",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110788
-  },
-  {
     "url": "https://getyarn.io/",
     "status": "301",
     "title": "YARN   | Search clips by quote",
@@ -7608,23 +7451,6 @@
     "url": "https://kotobank.jp/",
     "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
     "checked": 1699099373,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://oshiete.goo.ne.jp/",
-    "status": "\"\\xE8\" from ASCII-8BIT to UTF-8",
-    "checked": 1699098629,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT=test",
-    "status": "\"\\xEF\" from ASCII-8BIT to UTF-8",
-    "redirect": "https://oshiete.goo.ne.jp/search_goo/result/",
-    "checked": 1699098625,
     "pages": [
       "information"
     ]
@@ -9062,15 +8888,6 @@
     "checked": 1699109559
   },
   {
-    "url": "https://openaccessbutton.org/",
-    "status": "301",
-    "title": "Open Access Button",
-    "checked": 1699099344,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://openlibrary.org/",
     "status": "302",
     "title": "Welcome to Open Library | Open Library",
@@ -9886,15 +9703,6 @@
     "checked": 1699109653
   },
   {
-    "url": "https://worldwidescience.org/",
-    "status": "302",
-    "title": "WorldWideScience.org | WorldWideScience",
-    "checked": 1699099337,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "http://www.elib.gov.ph/",
     "status": "301",
     "title": "301 Moved Permanently",
@@ -9968,24 +9776,6 @@
     ],
     "checked": 1699098530,
     "redirect": "https://purl.pt/index/geral/PT/"
-  },
-  {
-    "url": "https://bigenc.ru/",
-    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1699099393,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://bigenc.ru/search?q=test",
-    "status": "301",
-    "redirect": "https://bigenc.ru/search",
-    "checked": 1699099395,
-    "pages": [
-      "information"
-    ],
-    "title": "404"
   },
   {
     "url": "http://government.ru/en/",
@@ -10140,6 +9930,23 @@
     "checked": 1699101776
   },
   {
+    "url": "https://bre.ruwiki.ru/special/search?search=test&profile=advanced&fulltext=1&ns0=1",
+    "status": "301",
+    "redirect": "https://bre.ruwiki.ru/special/search",
+    "checked": 1792926499,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://bre.ruwiki.ru/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+    "status": "301",
+    "checked": 1792890022,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "http://elib.shpl.ru/ru/nodes/search?search_in_metadata=on&search_in_texts=on&query=test",
     "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
     "title": "ГПИБ |  Поиск",
@@ -10156,23 +9963,6 @@
       "information"
     ],
     "checked": 1699098355
-  },
-  {
-    "url": "https://yandex.ru/q/",
-    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "checked": 1699098621,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://yandex.ru/q/search/?text=test",
-    "status": "\"\\xD0\" from ASCII-8BIT to UTF-8",
-    "redirect": "https://yandex.ru/q/search/",
-    "checked": 1699098618,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://z-lib.sk/fulltext/test/?type=words",

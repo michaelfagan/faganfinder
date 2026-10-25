@@ -139,10 +139,6 @@
           "searchUrl": "https://en.wikipedia.org/w/index.php?title=Special:Search&fulltext=1&search={q}"
         },
         {
-          "name": "Wikiwand (Wikipedia)",
-          "searchUrl": "http://www.wikiwand.com/en/{q}?fullSearch=true"
-        },
-        {
           "name": "<span title=\"Encyclopædia Britannica\">Britannica</span>",
           "searchUrl": "https://www.britannica.com/search?query={q}"
         },
@@ -222,7 +218,7 @@
         },
         {
           "name": "Great Russian Encyclopedia",
-          "searchUrl": "https://bigenc.ru/search?q={q}"
+          "searchUrl": "https://bre.ruwiki.ru/special/search?search={q}&profile=advanced&fulltext=1&ns0=1"
         },
         {
           "name": "Wikipedia — Polish",
@@ -282,6 +278,10 @@
         {
           "name": "GitHub code",
           "searchUrl": "https://github.com/search?type=code&q={q}"
+        },
+        {
+          "name": "Grep.app",
+          "searchUrl": "https://grep.app/search?q={q}"
         },
         {
           "name": "<abbr title=\"Organized Crime and Corruption Reporting Project\">OCCRP</abbr> Aleph",
@@ -372,10 +372,6 @@
           "searchUrl": "https://brainly.com/app/ask?q={q}"
         },
         {
-          "name": "Yahoo Answers",
-          "searchUrl": "https://answers.search.yahoo.com/search?p={q}"
-        },
-        {
           "name": "Answers.com",
           "searchUrl": "https://www.answers.com/search?q={q}"
         }
@@ -398,16 +394,8 @@
           "searchUrl": "https://otvet.mail.ru/search/{q}"
         },
         {
-          "name": "Yandex.Q — Russian",
-          "searchUrl": "https://yandex.ru/q/search/?text={q}"
-        },
-        {
           "name": "Yahoo! Chiebukuro — <abbr title=\"Japanese\">Ja.</abbr>",
           "searchUrl": "https://chiebukuro.yahoo.co.jp/search/?flg=3&p={q}"
-        },
-        {
-          "name": "Oshiete! goo — Japanese",
-          "searchUrl": "https://oshiete.goo.ne.jp/search_goo/result/?code=utf8&MT={q}"
         },
         {
           "name": "OKWAVE — Japanese",
@@ -453,7 +441,7 @@
         },
         {
           "name": "Google how-to sites",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Avisihow.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com%20OR%20site%3Achecklists.com"
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Awikihow.com%20OR%20site%3Areddit.com%2Fr%2Fhowto%20OR%20site%3Ainstructables.com%20OR%20site%3Aehow.com%20OR%20site%3Ahowcast.com%20OR%20site%3Acheckli.com%20OR%20site%3Achecklist.com%20OR%20site%3Aprintabletodolist.com"
         }
       ]
     },
@@ -528,16 +516,12 @@
           "searchUrl": "https://www.yumpu.com/en/{q}"
         },
         {
-          "name": "edocr",
-          "searchUrl": "https://www.edocr.com/search?q={q}"
-        },
-        {
           "name": "Google by format",
           "searchUrl": "https://www.google.com/search?q={q}%20filetype%3Apdf%20OR%20filetype%3Adocx%20OR%20filetype%3Adoc%20OR%20filetype%3Aodt%20OR%20filetype%3Artf%20OR%20filetype%3Aps%20OR%20filetype%3Atex%20OR%20filetype%3Awpd"
         },
         {
           "name": "Google by site",
-          "searchUrl": "https://www.google.com/search?q={q}%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Aedocr.com%20OR%20site%3Afoleon.com"
+          "searchUrl": "https://www.google.com/search?q={q}%20site%3Adocs.google.com%2Fdocument%20OR%20site%3Aissuu.com%20OR%20site%3Apublitas.com%20OR%20site%3Ayumpu.com%20OR%20site%3Ajoomag.com%20OR%20site%3Aflipsnack.com%20OR%20site%3Apdfdrive.com%20OR%20site%3Afoleon.com"
         }
       ]
     },
@@ -595,10 +579,6 @@
           "searchUrl": "https://app.dimensions.ai/discover/publication?search_text={q}"
         },
         {
-          "name": "MyScienceWork",
-          "searchUrl": "https://www.mysciencework.com/search/publications?query={q}"
-        },
-        {
           "name": "SHARE",
           "searchUrl": "https://share.osf.io/discover?q={q}"
         },
@@ -643,10 +623,6 @@
         {
           "name": "ProQuest",
           "searchUrl": "http://ryerson.summon.serialssolutions.com/#!/search?ho=f&l=en&q={q}"
-        },
-        {
-          "name": "Questia",
-          "searchUrl": "https://www.questia.com/searchglobal#!/?mediaType=primarySources&keywords={q}"
         },
         {
           "name": "Web of Science",

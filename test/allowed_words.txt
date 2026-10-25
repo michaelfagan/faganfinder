@@ -36,7 +36,6 @@ audiobooks
 Audioburst
 Baike.com
 Baike
-Barsa
 BDLB
 BDPI
 Bechdel
@@ -68,7 +67,6 @@ CGP
 chatbots
 ChatGPT
 Checkli
-Checklists.com
 Chiebukuro
 Cision
 Clarivate
@@ -79,6 +77,7 @@ Corel
 CosmoLearning
 CrossAsia
 Crossref
+CyberInsider
 cyclopedia
 DailyMotion
 DailyStrength
@@ -107,9 +106,7 @@ Dreamstime
 DuckDuckGo
 ebooks
 EBSCO
-Echosim.io
 Ecosia
-edocr
 eHow
 EHPS
 EIN
@@ -124,7 +121,6 @@ eTools.ch
 EuroDocs
 Europeana
 Everypixel
-Exalead
 Fagan
 faganfinder.com
 FamilySearch
@@ -160,6 +156,7 @@ govinfo
 GPIB
 Grafiti
 Granth
+Grep.app
 Groups.io
 Gutefrage
 Haosou
@@ -205,7 +202,6 @@ Knoema
 Kobo
 Kopernio
 Kotobank
-LibGuides
 LibriVox
 LinkedIn
 Lit2Go
@@ -269,7 +265,6 @@ OpenDataSoft
 OpenDocument
 OpenEd
 orgs
-Oshiete
 Osmikon
 OverDrive
 Paperity
@@ -287,7 +282,6 @@ Picsearch
 Picspree
 Pinterest
 Pixabay
-Planeta
 Podbean
 Podcasts.com
 Podchaser
@@ -310,7 +304,6 @@ PRWeb
 Publitas
 PubMed
 PubPeer
-Questia
 Quora
 Qwant
 Rakuten
@@ -327,10 +320,8 @@ ResearchGate
 RSS
 RSSMicro
 Rutube
-Saber
 Sanjeevani
 SchoolTube
-ScienceResearch.com
 Scilit
 Scopus
 Scribd
@@ -400,7 +391,6 @@ Vid
 VideoLectures.NET
 Viki
 Vimeo
-VisiHow
 VK
 VKontakte
 WatchKnowLearn
@@ -411,16 +401,13 @@ wikiHow
 WikiLeaks
 Wikimedia
 Wikisource
-Wikiwand
 WN.com
 WordPerfect
 Wordpress.com
 wordpress.com
 WorldCat
-WorldWideScience
 wwiTV
 YaCy
-Yandex.Q
 Yandex
 Yippy
 Youku
@@ -435,4 +422,3 @@ Zhihu
 российская
 электронная
 энциклопедия
-Яндекс.Кью
