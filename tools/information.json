@@ -645,12 +645,11 @@
           "searchUrl": "https://research.ebsco.com/c/cvcycr/search/results?q={q}&autocorrect=y&expanders=fullText&expanders=concept&limiters=None&searchMode=all&searchSegment=all-results&p=1&skipResultsFetch=true"
         },
         {
-          "name": "<abbr title=\"University\">Univ.</abbr> Press Scholarship",
-          "searchUrl": "https://www.universitypressscholarship.com/search?q={q}"
+          "name": "Oxford Academic",
+          "searchUrl": "https://academic.oup.com/search-results?q={q}&page=1&fl_SiteID=191&allJournals=1"
         }
       ]
     },
-
     {
       "name": "Libraries and archives",
       "tools": [
@@ -669,10 +668,6 @@
         {
           "name": "Google Books",
           "searchUrl": "https://www.google.com/search?tbm=bks&q={q}"
-        },
-        {
-          "name": "World Digital Library",
-          "searchUrl": "https://www.wdl.org/en/search/?q={q}"
         },
         {
           "name": "History Commons",
@@ -696,7 +691,7 @@
         },
         {
           "name": "<abbr title=\"African Online Digital Library\">AODL</abbr> — Africa",
-          "searchUrl": "http://www.aodl.org/search.php?currSearches={q}"
+          "searchUrl": "https://www.aodl.org/search.php?currSearches={q}"
         },
         {
           "name": "Arabic Union Catalog",
@@ -708,7 +703,7 @@
         },
         {
           "name": "<abbr title=\"Biblioteca Digital del Patrimonio Iberoamericano\">BDPI</abbr> — Ibero-America",
-          "searchUrl": "http://www.iberoamericadigital.net/BDPI/Search.do",
+          "searchUrl": "https://www.iberoamericadigital.net/BDPI/Search.do",
           "post": "text",
           "postMore": {
             "field": "todos",
@@ -717,7 +712,7 @@
         },
         {
           "name": "<abbr title=\"Biblioteca Virtual Miguel de Cervantes\">BVMC</abbr> — Ibero-America",
-          "searchUrl": "http://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText={q}"
+          "searchUrl": "https://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText={q}"
         },
         {
           "name": "<abbr title=\"Biblioteca digital Luso-Brasileira\" lang=\"pt\">Luso-Brasileira</abbr>",

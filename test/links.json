@@ -1180,22 +1180,22 @@
     "checked": 1699109474
   },
   {
-    "url": "http://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText=test",
+    "url": "https://www.cervantesvirtual.com/controladores/busqueda_contenido.php?queryType=token&searchText=test",
     "status": "301",
     "redirect": "https://www.cervantesvirtual.com/controladores/busqueda_contenido.php",
+    "checked": 1792937530,
     "pages": [
       "information"
-    ],
-    "checked": 1699098363
+    ]
   },
   {
-    "url": "http://www.cervantesvirtual.com/",
+    "url": "https://www.cervantesvirtual.com/",
     "status": "301",
+    "title": "Biblioteca Virtual Miguel de Cervantes | Inicio",
+    "checked": 1792937534,
     "pages": [
       "information"
-    ],
-    "checked": 1699109879,
-    "redirect": "https://www.cervantesvirtual.com/"
+    ]
   },
   {
     "url": "https://chatgpt.com/",
@@ -4004,6 +4004,25 @@
     "checked": 1699104946
   },
   {
+    "url": "https://academic.oup.com/",
+    "status": "301",
+    "title": "Just a moment...",
+    "checked": 1792937531,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://academic.oup.com/search-results?q=test&page=1&fl_SiteID=191&allJournals=1",
+    "status": "301",
+    "redirect": "https://academic.oup.com/search-results",
+    "title": "Just a moment...",
+    "checked": 1792937528,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.overdrive.com/",
     "status": "301",
     "title": "OverDrive: ebooks, audiobooks, and more for libraries and schools",
@@ -4903,13 +4922,13 @@
     "checked": 1699104953
   },
   {
-    "url": "https://www.scopus.com/",
+    "url": "https://www.scopus.com/pages/home",
     "status": "403",
-    "checked": 1699099348,
+    "title": "Attention Required! | Cloudflare",
+    "checked": 1792937530,
     "pages": [
       "information"
-    ],
-    "title": "Attention Required! | Cloudflare"
+    ]
   },
   {
     "url": "https://www.scopus.com/results/results.uri?src=s&sot=b&s=TITLE-ABS-KEY%28test%29",
@@ -5840,26 +5859,6 @@
     "checked": 1699109370
   },
   {
-    "url": "https://www.universitypressscholarship.com/",
-    "status": "301",
-    "title": "Object moved",
-    "checked": 1699101403,
-    "pages": [
-      "information"
-    ],
-    "redirect": "https://academic.oup.com/pages/partner-migration-welcome"
-  },
-  {
-    "url": "https://www.universitypressscholarship.com/search?q=test",
-    "status": "301",
-    "redirect": "https://academic.oup.com/pages/partner-migration-welcome",
-    "title": "Object moved",
-    "checked": 1699101403,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "http://unlistedvideos.com/",
     "status": "200",
     "title": "Unlisted Videos",
@@ -6668,21 +6667,12 @@
     "checked": 1699109531
   },
   {
-    "url": "http://www.darelkotob.gov.eg/ar-eg/Pages/Home.aspx",
-    "status": "200",
-    "checked": 1699109463,
+    "url": "https://www.darelkotob.gov.eg/ar-eg/Pages/Home.aspx",
+    "status": "301",
+    "checked": 1792937550,
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "http://primary-sources.eui.eu/",
-    "status": "Failed to open TCP connection to primary-sources.eui.eu:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "title": "European History Primary Sources |",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110728
   },
   {
     "url": "https://europa.eu/search/",
@@ -7175,16 +7165,6 @@
     "checked": 1699110799
   },
   {
-    "url": "http://hazine.info/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110799,
-    "redirect": "https://hazine.info/",
-    "title": "301 Moved Permanently"
-  },
-  {
     "url": "http://www.radio-browser.info/gui/#!/byname/test",
     "status": "301",
     "pages": [
@@ -7671,30 +7651,31 @@
     "checked": 1699110810
   },
   {
-    "url": "http://www.iberoamericadigital.net/BDPI/Search.do",
-    "status": "200",
+    "url": "https://www.iberoamericadigital.net/BDPI/Inicio.do",
+    "status": "301",
+    "redirect": "https://www.iberoamericadigital.netBDPI/Inicio.do",
+    "checked": 1792937532,
     "pages": [
       "information"
-    ],
-    "checked": 1699110811
+    ]
   },
   {
-    "url": "http://www.iberoamericadigital.net/en/Inicio/",
-    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "title": "Biblioteca Digital del Patrimonio Iberoamericano",
+    "url": "https://www.iberoamericadigital.net/BDPI/Participantes.do?languageView=en",
+    "status": "301",
+    "redirect": "https://www.iberoamericadigital.netBDPI/Participantes.do",
+    "checked": 1792937533,
     "pages": [
       "information"
-    ],
-    "checked": 1699110811
+    ]
   },
   {
-    "url": "http://www.iberoamericadigital.net/en/Participantes/",
-    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
-    "title": "Biblioteca Digital del Patrimonio Iberoamericano",
+    "url": "https://www.iberoamericadigital.net/BDPI/Search.do",
+    "status": "301",
+    "redirect": "https://www.iberoamericadigital.netBDPI/Search.do",
+    "checked": 1792937530,
     "pages": [
       "information"
-    ],
-    "checked": 1699110812
+    ]
   },
   {
     "url": "http://journalseek.net/",
@@ -7946,31 +7927,31 @@
     "redirect": "https://www.ala.org/rt/godort/taskforces/internationaldocuments/idtf/igo-search"
   },
   {
-    "url": "http://www.aodl.org/contributors.php",
-    "status": "200",
+    "url": "https://aodl.org/contributors/",
+    "status": "302",
     "title": "Contributors | AODL",
+    "checked": 1792937536,
     "pages": [
       "information"
-    ],
-    "checked": 1699110814
+    ]
   },
   {
-    "url": "http://www.aodl.org/",
-    "status": "200",
+    "url": "https://aodl.org/",
+    "status": "302",
     "title": "Home | AODL",
+    "checked": 1792937535,
     "pages": [
       "information"
-    ],
-    "checked": 1699110813
+    ]
   },
   {
-    "url": "http://www.aodl.org/search.php?currSearches=test",
-    "status": "200",
-    "title": "Search | AODL",
+    "url": "https://www.aodl.org/search.php?currSearches=test",
+    "status": "301",
+    "redirect": "http://aodl.org/search.php",
+    "checked": 1792937528,
     "pages": [
       "information"
-    ],
-    "checked": 1699110813
+    ]
   },
   {
     "url": "https://newsroom.ap.org/editorial-photos-videos/home",
@@ -8271,9 +8252,9 @@
     ]
   },
   {
-    "url": "http://dar.bibalex.org/webpages/dar.jsf",
-    "status": "200",
-    "checked": 1699109468,
+    "url": "https://dar.bibalex.org/en/landingPage/landingPage.aspx",
+    "status": "execution expired",
+    "checked": 1792937610,
     "pages": [
       "information"
     ]
@@ -9176,23 +9157,6 @@
     "checked": 1699101749
   },
   {
-    "url": "https://www.wdl.org/en/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109574
-  },
-  {
-    "url": "https://www.wdl.org/en/search/?q=test",
-    "status": "301",
-    "redirect": "https://www.wdl.org/en/search/",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109585
-  },
-  {
     "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
     "status": "301",
     "title": "Wikidata",
@@ -9664,23 +9628,29 @@
     "checked": 1699109649
   },
   {
+    "url": "https://search.worldcat.org/",
+    "status": "301",
+    "checked": 1792937531,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://search.worldcat.org/libraries",
+    "status": "301",
+    "checked": 1792937531,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.worldcat.org/",
     "status": "302",
     "title": "WorldCat.org",
     "pages": [
-      "image",
-      "information"
+      "image"
     ],
     "checked": 1699109651
-  },
-  {
-    "url": "https://www.worldcat.org/libraries",
-    "status": "302",
-    "title": "Libraries | WorldCat.org",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109652
   },
   {
     "url": "https://www.worldcat.org/search?fq=x0%3Aimage+%2B+x4%3A2d&dblist=638&q=test",
@@ -9760,6 +9730,14 @@
     ]
   },
   {
+    "url": "https://bndigital.bnportugal.gov.pt/",
+    "status": "301",
+    "checked": 1792937535,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.infopedia.pt/",
     "status": "403",
     "checked": 1699099389,
@@ -9767,15 +9745,6 @@
       "information"
     ],
     "title": "Attention Required! | Cloudflare"
-  },
-  {
-    "url": "http://purl.pt/index/geral/PT/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098530,
-    "redirect": "https://purl.pt/index/geral/PT/"
   },
   {
     "url": "http://government.ru/en/",

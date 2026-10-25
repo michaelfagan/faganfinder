@@ -108,7 +108,6 @@ ebooks
 EBSCO
 Ecosia
 eHow
-EHPS
 EIN
 Elephind
 eLib
@@ -162,7 +161,6 @@ Gutefrage
 Haosou
 Hathi
 Haystak
-Hazine
 Hemeroteca
 Howcast
 HowTo
