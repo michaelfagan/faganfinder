@@ -500,10 +500,6 @@
       "shortName": "Publications and <abbr title=\"documents\">docs</abbr>",
       "tools": [
         {
-          "name": "PDF Drive",
-          "searchUrl": "https://www.pdfdrive.com/search?q={q}"
-        },
-        {
           "name": "Scribd — paid",
           "searchUrl": "https://www.scribd.com/search?query={q}"
         },

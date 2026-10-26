@@ -273,19 +273,19 @@
     ]
   },
   {
-    "url": "https://library-archives.canada.ca/eng",
+    "url": "https://www.canada.ca/en.html",
     "status": "301",
-    "redirect": "https://library-archives.canada.ca//eng",
-    "checked": 1699324126,
+    "title": "Home - Canada.ca",
+    "checked": 1699101635,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.canada.ca/en.html",
+    "url": "https://www.canada.ca/en/library-archives.html",
     "status": "301",
-    "title": "Home - Canada.ca",
-    "checked": 1699101635,
+    "title": "Library and Archives Canada - Canada.ca",
+    "checked": 1793049139,
     "pages": [
       "information"
     ]
@@ -2313,14 +2313,6 @@
     ]
   },
   {
-    "url": "https://docs.google.com/",
-    "status": "301",
-    "checked": 1792926499,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://gemini.google.com/app",
     "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
     "checked": 1792373732,
@@ -2490,6 +2482,24 @@
     "redirect": "https://translate.google.com/",
     "title": "Google Translate",
     "checked": 1699098632,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://workspace.google.com/products/docs/",
+    "status": "301",
+    "title": "Google Docs: Online Document &amp; PDF Editor | Google Workspace",
+    "checked": 1793049134,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://workspace.google.com/products/slides/",
+    "status": "301",
+    "title": "Google Slides: Presentation Slideshow Maker | Google Workspace",
+    "checked": 1793049134,
     "pages": [
       "information"
     ]
@@ -4081,25 +4091,6 @@
     "checked": 1699109433
   },
   {
-    "url": "https://www.pdfdrive.com/",
-    "status": "200",
-    "title": "PDF Drive - Search and download PDF files for free.",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098206
-  },
-  {
-    "url": "https://www.pdfdrive.com/search?q=test",
-    "status": "200",
-    "redirect": "https://www.pdfdrive.com/search",
-    "title": "test",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098209
-  },
-  {
     "url": "https://www.peteyvid.com/",
     "status": "Failed to open TCP connection to www.peteyvid.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
     "title": "Petey Vid - Video Search Engine",
@@ -5077,16 +5068,6 @@
     ],
     "checked": 1699109500,
     "title": "Slack is your productivity platform | Slack"
-  },
-  {
-    "url": "https://slides.com/explore",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098534,
-    "redirect": "https://slides.com:443/explore",
-    "title": "Explore Presentations | Slides"
   },
   {
     "url": "https://slides.com/explore?search=test",
@@ -6475,9 +6456,10 @@
     ]
   },
   {
-    "url": "https://www.yumpu.com/",
+    "url": "https://www.yumpu.com/en",
     "status": "301",
-    "checked": 1699098634,
+    "title": "YUMPU - Publishing digital magazines worldwide",
+    "checked": 1793049133,
     "pages": [
       "information"
     ]
