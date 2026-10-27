@@ -257,9 +257,10 @@
     "checked": 1699109854
   },
   {
-    "url": "https://www.archivescanada.ca/",
+    "url": "https://archivescanada.ca/",
     "status": "301",
-    "checked": 1699324127,
+    "title": "Archives Canada",
+    "checked": 1793065105,
     "pages": [
       "information"
     ]
@@ -354,10 +355,11 @@
     "checked": 1699109857
   },
   {
-    "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Search?q=test",
-    "status": "404",
-    "title": "Collection Search",
-    "checked": 1699324109,
+    "url": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Result?SEARCH_TYPE=SEARCH_BASIC&q_type_1=q&q_1=test",
+    "status": "301",
+    "redirect": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Result",
+    "title": "V&#233;rification de s&#233;curit&#233; / Security Check",
+    "checked": 1793065103,
     "pages": [
       "information"
     ]
@@ -7298,33 +7300,33 @@
     ]
   },
   {
-    "url": "https://www.digital.archives.go.jp/index_e.html",
+    "url": "https://www.digital.archives.go.jp/crosssearch?lang=en",
     "status": "301",
-    "title": "NATIONAL ARCHIVES OF JAPAN Digital Archive",
+    "redirect": "https://www.digital.archives.go.jp/crosssearch",
+    "title": "Cross Search | National Archives of Japan Digital Archive",
+    "checked": 1793065106,
     "pages": [
       "information"
-    ],
-    "checked": 1699110801,
-    "redirect": "https://www.digital.archives.go.jp:443/index_e.html"
+    ]
   },
   {
-    "url": "https://www.jacar.archives.go.jp/gf/cgi/start?LANG=eng",
+    "url": "https://www.digital.archives.go.jp/?lang=en",
     "status": "301",
-    "redirect": "https://www.jacar.archives.go.jp:443/gf/cgi/start",
-    "title": "Japan Center for Asian Historical Records(JACAR) / Cross Search",
+    "redirect": "https://www.digital.archives.go.jp/",
+    "title": "National Archives of Japan Digital Archive",
+    "checked": 1793065106,
     "pages": [
       "information"
-    ],
-    "checked": 1699110803
+    ]
   },
   {
-    "url": "https://www.jacar.archives.go.jp/gf/cgi/zway",
-    "status": "\"\\xE3\" from ASCII-8BIT to UTF-8",
+    "url": "https://www.digital.archives.go.jp/search?kw=test",
+    "status": "\"\\xE6\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.digital.archives.go.jp/search",
+    "checked": 1793065105,
     "pages": [
       "information"
-    ],
-    "checked": 1699098589,
-    "redirect": "https://www.jacar.archives.go.jp:443/gf/cgi/zway"
+    ]
   },
   {
     "url": "https://www.e-gov.go.jp/",
@@ -7343,15 +7345,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://www.jacar.go.jp/english/",
-    "status": "301",
-    "title": "Japan Center for Asian Historical Records",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110803
   },
   {
     "url": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=test",
@@ -7655,15 +7648,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "https://www.metabase.net/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699098576,
-    "title": "www.metabase.net | 522: Connection timed out"
   },
   {
     "url": "http://news-explorer.mybluemix.net/",

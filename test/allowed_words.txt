@@ -62,7 +62,6 @@ CareerOneStop
 Catalog
 CCFr
 Cengage
-Center
 CGP
 chatbots
 ChatGPT
@@ -186,7 +185,6 @@ IRC
 issuu
 iStock
 Ja
-JACAR
 Jisc
 Joomag
 JournalGuide
@@ -212,7 +210,6 @@ Mail.ru
 Mawdoo3
 Meetup
 MeFeedia
-Metabase
 Metacafe
 Metacritic
 mibbit

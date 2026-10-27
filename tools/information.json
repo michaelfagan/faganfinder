@@ -797,7 +797,7 @@
         },
         {
           "name": "<abbr title=\"Library and Archives\">Lib. and Arch.</abbr> Canada",
-          "searchUrl": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Search?q={q}"
+          "searchUrl": "https://recherche-collection-search.bac-lac.gc.ca/eng/Home/Result?SEARCH_TYPE=SEARCH_BASIC&q_type_1=q&q_1={q}"
         },
         {
           "name": "Canadiana Online",
@@ -823,12 +823,11 @@
       "tools": [
         {
           "name": "CrossAsia",
-          "searchUrl": "https://crossasia.org/en/resources/crossasia-search/?tx_sbbcrossasiaadditions_pazpar2search%5Bcontroller%5D=Pazpar2Search",
-          "post": "tx_sbbcrossasiaadditions_pazpar2search[query]"
+          "searchUrl": "https://suche.crossasia.org/Search/Results?lng=en&lookfor={q}"
         },
         {
           "name": "CrossAsia full text",
-          "searchUrl": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/?query={q}"
+          "searchUrl": "https://crossasia.org/service/crossasia-lab/crossasia-fulltext-search/fulltext-search-b/?query={q}"
         },
         {
           "name": "<abbr title=\"China Academic Digital Associative Library\">CADAL</abbr> — China",
@@ -844,34 +843,8 @@
           "searchUrl": "https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword={q}"
         },
         {
-          "name": "Japan Cross Search",
-          "searchUrl": "https://www.jacar.archives.go.jp/gf/cgi/zway",
-          "post": "SE_KEY_1",
-          "postMore": {
-            "GF_STYPE": "Simple",
-            "GF_SID": "0",
-            "GF_SKEY": "0",
-            "GF_ACTION": "SCHSUMMARY",
-            "GF_ADDCONFLG": "0",
-            "GF_OUTPUTXSLT": "XsltResultDB",
-            "GF_NUMBER": "1",
-            "GF_CLASS": "gf_U9999999_s2009112400358",
-            "GF_START": "1",
-            "GF_ELEM": "B",
-            "LANG": "eng",
-            "GF_CHGFLG": "1",
-            "MAP_VERIFY": "0",
-            "allCheckBox": "on",
-            "GRP": "gf_U9999999_g2009112400293",
-            "GRP_repeat": "gf_U9999999_g2009112400294",
-            "GF_DATABASE": "gf_U9999999_d2009121600511",
-            "GF_DATABASE_repeat": "gf_U9999999_SRW_srw_jacar",
-            "GF_DATABASE_repeat2": "gf_U9999999_d2009121600513",
-            "GF_DATABASE_repeat3": "gf_U9999999_d2009121600514",
-            "GF_DATABASE_repeat4": "gf_U9999999_d2009121600515",
-            "SE_USE_1": "1016",
-            "SE_LGC_1": "and"
-          }
+          "name": "<abbr title=\"National\">Nat.</abbr> <abbr title=\"Archive\">Arch.</abbr> — Japan",
+          "searchUrl": "https://www.digital.archives.go.jp/search?kw={q}"
         },
         {
           "name": "<abbr title=\"National\">Nat.</abbr> Diet <abbr title=\"Library\">Lib.</abbr> — Japan",
@@ -892,10 +865,6 @@
         {
           "name": "Granth Sanjeevani — India",
           "searchUrl": "https://granthsanjeevani.com/jspui/simple-search?query={q}"
-        },
-        {
-          "name": "<abbr title=\"Association of Southeast Asian Nations\">Asean</abbr> Digital Library",
-          "searchUrl": "https://www.aseanlibrary.org/search/index/query?keyword={q}"
         },
         {
           "name": "Philippine eLib",
@@ -964,10 +933,6 @@
         {
           "name": "NewsNow",
           "searchUrl": "https://www.newsnow.co.uk/h/?search={q}"
-        },
-        {
-          "name": "<abbr title=\"Europe Media Monitor\">EMM</abbr> NewsBrief",
-          "searchUrl": "https://emm.newsbrief.eu/NewsBrief/dynamic?edition=searchresults&atLeast={q}"
         },
         {
           "name": "Bing News",
