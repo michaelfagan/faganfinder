@@ -29,7 +29,6 @@ AODL
 Aparat
 ArchiveGrid
 ARCHIVESCANADA.ca
-Asean
 Audiobooks.com
 Audiobooks
 audiobooks
@@ -111,7 +110,6 @@ EIN
 Elephind
 eLib
 Elsevier
-EMM
 Encyclopædia
 Encyclopédie
 Enzyklopädie
@@ -233,7 +231,6 @@ Naver
 NDL
 netsplit.de
 NewsBank
-NewsBrief
 NewsLibrary.com
 Newslookup.com
 NewsNow

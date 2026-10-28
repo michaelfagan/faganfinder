@@ -1145,20 +1145,9 @@
     "checked": 1699109878
   },
   {
-    "url": "https://www.businesswire.com/portal/site/home/",
-    "status": "302",
-    "title": "Press release distribution, EDGAR filing, XBRL, regulatory filings | Business Wire",
-    "checked": 1699101715,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.businesswire.com/portal/site/home/search/?searchType=news&searchPage=1&searchTerm=test",
-    "status": "302",
-    "redirect": "https://www.businesswire.com/portal/site/home/search/",
-    "title": "Search | Business Wire",
-    "checked": 1699101652,
+    "url": "https://www.businesswire.com/",
+    "status": "403",
+    "checked": 1793151458,
     "pages": [
       "information"
     ]
@@ -3931,13 +3920,13 @@
     ]
   },
   {
-    "url": "http://www.onlinenewspapers.com/",
-    "status": "execution expired",
+    "url": "https://www.onlinenewspapers.com/index.shtml",
+    "status": "301",
+    "redirect": "https://onlinenewspapers.com/index.shtml",
+    "checked": 1793151458,
     "pages": [
       "information"
-    ],
-    "checked": 1699098203,
-    "redirect": "https://onlinenewspapers.com/"
+    ]
   },
   {
     "url": "https://onlineradiobox.com/genres/",
@@ -4403,20 +4392,19 @@
     "title": "Search | PodSearch"
   },
   {
-    "url": "https://www.politifact.com/",
+    "url": "https://politifact.com/",
     "status": "301",
     "title": "PolitiFact",
-    "checked": 1699099076,
+    "checked": 1793151458,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "https://www.politifact.com/search/?q=test",
-    "status": "301",
-    "redirect": "https://www.politifact.com/search/",
-    "title": "PolitiFact",
-    "checked": 1699099077,
+    "url": "https://politifact.com/search/?q=test",
+    "status": "200",
+    "title": "Search &#8211; PolitiFact",
+    "checked": 1793151456,
     "pages": [
       "information"
     ]
@@ -4533,32 +4521,32 @@
     "checked": 1699098270
   },
   {
-    "url": "https://www.prunderground.com/archived-releases/",
-    "status": "301",
-    "title": "Published Press Releases | PRUndergroundPRUnderground - Affordable Press Release Distribution",
-    "checked": 1699101719,
+    "url": "https://prunderground.com/news",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "checked": 1793151458,
     "pages": [
       "information"
     ]
   },
   {
-    "url": "http://www.prweb.com/",
-    "status": "301",
-    "checked": 1699101715,
+    "url": "https://www.prweb.com/",
+    "status": "308",
+    "redirect": "https://www.prweb.com",
+    "title": "Online Press Release Distribution Service | PRWeb",
+    "checked": 1793151458,
     "pages": [
       "information"
-    ],
-    "redirect": "https://www.prweb.com/"
+    ]
   },
   {
-    "url": "https://www.prweb.com/search.aspx?search-releases=test",
-    "status": "301",
-    "title": "301 Moved Permanently",
-    "checked": 1699101652,
+    "url": "https://www.prweb.com/search/all/?keyword=test",
+    "status": "308",
+    "redirect": "https://www.prweb.com/search/all",
+    "title": "All Search Results | PRWeb",
+    "checked": 1793151457,
     "pages": [
       "information"
-    ],
-    "redirect": "https://www.prweb.com/search.aspx"
+    ]
   },
   {
     "url": "https://groups.psychologytoday.com/rms/prof_results.php?search=test",
@@ -6250,15 +6238,6 @@
     "redirect": "https://www.yahoo.com/"
   },
   {
-    "url": "https://news.yahoo.com/",
-    "status": "Failed to open TCP connection to news.yahoo.com:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "title": "Yahoo News - Latest News &amp; Headlines",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110711
-  },
-  {
     "url": "https://images.search.yahoo.com/",
     "status": "301",
     "title": "Yahoo Image Search",
@@ -6286,6 +6265,15 @@
       "information"
     ],
     "checked": 1699110711
+  },
+  {
+    "url": "https://www.yahoo.com/news/",
+    "status": "301",
+    "title": "Yahoo News: Latest and Breaking News, Headlines, Live Updates, and More",
+    "checked": 1793109351,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://yandex.com/",
@@ -6757,25 +6745,6 @@
       "video"
     ],
     "checked": 1699101843
-  },
-  {
-    "url": "https://emm.newsbrief.eu/NewsBrief/clusteredition/en/latest_en.html",
-    "status": "301",
-    "title": "NewsBrief",
-    "checked": 1699101382,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://emm.newsbrief.eu/NewsBrief/dynamic?edition=searchresults&atLeast=test",
-    "status": "301",
-    "redirect": "https://emm.newsbrief.eu/NewsBrief/dynamic",
-    "title": "NewsBrief",
-    "checked": 1699099498,
-    "pages": [
-      "information"
-    ]
   },
   {
     "url": "https://ahmia.fi/",
@@ -7595,25 +7564,6 @@
     ]
   },
   {
-    "url": "https://www.hoax-slayer.net/",
-    "status": "Failed to open TCP connection to www.hoax-slayer.net:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "title": "Hoax-Slayer -",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110810
-  },
-  {
-    "url": "https://www.hoax-slayer.net/?s=test",
-    "status": "Failed to open TCP connection to www.hoax-slayer.net:80 (getaddrinfo: nodename nor servname provided, or not known)",
-    "redirect": "https://www.hoax-slayer.net/",
-    "title": "You searched for test - Hoax-Slayer",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110810
-  },
-  {
     "url": "https://www.iberoamericadigital.net/BDPI/Inicio.do",
     "status": "301",
     "redirect": "https://www.iberoamericadigital.netBDPI/Inicio.do",
@@ -7648,14 +7598,6 @@
     "pages": [
       "information"
     ]
-  },
-  {
-    "url": "http://news-explorer.mybluemix.net/",
-    "status": "404",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699110812
   },
   {
     "url": "http://news-explorer.mybluemix.net/?type=unconstrained&query=test",
@@ -8187,25 +8129,6 @@
     "checked": 1699110820
   },
   {
-    "url": "https://www.aseanlibrary.org/",
-    "status": "301",
-    "title": "Asean Digital Library",
-    "checked": 1699110831,
-    "pages": [
-      "information"
-    ]
-  },
-  {
-    "url": "https://www.aseanlibrary.org/search/index/query?keyword=test",
-    "status": "301",
-    "redirect": "https://www.aseanlibrary.org/search/index/query",
-    "title": "Asean Digital Library",
-    "checked": 1699110829,
-    "pages": [
-      "information"
-    ]
-  },
-  {
     "url": "https://dar.bibalex.org/en/landingPage/landingPage.aspx",
     "status": "execution expired",
     "checked": 1792937610,
@@ -8334,32 +8257,31 @@
     "checked": 1699098915
   },
   {
-    "url": "https://crossasia.org/en/resources/crossasia-search/?tx_sbbcrossasiaadditions_pazpar2search%5Bcontroller%5D=Pazpar2Search",
+    "url": "https://crossasia.org/en/service/crossasia-lab/crossasia-fulltext-search",
     "status": "301",
-    "redirect": "https://crossasia.org/en/resources/crossasia-search/",
-    "title": "CrossAsia &#124;&nbsp;CrossAsia Search",
+    "title": "CrossAsia | CrossAsia Fulltext Search",
+    "checked": 1793109348,
     "pages": [
       "information"
-    ],
-    "checked": 1699098916
+    ]
   },
   {
-    "url": "https://crossasia.org/en/resources/online-guide-east-asia/",
+    "url": "https://crossasia.org/service/crossasia-lab/crossasia-fulltext-search/fulltext-search-b/?query=test",
     "status": "301",
-    "title": "CrossAsia &#124;&nbsp;Online Guide East Asia",
+    "redirect": "https://crossasia.org/service/crossasia-lab/crossasia-fulltext-search/fulltext-search-b/",
+    "title": "CrossAsia | Fulltext Search B",
+    "checked": 1793109347,
     "pages": [
       "information"
-    ],
-    "checked": 1699098918
+    ]
   },
   {
-    "url": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/?query=test",
-    "status": "301",
-    "redirect": "https://crossasia.org/service/crossasia-lab/crossasia-itr/fulltext-search-b/",
+    "url": "https://suche.crossasia.org/Search/Results?lng=en&lookfor=test",
+    "status": "execution expired",
+    "checked": 1793109346,
     "pages": [
       "information"
-    ],
-    "checked": 1699098918
+    ]
   },
   {
     "url": "https://ctext.org/",
@@ -8713,10 +8635,11 @@
     ]
   },
   {
-    "url": "https://mediacloud.org/",
+    "url": "https://search.mediacloud.org/search",
     "status": "301",
-    "title": "301 Moved Permanently",
-    "checked": 1699098590,
+    "redirect": "https://search.mediacloud.org:443/search",
+    "title": "Media Cloud",
+    "checked": 1793151457,
     "pages": [
       "information"
     ]
@@ -9627,14 +9550,13 @@
     "checked": 1699109653
   },
   {
-    "url": "http://www.elib.gov.ph/",
+    "url": "https://www.elib.gov.ph/",
     "status": "301",
-    "title": "301 Moved Permanently",
+    "title": "Philippine eLib",
+    "checked": 1793109350,
     "pages": [
       "information"
-    ],
-    "checked": 1699109655,
-    "redirect": "https://www.elib.gov.ph/"
+    ]
   },
   {
     "url": "http://www.elib.gov.ph/results.php",
@@ -10095,6 +10017,15 @@
     "checked": 1699109785
   },
   {
+    "url": "https://www.newsnow.co.uk/h/",
+    "status": "301",
+    "title": "NewsNow: The Independent News Discovery Platform",
+    "checked": 1793109351,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://www.newsnow.co.uk/h/?search=test",
     "status": "301",
     "redirect": "https://www.newsnow.co.uk/h/",
@@ -10103,14 +10034,6 @@
       "information"
     ],
     "checked": 1699109786
-  },
-  {
-    "url": "https://www.newsnow.co.uk/",
-    "status": "301",
-    "pages": [
-      "information"
-    ],
-    "checked": 1699109782
   },
   {
     "url": "https://pressat.co.uk/releases/",

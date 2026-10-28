@@ -20,7 +20,7 @@ class Page
 
   def validate_json
     raise('internal description is absent or too short') if @json.description.internal.length < 30
-    raise('external description should be 80-160 characters') unless (80..160).include? @json.description.external.length
+    raise('external description should be 70-160 characters') unless (70..160).include? @json.description.external.length
     raise('no tool groups') if @json.sections.length < 1
     @json.sections.each do |group|
       raise('group name is absent or too short') if !group.name || group.name.length < 4

@@ -1,7 +1,7 @@
 {
   "description": {
     "internal": "search engines, research, social media, archives, news, data and more",
-    "external": "The most comprehensive set of tools for finding information online. All the best search engines, databases, and more."
+    "external": "Find anything, with the most comprehensive search engines and databases."
   },
   "path": "",
   "sections": [
@@ -1006,15 +1006,11 @@
         },
         {
           "name": "PolitiFact",
-          "searchUrl": "https://www.politifact.com/search/?q={q}"
+          "searchUrl": "https://politifact.com/search/?q={q}"
         },
         {
           "name": "TruthOrFiction.com",
           "searchUrl": "https://www.truthorfiction.com/?s={q}"
-        },
-        {
-          "name": "Hoax-Slayer",
-          "searchUrl": "https://www.hoax-slayer.net/?s={q}"
         }
       ]
     },
@@ -1023,11 +1019,7 @@
       "tools": [
         {
           "name": "PRWeb",
-          "searchUrl": "https://www.prweb.com/search.aspx?search-releases={q}"
-        },
-        {
-          "name": "Business Wire",
-          "searchUrl": "https://www.businesswire.com/portal/site/home/search/?searchType=news&searchPage=1&searchTerm={q}"
+          "searchUrl": "https://www.prweb.com/search/all/?keyword={q}"
         },
         {
           "name": "EIN Presswire",
