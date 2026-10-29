@@ -44,6 +44,7 @@ Bibliothek
 Bibliothèque
 Bielefeld
 Bing
+Bluesky
 BNDigital
 BnF
 BoardReader
@@ -130,6 +131,7 @@ Flickr
 Flipsnack
 FNS
 Foleon
+ForumScout
 Foter
 Fotki
 fotocommunity
@@ -205,6 +207,7 @@ Longform
 Longreads
 Luso
 Mail.ru
+Mastodon.social
 Mawdoo3
 Meetup
 MeFeedia
@@ -257,6 +260,7 @@ OpenDocument
 OpenEd
 orgs
 Osmikon
+OSoMe
 OverDrive
 Paperity
 PaperOfRecord.com

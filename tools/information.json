@@ -305,8 +305,24 @@
           "searchUrl": "https://x.com/search?q={q}"
         },
         {
-          "name": "Reddit",
-          "searchUrl": "https://www.reddit.com/search?q={q}"
+          "name": "Bluesky",
+          "searchUrl": "https://bsky.app/search?q={q}"
+        },
+        {
+          "name": "Threads",
+          "searchUrl": "https://www.threads.com/search?q={q}"
+        },
+        {
+          "name": "Mastodon.social",
+          "searchUrl": "https://mastodon.social/search?q={q}"
+        },
+        {
+          "name": "Reddit posts",
+          "searchUrl": "https://www.reddit.com/search/?q={q}"
+        },
+        {
+          "name": "Reddit comments",
+          "searchUrl": "https://www.reddit.com/search/?q={q}&type=comments"
         },
         {
           "name": "LinkedIn",
@@ -327,6 +343,10 @@
         {
           "name": "BoardReader",
           "searchUrl": "https://boardreader.com/s/{q}.html"
+        },
+        {
+          "name": "ForumScout",
+          "searchUrl": "https://forumscout.app/search?q={q}"
         }
       ]
     },

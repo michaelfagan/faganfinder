@@ -64,6 +64,45 @@
     ]
   },
   {
+    "url": "https://bsky.app/",
+    "status": "301",
+    "redirect": "https://bsky.app:443/",
+    "title": "Bluesky",
+    "checked": 1793295202,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://bsky.app/search?q=test",
+    "status": "301",
+    "redirect": "https://bsky.app:443/search",
+    "title": "Bluesky",
+    "checked": 1793295201,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://forumscout.app/search/",
+    "status": "308",
+    "title": "404 Not Found",
+    "checked": 1793297009,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://forumscout.app/search?q=test",
+    "status": "308",
+    "redirect": "https://forumscout.app/search",
+    "title": "ForumScout Search",
+    "checked": 1793297008,
+    "pages": [
+      "information"
+    ]
+  },
+  {
     "url": "https://grep.app/",
     "status": "308",
     "title": "Vercel Security Checkpoint",
@@ -4733,14 +4772,24 @@
     "checked": 1699104948
   },
   {
-    "url": "https://www.reddit.com/search?q=test",
+    "url": "https://www.reddit.com/search/?q=test&type=comments",
     "status": "301",
-    "redirect": "https://www.reddit.com/search",
-    "title": "302 Found",
+    "redirect": "https://www.reddit.com/search/",
+    "title": "Reddit",
+    "checked": 1793298752,
     "pages": [
       "information"
-    ],
-    "checked": 1699098334
+    ]
+  },
+  {
+    "url": "https://www.reddit.com/search/?q=test",
+    "status": "301",
+    "redirect": "https://www.reddit.com/search/",
+    "title": "Reddit",
+    "checked": 1793298752,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.reddit.com/subreddits/search?q=test",
@@ -5596,6 +5645,24 @@
       "listen"
     ],
     "checked": 1699109450
+  },
+  {
+    "url": "https://www.threads.com/",
+    "status": "301",
+    "title": "Threads",
+    "checked": 1793295202,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://www.threads.com/search?q=test",
+    "status": "\"\\xE2\" from ASCII-8BIT to UTF-8",
+    "redirect": "https://www.threads.com/search",
+    "checked": 1793295201,
+    "pages": [
+      "information"
+    ]
   },
   {
     "url": "https://www.tiktok.com/",
@@ -6579,6 +6646,15 @@
     "status": "SSL_connect returned=1 errno=0 peeraddr=128.187.109.107:443 state=error: certificate verify failed (unable to get local issuer certificate)",
     "title": "EuroDocs",
     "checked": 1699099405,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://osome.iu.edu/tools/mastodon/searchbykeyword",
+    "status": "302",
+    "title": "OSoMe Mastodon Search",
+    "checked": 1793295204,
     "pages": [
       "information"
     ]
@@ -7595,6 +7671,15 @@
     "status": "200",
     "title": "JournalSeek - A Searchable Database of Online Scholarly Journals",
     "checked": 1699099358,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://mastodonservers.net/servers/top",
+    "status": "301",
+    "title": "Top Mastodon Servers & Instances",
+    "checked": 1793295203,
     "pages": [
       "information"
     ]
@@ -9822,6 +9907,25 @@
     "status": "503",
     "title": "307 Temporary Redirect",
     "checked": 1792375697,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://mastodon.social/explore",
+    "status": "301",
+    "title": "Mastodon.social",
+    "checked": 1793295203,
+    "pages": [
+      "information"
+    ]
+  },
+  {
+    "url": "https://mastodon.social/search?q=test",
+    "status": "301",
+    "redirect": "https://mastodon.social/search",
+    "title": "Mastodon.social",
+    "checked": 1793295202,
     "pages": [
       "information"
     ]
